@@ -1,0 +1,36 @@
+name: Finish school framing scrub
+
+on:
+  push:
+    paths:
+      - .github/workflows/scrub-school-framing.yml
+
+permissions:
+  contents: write
+
+jobs:
+  scrub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Update portfolio wording
+        shell: python
+        run: |
+          from pathlib import Path
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          old = "**Finishing the assignment was not the end of the engineering.** Many of the strongest systems in the project, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after its original presentation."
+          new = "**The first complete version was not the end of the engineering.** Many of the strongest systems in the project, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after its initial release."
+          if old not in text:
+              raise SystemExit("Expected portfolio sentence not found")
+          path.write_text(text.replace(old, new), encoding="utf-8")
+      - name: Commit wording update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Finish school framing scrub" || exit 0
+          git push
