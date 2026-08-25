@@ -32,7 +32,7 @@ jobs:
         env:
           QUIZLER_BASE_URL: https://quizler-arena-portfolio.vercel.app
         run: |
-          cat > /tmp/quizler-production-smoke.cjs <<'EOF'
+          cat > ./quizler-production-smoke.cjs <<'EOF'
           const { chromium } = require('playwright');
 
           const baseUrl = process.env.QUIZLER_BASE_URL;
@@ -145,7 +145,8 @@ jobs:
             await page.getByRole('button', { name: 'New Puzzle' }).click();
             assert(!(await page.locator('.hangman-wrong-chips').first().getByText('E', { exact: true }).count()), 'Hangman New Puzzle did not reset used letters.');
             await page.getByRole('button', { name: 'Phrase' }).click();
-            assert(await page.getByRole('button', { name: 'Phrase' }).getAttribute('class').then((value) => value?.includes('is-active')), 'Hangman phrase mode did not activate.');
+            const phraseClass = await page.getByRole('button', { name: 'Phrase' }).getAttribute('class');
+            assert(phraseClass?.includes('is-active'), 'Hangman phrase mode did not activate.');
             await page.getByRole('button', { name: 'Back To Lobby' }).first().click();
             await page.locator('.hub-stage').waitFor();
 
@@ -155,8 +156,7 @@ jobs:
             assert(await page.getByRole('button', { name: 'Multiplayer Preview' }).count(), 'Multiplayer preview label is missing.');
             assert(await page.getByRole('button', { name: 'Demo Party Link' }).count(), 'Demo party-link label is missing.');
 
-            const iframe = page.locator('.legacy-jeopardy-frame');
-            const frame = await iframe.contentFrame();
+            const frame = await page.locator('.legacy-jeopardy-frame').contentFrame();
             await frame.locator('#setupScreen').waitFor({ state: 'visible' });
             await frame.locator('#playerCount').selectOption('1');
             await frame.locator('#quickBtn').click();
@@ -198,8 +198,9 @@ jobs:
             await frame.locator('#judgeList button[data-ok="1"]').first().click();
             await frame.locator('#finishFinalBtn').click();
             await frame.locator('#gameEndOverlay').waitFor({ state: 'visible' });
-
+            await frame.locator('#closeGameEndBtn').click();
             await frame.locator('#saveBtn').click();
+
             const jeopardyStorageBefore = await page.evaluate(() => Object.keys(localStorage).filter((key) => /jeopardy/i.test(key)).sort());
             assert(jeopardyStorageBefore.length > 0, 'Jeopardy save keys were not present in production localStorage.');
             await page.reload({ waitUntil: 'networkidle' });
@@ -226,4 +227,4 @@ jobs:
             process.exit(1);
           });
           EOF
-          node /tmp/quizler-production-smoke.cjs
+          node ./quizler-production-smoke.cjs
