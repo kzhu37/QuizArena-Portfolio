@@ -29,6 +29,21 @@ if (Test-Path $tempRoot) {
 }
 New-Item -ItemType Directory -Path $tempRoot | Out-Null
 
+function Stop-BrowserTree {
+  param([System.Diagnostics.Process]$Process)
+
+  if (-not $Process -or $Process.HasExited) {
+    return
+  }
+
+  try {
+    & taskkill.exe /PID $Process.Id /T /F 2>$null | Out-Null
+  }
+  catch {
+    Stop-Process -Id $Process.Id -Force -ErrorAction SilentlyContinue
+  }
+}
+
 function Capture-Route {
   param(
     [string]$Name,
@@ -60,7 +75,7 @@ function Capture-Route {
   )
 
   $process = Start-Process -FilePath $browserPath -ArgumentList $args -PassThru
-  $deadline = (Get-Date).AddSeconds(30)
+  $deadline = (Get-Date).AddSeconds(45)
 
   while ((Get-Date) -lt $deadline) {
     if (Test-Path $outputPath) {
@@ -73,16 +88,13 @@ function Capture-Route {
   }
 
   if (-not (Test-Path $outputPath)) {
-    if (-not $process.HasExited) {
-      Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue
-    }
-    throw "Screenshot was not created within 30 seconds: $outputPath"
+    Stop-BrowserTree -Process $process
+    throw "Screenshot was not created within 45 seconds: $outputPath"
   }
 
   Start-Sleep -Milliseconds 500
-  if (-not $process.HasExited) {
-    Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue
-  }
+  Stop-BrowserTree -Process $process
+  Start-Sleep -Milliseconds 250
 
   Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
 }
