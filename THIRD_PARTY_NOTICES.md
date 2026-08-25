@@ -50,7 +50,7 @@ The current Jeopardy runtime does not depend on live language-model generation. 
 
 ## Jeopardy-style format
 
-Quizler Jeopardy is an unofficial student project inspired by the familiar Jeopardy-style clue-board format. It is not affiliated with or endorsed by the television program or its rights holders.
+Quizler Jeopardy is an unofficial independent project inspired by the familiar Jeopardy-style clue-board format. It is not affiliated with or endorsed by the television program or its rights holders.
 
 ## Reuse
 

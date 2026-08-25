@@ -30,7 +30,7 @@
 
 ## Why I built it
 
-Quizler Arena started as a small Jeopardy-style game that I could play with family and friends. I returned to the idea as a larger computer science project in spring 2026, then kept developing it after the original class presentation because repeated play exposed more interesting problems than the first prototype had solved.
+Quizler Arena started as a small Jeopardy-style game that I could play with family and friends. I returned to the idea as a larger computer science project in spring 2026, then kept developing it as repeated play exposed more interesting problems than the first prototype had solved.
 
 The project gradually changed from one board game into a three-mode platform. The important engineering questions also changed. Instead of asking only how to add another feature, I had to think about how to keep content fresh, prevent weak or repetitive boards, recover from bad saved state, make visual assets dependable, support projector and fullscreen play, and keep the project usable without a remote service.
 
@@ -250,7 +250,7 @@ The most important outcome was not a single feature. It was the shift from think
 - Wordle and Hangman gameplay and selection behavior
 - persistence, save recovery, fullscreen behavior, loading flow, and interaction polish
 - build, audit, smoke-test, and screenshot-capture tooling
-- feedback-driven refinement after the original class deadline
+- feedback-driven refinement well beyond the original prototype
 
 [Vladimir Duckardt](https://github.com/VDuckardtt) provided **limited debugging help on visual implementation issues**, particularly Hangman asset replacement and the stage-image layering and transition behavior. Those contributions are credited here and are not presented as my work.
 
@@ -364,7 +364,7 @@ The build workflow remains Windows-oriented because the bank and synchronization
 
 Quizler Arena includes third-party software packages and word-list sources. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for source and reuse notes.
 
-Quizler Jeopardy is an unofficial student project inspired by the familiar Jeopardy-style clue-board format. It is not affiliated with or endorsed by the television program or its rights holders.
+Quizler Jeopardy is an unofficial independent project inspired by the familiar Jeopardy-style clue-board format. It is not affiliated with or endorsed by the television program or its rights holders.
 
 ---
 
