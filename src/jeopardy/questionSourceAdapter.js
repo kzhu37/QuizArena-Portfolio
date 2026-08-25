@@ -90,7 +90,28 @@
     return new LocalQuestionSourceAdapter(deps);
   }
 
+  function enablePortfolioCaptureMode() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("portfolioCapture") !== "1") return;
+
+    window.addEventListener("load", () => {
+      window.setTimeout(() => {
+        const setupScreen = document.getElementById("setupScreen");
+        const playerCount = document.getElementById("playerCount");
+        const quickStart = document.getElementById("quickBtn");
+        if (!setupScreen || !quickStart || window.getComputedStyle(setupScreen).display === "none") return;
+
+        if (playerCount) {
+          playerCount.value = "2";
+          playerCount.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        quickStart.click();
+      }, 250);
+    }, { once: true });
+  }
+
   ns.LocalQuestionSourceAdapter = LocalQuestionSourceAdapter;
   ns.DisabledRemoteQuestionSourceAdapter = DisabledRemoteQuestionSourceAdapter;
   ns.createQuestionSourceAdapter = createQuestionSourceAdapter;
+  enablePortfolioCaptureMode();
 })(window.Jeopardy = window.Jeopardy || {});

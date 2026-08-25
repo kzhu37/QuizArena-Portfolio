@@ -3,6 +3,7 @@ dist/
 .vite/
 public/legacy/
 tmp-*/
+artifacts/
 data/jeopardy-bank/expanded-bank.tsv
 data/jeopardy-bank/round1-bank.js
 data/jeopardy-bank/round2-bank.js
