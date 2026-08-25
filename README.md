@@ -78,18 +78,9 @@ A replayable Jeopardy game needs more than random clue selection. A board has to
 
 The [board assembler](src/jeopardy/boardAssembler.js) scores clue candidates for freshness and target difficulty, scores categories for recency and family diversity, and uses recursive search with rollback when a partial board cannot be completed.
 
-```mermaid
-flowchart LR
-    A[Validated local repository] --> B[Rank category candidates]
-    B --> C[Search for 6-category board]
-    C --> D[Backtrack through 5 clue values]
-    D --> E{All constraints valid?}
-    E -->|No| C
-    E -->|Yes| F[Hash board, titles, family pattern]
-    F --> G{Seen recently?}
-    G -->|Yes| C
-    G -->|No| H[Playable round]
-```
+<p align="center">
+  <img src="docs/diagrams/board-assembly.svg" alt="Diagram of the constrained Quizler Jeopardy board assembly process" width="100%">
+</p>
 
 The key idea is that a fresh board is treated as a constrained search problem, not simply as random sampling.
 
@@ -112,16 +103,9 @@ The [authored-source audit](tools/audit-jeopardy-authored-sources.cjs) checks th
 
 The build and validation flow is intentionally separate from gameplay:
 
-```mermaid
-flowchart LR
-    A[Research packs and curated sources] --> B[Source audit]
-    B --> C[Expanded source bank]
-    C --> D[Build script]
-    D --> E[Runtime bank files]
-    E --> F[Repository normalization]
-    F --> G[Question validator]
-    G --> H[Board assembler and Final selector]
-```
+<p align="center">
+  <img src="docs/diagrams/content-pipeline.svg" alt="Diagram of the Quizler Jeopardy authored-content build and validation pipeline" width="100%">
+</p>
 
 Generated runtime banks are treated as build products rather than files to edit by hand. This made content expansion easier to audit, reproduce, and maintain.
 
@@ -163,26 +147,9 @@ Quizler Arena uses a hybrid architecture. Wordle and Hangman are native React an
 
 That choice let the platform improve navigation, loading, visual consistency, fullscreen behavior, and shared interaction while preserving the deeper Jeopardy game logic.
 
-```mermaid
-flowchart TD
-    A[React + TypeScript platform shell] --> B[Wordle]
-    A --> C[Hangman]
-    A --> D[Quizler Jeopardy wrapper]
-
-    B --> E[Word banks + selection logic]
-    C --> F[Puzzle banks + selection logic]
-    D --> G[Legacy JavaScript Jeopardy runtime]
-
-    G --> H[Local question repository]
-    H --> I[Board assembler]
-    H --> J[Final selector]
-    H --> K[Question validator]
-
-    I --> L[Usage history]
-    J --> L
-    G --> M[Game state adapter]
-    M --> N[localStorage]
-```
+<p align="center">
+  <img src="docs/diagrams/architecture.svg" alt="Diagram of the Quizler Arena hybrid React and JavaScript architecture" width="100%">
+</p>
 
 Relevant entry points:
 
@@ -202,21 +169,9 @@ An early version of Quizler Jeopardy experimented with generating questions at r
 
 The current runtime deliberately uses a local question source. Remote generation is disabled in the current [question source adapter](src/jeopardy/questionSourceAdapter.js).
 
-```mermaid
-flowchart LR
-    subgraph Earlier experiment
-      A1[Game request] --> A2[Remote model API]
-      A2 --> A3[Generated questions]
-      A3 --> A4[Runtime filtering]
-    end
-
-    subgraph Current architecture
-      B1[Curated and researched sources] --> B2[Source audit]
-      B2 --> B3[Build pipeline]
-      B3 --> B4[Validated local banks]
-      B4 --> B5[Constrained runtime assembly]
-    end
-```
+<p align="center">
+  <img src="docs/diagrams/local-first-evolution.svg" alt="Diagram showing the evolution from live model generation to the current local-first content architecture" width="100%">
+</p>
 
 The local-first architecture improved several properties that became increasingly important as the project matured:
 
