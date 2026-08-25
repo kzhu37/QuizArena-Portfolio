@@ -28,7 +28,7 @@ const pathResult = ns.findStrictAscendingDifficultyPath(
   ],
   (item) => item.difficulty
 );
-assert.deepEqual(pathResult.map((item) => item.id), ['a', 'c', 'e']);
+assert.deepEqual(Array.from(pathResult, (item) => item.id), ['a', 'c', 'e']);
 
 const impossiblePath = ns.findStrictAscendingDifficultyPath(
   [
