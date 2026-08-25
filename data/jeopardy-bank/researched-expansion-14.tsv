@@ -1,0 +1,429 @@
+# Hand-authored researched expansion batch 14.
+# Fields: round	category	value	difficulty	clue	response
+# Research anchors: NIH and NCBI medical terminology resources (https://www.nih.gov/ and https://www.ncbi.nlm.nih.gov/books/); NASA spacecraft and mission references (https://science.nasa.gov/).
+# Research anchors: International IDEA comparative-democracy resources (https://www.idea.int/); APS physics references (https://www.aps.org/); Computer History Museum timelines (https://www.computerhistory.org/timeline/).
+# Medical Terms: word roots, anatomy, clinical description, pathology, and examination language; no diagnostic advice.
+r2	Medical Terms	400	41	A structure nearer the trunk or point of attachment is described by this directional adjective.	What is proximal?
+r2	Medical Terms	400	41	A structure farther from the trunk or point of attachment is described by this complementary adjective.	What is distal?
+r2	Medical Terms	400	41	Toward the body's midline is this anatomical direction, as the nose lies relative to the eyes.	What is medial?
+r2	Medical Terms	400	41	Away from the body's midline is this direction, as the ears lie relative to the nose.	What is lateral?
+r2	Medical Terms	400	41	The palm faces forward when the body is placed in this standardized reference posture.	What is anatomical position?
+r2	Medical Terms	400	41	Lying face upward is described by this adjective, also used for a hand turned palm-up.	What is supine?
+r2	Medical Terms	400	41	Lying face downward is described by this adjective, also used for a hand turned palm-down.	What is prone?
+r2	Medical Terms	400	41	Two findings on the same side of the body are related by this term.	What is ipsilateral?
+r2	Medical Terms	400	41	A right-arm finding paired with a left-leg finding has this opposite-side relationship.	What is contralateral?
+r2	Medical Terms	400	41	A process or substance arising from within the body, rather than from an external source, is described by this adjective.	What is endogenous?
+r2	Medical Terms	400	41	A substance or infectious agent originating outside the body is described by this adjective.	What is exogenous?
+r2	Medical Terms	400	41	A disease with no identified cause is described by this adjective derived from Greek for one's own suffering.	What is idiopathic?
+r2	Medical Terms	400	41	The prefix in bradycardia and bradypnea signals that a rate is unusually this.	What is slow?
+r2	Medical Terms	400	41	The prefix shared by tachycardia and tachypnea signals that a rate is unusually this.	What is rapid?
+r2	Medical Terms	400	41	The suffix shared by rhinorrhea and galactorrhea denotes this kind of flow.	What is a discharge?
+r2	Medical Terms	400	41	The suffix in gastrectomy and appendectomy indicates this kind of removal.	What is surgical excision?
+# Medical Terms $800
+r2	Medical Terms	800	55	Quiet breathing at a normal resting rate and depth is described by this term.	What is eupnea?
+r2	Medical Terms	800	55	Difficulty swallowing is this term, distinct from painful swallowing.	What is dysphagia?
+r2	Medical Terms	800	55	Pain during swallowing is specified by this term beginning with a pain-related prefix.	What is odynophagia?
+r2	Medical Terms	800	55	Weak or poorly coordinated speech muscles can cause this articulation disorder even when language formulation remains intact.	What is dysarthria?
+r2	Medical Terms	800	55	Impaired coordination of voluntary movement is described by this term.	What is ataxia?
+r2	Medical Terms	800	55	Tingling, prickling, or pins-and-needles sensations are grouped under this sensory term.	What is paresthesia?
+r2	Medical Terms	800	55	Blood visible or detected in urine is called this.	What is hematuria?
+r2	Medical Terms	800	55	A laboratory count showing unusually many white blood cells is described by this term.	What is leukocytosis?
+r2	Medical Terms	800	55	An unusually low platelet count is described by this term.	What is thrombocytopenia?
+r2	Medical Terms	800	55	Enlargement of the liver is expressed by this single compound term.	What is hepatomegaly?
+r2	Medical Terms	800	55	Enlargement of the spleen is expressed by this parallel compound term.	What is splenomegaly?
+r2	Medical Terms	800	55	Enlarged lymph nodes are collectively described by this term.	What is lymphadenopathy?
+r2	Medical Terms	800	55	Breathlessness that worsens when lying flat and improves on sitting up is called this.	What is orthopnea?
+r2	Medical Terms	800	55	A temporary worsening of a chronic condition's signs or symptoms is called this.	What is an exacerbation?
+r2	Medical Terms	800	55	Residual impairment or another lasting consequence after an illness or injury is this.	What is a sequela?
+r2	Medical Terms	800	55	Early symptoms that precede the characteristic phase of an illness make up this stage.	What is a prodrome?
+# Medical Terms $1200
+r2	Medical Terms	1200	67	A surgically created or naturally occurring connection between two vessels or hollow structures is this.	What is an anastomosis?
+r2	Medical Terms	1200	67	Abnormal narrowing of a passage such as a valve, vessel, or spinal canal is this.	What is stenosis?
+r2	Medical Terms	1200	67	Complete blockage or closure of a vessel or passage is described by this term.	What is occlusion?
+r2	Medical Terms	1200	67	Tissue death caused by prolonged loss of blood supply produces this localized lesion.	What is an infarction?
+r2	Medical Terms	1200	67	Restoring blood flow can paradoxically add oxidative and inflammatory damage through this process.	What is reperfusion injury?
+r2	Medical Terms	1200	67	Unregulated cell death accompanied by membrane breakdown and inflammation is broadly termed this.	What is necrosis?
+r2	Medical Terms	1200	67	Replacement of one mature cell type by another mature cell type in response to stress is this adaptation.	What is metaplasia?
+r2	Medical Terms	1200	67	Disordered cell growth with atypical size, shape, and organization is called this, especially in epithelia.	What is dysplasia?
+r2	Medical Terms	1200	67	An increase in the number of cells enlarging a tissue is this adaptation.	What is hyperplasia?
+r2	Medical Terms	1200	67	An increase in individual cell size, rather than cell number, is this adaptation.	What is hypertrophy?
+r2	Medical Terms	1200	67	A decrease in tissue size from shrinking cells or loss of cells is this process.	What is atrophy?
+r2	Medical Terms	1200	67	Complete failure of an organ to form during embryonic development is described by this term.	What is agenesis?
+r2	Medical Terms	1200	67	Failure of a tissue to develop despite the presence of a rudimentary precursor is called this.	What is aplasia?
+r2	Medical Terms	1200	67	Incomplete development leaving an organ smaller or less mature than usual is this.	What is hypoplasia?
+r2	Medical Terms	1200	67	Histologically normal tissue found in an abnormal anatomical site is described by this term.	What is heterotopia?
+r2	Medical Terms	1200	67	An organ protruding through an opening in the wall that normally contains it is this general condition.	What is a hernia?
+# Medical Terms $1600
+r2	Medical Terms	1600	81	A finding so strongly characteristic of one disease that its presence can establish the diagnosis is described by this adjective.	What is pathognomonic?
+r2	Medical Terms	1600	81	Pain perceived at a site distant from its actual source, such as shoulder discomfort from diaphragmatic irritation, is this.	What is referred pain?
+r2	Medical Terms	1600	81	A skin region supplied mainly by sensory fibers from one spinal nerve root is called this.	What is a dermatome?
+r2	Medical Terms	1600	81	Pain, weakness, or sensory change caused by dysfunction of a spinal nerve root is broadly called this.	What is radiculopathy?
+r2	Medical Terms	1600	81	Cramping limb discomfort brought on by exertion and relieved by rest is described by this gait-related term.	What is claudication?
+r2	Medical Terms	1600	81	A grating or crackling sensation felt or heard when tissues move is called this.	What is crepitus?
+r2	Medical Terms	1600	81	Rumbling or gurgling intestinal sounds have this onomatopoeic plural name.	What are borborygmi?
+r2	Medical Terms	1600	81	A whooshing vascular sound heard with a stethoscope is this, from the French word for noise.	What is a bruit?
+r2	Medical Terms	1600	81	A vibration felt by palpation over turbulent blood flow is this tactile counterpart of a vascular sound.	What is a thrill?
+r2	Medical Terms	1600	81	Rhythmic involuntary oscillation of the eyes is called this.	What is nystagmus?
+r2	Medical Terms	1600	81	Unequal pupil sizes are described by this term.	What is anisocoria?
+r2	Medical Terms	1600	81	Forward protrusion of the eyeball is this term, also called proptosis.	What is exophthalmos?
+r2	Medical Terms	1600	81	A bluish discoloration of skin or mucosa caused by increased deoxygenated hemoglobin is this sign.	What is cyanosis?
+r2	Medical Terms	1600	81	Redness of skin produced by capillary dilation is described by this term.	What is erythema?
+r2	Medical Terms	1600	81	Generalized, severe edema involving subcutaneous tissues throughout the body is called this.	What is anasarca?
+r2	Medical Terms	1600	81	Profound weight and muscle loss associated with chronic illness is called this wasting state.	What is cachexia?
+# Medical Terms $2000
+r2	Medical Terms	2000	94	Tiny nonblanching red or purple spots caused by bleeding into skin are called these.	What are petechiae?
+r2	Medical Terms	2000	94	A larger purple skin or mucosal lesion from bleeding, generally wider than a petechia but smaller than a bruise, is this.	What is purpura?
+r2	Medical Terms	2000	94	A broad discoloration caused by blood leaking into subcutaneous tissue is this medical term for a bruise.	What is ecchymosis?
+r2	Medical Terms	2000	94	Persistently dilated small superficial vessels visible in skin or mucosa are called these.	What are telangiectasias?
+r2	Medical Terms	2000	94	A netlike mottled reddish-blue skin pattern is described by this Latin term.	What is livedo reticularis?
+r2	Medical Terms	2000	94	Spoon-shaped concavity of the fingernails is this morphology.	What is koilonychia?
+r2	Medical Terms	2000	94	Separation of the nail plate from its underlying bed is called this.	What is onycholysis?
+r2	Medical Terms	2000	94	A lipid-rich yellowish deposit in skin or tendons is called this.	What is a xanthoma?
+r2	Medical Terms	2000	94	Persistent sensation of needing to empty the bowel or bladder despite little output is this symptom.	What is tenesmus?
+r2	Medical Terms	2000	94	Bulky, pale, oily stool caused by excess fat is described by this term.	What is steatorrhea?
+r2	Medical Terms	2000	94	Black, tarry stool containing digested blood is called this.	What is melena?
+r2	Medical Terms	2000	94	Passage of visibly fresh blood from the lower gastrointestinal tract is called this.	What is hematochezia?
+r2	Medical Terms	2000	94	Coughing up blood originating from the respiratory tract is called this.	What is hemoptysis?
+r2	Medical Terms	2000	94	Vomiting blood from the upper gastrointestinal tract is called this.	What is hematemesis?
+r2	Medical Terms	2000	94	Abnormally excessive sweating is described by this term.	What is diaphoresis?
+r2	Medical Terms	2000	94	An abnormal decrease or absence of sweating is described by this complementary term.	What is anhidrosis?
+# Spacecraft: durable mission history, flight architecture, guidance, propulsion, communications, and thermal design.
+r2	Spacecraft	400	41	A crew capsule can be pulled rapidly away from a failing booster by this emergency rocket assembly.	What is a launch escape system?
+r2	Spacecraft	400	41	During atmospheric entry, this protective layer carries heat away by charring, melting, and shedding material.	What is an ablative heat shield?
+r2	Spacecraft	400	41	A protected compartment or deck containing guidance computers, radios, and power electronics is commonly called this.	What is an avionics bay?
+r2	Spacecraft	400	41	A small auxiliary rocket provides fine steering corrections rather than main propulsion and is known by this term.	What is a vernier thruster?
+r2	Spacecraft	400	41	Gimbaling a rapidly spinning internal rotor produces a large torque in this momentum-exchange attitude device.	What is a control moment gyroscope?
+r2	Spacecraft	400	41	Measuring angular velocity about an axis lets this inertial sensor detect how quickly a vehicle is turning.	What is a rate gyro?
+r2	Spacecraft	400	41	A dish designed to concentrate radio energy into a narrow beam for long-distance links is this type of antenna.	What is a high-gain antenna?
+r2	Spacecraft	400	41	Small plutonium-fueled pellets can warm instruments directly without generating electricity in this compact device.	What is a radioisotope heater unit?
+r2	Spacecraft	400	41	Large photovoltaic arrays supplying electricity to ion engines enable this efficient propulsion architecture.	What is solar-electric propulsion?
+r2	Spacecraft	400	41	A single deep atmospheric pass can remove enough orbital energy to capture an arriving probe without a major engine burn.	What is aerocapture?
+r2	Spacecraft	400	41	Performing an engine burn near closest approach, where speed is highest, maximizes its change to orbital energy through this effect.	What is the Oberth effect?
+r2	Spacecraft	400	41	Liquid hydrogen and liquid oxygen must be kept extremely cold and are therefore classified as these propellants.	What are cryogenic propellants?
+r2	Spacecraft	400	41	A sealed inner vessel designed to preserve collected extraterrestrial material through handling and return is this protective container.	What is a sample canister?
+r2	Spacecraft	400	41	A standard mechanical interface with alignment guides, latches, and seals allows two orbiting vehicles to join through this structure.	What is a docking port?
+r2	Spacecraft	400	41	Thin reflective sheets separated by spacers reduce radiative heat transfer around satellites using this blanket-like insulation.	What is multilayer insulation?
+r2	Spacecraft	400	41	Layered bumpers break incoming micrometeoroids into a dispersed cloud before fragments reach a spacecraft's pressure wall.	What is a Whipple shield?
+# Spacecraft $800
+r2	Spacecraft	800	55	Detection of Earth's radiation belts came from a Geiger counter aboard this first successful U.S. satellite.	What was Explorer 1?
+r2	Spacecraft	800	55	The final craft in its lunar impact series transmitted live television pictures during descent into Alphonsus crater.	What was Ranger 9?
+r2	Spacecraft	800	55	Apollo 12 astronauts later visited this robotic lander and retrieved parts for examination on Earth.	What was Surveyor 3?
+r2	Spacecraft	800	55	This 1966 probe returned the first photograph of Earth taken from the vicinity of the Moon.	What was Lunar Orbiter 1?
+r2	Spacecraft	800	55	The first photographs transmitted from the surface of another planet came from this Soviet Venus lander.	What was Venera 9?
+r2	Spacecraft	800	55	This Soviet craft achieved the first soft landing on Mars, though its signal ended shortly after touchdown.	What was Mars 3?
+r2	Spacecraft	800	55	Canada's first satellite studied the ionosphere from above and made Canada the third nation to design and build an artificial satellite.	What was Alouette 1?
+r2	Spacecraft	800	55	This joint British-American satellite launched in 1962 made the United Kingdom the third nation to operate a satellite.	What was Ariel 1?
+r2	Spacecraft	800	55	This Italian-built atmospheric research satellite launched from Wallops in 1964 became its country's first spacecraft in orbit.	What was San Marco 1?
+r2	Spacecraft	800	55	France became the third nation to launch a satellite on its own rocket when this craft reached orbit in 1965.	What was Asterix?
+r2	Spacecraft	800	55	West Germany's first satellite studied energetic particles and auroral phenomena after its 1969 launch.	What was Azur?
+r2	Spacecraft	800	55	The first satellite devoted specifically to X-ray astronomy took this Swahili name meaning freedom.	What was Uhuru?
+r2	Spacecraft	800	55	This Japanese probe returned microscopic grains from asteroid Itokawa despite major propulsion and communications problems.	What was Hayabusa?
+r2	Spacecraft	800	55	This British X-ray astronomy satellite helped discover orbital periods and magnetic fields in compact-star systems.	What was Ariel 5?
+r2	Spacecraft	800	55	Japan's first X-ray astronomy satellite took this name meaning swan.	What was Hakucho?
+r2	Spacecraft	800	55	An ultraviolet observatory launched in 1972 was later renamed for the Renaissance astronomer who challenged geocentrism.	What was the Copernicus satellite?
+# Spacecraft $1200
+r2	Spacecraft	1200	67	A vehicle rotating around one axis can passively average solar heating and maintain orientation through this simple method.	What is spin stabilization?
+r2	Spacecraft	1200	67	Continuous knowledge and control about all three rotational axes, without spinning the entire craft, uses this attitude mode.	What is three-axis stabilization?
+r2	Spacecraft	1200	67	Reaction wheels approaching their speed limits can unload stored momentum by firing thrusters or using magnetic torquers in this operation.	What is momentum desaturation?
+r2	Spacecraft	1200	67	A coil interacting with a planet's magnetic field produces torque without propellant; this device is also called a torque rod.	What is a magnetorquer?
+r2	Spacecraft	1200	67	A long boom with mass distributed along the local vertical can exploit tidal differences to maintain this passive orientation.	What is gravity-gradient stabilization?
+r2	Spacecraft	1200	67	Hydrazine decomposing over a catalyst without a separate oxidizer is an example of this single-fluid propulsion class.	What is a monopropellant thruster?
+r2	Spacecraft	1200	67	Separate fuel and oxidizer tanks feed a chamber in this chemical propulsion class, allowing higher performance than many single-fluid systems.	What is a bipropellant engine?
+r2	Spacecraft	1200	67	Electric fields accelerate ions through grids to produce efficient low thrust in this engine type used by Deep Space 1 and Dawn.	What is a gridded ion thruster?
+r2	Spacecraft	1200	67	A capacitor discharge ablates and accelerates a small amount of solid propellant in this simple electric engine.	What is a pulsed plasma thruster?
+r2	Spacecraft	1200	67	Stored nitrogen or another inert gas expands through a nozzle in this simple, clean, low-impulse propulsion system.	What is a cold-gas thruster?
+r2	Spacecraft	1200	67	A separate capillary evaporator and flexible liquid-vapor lines move heat over longer paths in this two-phase thermal system.	What is a loop heat pipe?
+r2	Spacecraft	1200	67	Temperature-sensitive slats can open to expose a radiator and close to retain heat in this passive control device.	What are thermal louvers?
+r2	Spacecraft	1200	67	Rotating a directional dish independently of the spacecraft body lets this mount maintain a communications link.	What is an antenna gimbal?
+r2	Spacecraft	1200	67	A radio that receives an uplink and retransmits a phase-related downlink enables precise ranging and Doppler tracking.	What is a coherent transponder?
+r2	Spacecraft	1200	67	A spacecraft's computer can enter this protective configuration after detecting a serious fault, preserving power and communications while awaiting commands.	What is safe mode?
+r2	Spacecraft	1200	67	Redundant computers compare results and outvote a disagreeing unit through this fault-tolerance architecture.	What is triple modular redundancy?
+# Spacecraft $1600
+r2	Spacecraft	1600	81	A spinning main body combined with a platform that remains pointed at Earth is this two-section stabilization design.	What is a dual-spin spacecraft?
+r2	Spacecraft	1600	81	A ring containing viscous fluid or a moving mass can dissipate unwanted coning motion in this passive device.	What is a nutation damper?
+r2	Spacecraft	1600	81	Two small masses on cables spin outward after launch and are then released, reducing a probe's rotation through this technique.	What is yo-yo despin?
+r2	Spacecraft	1600	81	Very-long-baseline observations of a spacecraft and nearby quasar improve angular navigation through this differential radio technique.	What is delta differential one-way ranging?
+r2	Spacecraft	1600	81	An entry vehicle that generates aerodynamic lift can adjust its range and heating by banking during this trajectory type.	What is lifting entry?
+r2	Spacecraft	1600	81	This ratio of mass to drag coefficient times reference area strongly affects how quickly an entry vehicle decelerates.	What is ballistic coefficient?
+r2	Spacecraft	1600	81	Harvey Allen showed that a broad rounded nose keeps much of an entry shock's extreme heat away from the vehicle through this design insight.	What is blunt-body theory?
+r2	Spacecraft	1600	81	The rear protective shell surrounding a planetary lander during entry is this counterpart to the forward heat shield.	What is a backshell?
+r2	Spacecraft	1600	81	Mars Science Laboratory lowered its rover on cables beneath a hovering rocket stage using this landing architecture.	What is the sky-crane maneuver?
+r2	Spacecraft	1600	81	Aluminium cells designed to collapse permanently can absorb touchdown energy in lander legs through this material structure.	What is crushable honeycomb?
+r2	Spacecraft	1600	81	Movable balance weights can align a probe's center of mass with its spin or thrust axis, reducing wobble and unwanted torque through this adjustment.	What is mass trim?
+r2	Spacecraft	1600	81	Tiny leaks or heat radiation can produce persistent unmodeled acceleration; navigators group such effects under this term.	What are nongravitational forces?
+r2	Spacecraft	1600	81	Tracking an orbiting probe's radio signal through a planet's limb reveals atmospheric profiles as refraction changes the link.	What is radio occultation?
+r2	Spacecraft	1600	81	A spacecraft passing behind the Sun as seen from Earth enters this geometry, when solar plasma can severely disrupt its radio link.	What is superior conjunction?
+r2	Spacecraft	1600	81	Commands stored onboard and executed at predetermined times allow distant probes to operate through communication delays using this approach.	What is sequenced commanding?
+r2	Spacecraft	1600	81	A spacecraft comparing observed horizon position with an expected planetary limb can use this optical instrument for attitude sensing.	What is a horizon sensor?
+# Spacecraft $2000
+r2	Spacecraft	2000	94	This Japanese technology demonstrator flew past the Moon in 1990 and released the Hagoromo subsatellite.	What was Hiten?
+r2	Spacecraft	2000	94	A helix inside this vacuum electronic device transfers energy from an electron beam to a radio-frequency signal for deep-space transmission.	What is a traveling-wave tube amplifier?
+r2	Spacecraft	2000	94	A coherent spacecraft transponder multiplies uplink frequency by this fixed rational value before transmitting the downlink.	What is the turnaround ratio?
+r2	Spacecraft	2000	94	A probe locks onto a pseudorandom uplink code and sends a cleaned copy back, improving distance measurements through this technique.	What is regenerative ranging?
+r2	Spacecraft	2000	94	A deterministic bit sequence resembling noise lets receivers measure delay and separate weak spacecraft signals by correlation.	What is a pseudorandom ranging code?
+r2	Spacecraft	2000	94	Onboard logic that detects a fault, identifies its source, and reconfigures hardware follows this autonomy process.	What is fault detection, isolation, and recovery?
+r2	Spacecraft	2000	94	Either of two redundant electronics units can connect to either companion channel through this flexible wiring architecture.	What is cross-strapping?
+r2	Spacecraft	2000	94	A backup component kept unpowered until needed uses this redundancy strategy, reducing wear and energy demand.	What is cold redundancy?
+r2	Spacecraft	2000	94	A Moon Mineralogy Mapper aboard this Indian orbiter helped confirm widespread lunar surface hydroxyl signatures.	What was Chandrayaan-1?
+r2	Spacecraft	2000	94	Tank pressure and thrust decline as propellant is consumed when stored pressurant expands without active regulation in this system.	What is blowdown propulsion?
+r2	Spacecraft	2000	94	The Soviet Vega probes combined Venus balloons and landers with later flybys of this comet.	What is Halley's Comet?
+r2	Spacecraft	2000	94	Vaned or screened structures inside a tank use surface tension to keep liquid at an outlet in microgravity.	What is a propellant management device?
+r2	Spacecraft	2000	94	A brief acceleration settles floating liquid toward a tank outlet before a major engine start in this operation.	What is an ullage burn?
+r2	Spacecraft	2000	94	Belbruno's low-energy lunar transfer exploited a chaotic region where competing gravitational attractions nearly balance, known by this boundary concept.	What is the weak stability boundary?
+r2	Spacecraft	2000	94	Internal tank plates suppress moving-liquid oscillations that could destabilize guidance in this component.	What is a slosh baffle?
+r2	Spacecraft	2000	94	This ESA mission used a drag-free spacecraft to test free fall between gold-platinum masses ahead of a future gravitational-wave observatory.	What was LISA Pathfinder?
+# Political Systems: institutions, elections, constitutions, federal arrangements, and comparative political theory.
+r2	Political Systems	400	41	A scheduled parliamentary period in which legislators directly challenge ministers is this accountability practice.	What is question time?
+r2	Political Systems	400	41	The constitutionally specified duration for which an elected official holds office is this interval.	What is a term of office?
+r2	Political Systems	400	41	A substitute temporarily exercises royal authority when a monarch is a minor or unable to perform official duties in this arrangement.	What is a regency?
+r2	Political Systems	400	41	The division of taxing, borrowing, and spending responsibilities among levels of government is studied under this branch of federal arrangements.	What is fiscal federalism?
+r2	Political Systems	400	41	Ultimate constitutional authority rests with the central government, even if it delegates power locally, in this state structure.	What is a unitary state?
+r2	Political Systems	400	41	A chamber designed to represent provinces, states, or regions at the national level is this kind of legislative body.	What is a federal second chamber?
+r2	Political Systems	400	41	Two chambers possessing roughly equal constitutional authority create this balance between houses.	What is symmetric bicameralism?
+r2	Political Systems	400	41	Cabinet members emerging from and remaining part of the legislative majority creates this institutional relationship.	What is fusion of powers?
+r2	Political Systems	400	41	A specialized tribunal empowered to decide constitutional disputes is this institution.	What is a constitutional court?
+r2	Political Systems	400	41	The broader idea that public authority is created and limited by a fundamental legal framework is this.	What is constitutionalism?
+r2	Political Systems	400	41	Moving ministers among portfolios without changing the governing party is called this executive reorganization.	What is a cabinet reshuffle?
+r2	Political Systems	400	41	In Canada, direct bargaining among the prime minister, premiers, and their cabinets exemplifies this approach to intergovernmental relations.	What is executive federalism?
+r2	Political Systems	400	41	A ministry's continued tenure depends on maintaining this relationship with the elected chamber.	What is legislative confidence?
+r2	Political Systems	400	41	The mathematical conversion of votes into legislative seats is broadly called this process.	What is seat allocation?
+r2	Political Systems	400	41	A nonbinding public vote used to gauge opinion on a major issue is often termed this.	What is a consultative plebiscite?
+r2	Political Systems	400	41	Changing a constitution through its formally prescribed procedure is this legal act.	What is a constitutional amendment?
+# Political Systems $800
+r2	Political Systems	800	55	In this semi-proportional system, each voter receives fewer votes than the number of seats available, allowing cohesive minorities to gain representation.	What is limited voting?
+r2	Political Systems	800	55	Legislators vote through repeated rounds, eliminating the lowest candidate each time until someone wins a majority, in this method.	What is the exhaustive ballot?
+r2	Political Systems	800	55	Assigning points to each rank and electing the highest total scorer follows this eighteenth-century voting rule.	What is the Borda count?
+r2	Political Systems	800	55	Ranked first choices are counted, then successively lower rankings are added until a candidate crosses a majority under this method.	What is Bucklin voting?
+r2	Political Systems	800	55	Only registered party members may choose that party's nominee in this nominating contest.	What is a closed primary?
+r2	Political Systems	800	55	Voters may choose which party's nominating contest to join without prior party registration in this contest.	What is an open primary?
+r2	Political Systems	800	55	Voters choose among all candidates on one preliminary ballot, with top finishers advancing regardless of party, in this format.	What is a nonpartisan blanket primary?
+r2	Political Systems	800	55	A geographically defined body of voters represented by an elected legislator is this electoral unit.	What is a constituency?
+r2	Political Systems	800	55	Selection of an officeholder by representatives rather than voters directly uses this electoral mechanism.	What is indirect election?
+r2	Political Systems	800	55	Delegates gathering formally to select a party's candidates use this nominating institution.	What is a party convention?
+r2	Political Systems	800	55	Citizens place a proposed law or constitutional change on the ballot by gathering signatures under this device.	What is a popular initiative?
+r2	Political Systems	800	55	Citizens unable to reach a polling station may cast a ballot remotely before election day through this method.	What is absentee voting?
+r2	Political Systems	800	55	Rules determining which candidates or parties may appear on voting papers are collectively called this.	What is ballot access?
+r2	Political Systems	800	55	Requiring a candidate to pay money that is refunded after reaching a vote threshold uses this nomination device.	What is an election deposit?
+r2	Political Systems	800	55	A law reserving a minimum share of candidacies for women establishes this representational mechanism.	What is a candidate gender quota?
+r2	Political Systems	800	55	Public reporting of political donations and spending implements this campaign-finance safeguard.	What is campaign finance disclosure?
+# Political Systems $1200
+r2	Political Systems	1200	67	A multimember council collectively performs head-of-state and head-of-government functions in this executive arrangement exemplified by Switzerland.	What is a directorial system?
+r2	Political Systems	1200	67	An elected local council appoints a professional administrator to run daily operations under this municipal structure.	What is the council-manager system?
+r2	Political Systems	1200	67	In this contrasting semi-presidential subtype, both president and parliament can dismiss the prime minister.	What is president-parliamentarism?
+r2	Political Systems	1200	67	A head of state ending a legislature's term and triggering an election exercises this authority.	What is the dissolution power?
+r2	Political Systems	1200	67	A legislature may reenact a law despite a constitutional-court ruling when a constitution provides this political response.	What is a legislative override?
+r2	Political Systems	1200	67	Final authority to settle constitutional meaning rests primarily with courts under this institutional doctrine.	What is judicial supremacy?
+r2	Political Systems	1200	67	Requiring a supermajority or referendum rather than ordinary legislation makes a constitutional rule this.	What is entrenched?
+r2	Political Systems	1200	67	A single written instrument consolidating the central rules of government in this type of constitution.	What is a codified constitution?
+r2	Political Systems	1200	67	A central state transfers governing authority to regional bodies without making those powers constitutionally sovereign in this process.	What is devolution?
+r2	Political Systems	1200	67	Different constituent regions possess different degrees or kinds of authority under this federal arrangement.	What is asymmetric federalism?
+r2	Political Systems	1200	67	A municipality protected against arbitrary state interference may possess this chartered authority over local affairs.	What is home rule?
+r2	Political Systems	1200	67	Both national and subnational governments may legislate in the same policy field when they possess these powers.	What are concurrent powers?
+r2	Political Systems	1200	67	Valid national law displacing conflicting subnational law illustrates this doctrine of priority.	What is federal preemption?
+r2	Political Systems	1200	67	A constitution's explicit list of legislative authorities grants these powers.	What are enumerated powers?
+r2	Political Systems	1200	67	Electoral rules designed to reward candidates for attracting support across communal divisions follow this integration-oriented model.	What is centripetalism?
+r2	Political Systems	1200	67	Routine bargaining and coordination among national and subnational executives is studied under this broad label.	What are intergovernmental relations?
+# Political Systems $1600
+r2	Political Systems	1600	81	Voters abandoning a preferred trailing candidate to prevent a less-liked winner exhibit this pressure in plurality elections.	What is strategic desertion?
+r2	Political Systems	1600	81	A committee chair able to choose between a proposal and the status quo can exploit sequence and preferences under this spatial model.	What is agenda-setter theory?
+r2	Political Systems	1600	81	With multidimensional majority voting and no stable core, proposal sequences can lead almost anywhere under this result.	What is McKelvey's chaos theorem?
+r2	Political Systems	1600	81	Any deterministic voting rule with at least three alternatives that is strategy-proof must be dictatorial, under this theorem.	What is the Gibbard-Satterthwaite theorem?
+r2	Political Systems	1600	81	Lijphart contrasts concentrated executive power and plurality elections in this democratic model with a consensus model.	What is majoritarian democracy?
+r2	Political Systems	1600	81	Broad coalitions, proportionality, and dispersed institutional power characterize this Lijphart model.	What is consensus democracy?
+r2	Political Systems	1600	81	This index sums absolute changes in party vote shares between two elections and divides the total by two.	What is the Pedersen index?
+r2	Political Systems	1600	81	This early disproportionality measure averages the absolute difference between each party's vote and seat shares.	What is the Rae index?
+r2	Political Systems	1600	81	The responsiveness of seat share to a change in vote share is summarized by this electoral quantity.	What is the swing ratio?
+r2	Political Systems	1600	81	This normative model expects disciplined parties to offer distinct programs and implement them when elected.	What is responsible party government?
+r2	Political Systems	1600	81	Election victory is sometimes interpreted as voter authorization to carry out a published program under this theory.	What is the mandate theory?
+r2	Political Systems	1600	81	Kirchheimer used this term for parties that weaken class or religious ties to appeal broadly across the electorate.	What is a catch-all party?
+r2	Political Systems	1600	81	Katz and Mair described established parties increasingly reliant on state resources and mutually protective competition with this label.	What is the cartel party thesis?
+r2	Political Systems	1600	81	Lipset and Rokkan explained durable European party alignments through social divisions such as center-periphery and labor-capital in this approach.	What is cleavage theory?
+r2	Political Systems	1600	81	Tsebelis analyzes policy stability by counting actors whose agreement is necessary to change the status quo under this theory.	What is veto-player theory?
+r2	Political Systems	1600	81	Institutions can persist because early choices generate increasing returns and make alternative routes costly under this historical concept.	What is path dependence?
+# Political Systems $2000
+r2	Political Systems	2000	94	A governing alliance containing no party unnecessary for retaining a legislative majority is this kind of coalition.	What is a minimal winning coalition?
+r2	Political Systems	2000	94	Among majority coalitions, one with the smallest total seat count is this more restrictive office-seeking prediction.	What is a minimum winning coalition?
+r2	Political Systems	2000	94	A cabinet alliance including more parties than needed for a majority is described by this term.	What is an oversized coalition?
+r2	Political Systems	2000	94	The person designated to negotiate and assemble a cabinet after an election has this comparative-politics title.	What is a formateur?
+r2	Political Systems	2000	94	Coalition partners tend to receive cabinet portfolios roughly proportional to their legislative seats under this empirical regularity.	What is Gamson's law?
+r2	Political Systems	2000	94	A small party able to determine which of two larger blocs forms a majority occupies this strategic role.	What is a kingmaker party?
+r2	Political Systems	2000	94	In spatial voting, the actor whose support changes an otherwise losing proposal into a winning one is this.	What is a pivotal voter?
+r2	Political Systems	2000	94	Cox and McCubbins argue that majority parties organize legislatures partly to prevent proposals dividing their own members under this theory.	What is legislative cartel theory?
+r2	Political Systems	2000	94	Keeping proposals off the floor is this form of power, distinct from winning votes after debate begins.	What is negative agenda control?
+r2	Political Systems	2000	94	An agency's implementation gradually departing from the policy preferences of elected principals is called this.	What is bureaucratic drift?
+r2	Political Systems	2000	94	Bueno de Mesquita and colleagues relate leaders' survival strategies to the size of the group choosing them and the coalition needed to remain in power in this theory.	What is selectorate theory?
+r2	Political Systems	2000	94	Dahl used this term for a system combining broad participation with meaningful public contestation.	What is polyarchy?
+r2	Political Systems	2000	94	A constitution may bar amendment of certain foundational commitments through this entrenched provision.	What is an eternity clause?
+r2	Political Systems	2000	94	Courts invoking this doctrine hold that even a formally valid amendment can violate a constitution's basic structure.	What is the unconstitutional constitutional amendment doctrine?
+r2	Political Systems	2000	94	The original authority claimed by a people or convention to create a constitutional order is this concept associated with Sieyes.	What is constituent power?
+r2	Political Systems	2000	94	A democracy may restrict organizations seeking to abolish democratic order under this self-protective doctrine.	What is militant democracy?
+# Big Ideas in Physics: conceptual revolutions, decisive experiments, statistical foundations, fields, and modern theory.
+r2	Big Ideas in Physics	400	41	Uniform motion cannot be detected by experiments conducted entirely inside a smoothly moving ship, an insight associated with this relativity principle.	What is Galilean relativity?
+r2	Big Ideas in Physics	400	41	Faraday replaced action at a distance with this idea: every point in space can carry a physical influence that acts locally.	What is the field concept?
+r2	Big Ideas in Physics	400	41	Maxwell's equations revealed light to be part of the same phenomenon as electricity and magnetism, achieving this synthesis.	What is electromagnetic unification?
+r2	Big Ideas in Physics	400	41	Planck's blackbody solution proposed that oscillators exchange energy only in discrete packets, introducing this idea.	What is energy quantization?
+r2	Big Ideas in Physics	400	41	The squared magnitude of a wavefunction gives outcome probabilities under this foundational quantum rule.	What is the Born probability rule?
+r2	Big Ideas in Physics	400	41	De Broglie assigned a wavelength inversely proportional to momentum to electrons and other material particles through this hypothesis.	What are matter waves?
+r2	Big Ideas in Physics	400	41	Before measurement, a quantum state can combine alternatives whose amplitudes later interfere under this principle.	What is quantum superposition?
+r2	Big Ideas in Physics	400	41	Quantum predictions must approach classical physics in regimes of large quantum numbers under this principle associated with Bohr.	What is the correspondence principle?
+r2	Big Ideas in Physics	400	41	Exchanging two identical quantum particles cannot create an observably labeled new arrangement because of this property.	What is particle indistinguishability?
+r2	Big Ideas in Physics	400	41	Two events judged simultaneous in one inertial frame need not be simultaneous in another, illustrating this special-relativistic idea.	What is the relativity of simultaneity?
+r2	Big Ideas in Physics	400	41	Special relativity joins three spatial dimensions and time into this four-dimensional geometry.	What is spacetime?
+r2	Big Ideas in Physics	400	41	General relativity interprets gravity not as an ordinary force but as this geometric feature produced by matter and energy.	What is spacetime curvature?
+r2	Big Ideas in Physics	400	41	The relation S equals k times the logarithm of multiplicity connects a macroscopic state variable to microscopic counting in this formula.	What is Boltzmann's entropy formula?
+r2	Big Ideas in Physics	400	41	Macroscopic processes distinguish past from future even though many microscopic equations are reversible, creating this temporal asymmetry.	What is the arrow of time?
+r2	Big Ideas in Physics	400	41	The idea that the laws are unchanged under a transformation such as rotation is expressed by this foundational concept.	What is symmetry?
+r2	Big Ideas in Physics	400	41	Quarks, leptons, and three nongravitational interactions are organized within this prevailing particle framework.	What is the Standard Model?
+# Big Ideas in Physics $800
+r2	Big Ideas in Physics	800	55	Failure to detect Earth's motion through a light-carrying ether in 1887 is associated with this interferometer experiment.	What was the Michelson-Morley experiment?
+r2	Big Ideas in Physics	800	55	Large-angle deflections of alpha particles from thin metal foil revealed a compact atomic nucleus in this scattering experiment.	What was the Geiger-Marsden experiment?
+r2	Big Ideas in Physics	800	55	Balancing charged droplets between electric and gravitational forces yielded a precise value for the elementary charge in this experiment.	What was the oil-drop experiment?
+r2	Big Ideas in Physics	800	55	A beam of silver atoms split into discrete components in a nonuniform magnetic field, demonstrating space quantization.	What was the Stern-Gerlach experiment?
+r2	Big Ideas in Physics	800	55	Electron diffraction from a nickel crystal directly confirmed de Broglie's wavelength proposal in this experiment.	What was the Davisson-Germer experiment?
+r2	Big Ideas in Physics	800	55	Electrons lost energy only in fixed amounts while colliding with mercury atoms, supporting discrete atomic levels in this experiment.	What was the Franck-Hertz experiment?
+r2	Big Ideas in Physics	800	55	X-rays scattered from electrons with an angle-dependent wavelength increase, demonstrating photon momentum through this effect.	What is Compton scattering?
+r2	Big Ideas in Physics	800	55	Starlight appeared displaced near the eclipsed Sun in 1919, providing an early test of this predicted bending.	What is gravitational light deflection?
+r2	Big Ideas in Physics	800	55	Gamma rays moving upward and downward through Earth's gravity showed a tiny frequency change measured with the Mossbauer effect in this experiment.	What was the Pound-Rebka experiment?
+r2	Big Ideas in Physics	800	55	Beta decay from aligned cobalt nuclei preferred one direction, showing that the weak interaction violates mirror symmetry in this experiment.	What was the Wu experiment?
+r2	Big Ideas in Physics	800	55	Microwave transitions in hydrogen exposed a small separation between two levels Dirac theory had predicted identical in this measurement.	What was the Lamb-Retherford experiment?
+r2	Big Ideas in Physics	800	55	Entangled-photon measurements with changing polarizer settings violated a Bell inequality in these landmark 1980s tests.	What were Aspect's experiments?
+r2	Big Ideas in Physics	800	55	Atomic clocks flown around Earth aboard airliners accumulated direction-dependent time differences in this test of relativity.	What was the Hafele-Keating experiment?
+r2	Big Ideas in Physics	800	55	Two slits producing an interference pattern one detected particle at a time dramatize this classic quantum experiment.	What is the single-particle double-slit experiment?
+r2	Big Ideas in Physics	800	55	Aharonov and Bohm predicted that electrons acquire a measurable phase around a shielded magnetic flux even where the local field vanishes.	What is the Aharonov-Bohm effect?
+r2	Big Ideas in Physics	800	55	Ultra-cold neutrons occupying discrete height levels above a mirror provide a direct observation of these bound states in Earth's field.	What are gravitational quantum states?
+# Big Ideas in Physics $1200
+r2	Big Ideas in Physics	1200	67	A hypothetical collection of identically prepared systems represents probabilities in statistical mechanics and is called this.	What is a statistical ensemble?
+r2	Big Ideas in Physics	1200	67	Fixed energy, volume, and particle number define this isolated-system ensemble.	What is the microcanonical ensemble?
+r2	Big Ideas in Physics	1200	67	Fixed temperature, volume, and particle number define this heat-bath ensemble.	What is the canonical ensemble?
+r2	Big Ideas in Physics	1200	67	A system exchanging both energy and particles with a reservoir is described by this ensemble.	What is the grand canonical ensemble?
+r2	Big Ideas in Physics	1200	67	Summing Boltzmann weights over available states gives this central function from which equilibrium properties can be derived.	What is the partition function?
+r2	Big Ideas in Physics	1200	67	This hypothesis equates long-time averages of an isolated system with averages over its accessible state space.	What is the ergodic hypothesis?
+r2	Big Ideas in Physics	1200	67	The exponential of minus energy divided by kT gives this relative equilibrium weight.	What is the Boltzmann factor?
+r2	Big Ideas in Physics	1200	67	A tiny being sorting fast and slow molecules appears to reduce entropy without work in this thought experiment.	What is Maxwell's demon?
+r2	Big Ideas in Physics	1200	67	Treating identical particles as distinguishable causes a spurious entropy of mixing in this classical puzzle.	What is the Gibbs paradox?
+r2	Big Ideas in Physics	1200	67	Erasing one bit of information must dissipate at least kT times the natural log of two in heat under this principle.	What is Landauer's principle?
+r2	Big Ideas in Physics	1200	67	Microscopically different systems can share the same near-critical scaling behavior because they belong to one of these classes.	What is a universality class?
+r2	Big Ideas in Physics	1200	67	A power governing how correlation length or heat capacity diverges near a continuous transition is this quantity.	What is a critical exponent?
+r2	Big Ideas in Physics	1200	67	Magnetization distinguishes ordered and disordered phases in a ferromagnet and is an example of this diagnostic quantity.	What is an order parameter?
+r2	Big Ideas in Physics	1200	67	Fluctuations become correlated over all length scales at a continuous transition, producing this scale-free phenomenon.	What is criticality?
+r2	Big Ideas in Physics	1200	67	Systematically averaging over short-distance detail shows how physical parameters change with scale in this framework.	What is the renormalization group?
+r2	Big Ideas in Physics	1200	67	Assuming uncorrelated incoming molecular velocities, this result shows a kinetic-theory quantity H cannot increase toward equilibrium.	What is Boltzmann's H-theorem?
+# Big Ideas in Physics $1600
+r2	Big Ideas in Physics	1600	81	Demanding that phase conventions may vary independently from point to point requires introducing connection fields under this principle.	What is local gauge symmetry?
+r2	Big Ideas in Physics	1600	81	An ordinary derivative amended with a gauge connection preserves local transformation behavior and has this name.	What is a covariant derivative?
+r2	Big Ideas in Physics	1600	81	Photons, gluons, and the W and Z particles mediate interactions as this class of force carrier.	What is a gauge boson?
+r2	Big Ideas in Physics	1600	81	A field acquiring a nonzero vacuum value gives W and Z particles mass without explicitly breaking gauge consistency through this mechanism.	What is the Higgs mechanism?
+r2	Big Ideas in Physics	1600	81	Spontaneously breaking a continuous global symmetry produces a massless excitation under this theorem.	What is a Goldstone boson?
+r2	Big Ideas in Physics	1600	81	The average value of a field in its lowest-energy state, which may differ from zero, is this quantity.	What is a vacuum expectation value?
+r2	Big Ideas in Physics	1600	81	A measured interaction strength can vary with energy scale rather than remain fixed, behaving as this kind of parameter.	What is a running coupling?
+r2	Big Ideas in Physics	1600	81	Quarks interact more weakly at very high momentum transfer through this property of the strong interaction.	What is asymptotic freedom?
+r2	Big Ideas in Physics	1600	81	Isolated quarks are not observed because separating color charges does not make their interaction simply fade, an idea called this.	What is color confinement?
+r2	Big Ideas in Physics	1600	81	Low-energy predictions can be organized without knowing all short-distance details by including every interaction allowed by symmetries in this framework.	What is effective field theory?
+r2	Big Ideas in Physics	1600	81	This two-point Green function gives the amplitude for a disturbance to travel between spacetime points.	What is a propagator?
+r2	Big Ideas in Physics	1600	81	Replacing real time by imaginary time turns oscillatory quantum integrals into Euclidean statistical ones through this analytic continuation.	What is Wick rotation?
+r2	Big Ideas in Physics	1600	81	One scattering amplitude can be related to another by moving a particle between initial and final states while replacing it with its antiparticle under this property.	What is crossing symmetry?
+r2	Big Ideas in Physics	1600	81	The combined reversal of charge, spatial parity, and time remains an invariance of local Lorentz-respecting quantum field theories.	What is CPT symmetry?
+r2	Big Ideas in Physics	1600	81	Integer-spin particles are bosons and half-integer-spin particles are fermions under this deep connection.	What is the spin-statistics theorem?
+r2	Big Ideas in Physics	1600	81	Virtual charged pairs screen electric charge and modify a photon's propagation through this quantum effect.	What is vacuum polarization?
+# Big Ideas in Physics $2000
+r2	Big Ideas in Physics	2000	94	The maximum information in a region may scale with its boundary area rather than its volume under this principle inspired by black holes.	What is the holographic principle?
+r2	Big Ideas in Physics	2000	94	A gravitational theory in negatively curved spacetime can be equivalent to a lower-dimensional conformal field theory on its boundary in this duality.	What is AdS-CFT correspondence?
+r2	Big Ideas in Physics	2000	94	Unitary quantum evolution appears to conflict with complete thermal evaporation of a black hole in this puzzle.	What is the black-hole information paradox?
+r2	Big Ideas in Physics	2000	94	A black hole's thermodynamic entropy equals one quarter of its horizon area in Planck units under this formula.	What is Bekenstein-Hawking entropy?
+r2	Big Ideas in Physics	2000	94	A uniformly accelerating observer perceives the inertial vacuum as a thermal bath through this effect.	What is the Unruh effect?
+r2	Big Ideas in Physics	2000	94	Generic gravitational collapse should hide singularities behind horizons under this conjecture.	What is cosmic censorship?
+r2	Big Ideas in Physics	2000	94	Canonical quantum gravity appears to describe a stationary wavefunction of the universe through this timeless equation.	What is the Wheeler-DeWitt equation?
+r2	Big Ideas in Physics	2000	94	The absence of an external clock in quantum gravity creates this conceptual tension between relativity and ordinary quantum evolution.	What is the problem of time?
+r2	Big Ideas in Physics	2000	94	Assigning probabilities to mutually decoherent chains of quantum events defines this interpretation framework.	What are consistent histories?
+r2	Big Ideas in Physics	2000	94	No noncontextual assignment of definite values can reproduce all quantum predictions in dimension three or greater under this theorem.	What is the Kochen-Specker theorem?
+r2	Big Ideas in Physics	2000	94	Frequent measurement can inhibit a quantum state's evolution, producing this counterintuitive effect.	What is the quantum Zeno effect?
+r2	Big Ideas in Physics	2000	94	Slow cyclic parameter changes can give a wavefunction a phase depending only on the path through parameter space.	What is the Berry phase?
+r2	Big Ideas in Physics	2000	94	Some many-body phases cannot be distinguished by local symmetry-breaking order but instead exhibit long-range entanglement of this kind.	What is topological order?
+r2	Big Ideas in Physics	2000	94	Two-dimensional quasiparticles can acquire a phase or more general state transformation when exchanged and are called these.	What are anyons?
+r2	Big Ideas in Physics	2000	94	A classical symmetry may fail after quantization because no regulator preserves it, producing this phenomenon.	What is a quantum anomaly?
+r2	Big Ideas in Physics	2000	94	Potential gauge inconsistencies from chiral fermion loops must sum to zero for a viable quantum field theory through this requirement.	What is anomaly cancellation?
+# Software History: languages, operating systems, applications, software engineering, databases, interfaces, and programming-language theory.
+r2	Software History	400	41	A 1950s article by this statistician is widely credited with introducing the word software in print.	Who was John Tukey?
+r2	Software History	400	41	This IBM scientist led the team that created FORTRAN, making high-level scientific programming practical.	Who was John Backus?
+r2	Software History	400	41	This computer scientist served on the COBOL language committee, created FORMAC, and later wrote an influential history of programming languages.	Who was Jean Sammet?
+r2	Software History	400	41	At Dartmouth, this researcher created Lisp as a language for symbolic computation.	Who was John McCarthy?
+r2	Software History	400	41	These two Dartmouth professors created BASIC so students outside science and engineering could use time-shared computers.	Who were John Kemeny and Thomas Kurtz?
+r2	Software History	400	41	These Bell Labs colleagues created Unix, with one first building the system and the other later creating its main implementation language.	Who were Ken Thompson and Dennis Ritchie?
+r2	Software History	400	41	This Bell Labs researcher coauthored The C Programming Language and is credited with suggesting Unix's punning name.	Who is Brian Kernighan?
+r2	Software History	400	41	This Digital Research founder created CP/M, an influential operating system for early microcomputers.	Who was Gary Kildall?
+r2	Software History	400	41	These creators turned the Apple II into a business tool with the pioneering spreadsheet VisiCalc.	Who were Dan Bricklin and Bob Frankston?
+r2	Software History	400	41	At MicroPro, this programmer wrote WordStar, one of the first widely used personal-computer word processors.	Who was Rob Barnaby?
+r2	Software History	400	41	This Xerox PARC researcher championed object-oriented personal computing and led the Learning Research Group that developed Smalltalk.	Who is Alan Kay?
+r2	Software History	400	41	This programmer launched the GNU project to build a free Unix-like operating system.	Who is Richard Stallman?
+r2	Software History	400	41	As a Finnish student, he began the kernel project that grew into Linux.	Who is Linus Torvalds?
+r2	Software History	400	41	These NCSA programmers created Mosaic, the graphical browser that helped popularize the early Web.	Who are Marc Andreessen and Eric Bina?
+r2	Software History	400	41	At Sun Microsystems, this Canadian computer scientist led development of the language originally called Oak and later Java.	Who is James Gosling?
+r2	Software History	400	41	At Netscape in 1995, this programmer created JavaScript under an unusually short development schedule.	Who is Brendan Eich?
+# Software History $800
+r2	Software History	800	55	Konrad Zuse designed this pioneering high-level language for his computers, though it was not implemented in his time.	What is Plankalkul?
+r2	Software History	800	55	John Mauchly proposed this early interpreted notation whose coded expressions were translated rather than written directly in machine instructions.	What is Short Code?
+r2	Software History	800	55	Grace Hopper's early compiler loaded subroutines from magnetic tape under this hyphenated name.	What was the A-0 system?
+r2	Software History	800	55	Alick Glennie's compiler for the Manchester Mark 1 used this early family name for simplified programming notations.	What was Autocode?
+r2	Software History	800	55	Before FORTRAN, Backus created this interpretive system for the IBM 701 to simplify floating-point calculations.	What was Speedcoding?
+r2	Software History	800	55	Newell, Simon, and Shaw developed this list-processing language for early artificial-intelligence programs such as Logic Theorist.	What was Information Processing Language?
+r2	Software History	800	55	A 1960 international report defined this block-structured language whose syntax strongly influenced later language design.	What was ALGOL 60?
+r2	Software History	800	55	Dahl and Nygaard created this simulation language, whose classes and objects helped launch object-oriented programming.	What was Simula?
+r2	Software History	800	55	Martin Richards designed this typeless systems language that directly influenced B and then C.	What was BCPL?
+r2	Software History	800	55	Ken Thompson adapted ideas from BCPL into this compact language while developing early Unix.	What was B?
+r2	Software History	800	55	Niklaus Wirth designed this ALGOL-descended language for structured programming and education.	What was Pascal?
+r2	Software History	800	55	Alain Colmerauer and colleagues created this logic-programming language, while Robert Kowalski developed its procedural interpretation.	What was Prolog?
+r2	Software History	800	55	Charles Moore created this stack-based language for telescope control, naming it for a hoped-for fourth generation of software.	What was Forth?
+r2	Software History	800	55	Kenneth Iverson turned his mathematical notation into this array-oriented language known for distinctive symbols.	What was APL?
+r2	Software History	800	55	Papert, Feurzeig, and colleagues created this educational language whose turtle made geometry programmable.	What was Logo?
+r2	Software History	800	55	A U.S. Defense Department competition produced this language named for Lord Byron's programmer daughter.	What was Ada?
+# Software History $1200
+r2	Software History	1200	67	Jobs submitted as decks and run without interactive user control characterize this early operating mode.	What is batch processing?
+r2	Software History	1200	67	Rapidly switching a computer among interactive users made each feel they had direct access under this influential model.	What is time-sharing?
+r2	Software History	1200	67	Fernando Corbato's Compatible Time-Sharing System at MIT was widely influential under this acronym-derived name.	What was CTSS?
+r2	Software History	1200	67	MIT, Bell Labs, and General Electric pursued this ambitious shared computing system whose ideas strongly shaped Unix.	What was Multics?
+r2	Software History	1200	67	Doug McIlroy's idea of connecting one program's output to another's input gave Unix this compositional mechanism.	What are Unix pipes?
+r2	Software History	1200	67	Ken Thompson's command interpreter and its successors established this text-based layer between users and the Unix kernel.	What is the Unix shell?
+r2	Software History	1200	67	Programs can behave as if they have more contiguous memory than physically installed by mapping addresses to disk-backed pages through this technique.	What is virtual memory?
+r2	Software History	1200	67	NATO conferences in 1968 and 1969 popularized this phrase for difficulties building reliable programs as systems grew.	What was the software crisis?
+r2	Software History	1200	67	Dijkstra argued for programs built from clear control structures instead of arbitrary jumps in this movement.	What is structured programming?
+r2	Software History	1200	67	Adding people to a late project can make it later, according to this maxim from The Mythical Man-Month.	What is Brooks's law?
+r2	Software History	1200	67	Parnas argued that modules should conceal design decisions likely to change under this principle.	What is information hiding?
+r2	Software History	1200	67	Separating a type's public operations from its hidden representation produced this influential specification concept.	What is an abstract data type?
+r2	Software History	1200	67	Bell Labs' Source Code Control System was an early widely used example of this tool category.	What is source-code version control?
+r2	Software History	1200	67	A programmer checking out a file exclusively before editing follows this early coordination model.	What is lock-based version control?
+r2	Software History	1200	67	A central repository receiving explicitly recorded sets of changes uses this historical workflow.	What is centralized version control?
+r2	Software History	1200	67	Fred Brooks distinguished failures of representation and specification from removable tooling difficulties as these two kinds of complexity.	What are essential and accidental complexity?
+# Software History $1600
+r2	Software History	1600	81	E. F. Codd's 1970 model represented information as mathematical relations manipulated without navigational record links.	What is the relational model?
+r2	Software History	1600	81	IBM's research prototype demonstrated relational databases and helped develop a structured query language under this project name.	What was System R?
+r2	Software History	1600	81	Michael Stonebraker and Eugene Wong led this Berkeley relational database project that influenced later commercial systems.	What was Ingres?
+r2	Software History	1600	81	These IBM researchers designed the relational query language first called SEQUEL and later renamed SQL.	Who were Donald Chamberlin and Raymond Boyce?
+r2	Software History	1600	81	Atomicity, consistency, isolation, and durability were grouped under this mnemonic by Andreas Reuter and Theo Harder.	What are the ACID properties?
+r2	Software History	1600	81	Recording log information before modified data reaches storage allows crash recovery under this protocol.	What is write-ahead logging?
+r2	Software History	1600	81	IBM's recovery method uses analysis, redo, and undo passes and is known by this mythological acronym.	What is ARIES?
+r2	Software History	1600	81	A database-oriented descendant of Bayer and McCreight's tree stores records at linked leaves while internal nodes guide searches.	What is a B-plus tree?
+r2	Software History	1600	81	Xerox commercialized PARC's graphical ideas in this office system built around documents, icons, Ethernet, and a mouse.	What was the Xerox Star?
+r2	Software History	1600	81	Charles Simonyi and Butler Lampson created this modeless WYSIWYG document editor on the Alto.	What was Bravo?
+r2	Software History	1600	81	Larry Tesler and Tim Mott developed this modeless Xerox PARC editor, associated with commands such as cut, copy, and paste.	What was the Gypsy editor?
+r2	Software History	1600	81	Douglas Engelbart's oN-Line System combined hypertext, collaborative editing, and the mouse under this short name.	What was NLS?
+r2	Software History	1600	81	Engelbart's presentation paired the mouse with this one-handed input device whose simultaneous key combinations entered commands.	What was a chorded keyset?
+r2	Software History	1600	81	Ted Nelson coined this term for nonlinear linked writing years before the World Wide Web.	What is hypertext?
+r2	Software History	1600	81	Windows, icons, menus, and a pointing device form the interface style summarized by this acronym.	What is the WIMP interface?
+r2	Software History	1600	81	Trygve Reenskaug articulated this separation of data, presentation, and input behavior while working with Smalltalk at Xerox PARC.	What is model-view-controller?
+# Software History $2000
+r2	Software History	2000	94	Alonzo Church's formal system of function abstraction and application became a foundation for functional programming.	What is the lambda calculus?
+r2	Software History	2000	94	The correspondence linking propositions with types and proofs with programs bears the names of these two logicians.	What is the Curry-Howard correspondence?
+r2	Software History	2000	94	This breadth-first copying collector moves reachable objects between semispaces using two advancing pointers.	What is Cheney's algorithm?
+r2	Software History	2000	94	Tracing reachable objects and then reclaiming every unmarked object is this classic collection algorithm.	What is mark-and-sweep?
+r2	Software History	2000	94	George Collins described reclaiming an object when its incoming-reference count reaches zero in this memory-management method.	What is reference counting?
+r2	Software History	2000	94	Two processes can achieve mutual exclusion using only shared turn and intent variables under this 1981 algorithm.	What is Peterson's algorithm?
+r2	Software History	2000	94	Hoare's process algebra models concurrent components that synchronize through communication events under this name.	What is Communicating Sequential Processes?
+r2	Software History	2000	94	Barbara Liskov's behavioral subtyping rule says objects of a subtype must remain usable wherever the supertype is expected.	What is the Liskov substitution principle?
+r2	Software History	2000	94	Rewriting control flow so functions receive explicit representations of the rest of the computation uses this style.	What is continuation-passing style?
+r2	Software History	2000	94	A compiler can execute a self-call in constant stack space by reusing the current activation through this optimization.	What is tail-call elimination?
+r2	Software History	2000	94	Automatically renaming introduced identifiers prevents a macro from accidentally capturing names in surrounding code under this property.	What is macro hygiene?
+r2	Software History	2000	94	This type system combines parametric polymorphism with automatic inference and bears the names of two researchers.	What is Hindley-Milner typing?
+r2	Software History	2000	94	Scott and Strachey modeled program meanings as mathematical objects in this semantic approach.	What is denotational semantics?
+r2	Software History	2000	94	Defining program meaning through state-transition or evaluation rules gives this contrasting semantic approach.	What is operational semantics?
+r2	Software History	2000	94	Preconditions, commands, and postconditions form triples in this axiomatic method for proving program correctness.	What is Hoare logic?
+r2	Software History	2000	94	Hewitt, Bishop, and Steiger proposed concurrent entities communicating only by asynchronous messages in this model.	What is the actor model?

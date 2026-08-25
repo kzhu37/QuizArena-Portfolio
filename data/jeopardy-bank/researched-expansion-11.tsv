@@ -1,0 +1,429 @@
+# Hand-authored researched expansion batch 11.
+# Fields: round	category	value	difficulty	clue	response
+# Research anchors: APA psychology resources and NCBI genetics references (https://www.apa.org/ and https://www.ncbi.nlm.nih.gov/books/); IUPAC periodic-table resources (https://iupac.org/what-we-do/periodic-table-of-elements/).
+# Research anchors: NIST physics resources and NASA astronomy references (https://www.nist.gov/topics/physics and https://science.nasa.gov/universe/).
+# Psychology: observable effects, landmark models, cognition, learning, and measurement.
+r2	Psychology	400	41	Reading the word BLUE printed in red ink slows color naming, the classic interference named for this psychologist.	Who was John Ridley Stroop?
+r2	Psychology	400	41	A witness who later hears misleading details may incorporate them into a recollection, an effect extensively studied by Elizabeth Loftus.	What is the misinformation effect?
+r2	Psychology	400	41	People may miss a gorilla crossing a basketball-passing scene when their attention is occupied by counting passes.	What is inattentional blindness?
+r2	Psychology	400	41	An upside-down face can conceal grotesquely reversed eyes and mouth that become obvious when the image is upright, a named illusion created with a British prime minister's portrait.	What is the Thatcher illusion?
+r2	Psychology	400	41	In recall, items from the beginning and end of a list usually outperform those from its middle.	What is the serial-position effect?
+r2	Psychology	400	41	Taking practice quizzes strengthens later recall more than simply rereading the same material, a benefit known by this name.	What is the testing effect?
+r2	Psychology	400	41	An individual may pull less hard on a rope when tugging as part of a team than when tugging alone.	What is social loafing?
+r2	Psychology	400	41	After discussion, like-minded group members often shift toward a more extreme version of their original position.	What is group polarization?
+r2	Psychology	400	41	A crowd of witnesses can make each person feel less personally obligated to help because responsibility seems spread among all present.	What is diffusion of responsibility?
+r2	Psychology	400	41	Success credited to one's talent but failure blamed on bad luck displays this self-protective attribution pattern.	What is the self-serving bias?
+r2	Psychology	400	41	A person may cling to an initial belief even after the evidence that created it has been completely discredited.	What is belief perseverance?
+r2	Psychology	400	41	After learning an outcome, people commonly overestimate how predictable it had seemed beforehand.	What is hindsight bias?
+r2	Psychology	400	41	People often treat one offered serving as the proper amount, whether the scoop or package is small or large, illustrating this bias.	What is unit bias?
+r2	Psychology	400	41	Remembering that a dentist appointment must be kept tomorrow uses this future-oriented form of memory.	What is prospective memory?
+r2	Psychology	400	41	Knowing a fact while forgetting whether it came from a professor, podcast, or rumor is this source-related memory error.	What is source amnesia?
+r2	Psychology	400	41	After deprivation of dream-rich sleep, people often spend an unusually large proportion of later sleep in that stage.	What is REM rebound?
+# Psychology $800
+r2	Psychology	800	55	This researcher's retention studies produced a curve showing that memory loss is initially steep and then levels off.	Who was Hermann Ebbinghaus?
+r2	Psychology	800	55	Unfinished tasks remaining more mentally accessible than completed ones bear the name of this Soviet psychologist.	Who was Bluma Zeigarnik?
+r2	Psychology	800	55	A distinctive item, such as the only red word in a black list, receives a memory advantage named for this German psychiatrist.	Who was Hedwig von Restorff?
+r2	Psychology	800	55	Craik and Lockhart proposed that durable memory depends more on semantic analysis than on shallow visual processing in this framework.	What is the levels-of-processing framework?
+r2	Psychology	800	55	In Baddeley's working-memory architecture, this component briefly maintains speech-based information through rehearsal.	What is the phonological loop?
+r2	Psychology	800	55	Mental rotation and remembering a route draw on this visual-spatial component of working memory.	What is the visuospatial sketchpad?
+r2	Psychology	800	55	This supervisory part of Baddeley's model allocates attention and coordinates its specialized temporary stores.	What is the central executive?
+r2	Psychology	800	55	People often overestimate how widely others share their own opinions and preferences.	What is the false-consensus effect?
+r2	Psychology	800	55	We tend to explain another person's behavior dispositionally but our own similar behavior situationally, a contrast with this name.	What is the actor-observer asymmetry?
+r2	Psychology	800	55	Belief that people generally get what they deserve can lead observers to blame an innocent victim.	What is the just-world hypothesis?
+r2	Psychology	800	55	Garcia's rats readily linked nausea with taste but not with a light, evidence that organisms are biologically ready to learn some associations.	What is preparedness?
+r2	Psychology	800	55	Rewarding an enjoyable activity can sometimes reduce later voluntary interest in it once the reward disappears.	What is the overjustification effect?
+r2	Psychology	800	55	Walter Mischel's preschool study used a marshmallow to examine children's capacity for this form of self-control.	What is delayed gratification?
+r2	Psychology	800	55	Wolpe paired gradual exposure to feared stimuli with relaxation in this behavioral treatment.	What is systematic desensitization?
+r2	Psychology	800	55	A classroom may award points exchangeable for privileges, applying this contingency-based behavior system.	What is a token economy?
+r2	Psychology	800	55	Judgments of sensation depend on separating sensory sensitivity from willingness to say yes, the central idea of this theory.	What is signal detection theory?
+# Psychology $1200
+r2	Psychology	1200	67	The barely detectable gap separating two weights grows in proportion to the starting weight under this psychophysical regularity.	What is Weber's law?
+r2	Psychology	1200	67	Perceived magnitude often follows physical intensity raised to an exponent, a relation named for this Harvard psychophysicist.	Who was S. S. Stevens?
+r2	Psychology	1200	67	After staring at a green image, a red afterimage supports this account in which paired color channels inhibit one another.	What is opponent-process color theory?
+r2	Psychology	1200	67	Treisman proposed that focused attention binds separately processed color, shape, and orientation using this model.	What is feature integration theory?
+r2	Psychology	1200	67	On this influential view, perception continually compares top-down expectations with incoming sensory errors.	What is predictive coding?
+r2	Psychology	1200	67	In semantic networks, thinking of doctor can hasten recognition of nurse because activation travels among related concepts.	What is spreading activation?
+r2	Psychology	1200	67	Tulving and Thomson argued that retrieval succeeds when cues present at recall overlap those encoded with the event.	What is the encoding specificity principle?
+r2	Psychology	1200	67	Memory improves when the mental operations used at study resemble those required by the final test, according to this principle.	What is transfer-appropriate processing?
+r2	Psychology	1200	67	A retrieved memory can briefly become labile and require restabilization, a process exploited in some fear studies.	What is memory reconsolidation?
+r2	Psychology	1200	67	Preexposure to a harmless tone can slow later conditioning of that tone with shock.	What is latent inhibition?
+r2	Psychology	1200	67	Once one cue already predicts an outcome, a second cue added beside it may acquire little associative strength.	What is the blocking effect?
+r2	Psychology	1200	67	This learning model updates a cue most when the outcome differs from expectation, formalizing prediction error.	What is the Rescorla-Wagner model?
+r2	Psychology	1200	67	Performance often peaks at an intermediate arousal level, with harder tasks favoring lower arousal, under this named relationship.	What is the Yerkes-Dodson law?
+r2	Psychology	1200	67	Bem argued that when internal cues are weak, people may infer their attitudes by observing their own actions.	What is self-perception theory?
+r2	Psychology	1200	67	Petty and Cacioppo's persuasion model contrasts careful argument scrutiny with reliance on surface cues.	What is the elaboration likelihood model?
+r2	Psychology	1200	67	A small initial request can increase compliance with a larger related request later, this aptly named technique.	What is the foot-in-the-door technique?
+# Psychology $1600
+r2	Psychology	1600	81	Old information disrupting acquisition of new material, as when a former password intrudes on learning a replacement, is this.	What is proactive interference?
+r2	Psychology	1600	81	New learning impairing recall of older material, such as Italian lessons disrupting remembered Spanish, is this complementary effect.	What is retroactive interference?
+r2	Psychology	1600	81	Two targets appearing rapidly in one stream can make detection of the first briefly impair detection of the second.	What is the attentional blink?
+r2	Psychology	1600	81	Two rapidly required responses interfere because a central processing stage cannot select both at once, producing this bottleneck.	What is the psychological refractory period?
+r2	Psychology	1600	81	Judging Linda more likely to be both a bank teller and feminist than merely a bank teller commits this probability error.	What is the conjunction fallacy?
+r2	Psychology	1600	81	Ignoring the prevalence of a disease while focusing on an impressive diagnostic description exemplifies this reasoning error.	What is base-rate neglect?
+r2	Psychology	1600	81	A price described as 90 percent survival can seem preferable to one described as 10 percent mortality because of this effect.	What is the framing effect?
+r2	Psychology	1600	81	Ownership alone can make a mug seem worth more to its seller than to an otherwise identical prospective buyer.	What is the endowment effect?
+r2	Psychology	1600	81	Preference for a smaller reward now over a larger delayed reward often falls steeply at first and then more slowly under this model.	What is hyperbolic discounting?
+r2	Psychology	1600	81	Higgins distinguished striving toward gains from guarding against losses in this account of promotion and prevention orientations.	What is regulatory focus theory?
+r2	Psychology	1600	81	Salience of mortality can intensify defense of cultural worldviews, according to this social-psychological account.	What is terror management theory?
+r2	Psychology	1600	81	Tajfel's minimal-group studies support this theory that group memberships help organize the self-concept.	What is social identity theory?
+r2	Psychology	1600	81	Concern about confirming a negative group belief can itself impair performance, a phenomenon demonstrated by Steele and Aronson.	What is stereotype threat?
+r2	Psychology	1600	81	Deci and Ryan's motivation theory centers autonomy, competence, and relatedness as basic psychological needs.	What is self-determination theory?
+r2	Psychology	1600	81	Sweller's instructional account separates intrinsic demands from avoidable demands imposed by poor presentation.	What is cognitive load theory?
+r2	Psychology	1600	81	Damage to visual cortex can leave patients reporting no visual awareness while guessing stimulus locations above chance.	What is blindsight?
+# Psychology $2000
+r2	Psychology	2000	94	Reaction time increases with the logarithm of the number of response alternatives under this information-theoretic decision law.	What is the Hick-Hyman law?
+r2	Psychology	2000	94	This sequential-sampling model treats a two-choice decision as noisy evidence accumulating until one boundary is reached.	What is the drift-diffusion model?
+r2	Psychology	2000	94	In this consciousness theory, information becomes reportable when broadcast widely across a network of specialized processors.	What is global neuronal workspace theory?
+r2	Psychology	2000	94	A psychometric test's expected reliability after changing its length can be estimated with this named formula.	What is the Spearman-Brown prophecy formula?
+r2	Psychology	2000	94	This family of psychometric models estimates an item's difficulty and discrimination separately from a person's latent ability.	What is item response theory?
+r2	Psychology	2000	94	A model with separate fast familiarity and slower recollection processes offers this kind of account of recognition memory.	What is a dual-process model of recognition?
+r2	Psychology	2000	94	The tendency for generalization responses to peak away from the trained cue after discrimination learning bears this name.	What is peak shift?
+r2	Psychology	2000	94	A weak conditioned response to one stimulus because a more salient companion dominated learning illustrates this cue-competition effect.	What is overshadowing?
+r2	Psychology	2000	94	A cue that signals omission of an otherwise expected outcome acquires this inhibitory associative role.	What is a conditioned inhibitor?
+r2	Psychology	2000	94	A stimulus that tells an animal when another cue-outcome relation is in force serves this modulatory function.	What is occasion setting?
+r2	Psychology	2000	94	Under Herrnstein's quantitative law, relative response rates track relative reinforcement rates across concurrent choices.	What is the matching law?
+r2	Psychology	2000	94	This principle says a more probable behavior can reinforce a less probable one, as playtime might reward finishing homework.	What is the Premack principle?
+r2	Psychology	2000	94	Intermittently rewarded behavior can resist extinction more than continuously rewarded behavior, a paradoxical result called this.	What is the partial-reinforcement extinction effect?
+r2	Psychology	2000	94	In prospect theory, people often overweight outcomes that are guaranteed relative to outcomes that are merely probable, an asymmetry called this.	What is the certainty effect?
+r2	Psychology	2000	94	Failing to recognize one side of space after right parietal damage is this attentional syndrome rather than an eye disorder.	What is hemispatial neglect?
+r2	Psychology	2000	94	A patient who recognizes a face yet insists the familiar person is an impostor exhibits this delusional misidentification syndrome.	What is Capgras syndrome?
+# Genetics: inheritance patterns, experimental history, molecular regulation, repair, and population processes.
+r2	Genetics	400	41	Crossing an individual of unknown dominant genotype with a homozygous recessive individual reveals the unknown genotype through offspring ratios.	What is a testcross?
+r2	Genetics	400	41	Breeders may repeat a mating with the sexes reversed to test whether a trait's transmission depends on which parent carries it.	What is a reciprocal cross?
+r2	Genetics	400	41	Yellow-coated mice crossed together yield a two-to-one ratio among living offspring because inheriting two copies has this consequence.	What is a lethal allele?
+r2	Genetics	400	41	In Labrador retrievers, one locus can prevent pigment deposition and thereby mask the effect of a separate coat-color locus, specifically this recessive interaction.	What is recessive epistasis?
+r2	Genetics	400	41	A trait appears only after an underlying liability produced by genes and environment passes a critical level in this model.	What is threshold inheritance?
+r2	Genetics	400	41	Not every person carrying a disease-causing genotype shows the phenotype; this term describes the proportion who do.	What is penetrance?
+r2	Genetics	400	41	People with the same genotype can show different degrees of a trait, variation described by this term.	What is variable expressivity?
+r2	Genetics	400	41	Two linked dominant alleles on the same homolog, with both recessive alleles on the other, form an arrangement with this name.	What is coupling phase?
+r2	Genetics	400	41	The percentage of recombinant offspring can estimate distance between loci and is called this measurement.	What is recombination frequency?
+r2	Genetics	400	41	Failure of homologs or sister chromatids to separate properly can produce gametes with extra or missing chromosomes.	What is nondisjunction?
+r2	Genetics	400	41	In many mammalian female cells, a condensed inactive X chromosome appears microscopically as this structure.	What is a Barr body?
+r2	Genetics	400	41	The visible X-shaped contact between homologous chromosomes marks a site where reciprocal exchange has occurred.	What is a chiasma?
+r2	Genetics	400	41	Random orientation of homologous pairs at meiosis I underlies Mendel's law bearing this name.	What is independent assortment?
+r2	Genetics	400	41	An allele's expression can depend on whether it came from the mother or father because of parent-specific epigenetic marks.	What is genomic imprinting?
+r2	Genetics	400	41	A trait passed by an affected mother to children of both sexes, but not by an affected father, often follows this extranuclear pattern.	What is mitochondrial inheritance?
+r2	Genetics	400	41	An organism containing cell populations with different genotypes descended from one zygote displays this condition.	What is genetic mosaicism?
+# Genetics $800
+r2	Genetics	800	55	White-eyed flies helped this Columbia researcher show that genes occupy chromosomes and that some traits are sex-linked.	Who was Thomas Hunt Morgan?
+r2	Genetics	800	55	Studying mealworm chromosomes, this scientist independently helped identify X and Y as determinants of sex.	Who was Nettie Stevens?
+r2	Genetics	800	55	The hypothesis that one X chromosome is randomly silenced in female mammals bears this British geneticist's name.	Who was Mary Lyon?
+r2	Genetics	800	55	As an undergraduate in Morgan's fly lab, he drew the first linkage map by ordering genes from recombination rates.	Who was Alfred Sturtevant?
+r2	Genetics	800	55	This physician connected alkaptonuria to inherited metabolic chemistry and proposed the idea of inborn errors of metabolism.	Who was Archibald Garrod?
+r2	Genetics	800	55	Bread mold mutants led these two scientists to the one gene-one enzyme hypothesis.	Who were George Beadle and Edward Tatum?
+r2	Genetics	800	55	Radioactive phosphorus entered bacteria while radioactive sulfur largely stayed with phage coats in this blender-assisted experiment.	What was the Hershey-Chase experiment?
+r2	Genetics	800	55	Heavy nitrogen and density-gradient centrifugation revealed that each daughter DNA molecule contains one old strand and one new strand in this experiment.	What was the Meselson-Stahl experiment?
+r2	Genetics	800	55	Across species, the amount of adenine roughly equals thymine and guanine roughly equals cytosine under these empirical relationships.	What are Chargaff's rules?
+r2	Genetics	800	55	Short pieces made on the lagging strand bear the name of the Japanese scientists who discovered them.	What are Okazaki fragments?
+r2	Genetics	800	55	This ribonucleoprotein enzyme extends chromosome ends using an RNA template carried within itself.	What is telomerase?
+r2	Genetics	800	55	Bacterial enzymes that cut DNA at particular recognition sequences became indispensable tools of molecular cloning.	What are restriction endonucleases?
+r2	Genetics	800	55	DNA fragments migrate through a porous matrix at rates related to size during this standard separation method.	What is gel electrophoresis?
+r2	Genetics	800	55	Chain-terminating dideoxynucleotides are the signature reagents of this classic DNA-reading method.	What is Sanger sequencing?
+r2	Genetics	800	55	Repeated heating, primer annealing, and polymerase extension amplify a chosen DNA region in this technique.	What is polymerase chain reaction?
+r2	Genetics	800	55	A fluorescent or radioactive complementary nucleic-acid strand used to find a matching sequence is known by this term.	What is a hybridization probe?
+# Genetics $1200
+r2	Genetics	1200	67	In E. coli, lactose availability and glucose scarcity activate this classic gene-regulatory unit studied by Jacob and Monod.	What is the lac operon?
+r2	Genetics	1200	67	Abundant tryptophan makes a corepressor activate the repressor of this biosynthetic bacterial operon.	What is the trp operon?
+r2	Genetics	1200	67	Placed between a regulatory element and a promoter, this boundary sequence can block their communication and can also separate chromatin domains.	What is an insulator?
+r2	Genetics	1200	67	A regulatory DNA element that recruits repressors to reduce transcription is called this.	What is a silencer?
+r2	Genetics	1200	67	Selecting different combinations of exons from one pre-mRNA allows a single gene to produce multiple protein isoforms.	What is alternative splicing?
+r2	Genetics	1200	67	Small RNAs provide sequence specificity to this Argonaute-containing complex, which silences complementary messenger RNA.	What is the RNA-induced silencing complex?
+r2	Genetics	1200	67	A messenger RNA lacking a termination codon can strand a ribosome at its 3-prime end and trigger this quality-control pathway.	What is nonstop decay?
+r2	Genetics	1200	67	Adding methyl groups to cytosines in CpG-rich promoters is commonly associated with reduced transcription.	What is DNA methylation?
+r2	Genetics	1200	67	Adding acetyl groups to lysines on histone tails often loosens chromatin and correlates with active transcription.	What is histone acetylation?
+r2	Genetics	1200	67	ATP-dependent protein complexes slide, eject, or restructure nucleosomes in this form of gene regulation.	What is chromatin remodeling?
+r2	Genetics	1200	67	LINEs and SINEs are mobile sequences that can copy themselves to new genomic locations and belong to this broad class.	What are retrotransposons?
+r2	Genetics	1200	67	Some bacteria can take up naked DNA directly from their surroundings through this mode of gene acquisition.	What is natural transformation?
+r2	Genetics	1200	67	During recombination, nonreciprocal sequence copying can change one allele to match its homolog.	What is gene conversion?
+r2	Genetics	1200	67	This scaled statistic, often written D with a prime mark, measures nonrandom association between alleles while accounting for the largest possible disequilibrium.	What is Lewontin's D prime?
+r2	Genetics	1200	67	A marker allele co-inherited with a disease across a family can help locate the responsible region through this strategy.	What is linkage analysis?
+r2	Genetics	1200	67	Comparing affected and unaffected people at hundreds of thousands of variants is the basis of this population study design.	What is a genome-wide association study?
+# Genetics $1600
+r2	Genetics	1600	81	Four DNA strands meet in this cross-shaped recombination intermediate proposed in 1964.	What is a Holliday junction?
+r2	Genetics	1600	81	This zipper-like protein structure holds homologous chromosomes together during meiotic prophase I.	What is the synaptonemal complex?
+r2	Genetics	1600	81	This chromosome-maintenance complex containing two SMC proteins helps manage recombination intermediates and preserve genome stability.	What is the Smc5-Smc6 complex?
+r2	Genetics	1600	81	During S phase, this protein stabilizes sister-chromatid cohesion by opposing the ring-releasing activity of WAPL.	What is sororin?
+r2	Genetics	1600	81	This meiotic enzyme deliberately creates double-strand DNA breaks that initiate recombination.	What is Spo11?
+r2	Genetics	1600	81	Replication errors that escape proofreading are corrected when MutS-like proteins recognize distorted base pairing in this pathway.	What is mismatch repair?
+r2	Genetics	1600	81	UV-induced thymine dimers are removed as part of a short damaged oligonucleotide in this versatile repair pathway.	What is nucleotide excision repair?
+r2	Genetics	1600	81	A DNA glycosylase starts this repair pathway by removing a chemically altered base while leaving the sugar-phosphate backbone.	What is base excision repair?
+r2	Genetics	1600	81	Ku proteins bind broken chromosome ends before direct ligation in this error-prone double-strand break pathway.	What is nonhomologous end joining?
+r2	Genetics	1600	81	Using an intact sister chromatid as a template allows accurate repair of a double-strand break by this mechanism.	What is homology-directed repair?
+r2	Genetics	1600	81	A programmable nuclease made by fusing a FokI cutting domain to customizable DNA-binding motifs uses these finger-like modules.	What is a zinc-finger nuclease?
+r2	Genetics	1600	81	These engineered nucleases join FokI to repeat arrays derived from bacterial transcription activator-like effectors.	What are TALENs?
+r2	Genetics	1600	81	Two short recognition sites flank DNA that can be excised or inverted by a phage-derived recombinase in this system.	What is Cre-lox recombination?
+r2	Genetics	1600	81	An RNA molecule supplies the sequence specificity that directs a CRISPR-associated nuclease to its DNA target.	What is guide RNA?
+r2	Genetics	1600	81	This short motif immediately beside a target is required for many CRISPR nucleases to distinguish suitable DNA.	What is a protospacer adjacent motif?
+r2	Genetics	1600	81	Introducing a designed nucleotide change without a double-strand break can use a Cas nickase fused to a deaminase in this method.	What is base editing?
+# Genetics $2000
+r2	Genetics	2000	94	Parallel bacterial cultures produced wildly different numbers of resistant mutants, showing mutations arise before selection in this classic test.	What is the Luria-Delbruck fluctuation experiment?
+r2	Genetics	2000	94	Colonies copied from one plate to another retained the same resistant positions, demonstrating that resistance mutations predated exposure.	What is replica plating?
+r2	Genetics	2000	94	Two recessive mutations producing a normal phenotype when placed together in one cell are inferred to affect different genes by this test.	What is a complementation test?
+r2	Genetics	2000	94	Recombination among bacteriophage T4 mutants let Seymour Benzer map mutation sites within a gene at extraordinary resolution using this experimental system.	What is the rII system?
+r2	Genetics	2000	94	Population subdivision can create an overall deficit of heterozygotes even when each subpopulation is individually in equilibrium, an effect named for this scientist.	What is the Wahlund effect?
+r2	Genetics	2000	94	With both recombination and ancestry represented, this graph generalizes a single gene tree by allowing different genomic segments to have different genealogies.	What is an ancestral recombination graph?
+r2	Genetics	2000	94	Molecular changes with no fitness effect can become fixed by drift under Motoo Kimura's influential evolutionary account.	What is the neutral theory of molecular evolution?
+r2	Genetics	2000	94	Selection at linked loci can reduce the effectiveness of selection in finite populations through this interference named for two geneticists.	What is Hill-Robertson interference?
+r2	Genetics	2000	94	In an asexual population, irreversible loss of the least-mutated class can drive accumulation of harmful variants in this ratchet-like process.	What is Muller's ratchet?
+r2	Genetics	2000	94	If only one hybrid sex is sterile or absent, this rule predicts that it is usually the heterogametic sex.	What is Haldane's rule?
+r2	Genetics	2000	94	Alleles that work in their native populations can interact badly in hybrids, a speciation mechanism named for two evolutionary geneticists.	What is Dobzhansky-Muller incompatibility?
+r2	Genetics	2000	94	Asymmetric female meiosis can let stronger centromeres preferentially enter the egg rather than a polar body, a biased process called this.	What is centromere drive?
+r2	Genetics	2000	94	Inheritance of both homologs of a chromosome pair from one parent rather than one from each is called this.	What is uniparental disomy?
+r2	Genetics	2000	94	A tumor cell that began with one normal and one mutant allele may lose the remaining normal copy through this event.	What is loss of heterozygosity?
+r2	Genetics	2000	94	Earlier onset or increasing severity across generations, often caused by expanding repeats, is described by this inheritance phenomenon.	What is genetic anticipation?
+r2	Genetics	2000	94	Expansions of CAG or other three-base units cause disorders such as Huntington disease through this mutation class.	What is a trinucleotide repeat expansion?
+# Periodic Table: historical development, periodic trends, chemical behavior, discovery, and naming.
+r2	Periodic Table	400	41	Aluminium, gallium, indium, tin, thallium, lead, and bismuth are often assigned this informal metal class lying beyond the transition elements.	What are post-transition metals?
+r2	Periodic Table	400	41	Half the internuclear distance between two identical bonded atoms defines this experimentally useful size measure.	What is covalent radius?
+r2	Periodic Table	400	41	The ease with which an atom's electron cloud can be distorted generally increases down a group and is measured by this property.	What is atomic polarizability?
+r2	Periodic Table	400	41	Chemists using a thermodynamic sign convention call the enthalpy change when a gaseous atom accepts an electron this.	What is electron-gain enthalpy?
+r2	Periodic Table	400	41	Differences in bond energies underpin this dimensionless ranking of atoms' attraction for shared electrons.	What is the Pauling scale?
+r2	Periodic Table	400	41	This tendency to lose electrons and form positive ions generally strengthens toward the lower-left corner of the table.	What is metallic character?
+r2	Periodic Table	400	41	Dots placed around an element abbreviation represent its outer electrons in this compact bonding notation.	What is a Lewis symbol?
+r2	Periodic Table	400	41	A eutectic mixture of sodium and potassium remains liquid near room temperature and is known by this blended formula-name.	What is NaK alloy?
+r2	Periodic Table	400	41	Compounds such as magnesium bromide and calcium hydride contain a metal from group 2, whose two outer electrons occupy this block.	What is the s block?
+r2	Periodic Table	400	41	Compounds in which a group-15 element acts as the more negative partner, such as gallium arsenide, belong to this binary class.	What are pnictides?
+r2	Periodic Table	400	41	Sulfides, selenides, and tellurides are grouped under this family name for binary compounds.	What are chalcogenides?
+r2	Periodic Table	400	41	ClF3 and BrF5 combine two different salt-forming elements and therefore belong to this molecular class.	What are interhalogen compounds?
+r2	Periodic Table	400	41	Neil Bartlett's reaction of xenon with platinum hexafluoride overturned the assumption of total inertness by producing the first recognized example of this class.	What is a noble-gas compound?
+r2	Periodic Table	400	41	Absorption of visible light while an electron moves between split d orbitals helps give many central-block compounds their colors.	What is a d-d transition?
+r2	Periodic Table	400	41	The two detached rows are collectively given this name because electrons progressively enter f orbitals.	What are inner-transition series?
+r2	Periodic Table	400	41	Linear cations such as UO2 with a two-plus charge exemplify this dioxo structural family characteristic of several heavy 5f elements.	What are actinyl ions?
+# Periodic Table $800
+r2	Periodic Table	800	55	The Sanskrit prefix meaning one let Mendeleev label predicted placeholders such as the ones below boron and silicon using this system.	What is eka nomenclature?
+r2	Periodic Table	800	55	Independently of Mendeleev, this German chemist plotted atomic volume against atomic weight and developed a similar classification.	Who was Lothar Meyer?
+r2	Periodic Table	800	55	X-ray frequencies let this English physicist reorder elements by nuclear charge rather than atomic weight.	Who was Henry Moseley?
+r2	Periodic Table	800	55	This Berkeley chemist proposed moving the 5f series below the main body, the arrangement now used for heavy elements.	Who was Glenn Seaborg?
+r2	Periodic Table	800	55	Noticing that every eighth element repeated properties when ordered by weight, this chemist compared the pattern to music.	Who was John Newlands?
+r2	Periodic Table	800	55	This German chemist grouped elements such as chlorine, bromine, and iodine in threes whose middle weight approximated the average of the other two.	Who was Johann Dobereiner?
+r2	Periodic Table	800	55	De Chancourtois wrapped elements around a cylinder in this helical 1862 arrangement named for Earth.	What is the telluric screw?
+r2	Periodic Table	800	55	A meeting held in this German city in 1860 helped standardize atomic weights after Cannizzaro distributed his ideas.	What was the Karlsruhe Congress?
+r2	Periodic Table	800	55	Violet spectral lines revealed the metal that matched eka-aluminium to this French discoverer in 1875.	Who was Paul-Emile Lecoq de Boisbaudran?
+r2	Periodic Table	800	55	The predicted eka-silicon closely matched this element Clemens Winkler isolated from argyrodite.	What is germanium?
+r2	Periodic Table	800	55	Mendeleev's eka-boron prediction was vindicated by discovery of this element in Scandinavian minerals.	What is scandium?
+r2	Periodic Table	800	55	Discovery of argon and its unreactive relatives required adding an entirely new column bearing this historical number.	What is group zero?
+r2	Periodic Table	800	55	Mendeleev sometimes reversed neighboring elements, notably tellurium and iodine, rather than violate this more important criterion.	What is chemical periodicity?
+r2	Periodic Table	800	55	Seaborg recognized that thorium through lawrencium primarily fill this subshell, justifying their detached placement.	What is the 5f subshell?
+r2	Periodic Table	800	55	Bombarding uranium with neutrons led these two Berkeley researchers to identify neptunium, the first element beyond uranium.	Who were Edwin McMillan and Philip Abelson?
+r2	Periodic Table	800	55	A temporary systematic name such as ununpentium was constructed digit by digit under this organization's nomenclature.	What is the IUPAC systematic element naming scheme?
+# Periodic Table $1200
+r2	Periodic Table	1200	67	In a simplified main-group model, subtracting core electrons from proton count gives this attraction felt by the outer shell.	What is core charge?
+r2	Periodic Table	1200	67	An orbital's number of radial nodes equals n minus l minus one; at each such location its radial probability falls to zero.	What is a radial node?
+r2	Periodic Table	1200	67	An s electron samples density nearer the nucleus than a p electron in the same shell, giving it more of this orbital property.	What is penetration?
+r2	Periodic Table	1200	67	Because 4f electrons screen poorly, this element at the series end is much more compact than a simple shell-count prediction suggests.	What is lutetium?
+r2	Periodic Table	1200	67	Lithium resembles magnesium, and beryllium resembles aluminium, across adjacent periods because of this slanting periodic relationship.	What is the diagonal relationship?
+r2	Periodic Table	1200	67	Heavier p-block elements may favor oxidation states two units below the group maximum because their ns pair resists bonding.	What is the inert-pair effect?
+r2	Periodic Table	1200	67	Very heavy atoms require this correction because inner electrons moving near light speed alter orbital sizes and energies.	What are relativistic effects?
+r2	Periodic Table	1200	67	Gold's yellow color and mercury's low melting point are both strongly influenced by contraction of this orbital type.	What is the 6s orbital?
+r2	Periodic Table	1200	67	Chromium favors a 3d5 4s1 ground state partly because this arrangement gives extra stability to its d subshell.	What is a half-filled subshell?
+r2	Periodic Table	1200	67	Copper favors 3d10 4s1 partly because this completely occupied subshell has enhanced stability.	What is a filled d subshell?
+r2	Periodic Table	1200	67	Across a set of ions with equal electron counts, the species with more protons generally has the smaller radius; such a set is called this.	What is an isoelectronic series?
+r2	Periodic Table	1200	67	Aluminium oxide reacts with both acids and bases, exemplifying this dual acid-base behavior.	What is amphoterism?
+r2	Periodic Table	1200	67	A thin adherent oxide layer makes aluminium and chromium much less reactive than their reduction potentials might suggest.	What is passivation?
+r2	Periodic Table	1200	67	Carbon's exceptional ability to form long chains and rings by bonding to itself is this property.	What is catenation?
+r2	Periodic Table	1200	67	White, red, and black phosphorus are structurally different forms of one element described by this phenomenon.	What is allotropy?
+r2	Periodic Table	1200	67	Combining species in high and low oxidation states to form an intermediate state, as iron metal and ferric ion form ferrous ion, is this reverse process.	What is comproportionation?
+# Periodic Table $1600
+r2	Periodic Table	1600	81	Four elements take names from this Swedish village, whose quarry yielded minerals containing yttrium and several rare earths.	What is Ytterby?
+r2	Periodic Table	1600	81	The celestial body commemorated by cerium had been found in 1801 by this astronomer at Palermo Observatory.	Who was Giuseppe Piazzi?
+r2	Periodic Table	1600	81	Palladium honors this asteroid, whose own name came from an epithet of Athena.	What is Pallas?
+r2	Periodic Table	1600	81	This woman proposed the name of element 61 from the myth of stolen fire; her husband Charles was on its discovery team.	Who was Grace Mary Coryell?
+r2	Periodic Table	1600	81	Hafnium's name derives from Hafnia, the Latin name of this capital where it was discovered.	What is Copenhagen?
+r2	Periodic Table	1600	81	Rhenium takes its name directly from this Latin word for the great river of western Germany.	What is Rhenus?
+r2	Periodic Table	1600	81	The name of lutetium preserves this Roman-era name for the settlement that became the French capital.	What is Lutetia?
+r2	Periodic Table	1600	81	Ruthenium's name uses a Latin designation for this country, homeland of one discoverer.	What is Russia?
+r2	Periodic Table	1600	81	Nihonium derives from a Japanese word meaning this country, where the element was first synthesized.	What is Japan?
+r2	Periodic Table	1600	81	Darmstadtium honors the German city containing this heavy-ion research center, where the element was produced.	What is GSI Helmholtz Centre for Heavy Ion Research?
+r2	Periodic Table	1600	81	Tennessine recognizes contributions from laboratories and researchers in this U.S. state.	What is Tennessee?
+r2	Periodic Table	1600	81	Oganesson honors this nuclear physicist, one of the few people to have an element named for him while alive.	Who is Yuri Oganessian?
+r2	Periodic Table	1600	81	Samarium's name ultimately traces through a mineral to this Russian mining official, an early person indirectly honored by an element.	Who was Vasili Samarsky-Bykhovets?
+r2	Periodic Table	1600	81	Hassium uses this Latin name for the German state containing Darmstadt, where the element was produced.	What is Hassia?
+r2	Periodic Table	1600	81	In 1900, this German physicist detected a radioactive gas emitted by radium; the gas was later named radon.	Who was Friedrich Ernst Dorn?
+r2	Periodic Table	1600	81	Gadolinium honors this Finnish chemist who isolated an oxide from the Ytterby mineral later called gadolinite.	Who was Johan Gadolin?
+# Periodic Table $2000
+r2	Periodic Table	2000	94	These empirical screening rules estimate the net nuclear charge experienced by an electron from its configuration.	What are Slater's rules?
+r2	Periodic Table	2000	94	This electronegativity definition averages an atom's ionization energy and electron affinity.	What is Mulliken electronegativity?
+r2	Periodic Table	2000	94	This scale estimates attraction for bonding electrons from effective nuclear charge divided by the square of covalent radius.	What is Allred-Rochow electronegativity?
+r2	Periodic Table	2000	94	The orbital-order mnemonic based on increasing n plus l, breaking ties by lower n, bears this name.	What is the Madelung rule?
+r2	Periodic Table	2000	94	Soft acids favor soft bases and hard acids favor hard bases under this qualitative framework introduced by Pearson.	What is hard-soft acid-base theory?
+r2	Periodic Table	2000	94	Small, highly charged cations tend to polarize large anions and increase covalent character under these rules.	What are Fajans' rules?
+r2	Periodic Table	2000	94	Closed-shell gold(I) centers can attract one another at distances comparable to hydrogen bonds through this relativistically enhanced interaction.	What is aurophilicity?
+r2	Periodic Table	2000	94	Compounds containing polyanionic frameworks and electropositive counterions, often formed by post-transition elements, belong to this class named for a German chemist.	What are Zintl phases?
+r2	Periodic Table	2000	94	Electron concentration helps predict the stable structures of certain metallic alloys under these metallurgical rules.	What are Hume-Rothery rules?
+r2	Periodic Table	2000	94	The extra stability associated with parallel-spin electrons in degenerate orbitals is often described as this quantum contribution.	What is exchange energy?
+r2	Periodic Table	2000	94	Successive filling of 5f orbitals produces a gradual size decrease across the heavy inner-transition series called this.	What is the actinide contraction?
+r2	Periodic Table	2000	94	Subtle oscillations in rare-earth complex stability across the series are known collectively by this fourfold-sounding name.	What is the lanthanide tetrad effect?
+r2	Periodic Table	2000	94	A predicted region where certain superheavy nuclei have unusually long half-lives because of closed nuclear shells bears this geographic metaphor.	What is the island of stability?
+r2	Periodic Table	2000	94	Elements heavier than fermium are sometimes grouped under this collective term, especially in nuclear-chemistry history.	What are transfermium elements?
+r2	Periodic Table	2000	94	Cosmic and terrestrial abundances generally favor even-proton elements over adjacent odd-proton elements under this empirical rule.	What is the Oddo-Harkins rule?
+r2	Periodic Table	2000	94	In Pettifor's ordering, elements receive values on this empirical scale designed to organize structural chemistry beyond atomic number.	What is the Mendeleev number?
+# Energy & Forces: mechanics, gravitation, fields, fluids, elasticity, and variational principles.
+r2	Energy & Forces	400	41	Rocket engineers divide thrust by propellant weight-flow rate to obtain this performance measure, commonly reported in seconds.	What is specific impulse?
+r2	Energy & Forces	400	41	An electric traction motor used as a generator can slow a vehicle while sending its output into resistor banks as heat through this method.	What is rheostatic braking?
+r2	Energy & Forces	400	41	With only conservative forces acting, the combined kinetic and potential forms remain constant under this principle.	What is conservation of mechanical energy?
+r2	Energy & Forces	400	41	Before two surfaces begin sliding, this contact force adjusts up to a maximum value to oppose impending motion.	What is static friction?
+r2	Energy & Forces	400	41	At low Reynolds number, drag on a small sphere is proportional to viscosity, radius, and speed under this relation.	What is Stokes drag?
+r2	Energy & Forces	400	41	For uniform circular motion, the acceleration points toward the circle's center even when speed is constant.	What is centripetal acceleration?
+r2	Energy & Forces	400	41	The perpendicular distance from a rotation axis to a force's line of action is this rotational distance.	What is the moment arm?
+r2	Energy & Forces	400	41	A blow delivered at this point on a bat or racket causes no impulsive reaction at the pivot, helping define its mechanical sweet spot.	What is the center of percussion?
+r2	Energy & Forces	400	41	A spring's displacement per unit applied force is this flexibility measure, the reciprocal of stiffness.	What is mechanical compliance?
+r2	Energy & Forces	400	41	The negative ratio of transverse strain to axial strain describes how much a stretched material narrows.	What is Poisson's ratio?
+r2	Energy & Forces	400	41	James Watt popularized this unit equal to 550 foot-pounds per second while marketing steam engines.	What is horsepower?
+r2	Energy & Forces	400	41	Multiple pulleys sharing a rope form this rig, multiplying lifting force at the cost of pulling more rope.	What is a block and tackle?
+r2	Energy & Forces	400	41	This floating instrument sinks deeper in a less dense liquid and directly measures relative density.	What is a hydrometer?
+r2	Energy & Forces	400	41	A small piston driving a larger one lets this device multiply force through fluid pressure.	What is a hydraulic press?
+r2	Energy & Forces	400	41	Flow speeds up and static pressure falls as fluid passes through a pipe constriction in this named effect.	What is the Venturi effect?
+r2	Energy & Forces	400	41	Heat pumps may deliver more heating energy than their electrical input; output heat divided by work gives this ratio.	What is the coefficient of performance?
+# Energy & Forces $800
+r2	Energy & Forces	800	55	A spherically symmetric body attracts an external object as though all its mass were concentrated at its center under this result.	What is Newton's shell theorem?
+r2	Energy & Forces	800	55	A torsion balance and lead spheres let this scientist determine Earth's density and effectively measure the gravitational constant.	Who was Henry Cavendish?
+r2	Energy & Forces	800	55	Two hanging masses connected over a pulley form this apparatus for studying constant acceleration and Newton's second law.	What is an Atwood machine?
+r2	Energy & Forces	800	55	Travel eastward on a rotating Earth slightly reduces apparent weight while westward travel increases it through this named effect.	What is the Eotvos effect?
+r2	Energy & Forces	800	55	The slow rotation of a long pendulum's swing plane provides a direct terrestrial demonstration that Earth turns.	What is a Foucault pendulum?
+r2	Energy & Forces	800	55	A spinning wheel under gravity can turn its axis around the vertical rather than simply topple, exhibiting this motion.	What is gyroscopic precession?
+r2	Energy & Forces	800	55	The distance at which all a body's mass could be imagined concentrated to reproduce its rotational inertia is this quantity.	What is radius of gyration?
+r2	Energy & Forces	800	55	A heavy rotating disk smooths engine speed by storing rotational energy between power strokes.	What is a flywheel?
+r2	Energy & Forces	800	55	This theorem shifts rotational inertia from a center-of-mass axis to another one by adding mass times the squared separation.	What is the parallel-axis theorem?
+r2	Energy & Forces	800	55	Relative speed of separation divided by relative speed of approach defines this collision parameter.	What is the coefficient of restitution?
+r2	Energy & Forces	800	55	A force field expressible as the negative gradient of a scalar has zero value for this line integral around any closed path.	What is circulation?
+r2	Energy & Forces	800	55	Every point on one of these surfaces has the same potential, so moving along it requires no work from the associated field.	What is an equipotential surface?
+r2	Energy & Forces	800	55	This orbital equation relates speed at any point to the central body's mass, current distance, and semimajor axis.	What is the vis-viva equation?
+r2	Energy & Forces	800	55	For an inverse-square gravitational orbit, negative total mechanical energy identifies this kind of trajectory.	What is a bound orbit?
+r2	Energy & Forces	800	55	A top's resistance to rapid changes of its spin axis is commonly described by this stabilizing behavior.	What is gyroscopic stability?
+r2	Energy & Forces	800	55	A rotating frame whose angular speed is itself changing introduces this tangential inertial effect, proportional to angular acceleration.	What is the Euler force?
+# Energy & Forces $1200
+r2	Energy & Forces	1200	67	Subtracting potential energy from kinetic energy produces this function at the heart of one formulation of classical mechanics.	What is the Lagrangian?
+r2	Energy & Forces	1200	67	A physical path makes the action stationary relative to nearby possible paths under this variational rule.	What is Hamilton's principle?
+r2	Energy & Forces	1200	67	If a Lagrangian has no explicit dependence on time, this first-integral identity yields a conserved energy-like quantity.	What is the Beltrami identity?
+r2	Energy & Forces	1200	67	In canonical mechanics, this energy-like function generates time evolution of coordinates and momenta.	What is the Hamiltonian?
+r2	Energy & Forces	1200	67	Angles, lengths, or other independent variables chosen to specify a constrained system are known by this term.	What are generalized coordinates?
+r2	Energy & Forces	1200	67	For an equilibrium system, imagined infinitesimal displacements compatible with constraints make the total of these imagined works vanish.	What is the principle of virtual work?
+r2	Energy & Forces	1200	67	Adding inertial forces to applied forces turns a dynamics problem into a formal equilibrium statement under this principle.	What is D'Alembert's principle?
+r2	Energy & Forces	1200	67	If a Lagrangian does not depend explicitly on one generalized coordinate, that variable has this name and its conjugate momentum is conserved.	What is a cyclic coordinate?
+r2	Energy & Forces	1200	67	A force directed along the line joining a particle to a fixed point has this symmetry, guaranteeing angular-momentum conservation.	What is a central force?
+r2	Energy & Forces	1200	67	Combining an ordinary potential with an angular-momentum barrier reduces radial orbital motion to one dimension using this constructed function.	What is effective potential?
+r2	Energy & Forces	1200	67	A two-body problem can be recast as one fictitious particle whose mass equals the product divided by the sum.	What is reduced mass?
+r2	Energy & Forces	1200	67	The second time derivative of a system's scalar moment of inertia can be expressed in terms of kinetic energy and force virial by this identity.	What is the Lagrange-Jacobi identity?
+r2	Energy & Forces	1200	67	This conserved vector in the Kepler problem points toward periapsis and helps explain closed elliptical orbits.	What is the Laplace-Runge-Lenz vector?
+r2	Energy & Forces	1200	67	The closed, nondegenerate two-form underlying canonical mechanics is this geometric structure.	What is a symplectic form?
+r2	Energy & Forces	1200	67	All possible generalized positions, without their momenta, make up this lower-dimensional space.	What is configuration space?
+r2	Energy & Forces	1200	67	Hamiltonian flow preserves volume in phase space under this theorem.	What is Liouville's theorem?
+# Energy & Forces $1600
+r2	Energy & Forces	1600	81	Locally, a uniformly accelerating laboratory is indistinguishable from a uniform gravitational field under Einstein's foundational idea.	What is the equivalence principle?
+r2	Energy & Forces	1600	81	A freely falling body follows this locally straightest possible path through curved spacetime.	What is a geodesic?
+r2	Energy & Forces	1600	81	Energy density, momentum density, pressure, and shear act as spacetime curvature's source through this rank-two object.	What is the stress-energy tensor?
+r2	Energy & Forces	1600	81	A rotating mass drags nearby inertial frames, an effect measured around Earth by Gravity Probe B.	What is frame dragging?
+r2	Energy & Forces	1600	81	Light climbing away from a massive body is observed at longer wavelengths through this general-relativistic effect.	What is gravitational redshift?
+r2	Energy & Forces	1600	81	Differences in gravity across an extended object stretch it radially and squeeze it laterally through this differential effect.	What is a tidal force?
+r2	Energy & Forces	1600	81	This theorem says point charges cannot be held in stable static equilibrium using electrostatic forces alone.	What is Earnshaw's theorem?
+r2	Energy & Forces	1600	81	Electromagnetic energy density divided by light speed squared and multiplied by propagation velocity gives this field quantity per unit volume.	What is electromagnetic momentum density?
+r2	Energy & Forces	1600	81	Photons transfer momentum on absorption or reflection, exerting this force per unit area.	What is radiation pressure?
+r2	Energy & Forces	1600	81	This tensor packages electromagnetic tensions and pressures so forces can be found from momentum flux through a surface.	What is the Maxwell stress tensor?
+r2	Energy & Forces	1600	81	A charged particle moving perpendicular to a uniform magnetic field traces a circle at a frequency independent of speed in the nonrelativistic limit.	What is cyclotron motion?
+r2	Energy & Forces	1600	81	A conductor moving across magnetic field lines develops this voltage because charges experience magnetic deflection.	What is motional electromotive force?
+r2	Energy & Forces	1600	81	Loops of induced current in a bulk conductor oppose changing magnetic flux and can provide magnetic braking.	What are eddy currents?
+r2	Energy & Forces	1600	81	A motor's rotating coil generates a voltage opposing the supply, limiting current once the rotor speeds up.	What is back electromotive force?
+r2	Energy & Forces	1600	81	Alternating current crowds toward a conductor's surface increasingly at high frequency through this effect.	What is the skin effect?
+r2	Energy & Forces	1600	81	A magnet can levitate above a superconductor because expelled magnetic flux creates this perfect diamagnetic response.	What is the Meissner effect?
+# Energy & Forces $2000
+r2	Energy & Forces	2000	94	This partial differential equation recasts classical dynamics in terms of a principal function whose gradients give canonical momenta.	What is the Hamilton-Jacobi equation?
+r2	Energy & Forces	2000	94	For integrable periodic systems, these canonical variables pair conserved loop integrals with steadily advancing phases.	What are action-angle variables?
+r2	Energy & Forces	2000	94	A quantity such as a slowly varying oscillator's energy divided by frequency stays nearly constant and is called this.	What is an adiabatic invariant?
+r2	Energy & Forces	2000	94	In the circular restricted three-body problem, an energy-like conserved quantity in the rotating frame bears this name.	What is the Jacobi integral?
+r2	Energy & Forces	2000	94	A smaller body's gravitational dominance against a massive primary extends roughly to this radius, important for satellite stability.	What is the Hill radius?
+r2	Energy & Forces	2000	94	Only inverse-square and isotropic harmonic central potentials make every bound orbit closed, according to this theorem.	What is Bertrand's theorem?
+r2	Energy & Forces	2000	94	Most invariant tori of a slightly perturbed integrable Hamiltonian survive when their frequencies are sufficiently irrational under this theorem.	What is the Kolmogorov-Arnold-Moser theorem?
+r2	Energy & Forces	2000	94	A viscous-free potential flow predicts no drag on a body despite everyday experience, a contradiction named for this mechanician.	What is D'Alembert's paradox?
+r2	Energy & Forces	2000	94	In inviscid barotropic flow with conservative body forces, circulation around a material loop remains constant under this theorem.	What is Kelvin's circulation theorem?
+r2	Energy & Forces	2000	94	This framework converts a conservation law for a moving system into one for a fixed control volume.	What is the Reynolds transport theorem?
+r2	Energy & Forces	2000	94	A slender column becomes unstable above a critical compressive load proportional to flexural rigidity and inversely proportional to length squared.	What is Euler buckling?
+r2	Energy & Forces	2000	94	This elastic-energy theorem finds a displacement by differentiating total strain energy with respect to its applied load.	What is Castigliano's second theorem?
+r2	Energy & Forces	2000	94	Ductile yielding is often predicted when distortional energy reaches the same level as in a uniaxial tensile test, this criterion.	What is the von Mises yield criterion?
+r2	Energy & Forces	2000	94	Far from where a load is applied, different but statically equivalent load distributions produce nearly the same stress under this principle.	What is Saint-Venant's principle?
+r2	Energy & Forces	2000	94	Lift per unit span in ideal two-dimensional flow equals fluid density times speed times circulation under this theorem.	What is the Kutta-Joukowski theorem?
+r2	Energy & Forces	2000	94	A quantum system's energy derivative with respect to a parameter equals the expectation of the Hamiltonian's derivative under this theorem.	What is the Hellmann-Feynman theorem?
+# Astronomy: observational methods, observatories, stellar evolution, galaxies, and cosmology.
+r2	Astronomy	400	41	Repeatedly early or late planetary crossings can reveal another unseen planet tugging on the transiting world through this technique.	What are transit timing variations?
+r2	Astronomy	400	41	Periodic shifts of a star's spectral lines reveal its toward-and-away motion caused by an orbiting companion through this detection method.	What is Doppler spectroscopy?
+r2	Astronomy	400	41	Earth's changing vantage point makes a nearby star trace a tiny annual apparent shift against distant stars, enabling this distance method.	What is trigonometric parallax?
+r2	Astronomy	400	41	Subtracting absolute magnitude from apparent magnitude produces this quantity, directly related to logarithmic distance.	What is the distance modulus?
+r2	Astronomy	400	41	Astronomers plot a cluster's stellar brightness against color in this observational counterpart of the Hertzsprung-Russell diagram.	What is a color-magnitude diagram?
+r2	Astronomy	400	41	The brightest point where cluster stars have begun leaving hydrogen-burning maturity reveals the cluster's age.	What is the main-sequence turnoff?
+r2	Astronomy	400	41	Periodic dips occur when the two stellar components of this system alternately pass in front of one another.	What is an eclipsing binary?
+r2	Astronomy	400	41	Two stars may be recognized only through alternating Doppler shifts of their absorption lines in this kind of pair.	What is a spectroscopic binary?
+r2	Astronomy	400	41	A graph of an object's brightness against time can reveal eclipses, flares, rotation, or pulsation.	What is a light curve?
+r2	Astronomy	400	41	Some airless bodies brighten sharply at nearly full phase as shadows vanish and coherent backscatter strengthens.	What is the opposition surge?
+r2	Astronomy	400	41	This angular separation from the Sun determines whether an inner planet appears as a morning or evening object.	What is solar elongation?
+r2	Astronomy	400	41	Observing near the horizon looks through more atmosphere; astronomers quantify that longer path with this dimensionless measure.	What is airmass?
+r2	Astronomy	400	41	Atmospheric turbulence broadens a star's image, and observers describe the resulting angular blur with this term.	What is astronomical seeing?
+r2	Astronomy	400	41	Ground telescopes rapidly reshape a mirror using a reference star to correct atmospheric wavefront distortion in this technique.	What is adaptive optics?
+r2	Astronomy	400	41	Blocking a bright star inside a telescope makes faint nearby planets or disks easier to image with this instrument.	What is a coronagraph?
+r2	Astronomy	400	41	Combining light from separated telescopes can achieve the resolving power of an aperture comparable to their separation.	What is aperture synthesis?
+# Astronomy $800
+r2	Astronomy	800	55	This relationship discovered using Magellanic Cloud stars makes longer-period Cepheids intrinsically brighter.	What is the Leavitt law?
+r2	Astronomy	800	55	Adding a Roman-numeral luminosity class to spectral type distinguishes a G2 giant from a G2 dwarf in this two-dimensional system.	What is the Morgan-Keenan classification?
+r2	Astronomy	800	55	This Harvard astronomer devised a nuanced stellar classification using spectral line widths and identified unusually narrow-lined stars.	Who was Antonia Maury?
+r2	Astronomy	800	55	The radio array whose data revealed the first pulsar had been built to study this rapid flickering of compact sources caused by the solar wind.	What is interplanetary scintillation?
+r2	Astronomy	800	55	A rotating antenna built to study telephone static led this Bell Labs engineer to radio emission from the Milky Way.	Who was Karl Jansky?
+r2	Astronomy	800	55	A dark dust-cleared region toward the Galactic center used to study dense star fields bears this astronomer's name.	What is Baade's Window?
+r2	Astronomy	800	55	Ten days of exposure in a seemingly empty Ursa Major patch produced this 1995 image containing thousands of distant galaxies.	What is the Hubble Deep Field?
+r2	Astronomy	800	55	Edwin Hubble used the 100-inch Hooker instrument at this California observatory to identify Cepheids in Andromeda.	What is Mount Wilson Observatory?
+r2	Astronomy	800	55	Its 305-meter dish transmitted the 1974 Arecibo message and discovered the first binary pulsar.	What was Arecibo Observatory?
+r2	Astronomy	800	55	Twenty-seven movable dishes spread across New Mexico form this Y-shaped radio interferometer.	What is the Very Large Array?
+r2	Astronomy	800	55	A worldwide network of radio observatories combined data to image the shadow region around M87's central black hole.	What is the Event Horizon Telescope?
+r2	Astronomy	800	55	Launched in 1989, this ESA satellite measured stellar positions and parallaxes with unprecedented space-based precision.	What was Hipparcos?
+r2	Astronomy	800	55	This NASA mission stared at one patch of sky to find planets from repeated brightness dips and transformed exoplanet statistics.	What was the Kepler mission?
+r2	Astronomy	800	55	A cryogenic instrument aboard the Cosmic Background Explorer established the microwave spectrum's extraordinarily precise blackbody shape.	What was the Far Infrared Absolute Spectrophotometer?
+r2	Astronomy	800	55	This orbiting infrared telescope launched in 2003 was renamed for the theorist who advocated a large observatory in space decades before Hubble.	What was the Spitzer Space Telescope?
+r2	Astronomy	800	55	Launched in 1978 and later named for the relativity pioneer, this satellite was the first fully imaging X-ray telescope placed in space.	What was the Einstein Observatory?
+# Astronomy $1200
+r2	Astronomy	1200	67	A rare solar fusion branch combines two protons and one electron directly into deuterium while emitting a neutrino.	What is the pep reaction?
+r2	Astronomy	1200	67	Rapid transport of beryllium-7 to cooler stellar layers lets it decay into lithium before proton capture destroys it through this mechanism.	What is the Cameron-Fowler mechanism?
+r2	Astronomy	1200	67	Two helium nuclei briefly form unstable beryllium before a third arrives to create carbon in this stellar reaction sequence.	What is the triple-alpha process?
+r2	Astronomy	1200	67	Degenerate helium ignition occurs explosively in the cores of many low-mass red giants during this event.	What is the helium flash?
+r2	Astronomy	1200	67	As some white dwarfs cool, carbon and oxygen ions arrange into a lattice and release latent heat during this phase change.	What is white-dwarf crystallization?
+r2	Astronomy	1200	67	An oxygen-neon-magnesium core can lose pressure when nuclei absorb electrons, triggering this distinct supernova channel.	What is an electron-capture supernova?
+r2	Astronomy	1200	67	An iron stellar core's implosion rebounds and launches a shock in this broad supernova mechanism.	What is core collapse?
+r2	Astronomy	1200	67	Energetic gamma rays split iron-group nuclei into lighter particles, draining thermal energy from a collapsing stellar core.	What is photodisintegration?
+r2	Astronomy	1200	67	Protons combining with electrons in a collapsing core produce neutrons and neutrinos through this process.	What is neutronization?
+r2	Astronomy	1200	67	Rapid neutron capture in explosive, neutron-rich environments builds many nuclei heavier than iron through this pathway.	What is the r-process?
+r2	Astronomy	1200	67	Slow neutron captures, allowing beta decay between captures, build heavy nuclei inside evolved stars through this pathway.	What is the s-process?
+r2	Astronomy	1200	67	An extremely massive star can create electron-positron pairs, soften radiation pressure, and explode through this mechanism.	What is a pair-instability supernova?
+r2	Astronomy	1200	67	A giant star can engulf its companion inside one shared gaseous shroud during this brief binary-evolution phase.	What is common-envelope evolution?
+r2	Astronomy	1200	67	Matter crossing a binary system's teardrop-shaped gravitational boundary can stream from one star to its companion.	What is Roche-lobe overflow?
+r2	Astronomy	1200	67	A magnetized stellar wind can carry away spin angular momentum and gradually slow a star through this process.	What is magnetic braking?
+r2	Astronomy	1200	67	Convective motions plus rotation can maintain a star's large-scale magnetic field through this mechanism.	What is a stellar dynamo?
+# Astronomy $1600
+r2	Astronomy	1600	81	Above this luminosity, outward radiation force on ionized gas balances inward gravity for spherical accretion.	What is the Eddington luminosity?
+r2	Astronomy	1600	81	This power-law distribution proposed in 1955 describes how many stars form at each initial mass.	What is the Salpeter initial mass function?
+r2	Astronomy	1600	81	Features in a spiral galaxy's light distribution often correspond to features in its rotation curve, an empirical observation bearing this name.	What is Renzo's rule?
+r2	Astronomy	1600	81	For elliptical galaxies, luminosity scales strongly with stellar velocity dispersion under this named relation.	What is the Faber-Jackson relation?
+r2	Astronomy	1600	81	Elliptical galaxies occupy this narrow surface in the space of radius, surface brightness, and velocity dispersion.	What is the fundamental plane?
+r2	Astronomy	1600	81	Sound waves in the early plasma left a preferred comoving separation in galaxy clustering used as a cosmic standard ruler.	What are baryon acoustic oscillations?
+r2	Astronomy	1600	81	Microwave photons gain or lose net energy while crossing gravitational potentials that evolve during their passage, producing this late-time anisotropy.	What is the integrated Sachs-Wolfe effect?
+r2	Astronomy	1600	81	Hot electrons in galaxy clusters scatter microwave-background photons, distorting their spectrum through this effect.	What is the Sunyaev-Zeldovich effect?
+r2	Astronomy	1600	81	Adding a uniform convergence sheet while rescaling a lens source can leave image positions and relative shapes unchanged, creating this modeling ambiguity.	What is the mass-sheet degeneracy?
+r2	Astronomy	1600	81	Near-perfect source-lens-observer alignment can stretch a background galaxy into this circular image.	What is an Einstein ring?
+r2	Astronomy	1600	81	A foreground star briefly magnifies a background source without resolving multiple images in this transient technique.	What is gravitational microlensing?
+r2	Astronomy	1600	81	A radar signal passing near the Sun takes slightly longer than Euclidean geometry predicts through this relativistic effect.	What is Shapiro delay?
+r2	Astronomy	1600	81	Correlated timing changes across many millisecond pulsars can reveal extremely low-frequency gravitational waves using this galactic-scale detector.	What is a pulsar timing array?
+r2	Astronomy	1600	81	Frequency-dependent radio pulse delay measures the integrated free-electron column along a pulsar sightline using this quantity.	What is dispersion measure?
+r2	Astronomy	1600	81	A magnetized plasma rotates a radio wave's polarization angle by an amount proportional to wavelength squared through this effect.	What is Faraday rotation?
+r2	Astronomy	1600	81	A quasar's spectrum broken into many intervening hydrogen absorption lines blueward of its own emission forms this feature.	What is the Lyman-alpha forest?
+# Astronomy $2000
+r2	Astronomy	2000	94	This differential equation describes the density profile of a self-gravitating polytropic sphere in hydrostatic equilibrium.	What is the Lane-Emden equation?
+r2	Astronomy	2000	94	An isothermal helium core above this fractional mass can no longer support a hydrogen-rich envelope in equilibrium, forcing contraction.	What is the Schonberg-Chandrasekhar limit?
+r2	Astronomy	2000	94	A fully convective young star descends nearly vertically in a luminosity-temperature diagram along this path.	What is the Hayashi track?
+r2	Astronomy	2000	94	A more massive pre-main-sequence star evolves toward higher temperature at nearly constant luminosity along this path.	What is the Henyey track?
+r2	Astronomy	2000	94	This often-qualified principle says a star's mass and composition determine its equilibrium radius, luminosity, and internal structure.	What is the Vogt-Russell theorem?
+r2	Astronomy	2000	94	Deep in an optically thick star, opacity averaged with greatest weight where radiation transports energy efficiently uses this harmonic-style mean.	What is the Rosseland mean opacity?
+r2	Astronomy	2000	94	For certain bound-free and free-free processes, opacity scales approximately with density times temperature to the minus seven-halves under this law.	What is Kramers' opacity law?
+r2	Astronomy	2000	94	An expanding universe makes identical sources dim with redshift as one plus z to the fourth, enabling this observational test.	What is the Tolman surface-brightness test?
+r2	Astronomy	2000	94	Comparing a feature's apparent radial and transverse scales constrains cosmology without assuming its true size under this geometric test.	What is the Alcock-Paczynski test?
+r2	Astronomy	2000	94	Near-complete absorption blueward of redshifted Lyman-alpha emission signals a substantial neutral-hydrogen intergalactic medium in this feature.	What is the Gunn-Peterson trough?
+r2	Astronomy	2000	94	Peculiar velocities enhance apparent large-scale clustering along the line of sight through this linear redshift-space effect.	What is the Kaiser effect?
+r2	Astronomy	2000	94	A flux-limited survey preferentially includes intrinsically bright objects at greater distances, creating this selection bias.	What is Malmquist bias?
+r2	Astronomy	2000	94	Only a finite number of independent large-scale modes fit in the observable universe, imposing this irreducible statistical uncertainty.	What is cosmic variance?
+r2	Astronomy	2000	94	Monitoring the slow change of distant objects' redshifts over decades would directly measure cosmic expansion through this proposed test.	What is the Sandage-Loeb test?
+r2	Astronomy	2000	94	In metric gravity with photons conserved, luminosity distance equals angular-diameter distance times one plus redshift squared under this relation.	What is Etherington's distance-duality relation?
+r2	Astronomy	2000	94	The maximum mass of a cold, nonrotating neutron star follows from relativistic hydrostatic balance and bears these three physicists' names.	What is the Tolman-Oppenheimer-Volkoff limit?

@@ -1,0 +1,409 @@
+# QuizArena researched expansion batch 05
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: U.S. Geological Survey ecology publications (https://www.usgs.gov/); Natural History Museum fossil and dinosaur resources (https://www.nhm.ac.uk/discover/dinosaurs.html and https://www.nhm.ac.uk/discover/how-are-fossils-formed.html).
+# Research anchors: CERN's Web history (https://home.cern/science/computing/birth-web); Internet Society's Internet history (https://www.internetsociety.org/internet/history-internet/brief-history-internet/); Computer History Museum timelines (https://www.computerhistory.org/timeline/ and https://www.computerhistory.org/storageengine/); Smithsonian technology collections (https://americanhistory.si.edu/).
+# ECOLOGY - 16 clues at each Round One value
+r1	Ecology	200	22	A fallen tree that becomes a raised nursery for seedlings on the forest floor is known by this two-word term.	What is a nurse log?
+r1	Ecology	200	22	This strip of connected habitat lets animals move between otherwise isolated natural areas.	What is a wildlife corridor?
+r1	Ecology	200	22	Vegetation maintained along a stream to filter runoff and shade the water forms this kind of buffer.	What is a riparian buffer?
+r1	Ecology	200	22	A fallen tree may open this sunlit break in the forest roof.	What is a canopy gap?
+r1	Ecology	200	22	This shallow seasonal woodland wetland often dries before fish can colonize, making it valuable amphibian habitat.	What is a vernal pool?
+r1	Ecology	200	22	Lichens, mosses, and cyanobacteria can bind desert soil into this living surface layer.	What is a biological soil crust?
+r1	Ecology	200	22	A glacially formed seasonal wetland of the northern Great Plains bears this cookware-inspired name.	What is a prairie pothole?
+r1	Ecology	200	22	A sunken cetacean carcass can support a succession of deep-sea scavengers as this localized ecosystem.	What is a whale-fall community?
+r1	Ecology	200	22	Instead of roots, a kelp anchors itself to rock with this gripping structure.	What is a holdfast?
+r1	Ecology	200	22	A female salmon excavates this gravel nest where she deposits eggs.	What is a redd?
+r1	Ecology	200	22	Seaweed and other debris deposited along the high-tide line form this beach habitat.	What is the wrack line?
+r1	Ecology	200	22	Ecologists call the arrival of dispersed seeds onto a site by this precipitation-like phrase.	What is seed rain?
+r1	Ecology	200	22	The standing dead tree that supplies nest cavities and insects to forest wildlife is called this.	What is a snag?
+r1	Ecology	200	22	Hoofed animals repeatedly visit this mineral-rich patch to obtain sodium and other nutrients.	What is a salt lick?
+r1	Ecology	200	22	A mound of shells or bones left where an animal repeatedly feeds is known by this archaeological-sounding term.	What is a feeding midden?
+r1	Ecology	200	22	The compact bundle of indigestible fur and bones regurgitated by a raptor has this name.	What is a cast pellet?
+r1	Ecology	400	36	In this relationship, each partner benefits but can survive without the other.	What is facultative mutualism?
+r1	Ecology	400	36	Fig wasps and many fig species illustrate this relationship in which partners depend on one another to reproduce.	What is obligate mutualism?
+r1	Ecology	400	36	A harmless species gains protection by resembling a dangerous one in this form of mimicry.	What is Batesian mimicry?
+r1	Ecology	400	36	Multiple genuinely harmful species converge on the same warning pattern in this form of mimicry.	What is Mullerian mimicry?
+r1	Ecology	400	36	The model in which early colonists improve a site for later species bears this helpful name.	What is the facilitation model of succession?
+r1	Ecology	400	36	Under this succession model, established colonists hinder newcomers until damage or death frees space.	What is the inhibition model of succession?
+r1	Ecology	400	36	Under this succession model, later species can establish despite early colonists and eventually outlive them.	What is the tolerance model of succession?
+r1	Ecology	400	36	The smaller set of conditions a species occupies after competition is its version of this kind of niche.	What is a realized niche?
+r1	Ecology	400	36	The full range of conditions a species could occupy without competitors defines this kind of niche.	What is a fundamental niche?
+r1	Ecology	400	36	Organisms that exploit the same class of resources in similar ways make up one of these functional groups.	What is an ecological guild?
+r1	Ecology	400	36	A variable whose effect grows as a population becomes crowded, such as disease transmission, is this kind of factor.	What is a density-dependent factor?
+r1	Ecology	400	36	A hurricane affects populations regardless of their crowding, so it is classified as this kind of factor.	What is a density-independent factor?
+r1	Ecology	400	36	Short-lived organisms producing many offspring with little parental care are described by this life-history label.	What is r-selection?
+r1	Ecology	400	36	Long-lived organisms investing heavily in relatively few young are associated with this life-history label.	What is K-selection?
+r1	Ecology	400	36	Eating at more than one trophic level, as when a bear consumes both berries and salmon, is called this.	What is trophic omnivory?
+r1	Ecology	400	36	Species coexist by using different portions or times of a shared food supply through this process.	What is resource partitioning?
+r1	Ecology	600	51	Loss of a top predator can unleash smaller predators and intensify pressure on their prey, an outcome called this.	What is mesopredator release?
+r1	Ecology	600	51	A plant flowering before its pollinator arrives because each responds differently to warming exemplifies this timing problem.	What is phenological mismatch?
+r1	Ecology	600	51	An attractive-looking habitat that lowers survival or reproduction creates this deceptively named situation.	What is an ecological trap?
+r1	Ecology	600	51	Below a critical abundance, difficulty finding mates may accelerate decline through this named effect.	What is the Allee effect?
+r1	Ecology	600	51	Patches producing excess emigrants and patches maintained by immigration form this paired population system.	What are source-sink dynamics?
+r1	Ecology	600	51	A network of local populations linked by occasional dispersal is called this.	What is a metapopulation?
+r1	Ecology	600	51	Species from neighboring communities often overlap along their shared boundary, creating this habitat type.	What is an ecological edge?
+r1	Ecology	600	51	A gradual spatial change in a trait or community along an environmental gradient is this.	What is an ecocline?
+r1	Ecology	600	51	This hypothesis predicts peak diversity where disruption is neither rare nor overwhelming.	What is the intermediate disturbance hypothesis?
+r1	Ecology	600	51	Immigration that prevents a small local population from disappearing produces this effect.	What is the rescue effect?
+r1	Ecology	600	51	A community's legacy of past conditions that influences its response after disturbance is called this.	What is ecological memory?
+r1	Ecology	600	51	Nutrients carried from one ecosystem into another, such as salmon-derived nitrogen entering forests, are termed these.	What are cross-ecosystem subsidies?
+r1	Ecology	600	51	The ratio of carbon, nitrogen, and phosphorus in organisms and resources is central to this ecological field.	What is ecological stoichiometry?
+r1	Ecology	600	51	Predators determining the abundance of lower levels exemplify this direction of community regulation.	What is top-down control?
+r1	Ecology	600	51	Nutrient supply determining herbivore and predator abundance exemplifies this direction of community regulation.	What is bottom-up control?
+r1	Ecology	600	51	A lake persisting as either clear or algae-dominated despite similar external conditions illustrates these.	What are alternative stable states?
+r1	Ecology	800	68	This hypothesis says host-specific enemies near adult trees keep any one tropical tree species from dominating.	What is the Janzen-Connell hypothesis?
+r1	Ecology	800	68	The lowest resource level at which a species can replace itself is central to Tilman's rule bearing this symbol.	What is the R-star rule?
+r1	Ecology	800	68	Introduced organisms may thrive after leaving their coevolved predators and parasites behind under this hypothesis.	What is the enemy release hypothesis?
+r1	Ecology	800	68	Year-to-year environmental variation can preserve competitors when each stores gains from its favorable years under this mechanism.	What is the storage effect?
+r1	Ecology	800	68	Species absent from a site but present in the surrounding region and environmentally capable of living there comprise this.	What is dark diversity?
+r1	Ecology	800	68	Future species losses committed by earlier habitat destruction but not yet realized constitute this delayed cost.	What is extinction debt?
+r1	Ecology	800	68	The delayed appearance of species after habitat restoration is the positive counterpart of extinction debt, called this.	What is colonization credit?
+r1	Ecology	800	68	Communities in different places becoming more alike because the same widespread species replace local specialists undergo this.	What is biotic homogenization?
+r1	Ecology	800	68	Turnover in species composition among sites is measured by this Greek-letter form of diversity.	What is beta diversity?
+r1	Ecology	800	68	Several species performing similar ecosystem roles provide this buffer against the loss of any one.	What is functional redundancy?
+r1	Ecology	800	68	Species that perform the same role but react differently to drought or disturbance provide this kind of diversity.	What is response diversity?
+r1	Ecology	800	68	The order in which species arrive can alter the final community through these historical contingencies.	What are priority effects?
+r1	Ecology	800	68	Each generation accepting the depleted environment of its youth as normal illustrates this conservation bias.	What is shifting baseline syndrome?
+r1	Ecology	800	68	The predictable increase in diversity from local plots to landscapes is evaluated with this curve.	What is a species-area relationship?
+r1	Ecology	800	68	Ecosystem function may be governed chiefly by the traits of the most abundant species under this hypothesis.	What is the mass-ratio hypothesis?
+r1	Ecology	800	68	Environmental filtering followed by competition is one framework for this process of forming a local community.	What is community assembly?
+r1	Ecology	1000	84	Diversity can stabilize aggregate ecosystem output because species fluctuate asynchronously, producing this finance-inspired effect.	What is the portfolio effect?
+r1	Ecology	1000	84	Biodiversity may protect ecosystem functioning because different species respond differently to change under this hypothesis.	What is the insurance hypothesis?
+r1	Ecology	1000	84	Viruses preferentially attacking the most abundant microbial host can maintain diversity through this dynamic.	What is kill-the-winner dynamics?
+r1	Ecology	1000	84	Dissolved organic matter returning to the food web through bacteria and their grazers travels through this pathway.	What is the microbial loop?
+r1	Ecology	1000	84	Fresh carbon released by roots can accelerate decomposition of older soil organic matter through this effect.	What is rhizosphere priming?
+r1	Ecology	1000	84	Leaf litter often decomposes faster beneath its source species than beneath a different species, a pattern called this.	What is the home-field advantage in decomposition?
+r1	Ecology	1000	84	A consumer's impact shifts from beneficial subsidy at low inputs to damaging overload at high inputs under this hypothesis.	What is the subsidy-stress gradient?
+r1	Ecology	1000	84	Hubbell's model treats ecologically similar species as demographically equivalent and gives this theory its name.	What is unified neutral theory?
+r1	Ecology	1000	84	Organisms changing selection pressures by modifying their own environments engage in this evolutionary process.	What is niche construction?
+r1	Ecology	1000	84	A species using a novel partner because ancestral traits already fit the interaction illustrates this process.	What is ecological fitting?
+r1	Ecology	1000	84	Closely related species resembling each other more than random species in an ecological trait show this pattern.	What is phylogenetic signal?
+r1	Ecology	1000	84	The set of traits favored by habitat conditions before biotic interactions act is known as this community-assembly screen.	What is an environmental filter?
+r1	Ecology	1000	84	Dispersal from productive habitat can maintain consumers in a neighboring unproductive patch through this process.	What is spatial subsidy?
+r1	Ecology	1000	84	A regional process overwhelms local environmental sorting when large numbers of immigrants sustain poorly suited species, an effect called this.	What is mass effects?
+r1	Ecology	1000	84	The proportion of regional species found within a local site is measured by this paired-scale term.	What is alpha-to-gamma diversity?
+r1	Ecology	1000	84	Species interactions changing across an environmental gradient form this named geographic pattern.	What is a geographic mosaic of coevolution?
+# DINOSAURS & FOSSILS - 16 clues at each Round One value
+r1	Dinosaurs & Fossils	200	22	Plaster and burlap wrapped around a fossil-bearing block form this protective field covering.	What is a fossil jacket?
+r1	Dinosaurs & Fossils	200	22	A series of preserved footprints showing an animal's direction and gait is called this.	What is a fossil trackway?
+r1	Dinosaurs & Fossils	200	22	A thin dark outline left when pressure drives off a buried organism's volatile material is this fossil type.	What is a carbon film fossil?
+r1	Dinosaurs & Fossils	200	22	Sediment filling the inside of a shell and hardening can preserve this replica of its inner surface.	What is an internal mold?
+r1	Dinosaurs & Fossils	200	22	An impression preserving an organism's outside shape without the original material is this.	What is an external mold?
+r1	Dinosaurs & Fossils	200	22	An insect sealed in hardened tree resin is preserved as this kind of fossil.	What is an amber inclusion?
+r1	Dinosaurs & Fossils	200	22	La Brea preserves animals trapped in this sticky petroleum feature.	What is an asphalt seep?
+r1	Dinosaurs & Fossils	200	22	Splitting fossil-bearing rock can reveal a specimen on one half and this matching impression on the other.	What is a fossil counterpart?
+r1	Dinosaurs & Fossils	200	22	Sediment that hardens after filling an empty shell mold produces this positive replica.	What is a sediment cast?
+r1	Dinosaurs & Fossils	200	22	The site where a newly named fossil species was first found becomes this reference place.	What is a type locality?
+r1	Dinosaurs & Fossils	200	22	Bones preserved in their life positions make up this kind of skeleton.	What is an articulated skeleton?
+r1	Dinosaurs & Fossils	200	22	A concentrated deposit containing remains of many individuals is called this.	What is a bone bed?
+r1	Dinosaurs & Fossils	200	22	Smooth stones swallowed to help grind food in a dinosaur's digestive tract have this name.	What are gastroliths?
+r1	Dinosaurs & Fossils	200	22	Fossilized stomach contents expelled through the mouth are classified by this term.	What is a regurgitalite?
+r1	Dinosaurs & Fossils	200	22	Preparators apply this penetrating resin to strengthen fragile bone before removing more rock.	What is a fossil consolidant?
+r1	Dinosaurs & Fossils	200	22	A specimen selected as the name-bearing example of a newly described species is this.	What is a holotype?
+r1	Dinosaurs & Fossils	400	36	The study of fossil tracks, burrows, and other evidence of behavior is this branch of paleontology.	What is ichnology?
+r1	Dinosaurs & Fossils	400	36	This field examines what happens to remains from an organism's death through burial and discovery.	What is taphonomy?
+r1	Dinosaurs & Fossils	400	36	A bony plate embedded in skin, prominent in armored dinosaurs, has this anatomical name.	What is an osteoderm?
+r1	Dinosaurs & Fossils	400	36	A ring of small bones supporting the eye occurs in many dinosaurs and living birds under this name.	What is a sclerotic ring?
+r1	Dinosaurs & Fossils	400	36	Air-filled spaces connected to respiratory sacs make a vertebra this descriptive type of bone.	What is a pneumatic bone?
+r1	Dinosaurs & Fossils	400	36	This temporary calcium-rich tissue in egg-laying birds provided evidence that a Tyrannosaurus specimen was female.	What is medullary bone?
+r1	Dinosaurs & Fossils	400	36	Microscopic study of growth and blood-vessel patterns in fossil bone is known by this term.	What is bone histology?
+r1	Dinosaurs & Fossils	400	36	Seasonal pauses visible in dinosaur bone sections are abbreviated LAGs and spelled out as these.	What are lines of arrested growth?
+r1	Dinosaurs & Fossils	400	36	A belly basket of riblike bones found in many reptiles and dinosaurs consists of these elements.	What are gastralia?
+r1	Dinosaurs & Fossils	400	36	The paired collarbones fused into a wishbone in theropods and birds form this structure.	What is the furcula?
+r1	Dinosaurs & Fossils	400	36	Small hooked projections on bird ribs, also found in some non-avian dinosaurs, are these processes.	What are uncinate processes?
+r1	Dinosaurs & Fossils	400	36	The shortened fused tail vertebrae supporting a bird's tail feathers form this structure.	What is the pygostyle?
+r1	Dinosaurs & Fossils	400	36	A toothless bone at the front of an ornithischian lower jaw bears this name.	What is the predentary?
+r1	Dinosaurs & Fossils	400	36	This opening in the skull lies in front of the eye socket and characterizes archosaurs.	What is the antorbital fenestra?
+r1	Dinosaurs & Fossils	400	36	A closely packed set of replacement and working teeth in hadrosaurs forms this structure.	What is a dental battery?
+r1	Dinosaurs & Fossils	400	36	A thickened mass at the end of an ankylosaur's tail could form this defensive structure.	What is a tail club?
+r1	Dinosaurs & Fossils	600	51	Filament impressions around this small Chinese theropod provided landmark evidence of feathered dinosaurs.	What is Sinosauropteryx?
+r1	Dinosaurs & Fossils	600	51	Four winglike feathered limbs made this small dromaeosaur one of the most striking fossils from Liaoning.	What is Microraptor?
+r1	Dinosaurs & Fossils	600	51	Known for giant arms before a more complete skeleton revealed a broad bill and sail-like back, this theropod puzzled scientists for decades.	What is Deinocheirus?
+r1	Dinosaurs & Fossils	600	51	A large claw found in an English clay pit led to the naming of this fish-eating spinosaurid.	What is Baryonyx?
+r1	Dinosaurs & Fossils	600	51	Nesting grounds in Montana inspired this hadrosaur's name meaning good mother lizard.	What is Maiasaura?
+r1	Dinosaurs & Fossils	600	51	Its name means egg thief, but later finds showed adults brooding nests that likely contained their own eggs.	What is Oviraptor?
+r1	Dinosaurs & Fossils	600	51	Exceptionally preserved armor and stomach contents made this nodosaur from Alberta's oil sands famous.	What is Borealopelta?
+r1	Dinosaurs & Fossils	600	51	This ankylosaur named for a Ghostbusters monster has a species name meaning destroyer of shins.	What is Zuul crurivastator?
+r1	Dinosaurs & Fossils	600	51	Fine Bavarian limestone preserved this Jurassic animal with teeth, claws, and impressions of flight feathers.	What is the Berlin Archaeopteryx?
+r1	Dinosaurs & Fossils	600	51	This Hungarian aristocrat used Transylvanian fossils to propose that island isolation produced dwarf dinosaurs.	Who is Franz Nopcsa?
+r1	Dinosaurs & Fossils	600	51	Carnegie Quarry's dense Jurassic dinosaur deposit lies within this colorful upper division of its formation.	What is the Brushy Basin Member?
+r1	Dinosaurs & Fossils	600	51	Rocks spanning the final age of non-avian dinosaurs in Montana and the Dakotas make up this formation.	What is the Hell Creek Formation?
+r1	Dinosaurs & Fossils	600	51	Northern Greenland's early Cambrian soft-bodied animals are exceptionally preserved at this site.	What is Sirius Passet?
+r1	Dinosaurs & Fossils	600	51	Marine lagoons in this German limestone preserved delicate Jurassic organisms in extraordinary detail.	What is the Solnhofen Limestone?
+r1	Dinosaurs & Fossils	600	51	Feathered dinosaurs and early birds abound in this Early Cretaceous fossil assemblage of northeastern China.	What is the Jehol Biota?
+r1	Dinosaurs & Fossils	600	51	African dinosaur expeditions recovered huge quantities of Jurassic material from this Tanzanian formation.	What is the Tendaguru Formation?
+r1	Dinosaurs & Fossils	800	68	A pelvis in which the pubis points backward rather than forward is described by this term.	What is opisthopuby?
+r1	Dinosaurs & Fossils	800	68	In some fast-running theropods, the upper middle foot bone is pinched between its neighbors in this arrangement.	What is the arctometatarsalian condition?
+r1	Dinosaurs & Fossils	800	68	Different tooth shapes specialized for different tasks constitute this dentition pattern.	What is heterodonty?
+r1	Dinosaurs & Fossils	800	68	The informal name for a stegosaur's four-spiked tail comes from a Far Side cartoon.	What is a thagomizer?
+r1	Dinosaurs & Fossils	800	68	The fused first neck vertebrae of ceratopsians form this supportive unit beneath the heavy skull.	What is a syncervical?
+r1	Dinosaurs & Fossils	800	68	The lower temporal opening in an archosaur jaw region bears this anatomical name.	What is the mandibular fenestra?
+r1	Dinosaurs & Fossils	800	68	A cavity at the hip joint that is open rather than backed by solid bone is this dinosaur trait.	What is a perforate acetabulum?
+r1	Dinosaurs & Fossils	800	68	Parallel bundles of rapidly deposited bone containing many blood vessels make up this fast-growth tissue.	What is fibrolamellar bone?
+r1	Dinosaurs & Fossils	800	68	Microscopic scratches and pits on fossil teeth analyzed for feeding behavior are collectively called this.	What is dental microwear?
+r1	Dinosaurs & Fossils	800	68	Ratios of oxygen isotopes in tooth enamel can be used for this reconstruction of ancient temperatures.	What is isotope paleothermometry?
+r1	Dinosaurs & Fossils	800	68	A dense concentration of eggs and nests at one horizon is called this type of nesting site.	What is a nesting colony?
+r1	Dinosaurs & Fossils	800	68	The preserved tunnel or chamber made by an organism is classified under this behavioral fossil type.	What is a dwelling trace?
+r1	Dinosaurs & Fossils	800	68	Tracks left while an animal rested or crouched belong to this ichnological category.	What is a resting trace?
+r1	Dinosaurs & Fossils	800	68	Choosing the evolutionary tree that requires the fewest character changes applies this criterion.	What is maximum parsimony?
+r1	Dinosaurs & Fossils	800	68	A fossil occurrence extending the known time range of a lineage creates this inferred unsampled interval.	What is a ghost lineage?
+r1	Dinosaurs & Fossils	800	68	A lineage reappearing in the record after an apparent long absence is nicknamed this biblical kind of taxon.	What is a Lazarus taxon?
+r1	Dinosaurs & Fossils	1000	84	Exceptional deposits preserving soft tissues and fine detail are known by this German plural term.	What are Konservat-Lagerstatten?
+r1	Dinosaurs & Fossils	1000	84	Exceptionally rich concentrations of disarticulated hard parts are distinguished by this German term.	What are Konzentrat-Lagerstatten?
+r1	Dinosaurs & Fossils	1000	84	Because the youngest fossils are rarely exactly at an extinction boundary, apparent disappearances can precede the real event through this effect.	What is the Signor-Lipps effect?
+r1	Dinosaurs & Fossils	1000	84	Living relatives on both sides of an extinct group can constrain inferences about unpreserved anatomy through this method.	What is extant phylogenetic bracketing?
+r1	Dinosaurs & Fossils	1000	84	Changes in carbon and oxygen isotope ratios across incremental tooth growth can reveal this seasonal movement behavior.	What is serial isotope tracking?
+r1	Dinosaurs & Fossils	1000	84	A chemical map of strontium isotopes in enamel can compare an animal's birthplace with its later range through this analysis.	What is strontium isotope provenancing?
+r1	Dinosaurs & Fossils	1000	84	The degree to which a skeleton's bones remain connected is quantified by this taphonomic measure.	What is articulation completeness?
+r1	Dinosaurs & Fossils	1000	84	A preferred orientation of elongated fossil bones may reveal current direction through this measurement.	What is fossil orientation fabric?
+r1	Dinosaurs & Fossils	1000	84	Rounding and polish on transported bone caused by sediment abrasion are assessed under this taphonomic feature.	What is bone surface modification?
+r1	Dinosaurs & Fossils	1000	84	The mathematical correction for incomplete final appearances near a mass extinction boundary is this confidence-interval approach.	What are stratigraphic confidence intervals?
+r1	Dinosaurs & Fossils	1000	84	A species known only before and after a missing rock interval exhibits this record-spanning pattern.	What is range-through survival?
+r1	Dinosaurs & Fossils	1000	84	Assigning relative rock ages through fossil assemblages rather than radiometric dates is this discipline.	What is biostratigraphic correlation?
+r1	Dinosaurs & Fossils	1000	84	Distinctive microscopic damage made by bone-eating insects or microbes is studied under this trace category.	What is bone bioerosion?
+r1	Dinosaurs & Fossils	1000	84	A cavity eroded into a fossil shell after death and later filled with sediment is this kind of trace.	What is a post-mortem boring?
+r1	Dinosaurs & Fossils	1000	84	Reconstructing jaw forces from skull shape using digital stress models relies on this engineering method.	What is finite element analysis?
+r1	Dinosaurs & Fossils	1000	84	Comparing limb-bone circumference with body mass in living animals supports this method for estimating extinct animal weight.	What is allometric mass estimation?
+# TECH BEFORE SMARTPHONES - 16 clues at each Round One value
+r1	Tech Before Smartphones	200	22	On older telephones, a caller turned this numbered wheel once for each digit.	What is a rotary dial?
+r1	Tech Before Smartphones	200	22	Two miniature reels inside a plastic shell carried music on magnetic tape in this format.	What is an audio cassette?
+r1	Tech Before Smartphones	200	22	Video rental customers were reminded to return this analog tape format to its starting point.	What is VHS?
+r1	Tech Before Smartphones	200	22	A roll of light-sensitive material advanced behind the lens in this kind of camera.	What is a film camera?
+r1	Tech Before Smartphones	200	22	Before widespread mobile phones, this pocket device beeped and displayed a callback number.	What is a numeric pager?
+r1	Tech Before Smartphones	200	22	Classroom notes drawn on a clear acetate sheet could be enlarged from this reusable medium.	What is an overhead transparency?
+r1	Tech Before Smartphones	200	22	Ink transferred from this narrow fabric strip when metal keys struck paper in a typewriter.	What is a typewriter ribbon?
+r1	Tech Before Smartphones	200	22	Pressure from a pen or key created duplicate pages using this pigment-coated sheet.	What is carbon paper?
+r1	Tech Before Smartphones	200	22	A circular desktop file let office workers flip through alphabetized address cards in this device.	What is a rotary card file?
+r1	Tech Before Smartphones	200	22	Operators manually connected calls by inserting plugs into sockets on this board.	What is a telephone switchboard?
+r1	Tech Before Smartphones	200	22	This pivoting arm carries a cartridge and stylus across a record.	What is a tonearm?
+r1	Tech Before Smartphones	200	22	Two telescoping metal rods in a V shape often improved a television's reception.	What are rabbit-ear antennas?
+r1	Tech Before Smartphones	200	22	Before phones commonly had displays, this separate box showed the number of an incoming caller.	What is a caller-ID box?
+r1	Tech Before Smartphones	200	22	A carousel held small framed transparencies for projection onto a screen by this device.	What is a slide projector?
+r1	Tech Before Smartphones	200	22	Mechanical office arithmetic often printed each entry and total onto this narrow consumable.	What is an adding-machine paper roll?
+r1	Tech Before Smartphones	200	22	A row of metal teeth lifted paper one line after the handle swept sideways on this office machine.	What is a typewriter carriage?
+r1	Tech Before Smartphones	400	36	A clicking electromagnet turned electrical telegraph pulses into audible marks and spaces in this instrument.	What is a telegraph sounder?
+r1	Tech Before Smartphones	400	36	Networks of air-powered pipes once rushed message capsules through department stores and cities.	What is a pneumatic tube system?
+r1	Tech Before Smartphones	400	36	Ink was forced through a stencil wrapped around a rotating drum in this duplicating machine.	What is a mimeograph?
+r1	Tech Before Smartphones	400	36	A secretary could record speech for later transcription on this early business dictation device.	What is a dictating machine?
+r1	Tech Before Smartphones	400	36	Libraries reduced documents and newspapers onto tiny photographic cards or reels in this format.	What is microfilm?
+r1	Tech Before Smartphones	400	36	Typed messages traveled between subscriber terminals through this switched international service.	What is telex?
+r1	Tech Before Smartphones	400	36	A keyboard and printer combined with telegraph transmission in this electromechanical terminal.	What is a teleprinter?
+r1	Tech Before Smartphones	400	36	Holes in stiff rectangular cards represented data for tabulators and early computers.	What is punched-card storage?
+r1	Tech Before Smartphones	400	36	An endless loop of magnetic tape inside a chunky cartridge made this format popular in 1970s cars.	What is an eight-track cartridge?
+r1	Tech Before Smartphones	400	36	This battery-free receiver used a mineral detector and headphones to tune strong local stations.	What is a crystal radio?
+r1	Tech Before Smartphones	400	36	An evacuated glass component amplified signals in radios before transistors became common.	What is a thermionic valve?
+r1	Tech Before Smartphones	400	36	Oscilloscopes and some early arcade games steered an electron beam directly between drawn lines in this screen mode.	What is a vector display?
+r1	Tech Before Smartphones	400	36	An entire row of type hammers could strike paper during each cycle of this high-speed computer output device.	What is a line printer?
+r1	Tech Before Smartphones	400	36	A spinning cylinder coated in selenium or another photoconductor was central to this dry-copy process.	What is xerography?
+r1	Tech Before Smartphones	400	36	The grooved metal ball in this pointing device rolled against two perpendicular sensing wheels.	What is a mechanical mouse?
+r1	Tech Before Smartphones	400	36	A card catalog's compact photographic cousin let readers enlarge documents on a dedicated screen.	What is a microfiche reader?
+r1	Tech Before Smartphones	600	51	Alexander Bain's early facsimile synchronized sender and receiver using this clocklike swinging mechanism.	What is an electric pendulum?
+r1	Tech Before Smartphones	600	51	A spiral of holes in this rotating disk scanned an image line by line for mechanical television.	What is the Nipkow disk?
+r1	Tech Before Smartphones	600	51	Five-unit combinations devised by this French engineer made efficient printing telegraphy possible.	Who is Emile Baudot?
+r1	Tech Before Smartphones	600	51	A keyboard selected letters that this British-American inventor's 1850s apparatus printed at the receiving end.	Who is David Edward Hughes?
+r1	Tech Before Smartphones	600	51	Edison's first sound recorder indented vibrations into foil wrapped around this rotating shape.	What is a phonograph cylinder?
+r1	Tech Before Smartphones	600	51	Emile Berliner promoted flat lateral-cut records played by this sound system.	What is the gramophone?
+r1	Tech Before Smartphones	600	51	Loose carbon granules changing resistance made this early telephone transmitter much louder.	What is a carbon-button microphone?
+r1	Tech Before Smartphones	600	51	An undertaker frustrated with operators patented a step-by-step mechanism for this kind of telephone exchange.	What is an automatic telephone exchange?
+r1	Tech Before Smartphones	600	51	Elisha Gray's apparatus transmitted handwriting traced by a pen to a distant receiving pen.	What is the telautograph?
+r1	Tech Before Smartphones	600	51	Instead of tape, this audio recorder magnetized a thin steel strand.	What is a wire recorder?
+r1	Tech Before Smartphones	600	51	Fritz Pfleumer coated paper with iron oxide to develop this flexible recording medium.	What is magnetic recording tape?
+r1	Tech Before Smartphones	600	51	Chester Carlson's dry electrostatic copying experiments first bore this Greek-rooted name.	What is electrophotography?
+r1	Tech Before Smartphones	600	51	Edwin Land's self-developing camera delivered this kind of photograph soon after exposure.	What is an instant photograph?
+r1	Tech Before Smartphones	600	51	A photoconductive target made this camera tube smaller and cheaper than earlier television pickup tubes.	What is the vidicon?
+r1	Tech Before Smartphones	600	51	Office dictation machines embossed speech as a groove around a flexible plastic belt sold under this name.	What is the Dictabelt?
+r1	Tech Before Smartphones	600	51	Two simultaneous audio channels encoded along one groove created this spatial listening format.	What is stereophonic sound?
+r1	Tech Before Smartphones	800	68	A typewriter's star-shaped print element spun and struck the selected character in this printer mechanism.	What is a daisy wheel?
+r1	Tech Before Smartphones	800	68	IBM's Selectric replaced a basket of typebars with this golf-ball-shaped element.	What is a typeball?
+r1	Tech Before Smartphones	800	68	Hot lead matrices assembled an entire line of newspaper type at once in this Ottmar Mergenthaler machine.	What is the Linotype?
+r1	Tech Before Smartphones	800	68	Tolbert Lanston's system cast individual letters controlled by a separately prepared paper ribbon.	What is the Monotype system?
+r1	Tech Before Smartphones	800	68	A rotating cylinder and synchronized stylus scanned documents in many early facsimile systems.	What is drum scanning?
+r1	Tech Before Smartphones	800	68	Long-distance calls used two simultaneous audio frequencies per digit in this signaling method.	What is dual-tone multifrequency signaling?
+r1	Tech Before Smartphones	800	68	Inductors inserted periodically along long telephone wires reduced high-frequency loss through this technique.	What is loading-coil compensation?
+r1	Tech Before Smartphones	800	68	Edwin Armstrong's circuit repeatedly fed part of an amplified radio signal back to increase sensitivity.	What is regenerative reception?
+r1	Tech Before Smartphones	800	68	A receiver shifts an incoming station to a fixed intermediate frequency before most amplification in this design.	What is the superheterodyne principle?
+r1	Tech Before Smartphones	800	68	A coil wound around this magnetic ceramic rod served as a compact antenna in portable AM radios.	What is a ferrite rod?
+r1	Tech Before Smartphones	800	68	Videotape heads sweep diagonally across the moving medium in this recording arrangement.	What is helical-scan recording?
+r1	Tech Before Smartphones	800	68	Electronic correction of timing errors in analog videotape playback is performed by this device.	What is a time-base corrector?
+r1	Tech Before Smartphones	800	68	Early telephone keypads used separate low and high frequency groups arranged in this signaling matrix.	What is the two-of-six frequency scheme?
+r1	Tech Before Smartphones	800	68	A record player's stylus moved sideways and vertically at once to encode two channels using this groove geometry.	What is the 45/45 stereo system?
+r1	Tech Before Smartphones	800	68	Photographic type was projected onto film rather than cast in metal in this publishing process.	What is phototypesetting?
+r1	Tech Before Smartphones	800	68	A spinning mirror drum swept a light spot across the page in some high-speed pre-laser printers using this method.	What is optical character plotting?
+r1	Tech Before Smartphones	1000	84	Giovanni Caselli's 1860s system sent drawings over telegraph lines using synchronized pendulums.	What is the Pantelegraph?
+r1	Tech Before Smartphones	1000	84	Arthur Korn used selenium cells to transmit photographs in this early long-distance picture system.	What is the Korn phototelegraph?
+r1	Tech Before Smartphones	1000	84	Edouard Belin's portable apparatus scanned images from a rotating cylinder for transmission over phone lines.	What is the Belinograph?
+r1	Tech Before Smartphones	1000	84	Valdemar Poulsen recorded sound magnetically on steel wire with this 1898 invention.	What is the Telegraphone?
+r1	Tech Before Smartphones	1000	84	This 1930s British recorder stored sound on a moving steel band and was used by the BBC.	What is the Blattnerphone?
+r1	Tech Before Smartphones	1000	84	Zworykin's electronic television camera stored an image as charge on a photosensitive mosaic.	What is the iconoscope?
+r1	Tech Before Smartphones	1000	84	Philo Farnsworth's early television pickup tube swept electron images across an aperture.	What is the image dissector?
+r1	Tech Before Smartphones	1000	84	Low-velocity electrons returning to a target gave this television camera tube high sensitivity.	What is the image orthicon?
+r1	Tech Before Smartphones	1000	84	A lead-oxide target made this Philips television pickup tube useful for color broadcasting.	What is the Plumbicon?
+r1	Tech Before Smartphones	1000	84	A high-frequency rotating generator developed for radio transmission bears this Swedish-American inventor's name.	What is the Alexanderson alternator?
+r1	Tech Before Smartphones	1000	84	Metal filings changed resistance when exposed to radio waves in this primitive detector.	What is a coherer?
+r1	Tech Before Smartphones	1000	84	John Ambrose Fleming's two-electrode vacuum component rectified radio signals.	What is the Fleming valve?
+r1	Tech Before Smartphones	1000	84	Lee de Forest added a control grid to a diode, creating this three-electrode amplifier.	What is the Audion?
+r1	Tech Before Smartphones	1000	84	John Logie Baird sold a mechanical television receiver under this branded name.	What is the Televisor?
+r1	Tech Before Smartphones	1000	84	A vibrating reed chopped direct current into pulses so car radios could use transformer-based high voltage.	What is an electromechanical vibrator?
+r1	Tech Before Smartphones	1000	84	A rapidly rotating switch assigned each telegraph character's five pulses to the line in Baudot systems.	What is a distributor commutator?
+# INTERNET HISTORY - 16 clues at each Round One value
+r1	Internet History	200	22	Tim Berners-Lee used a workstation from this company as the first Web server.	What is NeXT?
+r1	Internet History	1000	84	The address of CERN's original public Web page begins with this hostname.	What is info.cern.ch?
+r1	Internet History	200	22	Only the letters L and O arrived before the first ARPANET login attempt crashed, creating this famous first message.	What is LO?
+r1	Internet History	200	22	The first ARPANET node was installed at this Los Angeles university in 1969.	What is UCLA?
+r1	Internet History	1000	84	A Stanford Research Institute computer became this numbered member of the original ARPANET.	What is the second ARPANET node?
+r1	Internet History	1000	84	BBN built the refrigerator-sized packet-switching machines known by this full name.	What are Interface Message Processors?
+r1	Internet History	1000	84	The file-copy program adapted to move a message between two ARPANET computers bore this name.	What is CPYNET?
+r1	Internet History	200	22	The symbol between a user's name and host was chosen because it was rarely used in personal names.	What is the at sign?
+r1	Internet History	200	22	A National Science Foundation backbone connected supercomputing centers and universities under this name.	What is NSFNET?
+r1	Internet History	1000	84	Berners-Lee later renamed his original browser-editor to avoid confusion with the network itself, choosing this name.	What is Nexus?
+r1	Internet History	200	22	This audio handshake announced that a computer was negotiating a connection over an ordinary telephone line.	What is a dial-up modem handshake?
+r1	Internet History	200	22	Individual dial-up boards exchanged messages across this volunteer store-and-forward network begun by Tom Jennings.	What is FidoNet?
+r1	Internet History	200	22	Scott Fahlman proposed a sideways smiling face in 1982 as this kind of tone marker.	What is a text emoticon?
+r1	Internet History	200	22	Yahoo began by arranging links into human-selected subject lists, an approach known as this.	What is a Web directory?
+r1	Internet History	200	22	An automated program following links to collect pages for a search engine is called this.	What is a Web crawler?
+r1	Internet History	200	22	In the early web, sites on a shared topic could link in a circular chain known by this name.	What is a web ring?
+r1	Internet History	400	36	This psychologist imagined an interconnected Galactic Network while directing computer research at ARPA.	Who is J. C. R. Licklider?
+r1	Internet History	400	36	This British computer scientist coined the term packet for units sent through a data network.	Who is Donald Davies?
+r1	Internet History	400	36	At RAND, this engineer proposed distributed communications that could survive damage by routing message blocks.	Who is Paul Baran?
+r1	Internet History	400	36	This researcher led the program that turned packet-switching proposals into the ARPANET.	Who is Lawrence Roberts?
+r1	Internet History	400	36	A BBN team led by this engineer built the early packet switches on rugged Honeywell computers.	Who is Frank Heart?
+r1	Internet History	400	36	Before the modern Internet suite, ARPANET hosts communicated using this host-to-host protocol.	What is Network Control Protocol?
+r1	Internet History	400	36	The destination of the first remote ARPANET login was this California research institute.	What is Stanford Research Institute?
+r1	Internet History	400	36	A graduate student who authored the first Request for Comments later chaired the Internet Architecture Board.	Who is Steve Crocker?
+r1	Internet History	400	36	This longtime editor of protocol documents also managed Internet numbers and names at USC.	Who is Jon Postel?
+r1	Internet History	400	36	This computer scientist designed the distributed naming system that replaced one centrally maintained host file.	Who is Paul Mockapetris?
+r1	Internet History	400	36	ARPANET's coordinated switch to the modern protocol suite on January 1, 1983, is remembered by this phrase.	What is the TCP-IP flag day?
+r1	Internet History	400	36	The military portion separated from ARPANET in 1983 under this network name.	What is MILNET?
+r1	Internet History	400	36	A federally funded Unix implementation from this California campus helped spread Internet protocols.	What is Berkeley Unix?
+r1	Internet History	400	36	David Mills built these minicomputer routers, whose whimsical name came from Muppets-like creatures.	What are Fuzzball routers?
+r1	Internet History	400	36	The naming hierarchy introduced these authoritative machines to answer queries for each zone.	What are domain name servers?
+r1	Internet History	400	36	A unique 32-bit identifier assigned to an early Internet host became known by this term.	What is an IPv4 address?
+r1	Internet History	600	51	Vint Cerf and Bob Kahn called their 1974 design this protocol for internetwork communication.	What is the Transmission Control Program?
+r1	Internet History	600	51	Louis Pouzin's French research network influenced the datagram approach used by the Internet.	What is CYCLADES?
+r1	Internet History	600	51	Donald Davies's team built this British experimental packet network at a national laboratory.	What is the NPL network?
+r1	Internet History	600	51	Norm Abramson's Hawaiian radio network pioneered random access for shared communication channels.	What is ALOHAnet?
+r1	Internet History	600	51	A satellite link connecting international research sites tested internetworking under this name.	What is SATNET?
+r1	Internet History	600	51	A mobile radio experiment around the San Francisco Bay area tested packet communication under this short network name.	What is PRNET?
+r1	Internet History	600	51	Unix computers exchanged files and mail over telephone links using this copy program and its network.	What is UUCP?
+r1	Internet History	600	51	Steve Daniel wrote this first software package for distributing Unix discussion articles between Duke and UNC.	What is A News?
+r1	Internet History	600	51	A university messaging network launched in 1981 expanded its acronym as Because It's Time Network.	What is BITNET?
+r1	Internet History	600	51	This network brought mail and other services to computer-science departments without ARPANET access.	What is CSNET?
+r1	Internet History	600	51	Teus Hagen helped establish this European Unix network in 1982.	What is EUnet?
+r1	Internet History	600	51	The United Kingdom's academic research network launched in 1984 under this name.	What is JANET?
+r1	Internet History	600	51	Michigan's university consortium managed the national science backbone with IBM and MCI.	What is Merit Network?
+r1	Internet History	600	51	Commercial networks agreed to exchange traffic at public hubs bearing this generic three-word name.	What are Network Access Points?
+r1	Internet History	600	51	Independent providers formed this 1991 exchange to bypass restrictions on the government-funded backbone.	What is the Commercial Internet Exchange?
+r1	Internet History	600	51	CERN's simplest early browser worked on many terminals and bore this descriptive name.	What is the Line Mode Browser?
+r1	Internet History	800	68	This Canadian university student created a search tool whose name suggested digging through archives.	Who is Alan Emtage?
+r1	Internet History	800	68	A coin-operated terminal at a Berkeley record store let the public post and retrieve messages from this 1973 system.	What is Community Memory?
+r1	Internet History	800	68	Brewster Kahle developed this system for searching databases across networks before the Web.	What is WAIS?
+r1	Internet History	800	68	Two indexing programs searched menu titles on distributed Minnesota servers; one bore this woman's name.	What is Veronica?
+r1	Internet History	800	68	The other Minnesota menu-search tool took its name from a comic-book character's crownlike cap.	What is Jughead?
+r1	Internet History	800	68	Pei-Yuan Wei created this early graphical browser for Unix workstations with scripting and style features.	What is ViolaWWW?
+r1	Internet History	800	68	Students at Helsinki University of Technology created this early graphical browser for the X Window System.	What is Erwise?
+r1	Internet History	800	68	Lou Montulli began this text browser at the University of Kansas for campus information services.	What is Lynx?
+r1	Internet History	800	68	Elizabeth Feinler's group maintained host directories and ran this information center for ARPANET users.	What is the Network Information Center?
+r1	Internet History	800	68	This computer scientist worked with Jon Postel on Internet parameters and later edited many protocol documents.	Who is Joyce Reynolds?
+r1	Internet History	800	68	Van Jacobson's 1988 algorithms addressed this crisis in which overloaded links caused throughput to collapse.	What is Internet congestion collapse?
+r1	Internet History	800	68	The rule to be conservative in what a program sends and liberal in what it accepts bears this person's name.	What is Postel's law?
+r1	Internet History	800	68	A design principle places application-specific functions at communication endpoints instead of inside the network.	What is the end-to-end principle?
+r1	Internet History	800	68	The Internet Engineering Task Force summarizes its practical culture with rough consensus plus this phrase.	What is running code?
+r1	Internet History	800	68	Rob McCool created this widely used early Web server at a federal supercomputing center.	What is NCSA HTTPd?
+r1	Internet History	800	68	CERN placed its Web software into this legal status on April 30, 1993, allowing anyone to use it freely.	What is the public domain?
+r1	Internet History	1000	84	Leonard Kleinrock's mathematical work applied this field to predict delays in communication networks.	What is queueing theory?
+r1	Internet History	1000	84	The Honeywell rugged computer adapted as an early packet switch carried this model designation.	What is the DDP-516?
+r1	Internet History	1000	84	A host connected to an early packet switch through this numbered hardware-and-message interface.	What is the 1822 interface?
+r1	Internet History	1000	84	ARPANET's original host protocol identified concurrent conversations using these numbered endpoints.	What are NCP sockets?
+r1	Internet History	200	22	Separating a reliable stream service from a best-effort datagram service produced these two core protocols.	What are TCP and IP?
+r1	Internet History	1000	84	This French engineer's datagram work supplied Cerf and Kahn with an important model for open networking.	Who is Louis Pouzin?
+r1	Internet History	1000	84	This Stanford graduate student ran the packet switch when the first remote login was attempted in 1969.	Who is Charley Kline?
+r1	Internet History	1000	84	This researcher at SRI received Kline's two-letter message on the distant host.	Who is Bill Duvall?
+r1	Internet History	1000	84	A physical map drawn by this early network cartographer documented ARPANET growth for the Network Information Center.	Who is Alex McKenzie?
+r1	Internet History	1000	84	The Internet's early policy of allowing independently designed networks to join without internal redesign is called this.	What is open-architecture networking?
+r1	Internet History	200	22	Gateways were renamed with this modern term as their packet-forwarding role became standardized.	What are routers?
+r1	Internet History	200	22	A 1986 upgrade increased the national science backbone from 56 kilobits per second to this leased-line standard.	What is T1 service?
+r1	Internet History	1000	84	A later backbone upgrade used this roughly 45-megabit carrier standard.	What is T3 service?
+r1	Internet History	200	22	This 1990s policy transition let private providers carry traffic after the federal backbone was retired.	What is Internet commercialization?
+r1	Internet History	200	22	A cache of recently resolved names lets a recursive resolver reduce repeated upstream queries through this technique.	What is DNS caching?
+r1	Internet History	1000	84	A resolver following referrals from the root down to an authoritative server performs this kind of query process.	What is iterative name resolution?
+# HARDWARE & DEVICES - 16 clues at each Round One value
+r1	Hardware & Devices	200	22	A metal cap bonded above a processor die spreads thermal energy across a larger surface.	What is an integrated heat spreader?
+r1	Hardware & Devices	200	22	A smaller circuit card plugs into a computer's main board to add a specialized function.	What is a daughterboard?
+r1	Hardware & Devices	200	22	This expansion component handles audio input and output, often providing jacks for speakers and microphones.	What is a sound card?
+r1	Hardware & Devices	200	22	A temperature-controlled spinning blade assembly moves air through a computer case.	What is a cooling fan?
+r1	Hardware & Devices	200	22	The user rotates an exposed ball with a finger or palm to move the pointer using this device.	What is a trackball?
+r1	Hardware & Devices	200	22	A pressure-sensitive rectangular surface below many laptop keyboards controls the pointer.	What is a touchpad?
+r1	Hardware & Devices	200	22	A coiled spring and moving contacts under each key provide tactile input in this keyboard design.	What is a mechanical key switch?
+r1	Hardware & Devices	200	22	A sliding cover over a laptop camera lens provides this simple physical safeguard.	What is a webcam privacy shutter?
+r1	Hardware & Devices	200	22	Air vibrations are produced when this flexible part of a loudspeaker moves back and forth.	What is a speaker cone?
+r1	Hardware & Devices	200	22	Sound pressure moves this thin membrane inside a microphone.	What is a microphone diaphragm?
+r1	Hardware & Devices	200	22	Toner forms an electrostatic image on this light-sensitive rotating surface before transfer to paper.	What is a laser-printer drum?
+r1	Hardware & Devices	200	22	Microscopic openings eject liquid droplets onto paper from this printer component.	What is an inkjet printhead?
+r1	Hardware & Devices	200	22	A lamp and sensor travel beneath the glass on this document-capturing device.	What is a flatbed scanner?
+r1	Hardware & Devices	200	22	Rapid voltage spikes are shunted away from plugged-in electronics by this protective strip.	What is a surge protector?
+r1	Hardware & Devices	200	22	A battery in this device keeps a computer running briefly during a blackout.	What is an uninterruptible power supply?
+r1	Hardware & Devices	200	22	The small replaceable board carrying keys and exposed contacts lets a camera save images on removable flash storage.	What is a memory card?
+r1	Hardware & Devices	400	36	A disk drive stores bits in magnetic grains on this rigid spinning surface.	What is a hard-drive platter?
+r1	Hardware & Devices	400	36	This tiny electromagnetic component flies just above a spinning disk to detect and alter stored bits.	What is a read-write head?
+r1	Hardware & Devices	400	36	A voice-coil mechanism swings a disk drive's heads precisely across data tracks through this arm.	What is an actuator arm?
+r1	Hardware & Devices	400	36	A laser distinguishes depressions and flat areas molded into an optical disc, known by these paired terms.	What are pits and lands?
+r1	Hardware & Devices	400	36	Electrons trapped in an insulated transistor structure allow this nonvolatile memory to retain data without power.	What is a floating gate?
+r1	Hardware & Devices	400	36	Crossed filters and electrically rotated molecules control each pixel in this display technology.	What is a liquid-crystal display?
+r1	Hardware & Devices	400	36	Charged black and white particles move within tiny capsules to form text on this reflective screen.	What is electrophoretic ink?
+r1	Hardware & Devices	400	36	Each pixel contains its own amplifier in this widely used digital camera sensor architecture.	What is an active-pixel sensor?
+r1	Hardware & Devices	400	36	Moving the wiring behind the light-sensitive area lets more photons reach each pixel in this sensor design.	What is backside illumination?
+r1	Hardware & Devices	400	36	An applied voltage makes a ceramic element flex and generate sound in this compact alarm component.	What is a piezoelectric buzzer?
+r1	Hardware & Devices	400	36	A magnetic field produces a transverse voltage in this contactless sensing component.	What is a Hall-effect sensor?
+r1	Hardware & Devices	400	36	Two flexible ferromagnetic contacts sealed in glass close when a magnet approaches this switch.	What is a reed switch?
+r1	Hardware & Devices	400	36	A light-emitting diode and phototransistor share one package while remaining electrically isolated in this component.	What is an optocoupler?
+r1	Hardware & Devices	400	36	A quartz crystal's stable vibration provides timing pulses for this electronic circuit.	What is a crystal oscillator?
+r1	Hardware & Devices	400	36	A resettable device increases resistance sharply when excessive current heats its polymer material.	What is a polymeric positive-temperature-coefficient fuse?
+r1	Hardware & Devices	400	36	A sacrificial zinc-oxide component clamps a transient voltage by becoming conductive.	What is a metal-oxide varistor?
+r1	Hardware & Devices	600	51	The dominant transistor in modern integrated circuits uses an electric field across an insulated gate.	What is a metal-oxide-semiconductor field-effect transistor?
+r1	Hardware & Devices	600	51	Jean Hoerni's manufacturing method protected junctions beneath silicon dioxide and enabled reliable chips.	What is the planar process?
+r1	Hardware & Devices	600	51	Patterns are transferred to a light-sensitive wafer coating by projection in this fabrication step.	What is photolithography?
+r1	Hardware & Devices	600	51	A finished semiconductor wafer is cut into individual dies during this operation.	What is wafer dicing?
+r1	Hardware & Devices	600	51	Hair-thin conductors connect a silicon die to package leads in this assembly process.	What is wire bonding?
+r1	Hardware & Devices	600	51	An underside grid of solder spheres gives this integrated-circuit package its name.	What is a ball-grid array?
+r1	Hardware & Devices	600	51	A processor, memory controller, and peripherals integrated onto one die form this type of chip.	What is a system-on-chip?
+r1	Hardware & Devices	600	51	Users can configure logic blocks and interconnects after manufacture in this kind of integrated circuit.	What is a field-programmable gate array?
+r1	Hardware & Devices	600	51	Each bit occupies a capacitor that must be refreshed periodically in this memory type.	What is dynamic random-access memory?
+r1	Hardware & Devices	600	51	A bistable circuit stores each bit without refresh while power remains applied in this memory type.	What is static random-access memory?
+r1	Hardware & Devices	600	51	Extra check bits allow a module to detect and correct certain data errors through this feature.	What is error-correcting code memory?
+r1	Hardware & Devices	600	51	Small fast storage levels between processor and main memory exploit locality in this arrangement.	What is the cache hierarchy?
+r1	Hardware & Devices	600	51	Multiple devices competing to control a shared communication path are coordinated by this process.	What is bus arbitration?
+r1	Hardware & Devices	600	51	A peripheral transfers blocks to main memory without the processor copying every word using this feature.	What is direct memory access?
+r1	Hardware & Devices	600	51	Device registers placed at ordinary processor addresses use this input-output scheme.	What is memory-mapped input-output?
+r1	Hardware & Devices	600	51	A peripheral requests immediate processor attention with this electrical event.	What is a hardware interrupt?
+r1	Hardware & Devices	800	68	A metal-semiconductor junction with fast switching and low forward voltage forms this diode type.	What is a Schottky diode?
+r1	Hardware & Devices	800	68	Mobile charge carriers are absent from this region surrounding a semiconductor junction.	What is the depletion region?
+r1	Hardware & Devices	800	68	A transistor gate wraps around a thin raised silicon ridge in this three-dimensional design.	What is a FinFET?
+r1	Hardware & Devices	800	68	A thin insulating layer separates the active silicon from the bulk wafer in this substrate technology.	What is silicon on insulator?
+r1	Hardware & Devices	800	68	A vertical conductor passing completely through a silicon die enables dense three-dimensional connections.	What is a through-silicon via?
+r1	Hardware & Devices	800	68	Small specialized dies combined in one package rather than fabricated as one large die are called these.	What are chiplets?
+r1	Hardware & Devices	800	68	This substrate with dense wiring connects several dies inside an advanced package.	What is a silicon interposer?
+r1	Hardware & Devices	800	68	Paste or a compliant pad fills microscopic gaps between a hot chip and its cooler under this generic name.	What is thermal interface material?
+r1	Hardware & Devices	800	68	Liquid repeatedly evaporates and condenses inside a flat sealed spreader to move heat across a laptop.	What is a vapor chamber?
+r1	Hardware & Devices	800	68	A wick returns condensed fluid while vapor carries energy along this sealed cooling tube.	What is a heat pipe?
+r1	Hardware & Devices	800	68	Bits are represented by switching a material between amorphous and crystalline states in this storage technology.	What is phase-change memory?
+r1	Hardware & Devices	800	68	Resistance changes with the relative alignment of magnetic layers in this nonvolatile memory.	What is magnetoresistive random-access memory?
+r1	Hardware & Devices	800	68	Leo Esaki discovered quantum tunneling through a heavily doped junction in this component.	What is the tunnel diode?
+r1	Hardware & Devices	800	68	An internal electric field multiplies charge carriers generated by light in this highly sensitive detector.	What is an avalanche photodiode?
+r1	Hardware & Devices	800	68	A photocathode and chain of dynodes amplify faint flashes in this vacuum light detector.	What is a photomultiplier tube?
+r1	Hardware & Devices	800	68	A processor temporarily changes voltage and frequency according to workload using this power-management technique.	What is dynamic voltage and frequency scaling?
+r1	Hardware & Devices	1000	84	A seed crystal is slowly pulled and rotated from molten silicon to grow a cylindrical single crystal in this process.	What is the Czochralski process?
+r1	Hardware & Devices	1000	84	A narrow molten region travels along a semiconductor bar and sweeps impurities toward one end in this purification method.	What is zone refining?
+r1	Hardware & Devices	1000	84	A crystalline layer is grown in alignment with the atomic lattice of the substrate in this process.	What is epitaxy?
+r1	Hardware & Devices	1000	84	Accelerated dopant ions are shot into selected wafer regions during this fabrication step.	What is ion implantation?
+r1	Hardware & Devices	1000	84	Reactive gases form a solid film on a wafer surface in this deposition method.	What is chemical vapor deposition?
+r1	Hardware & Devices	1000	84	Alternating self-limiting surface reactions build a film one controlled layer at a time in this method.	What is atomic layer deposition?
+r1	Hardware & Devices	1000	84	Thirteen-and-a-half-nanometre light patterns the smallest commercial chip features in this lithographic technology.	What is extreme ultraviolet lithography?
+r1	Hardware & Devices	1000	84	Insulators with reduced permittivity limit unwanted capacitance between closely spaced chip wires and are known by this label.	What are low-k dielectrics?
+r1	Hardware & Devices	1000	84	IBM replaced aluminum conductors with this lower-resistance metal in advanced chip wiring.	What is copper interconnect?
+r1	Hardware & Devices	1000	84	Trenches are etched, overfilled with metal, and polished flat in this integrated-circuit wiring method.	What is the damascene process?
+r1	Hardware & Devices	1000	84	Momentum transfer from electrons gradually moves metal atoms and can break narrow chip wires through this failure mode.	What is electromigration?
+r1	Hardware & Devices	1000	84	Different arrival times of a timing signal at separate sequential elements create this synchronization problem.	What is clock skew?
+r1	Hardware & Devices	1000	84	A flip-flop caught near its decision threshold can linger in this indeterminate timing state.	What is metastability?
+r1	Hardware & Devices	1000	84	A processor guesses the direction of a conditional instruction before its result is known using this hardware.	What is a branch predictor?
+r1	Hardware & Devices	1000	84	A small associative cache stores recent virtual-to-physical address translations under this name.	What is a translation lookaside buffer?
+r1	Hardware & Devices	1000	84	Protocols ensuring that several processor caches agree on shared data maintain this property.	What is cache coherence?

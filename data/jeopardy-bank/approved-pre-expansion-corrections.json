@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "description": "Exact, reviewed replacements for factually flawed pre-expansion clue wording. These entries permit correction of a protected answer without permitting general answer reuse.",
+  "entries": [
+    {
+      "q": "This lowest major layer of the atmosphere contains nearly all clouds and weather.",
+      "a": "What is the troposphere?",
+      "reason": "Replaces wording that incorrectly called the troposphere a boundary layer."
+    },
+    {
+      "q": "This theorem shows that any consistent formal system rich enough for arithmetic contains statements it can neither prove nor disprove.",
+      "a": "What is Godel's incompleteness theorem?",
+      "reason": "Replaces an overbroad claim that conflated arithmetic truth with formal-system provability."
+    },
+    {
+      "q": "This redistribution of legislative seats among regions follows measured population changes.",
+      "a": "What is reapportionment?",
+      "reason": "Distinguishes reapportionment from the separate act of redrawing district boundaries."
+    },
+    {
+      "q": "This large Nunavut island lies in James Bay only about 20 kilometres from Ontario's coast.",
+      "a": "What is Akimiski Island?",
+      "reason": "Replaces the false claim that the island is split between Nunavut and Quebec."
+    },
+    {
+      "q": "This New York skyscraper's stainless-steel crown and automobile-themed ornaments made it an Art Deco icon.",
+      "a": "What is the Chrysler Building?",
+      "reason": "Replaces a description that confused this building with a triangular-frame landmark."
+    },
+    {
+      "q": "Lower Ice Age sea levels exposed this land connection between Siberia and Alaska.",
+      "a": "What is the Bering land bridge?",
+      "reason": "Replaces ambiguous refugium wording with the defining geographic fact."
+    }
+  ]
+}

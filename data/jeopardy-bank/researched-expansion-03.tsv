@@ -1,0 +1,412 @@
+# QuizArena researched expansion batch 03
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: UNESCO World Heritage Centre property records and nomination summaries (https://whc.unesco.org/en/list/); official site and conservation-agency histories.
+# WORLD LANDMARKS — 16 clues at each Round One value
+r1	World Landmarks	200	22	This French sculptor created the colossal figure that France gave the United States for New York Harbor.	Who is Frédéric Auguste Bartholdi?
+r1	World Landmarks	200	22	The statue above Rio de Janeiro stands atop this mountain in Tijuca National Park.	What is Corcovado?
+r1	World Landmarks	200	22	San Francisco's famous suspension bridge is painted this vivid reddish hue, chosen to remain visible in fog.	What is International Orange?
+r1	World Landmarks	200	22	Rome's great arena opened under the Flavian emperors and originally bore this formal name.	What is the Flavian Amphitheatre?
+r1	World Landmarks	200	22	The white mausoleum at Agra rises beside this river, a major tributary of the Ganges.	What is the Yamuna River?
+r1	World Landmarks	200	22	The clock tower beside Britain's Parliament received this official name for Elizabeth II's Diamond Jubilee.	What is Elizabeth Tower?
+r1	World Landmarks	200	22	The shell-like roofs of Sydney's opera house were designed by this Danish architect.	Who is Jørn Utzon?
+r1	World Landmarks	200	22	The giant heads on Rapa Nui were carved chiefly from this compressed volcanic ash.	What is tuff?
+r1	World Landmarks	200	22	Most of the Great Sphinx at Giza was cut directly from this sedimentary rock.	What is limestone?
+r1	World Landmarks	200	22	Gutzon Borglum directed the carving of four presidential faces in this South Dakota mountain.	What is Mount Rushmore?
+r1	World Landmarks	200	22	The stepped pyramid dominating Chichén Itzá is commonly known by this Spanish name meaning “the castle.”	What is El Castillo?
+r1	World Landmarks	200	22	The prehistoric stone circle in southern England occupies this broad chalk grassland.	What is Salisbury Plain?
+r1	World Landmarks	200	22	This Inca ruler is widely credited with commissioning the royal estate now called Machu Picchu.	Who is Pachacuti?
+r1	World Landmarks	200	22	The rock-cut façades of Petra owe their warm colour to this local building stone.	What is rose-red sandstone?
+r1	World Landmarks	200	22	The ceremonial approach to the Great Sphinx runs from this pyramid complex's valley temple.	What is Khafre's complex?
+r1	World Landmarks	200	22	Seattle's needle-like observation tower became the signature structure of this futurist-themed 1962 world's fair.	What is the Century 21 Exposition?
+r1	World Landmarks	400	36	Paris erected its iron tower as the entrance arch for this 1889 world's fair.	What is the Exposition Universelle of 1889?
+r1	World Landmarks	400	36	London's Tower Bridge opens by rotating two roadway leaves of this type.	What are bascules?
+r1	World Landmarks	400	36	The palaces of Granada reached their artistic height under this final Muslim dynasty in Iberia.	What is the Nasrid dynasty?
+r1	World Landmarks	400	36	This ancient Greek architect, working with Callicrates, designed the Parthenon.	Who is Ictinus?
+r1	World Landmarks	400	36	Antoni Gaudí devoted the east side of his Barcelona basilica to this joyful phase of Christ's life.	What is the Nativity façade?
+r1	World Landmarks	400	36	This American architect led the design of Dubai's Burj Khalifa while at Skidmore, Owings & Merrill.	Who is Adrian Smith?
+r1	World Landmarks	400	36	Eero Saarinen's Gateway Arch is clad in this corrosion-resistant metal.	What is stainless steel?
+r1	World Landmarks	400	36	A chariot drawn by four horses crowns Berlin's Brandenburg Gate; this sculptural grouping has this name.	What is a quadriga?
+r1	World Landmarks	400	36	Visitors traditionally enter Beijing's Forbidden City from the south through this immense U-shaped gate.	What is the Meridian Gate?
+r1	World Landmarks	400	36	Bavaria's fairy-tale Neuschwanstein Castle was commissioned by this nineteenth-century king.	Who is Ludwig II?
+r1	World Landmarks	400	36	Justinian I selected this mathematician and engineer, working with Anthemius of Tralles, to design his great domed church in Constantinople.	Who is Isidore of Miletus?
+r1	World Landmarks	400	36	Indiana limestone forms the pale exterior of this 102-story Art Deco skyscraper in Manhattan.	What is the Empire State Building?
+r1	World Landmarks	400	36	The island monastery off Normandy is surrounded by powerful tides in this named bay.	What is the Bay of Mont-Saint-Michel?
+r1	World Landmarks	400	36	Seventeen mirror-clad arches face garden windows in this celebrated gallery at Versailles.	What is the Hall of Mirrors?
+r1	World Landmarks	400	36	Ivan IV ordered the colourful cathedral at the edge of Moscow's Red Square after conquering this khanate.	What is the Khanate of Kazan?
+r1	World Landmarks	400	36	The freestanding bell tower in Venice's main square is identified by this Italian architectural term.	What is a campanile?
+r1	World Landmarks	600	51	Morocco's Aït Ben Haddou is this type of fortified earthen settlement found along former caravan routes.	What is a ksar?
+r1	World Landmarks	600	51	The Buddhist monuments of Borobudur are arranged as a three-dimensional representation of this sacred diagram.	What is a mandala?
+r1	World Landmarks	600	51	The cross-shaped Church of Saint George is the best-known of Lalibela's rock-hewn sanctuaries and bears this Amharic name.	What is Biete Ghiorgis?
+r1	World Landmarks	600	51	The main quarry where Rapa Nui sculptors fashioned the island's giant figures lies on the slopes of this volcanic crater.	What is Rano Raraku?
+r1	World Landmarks	600	51	The Roman Pont du Gard carried water across this river in southern France.	What is the Gardon River?
+r1	World Landmarks	600	51	The monumental stairway at Persepolis led visitors into this ceremonial audience hall of Xerxes I.	What is the Gate of All Nations?
+r1	World Landmarks	600	51	Cambodia's Bayon temple is distinguished by dozens of towers bearing serene versions of this motif.	What are giant stone faces?
+r1	World Landmarks	600	51	A long arcaded gallery designed by Giorgio Vasari links Florence's Palazzo Vecchio to the Pitti Palace under this name.	What is the Vasari Corridor?
+r1	World Landmarks	600	51	The massive mound at Newgrange is illuminated at sunrise near this annual astronomical event.	What is the winter solstice?
+r1	World Landmarks	600	51	The cliff dwellings at Mesa Verde reached their largest form in this site containing roughly 150 rooms.	What is Cliff Palace?
+r1	World Landmarks	600	51	The walls of Constantinople combined an inner and outer defence and are named for this fifth-century emperor.	Who is Theodosius II?
+r1	World Landmarks	600	51	A colossal victory gateway added to Fatehpur Sikri after the conquest of Gujarat bears this name meaning “High Gate.”	What is Buland Darwaza?
+r1	World Landmarks	600	51	Two half-size vehicles excavated west of the First Emperor's burial mound form this celebrated metal ensemble.	What are the Qin bronze chariots?
+r1	World Landmarks	600	51	Cusco's celebrated Inca stone wall belongs to this former temple whose name is often translated as “Golden Enclosure.”	What is Coricancha?
+r1	World Landmarks	600	51	The international effort that relocated the Abu Simbel temples before their valley flooded operated under this name.	What is the UNESCO Nubia Campaign?
+r1	World Landmarks	600	51	The medieval towers of San Gimignano rose largely as displays of status by these rival urban groups.	What are wealthy merchant families?
+r1	World Landmarks	800	68	A water channel called the “Stream of Paradise” linked private pavilions in Delhi's Red Fort under this Persian name.	What is the Nahr-i-Behisht?
+r1	World Landmarks	800	68	The former minaret beside Seville Cathedral retains this name from its later conversion into a bell tower.	What is the Giralda?
+r1	World Landmarks	800	68	Luigi Vanvitelli's aqueduct supplied the palace and gardens of Caserta and bears this royal name.	What is the Carolino Aqueduct?
+r1	World Landmarks	800	68	The innermost walled town of Khiva, Uzbekistan, is known by this name.	What is Itchan Kala?
+r1	World Landmarks	800	68	This architect created Brussels town houses including Hôtel Tassel that helped launch Art Nouveau.	Who is Victor Horta?
+r1	World Landmarks	800	68	The ancient irrigation galleries beneath the oasis city of Yazd are known by this Persian term.	What are qanats?
+r1	World Landmarks	800	68	The octagonal marble platform supporting Jerusalem's Dome of the Rock encloses this sacred outcrop.	What is the Foundation Stone?
+r1	World Landmarks	800	68	In the Alhambra's Court of the Lions, a dozen marble animals support this central feature.	What is the fountain basin?
+r1	World Landmarks	800	68	The earthworks at Great Zimbabwe were built without mortar using this masonry method.	What is dry-stone construction?
+r1	World Landmarks	800	68	The ceremonial centre of Tiwanaku includes this single block of andesite carved as a monumental doorway.	What is the Gateway of the Sun?
+r1	World Landmarks	800	68	At Hampi, stone columns in this temple complex produce musical tones when gently tapped.	What is the Vittala Temple?
+r1	World Landmarks	800	68	The tiled dome of the Soltaniyeh mausoleum commemorates this Ilkhanid ruler who converted to Islam.	Who is Öljaitü?
+r1	World Landmarks	800	68	The rock-hewn treasury at Petra carries this Arabic nickname, although its true purpose was funerary.	What is Al-Khazneh?
+r1	World Landmarks	800	68	This processional road entered ancient Babylon through a blue-glazed gateway dedicated to a goddess.	What is the Processional Way?
+r1	World Landmarks	800	68	The monumental platform at Sigiriya preserves traces of this enormous animal-shaped entrance.	What is the Lion Gate?
+r1	World Landmarks	800	68	The thousand-year-old wooden churches around Slovakia's Carpathians commonly use this interlocking construction method.	What is log construction?
+r1	World Landmarks	1000	84	The Djuma Mosque at Khiva admits light through two roof structures of this eight-sided form.	What are octagonal lanterns?
+r1	World Landmarks	1000	84	The winning pilot plan for Brasília, including the monumental axis leading toward its three-powers square, came from this urban designer.	Who is Lúcio Costa?
+r1	World Landmarks	1000	84	The stepped wells of western India culminate in an elaborately carved example at Patan bearing this Gujarati name.	What is Rani-ki-Vav?
+r1	World Landmarks	1000	84	The Buddhist cave complex at Ajanta was cut into a horseshoe gorge of this river.	What is the Waghora River?
+r1	World Landmarks	1000	84	An ancient water-management system fed Angkor by means of huge reservoirs known by this Khmer term.	What are barays?
+r1	World Landmarks	1000	84	The sanctuary at Delphi occupies the slope of this mountain sacred to Apollo and the Muses.	What is Mount Parnassus?
+r1	World Landmarks	1000	84	The astronomical observatory at Jaipur includes a giant equinoctial sundial with this Sanskrit name.	What is the Samrat Yantra?
+r1	World Landmarks	1000	84	The medieval bridge at Mostar was designed by this pupil of the Ottoman architect Sinan.	Who is Mimar Hayruddin?
+r1	World Landmarks	1000	84	The earthen Great Mosque of Djenné is replastered during a communal festival called by this name.	What is the Crépissage?
+r1	World Landmarks	1000	84	The fortified churches of Transylvania were built largely by settlers known collectively by this name.	Who are the Transylvanian Saxons?
+r1	World Landmarks	1000	84	A colossal seated Buddha at Leshan faces the meeting point of the Min, Dadu and this third river.	What is the Qingyi River?
+r1	World Landmarks	1000	84	The ancient city of Chan Chan was the capital of this pre-Inca civilization on Peru's north coast.	What is the Chimú culture?
+r1	World Landmarks	1000	84	The walls of Mycenae use this term for masonry whose blocks seemed too huge for ordinary humans to move.	What is Cyclopean masonry?
+r1	World Landmarks	1000	84	At the rock churches of Ivanovo, medieval frescoes survive above this Bulgarian river.	What is the Rusenski Lom?
+r1	World Landmarks	1000	84	The island city of Nan Madol was assembled on artificial islets off this Micronesian island.	What is Pohnpei?
+r1	World Landmarks	1000	84	The royal hill of Ambohimanga centres on a fortified compound called by this Malagasy term.	What is a rova?
+# Research anchors for architecture: U.S. National Park Service architecture/style guidance (https://www.nps.gov/subjects/architecture/styles.htm); Historic England introductions to heritage assets; Canadian Centre for Architecture collections.
+# ARCHITECTURE — 16 clues at each Round One value
+r1	Architecture	200	22	A basic building system lays horizontal beams across upright posts to carry floors and roofs.	What is post-and-beam construction?
+r1	Architecture	200	22	Masons build this curved support above a lintel to divert the weight of the wall toward either side of an opening.	What is a relieving arch?
+r1	Architecture	200	22	Nineteenth-century houses could rise quickly by using long, continuous wall studs in this light-wood system.	What is balloon framing?
+r1	Architecture	200	22	A glazed structure raised above a roof admits daylight from several sides and often crowns a hall or stair.	What is a roof lantern?
+r1	Architecture	200	22	The upright sides of a door or window opening are formed by structural pieces bearing this name.	What are jambs?
+r1	Architecture	200	22	A roof with two slopes on each side, the lower one much steeper, is associated with France's Second Empire style.	What is a mansard roof?
+r1	Architecture	200	22	This roofed porch with columns often marks the formal entrance to a classical building.	What is a portico?
+r1	Architecture	200	22	A small dome or domed structure crowning a roof is known by this architectural term.	What is a cupola?
+r1	Architecture	200	22	Traditional builders in dry regions make this earthen material from soil, water and often straw, then form it into bricks.	What is adobe?
+r1	Architecture	200	22	Fragments of marble or glass set into cement and polished smooth create this durable flooring material.	What is terrazzo?
+r1	Architecture	200	22	A triangular upper wall beneath the slopes of a pitched roof forms this feature.	What is a gable?
+r1	Architecture	200	22	The columned vestibule in front of an ancient Greek temple's inner chamber is called this.	What is a pronaos?
+r1	Architecture	200	22	A continuous colonnade surrounding a court or garden is known by this classical term.	What is a peristyle?
+r1	Architecture	200	22	This drawing uses standardized symbols and dimensions to communicate how a building should be constructed.	What is an architectural plan?
+r1	Architecture	200	22	A repeated series of arches supported by columns or piers creates this passage or decorative feature.	What is an arcade?
+r1	Architecture	200	22	A thick reinforced-concrete slab spreading an entire building's load across weak soil forms this type of base.	What is a raft foundation?
+r1	Architecture	400	36	This cylindrical or polygonal wall raises a dome above the main roof and may contain windows.	What is a dome drum?
+r1	Architecture	400	36	This quarter-dome or corbelled device bridges the corners of a square room to support a dome above.	What is a squinch?
+r1	Architecture	400	36	A column partly embedded in a wall, with only a portion of its shaft projecting, is described by this term.	What is an engaged column?
+r1	Architecture	400	36	Stone blocks carved with winding, wormlike channels have this descriptive type of surface treatment.	What is vermiculated masonry?
+r1	Architecture	400	36	The triangular space between an arch's curve and the rectangular frame around it bears this name.	What is a spandrel?
+r1	Architecture	400	36	Each wedge-shaped block forming the curved ring of a stone arch is called this.	What is a voussoir?
+r1	Architecture	400	36	Le Corbusier elevated buildings on reinforced-concrete columns that he called by this French term.	What are pilotis?
+r1	Architecture	400	36	A projecting screen of fins that shades windows from direct sun is known by this French compound term.	What is a brise-soleil?
+r1	Architecture	400	36	The Chicago School popularized this projecting polygonal window that extends through several stories of a façade.	What is an oriel window?
+r1	Architecture	400	36	A covered walkway surrounding a cloister court is commonly called this.	What is a cloister walk?
+r1	Architecture	400	36	A rigid vertical panel designed to resist wind or earthquake forces across a building is this structural element.	What is a shear wall?
+r1	Architecture	400	36	Rigid beam-to-column joints let this structural system resist sideways forces through bending rather than diagonal bracing.	What is a moment frame?
+r1	Architecture	400	36	Alternating headers and stretchers in every course form this traditional brick pattern.	What is Flemish bond?
+r1	Architecture	400	36	A semicircular recess covered by a half-dome often terminates the sanctuary end of a church.	What is an apse?
+r1	Architecture	400	36	This decorative band runs horizontally above columns in a classical entablature, between architrave and cornice.	What is a frieze?
+r1	Architecture	400	36	The lowest member of a classical entablature rests directly on the capitals and has this name.	What is an architrave?
+r1	Architecture	600	51	Ribs spreading outward from a single support create this late Gothic ceiling form seen at King's College Chapel.	What is a fan vault?
+r1	Architecture	600	51	A masonry ceiling strengthened by a skeletal network of projecting arches uses this Gothic system.	What is a rib vault?
+r1	Architecture	600	51	This Japanese bracket complex transfers the weight of broad temple eaves onto wooden columns.	What is kumimono?
+r1	Architecture	600	51	Layers of boards glued at right angles create this massive engineered-wood panel used for floors and walls.	What is cross-laminated timber?
+r1	Architecture	600	51	Curved structural members made by gluing thin wood laminations can span arenas and halls under this material name.	What is glued laminated timber?
+r1	Architecture	600	51	A long, narrow Islamic garden divided into four parts by paths or water channels follows this Persian plan.	What is a chahar bagh?
+r1	Architecture	600	51	A perforated stone screen that filters light and air in Indian architecture carries this Hindi-derived name.	What is a jali?
+r1	Architecture	600	51	A wind-catching tower directs cooler air into buildings in Iran and around the Persian Gulf under this name.	What is a badgir?
+r1	Architecture	600	51	This Native American and Spanish Colonial Revival style uses rounded walls, earth tones and projecting roof beams.	What is Pueblo Revival?
+r1	Architecture	600	51	Visible structural members and medieval-inspired ornament helped define this late Victorian American style.	What is Stick style?
+r1	Architecture	600	51	A steeply pitched roof, decorative half-timbering and tall chimneys commonly signal this twentieth-century revival style.	What is Tudor Revival?
+r1	Architecture	600	51	The exposed ends of round roof beams projecting through an adobe wall are called these in Pueblo architecture.	What are vigas?
+r1	Architecture	600	51	This Roman wall-building method places diamond-shaped blocks of tuff in a netlike pattern.	What is opus reticulatum?
+r1	Architecture	600	51	A high band of windows set above the main roofline admits daylight to a large interior through this feature.	What is a clerestory window?
+r1	Architecture	600	51	In timber framing, an upper floor that projects beyond the wall below forms this feature.	What is a jetty?
+r1	Architecture	600	51	This continuous stone course projects near the top of a wall to throw rainwater clear of the surface.	What is a drip course?
+r1	Architecture	800	68	This Brazilian architect adapted modernism to tropical settings in works such as São Paulo's glass-walled art museum.	Who is Lina Bo Bardi?
+r1	Architecture	800	68	This Egyptian architect promoted climate-responsive mud-brick construction in the village of New Gourna.	Who is Hassan Fathy?
+r1	Architecture	800	68	The Indian architect of Aranya Low Cost Housing and the Sangath studio received the 2018 Pritzker Prize.	Who is Balkrishna Doshi?
+r1	Architecture	800	68	This Burkinabè architect first gained international notice for a school built with local clay bricks in Gando.	Who is Diébédo Francis Kéré?
+r1	Architecture	800	68	The French partnership behind the transformation of Grand Parc Bordeaux favours adding generous space instead of demolition.	Who are Lacaton and Vassal?
+r1	Architecture	800	68	A thin concrete shell generated by moving a straight line between skewed curves can take this saddle-shaped geometric form.	What is a hyperbolic paraboloid?
+r1	Architecture	800	68	In timber framing, this horizontal beam ties pairs of rafters together high above the floor.	What is a collar tie?
+r1	Architecture	800	68	A hidden horizontal timber embedded in masonry to bind a wall together is traditionally called this.	What is a bond timber?
+r1	Architecture	800	68	This Islamic vaulting uses tiers of small niche-like cells to create a faceted transition beneath domes.	What is muqarnas?
+r1	Architecture	800	68	A Japanese room's recessed alcove for displaying a scroll or flower arrangement has this name.	What is a tokonoma?
+r1	Architecture	800	68	Traditional Chinese roofs use this interlocking system of wooden brackets between columns and eaves.	What is dougong?
+r1	Architecture	800	68	The massive inward-sloping walls of ancient Egyptian gateways frame an entrance structure of this type.	What is a pylon?
+r1	Architecture	800	68	In Gothic tracery, a pointed leaf-shaped opening formed by two arcs is this motif.	What is a mouchette?
+r1	Architecture	800	68	This nineteenth-century structural system combines wrought-iron tension members with cast-iron compression pieces in one truss.	What is a bowstring truss?
+r1	Architecture	800	68	A shallow brick vault built without temporary centering, common in Catalonia, carries this name.	What is a timbrel vault?
+r1	Architecture	800	68	The interlocking corner joints in a log building are shaped by cutting this type of recess into each timber.	What is a saddle notch?
+r1	Architecture	1000	84	The German term for a total work of art describes architecture conceived together with furnishings and decoration.	What is Gesamtkunstwerk?
+r1	Architecture	1000	84	Rudolf Schindler and Richard Neutra helped develop this Southern California modernist idiom named for its climate.	What is Desert Modernism?
+r1	Architecture	1000	84	The deep entrance portal of many Persian mosques, usually framed by a tall rectangular façade, has this name.	What is a pishtaq?
+r1	Architecture	1000	84	A corbelled stone beehive chamber found in Mycenaean tombs is described by this Greek-derived term.	What is a tholos?
+r1	Architecture	1000	84	This vault is formed when a barrel vault follows a curved or polygonal path, often around an apse.	What is an annular vault?
+r1	Architecture	1000	84	A small convex moulding carved as a row of beadlike forms is called this.	What is astragal moulding?
+r1	Architecture	1000	84	In classical design, paired scrolls supporting a projecting cornice or balcony are examples of this bracket form.	What is a modillion?
+r1	Architecture	1000	84	A circular or polygonal opening at the top of a dome admits light and reduces its weight under this Latin name.	What is an oculus?
+r1	Architecture	1000	84	Short timber members arranged in an interlocking diamond network create this economical long-span roof system.	What is a lamella roof?
+r1	Architecture	1000	84	A masonry technique alternating layers of brick and stone takes this Roman name meaning “mixed work.”	What is opus mixtum?
+r1	Architecture	1000	84	The stepped profile at the side of a Gothic gable is produced by a series of these small horizontal ledges.	What are corbie steps?
+r1	Architecture	1000	84	A Chinese ceremonial gateway with multiple roofs and pillars, often marking a sacred or commemorative site, is called this.	What is a paifang?
+r1	Architecture	1000	84	In traditional Korean architecture, this underfloor heating system channels hot gases beneath masonry floors.	What is ondol?
+r1	Architecture	1000	84	The painted decorative panels fitted between structural brackets under Korean eaves belong to this colour system.	What is dancheong?
+r1	Architecture	1000	84	A medieval roof frame in which paired curved timbers meet like the blades of a pair of scissors uses this name.	What is a cruck frame?
+r1	Architecture	1000	84	In Scottish Baronial architecture, a small round turret projecting from an upper corner is called this.	What is a bartizan?
+# Research anchors for world geography: USGS landform publications; NOAA Ocean Service geography/current explainers (https://oceanservice.noaa.gov/facts/); NASA Earth Observatory imagery and feature essays.
+# WORLD GEOGRAPHY — 16 clues at each Round One value
+r1	World Geography	200	22	This cool eastern boundary current helps enclose a North Atlantic sea whose borders are formed without coastlines.	What is the Canary Current?
+r1	World Geography	200	22	This small inland sea lies between Turkey's two famous straits and takes its name from an island within it.	What is the Sea of Marmara?
+r1	World Geography	200	22	South America's Andes are an example of this long connected chain of mountains.	What is a mountain range?
+r1	World Geography	200	22	The relationship between a distance on a map and the corresponding distance on Earth is expressed by this.	What is map scale?
+r1	World Geography	200	22	The boot-shaped mainland of Italy forms this named projection into the Mediterranean.	What is the Italian Peninsula?
+r1	World Geography	200	22	Java, Sumatra, Borneo and Sulawesi belong to this major island group of Southeast Asia.	What are the Sunda Islands?
+r1	World Geography	200	22	Sediment deposited where a river enters slower water can build this branching, often triangular landform.	What is a river delta?
+r1	World Geography	200	22	This narrow region of southern Mexico between the Gulf of Mexico and Pacific has long attracted proposals for a transoceanic route.	What is the Isthmus of Tehuantepec?
+r1	World Geography	200	22	A line joining places of equal elevation on a topographic map bears this name.	What is a contour line?
+r1	World Geography	200	22	North, south, east and west are collectively known by this navigational phrase.	What are the cardinal directions?
+r1	World Geography	200	22	The date changes by one calendar day when travellers cross this roughly north-south line in the Pacific.	What is the International Date Line?
+r1	World Geography	200	22	The Blue Nile begins at this highland lake before descending toward Sudan.	What is Lake Tana?
+r1	World Geography	200	22	A river branch that flows away from the main channel, common in deltas, bears this name.	What is a distributary?
+r1	World Geography	200	22	A narrow coastal inlet created when rising sea level floods a river valley is known by this short term.	What is a ria?
+r1	World Geography	200	22	The low area between hills or mountains, often occupied by a river, is this landform.	What is a valley?
+r1	World Geography	200	22	This passage between Spain and Morocco is the only natural connection between the Atlantic Ocean and Mediterranean Sea.	What is the Strait of Gibraltar?
+r1	World Geography	400	36	After crossing the Atlantic, warm surface water continues toward northwestern Europe in this broad current.	What is the North Atlantic Drift?
+r1	World Geography	400	36	Cold water rising off western South America supports rich fisheries in this linked oceanographic system.	What is the Peru–Chile upwelling system?
+r1	World Geography	400	36	This Sudanese city stands opposite Khartoum near the confluence of the Blue and White Nile.	What is Omdurman?
+r1	World Geography	400	36	After leaving East Africa's largest lake, the Victoria Nile flows through this broad, shallow Ugandan lake.	What is Lake Kyoga?
+r1	World Geography	400	36	The Danube empties into this inland sea after crossing or bordering ten European countries.	What is the Black Sea?
+r1	World Geography	400	36	The Great Rift Valley's East African branches reflect movement along this type of crustal feature.	What is a fault system?
+r1	World Geography	400	36	A fan-shaped deposit forms where a steep stream leaves a mountain canyon and spreads across a plain.	What is an alluvial fan?
+r1	World Geography	400	36	A crescent-shaped lake left behind after a river cuts through a meander has this name.	What is an oxbow lake?
+r1	World Geography	400	36	Wind piles sand into a crescent with horns pointing downwind to create this dune type.	What is a barchan dune?
+r1	World Geography	400	36	Patchy trees and open ground mingle in this transitional belt between boreal forest and Arctic tundra.	What is the taiga–tundra ecotone?
+r1	World Geography	400	36	The band of calm or light winds near the equator was historically dreaded by sailing ships under this name.	What are the doldrums?
+r1	World Geography	400	36	The subtropical belts near 30 degrees latitude associated with sinking dry air have this equestrian nickname.	What are the horse latitudes?
+r1	World Geography	400	36	South of the Sahel, this broad tropical grassland belt stretches across Africa toward the Guinea forests.	What is the Sudanian savanna?
+r1	World Geography	400	36	The seasonal north–south migration of this near-equatorial belt of converging winds strongly influences tropical rainy seasons.	What is the Intertropical Convergence Zone?
+r1	World Geography	400	36	The steep underwater edge where a continent's shallow shelf descends toward the deep ocean is this feature.	What is the continental slope?
+r1	World Geography	400	36	An isolated hill with steep sides and a small flat top, narrower than a mesa, is this landform.	What is a butte?
+r1	World Geography	600	51	This cold current flows north along southwestern Africa and helps maintain the aridity of the Namib coast.	What is the Benguela Current?
+r1	World Geography	600	51	The warm, swift western boundary current of the North Pacific flows past Japan under this name.	What is the Kuroshio Current?
+r1	World Geography	600	51	This protected area on the eastern side of the Okavango Delta was named for a San leader and his people.	What is the Moremi Game Reserve?
+r1	World Geography	600	51	The world's largest inland drainage basin centres on this salty remnant sea between Europe and Asia.	What is the Caspian Sea?
+r1	World Geography	600	51	The river system formed by the Tigris and Euphrates reaches the Persian Gulf through this shared channel.	What is the Shatt al-Arab?
+r1	World Geography	600	51	A drainage area with no outlet to the ocean is described by this hydrological adjective.	What is endorheic?
+r1	World Geography	600	51	Parallel ridges and valleys eroded from folded sedimentary rock create this aptly named terrain.	What is ridge-and-valley topography?
+r1	World Geography	600	51	Wind-carved ridges of softer rock streamlined in the direction of prevailing winds are called these.	What are yardangs?
+r1	World Geography	600	51	A bowl-shaped hollow carved at the head of a mountain glacier is this feature.	What is a cirque?
+r1	World Geography	600	51	A long scratch or groove cut into bedrock by debris dragged beneath moving ice is this mark.	What is a glacial striation?
+r1	World Geography	600	51	A ridge of sand and gravel deposited by a stream flowing within or beneath a glacier is this feature.	What is an esker?
+r1	World Geography	600	51	A broad plain of sediment spread beyond a melting glacier by braided streams has this Icelandic name.	What is a sandur?
+r1	World Geography	600	51	Water emerging from limestone may leave behind step-like deposits of this calcium carbonate rock.	What is travertine?
+r1	World Geography	600	51	A landscape of sinkholes, caves and disappearing streams develops most readily in soluble rock under this name.	What is karst topography?
+r1	World Geography	600	51	Seasonally flooded tropical grasslands spread across the Orinoco basin under this Spanish name.	What are the llanos?
+r1	World Geography	600	51	The line separating two adjacent river drainage systems is also called this.	What is a drainage divide?
+r1	World Geography	800	68	This current circles Antarctica from west to east without being blocked by a continent.	What is the Antarctic Circumpolar Current?
+r1	World Geography	800	68	Cold, nutrient-rich water rises off Peru when winds and Earth's rotation move surface water away from shore in this process.	What is coastal upwelling?
+r1	World Geography	800	68	Wind-driven surface water moves at an angle to the wind because Earth's rotation turns each successively deeper layer in this process.	What is Ekman transport?
+r1	World Geography	800	68	The Volga River begins in these low hills northwest of Moscow before flowing toward the Caspian.	What are the Valdai Hills?
+r1	World Geography	800	68	The Orange River reaches the Atlantic after forming much of the boundary between South Africa and this country.	What is Namibia?
+r1	World Geography	800	68	This enormous irrigation channel carries Amu Darya water westward across Turkmenistan and contributed to reduced flow downstream.	What is the Karakum Canal?
+r1	World Geography	800	68	Before turning toward India, the Tibetan river cuts one of Earth's deepest gorges around the eastern Himalayan syntaxis.	What is the Yarlung Tsangpo Grand Canyon?
+r1	World Geography	800	68	The vast tropical peatlands of the central Congo Basin occupy this shallow geographic depression.	What is the Cuvette Centrale?
+r1	World Geography	800	68	A long ridge with one gentle slope and one steep scarp forms when resistant tilted rock layers erode into this landform.	What is a cuesta?
+r1	World Geography	800	68	A sharp ridge formed where two cirques erode toward each other is this glacial feature.	What is a knife-edge ridge?
+r1	World Geography	800	68	A lake occupying a collapsed volcanic depression is known by this geologic name.	What is a caldera lake?
+r1	World Geography	800	68	A winding ridge deposited along the side of a glacier records the former ice margin as this feature.	What is a lateral moraine?
+r1	World Geography	800	68	A nearly level erosion surface reduced close to base level over immense time is called this.	What is a peneplain?
+r1	World Geography	800	68	A broad rock platform at a mountain front, cut by erosion in an arid climate, is this feature.	What is a pediment?
+r1	World Geography	800	68	A temporary lake on a desert floor evaporates to leave a salt flat known by this Spanish term.	What is a playa?
+r1	World Geography	800	68	Strong winds descending the eastern slopes of the Rockies are known by this Indigenous-derived name.	What are Chinook winds?
+r1	World Geography	1000	84	This eastward equatorial Pacific current lies between the westward North and South Equatorial currents.	What is the Equatorial Countercurrent?
+r1	World Geography	1000	84	The deep cold current flowing south from the Nordic Seas is a major component of this Atlantic circulation system.	What is the Atlantic Meridional Overturning Circulation?
+r1	World Geography	1000	84	The boundary between the Niger River's inland delta and the Sahara is marked in Mali by this great sandstone escarpment.	What is the Bandiagara Escarpment?
+r1	World Geography	1000	84	The Pilcomayo and Paraguay rivers help drain this vast lowland shared mainly by Bolivia, Paraguay and Argentina.	What is the Gran Chaco?
+r1	World Geography	1000	84	This high, dry plateau between the eastern and western Andes spans parts of Bolivia, Peru, Chile and Argentina.	What is the Altiplano?
+r1	World Geography	1000	84	The deep structural depression containing the Dead Sea forms part of this plate-boundary system.	What is the Dead Sea Transform?
+r1	World Geography	1000	84	This ancient Silk Road city of northern Tajikistan stands at the western entrance to the Fergana Valley.	What is Khujand?
+r1	World Geography	1000	84	A subtle bulge around Earth's equator caused by rotation is described by this geometric term.	What is oblateness?
+r1	World Geography	1000	84	A mountain pass at the head of two valleys, formed where opposing glaciers erode through a ridge, is called this.	What is a glacial col?
+r1	World Geography	1000	84	A valley running parallel to the regional strike of folded rocks is known by this term.	What is a strike valley?
+r1	World Geography	1000	84	Headward erosion can let one stream divert the upper waters of another in this drainage-rearrangement process.	What is river capture?
+r1	World Geography	1000	84	A river that adopts its course from an overlying rock cover and cuts into older structures below is this type.	What is a superimposed stream?
+r1	World Geography	1000	84	Closely spaced gullies carved into soft clay produce this barren terrain familiar from South Dakota.	What are badlands?
+r1	World Geography	1000	84	A broad tongue of sediment formed where two alluvial fans merge is known by this compound term.	What is a bajada?
+r1	World Geography	1000	84	The marine boundary where cold, fresh Baltic surface water meets saltier North Sea water is this type of density transition.	What is a halocline?
+r1	World Geography	1000	84	In polar oceans, this isolated patch of open water surrounded by sea ice carries a Russian-derived name.	What is a polynya?
+# Research anchors for Canadian cities: Statistics Canada 2021 Census geography profiles (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/); official municipal history/geography pages; Parks Canada national historic-site records.
+# CANADIAN CITIES — 16 clues at each Round One value
+r1	Canadian Cities	200	22	This river runs through Toronto's eastern ravines beside a valley parkway before reaching Lake Ontario.	What is the Don River?
+r1	Canadian Cities	200	22	The wooded hill rising above central Montréal gave the city its modern name.	What is Mount Royal?
+r1	Canadian Cities	200	22	Vancouver's seawall loops around this large downtown peninsula park.	What is Stanley Park?
+r1	Canadian Cities	200	22	Calgary began near the meeting of the Bow River and this smaller river.	What is the Elbow River?
+r1	Canadian Cities	200	22	Edmonton occupies both banks of this prairie river, which flows east toward Hudson Bay.	What is the North Saskatchewan River?
+r1	Canadian Cities	200	22	This British military engineer supervised construction of Ottawa's historic waterway between the Ottawa River and Kingston.	Who is Colonel John By?
+r1	Canadian Cities	200	22	Winnipeg's famous meeting place sits where the Red and Assiniboine rivers join.	What is The Forks?
+r1	Canadian Cities	200	22	The historic heart of Québec City is the only fortified urban area north of Mexico whose walls remain largely intact.	What is Old Québec?
+r1	Canadian Cities	200	22	This star-shaped fortress overlooks Halifax Harbour from a hill in the city's centre.	What is the Halifax Citadel?
+r1	Canadian Cities	200	22	Victoria's legislature and Fairmont Empress face this sheltered waterfront precinct.	What is the Inner Harbour?
+r1	Canadian Cities	200	22	Saskatoon spreads along this river, crossed by the bridges behind its “Paris of the Prairies” nickname.	What is the South Saskatchewan River?
+r1	Canadian Cities	200	22	Regina's legislature stands beside this artificial lake and surrounding urban park.	What is Wascana Lake?
+r1	Canadian Cities	200	22	This hill above St. John's harbour received the first transatlantic wireless signal reported by Marconi.	What is Signal Hill?
+r1	Canadian Cities	200	22	The 1864 conference associated with Confederation met in this Charlottetown building.	What is Province House?
+r1	Canadian Cities	200	22	Whitehorse developed along this river during transportation booms tied to the Klondike.	What is the Yukon River?
+r1	Canadian Cities	200	22	Yellowknife stands on the north shore of this enormous lake, North America's deepest.	What is Great Slave Lake?
+r1	Canadian Cities	400	36	Toronto's downtown network of below-ground shopping and pedestrian passages uses this four-letter name.	What is PATH?
+r1	Canadian Cities	400	36	Montréal's interconnected underground pedestrian network is officially branded with this French word meaning “network.”	What is RÉSO?
+r1	Canadian Cities	400	36	This Vancouver inlet was transformed from an industrial waterfront and hosted much of Expo 86.	What is False Creek?
+r1	Canadian Cities	400	36	Calgary's light-rail system, launched in 1981, is known by this concise name.	What is the CTrain?
+r1	Canadian Cities	400	36	This steel truss crossing connects Edmonton's downtown and Strathcona over the river valley.	What is the High Level Bridge?
+r1	Canadian Cities	400	36	Ottawa's historic market district east of Parliament Hill bears the surname of the canal's supervising engineer.	What is ByWard Market?
+r1	Canadian Cities	400	36	Winnipeg preserves an exceptional concentration of early warehouses and commercial buildings in this named district.	What is the Exchange District?
+r1	Canadian Cities	400	36	This broad boardwalk atop Québec City's old fortifications overlooks the St. Lawrence from beside Château Frontenac.	What is Dufferin Terrace?
+r1	Canadian Cities	400	36	Hamilton residents commonly use this name for the upper city above the long geological ridge.	What is Hamilton Mountain?
+r1	Canadian Cities	400	36	The immigration museum on Halifax's waterfront occupies this numbered former ocean-liner terminal.	What is Pier 21?
+r1	Canadian Cities	400	36	A 39-metre story pole carved by a team led by Mungo Martin was raised in 1956 in this park south of downtown Victoria.	What is Beacon Hill Park?
+r1	Canadian Cities	400	36	This Indigenous heritage park overlooking Saskatoon's river valley preserves evidence of gathering spanning thousands of years.	What is Wanuskewin?
+r1	Canadian Cities	400	36	The national police force trains cadets at this historic division in Regina.	What is RCMP Depot Division?
+r1	Canadian Cities	400	36	Tides force the Saint John River to reverse through a narrow gorge at this New Brunswick attraction.	What are the Reversing Falls Rapids?
+r1	Canadian Cities	400	36	A famous tidal bore travels up this river past Moncton's downtown.	What is the Petitcodiac River?
+r1	Canadian Cities	400	36	Fredericton's former British military compound survives downtown under this district name.	What is the Historic Garrison District?
+r1	Canadian Cities	600	51	Toronto's offshore community grew on a sandbar formed largely from material eroded from these lakeside cliffs.	What are the Scarborough Bluffs?
+r1	Canadian Cities	600	51	Montréal's Lachine Canal bypassed these rapids that once blocked ships travelling upstream.	What are the Lachine Rapids?
+r1	Canadian Cities	600	51	Vancouver's oldest commercial neighbourhood takes its name from the nickname of saloon keeper John Deighton.	What is Gastown?
+r1	Canadian Cities	600	51	Calgary's Stephen Avenue pedestrian mall follows the former downtown route of this numbered avenue.	What is Eighth Avenue?
+r1	Canadian Cities	600	51	Edmonton's legislature occupies land formerly used by this Hudson's Bay Company trading post.	What is Fort Edmonton?
+r1	Canadian Cities	600	51	A flight of eight stone chambers raises boats from the Ottawa River to the canal beside Parliament Hill under this name.	What are the Ottawa Locks?
+r1	Canadian Cities	600	51	Winnipeg's French-speaking historic quarter lies across the Red River under this saintly name.	What is Saint-Boniface?
+r1	Canadian Cities	600	51	The Plains of Abraham form part of this large Québec City park named for a battle commemorating governor general.	What is the Battlefields Park?
+r1	Canadian Cities	600	51	Hamilton's nineteenth-century waterworks preserves two massive steam engines in this museum.	What is the Hamilton Museum of Steam & Technology?
+r1	Canadian Cities	600	51	Halifax's Public Gardens are enclosed by ornate gates on this major downtown street.	What is Spring Garden Road?
+r1	Canadian Cities	600	51	Victoria's narrow Fan Tan Alley lies in this historic neighbourhood, the oldest of its kind in Canada.	What is Victoria's Chinatown?
+r1	Canadian Cities	600	51	Saskatoon's Broadway Bridge leads toward this district named for the avenue at its centre.	What is the Broadway neighbourhood?
+r1	Canadian Cities	600	51	Regina's Royal Saskatchewan Museum occupies a building within this immense urban park centred on the provincial legislature.	What is Wascana Centre?
+r1	Canadian Cities	600	51	This informal nickname describes the brightly painted row houses scattered across the slopes of St. John's.	What is Jellybean Row?
+r1	Canadian Cities	600	51	The Confederation Centre of the Arts occupies a full block near this central Charlottetown square.	What is Queen Square?
+r1	Canadian Cities	600	51	Whitehorse's preserved sternwheeler once carried passengers and freight on the upper Yukon under this name.	What is the S.S. Klondike?
+r1	Canadian Cities	800	68	Toronto's 1954 hurricane disaster led to new floodplain controls by this regional conservation authority.	What is the Toronto and Region Conservation Authority?
+r1	Canadian Cities	800	68	Montréal's Habitat 67 was designed by this architect while he was still in his twenties.	Who is Moshe Safdie?
+r1	Canadian Cities	800	68	Vancouver's original street grid began around this mill settlement on the south shore of Burrard Inlet.	What is Granville?
+r1	Canadian Cities	800	68	Calgary's sandstone building boom followed a destructive 1886 event of this kind.	What is the Calgary Fire of 1886?
+r1	Canadian Cities	800	68	Edmonton's former Canadian Pacific railway corridor became this linear park and active-transportation route.	What is the Railtown Greenway?
+r1	Canadian Cities	800	68	Ottawa's experimental farm was established in 1886 as the central site in a federal network devoted to this work.	What is agricultural research?
+r1	Canadian Cities	800	68	Winnipeg's Union Station was designed by the same New York firm responsible for Grand Central Terminal.	Who are Warren and Wetmore?
+r1	Canadian Cities	800	68	Québec City's lower town preserves this compact square beside the church of Notre-Dame-des-Victoires.	What is Place Royale?
+r1	Canadian Cities	800	68	Hamilton's Dundurn Castle was built for this politician who became premier of the Province of Canada.	Who is Allan MacNab?
+r1	Canadian Cities	800	68	Halifax's Hydrostone district was planned after the 1917 explosion using fire-resistant blocks made from this material.	What is concrete?
+r1	Canadian Cities	800	68	Victoria's Rockland neighbourhood contains this mansion built for coal baron Robert Dunsmuir.	What is Craigdarroch Castle?
+r1	Canadian Cities	800	68	Saskatoon's Delta Bessborough belongs to this family of railway hotels designed in a castle-like style.	What are Canadian National Railway hotels?
+r1	Canadian Cities	800	68	This named Regina district grew beside the Canadian Pacific main line and preserves early brick warehouses.	What is the Regina Warehouse District?
+r1	Canadian Cities	800	68	St. John's Battery neighbourhood occupies a steep slope beneath this narrow harbour entrance.	What is the Narrows?
+r1	Canadian Cities	800	68	Fredericton's Beaverbrook Art Gallery takes its name from this New Brunswick-born press baron.	Who is Max Aitken?
+r1	Canadian Cities	800	68	Iqaluit's distinctive Anglican cathedral was rebuilt after a fire with a design recalling this Arctic shelter.	What is an igloo?
+r1	Canadian Cities	1000	84	Toronto's Don Valley Brick Works quarried clay from formations that preserve evidence of this ancient glacial lake.	What is Lake Iroquois?
+r1	Canadian Cities	1000	84	Montréal's Pointe-à-Callière museum stands above remains of this small river, now channelled underground.	What is the Saint-Pierre River?
+r1	Canadian Cities	1000	84	Vancouver's first city archivist also promoted preserving the Old Hastings Mill; he was known by these initials and surname.	Who is J. S. Matthews?
+r1	Canadian Cities	1000	84	Calgary's Centre Street Bridge is guarded by four cast-concrete figures representing this animal.	What are lions?
+r1	Canadian Cities	1000	84	Edmonton's Strathcona district grew around the northern terminus of this railway from Calgary.	What is the Calgary and Edmonton Railway?
+r1	Canadian Cities	1000	84	Ottawa architect Werner Ernst Noffke designed this Spanish Colonial Revival movie house, now a repertory cinema in the Glebe.	What is the Mayfair Theatre?
+r1	Canadian Cities	1000	84	Winnipeg's Legislative Building contains a hidden “Pool of the Black Star” directly beneath this central domed chamber.	What is the Rotunda?
+r1	Canadian Cities	1000	84	The Québec City funicular links Dufferin Terrace with this lower-town street.	What is Rue du Petit-Champlain?
+r1	Canadian Cities	1000	84	Hamilton's first municipal pumping station drew drinking water from Lake Ontario near this beach strip.	What is the Burlington Beach Canal?
+r1	Canadian Cities	1000	84	Halifax's Old Burying Ground contains this arch honouring Augustus Welsford and William Parker, both killed in the Crimean War.	What is the Welsford–Parker Monument?
+r1	Canadian Cities	1000	84	Victoria's Chinese Cemetery overlooks the strait from this shoreline park.	What is Harling Point?
+r1	Canadian Cities	1000	84	Saskatoon's Marr Residence served as a field hospital after this 1885 battle.	What is the Battle of Batoche?
+r1	Canadian Cities	1000	84	Regina's Government House was designed in an eclectic style by this territorial public-works architect.	Who is Thomas Fuller?
+r1	Canadian Cities	1000	84	St. John's former Newfoundland Railway station on Water Street later became this transportation museum.	What is the Railway Coastal Museum?
+r1	Canadian Cities	1000	84	The brick Loyalist House in Saint John was built by this family after their arrival from New York.	Who are the Merritt family?
+r1	Canadian Cities	1000	84	The Yellowknife museum's geological collections include a specimen of this exceptionally ancient rock from the Slave craton.	What is Acasta gneiss?
+# Research anchors for Ontario: Ontario government “About Ontario,” parks, symbols and history resources (https://www.ontario.ca/page/about-ontario); Ontario Parks history and science publications; Legislative Assembly of Ontario; Ontario Heritage Trust plaque research.
+# ONTARIO KNOWLEDGE — 16 clues at each Round One value
+r1	Ontario Knowledge	200	22	The Highway 60 corridor through Ontario's oldest provincial park officially honours this influential parks administrator.	Who is Frank MacDougall?
+r1	Ontario Knowledge	200	22	Ontario's floral emblem has three white petals and blooms in spring woodlands.	What is the white trillium?
+r1	Ontario Knowledge	200	22	This purple variety of quartz became the province's official gemstone in 1975.	What is amethyst?
+r1	Ontario Knowledge	200	22	The province's official tree is this tall conifer important to early shipbuilding and the timber trade.	What is the eastern white pine?
+r1	Ontario Knowledge	200	22	The bird featured on Canada's one-dollar coin is also Ontario's official avian emblem.	What is the common loon?
+r1	Ontario Knowledge	200	22	Ontario's southernmost point of land lies on this small island in Lake Erie, south of Point Pelee.	What is Middle Island?
+r1	Ontario Knowledge	200	22	The world's largest lake located on an island lies within Manitoulin and bears this name.	What is Lake Manitou?
+r1	Ontario Knowledge	200	22	The province's southernmost mainland national park projects into Lake Erie.	What is Point Pelee National Park?
+r1	Ontario Knowledge	200	22	Before Confederation, most of present-day southern Ontario bore this colonial name.	What is Upper Canada?
+r1	Ontario Knowledge	200	22	This pink sandstone Romanesque Revival structure houses the province's elected assembly in Toronto.	What is the Ontario Legislative Building?
+r1	Ontario Knowledge	200	22	Ontario's only venomous snake lives around Georgian Bay and in pockets of the southwest.	What is the eastern massasauga?
+r1	Ontario Knowledge	200	22	Geographers classify the long asymmetrical ridge running from Niagara toward Tobermory as this landform type.	What is the Niagara cuesta?
+r1	Ontario Knowledge	200	22	The Ottawa River forms much of Ontario's boundary with this neighbouring province.	What is Quebec?
+r1	Ontario Knowledge	200	22	The world's best-known horseshoe-shaped waterfall straddles Ontario's border with New York State.	What is Horseshoe Falls?
+r1	Ontario Knowledge	200	22	This bay south of Hudson Bay forms Ontario's deeply indented northern coastline.	What is James Bay?
+r1	Ontario Knowledge	200	22	The green-and-white community flag bearing a lily and a trillium represents this linguistic-cultural group.	Who are Franco-Ontarians?
+r1	Ontario Knowledge	400	36	The Iroquoian word often given as the source of the province's name is translated by the government as this phrase.	What is “sparkling water”?
+r1	Ontario Knowledge	400	36	Upper Canada's first capital, Newark, is now this Niagara Region town.	What is Niagara-on-the-Lake?
+r1	Ontario Knowledge	400	36	John Graves Simcoe moved Upper Canada's capital from Newark to this settlement, later renamed Toronto.	What is York?
+r1	Ontario Knowledge	400	36	This British statute created Ontario as a province and established Canada's federal union in 1867.	What is the Constitution Act, 1867?
+r1	Ontario Knowledge	400	36	This 1793 law prevented the further importation of enslaved people into Upper Canada and provided for gradual abolition.	What is the Act to Limit Slavery?
+r1	Ontario Knowledge	400	36	The Niagara Escarpment divides Hamilton into lower and upper sections locally connected by roads with this name.	What are mountain accesses?
+r1	Ontario Knowledge	400	36	This dense glacial deposit forms much of the lower layer beneath the aquifers of the Oak Ridges region.	What is the Newmarket Till?
+r1	Ontario Knowledge	400	36	The forest region at Ontario's southern tip supports species such as sassafras and the tulip tree.	What is the Carolinian forest?
+r1	Ontario Knowledge	400	36	The Lake Erie entrance to the ship canal bypassing Niagara Falls is located in this city.	What is Port Colborne?
+r1	Ontario Knowledge	400	36	This giant hydraulic structure raises boats about 20 metres in two counterbalanced caissons on the Trent system.	What is the Peterborough Lift Lock?
+r1	Ontario Knowledge	400	36	Ontario's second provincial park protects a sandspit separating Lake Erie from this shallow bay.	What is Rondeau Bay?
+r1	Ontario Knowledge	400	36	White quartzite ridges north of Georgian Bay belong to this ancient mountain range.	What are the La Cloche Mountains?
+r1	Ontario Knowledge	400	36	Construction crews on this provincially backed railway exposed the silver that launched the Cobalt mining boom.	What is the Temiskaming and Northern Ontario Railway?
+r1	Ontario Knowledge	400	36	Ontario's highest honour uses the post-nominal letters OOnt.	What is the Order of Ontario?
+r1	Ontario Knowledge	400	36	The province's head of state is represented provincially by the holder of this office.	Who is the lieutenant governor?
+r1	Ontario Knowledge	400	36	The presiding officer who maintains order and applies parliamentary rules in Ontario's elected chamber holds this title.	Who is the Speaker of the Legislative Assembly?
+r1	Ontario Knowledge	600	51	This low, wet physiographic region of peatlands and permafrost occupies much of far northern Ontario.	What are the Hudson Bay Lowlands?
+r1	Ontario Knowledge	600	51	The ancient bedrock corridor linking the Canadian Shield to the Adirondacks crosses the St. Lawrence near Kingston under this name.	What is the Frontenac Axis?
+r1	Ontario Knowledge	600	51	Ontario's highest point, Ishpatina Ridge, lies in this highland area northwest of Lake Temagami.	What is the Timiskaming Highlands?
+r1	Ontario Knowledge	600	51	The landform resembling a reclining figure near Thunder Bay occupies this peninsula jutting into Lake Superior.	What is the Sibley Peninsula?
+r1	Ontario Knowledge	600	51	This remote Lake Superior wilderness park protects the coastal hiking trail between Hattie Cove and the Pic River.	What is Pukaskwa National Park?
+r1	Ontario Knowledge	600	51	A rare Great Lakes coastal dune ecosystem and oak savanna are protected at this park near Grand Bend.	What is Pinery Provincial Park?
+r1	Ontario Knowledge	600	51	Ontario created its largest provincial park in 1970 on the western shore of Hudson Bay under this name.	What is Polar Bear Provincial Park?
+r1	Ontario Knowledge	600	51	Samuel de Champlain travelled through Georgian Bay and the Trent watershed in this year, commemorated by many provincial plaques.	What is 1615?
+r1	Ontario Knowledge	600	51	Government forces dispersed Upper Canadian rebels at this tavern north of Toronto in December 1837.	What is the Battle of Montgomery's Tavern?
+r1	Ontario Knowledge	600	51	Robert Baldwin's partnership with this Lower Canadian reformer helped establish responsible government.	Who is Louis-Hippolyte LaFontaine?
+r1	Ontario Knowledge	600	51	This nineteenth-century educator became closely associated with Ontario's system of publicly supported common schools.	Who is Egerton Ryerson?
+r1	Ontario Knowledge	600	51	The community of Buxton developed from a settlement founded by this Presbyterian minister for refugees from slavery.	Who is William King?
+r1	Ontario Knowledge	600	51	Ontario's green-and-white Francophone flag was first raised at this Sudbury university in 1975.	What is Laurentian University?
+r1	Ontario Knowledge	600	51	A rich gold discovery near Timmins in 1909 began this northern mining rush.	What is the Porcupine Gold Rush?
+r1	Ontario Knowledge	600	51	The first major Canadian oil boom began in 1858 near this southwestern Ontario community.	What is Oil Springs?
+r1	Ontario Knowledge	600	51	The hydroelectric generating stations at Niagara named for this public-power advocate are operated by Ontario Power Generation.	Who is Adam Beck?
+r1	Ontario Knowledge	800	68	An international border anomaly west of Ontario creates this American projection reachable by land only through Manitoba.	What is the Northwest Angle?
+r1	Ontario Knowledge	800	68	This Precambrian geological province, named for a former French colony, underlies much of southeastern Ontario.	What is the Grenville Province?
+r1	Ontario Knowledge	800	68	The circular Sudbury Structure is the deeply eroded remnant of this kind of ancient event.	What is a meteorite impact?
+r1	Ontario Knowledge	800	68	Dark bituminous shale containing unusual spherical concretions is exposed at this Lake Huron locality.	What is Kettle Point?
+r1	Ontario Knowledge	800	68	Much of northern Ontario belongs to this immense Archean craton whose name recalls the lake on its southern edge.	What is the Superior Province?
+r1	Ontario Knowledge	800	68	The rare lakeside daisy grows naturally on Great Lakes alvars, a habitat defined by very thin soil over this rock.	What is limestone bedrock?
+r1	Ontario Knowledge	800	68	The petroglyphs called Kinoomaagewaabkong are protected in this park northeast of Peterborough.	What is Petroglyphs Provincial Park?
+r1	Ontario Knowledge	800	68	The agreement known by this numbered name covers a vast region between the Great Lakes watershed and James and Hudson bays.	What is Treaty 9?
+r1	Ontario Knowledge	800	68	The 1764 gathering at Niagara produced a covenant relationship often symbolized by this wampum belt.	What is the Covenant Chain wampum?
+r1	Ontario Knowledge	800	68	Resistance by this Black woman to being sold across the Niagara River spurred Upper Canada's 1793 antislavery legislation.	Who is Chloe Cooley?
+r1	Ontario Knowledge	800	68	This 1912 regulation sharply restricted French-language instruction in Ontario schools.	What is Regulation 17?
+r1	Ontario Knowledge	800	68	The 1849 burning of the Parliament buildings in Montréal helped prompt the Province of Canada to adopt this alternating arrangement.	What is the perambulating capital system?
+r1	Ontario Knowledge	800	68	The colony for freedom seekers established near Dresden was formally called by this name.	What is the Elgin Settlement?
+r1	Ontario Knowledge	800	68	The first practical electron microscope in North America was built at this Ontario university in 1938.	What is the University of Toronto?
+r1	Ontario Knowledge	800	68	During the Second World War, this Crown company in Sarnia produced synthetic rubber for the Allied effort.	What is Polymer Corporation?
+r1	Ontario Knowledge	800	68	The Avro Arrow was assembled at an aircraft plant in this community, now part of Mississauga.	What is Malton?
+r1	Ontario Knowledge	1000	84	This Archean greenstone belt east of Lake Temagami preserves some of Ontario's oldest volcanic and sedimentary rocks.	What is the Temagami Greenstone Belt?
+r1	Ontario Knowledge	1000	84	A failed Precambrian continental rift left volcanic rocks along Lake Superior's Ontario shore under this name.	What is the Midcontinent Rift System?
+r1	Ontario Knowledge	1000	84	The Sutton Ridges divide waters flowing toward James Bay from those entering this large northern lake and river system.	What is Lake Abitibi?
+r1	Ontario Knowledge	1000	84	This federal bird sanctuary protects tidal flats and marshes around the mouth of a major river entering southern James Bay.	What is the Moose River Migratory Bird Sanctuary?
+r1	Ontario Knowledge	1000	84	The flat limestone pavements supporting specialized Great Lakes plants and lichens are known by this habitat term.	What are alvars?
+r1	Ontario Knowledge	1000	84	Quetico's interconnected canoe routes drain mainly toward this border lake system west of the park.	What is Lac la Croix?
+r1	Ontario Knowledge	1000	84	The Albany River reaches James Bay near this Cree First Nation community, one of Ontario's oldest European trading-post sites.	What is Fort Albany?
+r1	Ontario Knowledge	1000	84	The Robinson treaties of 1850 separately covered the shores of Huron and this other Great Lake.	What is Lake Superior?
+r1	Ontario Knowledge	1000	84	This Mississauga chief signed numerous Upper Canadian land agreements and later established a Credit River community.	Who is Ajetance?
+r1	Ontario Knowledge	1000	84	The 1815 agreement that ended armed naval competition on the Great Lakes bears the surnames of its two negotiators.	What is the Rush–Bagot Agreement?
+r1	Ontario Knowledge	1000	84	This Polish-born insurgent led the 1838 attack near Prescott known as the Battle of the Windmill.	Who is Nils von Schoultz?
+r1	Ontario Knowledge	1000	84	A Black farming community founded north of London in the 1820s took this aspirational name.	What is the Wilberforce Settlement?
+r1	Ontario Knowledge	1000	84	The Great Western Railway's suspension bridge opened in 1855 near Niagara under this name.	What is the Niagara Falls Suspension Bridge?
+r1	Ontario Knowledge	1000	84	Upper Canada's first paper mill began operating in 1826 at this Don Valley industrial site.	What is Todmorden Mills?
+r1	Ontario Knowledge	1000	84	The northern terminus of the Temiskaming and Northern Ontario Railway was renamed for this provincial premier.	Who is James Pliny Whitney?
+r1	Ontario Knowledge	1000	84	Gaétan Gervais co-designed the Franco-Ontarian flag with this Laurentian University student.	Who is Michel Dupuis?

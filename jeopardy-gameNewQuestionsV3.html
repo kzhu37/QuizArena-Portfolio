@@ -1,0 +1,875 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Quizzler Jeopardy</title>
+<style>
+    :root{
+      --bg0:#05030d;
+      --bg1:#1e0f44;
+      --bg2:#6d3ad1;
+      --card:rgba(255,255,255,.08);
+      --card2:rgba(255,255,255,.06);
+      --line:rgba(255,255,255,.14);
+      --line2:rgba(255,255,255,.10);
+      --text:#f6f7ff;
+      --muted:rgba(246,247,255,.75);
+      --gold:#f5d56f;
+      --bad:#ff5c5c;
+      --good:#48e39a;
+      --shadow:0 16px 42px rgba(0,0,0,.45);
+      --r:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1400px 800px at 25% 10%, rgba(146,92,255,.46) 0%, rgba(88,41,163,.30) 32%, rgba(5,3,13,1) 70%),
+        radial-gradient(900px 500px at 85% 25%, rgba(245,213,111,.18) 0%, rgba(5,3,13,0) 60%),
+        linear-gradient(180deg, var(--bg0), #000);
+      overflow:hidden;
+    }
+
+    .app{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      padding:12px;
+    }
+
+    .top{
+      display:flex;
+      gap:10px;
+      align-items:stretch;
+      flex-wrap:wrap;
+    }
+    .brand{
+      flex:1;
+      min-width:280px;
+      border-radius:var(--r);
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(135,98,255,.18), rgba(255,255,255,.05));
+      box-shadow:var(--shadow);
+      padding:12px 14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .brand h1{
+      margin:0;
+      font-size:16px;
+      letter-spacing:.4px;
+      font-weight:900;
+      text-transform:uppercase;
+      color:rgba(246,247,255,.92);
+    }
+    .subpill{
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      border-radius:999px;
+      border:1px solid var(--line2);
+      background:rgba(255,255,255,.06);
+      padding:6px 10px;
+      font-size:12px;
+      color:var(--muted);
+      white-space:nowrap;
+    }
+    .subpill b{color:var(--gold)}
+    .btn{
+      appearance:none;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.06));
+      color:var(--text);
+      padding:10px 12px;
+      border-radius:14px;
+      font-weight:900;
+      cursor:pointer;
+      user-select:none;
+      box-shadow: 0 10px 24px rgba(0,0,0,.25);
+      transition:.15s transform ease, .15s opacity ease, .15s filter ease;
+    }
+    .btn:hover{transform:translateY(-1px);filter:brightness(1.05)}
+    .btn:active{transform:translateY(1px);opacity:.93}
+    .btn.primary{
+      background:linear-gradient(180deg, rgba(247,201,72,.98), rgba(247,201,72,.78));
+      color:#1a1403;
+      border-color:rgba(0,0,0,.18);
+    }
+    .btn.danger{
+      background:linear-gradient(180deg, rgba(255,92,92,.95), rgba(255,92,92,.68));
+      color:#230606;
+      border-color:rgba(0,0,0,.18);
+    }
+    .btn.ghost{
+      background:transparent;
+      box-shadow:none;
+    }
+    .btn.small{padding:8px 10px;border-radius:12px;font-size:12px}
+    .btn:disabled{
+      cursor:not-allowed;
+      opacity:.45;
+      filter:saturate(.4);
+      transform:none;
+    }
+    .timerToggle{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:rgba(255,255,255,.06);
+      padding:8px 10px;
+      font-size:12px;
+      font-weight:900;
+      color:var(--text);
+      box-shadow:0 10px 24px rgba(0,0,0,.18);
+      user-select:none;
+    }
+    .timerToggle input{accent-color:var(--gold)}
+    .timerStatus{min-width:96px; justify-content:center}
+    .pickerGrid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+      gap:10px;
+      margin-top:12px;
+    }
+    .pickBtn{
+      min-height:56px;
+      text-align:left;
+      justify-content:flex-start;
+      white-space:normal;
+    }
+    .selectedCats{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:12px;
+    }
+    .pickerMeta{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .pickerMeta span{
+      border:1px solid var(--line2);
+      border-radius:999px;
+      background:rgba(255,255,255,.07);
+      color:var(--muted);
+      padding:7px 10px;
+      font-size:12px;
+      font-weight:900;
+    }
+    .pickerMeta b{color:var(--gold)}
+    .draftGroups{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));
+      gap:10px;
+      margin-top:12px;
+    }
+    .draftGroup{
+      border:1px solid var(--line2);
+      border-radius:14px;
+      background:rgba(255,255,255,.055);
+      padding:10px;
+      min-height:94px;
+    }
+    .draftGroupTitle{
+      color:var(--gold);
+      font-size:12px;
+      font-weight:1000;
+      text-transform:uppercase;
+      letter-spacing:.4px;
+    }
+    .draftGroup .selectedCats{margin-top:8px}
+    .emptyPick{
+      color:var(--muted);
+      font-size:12px;
+      font-weight:800;
+      padding:8px 0;
+    }
+
+    .scores{
+      flex:2;
+      min-width:320px;
+      border-radius:var(--r);
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.06);
+      box-shadow:var(--shadow);
+      padding:10px;
+      display:flex;
+      gap:10px;
+      align-items:stretch;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .p{
+      min-width:170px;
+      flex:1;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      padding:10px 12px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      gap:8px;
+    }
+    .p.active{
+      border-color: rgba(247,201,72,.55);
+      background: rgba(247,201,72,.10);
+    }
+    .p .name{
+      font-weight:1000;
+      letter-spacing:.2px;
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .tag{
+      font-size:11px;
+      padding:2px 8px;
+      border-radius:999px;
+      border:1px solid rgba(247,201,72,.35);
+      background:rgba(247,201,72,.12);
+      color:var(--gold);
+      font-weight:1000;
+    }
+    .money{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:10px;
+      color:var(--muted);
+      font-size:12px;
+    }
+    .money b{
+      color:var(--gold);
+      font-size:20px;
+      font-weight:1000;
+      letter-spacing:.4px;
+    }
+
+    .main{
+      flex:1;
+      min-height:0;
+      border-radius:var(--r);
+      border:1px solid var(--line);
+      background:rgba(0,0,0,.20);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .board{
+      flex:1;
+      min-height:0;
+      display:grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 64px repeat(5, 1fr);
+    }
+    .cat{
+      border-right:1px solid rgba(255,255,255,.10);
+      background:linear-gradient(180deg, rgba(108,61,191,.96), rgba(39,20,82,.96));
+      padding:10px 8px;
+      text-align:center;
+      font-weight:1000;
+      font-size:12px;
+      letter-spacing:.8px;
+      text-transform:uppercase;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .cell{
+      border-top:1px solid rgba(255,255,255,.10);
+      border-right:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(82,44,156,.96), rgba(21,11,49,.96));
+      padding:10px;
+      display:flex;
+    }
+    .tile{
+      flex:1;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.12);
+      background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
+      color:var(--gold);
+      font-weight:1000;
+      font-size:26px;
+      letter-spacing:.6px;
+      cursor:pointer;
+      box-shadow: 0 10px 24px rgba(0,0,0,.28);
+      transition:.15s transform ease, .15s opacity ease, .15s filter ease;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-shadow: 0 2px 12px rgba(0,0,0,.35);
+      user-select:none;
+    }
+    .tile:hover{transform:translateY(-1px);filter:brightness(1.06)}
+    .tile:active{transform:translateY(1px);opacity:.93}
+    .tile.used{
+      cursor:not-allowed;
+      opacity:.22;
+      filter:saturate(.2);
+      background:rgba(255,255,255,.04);
+      box-shadow:none;
+      text-shadow:none;
+      transform:none;
+    }
+
+    .foot{
+      border-top:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.05);
+      padding:10px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .foot .left, .foot .right{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .hint{
+      color:var(--muted);
+      font-size:12px;
+    }
+
+    .screen{
+      position:absolute;
+      inset:0;
+      padding:16px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .setup{
+      width:min(1220px, 100%);
+      border-radius:24px;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.06));
+      box-shadow:var(--shadow);
+      padding:30px;
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:26px;
+    }
+    .setup h2{
+      margin:0 0 16px;
+      font-size:34px;
+      text-transform:uppercase;
+      letter-spacing:.8px;
+      color:rgba(246,247,255,.92);
+    }
+    .setup p{
+      margin:0 0 16px;
+      color:var(--muted);
+      line-height:1.62;
+      font-size:20px;
+    }
+    .grid2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:16px;
+      margin-top:18px;
+    }
+    .setup label{display:block;color:var(--muted);font-size:18px;margin:16px 0 10px}
+    .setup input, .setup select, .setup textarea{
+      width:100%;
+      min-height:62px;
+      padding:16px 18px;
+      border-radius:18px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(3,10,40,.55);
+      color:var(--text);
+      outline:none;
+      font-size:20px;
+    }
+    .setup textarea{min-height:120px;resize:vertical}
+    .setup #nameFields{display:grid;gap:10px;margin-top:12px}
+    .setup .btn{
+      padding:16px 22px;
+      border-radius:18px;
+      font-size:20px;
+    }
+
+    .overlay{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.72);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:14px;
+      z-index:50;
+    }
+    .modal{
+      width:min(980px, 100%);
+      max-height: calc(100vh - 28px);
+      overflow:auto;
+      border-radius:22px;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(7,18,70,.98), rgba(3,10,38,.98));
+      box-shadow:var(--shadow);
+      padding:14px;
+    }
+    .mhead{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:flex-start;
+      justify-content:space-between;
+    }
+    .mtitle{
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.8px;
+      color:var(--muted);
+      font-weight:900;
+    }
+    .mvalue{
+      font-weight:1000;
+      color:var(--gold);
+    }
+    .clue{
+      margin-top:10px;
+      font-size:32px;
+      line-height:1.18;
+      font-weight:1000;
+      letter-spacing:.2px;
+      padding:10px;
+    }
+    .note{
+      padding:0 10px 6px;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.45;
+    }
+    .answerBox{
+      margin:12px 10px 0;
+      padding:12px;
+      border-radius:16px;
+      border:1px dashed rgba(247,201,72,.45);
+      background:rgba(247,201,72,.08);
+      color:rgba(247,201,72,.95);
+      font-weight:900;
+      font-size:16px;
+      display:none;
+    }
+    .modalTimer{
+      margin:18px 10px 12px;
+      padding:16px 12px;
+      border-radius:16px;
+      border:2px solid rgba(72,227,154,.6);
+      background:rgba(72,227,154,.12);
+      color:rgba(72,227,154,.98);
+      font-weight:1000;
+      font-size:32px;
+      text-align:center;
+      letter-spacing:2px;
+      display:none;
+      min-height:50px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .modalTimer.timeRunning{
+      animation: timerPulse 0.4s ease-in-out;
+    }
+    @keyframes timerPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .modalTimer.timeWarning{
+      border-color:rgba(255,92,92,.6);
+      background:rgba(255,92,92,.12);
+      color:rgba(255,92,92,.98);
+    }
+    .actions{
+      margin-top:12px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+      padding:10px;
+    }
+    .actions .left, .actions .right{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .who{
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.16);
+      background:rgba(255,255,255,.06);
+      color:var(--muted);
+      font-size:12px;
+      font-weight:900;
+    }
+    .who b{color:var(--text)}
+    .divider{
+      height:1px;
+      background:rgba(255,255,255,.10);
+      margin:16px 0 18px;
+    }
+
+    .final{
+      height:100%;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      padding:12px;
+    }
+    .card{
+      border-radius:20px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.06);
+      box-shadow:var(--shadow);
+      padding:14px;
+    }
+    .big{
+      font-size:18px;
+      font-weight:1000;
+      letter-spacing:.5px;
+      text-transform:uppercase;
+      color:rgba(246,247,255,.92);
+      margin:0 0 8px;
+    }
+    .choices{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .choice{
+      flex:1;
+      min-width:220px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      padding:12px;
+      cursor:pointer;
+      transition:.15s transform ease, .15s filter ease;
+    }
+    .choice:hover{transform:translateY(-1px);filter:brightness(1.06)}
+    .choice b{color:var(--gold)}
+    .step{
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.5;
+      margin:0;
+    }
+    .row{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .k{
+      color:var(--muted);
+      font-size:12px;
+    }
+
+    .setup .k{
+      font-size:18px;
+      line-height:1.62;
+    }
+
+    .toast{
+      position:fixed;
+      left:50%;
+      transform:translateX(-50%);
+      bottom:14px;
+      z-index:80;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.16);
+      background:rgba(0,0,0,.55);
+      padding:10px 14px;
+      color:var(--text);
+      box-shadow: 0 12px 28px rgba(0,0,0,.35);
+      opacity:0;
+      pointer-events:none;
+      transition:.18s opacity ease, .18s transform ease;
+      font-weight:900;
+      font-size:13px;
+    }
+    .toast.show{
+      opacity:1;
+      transform:translateX(-50%) translateY(-2px);
+    }
+
+    .endModal{
+      width:min(760px, 100%);
+    }
+    .endStandings{
+      margin-top:12px;
+      display:grid;
+      gap:10px;
+    }
+    .endPlayer{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding:12px 14px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.05);
+    }
+    .endPlayer.top{
+      border-color:rgba(245,213,111,.34);
+      background:rgba(245,213,111,.10);
+    }
+    .endPlayer .place{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:32px;
+      min-height:32px;
+      border-radius:999px;
+      background:rgba(255,255,255,.08);
+      color:var(--gold);
+      font-weight:1000;
+    }
+    .endPlayer .winner{
+      font-weight:1000;
+      font-size:16px;
+    }
+    .endActions{
+      margin-top:18px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    @media (max-width: 900px){
+      .setup{grid-template-columns:1fr}
+      .setup h2{font-size:28px}
+      .setup p{font-size:18px}
+      .setup label{font-size:16px}
+      .setup input, .setup select, .setup textarea{font-size:18px}
+      .setup .btn{font-size:18px}
+      .board{grid-template-columns: repeat(3, 1fr); grid-template-rows: 64px repeat(10, 1fr);}
+      .cat{font-size:11px}
+      .tile{font-size:22px}
+      .clue{font-size:26px}
+    }
+    @media (max-width: 520px){
+      .board{grid-template-columns: repeat(2, 1fr); grid-template-rows: 64px repeat(15, 1fr);}
+      .tile{font-size:20px}
+      .clue{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+<div aria-label="Quizzler Jeopardy board mode" class="app" id="app">
+<div class="top">
+<div class="brand">
+<div>
+<h1 id="brandTitle">Quizzler Jeopardy</h1>
+<div class="subpill" id="roundPill">Round: <b>-</b></div>
+</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
+<a class="btn small" href="#" id="platformHubBtn" style="display:none;">Platform Hub</a>
+<label class="timerToggle" title="Optional clue timer"><input id="timerToggle" type="checkbox"> Timer</label>
+<div class="subpill timerStatus" id="timerStatus">Timer: <b>Off</b></div>
+<button class="btn small" id="editPlayersBtn">Edit Players</button>
+<button class="btn small" id="saveBtn">Save</button>
+<button class="btn small" id="loadBtn">Load</button>
+<button class="btn small danger" id="resetBtn">Reset</button>
+</div>
+</div>
+<div class="scores" id="scores"></div>
+</div>
+<div class="main" id="main">
+<div class="board" id="board"></div>
+<div class="foot">
+<div class="left">
+<div class="subpill">Turn: <b id="turnName">-</b></div>
+<div class="subpill">Progress: <b id="progress">0/0</b></div>
+<div class="hint" id="hint">
+          Rule: incorrect = lose value; pass = no penalty + lowest-score opponent gets 1 steal attempt.
+        </div>
+</div>
+<div class="right">
+<button class="btn" id="newGameBtn">New Game (New Questions)</button>
+<button class="btn primary" disabled="" id="nextRoundBtn">Next Round</button>
+</div>
+</div>
+</div>
+</div>
+<div class="screen" id="setupScreen" style="display:none;">
+<div class="setup">
+<div>
+<h2>Game Setup</h2>
+<p>
+        One screen, turn-based play. On your turn you pick a clue. The host clicks
+        <b>Correct</b>, <b>Incorrect</b>, or <b>Pass</b>.
+      </p>
+<p>
+<b>Pass</b> = no penalty, but the <b>lowest-score other player</b> gets a single steal attempt.
+        After each clue, turn advances to the next player.
+      </p>
+<div class="grid2">
+<div>
+<label for="playerCount">Number of players (1-4)</label>
+<select id="playerCount">
+<option>1</option>
+<option selected="">2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+<div>
+<label for="categoryMode">Categories</label>
+<select id="categoryMode">
+<option selected="" value="random">Random weighted categories</option>
+<option value="custom">Players choose categories</option>
+</select>
+</div>
+</div>
+<div id="nameFields"></div>
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+<button class="btn primary" id="startBtn">Start Game</button>
+<button class="btn" id="quickBtn">Quick Start</button>
+</div>
+</div>
+<div>
+<h2>Host Tips</h2>
+<p>- Turn on the built-in timer from the top-right controls if the room wants stricter play.</p>
+<p>- "Expected response" is shown when you hit <b>Reveal Response</b>.</p>
+<p>- You can start a fresh randomized board any time using <b>New Game (New Questions)</b>.</p>
+<div class="divider"></div>
+<p class="k">
+        This version now runs from a committed local question bank with strict validation and save-safe round loading.
+        Double Round is harder than Round One; Final Clue is hard but fair.
+      </p>
+</div>
+</div>
+</div>
+<div class="overlay" id="overlay" style="display:none;">
+<div aria-modal="true" class="modal" role="dialog">
+<div class="mhead">
+<div>
+<div class="mtitle" id="mCat">Category</div>
+<div class="mvalue" id="mVal">$0</div>
+</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+<button class="btn ghost small" id="closeModalBtn">Close</button>
+</div>
+</div>
+<div class="clue" id="mClue">Clue</div>
+<div class="note" id="mNote"></div>
+<div class="answerBox" id="mAnswer"></div>
+<div class="modalTimer" id="mTimer" style="display:none;">
+  <span class="timerValue">-</span>
+</div>
+<div class="actions">
+<div class="left" id="leftActions">
+<div class="who" id="whoBox">Up: <b>-</b></div>
+<button class="btn" id="revealBtn">Reveal Response</button>
+</div>
+<div class="right" id="actionButtons"></div>
+</div>
+</div>
+</div>
+<div class="overlay" id="gameEndOverlay" style="display:none;">
+<div aria-modal="true" class="modal endModal" role="dialog">
+<div class="mhead">
+<div>
+<div class="mtitle">Game Complete</div>
+<div class="mvalue" id="gameEndTitle">Quizzler Jeopardy Complete</div>
+</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+<button class="btn ghost small" id="closeGameEndBtn">Close</button>
+</div>
+</div>
+<div class="clue" id="gameEndSummary">Winner summary</div>
+<div class="note" id="gameEndNote"></div>
+<div class="endStandings" id="gameEndStandings"></div>
+<div class="endActions">
+<button class="btn primary" id="playAgainBtn">Play Again</button>
+<button class="btn" id="backToLobbyBtn">Back To Lobby</button>
+</div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+  (function configureBoardShell() {
+    const params = new URLSearchParams(window.location.search);
+    const config = window.QuizzlerBoardConfig = Object.assign({
+      displayName: "Quizzler Jeopardy",
+      hubHash: "#/",
+      flagshipHash: "#/jeopardy",
+      candidateNames: [
+        "Quizzler Jeopardy",
+        "Quizzler Board",
+        "Quizzler Showdown",
+        "Quizzler Clueboard",
+        "The Quizzler Challenge",
+        "Quizzler Grand Board",
+        "Mystic Clueboard",
+        "Quizzler Stage",
+        "The Quizzler Board",
+        "Quizzler Spotlight"
+      ]
+    }, window.QuizzlerBoardConfig || {});
+
+    const displayName = params.get("boardName");
+    const hubHash = params.get("hubHash");
+    const flagshipHash = params.get("flagshipHash");
+
+    if (displayName) config.displayName = displayName;
+    if (hubHash) config.hubHash = hubHash;
+    if (flagshipHash) config.flagshipHash = flagshipHash;
+
+    const brandName = String(config.displayName || "Quizzler Jeopardy");
+    document.title = brandName;
+
+    const brandTitle = document.getElementById("brandTitle");
+    const gameEndTitle = document.getElementById("gameEndTitle");
+    const hubBtn = document.getElementById("platformHubBtn");
+
+    if (brandTitle) brandTitle.textContent = brandName;
+    if (gameEndTitle) gameEndTitle.textContent = `${brandName} Complete`;
+    if (!hubBtn) return;
+
+    hubBtn.href = `./index.html${String(config.hubHash || "#/")}`;
+    hubBtn.style.display = "inline-flex";
+  })();
+</script>
+<script src="./data/jeopardy-bank/round1-bank.js"></script>
+<script src="./data/jeopardy-bank/round2-bank.js"></script>
+<script src="./data/jeopardy-bank/final-bank.js"></script>
+<script src="./src/jeopardy/config.js"></script>
+<script src="./src/jeopardy/utils.js"></script>
+<script src="./src/jeopardy/answerMatcher.js"></script>
+<script src="./src/jeopardy/questionValidator.js"></script>
+<script src="./src/jeopardy/usageTracker.js"></script>
+<script src="./src/jeopardy/repository.js"></script>
+<script src="./src/jeopardy/boardAssembler.js"></script>
+<script src="./src/jeopardy/finalSelector.js"></script>
+<script src="./src/jeopardy/questionSourceAdapter.js"></script>
+<script src="./src/jeopardy/gameStateAdapter.js"></script>
+<script src="./src/jeopardy/app.js"></script>
+</body>
+</html>
+

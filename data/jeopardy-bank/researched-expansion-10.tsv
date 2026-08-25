@@ -1,0 +1,404 @@
+# Authored research expansion batch 10.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: United Nations history resources and OHCHR legal materials (https://www.un.org/ and https://www.ohchr.org/); International IDEA electoral-system guidance (https://www.idea.int/).
+# Research anchors: IMF and World Bank explainers (https://www.imf.org/ and https://www.worldbank.org/); Stanford Encyclopedia of Philosophy reference articles (https://plato.stanford.edu/).
+r2	World History	400	41	The adoption of farming and permanent settlements transformed human life during this prehistoric transition.	What was the Neolithic Revolution?
+r2	World History	400	41	Tools and weapons made from an alloy of copper and tin gave this period its name.	What was the Bronze Age?
+r2	World History	400	41	European armies launched these medieval religious expeditions toward Jerusalem and other eastern Mediterranean lands.	What were the Crusades?
+r2	World History	400	41	Oceanic voyages linking Europe, Africa, Asia, and the Americas characterize this early modern era.	What was the Age of Exploration?
+r2	World History	400	41	Dozens of Asian and African territories gained independence from overseas empires through this twentieth-century process.	What was decolonization?
+r2	World History	400	41	Greek language and culture spread from Egypt to Central Asia during this era following Alexander's conquests.	What was the Hellenistic Age?
+r2	World History	400	41	A Macedonian dynasty ruled from Alexandria after Alexander's death in this ancient kingdom.	What was Ptolemaic Egypt?
+r2	World History	400	41	City-states such as Tikal and Palenque, a hieroglyphic script, and sophisticated calendars marked this Mesoamerican culture.	What was the Maya civilization?
+r2	World History	400	41	Norse raiders, traders, and settlers ranged from Newfoundland to Kyiv during this era beginning in the late eighth century.	What was the Viking Age?
+r2	World History	400	41	Translation, mathematics, medicine, and astronomy flourished around Abbasid Baghdad during this scholarly era.	What was the Islamic Golden Age?
+r2	World History	400	41	Otto I's coronation helped establish this loose central European realm, which Napoleon dissolved in 1806.	What was the Holy Roman Empire?
+r2	World History	400	41	Military rulers based in Edo governed Japan from 1603 until imperial rule was restored in 1868 under this regime.	What was the Tokugawa shogunate?
+r2	World History	400	41	Copernican astronomy, experimentation, and mathematical laws of nature drove this early modern transformation of knowledge.	What was the Scientific Revolution?
+r2	World History	400	41	Campaigners such as Olaudah Equiano and Frederick Douglass advanced this movement to end slavery.	What was abolitionism?
+r2	World History	400	41	Activists organized petitions, marches, and civil disobedience in this campaign to secure women's voting rights.	What was the women's suffrage movement?
+r2	World History	400	41	High-yield crop varieties, irrigation, and fertilizer sharply increased harvests in many countries during this twentieth-century agricultural shift.	What was the Green Revolution?
+r2	World History	800	55	Crowned emperor in Rome on Christmas Day in 800, this Frankish king ruled much of western and central Europe.	Who was Charlemagne?
+r2	World History	800	55	This Ming admiral commanded immense treasure fleets across the Indian Ocean in the early fifteenth century.	Who was Zheng He?
+r2	World History	800	55	A teenage visionary helped lift the siege of Orléans before being tried and burned by the English and their allies.	Who was Joan of Arc?
+r2	World History	800	55	This Corsican general crowned himself emperor, redrew Europe's map, and gave France an influential civil code.	Who was Napoleon Bonaparte?
+r2	World History	800	55	Known as “the Conqueror,” this Ottoman sultan captured Constantinople in 1453.	Who was Mehmed II?
+r2	World History	800	55	Satrapies, standardized tribute, and the Royal Road helped this Achaemenid ruler administer a vast empire.	Who was Darius I?
+r2	World History	800	55	War elephants accompanied this Carthaginian commander over the Alps during his invasion of Italy.	Who was Hannibal Barca?
+r2	World History	800	55	The last active ruler of her Macedonian dynasty allied with Julius Caesar and Mark Antony.	Who was Cleopatra VII?
+r2	World History	800	55	This Byzantine emperor ordered a major compilation of Roman law and rebuilt Hagia Sophia.	Who was Justinian I?
+r2	World History	800	55	After unifying Egypt and Syria, this Kurdish leader recaptured Jerusalem from crusader forces in 1187.	Who was Saladin?
+r2	World History	800	55	This grandson of Genghis founded China's Yuan dynasty and received Marco Polo at his court.	Who was Kublai Khan?
+r2	World History	800	55	Ethiopian forces under this emperor defeated an invading Italian army at Adwa in 1896.	Who was Menelik II?
+r2	World History	800	55	Scholars translated Greek, Persian, and Indian works at this celebrated Abbasid center in Baghdad.	What was the House of Wisdom?
+r2	World History	800	55	Edo-period lords had to alternate residence between their domains and the shogun's capital under this system.	What was sankin-kotai?
+r2	World History	800	55	Ottoman officials periodically levied Christian boys for conversion and state service through this system.	What was the devshirme?
+r2	World History	800	55	Originally recruited through that levy, these elite infantry troops served the Ottoman sultan.	Who were the Janissaries?
+r2	World History	1200	67	Constantine and Licinius proclaimed religious toleration for Christians in 313 through this decree.	What was the Edict of Milan?
+r2	World History	1200	67	A sixth-century compilation known as the Corpus Juris Civilis preserved and organized centuries of Roman jurisprudence.	What was the Justinian Code?
+r2	World History	1200	67	Abbasid and Tang forces met near a Central Asian river in this 751 clash often linked to papermaking's westward spread.	What was the Battle of Talas?
+r2	World History	1200	67	Mutual excommunications in 1054 symbolize this enduring separation of the Latin and Greek churches.	What was the Great Schism?
+r2	World History	1200	67	Popes and Holy Roman emperors disputed who could appoint bishops during this medieval struggle.	What was the Investiture Controversy?
+r2	World History	1200	67	Charles IV's decree established seven prince-electors and rules for choosing a Holy Roman emperor.	What was the Golden Bull of 1356?
+r2	World History	1200	67	The principle “whose realm, his religion” let German princes choose Lutheranism or Catholicism under this 1555 settlement.	What was the Peace of Augsburg?
+r2	World History	1200	67	Poland and Lithuania formed a federated commonwealth through this agreement of 1569.	What was the Union of Lublin?
+r2	World History	1200	67	An uprising that began near Palermo in 1282 expelled Angevin rulers from an island in this event named for evening prayers.	What were the Sicilian Vespers?
+r2	World History	1200	67	Fighting from Europe to India and North America made this 1756–1763 conflict arguably the first global war.	What was the Seven Years' War?
+r2	World History	1200	67	Russia, Prussia, and Austria erased a neighboring commonwealth from the map in three stages ending in 1795.	What were the Partitions of Poland?
+r2	World History	1200	67	This 1122 agreement resolved a major phase of the papal-imperial dispute over appointing bishops.	What was the Concordat of Worms?
+r2	World History	1200	67	The grandsons of Charlemagne divided his empire into three kingdoms under this 843 settlement.	What was the Treaty of Verdun?
+r2	World History	1200	67	Spain and Portugal placed an anti-meridian in Asia to complement their earlier Atlantic division through this 1529 treaty.	What was the Treaty of Zaragoza?
+r2	World History	1200	67	This 1559 peace ended decades of Habsburg-Valois wars and confirmed Spanish predominance in Italy.	What was the Peace of Cateau-Cambrésis?
+r2	World History	1200	67	The Ottoman Empire ceded Hungary and Transylvania to Habsburg control under this 1699 settlement.	What was the Treaty of Karlowitz?
+r2	World History	1600	81	Russia gained important Black Sea privileges after defeating the Ottoman Empire under this 1774 treaty.	What was the Treaty of Küçük Kaynarca?
+r2	World History	1600	81	Ottoman reforms involving administration, taxation, conscription, and legal equality collectively formed this nineteenth-century era.	What was the Tanzimat?
+r2	World History	1600	81	Issued after the Crimean War, this 1856 Ottoman decree promised equal treatment for subjects regardless of religion.	What was the Hatt-ı Hümayun?
+r2	World History	1600	81	Followers of Muhammad Ahmad fought Ottoman-Egyptian and later British power in Sudan during this conflict.	What was the Mahdist War?
+r2	World History	1600	81	German colonial forces pursued extermination policies against two peoples in Southwest Africa during this 1904–1908 atrocity.	What was the Herero and Nama genocide?
+r2	World History	1600	81	A spiritual medicine called “maji” inspired resistance to German rule in East Africa during this uprising.	What was the Maji Maji Rebellion?
+r2	World History	1600	81	Nongqawuse's prophecy prompted a disastrous destruction of her people's herds and crops in this 1850s movement.	What was the Xhosa cattle-killing movement?
+r2	World History	1600	81	Chile defeated Peru and Bolivia in this 1879–1884 conflict over nitrate-rich Atacama territories.	What was the War of the Pacific?
+r2	World History	1600	81	Paraguay fought Brazil, Argentina, and Uruguay in this devastating South American conflict.	What was the War of the Triple Alliance?
+r2	World History	1600	81	Brazil's young republic destroyed Antônio Conselheiro's backlands community in this 1890s conflict.	What was the Canudos War?
+r2	World History	1600	81	Liberals led by Benito Juárez defeated Mexican conservatives in this 1858–1861 civil conflict.	What was the Reform War?
+r2	World History	1600	81	Emiliano Zapata's 1911 manifesto demanded land restitution under the slogan “Land and Liberty.”	What was the Plan of Ayala?
+r2	World History	1600	81	Muslim guerrillas in Central Asia resisted Bolshevik and Soviet power under this movement's name.	What was the Basmachi movement?
+r2	World History	1600	81	Muslim reformers in the Russian Empire promoted “new method” schools through this modernizing movement.	What was Jadidism?
+r2	World History	1600	81	A Cossack revolt beginning in 1648 shattered Polish-Lithuanian control across much of Ukraine.	What was the Khmelnytsky Uprising?
+r2	World History	1600	81	Followers of an Indigenous Korean religion led this 1894 revolt, whose suppression drew China and Japan into war.	What was the Tonghak Peasant Revolution?
+r2	World History	2000	94	Henry IV granted French Protestants limited worship and civil protections through this 1598 decree, later revoked by Louis XIV.	What was the Edict of Nantes?
+r2	World History	2000	94	Russia and Qing China first formally settled much of their frontier through this 1689 agreement.	What was the Treaty of Nerchinsk?
+r2	World History	2000	94	Sweden ceded Baltic territories to Russia, ending the Great Northern War through this 1721 settlement.	What was the Treaty of Nystad?
+r2	World History	2000	94	Charles VI sought European acceptance of female Habsburg succession through this dynastic decree.	What was the Pragmatic Sanction of 1713?
+r2	World History	2000	94	Austria's alliance with France and Britain's alignment with Prussia reversed old rivalries in this 1756 realignment.	What was the Diplomatic Revolution?
+r2	World History	2000	94	Britain and Prussia agreed to keep foreign troops out of Germany through this pact signed early in 1756.	What was the Treaty of Westminster of 1756?
+r2	World History	2000	94	Napoleon tried to isolate Britain economically by closing European ports to its goods under this blockade policy.	What was the Continental System?
+r2	World History	2000	94	A preliminary 1878 peace created a large Bulgarian state after a Russian victory over the Ottoman Empire.	What was the Treaty of San Stefano?
+r2	World History	2000	94	This 1923 agreement replaced Sèvres and internationally recognized the borders of the new Turkish republic.	What was the Treaty of Lausanne?
+r2	World History	2000	94	Germany and Soviet Russia renounced claims and restored diplomatic relations through this 1922 agreement.	What was the Treaty of Rapallo?
+r2	World History	2000	94	Germany accepted its western frontiers while arbitration agreements addressed eastern disputes in this group of 1925 pacts.	What were the Locarno Treaties?
+r2	World History	2000	94	More than sixty states eventually joined this 1928 pact renouncing war as an instrument of national policy.	What was the Kellogg-Briand Pact?
+r2	World History	2000	94	A leaked Anglo-French proposal would have awarded most of Ethiopia to Mussolini during the Abyssinian Crisis.	What was the Hoare-Laval Pact?
+r2	World History	2000	94	Churchill and Stalin informally divided influence in several Balkan countries on a slip of paper in this 1944 understanding.	What was the Percentages Agreement?
+r2	World History	2000	94	Japan formally made peace with most Allied powers and regained sovereignty under this 1951 agreement.	What was the San Francisco Peace Treaty?
+r2	World History	2000	94	Julius Nyerere committed Tanzania to ujamaa and national self-reliance in this 1967 policy statement.	What was the Arusha Declaration?
+r2	Government & Elections	400	41	A voter marks a choice in private so no one can verify how the ballot was cast under this principle.	What is the secret ballot?
+r2	Government & Elections	400	41	The right of nearly all adult citizens to vote, without property or sex qualifications, is known by this term.	What is universal suffrage?
+r2	Government & Elections	400	41	A geographic area whose voters choose one or more representatives is called this.	What is an electoral district?
+r2	Government & Elections	400	41	Candidates organized under a common label and policy program belong to this type of organization.	What is a political party?
+r2	Government & Elections	400	41	The branch that debates and enacts statutes is collectively called this.	What is the legislature?
+r2	Government & Elections	400	41	A monarch or president may occupy this symbolic or constitutional role even when another official directs policy.	What is the head of state?
+r2	Government & Elections	400	41	A prime minister usually holds this role as the person directing the executive and its policy.	What is the head of government?
+r2	Government & Elections	400	41	Parties preparing to govern together often record shared policies and cabinet arrangements in this negotiated document.	What is a coalition agreement?
+r2	Government & Elections	400	41	A constitutional rule barring someone from holding an office beyond a set number of years or mandates is this.	What is a term limit?
+r2	Government & Elections	400	41	Interviewing people immediately after they vote produces this survey used to estimate how groups cast their ballots.	What is an exit poll?
+r2	Government & Elections	400	41	A party's published promises and governing priorities before an election form this document in many parliamentary countries.	What is an election manifesto?
+r2	Government & Elections	400	41	Names, party labels, and choices appear on this physical or electronic voting form.	What is a ballot paper?
+r2	Government & Elections	400	41	This neutral monitor watches voting and counting to assess whether an election follows law and democratic standards.	Who is an election observer?
+r2	Government & Elections	400	41	This formal document directs an election official to hold a vote and begins the election period in Canada.	What is a writ of election?
+r2	Government & Elections	400	41	Campaigning ends and eligible citizens formally cast their votes on this designated date.	What is polling day?
+r2	Government & Elections	400	41	In election law, this term means the legal right to vote rather than a commercial chain business.	What is the franchise?
+r2	Government & Elections	800	55	Parties present candidate slates in multimember districts and receive seats roughly according to vote share under this family of systems.	What is party-list proportional representation?
+r2	Government & Elections	800	55	Voters choose a party but cannot alter its candidate order under this slate format.	What is a closed list?
+r2	Government & Elections	800	55	Voters may express preferences among a party's candidates under this more flexible slate format.	What is an open list?
+r2	Government & Elections	800	55	The number of representatives elected from one district is known by this two-word measure.	What is district magnitude?
+r2	Government & Elections	800	55	A party must exceed this minimum vote share before qualifying for legislative seats in many proportional systems.	What is an electoral threshold?
+r2	Government & Elections	800	55	Total valid votes divided by available seats gives this simple allocation quota named for an English lawyer.	What is the Hare quota?
+r2	Government & Elections	800	55	In a multimember district, each voter may select as many candidates as there are seats under this majoritarian method.	What is the block vote?
+r2	Government & Elections	800	55	Giving each voter fewer choices than the number of seats can allow minority representation under this method.	What is the limited vote?
+r2	Government & Elections	800	55	Separate tiers elect representatives independently—one by plurality and another proportionally—without compensating between them in this mixed system.	What is parallel voting?
+r2	Government & Elections	800	55	A second ballot between leading candidates is held if no one reaches the required first-ballot support under this system.	What is the two-round system?
+r2	Government & Elections	800	55	Voters may support every acceptable candidate, and the option with the most approvals wins under this method.	What is approval voting?
+r2	Government & Elections	800	55	Citizens must attend or submit a ballot, sometimes with permitted excuses, under this participation rule.	What is compulsory voting?
+r2	Government & Elections	800	55	Insulation from ministers and parties is central to this body that administers registration, polling, and counting.	What is an independent electoral commission?
+r2	Government & Elections	800	55	After parties receive seats for complete quotas, leftover seats go to those with the greatest unused vote fractions under this approach.	What is the largest remainder method?
+r2	Government & Elections	800	55	Party vote totals are divided by a sequence of numbers and seats go to the largest resulting quotients under this family of formulas.	What is the highest averages method?
+r2	Government & Elections	800	55	Valid votes divided by one more than the number of seats gives this quota, which omits the usual “plus one” of a related formula.	What is the Hagenbach-Bischoff quota?
+r2	Government & Elections	1200	67	Cabinet members publicly support agreed policy or resign under this Westminster convention.	What is collective ministerial responsibility?
+r2	Government & Elections	1200	67	A minister is answerable for personal conduct and administration of a department under this convention.	What is individual ministerial responsibility?
+r2	Government & Elections	1200	67	A national lawmaking body with a single chamber has this structure.	What is unicameralism?
+r2	Government & Elections	1200	67	A senate, council, or chamber that reviews legislation from another house is generally called this.	What is an upper house?
+r2	Government & Elections	1200	67	The chamber more directly tied to population and government formation is often described by this relative position.	What is a lower house?
+r2	Government & Elections	1200	67	A bill passed by parliament formally becomes law when a constitutional monarch grants this approval.	What is royal assent?
+r2	Government & Elections	1200	67	A legislature may express formal disapproval of a minister without necessarily removing the government through this motion.	What is a censure motion?
+r2	Government & Elections	1200	67	A government may attach its survival to passage of legislation by designating the vote in this way.	What is a question of confidence?
+r2	Government & Elections	1200	67	Protection from arrest or prosecution for specified legislative acts helps representatives perform their duties under this doctrine.	What is parliamentary immunity?
+r2	Government & Elections	1200	67	Freedom of speech in legislative proceedings and control over internal affairs belong to this body of institutional protections.	What is legislative privilege?
+r2	Government & Elections	1200	67	Party leaders suspend voting instructions so legislators may decide individually in this type of division.	What is a free vote?
+r2	Government & Elections	1200	67	A legislator changes party affiliation without resigning the seat in this practice.	What is floor crossing?
+r2	Government & Elections	1200	67	An unaffiliated member sitting on benches between government and opposition has this label in several Westminster chambers.	Who is a crossbencher?
+r2	Government & Elections	1200	67	Ending a sitting until a specified later time, without ending the parliamentary session, is this procedural step.	What is adjournment?
+r2	Government & Elections	1200	67	Executive powers historically belonging to a monarch but now often exercised on ministerial advice form this body of authority.	What is the royal prerogative?
+r2	Government & Elections	1200	67	Two chambers possess unequal constitutional powers under this form, as when one house cannot block budget legislation.	What is asymmetric bicameralism?
+r2	Government & Elections	1600	81	A directly elected president shares executive authority with a prime minister accountable to parliament in this constitutional form.	What is a semi-presidential system?
+r2	Government & Elections	1600	81	A separately elected chief executive serves a fixed term and does not depend on legislative confidence under this form.	What is a presidential system?
+r2	Government & Elections	1600	81	Power sharing among distinct social groups through grand coalitions, proportionality, autonomy, and mutual vetoes is this model.	What is consociationalism?
+r2	Government & Elections	1600	81	The largest major parties govern together rather than dividing into government and opposition in this arrangement.	What is a grand coalition?
+r2	Government & Elections	1600	81	Mainstream parties agree not to cooperate with a particular extremist party under this exclusion strategy.	What is a cordon sanitaire?
+r2	Government & Elections	1600	81	Separate parties coordinate candidates or lists for an election while retaining their identities in this arrangement.	What is an electoral alliance?
+r2	Government & Elections	1600	81	More than one party endorses the same candidate, and votes on separate party lines are combined, under this ballot practice.	What is fusion voting?
+r2	Government & Elections	1600	81	Voters may select candidates across different party slates under this list-voting option, whose French name means mixing.	What is panachage?
+r2	Government & Elections	1600	81	Parties formally link lists so their combined remainder helps win seats before those seats are divided among them under this device.	What is apparentement?
+r2	Government & Elections	1600	81	Additional mandates correct disproportionality created by district-level results in systems using these balancing seats.	What are levelling seats?
+r2	Government & Elections	1600	81	A party winning more district mandates than its proportional entitlement keeps these extra places in some mixed systems.	What are overhang seats?
+r2	Government & Elections	1600	81	A second tier offsets disproportionality from constituency results by awarding these corrective mandates.	What are compensatory seats?
+r2	Government & Elections	1600	81	Drawing and periodically revising constituency borders is known by this neutral administrative term.	What is boundary delimitation?
+r2	Government & Elections	1600	81	A constitution may guarantee representation for Indigenous peoples, minorities, or women through these designated legislative places.	What are reserved seats?
+r2	Government & Elections	1600	81	Different parties controlling the executive and at least one legislative chamber create this condition.	What is divided government?
+r2	Government & Elections	1600	81	The prime minister answers only to parliament, while a separately elected president also holds powers, in this subtype of semi-presidentialism.	What is a premier-presidential system?
+r2	Government & Elections	2000	94	Single-member plurality elections tend to favor two major parties according to this political-science generalization.	What is Duverger's law?
+r2	Government & Elections	2000	94	A candidate who would defeat every rival in separate head-to-head comparisons has this voting-theory title.	What is a Condorcet winner?
+r2	Government & Elections	2000	94	Collective preferences can cycle—A over B, B over C, and C over A—in this voting paradox.	What is the Condorcet paradox?
+r2	Government & Elections	2000	94	No rank-order voting rule with at least three options can satisfy a famous set of fairness conditions while avoiding dictatorship, according to this result.	What is Arrow's impossibility theorem?
+r2	Government & Elections	2000	94	Under majority rule and one-dimensional preferences, parties have incentives to converge on the preference of this pivotal citizen.	What is the median voter theorem?
+r2	Government & Elections	2000	94	In a two-party plurality system, an old empirical rule says the ratio of seats tends to approximate the cube of the vote ratio.	What is the cube law?
+r2	Government & Elections	2000	94	This least-squares measure summarizes the gap between parties' vote and seat shares; lower values mean closer proportionality.	What is the Gallagher index?
+r2	Government & Elections	2000	94	Half the total absolute differences between each party's vote and seat percentages defines this disproportionality measure.	What is the Loosemore-Hanby index?
+r2	Government & Elections	2000	94	Taking the inverse of the aggregate squared party shares yields this measure, which weights parties by electoral or legislative strength.	What is the effective number of parties?
+r2	Government & Elections	2000	94	Counting how often a voter can turn a losing coalition into a winning one produces this measure of voting power.	What is the Banzhaf power index?
+r2	Government & Elections	2000	94	This proposal allocates voting weights in proportion to the population roots of represented jurisdictions.	What is the Penrose method?
+r2	Government & Elections	2000	94	A party finishing first receives extra seats beyond its proportional share under this system, intended to produce a stable governing majority.	What is a majority bonus system?
+r2	Government & Elections	2000	94	Each voter casts one ballot in a multimember district, and the highest-polling candidates win without transfers under this method.	What is single non-transferable vote?
+r2	Government & Elections	2000	94	A voter receives several votes and may concentrate multiple votes on one candidate under this minority-representation method.	What is cumulative voting?
+r2	Government & Elections	2000	94	Selecting public officials by lottery rather than election uses this ancient democratic mechanism.	What is sortition?
+r2	Government & Elections	2000	94	Participants may vote directly on each issue or delegate a revocable proxy under this proposed hybrid form.	What is liquid democracy?
+r2	Law & Rights	400	41	A person charged with a crime is treated as not guilty unless the prosecution proves otherwise under this principle.	What is the presumption of innocence?
+r2	Law & Rights	400	41	An accused person may obtain advice and representation from a lawyer under this procedural right.	What is the right to counsel?
+r2	Law & Rights	400	41	Protection against being compelled to incriminate oneself supports this right during questioning and trial.	What is the right to silence?
+r2	Law & Rights	400	41	Court hearings and decisions are generally accessible to the public under this transparency principle.	What is open justice?
+r2	Law & Rights	400	41	Affordable advice, impartial tribunals, and enforceable remedies are central to this ideal of making legal protection practically available.	What is access to justice?
+r2	Law & Rights	400	41	Treating people differently because of protected characteristics without adequate justification violates this principle.	What is non-discrimination?
+r2	Law & Rights	400	41	Choosing, changing, practicing, or rejecting a faith or belief falls within this liberty.	What is freedom of religion?
+r2	Law & Rights	400	41	People may gather nonviolently for protests, meetings, and demonstrations under this liberty.	What is freedom of peaceful assembly?
+r2	Law & Rights	400	41	States must not arbitrarily deprive a person of existence under this most fundamental protection.	What is the right to life?
+r2	Law & Rights	400	41	No emergency may justify deliberately inflicting severe pain for punishment, intimidation, or information under this absolute protection.	What is freedom from torture?
+r2	Law & Rights	400	41	International instruments require accessible schooling and progressively available higher learning under this social guarantee.	What is the right to education?
+r2	Law & Rights	400	41	Citizens must have a genuine opportunity to participate in public affairs through periodic elections under this political right.	What is the right to vote?
+r2	Law & Rights	400	41	International law protects every person's legal bond to a state and guards against arbitrary deprivation of it through this right.	What is the right to nationality?
+r2	Law & Rights	400	41	A person fleeing persecution may request protection in another country under this right, though it does not guarantee admission everywhere.	What is the right to seek asylum?
+r2	Law & Rights	400	41	An independent tribunal, adequate time to prepare, and a public hearing are elements of this procedural guarantee.	What is the right to a fair trial?
+r2	Law & Rights	400	41	Crimes and penalties must be defined by pre-existing law under this principle, often expressed as “no crime without law.”	What is the principle of legality?
+r2	Law & Rights	800	55	A constitution prevails over inconsistent ordinary legislation under this ordering principle.	What is constitutional supremacy?
+r2	Law & Rights	800	55	Courts use text, structure, history, precedent, and purpose in this process of determining a constitution's meaning.	What is constitutional interpretation?
+r2	Law & Rights	800	55	A decision-maker with a financial interest or closed mind violates this branch of procedural fairness.	What is the rule against bias?
+r2	Law & Rights	800	55	The Latin command “hear the other side” names the requirement that affected people receive notice and an opportunity to respond.	What is audi alteram partem?
+r2	Law & Rights	800	55	Confidential communications made for legal advice are protected from compelled disclosure by this doctrine in many common-law systems.	What is legal professional privilege?
+r2	Law & Rights	800	55	A clear official representation about procedure may create this expectation that fairness requires an authority to honor or consider.	What is legitimate expectation?
+r2	Law & Rights	800	55	Applying a new legal rule to conduct or transactions completed before its enactment raises this temporal issue.	What is retroactivity?
+r2	Law & Rights	800	55	Courts begin with the assumption that legislation is valid under this interpretive presumption.	What is the presumption of constitutionality?
+r2	Law & Rights	800	55	A court preserves the valid remainder of a statute after removing an invalid provision under this doctrine.	What is severability?
+r2	Law & Rights	800	55	A penal rule may be invalid if people of ordinary intelligence cannot tell what conduct it prohibits under this doctrine.	What is the vagueness doctrine?
+r2	Law & Rights	800	55	A law sweeping substantially more protected activity into its ban than its legitimate aim requires may fail under this doctrine.	What is overbreadth?
+r2	Law & Rights	800	55	A rights restriction may fail if another equally effective approach would impair liberty less under this requirement.	What is the least restrictive means test?
+r2	Law & Rights	800	55	The Strasbourg court sometimes allows national authorities discretion because they are closer to local conditions under this doctrine.	What is the margin of appreciation?
+r2	Law & Rights	800	55	A state may have to take reasonable protective action, not merely refrain from interference, under this type of human-rights duty.	What is a positive obligation?
+r2	Law & Rights	800	55	Constitutional or treaty rights influence relations between private parties under this type of effect.	What is horizontal effect?
+r2	Law & Rights	800	55	A treaty may permit temporary suspension of specified obligations during a formally proclaimed emergency through this mechanism.	What is derogation?
+r2	Law & Rights	1200	67	Adopted in 1966, this UN covenant protects such liberties as fair trial, expression, religion, and political participation.	What is the International Covenant on Civil and Political Rights?
+r2	Law & Rights	1200	67	Work, health, education, social security, and an adequate standard of living appear in this companion 1966 UN covenant.	What is the International Covenant on Economic, Social and Cultural Rights?
+r2	Law & Rights	1200	67	This 1948 treaty defines and requires states to prevent and punish acts intended to destroy protected groups.	What is the Genocide Convention?
+r2	Law & Rights	1200	67	A 1951 treaty defines a protected displaced person and anchors the rule against return to persecution.	What is the Refugee Convention?
+r2	Law & Rights	1200	67	States agreed in this 1984 treaty to prevent severe officially inflicted mistreatment and not send people to face it.	What is the Convention Against Torture?
+r2	Law & Rights	1200	67	The best interests of minors and their rights to development, participation, and protection anchor this 1989 treaty.	What is the Convention on the Rights of the Child?
+r2	Law & Rights	1200	67	Often called the international bill of women's rights, this 1979 treaty targets sex-based discrimination.	What is CEDAW?
+r2	Law & Rights	1200	67	This 1965 UN treaty requires states to eliminate racial discrimination and combat segregation.	What is the International Convention on the Elimination of All Forms of Racial Discrimination?
+r2	Law & Rights	1200	67	Council of Europe states accept enforceable civil and political guarantees under this 1950 regional treaty.	What is the European Convention on Human Rights?
+r2	Law & Rights	1200	67	Adopted in Banjul, this regional instrument includes collective peoples' rights as well as individual rights and duties.	What is the African Charter on Human and Peoples' Rights?
+r2	Law & Rights	1200	67	Also known as the Pact of San José, this regional treaty protects rights in the Americas.	What is the American Convention on Human Rights?
+r2	Law & Rights	1200	67	Created by the Rome Statute, this permanent tribunal prosecutes individuals for genocide, crimes against humanity, war crimes, and aggression.	What is the International Criminal Court?
+r2	Law & Rights	1200	67	The UN's principal judicial organ settles consenting states' disputes and gives advisory opinions.	What is the International Court of Justice?
+r2	Law & Rights	1200	67	Individuals may bring claims against Council of Europe member states before this Strasbourg tribunal after meeting admissibility rules.	What is the European Court of Human Rights?
+r2	Law & Rights	1200	67	Based in San José, this tribunal interprets a regional rights convention and hears cases referred by a commission or state party.	What is the Inter-American Court of Human Rights?
+r2	Law & Rights	1200	67	Sitting in Arusha, this tribunal complements a regional commission in protecting rights across its member system.	What is the African Court on Human and Peoples' Rights?
+r2	Law & Rights	1600	81	The Latin maxim that agreements must be kept requires states to perform treaties in good faith.	What is pacta sunt servanda?
+r2	Law & Rights	1600	81	No treaty may override a peremptory norm accepted by the international community as a whole, known by this Latin term.	What is jus cogens?
+r2	Law & Rights	1600	81	Duties owed to the international community as a whole, such as the prohibition of genocide, have this designation.	What are erga omnes obligations?
+r2	Law & Rights	1600	81	General state practice followed from a sense of legal duty can develop into this unwritten source of international law.	What is customary international law?
+r2	Law & Rights	1600	81	State practice contributes to custom only when accompanied by this belief that the practice is legally required or permitted.	What is opinio juris?
+r2	Law & Rights	1600	81	Attribution, breach, excuses, and reparation form the framework of this doctrine governing internationally wrongful acts by states.	What is state responsibility?
+r2	Law & Rights	1600	81	An international petition is often inadmissible until the claimant has used available and effective national procedures under this rule.	What is exhaustion of domestic remedies?
+r2	Law & Rights	1600	81	A state's courts claim authority over certain grave crimes regardless of where they occurred or the parties' nationality under this basis.	What is universal jurisdiction?
+r2	Law & Rights	1600	81	The permanent criminal tribunal acts only when national systems are unwilling or unable genuinely to investigate and prosecute under this principle.	What is complementarity?
+r2	Law & Rights	1600	81	A state must not return a person to a place where persecution or specified serious harm threatens under this principle.	What is non-refoulement?
+r2	Law & Rights	1600	81	The maxim “extradite or prosecute” gives this Latin label to a treaty obligation concerning certain offenders.	What is aut dedere aut judicare?
+r2	Law & Rights	1600	81	A military superior can be liable for subordinates' crimes when the superior knew or should have known and failed to prevent or punish them under this doctrine.	What is command responsibility?
+r2	Law & Rights	1600	81	Following an official's command does not automatically excuse an international crime under this limited defense.	What are superior orders?
+r2	Law & Rights	1600	81	Combatants must differentiate military objectives from civilians and civilian objects under this humanitarian-law rule.	What is the principle of distinction?
+r2	Law & Rights	1600	81	Measures indispensable to secure a legitimate military end, while still constrained by humanitarian law, invoke this principle.	What is military necessity?
+r2	Law & Rights	1600	81	An operation is prohibited when expected incidental civilian harm would be excessive relative to the concrete and direct military advantage under this rule.	What is proportionality in attack?
+r2	Law & Rights	2000	94	A decision so irrational that no reasonable public authority could have made it met the classic threshold named by this English case.	What is Wednesbury unreasonableness?
+r2	Law & Rights	2000	94	Government agents trespassed in a writer's home without statutory authority, establishing a landmark limit on executive power in this 1765 case.	What was Entick v. Carrington?
+r2	Law & Rights	2000	94	A snail allegedly found in ginger beer led the House of Lords to articulate the neighbor principle in this negligence case.	What was Donoghue v. Stevenson?
+r2	Law & Rights	2000	94	Australia's High Court rejected terra nullius and recognized native title in this 1992 decision.	What was Mabo v. Queensland?
+r2	Law & Rights	2000	94	Extradition to face the “death row phenomenon” could violate Europe's torture prohibition, this Strasbourg case held.	What was Soering v. United Kingdom?
+r2	Law & Rights	2000	94	South Africa's new constitutional court invalidated capital punishment in this landmark 1995 decision.	What was S v. Makwanyane?
+r2	Law & Rights	2000	94	A Honduran disappearance case established that states must take reasonable steps to prevent, investigate, and punish rights violations.	What was Velásquez Rodríguez v. Honduras?
+r2	Law & Rights	2000	94	A constitutional court required a reasonable housing program that addressed people in desperate need in this landmark socioeconomic-rights case.	What was Government of the Republic of South Africa v. Grootboom?
+r2	Law & Rights	2000	94	India's judiciary holds that even a constitutional amendment cannot destroy certain foundational features under this doctrine.	What is the basic structure doctrine?
+r2	Law & Rights	2000	94	Canada's constitution is interpreted as capable of growth within natural limits under this arboreal metaphor.	What is the living tree doctrine?
+r2	Law & Rights	2000	94	A court narrows a provision's apparent scope to keep it consistent with superior law through this interpretive technique.	What is reading down?
+r2	Law & Rights	2000	94	Judges prefer a plausible statutory interpretation that avoids deciding a serious constitutional issue under this canon.	What is constitutional avoidance?
+r2	Law & Rights	2000	94	A court changes a legal rule but applies the new approach only to future conduct or cases under this technique.	What is prospective overruling?
+r2	Law & Rights	2000	94	Post-authoritarian constitutions may be understood as tools for remaking unequal social and legal structures under this approach.	What is transformative constitutionalism?
+r2	Law & Rights	2000	94	Courts and legislatures respond to one another's interpretations rather than treating review as the judiciary's final monologue under this model.	What is constitutional dialogue?
+r2	Law & Rights	2000	94	The state holds certain resources, such as navigable waters or shorelines, for public use under this doctrine.	What is the public trust doctrine?
+r2	Economics	400	41	Private buyers and sellers make most production and pricing decisions in this broad type of system.	What is a market economy?
+r2	Economics	400	41	Government planners set major output targets and allocate resources in this broad type of system.	What is a command economy?
+r2	Economics	400	41	Private markets coexist with regulation, public services, and state enterprises in this common type of system.	What is a mixed economy?
+r2	Economics	400	41	The choices of households, firms, and individual markets are the focus of this branch.	What is microeconomics?
+r2	Economics	400	41	Nationwide output, employment, prices, and growth are studied in this branch.	What is macroeconomics?
+r2	Economics	400	41	Output produced per unit of labor or other input measures this driver of long-run living standards.	What is productivity?
+r2	Economics	400	41	A sustained rise in an economy's inflation-adjusted production is called this.	What is economic growth?
+r2	Economics	400	41	Employed people plus those without work who are actively seeking it compose this group.	What is the labor force?
+r2	Economics	400	41	Material well-being as reflected in consumption, housing, health, and other conditions is summarized by this broad phrase.	What is standard of living?
+r2	Economics	400	41	Pay adjusted for changes in the price level is called this, in contrast with the number printed on a paycheck.	What is a real wage?
+r2	Economics	400	41	Income remaining after direct taxes, available for consumption or saving, has this name.	What is disposable income?
+r2	Economics	400	41	Government expenditures exceeding revenues during a period create this fiscal shortfall.	What is a budget deficit?
+r2	Economics	400	41	Accumulated outstanding government borrowing, rather than one year's shortfall, forms this stock.	What is the national debt?
+r2	Economics	400	41	The price of one currency expressed in units of another is this rate.	What is an exchange rate?
+r2	Economics	400	41	Currency and certain readily spendable deposits are included in measures of this total.	What is the money supply?
+r2	Economics	400	41	The quantity of goods and services a unit of money can buy is its this.	What is purchasing power?
+r2	Economics	800	55	Quantity changes by the same percentage as price, in the opposite direction, when demand has this elasticity value.	What is unit elasticity?
+r2	Economics	800	55	The percentage response of quantity demanded to a percentage change in consumer income is this measure.	What is income elasticity of demand?
+r2	Economics	800	55	The response of demand for one product to a change in another product's price reveals whether they are substitutes or complements through this measure.	What is cross-price elasticity of demand?
+r2	Economics	800	55	Average cost falls as a firm expands output when it enjoys these production advantages.	What are economies of scale?
+r2	Economics	800	55	Coordination problems can make average cost rise as a firm becomes too large, producing these disadvantages.	What are diseconomies of scale?
+r2	Economics	800	55	Increasing all inputs by a common proportion and observing the resulting output change tests this property of a production function.	What are returns to scale?
+r2	Economics	800	55	The additional expense of producing one more unit is this cost.	What is marginal cost?
+r2	Economics	800	55	Dividing total cost by the number of units produced gives this per-unit measure.	What is average cost?
+r2	Economics	800	55	Rent on a factory may remain unchanged as current output rises or falls, making it this type of cost in the short run.	What is fixed cost?
+r2	Economics	800	55	Materials and hourly production labor generally rise with output, making them this type of cost.	What is variable cost?
+r2	Economics	800	55	Money already spent and impossible to recover should not affect a forward-looking choice; it is this type of cost.	What is a sunk cost?
+r2	Economics	800	55	A curve showing the maximum combinations of two goods an economy can produce with its resources is this model.	What is a production possibility frontier?
+r2	Economics	800	55	Payment to a factor of production beyond what is needed to keep it in its current use is this type of return.	What is economic rent?
+r2	Economics	800	55	At the price where the quantity buyers want equals the quantity sellers offer, the market reaches this state.	What is market equilibrium?
+r2	Economics	800	55	Many small firms selling an identical product with free entry characterize this theoretical market structure.	What is perfect competition?
+r2	Economics	800	55	A labor market with many workers but only one dominant employer illustrates this buyer-side market power.	What is a monopsony?
+r2	Economics	1200	67	This accounting statement records transactions between an economy's residents and nonresidents over a period.	What is the balance of payments?
+r2	Economics	1200	67	Trade in goods and services, primary income, and transfers such as remittances enter this external account.	What is the current account?
+r2	Economics	1200	67	Capital transfers and transactions in nonproduced, nonfinancial assets enter this relatively small external account.	What is the capital account?
+r2	Economics	1200	67	Cross-border acquisitions of financial assets and liabilities are recorded in this external account.	What is the financial account?
+r2	Economics	1200	67	Building a factory abroad or buying a lasting controlling stake is classified as this form of investment.	What is foreign direct investment?
+r2	Economics	1200	67	Buying foreign stocks or bonds without managerial control is generally classified as this form of investment.	What is portfolio investment?
+r2	Economics	1200	67	Adjusting a currency's market price for relative national price levels yields this competitiveness measure.	What is the real exchange rate?
+r2	Economics	1200	67	The unadjusted number of units of one currency exchanged for another is this rate.	What is the nominal exchange rate?
+r2	Economics	1200	67	Authorities commit their currency to a fixed or tightly limited value against another currency under this arrangement.	What is a currency peg?
+r2	Economics	1200	67	Domestic base money must be backed by foreign reserves at a fixed conversion rate under this strict institution.	What is a currency board?
+r2	Economics	1200	67	Market forces set most currency movements, but authorities sometimes intervene, under this regime.	What is a managed float?
+r2	Economics	1200	67	An official reduction in a fixed currency's par value is called this.	What is devaluation?
+r2	Economics	1200	67	A market-driven rise in a floating currency's value is called this.	What is appreciation?
+r2	Economics	1200	67	An official increase in a fixed currency's par value is called this.	What is revaluation?
+r2	Economics	1200	67	Taxes, limits, or approval requirements on cross-border financial flows are examples of these restrictions.	What are capital controls?
+r2	Economics	1200	67	A country cannot simultaneously maintain a fixed currency, free capital movement, and independent monetary policy according to this principle.	What is the impossible trinity?
+r2	Economics	1600	81	The shortfall or excess separating actual production from the level sustainable at normal capacity is this gap.	What is the output gap?
+r2	Economics	1600	81	Frictional and structural joblessness remain even in long-run equilibrium at this unemployment concept.	What is the natural rate of unemployment?
+r2	Economics	1600	81	This acronym denotes the jobless rate consistent with stable inflation rather than ever-accelerating price growth.	What is NAIRU?
+r2	Economics	1600	81	An empirical relationship links faster real-output growth with declines in unemployment under this named law.	What is Okun's law?
+r2	Economics	1600	81	A central bank adjusts its policy rate in response to inflation's deviation from target and the production gap under this guideline.	What is the Taylor rule?
+r2	Economics	1600	81	The ratio of a broader measure of deposits to the monetary base is traditionally called this.	What is the money multiplier?
+r2	Economics	1600	81	The change in national output divided by an initial change in government spending or taxes gives this measure.	What is the fiscal multiplier?
+r2	Economics	1600	81	Progressive taxes and unemployment benefits dampen the business cycle without a new legislative vote as these mechanisms.	What are automatic stabilizers?
+r2	Economics	1600	81	Government borrowing may raise interest rates or use resources that would otherwise finance private activity in this effect.	What is crowding out?
+r2	Economics	1600	81	If households anticipate that current borrowing means future taxes, they may save an offsetting amount under this proposition.	What is Ricardian equivalence?
+r2	Economics	1600	81	A policy that seems best when announced may no longer be best to follow later, creating this credibility problem.	What is time inconsistency?
+r2	Economics	1600	81	People use available information and an understanding of the economy rather than making persistently systematic forecast errors under this hypothesis.	What are rational expectations?
+r2	Economics	1600	81	Forecasters who revise beliefs gradually from past errors are using this backward-looking rule.	What are adaptive expectations?
+r2	Economics	1600	81	Technology and productivity shocks drive fluctuations in this school of macroeconomic models with optimizing agents and clearing markets.	What is real business cycle theory?
+r2	Economics	1600	81	Nominal rigidities and imperfect competition allow monetary policy to affect real activity in this modern macroeconomic framework.	What is New Keynesian economics?
+r2	Economics	1600	81	The equation of exchange, often written MV = PY, is central to this theory linking money and the price level.	What is the quantity theory of money?
+r2	Economics	2000	94	No player can improve a strategic outcome by changing only that player's own action in this game-theory solution concept.	What is a Nash equilibrium?
+r2	Economics	2000	94	An allocation has this property when no one can be made better off without making someone else worse off.	What is Pareto efficiency?
+r2	Economics	2000	94	A policy passes this test if winners could hypothetically compensate losers and still remain ahead.	What is Kaldor-Hicks efficiency?
+r2	Economics	2000	94	With clearly assigned rights and zero transaction costs, bargaining can internalize an external effect under this proposition.	What is the Coase theorem?
+r2	Economics	2000	94	Competing sellers choosing locations along a line tend to cluster near the middle according to this principle.	What is Hotelling's law?
+r2	Economics	2000	94	Demand for this rare type of staple can rise when its price rises because the negative income effect overwhelms substitution.	What is a Giffen good?
+r2	Economics	2000	94	A higher price may increase demand for this status product by making it a more conspicuous signal.	What is a Veblen good?
+r2	Economics	2000	94	Demand falls as income rises for this category of product, all else equal.	What is an inferior good?
+r2	Economics	2000	94	Demand rises as income rises for this category of product, all else equal.	What is a normal good?
+r2	Economics	2000	94	This identity separates a price change's effect on demand into substitution and income components.	What is the Slutsky equation?
+r2	Economics	2000	94	A graph plotting quantity demanded against consumer income for a good has this name.	What is an Engel curve?
+r2	Economics	2000	94	Two consumers' indifference maps and feasible allocations appear in this rectangular exchange diagram.	What is an Edgeworth box?
+r2	Economics	2000	94	The locus of tangencies between two consumers' indifference curves within that exchange diagram is this.	What is the contract curve?
+r2	Economics	2000	94	Samuelson's approach infers consistent preferences from observed choices rather than introspection under this theory.	What is revealed preference?
+r2	Economics	2000	94	Complete markets, convex preferences, and competitive prices support a general equilibrium in this model named for two economists.	What is the Arrow-Debreu model?
+r2	Economics	2000	94	Policy relationships estimated from historical data may change when the policy regime changes, according to this warning.	What is the Lucas critique?
+r2	Philosophy	400	41	If true premises guarantee a true conclusion, an argument uses this general kind of reasoning.	What is deductive reasoning?
+r2	Philosophy	400	41	Moving from observed cases to a probable generalization uses this general kind of reasoning.	What is inductive reasoning?
+r2	Philosophy	400	41	A classic argument containing two premises and a conclusion has this name.	What is a syllogism?
+r2	Philosophy	400	41	A statement offered as support for an argument's conclusion is called this.	What is a premise?
+r2	Philosophy	400	41	The claim an argument's supporting statements are intended to establish is called this.	What is a conclusion?
+r2	Philosophy	400	41	An argument has this property when true premises could not coexist with a false conclusion.	What is validity?
+r2	Philosophy	400	41	A valid argument whose premises are actually true has this stronger property.	What is soundness?
+r2	Philosophy	400	41	Two claims form this when they cannot both be true in the same respect at the same time.	What is a contradiction?
+r2	Philosophy	400	41	Oxygen is this kind of condition for ordinary human survival: it must be present, though it alone does not guarantee survival.	What is a necessary condition?
+r2	Philosophy	400	41	Being a square is this kind of condition for being a rectangle: it guarantees the latter but is not required by it.	What is a sufficient condition?
+r2	Philosophy	400	41	This view holds that moral truth or justification depends on a culture, framework, or standpoint rather than a single universal standard.	What is moral relativism?
+r2	Philosophy	400	41	Pleasure or the absence of pain is treated as the central good under this ethical family.	What is hedonism?
+r2	Philosophy	400	41	Concern for others' welfare for their own sake is described by this ethical term.	What is altruism?
+r2	Philosophy	400	41	Human dignity, agency, and reason rather than divine revelation stand at the center of this broad outlook.	What is humanism?
+r2	Philosophy	400	41	Reality is fundamentally mental, experiential, or idea-like according to this metaphysical family.	What is idealism?
+r2	Philosophy	400	41	Only one fundamental kind of substance or principle exists according to this metaphysical position.	What is monism?
+r2	Philosophy	800	55	This Confucian thinker used the image of moral “sprouts” to argue that human nature tends toward goodness.	Who was Mencius?
+r2	Philosophy	800	55	Tradition credits this ancient Chinese sage with the compact Daodejing.	Who was Laozi?
+r2	Philosophy	800	55	“Impartial care” and criticism of aggressive war and lavish ritual distinguish this Chinese thinker's school.	Who was Mozi?
+r2	Philosophy	800	55	A butterfly dream illustrates shifting perspective and uncertain identity in the work named for this Daoist thinker.	Who was Zhuangzi?
+r2	Philosophy	800	55	This founder of Madhyamaka Buddhism linked emptiness with dependent origination and rejected intrinsic essence.	Who was Nāgārjuna?
+r2	Philosophy	800	55	This Indian philosopher systematized Advaita Vedanta, teaching a nondual relation between ultimate reality and self.	Who was Adi Shankara?
+r2	Philosophy	800	55	The “floating man” thought experiment and a distinction between essence and existence are associated with this Persian polymath.	Who was Avicenna?
+r2	Philosophy	800	55	Medieval Europe called this Andalusian commentator on Aristotle simply “the Commentator.”	Who was Averroes?
+r2	Philosophy	800	55	“The banality of evil” and a theory of action in the public realm are associated with this German-Jewish political thinker.	Who was Hannah Arendt?
+r2	Philosophy	800	55	Against Mencius, this Confucian argued that human nature requires ritual and education to become good.	Who was Xunzi?
+r2	Philosophy	800	55	The author of Shōbōgenzō brought the Sōtō Zen emphasis on “just sitting” from China to Japan.	Who was Dōgen?
+r2	Philosophy	800	55	“Pure experience” anchored the work of this founder of Japan's Kyoto School.	Who was Nishida Kitarō?
+r2	Philosophy	800	55	Known as the “Second Teacher” after Aristotle, this Islamic thinker described the virtuous city and classified the sciences.	Who was al-Farabi?
+r2	Philosophy	800	55	This tenth-century Jewish thinker reconciled rabbinic tradition with reason in “The Book of Beliefs and Opinions.”	Who was Saadia Gaon?
+r2	Philosophy	800	55	The concept of “double consciousness” appears in “The Souls of Black Folk” by this sociologist and philosopher.	Who was W. E. B. Du Bois?
+r2	Philosophy	800	55	“Black Skin, White Masks” analyzed colonialism's psychological effects in the work of this Martinican thinker.	Who was Frantz Fanon?
+r2	Philosophy	1200	67	Plato treated justice, beauty, and mathematical objects as intelligible realities of this kind, beyond their changing instances.	What are the Forms?
+r2	Philosophy	1200	67	Plato's ideal ruler combines political power with knowledge of the good and bears this title.	What is a philosopher-king?
+r2	Philosophy	1200	67	Aristotelian virtue often lies appropriately between excess and deficiency under this doctrine.	What is the golden mean?
+r2	Philosophy	1200	67	Aristotle's term for flourishing or living well is often translated from Greek by this word.	What is eudaimonia?
+r2	Philosophy	1200	67	Stoics sought freedom from disordered passions, a state expressed by this Greek term.	What is apatheia?
+r2	Philosophy	1200	67	Epicureans and skeptics used this Greek word for tranquility or freedom from disturbance.	What is ataraxia?
+r2	Philosophy	1200	67	Pyrrhonian skeptics suspend judgment rather than affirm or deny, a practice called this.	What is epoché?
+r2	Philosophy	1200	67	Greek thinkers used this term for reason, account, or an ordering principle; the Stoics made it cosmic.	What is logos?
+r2	Philosophy	1200	67	Moral norms discoverable by reason and grounded in human nature form this tradition of jurisprudence and ethics.	What is natural law?
+r2	Philosophy	1200	67	Rousseau distinguished the common good sought by citizens from a mere collection of private preferences using this concept.	What is the general will?
+r2	Philosophy	1200	67	Marxist theory explains material history through conflicts and transformations using this philosophical framework.	What is dialectical materialism?
+r2	Philosophy	1200	67	Sartre used this term for self-deception in which a person denies freedom or treats a chosen role as fixed essence.	What is bad faith?
+r2	Philosophy	1200	67	Heidegger's term for the human mode of being literally means “being-there.”	What is Dasein?
+r2	Philosophy	1200	67	Daoist texts praise this quality of being “self-so” or naturally spontaneous, unforced by artificial convention.	What is ziran?
+r2	Philosophy	1200	67	Often translated as humaneness or benevolence, this virtue is central to Confucian ethics.	What is ren?
+r2	Philosophy	1200	67	The saying “a person is a person through other persons” conveys this southern African ethical idea of relational humanity.	What is ubuntu?
+r2	Philosophy	1600	81	From “If P then Q” and P, this valid inference concludes Q.	What is modus ponens?
+r2	Philosophy	1600	81	From “If P then Q” and not-Q, this valid inference concludes not-P.	What is modus tollens?
+r2	Philosophy	1600	81	Inferring P from “If P then Q” and Q commits this formal fallacy.	What is affirming the consequent?
+r2	Philosophy	1600	81	Inferring not-Q from “If P then Q” and not-P commits this formal fallacy.	What is denying the antecedent?
+r2	Philosophy	1600	81	A proposition cannot be both true and false in the same respect under this classical logical law.	What is the law of non-contradiction?
+r2	Philosophy	1600	81	For any proposition P, the disjunction “P or not-P” expresses this classical logical law.	What is the law of excluded middle?
+r2	Philosophy	1600	81	Leibniz held that nothing occurs without an adequate explanation under this rationalist principle.	What is the principle of sufficient reason?
+r2	Philosophy	1600	81	Justified beliefs ultimately rest on basic beliefs that need no support from other beliefs under this epistemic structure.	What is foundationalism?
+r2	Philosophy	1600	81	A belief is justified by fitting into a mutually supporting system rather than resting on privileged basics under this view.	What is coherentism?
+r2	Philosophy	1600	81	A belief counts as justified when produced by a process that tends to generate truths under this theory.	What is reliabilism?
+r2	Philosophy	1600	81	Justification must depend on considerations cognitively accessible to the believer under this broad position.	What is internalism?
+r2	Philosophy	1600	81	Factors outside a believer's reflective access may determine knowledge or justification under this broad position.	What is externalism?
+r2	Philosophy	1600	81	Belief should be proportioned to supporting evidence according to this normative view.	What is evidentialism?
+r2	Philosophy	1600	81	If every reason needs a further reason without end, justification faces this problem.	What is an infinite regress?
+r2	Philosophy	1600	81	Justification appears forced to stop dogmatically, circle back, or continue forever in this skeptical trilemma.	What is Agrippa's trilemma?
+r2	Philosophy	1600	81	Deciding what we know seems to require a test of knowledge, while choosing the test seems to require knowing cases already, creating this circular puzzle.	What is the problem of the criterion?
+r2	Philosophy	2000	94	Because hypotheses are tested only with auxiliary assumptions, evidence may not identify which part of a theoretical bundle failed under this thesis.	What is the Duhem-Quine thesis?
+r2	Philosophy	2000	94	Quine argued that radically different manuals could fit all observable linguistic behavior, producing this result.	What is indeterminacy of translation?
+r2	Philosophy	2000	94	Wittgenstein contended that a language whose signs referred only to one person's inherently private sensations could not sustain rules in this argument.	What is the private language argument?
+r2	Philosophy	2000	94	No finite history of using a word seems by itself to fix how the rule applies in a new case, creating this puzzle associated with Wittgenstein and Kripke.	What is the rule-following paradox?
+r2	Philosophy	2000	94	Kripke calls a term that picks out the same individual in every possible world where that individual exists this.	What is a rigid designator?
+r2	Philosophy	2000	94	Modal claims about necessity and possibility are modeled using alternative ways reality might have been under this formal approach.	What is possible-worlds semantics?
+r2	Philosophy	2000	94	A near-perfect predictor and a choice between taking one box or two create this decision-theory puzzle.	What is Newcomb's problem?
+r2	Philosophy	2000	94	Nozick asks whether people would plug into a machine producing any desired life in this objection to simple hedonism.	What is the experience machine?
+r2	Philosophy	2000	94	A being able to gain vastly more welfare from resources than anyone else challenges total utilitarianism in this thought experiment.	What is the utility monster?
+r2	Philosophy	2000	94	Parfit's population-ethics result compares a smaller excellent population with an enormous population whose lives are barely worth living.	What is the repugnant conclusion?
+r2	Philosophy	2000	94	Parties choose principles of justice without knowing their class, talents, or social position in this Rawlsian choice situation.	What is the original position?
+r2	Philosophy	2000	94	Moral reasoning moves back and forth between considered judgments and general principles until they cohere under this method.	What is reflective equilibrium?
+r2	Philosophy	2000	94	Social and economic inequalities are permitted only if they benefit the least advantaged under this Rawlsian principle.	What is the difference principle?
+r2	Philosophy	2000	94	Sen and Nussbaum assess justice by people's substantive opportunities to be and do things they have reason to value under this framework.	What is the capabilities approach?
+r2	Philosophy	2000	94	An action with a good end may be permissible despite a foreseen bad side effect if the bad effect is not intended under this doctrine.	What is the doctrine of double effect?
+r2	Philosophy	2000	94	Some moral theories judge actively causing harm more strictly than merely permitting comparable harm under this distinction.	What is the doing-allowing distinction?

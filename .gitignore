@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+public/legacy/
+tmp-*/
+data/jeopardy-bank/expanded-bank.tsv
+data/jeopardy-bank/round1-bank.js
+data/jeopardy-bank/round2-bank.js
+data/jeopardy-bank/final-bank.js
+src/platform/data/wordle/build-report.json
