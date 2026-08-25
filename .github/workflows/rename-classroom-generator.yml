@@ -1,0 +1,61 @@
+name: Rename bank generator
+
+on:
+  push:
+    paths:
+      - .github/workflows/rename-classroom-generator.yml
+
+permissions:
+  contents: write
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rename generator and scrub internal framing
+        shell: python
+        run: |
+          from pathlib import Path
+
+          old_path = Path("tools/generate-jeopardy-classroom-bank.cjs")
+          new_path = Path("tools/generate-jeopardy-source-bank.cjs")
+          if not old_path.exists():
+              raise SystemExit("Old generator path not found")
+          old_path.rename(new_path)
+
+          replacements = {
+              "package.json": [
+                  ("generate-jeopardy-classroom-bank.cjs", "generate-jeopardy-source-bank.cjs"),
+              ],
+              "tools/build-jeopardy-bank.ps1": [
+                  ("$classroomGeneratorPath", "$sourceGeneratorPath"),
+                  ("generate-jeopardy-classroom-bank.cjs", "generate-jeopardy-source-bank.cjs"),
+                  ("Jeopardy classroom source generator failed", "Jeopardy source bank generator failed"),
+              ],
+              "tools/generate-jeopardy-source-bank.cjs": [
+                  ("The classroom bank now relies on authored broad categories only.", "The local bank now relies on authored broad categories only."),
+                  ("Expanded authored classroom categories.", "Expanded authored categories."),
+                  ("generate-jeopardy-classroom-bank.cjs", "generate-jeopardy-source-bank.cjs"),
+              ],
+          }
+
+          for file_name, pairs in replacements.items():
+              path = Path(file_name)
+              text = path.read_text(encoding="utf-8-sig")
+              for old, new in pairs:
+                  if old not in text:
+                      raise SystemExit(f"Expected text not found in {file_name}: {old}")
+                  text = text.replace(old, new)
+              path.write_text(text, encoding="utf-8")
+      - name: Commit build-tool cleanup
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json tools/build-jeopardy-bank.ps1 tools/generate-jeopardy-source-bank.cjs
+          git add -u tools/generate-jeopardy-classroom-bank.cjs
+          git commit -m "Use neutral naming for Jeopardy source bank tooling"
+          git push
