@@ -71,9 +71,9 @@ function Assert-RouteMarkup {
   }
 }
 
-Assert-RouteMarkup -HashRoute "#/" -MustContain @("hub-stage", "Quizzler", "Quizzler Jeopardy") -MustNotContain @("Launching the platform shell...")
+Assert-RouteMarkup -HashRoute "#/" -MustContain @("hub-stage", "Quizler", "Quizler Jeopardy") -MustNotContain @("Launching the platform shell...")
 Assert-RouteMarkup -HashRoute "#/wordle" -MustContain @("Wordle", "wordle-board") -MustNotContain @("Launching the platform shell...")
 Assert-RouteMarkup -HashRoute "#/hangman" -MustContain @("Hangman", "hangman-answer-row") -MustNotContain @("Launching the platform shell...")
-Assert-RouteMarkup -HashRoute "#/jeopardy" -MustContain @("Quizzler Jeopardy", "legacy-jeopardy-frame") -MustNotContain @("Launching the platform shell...")
+Assert-RouteMarkup -HashRoute "#/jeopardy" -MustContain @("Quizler Jeopardy", "legacy-jeopardy-frame") -MustNotContain @("Launching the platform shell...")
 
 Write-Host "Platform file-mode smoke passed for lobby, Wordle, Hangman, and the flagship board route." -ForegroundColor Green
