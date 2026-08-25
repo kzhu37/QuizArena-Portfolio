@@ -5,70 +5,85 @@
 </p>
 
 <p align="center">
-  <img src="public/assets/backgrounds/lobby.png" alt="Quizler Arena lobby environment" width="100%">
+  React 18 · TypeScript · JavaScript · Vite · localStorage · Node.js
 </p>
 
 <p align="center">
-  <sub>The current React lobby uses this environment as a separate visual layer, then adds the mascot, portal hitboxes, hover lighting, particles, and navigation at runtime.</sub>
+  <a href="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml"><img src="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml/badge.svg" alt="Portfolio verify workflow"></a>
 </p>
 
 <p align="center">
-  <a href="#the-platform">Platform</a> ·
-  <a href="#engineering-highlights">Engineering</a> ·
+  <img src="docs/media/lobby.png" alt="Quizler Arena running lobby with the host character and three playable portals" width="100%">
+</p>
+
+<p align="center">
+  <sub>The current runtime lobby. The environment, host character, portal hitboxes, hover lighting, particles, and navigation are rendered as separate interactive layers.</sub>
+</p>
+
+| 3 playable modes | 5,600 curated expansion clues | 70 curated expansion categories | 200 seeded complete games checked per smoke run |
+|---:|---:|---:|---:|
+| Wordle, Quizler Jeopardy, Hangman | Added through 14 audited research packs | Structured across Round 1 and Double Jeopardy | Validated across both rounds and Final Jeopardy |
+
+<p align="center">
+  <a href="#what-makes-it-technically-interesting">Engineering</a> ·
   <a href="#architecture">Architecture</a> ·
-  <a href="#testing-and-reliability">Testing</a> ·
+  <a href="#testing-and-reliability">Verification</a> ·
+  <a href="#my-role-and-collaboration">My role</a> ·
   <a href="#running-the-project">Run locally</a>
 </p>
 
-| 3 playable modes | 5,600 authored expansion clues | 70 authored expansion categories | 200 seeded full-game assemblies |
-|---:|---:|---:|---:|
-| Wordle, Quizler Jeopardy, Hangman | Added through 14 audited research packs | Structured across Round 1 and Double Jeopardy | Exercised by the Jeopardy runtime smoke harness |
-
 ## Why I built it
 
-Quizler Arena started as a small Jeopardy-style game that I could play with family and friends. The original idea was simple: make trivia feel more like a shared game night than an isolated quiz. I first built a small prototype, then returned to the idea as a larger computer science project in spring 2026.
+Quizler Arena started as a small Jeopardy-style game that I could play with family and friends. I returned to the idea as a larger computer science project in spring 2026, then kept developing it after the original class presentation because repeated play exposed more interesting problems than the first prototype had solved.
 
-The project kept growing after the original presentation. What began as one board game became a three-mode platform with a React shell, custom visual identity, persistent player state, local content systems, replayability logic, a much larger trivia bank, and automated validation. I continued working on it because the engineering problems became more interesting as people actually played it.
+The project gradually changed from one board game into a three-mode platform. The important engineering questions also changed. Instead of asking only how to add another feature, I had to think about how to keep content fresh, prevent weak or repetitive boards, recover from bad saved state, make visual assets dependable, support projector and fullscreen play, and keep the project usable without a remote service.
 
-The most important shift was from thinking about individual features to thinking about the system around them: how to keep content fresh, how to prevent repeated or low-quality boards, how to recover from bad saved state, how to make visual assets reliable, and how to make the project easy to launch in a classroom, on a projector, or at home.
+That evolution is the core of the project: **a simple social game became a systems problem about replayability, data quality, state, reliability, and interaction design.**
 
-## The platform
-
-Quizler Arena intentionally focuses on three playable modes.
-
-| Wordle | Quizler Jeopardy | Hangman |
-|---|---|---|
-| Five-letter word game with physical and on-screen keyboard input, streaks, persistent statistics, and duplicate-letter handling | Flagship 1-4 player board game with Round 1, Double Jeopardy, Final Jeopardy, Daily Doubles, wagering, custom categories, timers, saving, and score tracking | Word and phrase modes with staged visual progression, hints, keyboard input, dialogue, win effects, and weighted puzzle selection |
-| Answer selection avoids recent words and weights difficulty and novelty | Board assembly searches for fresh, valid category and clue combinations instead of sampling blindly | Selection considers difficulty, recent answers, category repetition, letter similarity, and phrase structure |
-
-### Runtime visual system
+## The current platform
 
 <table>
   <tr>
     <td width="50%">
-      <img src="public/assets/backgrounds/wordle.png" alt="Wordle environment art used by the current runtime">
+      <img src="docs/media/wordle.png" alt="Quizler Arena Wordle mode running in the current React interface">
     </td>
     <td width="50%">
-      <img src="public/assets/hangman/stage_4.png" alt="Hangman staged environment art used by the current runtime">
+      <img src="docs/media/hangman.png" alt="Quizler Arena Hangman mode running in the current React interface">
     </td>
   </tr>
   <tr>
-    <td align="center"><sub>Wordle environment</sub></td>
-    <td align="center"><sub>Hangman staged environment</sub></td>
+    <td align="center"><sub>Wordle: native React mode with physical and on-screen keyboard input, persistent statistics, and novelty-aware answer selection.</sub></td>
+    <td align="center"><sub>Hangman: native React mode with staged visual progression, hints, dialogue, keyboard input, and weighted puzzle selection.</sub></td>
   </tr>
 </table>
 
-The artwork is not the interface by itself. The React modes layer gameplay, controls, stats, prompts, dialogue, accessibility labels, transitions, and interaction states over these assets. The lobby also keeps the host mascot separate from the environment so the character and portals can respond independently to player interaction.
+<p align="center">
+  <img src="docs/media/jeopardy.png" alt="Quizler Jeopardy running inside the current platform shell" width="100%">
+</p>
 
-## Engineering highlights
+<p align="center">
+  <sub>Quizler Jeopardy is the flagship 1 to 4 player mode, with two rounds, Final Jeopardy, Daily Doubles, wagering, custom categories, timers, score tracking, saving, and replayability history.</sub>
+</p>
+
+The portfolio screenshots above are captured from the current file-safe build in CI rather than being manually composited mockups.
+
+### Three modes, three selection problems
+
+| Mode | Gameplay | Replayability strategy |
+|---|---|---|
+| **Wordle** | Five-letter word game with streaks, statistics, duplicate-letter handling, and keyboard input | Avoids recent answers, groups words by difficulty, and penalizes recent letter similarity, prefixes, and suffixes |
+| **Quizler Jeopardy** | 1 to 4 player clue-board game with two rounds, Final Jeopardy, Daily Doubles, wagering, custom categories, timers, saving, and score tracking | Searches for valid boards while tracking clue, answer, fingerprint, category, family, and whole-board history |
+| **Hangman** | Word and phrase modes with hints, staged progression, dialogue, keyboard input, and win effects | Weights difficulty, recent answers, category repetition, answer similarity, and phrase structure |
+
+## What makes it technically interesting
 
 ### 1. Constrained Jeopardy board assembly
 
-A replayable Jeopardy game needs more than random clue selection. A board has to satisfy several constraints at the same time:
+A replayable Jeopardy board needs more than random clue selection. A complete game has to satisfy many constraints at once:
 
-- six distinct categories
+- six distinct categories per round
 - five playable value slots per category
-- strictly increasing clue difficulty within a category
+- strictly increasing clue difficulty within each category
 - no repeated clue IDs
 - no repeated normalized answers
 - no repeated clue fingerprints
@@ -76,19 +91,19 @@ A replayable Jeopardy game needs more than random clue selection. A board has to
 - fresh category titles and board patterns
 - valid Final Jeopardy options that do not duplicate the main board
 
-The [board assembler](src/jeopardy/boardAssembler.js) scores clue candidates for freshness and target difficulty, scores categories for recency and family diversity, and uses recursive search with rollback when a partial board cannot be completed.
+The [`boardAssembler`](src/jeopardy/boardAssembler.js) scores clue candidates for freshness and target difficulty, scores categories for recency and subject-family diversity, and uses recursive search with rollback when a partial category cannot be completed.
 
 <p align="center">
-  <img src="docs/diagrams/board-assembly.svg" alt="Diagram of the constrained Quizler Jeopardy board assembly process" width="100%">
+  <img src="docs/diagrams/board-assembly.svg" alt="Quizler Jeopardy constrained board assembly process" width="100%">
 </p>
 
-The key idea is that a fresh board is treated as a constrained search problem, not simply as random sampling.
+The important idea is simple: **freshness is treated as a constrained search problem, not as random sampling.**
 
 ### 2. A trivia bank built as a data pipeline
 
-The Jeopardy content system became one of the largest parts of the project. The current authored expansion is split into **14 research packs with 400 rows each**, for **5,600 authored clues across 70 categories**.
+The Jeopardy content system became one of the largest parts of the project. The current curated expansion is split into **14 research packs with 400 rows each**, producing **5,600 additional clues across 70 categories**.
 
-The [authored-source audit](tools/audit-jeopardy-authored-sources.cjs) checks the source packs before they can enter the runtime bank. It validates:
+The [`authored-source audit`](tools/audit-jeopardy-authored-sources.cjs) checks source packs before they can enter the runtime bank. It validates properties including:
 
 - required row counts and category/value coverage
 - Round 1 and Double Jeopardy value bands
@@ -101,110 +116,107 @@ The [authored-source audit](tools/audit-jeopardy-authored-sources.cjs) checks th
 - conflicts with protected historical answers
 - repeated source content
 
-The build and validation flow is intentionally separate from gameplay:
-
 <p align="center">
-  <img src="docs/diagrams/content-pipeline.svg" alt="Diagram of the Quizler Jeopardy authored-content build and validation pipeline" width="100%">
+  <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy content build and validation pipeline" width="100%">
 </p>
 
-Generated runtime banks are treated as build products rather than files to edit by hand. This made content expansion easier to audit, reproduce, and maintain.
+Generated runtime banks are treated as build products rather than hand-edited source files. That separation made large content expansions easier to audit, reproduce, and maintain.
 
-### 3. Replayability is designed differently in each mode
+### 3. Replayability uses memory, not just randomness
 
-Randomness is easy. Randomness that continues to feel varied is harder.
+Each mode remembers enough recent history to reduce obvious repetition without making selection deterministic.
 
-| Mode | Replayability strategy |
-|---|---|
-| **Quizler Jeopardy** | Tracks used clue IDs, answer keys, fingerprints, category IDs, titles, subject families, whole-board hashes, title hashes, and family patterns |
-| **Wordle** | Keeps recent-answer history, groups answers by difficulty, and applies novelty penalties for similar recent words, repeated prefixes, and repeated suffixes |
-| **Hangman** | Tracks recent answers and categories, then weights difficulty, answer similarity, category repetition, and phrase structure |
+Quizler Jeopardy tracks used clue IDs, normalized answers, clue fingerprints, source category IDs, category titles, subject families, whole-board hashes, title hashes, and family patterns. Wordle and Hangman use smaller history windows and weighted novelty penalties appropriate to their own content.
 
-The result is a platform where each game uses a different selection strategy but follows the same product goal: reduce obvious repetition without removing variety.
+This became one of the main lessons of the project: **random is not the same as varied.**
 
 ### 4. Defensive state and save recovery
 
-The Jeopardy runtime uses browser `localStorage` for game state and historical usage. The [game state adapter](src/jeopardy/gameStateAdapter.js) validates loaded state before trusting it.
+The Jeopardy runtime stores game state and usage history in browser `localStorage`, but loaded state is validated before it is trusted.
 
-If a current save is corrupted, the runtime can regenerate valid boards while preserving usable continuity. It also contains a legacy-save salvage path that can preserve player names and rebuild a valid current game.
+The [`gameStateAdapter`](src/jeopardy/gameStateAdapter.js) can regenerate a valid game when the current save is malformed. It also includes a legacy-salvage path that preserves usable player information while rebuilding a valid current state.
 
-This was an important shift from treating saving as a convenience feature to treating stored data as input that might be incomplete or outdated.
+That changed saving from a convenience feature into a data-integrity problem: persistent state is external input and needs validation too.
 
 ### 5. Wordle duplicate-letter correctness
 
-The [Wordle implementation](src/platform/WordleModeScreen.tsx) uses a two-pass evaluation strategy. Correct-position letters are consumed first, then present-position letters are evaluated only against remaining unmatched copies in the answer.
+The [`WordleModeScreen`](src/platform/WordleModeScreen.tsx) evaluates repeated letters with a two-pass strategy. Correct-position letters consume matching answer copies first, then present-position letters are checked only against the remaining unmatched copies.
 
-That avoids a common Wordle clone bug where repeated guesses can incorrectly receive too many yellow matches.
+That avoids a common clone bug where repeated letters receive too many yellow matches.
 
-### 6. Asset reliability as an engineering problem
+### 6. Asset reliability became an engineering problem
 
-The visual system went through several iterations as filenames, replacement artwork, and staged Hangman assets changed. The current platform centralizes visual paths in an [asset registry](src/platform/assets.ts), renders assets through a shared [AssetLayer](src/platform/AssetLayer.tsx), and caches successful availability checks without permanently caching failed lookups.
+The visual system went through several iterations as filenames, replacement artwork, and staged Hangman images changed. The current platform centralizes visual paths in [`assets.ts`](src/platform/assets.ts), renders them through a shared [`AssetLayer`](src/platform/AssetLayer.tsx), and uses availability checks that do not permanently cache failed lookups.
 
-This solved a practical problem that appeared repeatedly during development: a visually rich interface is only useful if asset replacements, fallbacks, and loading behavior stay predictable.
+The goal was not merely nicer art. It was to make asset replacement, fallback behavior, and staged visual state predictable enough that the interface would not break as presentation assets changed.
 
 ## Architecture
 
-Quizler Arena uses a hybrid architecture. Wordle and Hangman are native React and TypeScript modes. The newer React platform shell also hosts the mature Jeopardy runtime inside an iframe rather than requiring an immediate rewrite of a working subsystem.
+Quizler Arena uses a hybrid architecture. Wordle and Hangman are native React and TypeScript modes. The newer React platform shell hosts the mature JavaScript Jeopardy runtime inside an iframe instead of forcing an immediate rewrite of a working subsystem.
 
-That choice let the platform improve navigation, loading, visual consistency, fullscreen behavior, and shared interaction while preserving the deeper Jeopardy game logic.
+That decision improved routing, navigation, loading, fullscreen behavior, and visual consistency while preserving the deeper Jeopardy gameplay and board-generation logic.
 
 <p align="center">
-  <img src="docs/diagrams/architecture.svg" alt="Diagram of the Quizler Arena hybrid React and JavaScript architecture" width="100%">
+  <img src="docs/diagrams/architecture.svg" alt="Quizler Arena hybrid React and JavaScript architecture" width="100%">
 </p>
 
 Relevant entry points:
 
-- [React application routing](src/platform/App.tsx)
-- [Lobby and interactive portals](src/platform/HubScreen.tsx)
-- [Mode registry](src/platform/modes.ts)
-- [Wordle mode](src/platform/WordleModeScreen.tsx)
-- [Hangman mode](src/platform/HangmanModeScreen.tsx)
-- [Jeopardy React wrapper](src/platform/JeopardyModeScreen.tsx)
-- [Jeopardy runtime](src/jeopardy/app.js)
-- [Board assembler](src/jeopardy/boardAssembler.js)
-- [Question validator](src/jeopardy/questionValidator.js)
+- [`src/platform/App.tsx`](src/platform/App.tsx), React routing and shell
+- [`src/platform/HubScreen.tsx`](src/platform/HubScreen.tsx), interactive three-portal lobby
+- [`src/platform/WordleModeScreen.tsx`](src/platform/WordleModeScreen.tsx), Wordle gameplay
+- [`src/platform/HangmanModeScreen.tsx`](src/platform/HangmanModeScreen.tsx), Hangman gameplay
+- [`src/platform/JeopardyModeScreen.tsx`](src/platform/JeopardyModeScreen.tsx), React wrapper around the Jeopardy runtime
+- [`src/jeopardy/app.js`](src/jeopardy/app.js), Jeopardy gameplay runtime
+- [`src/jeopardy/boardAssembler.js`](src/jeopardy/boardAssembler.js), constrained board search
+- [`src/jeopardy/questionValidator.js`](src/jeopardy/questionValidator.js), runtime and repository invariants
 
-## A major design decision: from live AI generation to local-first content
+## A major design decision: from live generation to local-first content
 
-An early version of Quizler Jeopardy experimented with generating questions at runtime through a hosted language model API. That approach made it easy to explore large amounts of content, but the later architecture moved toward curated local question banks.
+An early version of Quizler Jeopardy experimented with generating questions at runtime through a hosted language-model API. It was useful for exploring large amounts of content quickly, but repeated use made the tradeoffs increasingly obvious.
 
-The current runtime deliberately uses a local question source. Remote generation is disabled in the current [question source adapter](src/jeopardy/questionSourceAdapter.js).
+The current runtime deliberately uses a local question source, and remote generation is disabled in [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js).
 
 <p align="center">
-  <img src="docs/diagrams/local-first-evolution.svg" alt="Diagram showing the evolution from live model generation to the current local-first content architecture" width="100%">
+  <img src="docs/diagrams/local-first-evolution.svg" alt="Evolution from live question generation to the current local-first architecture" width="100%">
 </p>
 
-The local-first architecture improved several properties that became increasingly important as the project matured:
+The local-first architecture improved:
 
-- predictable startup without a remote API dependency
-- content that can be inspected before gameplay
+- startup without a remote API dependency
+- inspectability before gameplay
 - repeatable builds
-- stricter duplicate and difficulty controls
-- easier automated testing
-- no exposed runtime API key
-- faster local board construction
+- duplicate and difficulty controls
+- automated testing
+- credential safety
+- local board-construction speed
 
-This change is one of the clearest examples of the project becoming more engineering-focused over time. A newer technology was useful for experimentation, but reliability and content control became more important than keeping it in the final runtime.
+This became an important engineering judgment call. A newer technology had been useful for experimentation, but reliability and control became more valuable than keeping it in the final runtime.
 
 ## Testing and reliability
 
-The project includes separate tools for content validation, runtime smoke testing, static-file compatibility, and full-platform verification.
+The project has separate tooling for content validation, runtime smoke testing, static-file compatibility, and full-platform verification.
 
 ### Integrated verification
 
-`npm run verify` coordinates a multi-stage pipeline that includes:
+`npm run verify` coordinates a multi-stage pipeline:
 
-1. authored Jeopardy source audit
-2. Jeopardy bank rebuild
-3. legacy runtime smoke testing
-4. legacy runtime synchronization
-5. generated-bank and content auditing
-6. Vite platform build
-7. static file shell build
-8. static route smoke testing
+1. audit the curated Jeopardy source packs
+2. rebuild the Jeopardy bank
+3. run the Jeopardy runtime smoke harness
+4. synchronize the legacy runtime into the platform
+5. audit generated-bank content and parity
+6. build the Vite platform shell
+7. build the direct-file shell
+8. smoke-test the lobby and all three routes
 
-The [Jeopardy runtime smoke harness](tools/jeopardy-runtime-smoke.html) goes beyond checking whether the page opens. It constructs **200 seeded full local game packages**, alternating difficulty modes and 1-4 player counts, then validates both rounds and Final Jeopardy.
+The GitHub Actions workflow runs this verification on Windows and then captures the portfolio screenshots from the verified build.
 
-It checks that assembled games do not repeat category titles, clue IDs, normalized answers, or fingerprints, and that clue difficulty increases within each category. The same harness also exercises:
+### 200 seeded complete games per smoke run
+
+The [`Jeopardy runtime smoke harness`](tools/jeopardy-runtime-smoke.html) constructs **200 deterministic complete game packages**, alternating difficulty modes and 1 to 4 player counts. For every package it validates both rounds and Final Jeopardy.
+
+It checks that games do not repeat category titles, clue IDs, normalized answers, or clue fingerprints, and that difficulty increases within each category. The same harness also exercises:
 
 - custom category mode
 - two custom rounds
@@ -214,63 +226,63 @@ It checks that assembled games do not repeat category titles, clue IDs, normaliz
 - corrupted current-save recovery
 - legacy-save salvage
 
-The repository also includes a [file-mode smoke test](tools/run-platform-file-smoke.ps1) for the lobby and all three routes after building a static shell.
+The repository also includes a direct-file smoke test for the lobby and all three routes after the static shell is built.
 
 ## Feedback and iteration
 
-The original presentation documented feedback from peers and a teacher, and several of those comments map directly to later product decisions.
+The project was not developed from a fixed specification. Repeated play, presentation testing, technical failures, and feedback changed what I prioritized.
 
-| Feedback or observation | Resulting iteration |
+| Feedback or observed problem | What changed |
 |---|---|
-| The single-game experience would be stronger with more variety | The project narrowed into a deliberate three-mode lineup: Wordle, Quizler Jeopardy, and Hangman |
-| Performance on weaker hardware was noticeable during testing | Standalone/local execution, file-safe builds, and presentation-focused performance became important |
-| Ease of play mattered as much as visual ambition | The lobby was simplified around three recognizable portals with direct entry into each mode |
-| Repeated play exposed content repetition and quality problems | Jeopardy gained much larger authored banks, source audits, replayability history, and constrained board assembly |
-| Projector and group play changed what "good UI" meant | Later layouts emphasized fullscreen behavior, readability, larger controls, and no-scroll presentation |
+| One game did not provide enough variety for repeated group play | The project became a focused three-mode platform: Wordle, Quizler Jeopardy, and Hangman |
+| Weaker hardware and projector use made presentation quality part of usability | Fullscreen behavior, no-scroll layouts, larger controls, readability, and local execution received more attention |
+| Repeated games exposed content repetition and weak clue combinations | The Jeopardy bank grew substantially, usage history was added, and board construction became constraint-based |
+| Changing visual assets caused stale paths, fallback issues, and incorrect Hangman stages | Asset paths were centralized and staged visuals were moved behind a shared reliability layer |
+| A working feature was not always a dependable feature | Saving, local data, validation, build reproducibility, and smoke testing became first-class parts of the project |
 
-The project was not developed from a fixed specification. Feedback, repeated use, technical failures, and content problems repeatedly changed what I prioritized.
+The most important outcome was not a single feature. It was the shift from thinking about what the game could do once to thinking about whether it would still work well after repeated use.
 
-## My contribution
+## My role and collaboration
 
-This repository is a curated showcase snapshot of a longer development project. My primary work included:
+**I designed and developed Quizler Arena**, from the original Jeopardy prototype through the current three-mode platform. My development work includes:
 
-- designing the overall product direction and three-mode platform
-- developing the React/Vite platform shell and mode integration
-- developing and iterating the Jeopardy gameplay architecture
-- building the board assembly, replayability, validation, and local content systems
-- expanding and structuring the Jeopardy question-bank workflow
-- developing Wordle and Hangman gameplay and selection behavior
-- implementing persistence, save recovery, fullscreen behavior, loading flow, and interaction polish
-- creating build, audit, and smoke-test tooling
-- collecting feedback, refining the presentation, and continuing development after the original class deadline
+- product direction and the three-mode platform structure
+- the React/Vite shell, routing, lobby, and mode integration
+- Jeopardy gameplay architecture and continued iteration
+- constrained board assembly and replayability logic
+- local content repositories, validation, and bank-building workflows
+- Wordle and Hangman gameplay and selection behavior
+- persistence, save recovery, fullscreen behavior, loading flow, and interaction polish
+- build, audit, smoke-test, and screenshot-capture tooling
+- feedback-driven refinement after the original class deadline
 
-The original development repository also contains a small number of collaborator commits, particularly around Hangman visual assets and asset handling. Those contributions are not presented here as my work.
+[Vladimir Duckardt](https://github.com/VDuckardtt) provided **limited debugging help on visual implementation issues**, particularly Hangman asset replacement and the stage-image layering and transition behavior. Those contributions are credited here and are not presented as my work.
 
-AI-assisted development tools were used during parts of the project, especially for iteration, debugging, code generation, and visual experimentation. I treated generated output as implementation material to inspect, test, revise, or replace. A major later phase of the project focused specifically on replacing unreliable runtime generation with auditable local data and validation.
+AI-assisted development tools were used during parts of implementation, debugging, content drafting, and visual experimentation. I treated generated output as implementation material to inspect, test, revise, or replace. One of the project's largest later changes was specifically moving away from runtime generation toward curated local data and reproducible validation.
 
 ## Development timeline
 
 | Stage | What changed |
 |---|---|
-| **Initial prototype** | Built a small Jeopardy-style game for social play with friends and family |
-| **April 2026: larger project** | Expanded gameplay, experimented with live AI question generation, and developed a stronger presentation and visual identity |
+| **Initial prototype** | Built a small Jeopardy-style game for social play with family and friends |
+| **April 2026: larger project** | Expanded the original game, experimented with live question generation, and developed a stronger presentation and visual identity |
 | **April 2026: platform expansion** | Added the React/Vite shell, focused the product on Wordle, Quizler Jeopardy, and Hangman, and improved portal navigation, fullscreen use, assets, and presentation |
-| **May 2026: gameplay and content refinement** | Improved category handling, clue quality, timers, validation, custom categories, difficulty behavior, and duplicate prevention |
-| **August 2026: reliability and scale** | Added 5,600 authored expansion clues across 70 categories, strengthened audits and normalization, removed weak generated trivia sources, and reinforced the local-first runtime |
+| **May 2026: gameplay and content refinement** | Improved category handling, clue quality, timers, custom categories, difficulty behavior, and duplicate prevention |
+| **August 2026: reliability and scale** | Added the 5,600-clue curated expansion, strengthened audits and normalization, removed weak generated trivia sources, reinforced the local-first runtime, and curated the project as a public technical portfolio |
 
 ## Technology
 
 | Area | Tools |
 |---|---|
 | Frontend | React 18, TypeScript, JavaScript, HTML, CSS |
-| Routing and platform | React Router |
+| Routing | React Router |
 | Build | Vite, esbuild, npm |
 | Data and tooling | Node.js, PowerShell, JSON, TSV |
 | Persistence | Browser localStorage |
-| Validation and testing | Custom Node validation scripts, browser smoke harnesses, static route smoke tests |
+| Validation and testing | Custom Node validators, browser smoke harnesses, static route smoke tests, GitHub Actions |
 | Version control | Git, GitHub |
 
-The project intentionally combines newer React code with a mature JavaScript Jeopardy runtime. That hybrid structure reflects an incremental migration rather than a full rewrite.
+The hybrid React and JavaScript structure is intentional. It reflects incremental migration around a mature subsystem rather than a rewrite for its own sake.
 
 ## Running the project
 
@@ -278,7 +290,7 @@ The project intentionally combines newer React code with a mature JavaScript Jeo
 
 - Node.js and npm
 - Windows PowerShell for the current build scripts
-- Microsoft Edge for the static file-mode smoke test
+- Microsoft Edge for the direct-file smoke test and portfolio capture tooling
 
 ### Development
 
@@ -301,7 +313,7 @@ npm run build
 npm run verify
 ```
 
-Useful focused commands are also available:
+Useful focused commands:
 
 ```bash
 npm run bank:audit:sources
@@ -318,37 +330,45 @@ QuizArena-Portfolio/
 ├── data/
 │   ├── jeopardy-bank/        # Curated source data, research packs, tracking, build inputs
 │   └── word-lists/           # Source word lists used by word-game tooling
+├── docs/
+│   ├── diagrams/             # Architecture and engineering diagrams
+│   └── media/                # Reproducible portfolio screenshots
 ├── public/
 │   └── assets/               # Runtime visual assets
 ├── src/
-│   ├── platform/             # React shell, Wordle, Hangman, shared UI and asset system
-│   └── jeopardy/             # Jeopardy repository, validation, assembly, state and gameplay
-├── tools/                    # Build, audit, validation and smoke-test scripts
+│   ├── platform/             # React shell, Wordle, Hangman, shared UI, asset system
+│   └── jeopardy/             # Jeopardy repository, validation, assembly, state, gameplay
+├── tools/                    # Build, audit, validation, smoke-test, capture scripts
 ├── index.html
-├── jeopardy-gameNewQuestionsV3.html
 ├── package.json
 └── vite.config.ts
 ```
 
-Generated Jeopardy runtime banks and synchronized legacy output are intentionally excluded from source control and rebuilt from committed sources.
+Generated Jeopardy runtime banks and synchronized legacy output are treated as build products and rebuilt from committed sources.
 
-## Current scope
+## Current scope and boundaries
 
-Quizler Arena is currently a **local-first** platform. Wordle, Quizler Jeopardy, and Hangman are playable modes.
+Quizler Arena is currently a **local-first** platform with three playable modes.
 
-The React shell also contains presentation-only multiplayer concepts and party-link UI. Those controls are prototypes for how remote play could be presented, not a hosted matchmaking system, and they do not create live online rooms.
+The React shell also contains presentation-only multiplayer concepts and party-link UI. Those controls demonstrate how remote play could be presented, but they do not create hosted online rooms or a live matchmaking service.
 
-The current build workflow is Windows-oriented because the bank and synchronization scripts use PowerShell. Cross-platform build tooling and hosted multiplayer would be logical future engineering work, but they are not presented as completed features.
+The build workflow remains Windows-oriented because the bank and synchronization scripts use PowerShell. Cross-platform orchestration and hosted multiplayer are possible future engineering directions, not completed features.
 
 ## What I learned
 
-Three lessons from this project changed how I approach software:
+**Reliability can matter more than novelty.** Live generation was interesting to explore, but a tested local content pipeline became a better fit for the product.
 
-**Reliability can matter more than novelty.** Live generation was an interesting experiment, but a tested local content pipeline became a better fit for the product.
+**Random is not the same as varied.** Replayable games need memory, constraints, weighting, and deliberate diversity.
 
-**Random is not the same as varied.** Replayable games need memory, constraints, weighting, and deliberate diversity, not just a random-number generator.
+**Persistent data should be treated as untrusted input.** Save recovery became more robust once I stopped assuming stored state was valid.
 
-**Finishing the assignment was not the end of the engineering.** Many of the strongest parts of Quizler Arena, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after the original presentation.
+**Finishing the assignment was not the end of the engineering.** Many of the strongest systems in the project, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after its original presentation.
+
+## Attribution and project notes
+
+Quizler Arena includes third-party software packages and word-list sources. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for source and reuse notes.
+
+Quizler Jeopardy is an unofficial student project inspired by the familiar Jeopardy-style clue-board format. It is not affiliated with or endorsed by the television program or its rights holders.
 
 ---
 
@@ -358,8 +378,9 @@ Three lessons from this project changed how I approach software:
 - [`src/jeopardy/questionValidator.js`](src/jeopardy/questionValidator.js), runtime and repository invariants
 - [`src/jeopardy/usageTracker.js`](src/jeopardy/usageTracker.js), persistent replayability history
 - [`src/jeopardy/gameStateAdapter.js`](src/jeopardy/gameStateAdapter.js), save validation and recovery
-- [`tools/audit-jeopardy-authored-sources.cjs`](tools/audit-jeopardy-authored-sources.cjs), authored-source quality checks
-- [`tools/jeopardy-runtime-smoke.html`](tools/jeopardy-runtime-smoke.html), seeded game-package smoke testing
+- [`tools/audit-jeopardy-authored-sources.cjs`](tools/audit-jeopardy-authored-sources.cjs), source-pack quality checks
+- [`tools/jeopardy-runtime-smoke.html`](tools/jeopardy-runtime-smoke.html), seeded complete-game smoke testing
 - [`src/platform/wordleData.ts`](src/platform/wordleData.ts), Wordle difficulty and novelty selection
 - [`src/platform/hangmanData.ts`](src/platform/hangmanData.ts), Hangman puzzle weighting and history
 - [`src/platform/HubScreen.tsx`](src/platform/HubScreen.tsx), interactive three-portal lobby
+- [`tools/capture-portfolio.ps1`](tools/capture-portfolio.ps1), reproducible portfolio screenshot capture
