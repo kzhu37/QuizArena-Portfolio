@@ -358,7 +358,7 @@ The build workflow remains Windows-oriented because the bank and synchronization
 
 **Persistent data should be treated as untrusted input.** Save recovery became more robust once I stopped assuming stored state was valid.
 
-**Finishing the assignment was not the end of the engineering.** Many of the strongest systems in the project, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after its original presentation.
+**The first complete version was not the end of the engineering.** Many of the strongest systems in the project, including the larger content pipeline, board-selection logic, save recovery, and validation tooling, came from continuing to improve the project after its initial release.
 
 ## Attribution and project notes
 
