@@ -51,7 +51,7 @@ function Capture-Route {
     "--no-first-run"
     "--no-default-browser-check"
     "--run-all-compositor-stages-before-draw"
-    "--virtual-time-budget=1800"
+    "--virtual-time-budget=2200"
     "--window-size=1440,900"
     "--force-device-scale-factor=1"
     """--user-data-dir=$profile"""
@@ -89,7 +89,7 @@ function Capture-Route {
 
 Capture-Route -Name "lobby" -HashRoute "#/"
 Capture-Route -Name "wordle" -HashRoute "#/wordle"
-Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy"
+Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
 Capture-Route -Name "hangman" -HashRoute "#/hangman"
 
 Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green
