@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml"><img src="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml/badge.svg" alt="Portfolio verify workflow"></a>
-</p>
-
-<p align="center">
   <img src="docs/media/lobby.png" alt="Quizler Arena running lobby with the host character and three playable portals" width="100%">
 </p>
 
