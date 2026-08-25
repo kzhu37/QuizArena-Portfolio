@@ -45,6 +45,8 @@ function Capture-Route {
   $args = @(
     "--headless"
     "--disable-gpu"
+    "--disable-background-networking"
+    "--disable-extensions"
     "--hide-scrollbars"
     "--no-first-run"
     "--no-default-browser-check"
@@ -57,13 +59,29 @@ function Capture-Route {
     """$url"""
   )
 
-  $process = Start-Process -FilePath $browserPath -ArgumentList $args -Wait -PassThru
-  if ($process.ExitCode -ne 0) {
-    throw "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
+  $process = Start-Process -FilePath $browserPath -ArgumentList $args -PassThru
+  $deadline = (Get-Date).AddSeconds(30)
+
+  while ((Get-Date) -lt $deadline) {
+    if (Test-Path $outputPath) {
+      break
+    }
+    if ($process.HasExited -and $process.ExitCode -ne 0) {
+      throw "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
+    }
+    Start-Sleep -Milliseconds 250
   }
 
   if (-not (Test-Path $outputPath)) {
-    throw "Screenshot was not created: $outputPath"
+    if (-not $process.HasExited) {
+      Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue
+    }
+    throw "Screenshot was not created within 30 seconds: $outputPath"
+  }
+
+  Start-Sleep -Milliseconds 500
+  if (-not $process.HasExited) {
+    Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue
   }
 
   Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
