@@ -51,3 +51,5 @@ jobs:
           git add docs/media/jeopardy.png docs/media/wordle.png docs/media/hangman.png
           git commit -m 'Replace portfolio screenshots with corrected captures'
           git push
+
+# Retriggered to complete the requested screenshot replacement.
