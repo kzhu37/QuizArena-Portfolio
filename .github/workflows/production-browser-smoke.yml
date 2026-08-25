@@ -32,4 +32,6 @@ jobs:
       - name: Exercise production Quizler Arena
         env:
           QUIZLER_BASE_URL: https://quizler-arena-portfolio.vercel.app
-        run: node tools/production-browser-smoke.cjs
+        run: |
+          sed -i 's/{ name: "Enter" }/{ name: "Enter", exact: true }/' tools/production-browser-smoke.cjs
+          node tools/production-browser-smoke.cjs
