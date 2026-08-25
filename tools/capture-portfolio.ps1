@@ -32,15 +32,20 @@ New-Item -ItemType Directory -Path $tempRoot | Out-Null
 function Stop-BrowserTree {
   param([System.Diagnostics.Process]$Process)
 
-  if (-not $Process -or $Process.HasExited) {
-    return
+  if ($Process -and -not $Process.HasExited) {
+    try {
+      & taskkill.exe /PID $Process.Id /T /F 2>$null | Out-Null
+    }
+    catch {
+      Stop-Process -Id $Process.Id -Force -ErrorAction SilentlyContinue
+    }
   }
 
-  try {
-    & taskkill.exe /PID $Process.Id /T /F 2>$null | Out-Null
-  }
-  catch {
-    Stop-Process -Id $Process.Id -Force -ErrorAction SilentlyContinue
+  # On hosted CI, Edge can detach renderer processes from the launcher process.
+  # The runner is dedicated to this job, so clear any remaining Edge processes
+  # before starting the next isolated screenshot session.
+  if ($env:GITHUB_ACTIONS -eq "true") {
+    Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
   }
 }
 
@@ -49,6 +54,10 @@ function Capture-Route {
     [string]$Name,
     [string]$HashRoute
   )
+
+  if ($env:GITHUB_ACTIONS -eq "true") {
+    Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+  }
 
   $profile = Join-Path $tempRoot "$Name-profile"
   New-Item -ItemType Directory -Path $profile | Out-Null
@@ -82,6 +91,7 @@ function Capture-Route {
       break
     }
     if ($process.HasExited -and $process.ExitCode -ne 0) {
+      Stop-BrowserTree -Process $process
       throw "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
     }
     Start-Sleep -Milliseconds 250
@@ -94,7 +104,7 @@ function Capture-Route {
 
   Start-Sleep -Milliseconds 500
   Stop-BrowserTree -Process $process
-  Start-Sleep -Milliseconds 250
+  Start-Sleep -Milliseconds 500
 
   Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
 }
