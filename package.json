@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "sync:legacy": "powershell -ExecutionPolicy Bypass -File .\\tools\\sync-legacy-runtime.ps1",
-    "bank:generate": "node .\\tools\\generate-jeopardy-classroom-bank.cjs",
+    "bank:generate": "node .\\tools\\generate-jeopardy-source-bank.cjs",
     "bank:build": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-jeopardy-bank.ps1",
     "bank:audit": "node .\\tools\\validate-jeopardy-bank.cjs",
     "bank:audit:sources": "node .\\tools\\audit-jeopardy-authored-sources.cjs",

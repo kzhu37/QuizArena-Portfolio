@@ -7,7 +7,7 @@ $round2OutPath = Join-Path $root 'data/jeopardy-bank/round2-bank.js'
 $finalOutPath = Join-Path $root 'data/jeopardy-bank/final-bank.js'
 $blueprintPath = Join-Path $root 'data/jeopardy-bank/bank-blueprint.ps1'
 $oldAnswerBlacklistPath = Join-Path $root 'data/jeopardy-bank/original-answer-blacklist.json'
-$classroomGeneratorPath = Join-Path $root 'tools/generate-jeopardy-classroom-bank.cjs'
+$sourceGeneratorPath = Join-Path $root 'tools/generate-jeopardy-source-bank.cjs'
 
 $RoundValues = @{
   r1 = @(200, 400, 600, 800, 1000)
@@ -482,9 +482,9 @@ function Write-WrappedJsArray {
 
 Push-Location $root
 try {
-  & node $classroomGeneratorPath
+  & node $sourceGeneratorPath
   if ($LASTEXITCODE -ne 0) {
-    throw "Jeopardy classroom source generator failed with exit code $LASTEXITCODE."
+    throw "Jeopardy source bank generator failed with exit code $LASTEXITCODE."
   }
 }
 finally {
