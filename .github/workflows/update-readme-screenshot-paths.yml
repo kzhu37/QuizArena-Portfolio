@@ -1,0 +1,33 @@
+name: Update README screenshot paths
+
+on:
+  push:
+    paths:
+      - .github/workflows/update-readme-screenshot-paths.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Point README to corrected screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          sed -i 's#docs/media/wordle.png#docs/media/wordle-corrected.webp#g' README.md
+          sed -i 's#docs/media/hangman.png#docs/media/hangman-corrected.webp#g' README.md
+          sed -i 's#docs/media/jeopardy.png#docs/media/jeopardy-corrected.webp#g' README.md
+      - name: Commit README update and remove temporary workflow
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/update-readme-screenshot-paths.yml
+          git add README.md
+          git commit -m 'Use corrected portfolio screenshots'
+          git push
