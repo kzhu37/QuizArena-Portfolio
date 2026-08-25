@@ -18,7 +18,7 @@ const publicRuntimeModuleFiles = runtimeModuleFiles.map((file) => `public/legacy
 const oldAnswerPath = 'data/jeopardy-bank/original-answer-blacklist.json';
 const preExpansionTrackingPath = 'data/jeopardy-bank/pre-expansion-tracking.json';
 const expandedBankPath = 'data/jeopardy-bank/expanded-bank.tsv';
-const generatorPath = 'tools/generate-jeopardy-classroom-bank.cjs';
+const generatorPath = 'tools/generate-jeopardy-source-bank.cjs';
 const builderPath = 'tools/build-jeopardy-bank.ps1';
 const blueprintPath = 'data/jeopardy-bank/bank-blueprint.ps1';
 const manualTopoffPath = 'data/jeopardy-bank/manual-existing-category-topoff.tsv';
@@ -257,7 +257,7 @@ function validateExpandedSourceFreshness() {
   if (!fs.existsSync(expandedFullPath)) fail(`missing generated source ${expandedBankPath}`);
   const firstLines = fs.readFileSync(expandedFullPath, 'utf8').split(/\r?\n/, 5);
   const hashLine = firstLines.find((line) => line.startsWith('# Upstream SHA-256: '));
-  if (!hashLine) fail(`${expandedBankPath} is missing its upstream source hash; regenerate the classroom bank`);
+  if (!hashLine) fail(`${expandedBankPath} is missing its upstream source hash; regenerate the source bank`);
   const expected = upstreamDigest([
     generatorPath,
     oldAnswerPath,
@@ -266,7 +266,7 @@ function validateExpandedSourceFreshness() {
     ...researchedExpansionFiles()
   ]);
   const actual = hashLine.slice('# Upstream SHA-256: '.length).trim();
-  if (actual !== expected) fail(`${expandedBankPath} is stale relative to its upstream authored sources; rerun the classroom generator`);
+  if (actual !== expected) fail(`${expandedBankPath} is stale relative to its upstream authored sources; rerun the source bank generator`);
 }
 
 function sourceSignatures() {
