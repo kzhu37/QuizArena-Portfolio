@@ -55,58 +55,77 @@ function Capture-Route {
     [string]$HashRoute
   )
 
-  if ($env:GITHUB_ACTIONS -eq "true") {
-    Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-  }
-
-  $profile = Join-Path $tempRoot "$Name-profile"
-  New-Item -ItemType Directory -Path $profile | Out-Null
-
   $encoded = ((Resolve-Path $distIndexPath).Path).Replace('\', '/').Replace(' ', '%20')
   $url = "file:///$encoded$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
+  $lastFailure = $null
 
-  $args = @(
-    "--headless"
-    "--disable-gpu"
-    "--disable-background-networking"
-    "--disable-extensions"
-    "--hide-scrollbars"
-    "--no-first-run"
-    "--no-default-browser-check"
-    "--run-all-compositor-stages-before-draw"
-    "--virtual-time-budget=2200"
-    "--window-size=1440,900"
-    "--force-device-scale-factor=1"
-    """--user-data-dir=$profile"""
-    """--screenshot=$outputPath"""
-    """$url"""
-  )
+  for ($attempt = 1; $attempt -le 2; $attempt += 1) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+      Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    }
 
-  $process = Start-Process -FilePath $browserPath -ArgumentList $args -PassThru
-  $deadline = (Get-Date).AddSeconds(45)
-
-  while ((Get-Date) -lt $deadline) {
     if (Test-Path $outputPath) {
-      break
+      Remove-Item $outputPath -Force
     }
-    if ($process.HasExited -and $process.ExitCode -ne 0) {
+
+    $profile = Join-Path $tempRoot "$Name-profile-$attempt"
+    if (Test-Path $profile) {
+      Remove-Item $profile -Recurse -Force
+    }
+    New-Item -ItemType Directory -Path $profile | Out-Null
+
+    $args = @(
+      "--headless"
+      "--disable-gpu"
+      "--disable-background-networking"
+      "--disable-extensions"
+      "--hide-scrollbars"
+      "--no-first-run"
+      "--no-default-browser-check"
+      "--run-all-compositor-stages-before-draw"
+      "--virtual-time-budget=2200"
+      "--window-size=1440,900"
+      "--force-device-scale-factor=1"
+      """--user-data-dir=$profile"""
+      """--screenshot=$outputPath"""
+      """$url"""
+    )
+
+    $process = Start-Process -FilePath $browserPath -ArgumentList $args -PassThru
+    $deadline = (Get-Date).AddSeconds(45)
+
+    while ((Get-Date) -lt $deadline) {
+      if (Test-Path $outputPath) {
+        break
+      }
+      if ($process.HasExited -and $process.ExitCode -ne 0) {
+        $lastFailure = "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
+        break
+      }
+      Start-Sleep -Milliseconds 250
+    }
+
+    if (Test-Path $outputPath) {
+      Start-Sleep -Milliseconds 500
       Stop-BrowserTree -Process $process
-      throw "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
+      Start-Sleep -Milliseconds 500
+      Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
+      return
     }
-    Start-Sleep -Milliseconds 250
-  }
 
-  if (-not (Test-Path $outputPath)) {
     Stop-BrowserTree -Process $process
-    throw "Screenshot was not created within 45 seconds: $outputPath"
+    if (-not $lastFailure) {
+      $lastFailure = "Screenshot was not created within 45 seconds: $outputPath"
+    }
+
+    if ($attempt -lt 2) {
+      Write-Host "Capture attempt $attempt failed for $Name. Retrying with a fresh browser profile..." -ForegroundColor Yellow
+      Start-Sleep -Seconds 1
+    }
   }
 
-  Start-Sleep -Milliseconds 500
-  Stop-BrowserTree -Process $process
-  Start-Sleep -Milliseconds 500
-
-  Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
+  throw "$lastFailure Capture failed after 2 attempts."
 }
 
 # Hangman has the largest staged image set, so capture it before other browser sessions.
