@@ -99,9 +99,10 @@ function Capture-Route {
   Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
 }
 
+# Hangman has the largest staged image set, so capture it before other browser sessions.
+Capture-Route -Name "hangman" -HashRoute "#/hangman"
 Capture-Route -Name "lobby" -HashRoute "#/"
 Capture-Route -Name "wordle" -HashRoute "#/wordle"
 Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
-Capture-Route -Name "hangman" -HashRoute "#/hangman"
 
 Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green
