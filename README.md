@@ -41,10 +41,10 @@ That evolution is the core of the project: **a simple social game became a syste
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/media/wordle-corrected.webp" alt="Quizler Arena Wordle mode running in the current React interface">
+      <img src="docs/media/wordle.png" alt="Quizler Arena Wordle mode running in the current React interface">
     </td>
     <td width="50%">
-      <img src="docs/media/hangman-corrected.webp" alt="Quizler Arena Hangman mode running in the current React interface">
+      <img src="docs/media/hangman.png" alt="Quizler Arena Hangman mode running in the current React interface">
     </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ That evolution is the core of the project: **a simple social game became a syste
 </table>
 
 <p align="center">
-  <img src="docs/media/jeopardy-corrected.webp" alt="Quizler Jeopardy running inside the current platform shell" width="100%">
+  <img src="docs/media/jeopardy.png" alt="Quizler Jeopardy running inside the current platform shell" width="100%">
 </p>
 
 <p align="center">
