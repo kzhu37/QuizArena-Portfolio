@@ -14,6 +14,7 @@
     "shell:file": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-file-shell.ps1",
     "smoke:legacy": "powershell -ExecutionPolicy Bypass -File .\\tools\\run-jeopardy-runtime-smoke.ps1",
     "smoke:platform:file": "powershell -ExecutionPolicy Bypass -File .\\tools\\run-platform-file-smoke.ps1",
+    "portfolio:capture": "powershell -ExecutionPolicy Bypass -File .\\tools\\capture-portfolio.ps1",
     "verify": "powershell -ExecutionPolicy Bypass -File .\\tools\\verify-platform.ps1",
     "dev": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-jeopardy-bank.ps1 && powershell -ExecutionPolicy Bypass -File .\\tools\\sync-legacy-runtime.ps1 && vite",
     "build": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-jeopardy-bank.ps1 && powershell -ExecutionPolicy Bypass -File .\\tools\\sync-legacy-runtime.ps1 && vite build && powershell -ExecutionPolicy Bypass -File .\\tools\\build-file-shell.ps1",
