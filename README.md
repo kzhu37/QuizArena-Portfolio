@@ -42,7 +42,7 @@ The project became a focused three-mode platform around Wordle, Quizler Jeopardy
       <img src="docs/media/wordle.webp" alt="Quizler Arena Wordle mode with statistics, puzzle grid, and keyboard">
     </td>
     <td width="50%">
-      <img src="docs/media/hangman.webp" alt="Quizler Arena Hangman mode with a live puzzle, hints, misses, and keyboard state">
+      <img src="docs/media/hangman.png" alt="Quizler Arena Hangman mode with a live puzzle, hints, misses, and keyboard state">
     </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ The project became a focused three-mode platform around Wordle, Quizler Jeopardy
 </table>
 
 <p align="center">
-  <img src="docs/media/jeopardy.webp" alt="Quizler Jeopardy showing a complete six-category Round One board" width="100%">
+  <img src="docs/media/jeopardy.png" alt="Quizler Jeopardy showing a complete six-category Round One board" width="100%">
 </p>
 
 <p align="center">
