@@ -43,6 +43,7 @@ jobs:
         run: npm run portfolio:capture
 
       - name: Upload portfolio screenshots
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-captures
