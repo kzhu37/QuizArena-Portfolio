@@ -24,7 +24,7 @@
   <a href="#what-makes-it-technically-interesting">Engineering</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#testing-and-reliability">Verification</a> ·
-  <a href="#my-role-and-collaboration">My role</a> ·
+  <a href="#project-development">Project development</a> ·
   <a href="#running-the-project">Run locally</a>
 </p>
 
@@ -238,7 +238,7 @@ The project was not developed from a fixed specification. Repeated play, present
 
 The most important outcome was not a single feature. It was the shift from thinking about what the game could do once to thinking about whether it would still work well after repeated use.
 
-## My role and collaboration
+## Project development
 
 **I designed and developed Quizler Arena**, from the original Jeopardy prototype through the current three-mode platform. My development work includes:
 
