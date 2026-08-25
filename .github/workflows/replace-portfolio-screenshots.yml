@@ -1,0 +1,53 @@
+name: Replace portfolio screenshots
+
+on:
+  push:
+    paths:
+      - .github/workflows/replace-portfolio-screenshots.yml
+
+permissions:
+  contents: write
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download supplied screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL 'https://media.canva.com/v2/image-resize/format:PNG/height:1080/quality:100/uri:ifs%3A%2F%2FM%2Fe9399a82-918b-4166-866e-46cd56ce2d68/watermark:F/width:1920?csig=AAAAAAAAAAAAAAAAAAAAAMch3goZhHiB7C7iFaQX4zHkjfHfCVQXYfbql62469Fd&exp=1787709976&osig=AAAAAAAAAAAAAAAAAAAAABK79M0FPmfTBXF1b8tcBW8rab7ZJ5B2uMxmOR62rUk_&signer=media-rpc' -o docs/media/jeopardy.png
+          curl -fL 'https://media.canva.com/v2/image-resize/format:PNG/height:944/quality:100/uri:ifs%3A%2F%2FM%2F1ac61a4e-5651-4199-9493-c118d1b95f5e/watermark:F/width:1916?csig=AAAAAAAAAAAAAAAAAAAAAH6XWSJD5dC1PdR-6rQKFN5GAxmHleYArcVJBucqOU7d&exp=1787710915&osig=AAAAAAAAAAAAAAAAAAAAADmKTkr0uZla7hwIVg5wqgrFH6MDQFiI-2N_fN2Ho7JL&signer=media-rpc' -o docs/media/wordle.png
+          curl -fL 'https://media.canva.com/v2/image-resize/format:PNG/height:1080/quality:100/uri:ifs%3A%2F%2FM%2F74c12125-8b3a-402a-bd74-b5f11eef2272/watermark:F/width:1920?csig=AAAAAAAAAAAAAAAAAAAAAKy8d8u5uCmDGMXBD0_ktJ19O4amZY3skKH8jwv7RpRw&exp=1787707670&osig=AAAAAAAAAAAAAAAAAAAAAE0ioxK384wtWqmAtLY3g9q49rNsVmBAP_UkVL80jf6Z&signer=media-rpc' -o docs/media/hangman.png
+
+      - name: Verify screenshot dimensions
+        shell: bash
+        run: |
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from PIL import Image
+          expected = {
+              'docs/media/jeopardy.png': (1920, 1080),
+              'docs/media/wordle.png': (1916, 944),
+              'docs/media/hangman.png': (1920, 1080),
+          }
+          for path, size in expected.items():
+              with Image.open(path) as image:
+                  if image.size != size:
+                      raise SystemExit(f'{path}: expected {size}, got {image.size}')
+                  print(path, image.size)
+          PY
+
+      - name: Commit replacements
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/replace-portfolio-screenshots.yml
+          git add docs/media/jeopardy.png docs/media/wordle.png docs/media/hangman.png
+          git commit -m 'Replace portfolio screenshots with corrected captures'
+          git push
