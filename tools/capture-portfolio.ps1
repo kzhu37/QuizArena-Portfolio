@@ -120,7 +120,7 @@ function Capture-Route {
     if (Test-Path $stderr) {
       $stderrText = Get-Content $stderr -Raw
       if ($stderrText) {
-        Write-Warning "Edge stderr for $Name attempt $attempt:`n$stderrText"
+        Write-Warning "Edge stderr for $Name attempt ${attempt}:`n$stderrText"
       }
     }
 
