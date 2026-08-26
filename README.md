@@ -43,7 +43,7 @@ The project became a focused three-mode platform around Wordle, Quizler Jeopardy
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/media/wordle.webp" alt="Quizler Arena Wordle mode with statistics, puzzle grid, and keyboard">
+      <img src="docs/media/wordle.png" alt="Quizler Arena Wordle mode with statistics, puzzle grid, and keyboard">
     </td>
     <td width="50%">
       <img src="docs/media/hangman.png" alt="Quizler Arena Hangman mode with a live puzzle, hints, misses, and keyboard state">
@@ -167,7 +167,9 @@ The same harness also exercises custom categories, two custom rounds, Final Jeop
 GitHub Actions now checks two complementary paths:
 
 1. **Portable build on Linux:** install dependencies, run focused core-logic tests, lint portfolio writing, audit authored Jeopardy sources, build the full Vite application with the cross-platform Node bank builder, and validate generated/runtime parity.
-2. **Full Windows verification:** run the complete bank audit and 200-game smoke harness, build the browser application and direct-file shell, smoke-test the lobby and all three routes, then capture reproducible CI screenshots as build artifacts.
+2. **Full Windows verification:** run the complete bank audit and 200-game smoke harness, build the browser application and direct-file shell, and smoke-test the lobby and all three routes.
+
+A separate manual workflow-dispatch job can capture reproducible portfolio screenshots as build artifacts. Screenshot capture remains available for documentation work without making Edge-specific capture behavior part of the production verification gate.
 
 The focused tests cover normalization, answer-leakage detection, and ascending-difficulty search behavior. The larger smoke harness then checks the assembled system rather than only isolated helpers.
 
