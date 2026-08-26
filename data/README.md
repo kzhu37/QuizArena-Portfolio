@@ -1,4 +1,4 @@
-# Data and content sources
+# Data and Content Sources
 
 Quizler Arena keeps curated source inputs separate from generated runtime data so large content changes can be reviewed, audited, and rebuilt reproducibly.
 
@@ -31,7 +31,7 @@ curated source inputs
 
 The cross-platform production path uses `tools/build-jeopardy-bank.cjs` and `tools/sync-legacy-runtime.cjs`. Windows verification keeps the older PowerShell tooling as an independent reference path.
 
-The 14 research packs contain the 5,600-clue major expansion described in the project README. Research, tool-assisted drafting, and later review were part of preparing this content. The portfolio does not claim that every trivia clue was written from scratch without assistance.
+The 14 research packs contain the 5,600-clue major expansion described in the project README. Research, tool-assisted drafting, and later human review were all part of preparing that content.
 
 ## Word-game sources
 
@@ -39,8 +39,8 @@ The 14 research packs contain the 5,600-clue major expansion described in the pr
 
 Third-party source and reuse notes are documented in [`../THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md).
 
-## Validation boundaries
+## What the validation checks
 
 The data pipeline checks engineering properties such as row structure, duplicates, response format, difficulty bands, answer leakage, freshness, and generated-output parity.
 
-These automated checks are not a factual truth engine. Human research and review remain necessary for trivia accuracy and wording quality.
+Those automated checks help catch structural and consistency problems, but trivia accuracy and wording quality still depend on research and human review.
