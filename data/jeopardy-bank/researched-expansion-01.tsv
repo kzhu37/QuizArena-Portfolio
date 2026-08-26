@@ -1,0 +1,404 @@
+# Authored research expansion batch 01.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: NHTSA vehicle-safety resources (https://www.nhtsa.gov/); FAA and Smithsonian aviation histories (https://www.faa.gov/ and https://airandspace.si.edu/); NASA mission references (https://science.nasa.gov/).
+# Research anchors: Smithsonian National Zoo animal profiles (https://nationalzoo.si.edu/animals); U.S. Holocaust Memorial Museum and Imperial War Museums histories (https://www.ushmm.org/ and https://www.iwm.org.uk/).
+r1	Cars	200	22	The driver turns this circular control to point the front wheels.	What is a steering wheel?
+r1	Cars	200	22	Nils Bohlin's V-shaped Volvo restraint crosses both the chest and lap.	What is the three-point seat belt?
+r1	Cars	200	22	This motor-driven blade sweeps rain and snow from the glass ahead of a driver.	What is a windshield wiper?
+r1	Cars	200	22	This dashboard counter records the total distance a vehicle has traveled.	What is an odometer?
+r1	Cars	200	22	A crash sensor can rapidly inflate this fabric safety cushion.	What is an airbag?
+r1	Cars	200	22	This small threaded engine part creates the electrical arc that ignites a gasoline-air mixture.	What is a spark plug?
+r1	Cars	200	22	A driver selects gears directly and usually operates a clutch in this type of gearbox.	What is a manual transmission?
+r1	Cars	200	22	This type of gearbox changes ratios without requiring the driver to work a clutch pedal.	What is an automatic transmission?
+r1	Cars	200	22	Often shortened to SUV, this vehicle class combines passenger seating with a tall, wagon-like body.	What is a sport utility vehicle?
+r1	Cars	200	22	The roof folds or detaches on this open-air passenger-car body style.	What is a convertible?
+r1	Cars	200	22	This long-roof car body extends its cargo area behind the rear seats and opens with a tailgate.	What is a station wagon?
+r1	Cars	200	22	This kind of road vehicle stores electricity in a large rechargeable pack and has no gasoline engine.	What is a battery electric vehicle?
+r1	Cars	200	22	Mounted inside near the top of the windshield, this reflective device lets a driver see traffic behind.	What is a rearview mirror?
+r1	Cars	200	22	A driver operates this blinking lamp before changing direction or lanes.	What is a turn signal?
+r1	Cars	200	22	In this modern tire construction, reinforcing cords run outward from bead to bead rather than diagonally.	What is a radial tire?
+r1	Cars	200	22	Coolant releases engine heat through this finned exchanger, usually mounted behind the grille.	What is a radiator?
+r1	Cars	400	36	This steering aid uses hydraulic or electric assistance so the driver needs less effort at the wheel.	What is power steering?
+r1	Cars	400	36	In this braking design, pads squeeze a rotor attached to the wheel hub.	What is a disc brake?
+r1	Cars	400	36	In this braking design, curved shoes press outward against the inside of a rotating cylinder.	What is a drum brake?
+r1	Cars	400	36	Driven by the engine, this generator supplies current and recharges the 12-volt battery while a car runs.	What is an alternator?
+r1	Cars	400	36	Turning the ignition energizes this electric device to crank the engine before combustion begins.	What is a starter motor?
+r1	Cars	400	36	This device moves gasoline or diesel from the tank toward the engine.	What is a fuel pump?
+r1	Cars	400	36	This suspension damper controls spring motion by forcing fluid through small passages.	What is a shock absorber?
+r1	Cars	400	36	Adjusting toe, camber, and caster to specification is collectively called this service.	What is wheel alignment?
+r1	Cars	400	36	This area beside and behind a vehicle cannot be seen directly through its conventional mirrors.	What is a blind spot?
+r1	Cars	400	36	This adjustable seat component helps limit backward movement of an occupant's head in a rear impact.	What is a head restraint?
+r1	Cars	400	36	The engine, suspension, and body are supported by this underlying vehicle structure or frame.	What is a chassis?
+r1	Cars	400	36	Combustion pressure pushes this cylindrical engine component up and down inside a bore.	What is a piston?
+r1	Cars	400	36	Connecting rods turn this shaft, converting the pistons' reciprocating motion into rotation.	What is a crankshaft?
+r1	Cars	400	36	Lobes on this rotating shaft open an engine's intake and exhaust valves.	What is a camshaft?
+r1	Cars	400	36	Exhaust gases from several cylinders first combine in this branched collector.	What is an exhaust manifold?
+r1	Cars	400	36	This metal link drive can synchronize an engine's crank and valve gear in place of a toothed belt.	What is a timing chain?
+r1	Cars	600	51	This heat exchanger cools compressed intake air before it enters a turbocharged engine.	What is an intercooler?
+r1	Cars	600	51	Unlike an exhaust-driven turbo, this air compressor takes mechanical power directly from the engine.	What is a supercharger?
+r1	Cars	600	51	In many conventional automatics, this fluid coupling transfers engine power to the gearbox.	What is a torque converter?
+r1	Cars	600	51	This gearbox mechanism matches the speeds of a gear and shaft before they engage, easing shifts.	What is synchromesh?
+r1	Cars	600	51	A small gear moving along a straight toothed bar gives this common steering system its name.	What is rack-and-pinion steering?
+r1	Cars	600	51	With this suspension arrangement, one wheel can move vertically without forcing the opposite wheel to move.	What is independent suspension?
+r1	Cars	600	51	Upper and lower A-shaped arms locate each wheel in this performance-oriented suspension design.	What is double-wishbone suspension?
+r1	Cars	600	51	Wheels, tires, brakes, and other components not carried by the springs contribute to this mass.	What is unsprung mass?
+r1	Cars	600	51	This dimension is measured between the centers of a vehicle's front and rear axles.	What is wheelbase?
+r1	Cars	600	51	This engine ratio compares a cylinder's largest volume with its smallest volume.	What is compression ratio?
+r1	Cars	600	51	Closing the throttle in gear can slow a car through pumping and friction losses, a technique called this.	What is engine braking?
+r1	Cars	600	51	Hydraulic pressure moves pistons in this housing, pressing pads against a brake rotor.	What is a brake caliper?
+r1	Cars	600	51	Mounted in the exhaust, this device measures residual O2 so engine controls can adjust the fuel mixture.	What is an oxygen sensor?
+r1	Cars	600	51	This safety system selectively brakes individual wheels to help correct a developing skid.	What is electronic stability control?
+r1	Cars	600	51	Dashboard warnings from sensors inside the wheels are the work of this safety system, abbreviated TPMS.	What is a tire-pressure monitoring system?
+r1	Cars	600	51	Unless a coded key or transponder is recognized, this anti-theft device prevents the engine from running.	What is an engine immobilizer?
+r1	Cars	800	68	This steering principle makes the inner front wheel turn more sharply than the outer one in a corner.	What is Ackermann steering geometry?
+r1	Cars	800	68	Viewed from the front, a wheel's inward or outward tilt from vertical is measured by this alignment angle.	What is camber angle?
+r1	Cars	800	68	Viewed from the side, the fore-and-aft tilt of the steering axis is measured by this alignment angle.	What is caster angle?
+r1	Cars	800	68	Viewed from above, the degree to which a pair of wheels points inward or outward is this setting.	What is toe angle?
+r1	Cars	800	68	Unwanted steering caused by suspension travel changing the wheels' toe is known by this two-word term.	What is bump steer?
+r1	Cars	800	68	The planned division of braking force between a car's front and rear axles is called this.	What is brake bias?
+r1	Cars	800	68	A driver brakes with one part of the right foot while blipping the throttle with another in this shifting technique.	What is heel-and-toe downshifting?
+r1	Cars	800	68	Blipping the throttle before engaging a lower gear performs this synchronization of engine and gearbox speeds.	What is rev matching?
+r1	Cars	800	68	This bypass valve limits turbo boost by diverting some exhaust around the turbine.	What is a wastegate?
+r1	Cars	800	68	A valve of this type vents pressurized intake air when the throttle snaps shut, protecting a turbo system from compressor surge.	What is a blow-off valve?
+r1	Cars	800	68	A central sun gear, orbiting planet gears, and an outer ring make up this compact transmission arrangement.	What is a planetary gearset?
+r1	Cars	800	68	Common in final drives, this spiral-bevel gear arrangement permits the pinion axis to sit below the ring gear's center.	What is a hypoid gear?
+r1	Cars	800	68	In this rear suspension, a rigid tube links the wheel hubs while the differential is mounted to the body.	What is De Dion suspension?
+r1	Cars	800	68	Hard acceleration in a powerful front-wheel-drive car can produce this pull at the steering wheel.	What is torque steer?
+r1	Cars	800	68	A longer effective expansion stroke than compression stroke distinguishes this fuel-saving engine cycle.	What is the Atkinson cycle?
+r1	Cars	800	68	Ralph Miller's engine cycle shortens effective compression through valve timing and typically relies on forced induction.	What is the Miller cycle?
+r1	Cars	1000	84	Also called steering-axis inclination, this front-view angle helps the wheels return toward center.	What is kingpin inclination?
+r1	Cars	1000	84	Concentrating vehicle mass near its center reduces this rotational resistance and can quicken turn-in.	What is polar moment of inertia?
+r1	Cars	1000	84	Suspension geometry defines this point about which a car body tends to rotate laterally in a corner.	What is the roll center?
+r1	Cars	1000	84	Extended lines through a suspension's control arms meet at this geometric construction point.	What is the instant center?
+r1	Cars	1000	84	Angled suspension links can resist the nose-down pitching tendency under braking, an effect called this.	What is anti-dive geometry?
+r1	Cars	1000	84	Rear suspension geometry that resists compression caused by acceleration produces this effect.	What is anti-squat geometry?
+r1	Cars	1000	84	Tire deformation shifts the effective point of lateral force behind the contact-patch center, creating this stabilizing distance.	What is pneumatic trail?
+r1	Cars	1000	84	The ground distance between the steering axis and tire-contact center is this geometric source of self-centering.	What is mechanical trail?
+r1	Cars	1000	84	A force that rotates a car about its vertical axis creates this type of moment.	What is yaw moment?
+r1	Cars	1000	84	At cruising speed, this clutch can mechanically connect the two sides of a fluid coupling to reduce slippage.	What is a torque-converter lockup clutch?
+r1	Cars	1000	84	Straight-cut gears and unsynchronized engagement dogs characterize this racing gearbox.	What is a dog-box transmission?
+r1	Cars	1000	84	Ducati is famous for this valve system, which mechanically closes as well as opens each valve.	What is a desmodromic valve?
+r1	Cars	1000	84	Placing a V-engine's turbochargers inside the angle between its cylinder banks creates this compact arrangement.	What is a hot-V layout?
+r1	Cars	1000	84	A V8 with crankpins arranged at 90-degree intervals uses this heavier, smooth-running shaft design.	What is a crossplane crankshaft?
+r1	Cars	1000	84	A V8 with all crankpins in one plane uses this light, quick-revving shaft design.	What is a flat-plane crankshaft?
+r1	Cars	1000	84	Usually expressed in grams per kilowatt-hour, this metric divides fuel flow by an engine's useful power output.	What is brake-specific fuel consumption?
+r1	Planes & Aviation	200	22	This airfoil-shaped structure extends from either side of an airplane to produce most of its lift.	What is a wing?
+r1	Planes & Aviation	200	22	The pilot moves this hinged surface on the tail fin to point the nose left or right.	What is a rudder?
+r1	Planes & Aviation	200	22	This hinged horizontal tail surface raises or lowers an airplane's nose.	What is an elevator?
+r1	Planes & Aviation	200	22	Spinning rotors let this aircraft take off vertically and hover.	What is a helicopter?
+r1	Planes & Aviation	200	22	This fabric canopy creates drag to slow a falling person or payload.	What is a parachute?
+r1	Planes & Aviation	200	22	Controllers watch and direct airport traffic from this tall windowed building.	What is a control tower?
+r1	Planes & Aviation	200	22	Aircraft use this marked ground route to travel between runways, gates, and hangars.	What is a taxiway?
+r1	Planes & Aviation	200	22	Check-in counters, security screening, and departure gates are found in this main airport building.	What is an airport terminal?
+r1	Planes & Aviation	200	22	This striped fabric cone shows pilots the approximate direction and strength of surface wind.	What is a windsock?
+r1	Planes & Aviation	200	22	This flight-control system can hold a selected heading or altitude without continuous pilot input.	What is an autopilot?
+r1	Planes & Aviation	200	22	This cockpit instrument displays speed relative to the surrounding air.	What is an airspeed indicator?
+r1	Planes & Aviation	200	22	Even without electrical power, this basic instrument can show aircraft heading using Earth's magnetic field.	What is a magnetic compass?
+r1	Planes & Aviation	200	22	On an airline flight deck, this pilot is second in command to the captain.	Who is the first officer?
+r1	Planes & Aviation	200	22	After a flight, passengers retrieve checked luggage from this carousel area.	What is baggage claim?
+r1	Planes & Aviation	200	22	Aircraft park, load, refuel, and board on this paved airport area, also called a ramp.	What is an apron?
+r1	Planes & Aviation	200	22	Air drawn in, compressed, mixed with fuel, and expelled at high speed produces thrust in this powerplant.	What is a jet engine?
+r1	Planes & Aviation	400	36	Extending this hinged trailing-edge surface increases lift and drag for takeoff or landing.	What is a flap?
+r1	Planes & Aviation	400	36	Panels that rise from the top of a wing reduce lift and increase drag after touchdown.	What are spoilers?
+r1	Planes & Aviation	400	36	This movable device at the front of a wing delays a stall by creating a slot for airflow.	What is a leading-edge slat?
+r1	Planes & Aviation	400	36	The upright fixed tail surface provides directional stability and supports the rudder.	What is the vertical stabilizer?
+r1	Planes & Aviation	400	36	The fixed tail surface parallel to the wings provides pitch stability and supports the elevators.	What is the horizontal stabilizer?
+r1	Planes & Aviation	400	36	Facing the airflow, this small tube measures total pressure for flight instruments.	What is a pitot tube?
+r1	Planes & Aviation	400	36	Flush openings on the fuselage measure ambient atmospheric pressure for the altimeter and other instruments.	What is a static port?
+r1	Planes & Aviation	400	36	Radio beams provide runway alignment and descent guidance in this precision approach aid, abbreviated ILS.	What is the instrument landing system?
+r1	Planes & Aviation	400	36	Pilots can determine a bearing from a ground station using this radio-navigation aid, abbreviated VOR.	What is VHF omnidirectional range?
+r1	Planes & Aviation	400	36	By pumping conditioned air into the fuselage, this system maintains a breathable environment at altitude.	What is cabin pressurization?
+r1	Planes & Aviation	400	36	Abandoning an approach and climbing away for another attempt is called this maneuver.	What is a go-around?
+r1	Planes & Aviation	400	36	A wind blowing across rather than along a runway creates this landing challenge.	What is a crosswind?
+r1	Planes & Aviation	400	36	This opposing wind reduces an aircraft's groundspeed while leaving its airspeed unchanged.	What is a headwind?
+r1	Planes & Aviation	400	36	Repeated three times, this international radio distress call signals grave and imminent danger.	What is Mayday?
+r1	Planes & Aviation	400	36	Moving an aircraft under its own power along the ground is known by this term.	What is taxiing?
+r1	Planes & Aviation	400	36	The last straight segment aligned with the runway before landing has this name.	What is final approach?
+r1	Planes & Aviation	600	51	Rotation about an aircraft's vertical axis produces this left-or-right nose motion.	What is yaw?
+r1	Planes & Aviation	600	51	Rotation about an aircraft's side-to-side axis produces this nose-up or nose-down motion.	What is pitch?
+r1	Planes & Aviation	600	51	Rotation about an aircraft's nose-to-tail axis produces this wing-up or wing-down motion.	What is roll?
+r1	Planes & Aviation	600	51	Expressed in multiples of g, this ratio compares aerodynamic force with aircraft weight.	What is load factor?
+r1	Planes & Aviation	600	51	An aircraft balances as though all of its weight were concentrated at this point.	What is the center of gravity?
+r1	Planes & Aviation	600	51	The distributed aerodynamic force on an airfoil can be represented as acting through this point.	What is the center of pressure?
+r1	Planes & Aviation	600	51	Generating lift also creates this resistance through wingtip vortices and tilted aerodynamic force.	What is induced drag?
+r1	Planes & Aviation	600	51	Skin friction, form resistance, and interference make up this non-lift-related resistance.	What is parasite drag?
+r1	Planes & Aviation	600	51	High pressure beneath a lifting surface curls around its tip and forms this rotating wake.	What is a wingtip vortex?
+r1	Planes & Aviation	600	51	This dimensionless value is the ratio of an object's speed to the local speed of sound.	What is Mach number?
+r1	Planes & Aviation	600	51	An observer hears this explosive noise after shock waves from supersonic flight reach the ground.	What is a sonic boom?
+r1	Planes & Aviation	600	51	Military jets can spray extra fuel into the exhaust downstream of the turbine to produce thrust with this device.	What is an afterburner?
+r1	Planes & Aviation	600	51	Most modern airliners use this turbine engine, whose large front fan sends much of the air around the core.	What is a turbofan?
+r1	Planes & Aviation	600	51	This turbine powerplant turns a propeller through a reduction gearbox.	What is a turboprop?
+r1	Planes & Aviation	600	51	Hot compressed flow tapped from a turbine engine can supply cabin systems and anti-icing under this name.	What is bleed air?
+r1	Planes & Aviation	600	51	Adjusting this small auxiliary surface relieves the pilot from holding continuous pressure on the controls.	What is a trim tab?
+r1	Planes & Aviation	800	68	This coupled oscillation combines yawing and rolling, especially in swept-wing aircraft.	What is Dutch roll?
+r1	Planes & Aviation	800	68	This slow exchange between airspeed and altitude is a long-period longitudinal oscillation.	What is a phugoid?
+r1	Planes & Aviation	800	68	Viscosity creates this thin region of slowed airflow immediately next to an aircraft surface.	What is the boundary layer?
+r1	Planes & Aviation	800	68	In this smooth-flow regime, neighboring layers of air mix very little.	What is laminar flow?
+r1	Planes & Aviation	800	68	The length of a streamlined body divided by its maximum width gives this shape ratio.	What is fineness ratio?
+r1	Planes & Aviation	800	68	For a wing, span squared divided by area gives this dimensionless measure of slenderness.	What is aspect ratio?
+r1	Planes & Aviation	800	68	Angling a wing backward delays some compressibility effects at high subsonic speed.	What is wing sweep?
+r1	Planes & Aviation	800	68	The narrowed-waist design associated with Richard Whitcomb reduces transonic resistance under this rule.	What is the area rule?
+r1	Planes & Aviation	800	68	Fighter performance is often compared using this ratio of engine force to aircraft weight.	What is thrust-to-weight ratio?
+r1	Planes & Aviation	800	68	This efficiency measure states how much fuel an engine burns per unit of thrust over time.	What is thrust-specific fuel consumption?
+r1	Planes & Aviation	800	68	This automatic system moves the power levers to maintain a commanded speed or thrust setting.	What is autothrottle?
+r1	Planes & Aviation	800	68	Using coupled onboard computers and ground guidance, this system can complete a landing with little or no pilot control input.	What is autoland?
+r1	Planes & Aviation	800	68	This onboard system issues traffic advisories and can command climbs or descents to avoid another aircraft.	What is the Traffic Alert and Collision Avoidance System?
+r1	Planes & Aviation	800	68	Aircraft broadcast identity, position, altitude, and velocity through this surveillance technology.	What is Automatic Dependent Surveillance-Broadcast?
+r1	Planes & Aviation	800	68	A rapid change of wind speed or direction over a short distance is called this hazard.	What is wind shear?
+r1	Planes & Aviation	800	68	This high-altitude rough air occurs without visible clouds and is often found near jet streams.	What is clear-air turbulence?
+r1	Planes & Aviation	1000	84	This is the flight speed at which airflow somewhere over an aircraft first reaches Mach 1.	What is critical Mach number?
+r1	Planes & Aviation	1000	84	A rearward shift in pressure at transonic speed can create this nose-down pitching tendency.	What is Mach tuck?
+r1	Planes & Aviation	1000	84	Flow separation behind a strong shock wave can abruptly reduce lift in this high-speed phenomenon.	What is shock stall?
+r1	Planes & Aviation	1000	84	This flight-envelope graph plots speed on one axis and structural load factor on the other.	What is a V-n diagram?
+r1	Planes & Aviation	1000	84	One-half of air density times velocity squared defines this aerodynamic pressure.	What is dynamic pressure?
+r1	Planes & Aviation	1000	84	The distance between a plane's center of gravity and neutral point, divided by mean aerodynamic chord, gives this stability measure.	What is static margin?
+r1	Planes & Aviation	1000	84	If the center of gravity sat at this aerodynamic reference point, longitudinal static stability would be zero.	What is the neutral point?
+r1	Planes & Aviation	1000	84	A lifting wing deflects the airflow behind it downward in this induced motion.	What is downwash?
+r1	Planes & Aviation	1000	84	Wingtip-induced downward flow tilts the local relative wind by this additional angle.	What is induced angle of attack?
+r1	Planes & Aviation	1000	84	Symbolized by e, this factor corrects ideal induced-drag calculations for a real wing's lift distribution.	What is the Oswald efficiency factor?
+r1	Planes & Aviation	1000	84	Shock waves create this resistance as an aircraft approaches and exceeds the speed of sound.	What is wave drag?
+r1	Planes & Aviation	1000	84	This speed threshold marks the rapid transonic rise in an aircraft's resistance.	What is drag-divergence Mach number?
+r1	Planes & Aviation	1000	84	Excess propulsive power divided by weight gives this performance quantity, which measures ability to climb or accelerate.	What is specific excess power?
+r1	Planes & Aviation	1000	84	The ratio of total pressure after a turbofan's fan to that before it is this engine design parameter.	What is fan pressure ratio?
+r1	Planes & Aviation	1000	84	In a turbofan, this ratio compares airflow around the core with airflow through the core.	What is bypass ratio?
+r1	Planes & Aviation	1000	84	Coupled aerodynamic and elastic forces can drive a structure into a self-excited, potentially destructive vibration called this.	What is aeroelastic flutter?
+r1	Space Exploration	200	22	Six one-person flights between 1961 and 1963 made up this first U.S. human-spaceflight program.	What was the Mercury program?
+r1	Space Exploration	200	22	Freedom 7 carried this first American in space on a suborbital flight.	Who was Alan Shepard?
+r1	Space Exploration	200	22	The second person to walk on the Moon later inspired the name of a Toy Story character.	Who is Buzz Aldrin?
+r1	Space Exploration	200	22	This chimpanzee flew a successful NASA suborbital test before the first American astronaut's mission.	Who was Ham?
+r1	Space Exploration	200	22	This Canadian astronaut played guitar in orbit and became the first Canadian commander of the International Space Station.	Who is Chris Hadfield?
+r1	Space Exploration	200	22	Friendship 7 carried this first American to orbit Earth.	Who is John Glenn?
+r1	Space Exploration	200	22	Founded by Elon Musk, this company developed the Dragon spacecraft and a family of reusable rockets.	What is SpaceX?
+r1	Space Exploration	200	22	This two-stage SpaceX rocket is known for landing and reusing its first stage.	What is Falcon 9?
+r1	Space Exploration	200	22	Apollo lunar missions launched from this Florida NASA complex on Merritt Island.	What is Kennedy Space Center?
+r1	Space Exploration	200	22	Named for the nearby cape, this Florida military launch station sent the first U.S. satellite into orbit.	What is Cape Canaveral?
+r1	Space Exploration	200	22	Sputnik 1 and Yuri Gagarin both launched from this cosmodrome in Kazakhstan.	What is Baikonur Cosmodrome?
+r1	Space Exploration	200	22	Canada supplied this Shuttle robotic arm, whose shoulder-and-elbow joints moved payloads in orbit.	What is Canadarm?
+r1	Space Exploration	200	22	Walking on the lunar surface, as twelve Apollo astronauts did, is commonly called this.	What is a moonwalk?
+r1	Space Exploration	200	22	Apollo crews ended their return to Earth with this ocean landing technique.	What is a splashdown?
+r1	Space Exploration	200	22	NASA uses this job title for a person trained to travel and work in space.	Who is an astronaut?
+r1	Space Exploration	200	22	Russian and former Soviet space travelers are traditionally known by this job title.	Who is a cosmonaut?
+r1	Space Exploration	400	36	Rendezvous, docking, and spacewalks were rehearsed during this U.S. program that bridged Mercury and Apollo.	What was the Gemini program?
+r1	Space Exploration	400	36	Ed White made the first American spacewalk during this 1965 mission.	What was Gemini 4?
+r1	Space Exploration	400	36	This probe made the first flyby of Saturn in 1979 after receiving a gravity assist at Jupiter.	What was Pioneer 11?
+r1	Space Exploration	400	36	This 1962 probe made the first successful planetary flyby when it passed Venus.	What is Mariner 2?
+r1	Space Exploration	400	36	Humanity received its first close-up images of Mars from this 1965 flyby probe.	What is Mariner 4?
+r1	Space Exploration	400	36	This lander sent the first long-lived successful images and science data from the Martian surface in 1976.	What is Viking 1?
+r1	Space Exploration	400	36	Using radar through thick clouds, this NASA orbiter mapped almost the entire surface of Venus.	What is Magellan?
+r1	Space Exploration	400	36	This namesake of an Italian astronomer became the first spacecraft to orbit Jupiter.	What is the Galileo spacecraft?
+r1	Space Exploration	400	36	A plaque bearing human figures traveled on this first spacecraft to pass through the asteroid belt and visit Jupiter.	What is Pioneer 10?
+r1	Space Exploration	400	36	India achieved its first lunar soft landing with this 2023 mission and its Vikram lander.	What is Chandrayaan-3?
+r1	Space Exploration	400	36	This Chinese mission returned the first fresh lunar samples brought to Earth since 1976.	What is Chang'e 5?
+r1	Space Exploration	400	36	Meaning "heavenly palace," this is the name of China's modular crewed space station.	What is Tiangong?
+r1	Space Exploration	400	36	Yang Liwei became China's first person in space aboard this 2003 mission.	What is Shenzhou 5?
+r1	Space Exploration	400	36	This privately funded craft won the Ansari X Prize after two crewed suborbital flights in 2004.	What is SpaceShipOne?
+r1	Space Exploration	400	36	This NASA telescope found planets by watching for tiny, repeated dips in the brightness of distant stars.	What is the Kepler spacecraft?
+r1	Space Exploration	400	36	This Indian-born engineer became the first woman of Indian origin in space and later died aboard Columbia.	Who was Kalpana Chawla?
+r1	Space Exploration	600	51	A 1975 docking in orbit made this the first joint U.S.-Soviet crewed spaceflight.	What is the Apollo-Soyuz Test Project?
+r1	Space Exploration	600	51	Launched by the Soviet Union in 1971, this was the world's first space station.	What is Salyut 1?
+r1	Space Exploration	600	51	This Soviet orbital complex pioneered modular station assembly before hosting American Shuttle crews.	What is Mir?
+r1	Space Exploration	600	51	This Soviet probe became the first human-made object to reach the lunar surface in 1959.	What is Luna 2?
+r1	Space Exploration	600	51	In 1970, this Soviet craft completed the first robotic return of samples from the Moon.	What is Luna 16?
+r1	Space Exploration	600	51	Delivered by Luna 17, this was the first remotely controlled rover to operate on another world.	What is Lunokhod 1?
+r1	Space Exploration	600	51	Tortoises aboard this 1968 Soviet craft looped around the Moon and returned safely to Earth.	What is Zond 5?
+r1	Space Exploration	600	51	Arriving in 1971, this NASA probe became the first spacecraft to orbit another planet.	What is Mariner 9?
+r1	Space Exploration	600	51	This microwave-oven-sized rover explored near its Pathfinder lander on Mars in 1997.	What is Sojourner?
+r1	Space Exploration	600	51	One of the twin Mars Exploration Rovers, this vehicle investigated rocks in Gusev Crater.	What is Spirit?
+r1	Space Exploration	600	51	This Mars Exploration Rover crossed more than a marathon's distance after landing at Meridiani Planum.	What is Opportunity?
+r1	Space Exploration	600	51	A 2008 lander with a robotic scoop confirmed water ice in the Martian arctic.	What is the Phoenix Mars Lander?
+r1	Space Exploration	600	51	This NASA mission released an impactor into comet Tempel 1 so the resulting debris could be studied.	What is Deep Impact?
+r1	Space Exploration	600	51	After a Jupiter gravity assist, this joint mission flew over the Sun's north and south polar regions.	What is Ulysses?
+r1	Space Exploration	600	51	This ESA-NASA observatory at the Sun-Earth L1 point has continuously watched the Sun since the 1990s.	What is SOHO?
+r1	Space Exploration	600	51	This satellite precisely measured the cosmic microwave background's blackbody spectrum and large-scale variations.	What is COBE?
+r1	Space Exploration	800	68	This successor to COBE mapped temperature variations in the cosmic microwave background with much finer resolution.	What is WMAP?
+r1	Space Exploration	800	68	In 1978, this mission released four atmospheric probes toward different parts of Venus.	What is Pioneer Venus Multiprobe?
+r1	Space Exploration	800	68	A joint military-NASA probe tested sensors and globally mapped the Moon in 1994.	What is Clementine?
+r1	Space Exploration	800	68	Neutron measurements by this 1998 lunar orbiter strengthened evidence for hydrogen near the Moon's poles.	What is Lunar Prospector?
+r1	Space Exploration	800	68	Twin probes nicknamed Ebb and Flow mapped tiny variations in the Moon's gravitational field.	What is GRAIL?
+r1	Space Exploration	800	68	This orbiter studied the Moon's extremely thin atmosphere and dust before a planned impact in 2014.	What is LADEE?
+r1	Space Exploration	800	68	Positioned near Sun-Earth L1, this spacecraft monitors the solar wind and photographs Earth's sunlit face.	What is DSCOVR?
+r1	Space Exploration	800	68	This 1997 observatory samples high-energy particles and the solar wind upstream of Earth.	What is ACE?
+r1	Space Exploration	800	68	Originally called Solar-B, this Japanese-led observatory studies the Sun in visible, ultraviolet, and X-ray wavelengths.	What is Hinode?
+r1	Space Exploration	800	68	Originally called Solar-A, this Japanese satellite used X-rays to study energetic events on the Sun.	What is Yohkoh?
+r1	Space Exploration	800	68	Two nearly identical observatories were sent ahead of and behind Earth to give changing three-dimensional views of the Sun.	What is STEREO?
+r1	Space Exploration	800	68	NASA launched five identical satellites in 2007 to investigate auroras and magnetospheric substorms.	What is THEMIS?
+r1	Space Exploration	800	68	Named partly for a physicist, this ESA observatory uses three telescopes to study cosmic X-ray sources.	What is XMM-Newton?
+r1	Space Exploration	800	68	In 1976, this West German-American probe approached the Sun closer and faster than any earlier spacecraft.	What is Helios 2?
+r1	Space Exploration	800	68	After studying Sun-Earth space, this probe left its L1 orbit and became the first to visit a comet.	What is ISEE-3?
+r1	Space Exploration	800	68	NASA reused the surviving Deep Impact spacecraft for this extended mission's 2010 flyby of comet Hartley 2.	What is EPOXI?
+r1	Space Exploration	1000	84	This Soviet craft deployed a balloon in Venus's atmosphere before flying past Halley's Comet in 1986.	What is Vega 1?
+r1	Space Exploration	1000	84	The second craft in a Soviet pair released another Venus balloon, then passed closer to Halley's nucleus than its twin.	What is Vega 2?
+r1	Space Exploration	1000	84	Launched in 1985 to study the solar wind, this was Japan's first interplanetary spacecraft.	What is Sakigake?
+r1	Space Exploration	1000	84	This Japanese member of the international Halley fleet imaged the comet's hydrogen corona.	What is Suisei?
+r1	Space Exploration	1000	84	Formerly ISEE-3, this renamed probe made history at comet Giacobini-Zinner in 1985.	What is the International Cometary Explorer?
+r1	Space Exploration	1000	84	This technology demonstrator validated ion propulsion and later flew past comet Borrelly.	What is Deep Space 1?
+r1	Space Exploration	1000	84	Two tiny penetrators carried by Mars Polar Lander made up this unsuccessful surface-technology experiment.	What is Deep Space 2?
+r1	Space Exploration	1000	84	Japan's first attempted Mars orbiter failed to enter orbit but gathered interplanetary science data.	What is Nozomi?
+r1	Space Exploration	1000	84	ESA's first mission to the Red Planet carried the ill-fated Beagle 2 lander.	What is Mars Express?
+r1	Space Exploration	1000	84	This NASA orbiter used aerobraking, mapped the entire Martian surface, and tracked climate for years.	What is Mars Global Surveyor?
+r1	Space Exploration	1000	84	A mismatch between metric and U.S. customary units contributed to the loss of this probe in 1999.	What is Mars Climate Orbiter?
+r1	Space Exploration	1000	84	This NASA orbiter has mapped the Moon in detail and photographed the Apollo landing sites.	What is Lunar Reconnaissance Orbiter?
+r1	Space Exploration	1000	84	Also called SELENE, this Japanese lunar orbiter transmitted high-definition views of Earth rising over the Moon.	What is Kaguya?
+r1	Space Exploration	1000	84	This privately funded Israeli lunar lander crashed during its 2019 descent.	What is Beresheet?
+r1	Space Exploration	1000	84	Japan demonstrated pinpoint lunar landing technology with this mission, whose name expands to Smart Lander for Investigating Moon.	What is SLIM?
+r1	Space Exploration	1000	84	This Russian-German X-ray observatory launched in 2019 carrying the eROSITA telescope.	What is Spektr-RG?
+r1	Animals	200	22	This tallest living land animal uses its long neck to browse high branches.	What is a giraffe?
+r1	Animals	200	22	This massive semiaquatic African herbivore spends daylight in water but grazes on land at night.	What is a hippopotamus?
+r1	Animals	200	22	This Australian marsupial spends much of its life in eucalyptus trees and feeds mainly on their leaves.	What is a koala?
+r1	Animals	200	22	Black skin beneath transparent-looking fur helps this Arctic bear absorb solar warmth.	What is a polar bear?
+r1	Animals	200	22	This African great ape uses tools, lives in fission-fusion groups, and is one of humanity's closest living relatives.	What is a chimpanzee?
+r1	Animals	200	22	Huge ears, two fingerlike trunk tips, and the title of largest living land animal identify this species.	What is the African elephant?
+r1	Animals	200	22	Built for short sprints, this spotted cat is the fastest land animal.	What is a cheetah?
+r1	Animals	200	22	This slow-moving tree dweller often hangs upside down using long curved claws.	What is a sloth?
+r1	Animals	200	22	A dark facial mask and dexterous front paws distinguish this North American mammal.	What is a raccoon?
+r1	Animals	200	22	This reddish great ape of Borneo and Sumatra is the largest mammal that spends most of its life in trees.	What is an orangutan?
+r1	Animals	200	22	Threatened individuals of this rodent raise sharp modified hairs called quills.	What is a porcupine?
+r1	Animals	200	22	Unlike its Bactrian relative, this desert camel has one hump.	What is a dromedary camel?
+r1	Animals	200	22	Each member of this African equid has a distinctive pattern of black-and-white stripes.	What is a zebra?
+r1	Animals	200	22	Adult males of this largest living primate may develop a gray saddle and be called silverbacks.	What is a gorilla?
+r1	Animals	200	22	This two-toed African runner is the world's largest living bird.	What is an ostrich?
+r1	Animals	200	22	Adults of this large marine reptile mainly graze seagrass and algae; body fat gives the species its colorful name.	What is the green sea turtle?
+r1	Animals	400	36	This stocky northern member of the weasel family has a reputation for strength far beyond its size.	What is a wolverine?
+r1	Animals	400	36	A rounded paddle-shaped tail helps distinguish this gentle aquatic grazer from its fluked-tailed relative.	What is a manatee?
+r1	Animals	400	36	This Indian and Pacific Ocean relative of the manatee grazes seagrass and has a whale-like fluked tail.	What is a dugong?
+r1	Animals	400	36	Females of this armored mammal typically give birth to genetically identical quadruplets.	What is the nine-banded armadillo?
+r1	Animals	400	36	This toothless mammal sweeps ants and termites into a long tubular snout with a sticky tongue.	What is a giant anteater?
+r1	Animals	400	36	Native to Madagascar, this primate holds its black-and-white striped tail aloft during group travel.	What is a ring-tailed lemur?
+r1	Animals	400	36	This playful semiaquatic mustelid swims with a muscular tail and sometimes slides down snowy banks.	What is the North American river otter?
+r1	Animals	400	36	Snowshoe-like paws help this tuft-eared Canadian cat hunt hares in deep snow.	What is the Canada lynx?
+r1	Animals	400	36	Males of this mountain goat relative use huge backward-curving horns in contests high in the European Alps.	What is the Alpine ibex?
+r1	Animals	400	36	The exceptionally warm undercoat called qiviut belongs to this shaggy Arctic hoofed mammal.	What is a musk ox?
+r1	Animals	400	36	Long black ear tufts and powerful leaps let this reddish cat snatch birds from the air.	What is a caracal?
+r1	Animals	400	36	Exceptionally long legs and large ears help this African cat locate and pounce on rodents in tall grass.	What is a serval?
+r1	Animals	400	36	This rainforest relative of the raccoon uses a prehensile tail and is sometimes called a honey bear.	What is a kinkajou?
+r1	Animals	400	36	Adult males of this Bornean leaf-eating monkey are famous for an enormous pendulous nose.	What is a proboscis monkey?
+r1	Animals	400	36	This North Atlantic seabird nests in burrows and develops a brightly colored bill during breeding season.	What is the Atlantic puffin?
+r1	Animals	400	36	A yellow-and-black casque crowns the massive bill of this Asian forest bird.	What is the great hornbill?
+r1	Animals	600	51	This spiny Australian monotreme lays eggs and probes for ants with an electro-sensitive snout.	What is the short-beaked echidna?
+r1	Animals	600	51	A membrane stretching from wrist to ankle lets this small Australian marsupial glide between trees.	What is a sugar glider?
+r1	Animals	600	51	Shimmering green plumage and extravagant tail feathers make this Central American bird sacred in Maya and Aztec tradition.	What is the resplendent quetzal?
+r1	Animals	600	51	This long-legged African raptor hunts on foot and stamps snakes and other prey.	What is a secretary bird?
+r1	Animals	600	51	Colonies of this nearly hairless underground rodent have a queen and specialized workers.	What is the naked mole-rat?
+r1	Animals	600	51	Also called Glaucus atlanticus, this tiny sea slug floats upside down and stores stinging cells from its prey.	What is the blue dragon sea slug?
+r1	Animals	600	51	Snapping one oversized claw produces a cavitation bubble powerful enough to stun prey in this crustacean.	What is a pistol shrimp?
+r1	Animals	600	51	Despite its common name, this high-voltage South American fish is a knifefish rather than a true eel.	What is an electric eel?
+r1	Animals	600	51	By firing a precise jet of water from its mouth, this fish knocks insects from overhanging plants.	What is an archerfish?
+r1	Animals	600	51	Modified fins and moisture-retaining skin let this fish move and feed on exposed mud.	What is a mudskipper?
+r1	Animals	600	51	Seaweed-like appendages camouflage this Australian relative of the seahorse; the male carries the eggs.	What is the leafy seadragon?
+r1	Animals	600	51	More closely related to spiders than crabs, this ancient marine arthropod has copper-based blue blood.	What is a horseshoe crab?
+r1	Animals	600	51	This cephalopod adjusts buoyancy by changing the gas and liquid in compartments of its coiled shell.	What is a chambered nautilus?
+r1	Animals	600	51	This giant land-dwelling crustacean can climb trees and crack hard foods with immense claws.	What is a coconut crab?
+r1	Animals	600	51	Large fruit-eating bats with foxlike faces are commonly known by this two-word name.	What is a flying fox?
+r1	Animals	600	51	This spotted filter feeder is the largest living fish.	What is a whale shark?
+r1	Animals	800	68	Long black legs and a reddish coat make this South American canid look foxlike despite its name.	What is a maned wolf?
+r1	Animals	800	68	Whistling calls help coordinate packs of this reddish Asian wild dog.	What is a dhole?
+r1	Animals	800	68	This short-legged South American canid has webbed feet and hunts cooperatively in dense forest.	What is a bush dog?
+r1	Animals	800	68	This spotted nocturnal African mammal is known for producing the musky secretion once used in perfume.	What is the African civet?
+r1	Animals	800	68	A broad membrane connecting neck, limbs, fingers, and tail makes this Southeast Asian mammal an accomplished glider.	What is the Sunda colugo?
+r1	Animals	800	68	Specialized quills on this striped Madagascan insectivore can be rubbed together to communicate.	What is the lowland streaked tenrec?
+r1	Animals	800	68	Enormous ears and long hopping legs characterize this small nocturnal rodent of Asian deserts.	What is the long-eared jerboa?
+r1	Animals	800	68	This nocturnal African rodent resembles a tiny kangaroo but is not closely related to hares.	What is a springhare?
+r1	Animals	800	68	This tiny African antelope's alarm call sounds like the repeated syllables that form its name.	What is a dik-dik?
+r1	Animals	800	68	Walking on the tips of cylindrical hooves gives this small African antelope exceptional grip on rocks.	What is a klipspringer?
+r1	Animals	800	68	This massive Himalayan goat relative has a golden coat in one subspecies and is Bhutan's national animal.	What is a takin?
+r1	Animals	800	68	Two dwarf buffalo species confined to Sulawesi share this short common name.	What is an anoa?
+r1	Animals	800	68	In males of this Indonesian pig relative, upper tusks grow upward through the skin of the snout.	What is a babirusa?
+r1	Animals	800	68	Also called a chevrotain, this tiny hoofed forest mammal is neither a true mouse nor a true deer.	What is a mouse-deer?
+r1	Animals	800	68	Rows of pale spots mark this large, tailless-looking rodent of tropical American forests.	What is a paca?
+r1	Animals	800	68	By opening and caching tough rainforest seeds, this long-legged rodent becomes an important seed disperser.	What is an agouti?
+r1	Animals	1000	84	Known only from the Annamite Range of Laos and Vietnam, this rare forest bovine was described by science in 1992.	What is the saola?
+r1	Animals	1000	84	Broad hooves, a pale coat, and long twisted horns adapt this critically endangered antelope to the Sahara.	What is the addax?
+r1	Animals	1000	84	This tawny Asiatic wild ass can survive extreme heat and dryness on desert plains.	What is an onager?
+r1	Animals	1000	84	Cambodia's national mammal is this elusive wild ox, recognizable by tall spreading horns.	What is the kouprey?
+r1	Animals	1000	84	Thought extinct until its 1948 rediscovery, this large flightless rail lives in New Zealand.	What is the takahe?
+r1	Animals	1000	84	A feathery crest, gray plumage, and unusual nasal corns distinguish this nearly flightless bird of New Caledonia.	What is the kagu?
+r1	Animals	1000	84	This long-legged South American bird subdues small vertebrates by striking or throwing them against the ground.	What is a seriema?
+r1	Animals	1000	84	Extraordinarily long toes spread this tropical wading bird's weight across floating vegetation.	What is a jacana?
+r1	Animals	1000	84	This nocturnal cave bird eats fruit and navigates darkness with audible clicks.	What is an oilbird?
+r1	Animals	1000	84	By perching upright and stretching its head skyward, this nocturnal bird resembles a broken branch.	What is a potoo?
+r1	Animals	1000	84	This blind, pale salamander retains external gills and lives in limestone caves of the western Balkans.	What is an olm?
+r1	Animals	1000	84	This limbless burrowing amphibian resembles a worm or snake and often has sensory tentacles near its eyes.	What is a caecilian?
+r1	Animals	1000	84	This eel-shaped aquatic salamander keeps external gills and has front legs but no hind legs.	What is the greater siren?
+r1	Animals	1000	84	Tiny limbs with small toes look almost vestigial on this elongated aquatic salamander of the southeastern United States.	What is an amphiuma?
+r1	Animals	1000	84	A broad flattened head, fringed skin, and snorkel-like snout camouflage this South American freshwater reptile as dead leaves.	What is the matamata turtle?
+r1	Animals	1000	84	This large, chestnut-colored forest antelope has vertical white stripes and spiraled horns in both sexes.	What is a bongo?
+r1	World War II	200	22	Germany, Italy, and Japan formed the principal nations of this wartime alliance.	What were the Axis powers?
+r1	World War II	200	22	Britain, the Soviet Union, the United States, China, and their partners fought as this coalition.	What were the Allied powers?
+r1	World War II	200	22	This British prime minister rallied his country with speeches promising "blood, toil, tears and sweat."	Who was Winston Churchill?
+r1	World War II	200	22	The Nazi dictator who styled himself Führer launched Germany's invasion of Poland.	Who was Adolf Hitler?
+r1	World War II	200	22	This only four-term U.S. president led his country through most of the war before dying in April 1945.	Who was Franklin D. Roosevelt?
+r1	World War II	200	22	The Soviet leader nicknamed the Man of Steel attended the Tehran and Yalta conferences.	Who was Joseph Stalin?
+r1	World War II	200	22	Known as Il Duce, this Fascist dictator brought Italy into the war on Germany's side.	Who was Benito Mussolini?
+r1	World War II	200	22	While hiding from Nazi persecution in Amsterdam, this teenager kept a diary later read around the world.	Who was Anne Frank?
+r1	World War II	200	22	Located in occupied Poland, this was the largest Nazi concentration and killing-camp complex.	What was Auschwitz?
+r1	World War II	200	22	The Allied landings of June 6, 1944, took place along the coast of this French region.	What is Normandy?
+r1	World War II	200	22	On August 6, 1945, this Japanese city became the first target of an atomic bomb used in war.	What is Hiroshima?
+r1	World War II	200	22	A plutonium bomb struck this Japanese port on August 9, 1945.	What is Nagasaki?
+r1	World War II	200	22	Hermann Göring commanded this German air force.	What was the Luftwaffe?
+r1	World War II	200	22	May 8, 1945, is commemorated under this abbreviated name for the end of the war in Europe.	What is V-E Day?
+r1	World War II	200	22	This Nazi secret state police force arrested political opponents and helped enforce racial persecution.	What was the Gestapo?
+r1	World War II	200	22	A red bandanna and the slogan "We Can Do It!" made this fictional worker an icon of women in wartime industry.	Who is Rosie the Riveter?
+r1	World War II	400	36	This codename covered the overall Allied plan to invade northwestern Europe in 1944.	What was Operation Overlord?
+r1	World War II	400	36	From July through October 1940, the RAF defended the United Kingdom in this air campaign.	What was the Battle of Britain?
+r1	World War II	400	36	Germany broke its pact with the Soviet Union by launching this vast invasion in June 1941.	What was Operation Barbarossa?
+r1	World War II	400	36	Germany's attack on this neighboring country on September 1, 1939, began the war in Europe.	What was the invasion of Poland?
+r1	World War II	400	36	Marshal Philippe Pétain headed this collaborationist French regime based in a spa town.	What was Vichy France?
+r1	World War II	400	36	Charles de Gaulle led this movement that continued fighting from abroad after France's 1940 armistice.	What were the Free French Forces?
+r1	World War II	400	36	Sabotage, intelligence gathering, and aid to escaping airmen were activities of this clandestine movement in occupied France.	What was the French Resistance?
+r1	World War II	400	36	The 332nd Fighter Group formed the best-known flying unit among these pioneering Black American military aviators.	Who were the Tuskegee Airmen?
+r1	World War II	400	36	U.S. Marines used speakers of this Indigenous language to create a rapid battlefield communication system in the Pacific.	Who were the Navajo Code Talkers?
+r1	World War II	400	36	Established as an Army branch in 1943 after an auxiliary predecessor, this organization brought women into noncombat military jobs under the abbreviation WAC.	What was the Women's Army Corps?
+r1	World War II	400	36	Major surviving Nazi leaders faced an international tribunal in these postwar proceedings.	What were the Nuremberg Trials?
+r1	World War II	400	36	Roosevelt, Churchill, and Chiang Kai-shek met in Egypt in 1943 at this conference on the war against Japan.	What was the Cairo Conference?
+r1	World War II	400	36	After surrendering in the Philippines, American and Filipino prisoners endured this brutal forced transfer in 1942.	What was the Bataan Death March?
+r1	World War II	400	36	The struggle for this Solomon Island became the Allies' first major land offensive against Japan.	What was the Guadalcanal campaign?
+r1	World War II	400	36	Street fighting devastated the Philippine capital during this 1945 battle of liberation.	What was the Battle of Manila?
+r1	World War II	400	36	This bloody 1945 island battle was the last major land campaign of the Pacific war.	What was the Battle of Okinawa?
+r1	World War II	600	51	Germany used this codename for its April 1940 invasions of Denmark and Norway.	What was Operation Weserübung?
+r1	World War II	600	51	The main Allied landing at Salerno in September 1943 carried this codename.	What was Operation Avalanche?
+r1	World War II	600	51	This amphibious operation created the Anzio beachhead behind German lines in Italy.	What was Operation Shingle?
+r1	World War II	600	51	The loss of three carriers in the "Great Marianas Turkey Shoot" marked this 1944 Japanese naval defeat.	What was the Battle of the Philippine Sea?
+r1	World War II	600	51	Capturing this island in 1944 put Japan's home islands within range of B-29 bombers.	What was the Battle of Saipan?
+r1	World War II	600	51	U.S. forces fought for this small Palau island in 1944 to secure an airfield.	What was the Battle of Peleliu?
+r1	World War II	600	51	Marines assaulted the tiny Betio islet in this costly 1943 battle for the Gilbert Islands.	What was the Battle of Tarawa?
+r1	World War II	600	51	This city's nearly 900-day German blockade caused mass starvation but failed to force its surrender.	What was the Siege of Leningrad?
+r1	World War II	600	51	A Soviet counteroffensive in the winter of 1941 stopped German forces outside the capital in this battle.	What was the Battle of Moscow?
+r1	World War II	600	51	A huge encirclement in this 1941 battle captured Soviet armies but delayed the German advance east.	What was the Battle of Smolensk?
+r1	World War II	600	51	Germany gave this weather-themed name to its 1941 offensive aimed at capturing Moscow.	What was Operation Typhoon?
+r1	World War II	600	51	This Soviet pincer offensive encircled the Axis forces fighting at Stalingrad.	What was Operation Uranus?
+r1	World War II	600	51	Also called Case Blue, this 1942 German campaign sought oil fields in the Caucasus.	What was Operation Blue?
+r1	World War II	600	51	This aquatic codename belonged to Germany's unexecuted plan to invade Britain.	What was Operation Sea Lion?
+r1	World War II	600	51	The battleships Scharnhorst and Gneisenau dashed through the English Channel under this German operation.	What was Operation Cerberus?
+r1	World War II	600	51	German airborne forces captured this Greek island in 1941 but suffered losses that discouraged similar invasions.	What was the Battle of Crete?
+r1	World War II	800	68	This early British desert offensive drove Italian forces out of Egypt and deep into Libya.	What was Operation Compass?
+r1	World War II	800	68	British and Commonwealth forces relieved Tobruk during this late-1941 North African offensive.	What was Operation Crusader?
+r1	World War II	800	68	The tanker Ohio limped into Malta during this crucial August 1942 convoy operation.	What was Operation Pedestal?
+r1	World War II	800	68	British carrier aircraft and battleships defeated an Italian fleet off Greece in this March 1941 engagement.	What was the Battle of Cape Matapan?
+r1	World War II	800	68	The failure to destroy Arctic convoy JW 51B in this 1942 engagement enraged Hitler and damaged Germany's surface-fleet strategy.	What was the Battle of the Barents Sea?
+r1	World War II	800	68	The Dambusters used Barnes Wallis's bouncing bombs against Ruhr dams in this 1943 raid.	What was Operation Chastise?
+r1	World War II	800	68	This Allied bombing campaign created a devastating firestorm in Hamburg in July 1943.	What was Operation Gomorrah?
+r1	World War II	800	68	Allied efforts to find and destroy German V-weapon sites were organized under this codename.	What was Operation Crossbow?
+r1	World War II	800	68	This British offensive west of Caen sought to cross the Odon River in June 1944.	What was Operation Epsom?
+r1	World War II	800	68	Allied armies trapped much of Germany's Seventh Army in this Normandy encirclement in August 1944.	What was the Falaise Pocket?
+r1	World War II	800	68	A massive aerial bombardment near Saint-Lô opened this American breakout from Normandy.	What was Operation Cobra?
+r1	World War II	800	68	British and American airborne troops landed east of the Rhine during this March 1945 operation.	What was Operation Varsity?
+r1	World War II	800	68	U.S. troops unexpectedly captured this railway bridge at Remagen before German demolition charges could destroy it.	What was the Ludendorff Bridge?
+r1	World War II	800	68	Montgomery's forces crossed the Rhine north of the Ruhr in this March 1945 operation.	What was Operation Plunder?
+r1	World War II	800	68	This codename covered the costly 1942 Allied raid on the French port of Dieppe.	What was Operation Jubilee?
+r1	World War II	800	68	British armored forces attacked east of Caen in July 1944 during this operation.	What was Operation Goodwood?
+r1	World War II	1000	84	Czechoslovak agents attacked Reinhard Heydrich in Prague under this codename.	What was Operation Anthropoid?
+r1	World War II	1000	84	Norwegian saboteurs destroyed heavy-water equipment at Vemork during this 1943 mission.	What was Operation Gunnerside?
+r1	World War II	1000	84	Mosquito bombers breached the walls of Amiens prison in this controversial 1944 raid.	What was Operation Jericho?
+r1	World War II	1000	84	Royal Marines paddled folding kayaks into Bordeaux harbor to attack blockade runners during this raid.	What was Operation Frankton?
+r1	World War II	1000	84	British X-craft midget submarines badly damaged the battleship Tirpitz during this 1943 operation.	What was Operation Source?
+r1	World War II	1000	84	B-24 bombers made a low-level attack on the Ploiesti oil refineries during this costly 1943 mission.	What was Operation Tidal Wave?
+r1	World War II	1000	84	The Allies advanced along two axes to isolate the Japanese base at Rabaul under this Pacific strategy.	What was Operation Cartwheel?
+r1	World War II	1000	84	U.S. carrier aircraft devastated the Japanese base at Truk Lagoon in this February 1944 raid.	What was Operation Hailstone?
+r1	World War II	1000	84	The battleship Yamato was sunk while sailing toward Okinawa on this near-suicidal final mission.	What was Operation Ten-Go?
+r1	World War II	1000	84	Japan's largest land offensive in China, launched in 1944, carried this codename.	What was Operation Ichi-Go?
+r1	World War II	1000	84	The Soviet Union invaded Japanese-held Manchuria in August 1945 under this operation.	What was Operation August Storm?
+r1	World War II	1000	84	Japanese forces tried to enter India through Manipur during this 1944 battle.	What was the Battle of Imphal?
+r1	World War II	1000	84	A fight around a district commissioner's tennis court became emblematic of this 1944 battle in northeast India.	What was the Battle of Kohima?
+r1	World War II	1000	84	Canadian-led forces cleared the estuary needed to open Antwerp to Allied shipping in this campaign.	What was the Battle of the Scheldt?
+r1	World War II	1000	84	This Canadian and British offensive through the Reichswald formed the northern half of a 1945 pincer toward the Rhine.	What was Operation Veritable?
+r1	World War II	1000	84	Germany's final major offensive in the West struck Alsace in January 1945 under this codename.	What was Operation Nordwind?

@@ -1,0 +1,409 @@
+# QuizArena researched expansion batch 12
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: NIST physical-science and cybersecurity resources (https://www.nist.gov/ and https://csrc.nist.gov/); Nobel Prize scientific biographies (https://www.nobelprize.org/); Computer History Museum AI timeline (https://www.computerhistory.org/timeline/ai-robotics/).
+# Research anchors: CISA security guidance (https://www.cisa.gov/); ASCE historic civil-engineering landmarks (https://www.asce.org/about-civil-engineering/history-and-heritage); official project and engineering-institution histories.
+# SCIENTIFIC LAWS - 16 clues at each Double Jeopardy value
+r2	Scientific Laws	400	41	If two forces from one point are drawn as adjacent sides of a figure, their resultant follows its diagonal under this vector-addition rule.	What is the parallelogram law of vector addition?
+r2	Scientific Laws	400	41	The moment of a resultant force about a point equals the sum of its component moments under this theorem.	What is Varignon's theorem?
+r2	Scientific Laws	400	41	For a flat lamina, the moment of inertia about an axis normal to its plane equals the sum about two orthogonal in-plane axes under this theorem.	What is the perpendicular-axis theorem?
+r2	Scientific Laws	400	41	At fixed volume, an ideal gas's pressure is proportional to its absolute temperature under this gas relation.	What is Amontons's law?
+r2	Scientific Laws	400	41	Simple gas reactions combine volumes in small whole-number ratios at fixed conditions under this law.	What is Gay-Lussac's law of combining volumes?
+r2	Scientific Laws	400	41	The ideal speed of fluid leaving an opening at depth h equals the speed acquired by falling freely through that height under this law.	What is Torricelli's law?
+r2	Scientific Laws	400	41	Electrical heating rises with resistance, time, and the square of current under this relation.	What is Joule's first law?
+r2	Scientific Laws	400	41	Radiant intensity from a point source spreads over area growing with distance squared under this relation.	What is the inverse-square law of irradiance?
+r2	Scientific Laws	400	41	A ray leaves a mirror at the same angle from the normal as it arrived under this optical rule.	What is the law of reflection?
+r2	Scientific Laws	400	41	A ray follows a path of stationary optical travel time between two points under this principle.	What is Fermat's principle?
+r2	Scientific Laws	400	41	Across several compounds of two elements, the masses of one that combine with a fixed mass of the other occur in small whole-number ratios under this law.	What is the law of multiple proportions?
+r2	Scientific Laws	400	41	In a resting liquid, pressure increases with density, gravity, and depth under this relation.	What is Stevin's law?
+r2	Scientific Laws	400	41	For a rigid body, sliding a force anywhere along its line of action leaves its external effect unchanged under this rule.	What is the principle of transmissibility?
+r2	Scientific Laws	400	41	If elements A and B separately combine with a fixed mass of C, their masses bear a simple relation to the ratio in which A and B combine under this law.	What is the law of reciprocal proportions?
+r2	Scientific Laws	400	41	A pure compound contains its constituent elements in a fixed mass ratio under this chemical law.	What is the law of definite proportions?
+r2	Scientific Laws	400	41	Of several environmental conditions affecting a physiological process, the one nearest an insufficient level controls its rate under this principle.	What is Blackman's law of limiting factors?
+r2	Scientific Laws	800	55	A weak electrolyte's degree of dissociation depends on concentration and its equilibrium constant under this law.	What is Ostwald's dilution law?
+r2	Scientific Laws	800	55	Small crystals have greater solubility than large crystals because surface curvature raises chemical potential under this relation.	What is the Ostwald-Freundlich equation?
+r2	Scientific Laws	800	55	At infinite dilution, an electrolyte's molar conductivity equals the combined independent ionic contributions under this law.	What is Kohlrausch's law?
+r2	Scientific Laws	800	55	A reaction's enthalpy change varies with temperature according to the difference in heat capacities under this equation.	What is Kirchhoff's thermochemical equation?
+r2	Scientific Laws	800	55	The temperature dependence of an equilibrium constant is related to reaction enthalpy under this equation.	What is the van't Hoff reaction isochore?
+r2	Scientific Laws	800	55	A homogeneous absorbing medium attenuates light exponentially with path length under this law.	What is Bouguer's law?
+r2	Scientific Laws	800	55	Particles much smaller than a wavelength scatter light with intensity varying as inverse wavelength to the fourth power.	What is Rayleigh's scattering law?
+r2	Scientific Laws	800	55	Reflected light becomes completely linearly polarized when reflected and refracted rays are perpendicular under this law.	What is Brewster's law?
+r2	Scientific Laws	800	55	Constructive X-ray reflection from parallel crystal planes occurs at path differences of whole wavelengths under this law.	What is Bragg's law?
+r2	Scientific Laws	800	55	Light intensity after a polarizer varies with the square of the cosine of the angle under this law.	What is Malus's law?
+r2	Scientific Laws	800	55	A current element contributes a magnetic field according to distance and orientation under this law.	What is the Biot-Savart law?
+r2	Scientific Laws	800	55	A signal's total squared magnitude is preserved when it is represented by its Fourier transform under this theorem.	What is Parseval's theorem?
+r2	Scientific Laws	800	55	Magnetomotive force equals magnetic flux times reluctance under this magnetic-circuit analogue of Ohm's law.	What is Hopkinson's law?
+r2	Scientific Laws	800	55	The height a liquid rises in a narrow capillary is inversely proportional to the tube's radius under this relation.	What is Jurin's law?
+r2	Scientific Laws	800	55	Pressure difference across a curved fluid interface depends on surface tension and curvature under this equation.	What is the Young-Laplace law?
+r2	Scientific Laws	800	55	Laminar flow through a narrow cylindrical tube rises with the fourth power of radius under this law.	What is the Hagen-Poiseuille law?
+r2	Scientific Laws	1200	67	Many crystalline solids approach a molar heat capacity of three times the gas constant at high temperature under this law.	What is the Dulong-Petit law?
+r2	Scientific Laws	1200	67	At very low temperatures, a solid's lattice heat capacity follows the cube of absolute temperature under this model.	What is Debye's T-cubed law?
+r2	Scientific Laws	1200	67	Noninteracting magnetic dipoles approach saturation according to this statistical alignment function.	What is Langevin paramagnetism?
+r2	Scientific Laws	1200	67	Including an offset temperature extends Curie's susceptibility relation near magnetic ordering under this law.	What is the Curie-Weiss law?
+r2	Scientific Laws	1200	67	The ratio of thermal to electrical conductivity in many metals grows linearly with temperature under this law.	What is the Wiedemann-Franz law?
+r2	Scientific Laws	1200	67	Entropy change approaches zero for an isothermal process as temperature approaches absolute zero under this theorem.	What is the Nernst heat theorem?
+r2	Scientific Laws	1200	67	Many nonassociated liquids have similar molar entropy of vaporization at their boiling points under this rule.	What is Trouton's rule?
+r2	Scientific Laws	1200	67	Dilute-solution osmotic pressure follows a gas-law-like relation under this equation.	What is the van't Hoff law of osmotic pressure?
+r2	Scientific Laws	1200	67	A solid's dissolution rate depends on its exposed area and on the concentration contrast separating its surface from the bulk liquid under this equation.	What is the Noyes-Whitney equation?
+r2	Scientific Laws	1200	67	The changing concentration field under diffusion is governed by this time-dependent transport law.	What is Fick's second law?
+r2	Scientific Laws	1200	67	Heat flux points down the temperature gradient under this conduction law.	What is Fourier's law?
+r2	Scientific Laws	1200	67	Flow through a porous medium is proportional to permeability and hydraulic gradient under this law.	What is Darcy's law?
+r2	Scientific Laws	1200	67	The number of independent intensive variables at equilibrium follows components minus phases plus two under this rule.	What is Gibbs' phase rule?
+r2	Scientific Laws	1200	67	Pressure and temperature along a phase boundary are linked to latent heat and volume change by this relation.	What is the Clausius-Clapeyron equation?
+r2	Scientific Laws	1200	67	A fluid's buoyant pressure gradient balances its weight per unit volume in this equilibrium equation.	What is hydrostatic balance?
+r2	Scientific Laws	1200	67	At fixed temperature and pressure, an ideal gas mixture's total volume equals the sum of component partial volumes under this law.	What is Amagat's law?
+r2	Scientific Laws	1600	81	Near equilibrium, paired thermodynamic fluxes and forces have symmetric cross-coefficients under these relations.	What are Onsager reciprocal relations?
+r2	Scientific Laws	1600	81	At thermal equilibrium, a body's emissivity equals its absorptivity at each wavelength under this radiation law.	What is Kirchhoff's law of thermal radiation?
+r2	Scientific Laws	1600	81	Classical physics predicts spectral energy density increasing with frequency squared under this radiation formula.	What is the Rayleigh-Jeans law?
+r2	Scientific Laws	1600	81	Indistinguishable integer-spin particles occupy energy states according to this distribution.	What is Bose-Einstein statistics?
+r2	Scientific Laws	1600	81	Temperature, pressure, and ionization energy determine stellar ion populations through this equation.	What is the Saha ionization equation?
+r2	Scientific Laws	1600	81	Analytic response functions connect their absorptive and dispersive parts through these relations.	What are the Kramers-Kronig relations?
+r2	Scientific Laws	1600	81	Virtual velocities compatible with constraints convert equations of motion into this variational statement.	What is Jourdain's principle?
+r2	Scientific Laws	1600	81	A bounded classical system returns arbitrarily close to its initial state given sufficient time under this theorem.	What is the Poincare recurrence theorem?
+r2	Scientific Laws	1600	81	Electron wavefunctions in a periodic crystal can be written as a plane wave times a lattice-periodic function under this theorem.	What is Bloch's theorem?
+r2	Scientific Laws	1600	81	Classical statistical mechanics predicts no equilibrium magnetization from charged particles under this theorem.	What is the Bohr-van Leeuwen theorem?
+r2	Scientific Laws	1600	81	Matrix elements of tensor operators separate into geometric coupling factors and a reduced matrix element under this theorem.	What is the Wigner-Eckart theorem?
+r2	Scientific Laws	1600	81	At thermal equilibrium, each quadratic degree of freedom contributes the same average energy under this theorem.	What is the equipartition theorem?
+r2	Scientific Laws	1600	81	Spontaneous fluctuations and linear response to small disturbances are linked under this theorem.	What is the fluctuation-dissipation theorem?
+r2	Scientific Laws	1600	81	Chemical potentials and composition changes in a mixture cannot all vary independently under this relation.	What is the Gibbs-Duhem equation?
+r2	Scientific Laws	1600	81	Mutual inductance depends on conductor geometry and can be expressed by this double line-integral formula.	What is Neumann's formula for mutual inductance?
+r2	Scientific Laws	1600	81	In a linear elastic structure, the displacement at A caused by a load at B equals the displacement at B caused by that load at A under this reciprocity theorem.	What is the Maxwell-Betti reciprocal theorem?
+r2	Scientific Laws	2000	94	Work measured over repeated nonequilibrium trials can recover an equilibrium free-energy difference through this equality.	What is the Jarzynski equality?
+r2	Scientific Laws	2000	94	Forward and reverse nonequilibrium work distributions are related by free-energy difference under this theorem.	What is the Crooks fluctuation theorem?
+r2	Scientific Laws	2000	94	Transport coefficients can be obtained from equilibrium time-correlation functions under these relations.	What are the Green-Kubo relations?
+r2	Scientific Laws	2000	94	A weak perturbation drives quantum transitions at a rate set by matrix elements and available final states under this rule.	What is Fermi's golden rule?
+r2	Scientific Laws	2000	94	Electronic transitions are strongest when initial and final vibrational wavefunctions overlap under this principle.	What is the Franck-Condon principle?
+r2	Scientific Laws	2000	94	A crystal's macroscopic physical properties must contain every symmetry operation of its point group under this principle.	What is Neumann's principle?
+r2	Scientific Laws	2000	94	A physical effect cannot possess less symmetry than its cause under this symmetry principle.	What is Curie's principle?
+r2	Scientific Laws	2000	94	A substitutional solid solution's lattice parameter often changes linearly with composition under this empirical law.	What is Vegard's law?
+r2	Scientific Laws	2000	94	Independent sources of electron scattering contribute additively to a metal's resistivity under this rule.	What is Matthiessen's rule?
+r2	Scientific Laws	2000	94	Magnetoresistance curves at different temperatures collapse when plotted against field divided by zero-field resistivity under this rule.	What is Kohler's rule?
+r2	Scientific Laws	2000	94	Within related warm-blooded animals, colder climates tend to favor larger body size under this ecogeographic rule.	What is Bergmann's rule?
+r2	Scientific Laws	2000	94	Warm-climate populations tend to have longer appendages that aid heat loss under this ecogeographic rule.	What is Allen's rule?
+r2	Scientific Laws	2000	94	Animals in warm humid environments tend toward darker pigmentation under this ecogeographic rule.	What is Gloger's rule?
+r2	Scientific Laws	2000	94	Evolution is unlikely to restore a complex ancestral state in exactly the same form under this principle.	What is Dollo's law?
+r2	Scientific Laws	2000	94	In related species, body-size dimorphism tends to increase when males are the larger sex and decrease when females are larger.	What is Rensch's rule?
+r2	Scientific Laws	2000	94	An altruistic trait can spread when relatedness times benefit exceeds cost under this inequality.	What is Hamilton's rule?
+# FAMOUS SCIENTISTS - 16 clues at each Double Jeopardy value
+r2	Famous Scientists	400	41	Mapping families with inherited breast cancer led this geneticist's team to locate a major susceptibility gene.	Who is Mary-Claire King?
+r2	Famous Scientists	400	41	Geodetic satellite modeling by this mathematician contributed to the precision later required for global positioning.	Who is Gladys West?
+r2	Famous Scientists	400	41	This NASA mathematician led the West Area Computing unit before becoming a programming supervisor.	Who is Dorothy Vaughan?
+r2	Famous Scientists	400	41	Research on latex particles and colloids made this chemist the first Black woman professional at Dow Chemical.	Who is Bettye Washington Greene?
+r2	Famous Scientists	400	41	Cloning and mapping the human immunodeficiency virus made this molecular biologist a leading retrovirus researcher.	Who is Flossie Wong-Staal?
+r2	Famous Scientists	400	41	Research on chemotherapy response and pigment cells distinguished this cancer biologist and university leader.	Who is Jewel Plummer Cobb?
+r2	Famous Scientists	400	41	This zoologist became the first Black woman known to earn a doctorate in zoology in the United States.	Who is Roger Arliner Young?
+r2	Famous Scientists	400	41	This virologist led development of the first widely used inactivated polio vaccine.	Who is Jonas Salk?
+r2	Famous Scientists	400	41	Research on blood plasma preservation and large-scale blood banks made this physician a transfusion pioneer.	Who is Charles R. Drew?
+r2	Famous Scientists	400	41	A dissertation on tuberculosis made this bacteriologist the first Black woman to earn a doctorate in natural science.	Who is Ruth Ella Moore?
+r2	Famous Scientists	400	41	Black-hole radiation and singularity theorems made this Cambridge cosmologist internationally known.	Who is Stephen Hawking?
+r2	Famous Scientists	400	41	This oncologist pioneered systematic use of drug combinations to treat solid tumors.	Who is Jane Cooke Wright?
+r2	Famous Scientists	400	41	This NASA mathematician and computer scientist wrote code for Centaur rocket stages and researched energy-conversion systems.	Who is Annie Easley?
+r2	Famous Scientists	400	41	This aerospace engineer became the first woman, and first Black woman, to earn a mechanical-engineering doctorate from Howard University.	Who is Aprille Ericsson?
+r2	Famous Scientists	400	41	Long-term study of mountain gorillas in Rwanda was the life's work of this primatologist.	Who is Dian Fossey?
+r2	Famous Scientists	400	41	Designing humane livestock-handling systems drew on this animal scientist's insights into visual perception.	Who is Temple Grandin?
+r2	Famous Scientists	800	55	Models of how galaxies change over cosmic time made this New Zealand astronomer influential in cosmology.	Who is Beatrice Tinsley?
+r2	Famous Scientists	800	55	Interpreting magnetic measurements from Jupiter and its moon Europa made this space physicist a leader in planetary magnetospheres.	Who is Margaret Kivelson?
+r2	Famous Scientists	800	55	Her tables of atomic energy levels and analyses of the solar spectrum became standard references for generations of spectroscopists.	Who was Charlotte Moore Sitterly?
+r2	Famous Scientists	800	55	Work on fluid equations and boundary-value problems made this Soviet mathematician a leader in analysis.	Who is Olga Ladyzhenskaya?
+r2	Famous Scientists	800	55	Microscopic evidence that chromosome crossing-over accompanies genetic recombination came from this cytologist's collaboration on maize.	Who is Harriet Creighton?
+r2	Famous Scientists	800	55	X-ray crystallography revealed the structures of penicillin, vitamin B12, and insulin through this chemist's research.	Who is Dorothy Crowfoot Hodgkin?
+r2	Famous Scientists	800	55	Nuclear magnetic resonance and isotope tracers let this biochemist map energy metabolism and enzyme mechanisms.	Who is Mildred Cohn?
+r2	Famous Scientists	800	55	Discovery of nerve growth factor brought this Italian neurologist a Nobel Prize.	Who is Rita Levi-Montalcini?
+r2	Famous Scientists	800	55	Independent chromosome studies led this zoologist to connect sex determination with a specialized chromosome pair.	Who is Edmund Beecher Wilson?
+r2	Famous Scientists	800	55	Research on fertilization and the cell surface made this marine biologist a pioneer of cell physiology.	Who is Ernest Everett Just?
+r2	Famous Scientists	800	55	This chemist synthesized medicinal compounds from soybeans and made physostigmine available at scale.	Who is Percy Lavon Julian?
+r2	Famous Scientists	800	55	This Japanese physicist proposed that a then-unknown meson carried the short-range force binding protons and neutrons.	Who is Hideki Yukawa?
+r2	Famous Scientists	800	55	This Indian physicist derived the statistics followed by photons and sent the work to Einstein.	Who is Satyendra Nath Bose?
+r2	Famous Scientists	800	55	Research on light scattering in liquids produced the effect named for this Indian physicist.	Who is C. V. Raman?
+r2	Famous Scientists	800	55	This Chinese geologist helped establish a tectonic science he called geomechanics.	Who is Li Siguang?
+r2	Famous Scientists	800	55	This Brazilian physician identified the protozoan, insect vector, and human illness now bearing his name.	Who is Carlos Chagas?
+r2	Famous Scientists	1200	67	A shell model explaining nuclear magic numbers was independently developed by this physicist.	Who is Maria Goeppert Mayer?
+r2	Famous Scientists	1200	67	Metamorphosis of Surinamese Insects combined field observation and art through this naturalist's work.	Who is Maria Sibylla Merian?
+r2	Famous Scientists	1200	67	A physical explanation of the rainbow using refraction and internal reflection came from this Persian optician.	Who is Kamal al-Din al-Farisi?
+r2	Famous Scientists	1200	67	This medieval scholar's Book of the Balance of Wisdom developed hydrostatics and precise density measurement.	Who is al-Khazini?
+r2	Famous Scientists	1200	67	Magnetic declination and fossil evidence for geological change appear in the writings of this Song dynasty scholar.	Who is Shen Kuo?
+r2	Famous Scientists	1200	67	This Indian mathematician described Earth's rotation and efficient methods for astronomical calculation in the Aryabhatiya.	Who is Aryabhata?
+r2	Famous Scientists	1200	67	Rules for arithmetic with zero and negative numbers appear in this Indian mathematician's Brahmasphutasiddhanta.	Who is Brahmagupta?
+r2	Famous Scientists	1200	67	Pappus addressed part of his Collection to this Alexandrian mathematics teacher while criticizing methods presented by her students.	Who is Pandrosion?
+r2	Famous Scientists	1200	67	This astronomer discovered multiple comets and became the first British woman paid for scientific work.	Who is Caroline Herschel?
+r2	Famous Scientists	1200	67	At Harvard, this astronomer developed a stellar classification based on hydrogen spectral lines.	Who is Williamina Fleming?
+r2	Famous Scientists	1200	67	The OBAFGKM stellar sequence was organized into its durable form by this Harvard astronomer.	Who is Annie Jump Cannon?
+r2	Famous Scientists	1200	67	This Wellesley physicist introduced students to X-rays soon after their discovery and founded an observatory.	Who is Sarah Frances Whiting?
+r2	Famous Scientists	1200	67	A seismic boundary deep within Earth revealed the solid inner core through this Danish geophysicist's analysis.	Who is Inge Lehmann?
+r2	Famous Scientists	1200	67	This New Zealand geophysicist helped establish layered seismic and density models of Earth's interior and gave his name to a standard reference model.	Who was Keith Edward Bullen?
+r2	Famous Scientists	1200	67	This geologist became the first woman hired by the U.S. Geological Survey and an expert on Appalachian rocks.	Who is Florence Bascom?
+r2	Famous Scientists	1200	67	Mapping ocean-floor depth with wartime sounding data, this geologist revealed the Mid-Atlantic Rift Valley.	Who is Marie Tharp?
+r2	Famous Scientists	1600	81	Experiments comparing gases in sunlit glass cylinders led this American scientist to identify carbon dioxide's strong heat-trapping effect.	Who is Eunice Newton Foote?
+r2	Famous Scientists	1600	81	Observations made from her kitchen sink clarified how surface tension changes with contamination.	Who is Agnes Pockels?
+r2	Famous Scientists	1600	81	A method turning chaulmoogra oil into injectable ethyl esters for leprosy treatment was developed by this chemist in Hawaii before her early death.	Who is Alice Augusta Ball?
+r2	Famous Scientists	1600	81	Collecting tens of thousands of plants across Mexico and the Americas made this botanist a major field naturalist.	Who is Ynes Mexia?
+r2	Famous Scientists	1600	81	This Qing dynasty scholar explained eclipses and wrote poetry while teaching herself mathematics and astronomy.	Who is Wang Zhenyi?
+r2	Famous Scientists	1600	81	Chromosome studies and polyploid breeding in sugarcane and eggplant marked this Indian botanist's career.	Who is E. K. Janaki Ammal?
+r2	Famous Scientists	1600	81	This Indian chemist researched medicinal plant alkaloids and synthesized anticonvulsant compounds.	Who is Asima Chatterjee?
+r2	Famous Scientists	1600	81	Radiation and meteorological instruments made this Indian physicist central to her country's weather science.	Who is Anna Mani?
+r2	Famous Scientists	1600	81	Cloud-chamber tracks from cosmic rays led this Indian physicist to evidence for mesons.	Who is Bibha Chowdhuri?
+r2	Famous Scientists	1600	81	Solar-heated houses and thermal-energy storage earned this Hungarian-American scientist the nickname Sun Queen.	Who is Maria Telkes?
+r2	Famous Scientists	1600	81	Co-discovery of rhenium and an early proposal that uranium nuclei could split marked this chemist's work.	Who is Ida Noddack?
+r2	Famous Scientists	1600	81	Periodic modulation in the amplitude and phase of RR Lyrae light curves bears this astronomer's name.	Who is Sergei Blazhko?
+r2	Famous Scientists	1600	81	This physicist helped prepare and cool cobalt-60 crystals for the experiment demonstrating parity violation.	Who is Ernest Ambler?
+r2	Famous Scientists	1600	81	This Japanese geochemist measured carbon dioxide in seawater and warned about radioactive fallout.	Who is Katsuko Saruhashi?
+r2	Famous Scientists	1600	81	This biochemist identified calcium-binding troponin as the switch controlling muscle contraction.	Who is Setsuro Ebashi?
+r2	Famous Scientists	1600	81	Short DNA fragments on the lagging strand were discovered by this husband-and-wife research team.	Who are Reiji and Tsuneko Okazaki?
+r2	Famous Scientists	2000	94	This physician described pulmonary circulation centuries before William Harvey.	Who is Ibn al-Nafis?
+r2	Famous Scientists	2000	94	An Istanbul observatory, precision clocks, and improved astronomical instruments were the work of this Ottoman polymath.	Who is Taqi al-Din?
+r2	Famous Scientists	2000	94	This Timurid ruler built a Samarkand observatory and compiled an exceptionally precise star catalogue.	Who is Ulugh Beg?
+r2	Famous Scientists	2000	94	A geometric couple used in planetary models bears the name of this Persian astronomer.	Who is Nasir al-Din al-Tusi?
+r2	Famous Scientists	2000	94	This Tang dynasty monk collaborated with Liang Lingzan on a water-driven celestial globe using an escapement-like mechanism.	Who is Yi Xing?
+r2	Famous Scientists	2000	94	The Compendium of Materia Medica was assembled by this Ming dynasty physician and naturalist.	Who is Li Shizhen?
+r2	Famous Scientists	2000	94	This Japanese chemist isolated adrenaline in crystalline form and founded a pharmaceutical laboratory in the United States.	Who is Jokichi Takamine?
+r2	Famous Scientists	2000	94	Quantitative tracing of artificial radioisotopes in the ocean made this Japanese scientist a founder of marine radiochemistry.	Who is Yasuo Miyake?
+r2	Famous Scientists	2000	94	A hereditary deficiency of muscle phosphofructokinase causing exercise intolerance was characterized by this Japanese physician.	Who is Seiichiro Tarui?
+r2	Famous Scientists	2000	94	This Indian ornithologist's surveys and field guides helped build public support for bird conservation.	Who is Salim Ali?
+r2	Famous Scientists	2000	94	Fossil plants from the Indian subcontinent were central to this paleobotanist's research and institute.	Who is Birbal Sahni?
+r2	Famous Scientists	2000	94	This Mexican cereal chemist helped develop high-protein maize by linking laboratory tests with plant breeding.	Who is Evangelina Villegas?
+r2	Famous Scientists	2000	94	This Filipino pediatrician created a low-cost bamboo incubator and founded a children's medical center.	Who is Fe del Mundo?
+r2	Famous Scientists	2000	94	This Argentine physician established the hormonal role of the anterior pituitary in glucose metabolism.	Who is Bernardo Houssay?
+r2	Famous Scientists	2000	94	This Venezuelan physician developed and tested an experimental leprosy vaccine that combined BCG with killed leprosy bacilli.	Who is Jacinto Convit?
+r2	Famous Scientists	2000	94	This Austrian physicist pioneered photographic nuclear emulsions that recorded tracks from high-energy particles.	Who is Marietta Blau?
+# AI & COMPUTING CONCEPTS - 16 clues at each Double Jeopardy value
+r2	AI & Computing Concepts	400	41	Alan Turing proposed judging machine intelligence through text conversation in this test.	What is the imitation game?
+r2	AI & Computing Concepts	400	41	A 1956 summer research proposal at this New Hampshire college helped establish artificial intelligence as a field.	What is the Dartmouth workshop?
+r2	AI & Computing Concepts	400	41	Newell, Simon, and Shaw built this early program to prove propositions from Principia Mathematica.	What is Logic Theorist?
+r2	AI & Computing Concepts	400	41	Frank Rosenblatt's trainable linear classifier took its name from this artificial neuron model.	What is the perceptron?
+r2	AI & Computing Concepts	400	41	Joseph Weizenbaum's program imitated a nondirective therapist by transforming a user's sentences.	What is ELIZA?
+r2	AI & Computing Concepts	400	41	This mobile Stanford research robot combined perception, planning, and navigation in the late 1960s.	What is Shakey?
+r2	AI & Computing Concepts	400	41	A program encoding specialist knowledge as rules to advise in a narrow domain is this kind of system.	What is an expert system?
+r2	AI & Computing Concepts	400	41	The desired output paired with an example is this variable that a predictor tries to learn.	What is a target variable?
+r2	AI & Computing Concepts	400	41	Orthogonal directions capturing successively less variance are found through this dimensionality-reduction method.	What is principal component analysis?
+r2	AI & Computing Concepts	400	41	States, actions, transition probabilities, and rewards define this formal model for sequential decisions.	What is a Markov decision process?
+r2	AI & Computing Concepts	400	41	The examples used to fit a model's adjustable parameters make up this data partition.	What is a training set?
+r2	AI & Computing Concepts	400	41	A classifier changes its predicted label when an input crosses this separating surface in feature space.	What is a decision boundary?
+r2	AI & Computing Concepts	400	41	Predicting ordered categories such as low, medium, and high without treating their spacing as equal is this method.	What is ordinal regression?
+r2	AI & Computing Concepts	400	41	Predicting conditional percentiles rather than a mean is the goal of this statistical method.	What is quantile regression?
+r2	AI & Computing Concepts	400	41	Repeatedly assigning points to the nearest centroid and recomputing centers is this algorithm.	What is k-means?
+r2	AI & Computing Concepts	400	41	The difference between training performance and performance on unseen examples is this diagnostic gap.	What is the generalization gap?
+r2	AI & Computing Concepts	800	55	Data held aside during development helps choose model settings without touching the final test set.	What is a validation set?
+r2	AI & Computing Concepts	800	55	Using each individual example once as the held-out case defines this validation procedure.	What is leave-one-out validation?
+r2	AI & Computing Concepts	800	55	Among items predicted positive, the fraction truly positive is this metric.	What is precision?
+r2	AI & Computing Concepts	800	55	Among all truly positive items, the fraction a model finds is this metric.	What is recall?
+r2	AI & Computing Concepts	800	55	Plotting true-positive rate against false-positive rate across thresholds produces this evaluation curve.	What is a receiver operating characteristic curve?
+r2	AI & Computing Concepts	800	55	A benign message incorrectly flagged as spam is this type of error.	What is a false positive?
+r2	AI & Computing Concepts	800	55	A fraudulent transaction incorrectly accepted as normal is this type of error.	What is a false negative?
+r2	AI & Computing Concepts	800	55	Repeatedly choosing a feature and threshold to divide data into purer subsets is this method.	What is recursive partitioning?
+r2	AI & Computing Concepts	800	55	Averaging decision trees whose candidate split thresholds are chosen at random creates this ensemble.	What are extremely randomized trees?
+r2	AI & Computing Concepts	800	55	Optimizing one parameter or block at a time while holding others fixed is this method.	What is coordinate descent?
+r2	AI & Computing Concepts	800	55	A margin-based classifier incurs zero penalty once an example is correctly separated far enough under this objective.	What is hinge loss?
+r2	AI & Computing Concepts	800	55	This optimization setting controls the size of each parameter update.	What is the learning rate?
+r2	AI & Computing Concepts	800	55	The principle that words occurring in similar contexts tend to have similar meanings motivates this representation.	What is a distributional vector?
+r2	AI & Computing Concepts	800	55	Repeatedly merging frequent adjacent symbol pairs builds a subword vocabulary through this method.	What is byte-pair encoding?
+r2	AI & Computing Concepts	800	55	Fitting a nondecreasing stepwise function without assuming a linear form is this ordered regression method.	What is isotonic regression?
+r2	AI & Computing Concepts	800	55	Shared filters slide over an image to detect local patterns in this neural architecture.	What is a convolutional neural network?
+r2	AI & Computing Concepts	1200	67	Reducing training error with a more flexible model can increase sensitivity to sampling noise, creating this tradeoff.	What is the bias-variance tradeoff?
+r2	AI & Computing Concepts	1200	67	Training predictors on resampled data and averaging them is this ensemble method.	What is bootstrap aggregating?
+r2	AI & Computing Concepts	1200	67	Adding weak learners sequentially to emphasize earlier mistakes is this ensemble strategy.	What is boosting?
+r2	AI & Computing Concepts	1200	67	Adapting a predictor when training and deployment data distributions differ is this field.	What is domain adaptation?
+r2	AI & Computing Concepts	1200	67	Continuing to train a pretrained model on a smaller task-specific dataset is this adaptation method.	What is fine-tuning?
+r2	AI & Computing Concepts	1200	67	A model creates supervision from the structure of unlabeled data, such as predicting hidden portions, in this approach.	What is self-supervised learning?
+r2	AI & Computing Concepts	1200	67	Training pulls representations of related examples together and pushes unrelated ones apart under this approach.	What is contrastive learning?
+r2	AI & Computing Concepts	1200	67	A network compresses input into a code and reconstructs the original through this architecture.	What is an autoencoder?
+r2	AI & Computing Concepts	1200	67	The compressed internal representation in a generative model occupies this learned space.	What is latent space?
+r2	AI & Computing Concepts	1200	67	A generator and a discriminator improve through competition in this model family.	What is a generative adversarial network?
+r2	AI & Computing Concepts	1200	67	A generative process learns to reverse gradual noise corruption step by step in this model family.	What is a diffusion model?
+r2	AI & Computing Concepts	1200	67	A hidden state passes from one sequence step to the next in this neural architecture.	What is a recurrent neural network?
+r2	AI & Computing Concepts	1200	67	Nodes exchange and aggregate information from neighboring nodes in this architecture.	What is a graph neural network?
+r2	AI & Computing Concepts	1200	67	A generator first fetches relevant documents and conditions its answer on them in this approach.	What is retrieval-augmented generation?
+r2	AI & Computing Concepts	1200	67	Transforming raw measurements into informative input variables is this model-development practice.	What is feature engineering?
+r2	AI & Computing Concepts	1200	67	Combining outputs from multiple models to improve robustness uses this general strategy.	What is ensemble learning?
+r2	AI & Computing Concepts	1600	81	Accumulating derivatives from outputs toward inputs efficiently computes gradients in this differentiation mode.	What is reverse-mode automatic differentiation?
+r2	AI & Computing Concepts	1600	81	Repeated multiplication by small derivatives can make early neural layers learn extremely slowly through this problem.	What is the vanishing-gradient problem?
+r2	AI & Computing Concepts	1600	81	A shortcut adds a layer's input to its output, easing optimization in deep networks through this connection.	What is a residual connection?
+r2	AI & Computing Concepts	1600	81	Training examples within a mini-batch are standardized using batch statistics in this method.	What is batch normalization?
+r2	AI & Computing Concepts	1600	81	Features within each individual example are standardized independently in this method.	What is layer normalization?
+r2	AI & Computing Concepts	1600	81	Randomly silencing units during training discourages fragile co-adaptation through this regularizer.	What is dropout?
+r2	AI & Computing Concepts	1600	81	Exponentiating and normalizing a vector turns scores into a categorical probability distribution through this function.	What is softmax?
+r2	AI & Computing Concepts	1600	81	A sequence model receives the true previous output during training rather than its own prediction in this method.	What is teacher forcing?
+r2	AI & Computing Concepts	1600	81	Keeping only several promising partial sequences at each decoding step is this search method.	What is beam search?
+r2	AI & Computing Concepts	1600	81	Predicted probabilities matching observed outcome frequencies is this reliability property.	What is probabilistic calibration?
+r2	AI & Computing Concepts	1600	81	The relationship between a deployed model's inputs and correct outputs changes over time, degrading performance through this phenomenon.	What is concept drift?
+r2	AI & Computing Concepts	1600	81	Learning a new task can erase performance on earlier tasks through this neural-network problem.	What is catastrophic forgetting?
+r2	AI & Computing Concepts	1600	81	Capping the magnitude of parameter derivatives stabilizes training through this method.	What is gradient clipping?
+r2	AI & Computing Concepts	1600	81	Training stops when held-out performance ceases improving through this regularization practice.	What is early stopping?
+r2	AI & Computing Concepts	1600	81	Rotations, crops, or controlled noise create varied training examples through this practice.	What is data augmentation?
+r2	AI & Computing Concepts	1600	81	Presenting easier examples before harder ones organizes training through this strategy.	What is curriculum learning?
+r2	AI & Computing Concepts	2000	94	This divergence measures how one probability distribution differs from a reference distribution and is asymmetric.	What is Kullback-Leibler divergence?
+r2	AI & Computing Concepts	2000	94	The negative log probability assigned to the correct class yields this common classification objective.	What is cross-entropy loss?
+r2	AI & Computing Concepts	2000	94	Exponentiating average token surprise gives this language-model evaluation measure.	What is perplexity?
+r2	AI & Computing Concepts	2000	94	Choosing parameters that make observed training data most probable is this estimation principle.	What is maximum-likelihood estimation?
+r2	AI & Computing Concepts	2000	94	A learned network predicts variational parameters for each new observation instead of optimizing them separately under this approach.	What is amortized inference?
+r2	AI & Computing Concepts	2000	94	A powerful decoder may ignore a variational model's latent variables, producing this failure mode.	What is posterior collapse?
+r2	AI & Computing Concepts	2000	94	A generator produces only a narrow subset of the target distribution in this adversarial-training failure.	What is mode collapse?
+r2	AI & Computing Concepts	2000	94	A sequence model trained only on correct histories struggles after encountering its own errors at deployment through this mismatch.	What is exposure bias?
+r2	AI & Computing Concepts	2000	94	Test error can fall, rise near interpolation, then fall again as model capacity grows in this phenomenon.	What is double descent?
+r2	AI & Computing Concepts	2000	94	A routing network sends different inputs to specialized subnetworks in this architecture.	What is a mixture of experts?
+r2	AI & Computing Concepts	2000	94	Restricting each position to interact with only selected positions reduces quadratic cost through this mechanism.	What is sparse attention?
+r2	AI & Computing Concepts	2000	94	Adding a representation of sequence order lets a nonrecurrent attention model distinguish positions.	What is positional encoding?
+r2	AI & Computing Concepts	2000	94	A smaller model learns to imitate the softened outputs of a larger model in this compression method.	What is knowledge distillation?
+r2	AI & Computing Concepts	2000	94	Repeated random simulations guide expansion of a decision tree in this planning method.	What is Monte Carlo tree search?
+r2	AI & Computing Concepts	2000	94	A minimax search skips branches that cannot change the final choice using this pruning method.	What is alpha-beta pruning?
+r2	AI & Computing Concepts	2000	94	Two simultaneous searches begin at start and goal and stop after their frontiers meet in this strategy.	What is bidirectional search?
+# CYBERSECURITY BASICS - 16 clues at each Double Jeopardy value
+r2	Cybersecurity Basics	400	41	An attacker copies a legitimate message but replaces its link or attachment with a malicious one in this tactic.	What is clone phishing?
+r2	Cybersecurity Basics	400	41	Malware whose purpose is destruction rather than extortion belongs to this class.	What is a disk wiper?
+r2	Cybersecurity Basics	400	41	This network control remembers active connections when deciding whether later packets belong to allowed traffic.	What is a stateful packet filter?
+r2	Cybersecurity Basics	400	41	Requiring a password plus a separate factor makes account takeover harder through this practice.	What is multifactor authentication?
+r2	Cybersecurity Basics	400	41	Single-use emergency secrets stored safely let a user regain an account if the normal second factor is lost.	What are recovery codes?
+r2	Cybersecurity Basics	400	41	Keeping a tested copy offline helps restore data after destructive malware through this safeguard.	What is an offline backup?
+r2	Cybersecurity Basics	400	41	Restricting sensitive information to people whose duties require it follows this access principle.	What is need-to-know access?
+r2	Cybersecurity Basics	400	41	Installing vendor fixes promptly closes known flaws through this maintenance practice.	What is security patching?
+r2	Cybersecurity Basics	400	41	Protecting stored files or disks so stolen media does not reveal their contents secures data in this state.	What is data-at-rest protection?
+r2	Cybersecurity Basics	400	41	Checking evidence that a real-world person corresponds to a claimed digital identity is this enrollment process.	What is identity proofing?
+r2	Cybersecurity Basics	400	41	Automatically ending an authenticated session after prolonged inactivity limits misuse of an unattended device through this control.	What is an idle session timeout?
+r2	Cybersecurity Basics	400	41	A one-way digest helps reveal whether data changed using this cryptographic operation.	What is secure hashing?
+r2	Cybersecurity Basics	400	41	An attacker invents a believable role or scenario to persuade a target to disclose information in this tactic.	What is pretexting?
+r2	Cybersecurity Basics	400	41	Collecting and retaining only information needed for a stated purpose follows this privacy-preserving practice.	What is data minimization?
+r2	Cybersecurity Basics	400	41	Rechecking identity, device condition, and context throughout a session applies this access strategy.	What is continuous verification?
+r2	Cybersecurity Basics	400	41	Placing individual workloads into narrowly controlled zones limits east-west movement through this defense.	What is microsegmentation?
+r2	Cybersecurity Basics	800	55	A unique random value stored with each password defeats precomputed digest tables through this addition.	What is a password salt?
+r2	Cybersecurity Basics	800	55	Trading memory for faster password-digest reversal is this general precomputation strategy.	What is a time-memory tradeoff attack?
+r2	Cybersecurity Basics	800	55	Trying many possible secrets until one works is this exhaustive attack.	What is brute-force guessing?
+r2	Cybersecurity Basics	800	55	Automated reuse of stolen username-password pairs against other sites is this attack.	What is credential stuffing?
+r2	Cybersecurity Basics	800	55	Trying a few common passwords across many accounts to avoid lockouts is this technique.	What is password spraying?
+r2	Cybersecurity Basics	800	55	An attacker who gains higher permissions than the compromised account started with performs this step.	What is privilege escalation?
+r2	Cybersecurity Basics	800	55	Moving from one compromised machine to others inside an organization is this intrusion phase.	What is lateral movement?
+r2	Cybersecurity Basics	800	55	Packaging a process with isolated namespaces and resource limits provides this lightweight containment.	What is application containerization?
+r2	Cybersecurity Basics	800	55	Permitting only explicitly approved programs or connections uses this default-deny control.	What is allowlisting?
+r2	Cybersecurity Basics	800	55	The total collection of reachable interfaces and components an adversary might target is this.	What is the attack surface?
+r2	Cybersecurity Basics	800	55	Writing scenarios for how a hostile actor could misuse a system is this analysis technique.	What is misuse-case analysis?
+r2	Cybersecurity Basics	800	55	A security-relevant mistake in design or implementation is this broad defect class.	What is a security flaw?
+r2	Cybersecurity Basics	800	55	A minimal demonstration that a flaw can be triggered is commonly called this kind of code.	What is proof-of-concept code?
+r2	Cybersecurity Basics	800	55	The part of malicious code that performs the intended harmful action is this.	What is a payload?
+r2	Cybersecurity Basics	800	55	Security events collected centrally can be correlated to reveal patterns through this monitoring practice.	What is log aggregation?
+r2	Cybersecurity Basics	800	55	A deceptive system intentionally exposed to attract and study intruders is this defense tool.	What is a honeypot?
+r2	Cybersecurity Basics	1200	67	One shared secret both encrypts and decrypts data in this class of cryptography.	What is symmetric-key encryption?
+r2	Cybersecurity Basics	1200	67	A public key and a mathematically related private key serve different operations in this class.	What is asymmetric cryptography?
+r2	Cybersecurity Basics	1200	67	Using a public key to confirm a signed digest and message integrity performs this operation.	What is signature verification?
+r2	Cybersecurity Basics	1200	67	This delegated organization validates an applicant's identity before a separate issuer signs the certificate.	What is a registration authority?
+r2	Cybersecurity Basics	1200	67	Certificates, trust anchors, and revocation mechanisms together form this infrastructure.	What is public-key infrastructure?
+r2	Cybersecurity Basics	1200	67	After deriving a shared secret, each party proves that it obtained the same key without revealing that key through this step.	What is key confirmation?
+r2	Cybersecurity Basics	1200	67	Ephemeral session keys prevent later compromise of a long-term key from exposing old sessions under this property.	What is forward secrecy?
+r2	Cybersecurity Basics	1200	67	Two parties derive a shared secret across an exposed channel through this cryptographic process.	What is key agreement?
+r2	Cybersecurity Basics	1200	67	A number intended for one-time use prevents duplicate cryptographic operations under this name.	What is a nonce?
+r2	Cybersecurity Basics	1200	67	A random or unique starting value ensures identical plaintext blocks do not encrypt identically in many modes.	What is an initialization vector?
+r2	Cybersecurity Basics	1200	67	A keyed digest verifies both data integrity and possession of a shared secret under this construction.	What is a hash-based message authentication code?
+r2	Cybersecurity Basics	1200	67	A server-held secret added during password hashing provides extra protection if only the database leaks.	What is a password pepper?
+r2	Cybersecurity Basics	1200	67	A deliberately expensive function turns a human password into a cryptographic key under this process.	What is password-based key derivation?
+r2	Cybersecurity Basics	1200	67	The negative logarithm of the most likely outcome measures this conservative form of unpredictability.	What is min-entropy?
+r2	Cybersecurity Basics	1200	67	A certification authority can publish this signed roster of serial numbers that should no longer be trusted.	What is a certificate revocation list?
+r2	Cybersecurity Basics	1200	67	A chain of signed certificates connects an end entity to this pretrusted root.	What is a trust anchor?
+r2	Cybersecurity Basics	1600	81	Separating query text from user-supplied values through bound parameters is this database defense.	What is a prepared statement?
+r2	Cybersecurity Basics	1600	81	A browser policy restricting permitted script and resource origins provides this defense layer.	What is a content security policy?
+r2	Cybersecurity Basics	1600	81	Marking a session cookie to withhold it from most cross-site requests applies this browser defense.	What is the SameSite cookie attribute?
+r2	Cybersecurity Basics	1600	81	Writing beyond an allocated memory region can corrupt adjacent data through this flaw.	What is a buffer overflow?
+r2	Cybersecurity Basics	1600	81	Accessing heap memory after it has been released creates this vulnerability class.	What is a use-after-free bug?
+r2	Cybersecurity Basics	1600	81	A resource checked as safe and then changed before use creates this race vulnerability.	What is a time-of-check-to-time-of-use flaw?
+r2	Cybersecurity Basics	1600	81	Crafted path components move outside an intended directory in this attack.	What is directory traversal?
+r2	Cybersecurity Basics	1600	81	Unsafely placing input into a shell string can execute unintended operating-system commands through this flaw.	What is command injection?
+r2	Cybersecurity Basics	1600	81	An attacker makes a server send requests to internal or protected destinations in this attack.	What is server-side request forgery?
+r2	Cybersecurity Basics	1600	81	Reconstructing attacker-controlled objects with dangerous behavior causes this vulnerability.	What is insecure deserialization?
+r2	Cybersecurity Basics	1600	81	Corrupting cached name-resolution records can redirect users through this attack.	What is DNS cache poisoning?
+r2	Cybersecurity Basics	1600	81	Forged local-network address-resolution messages associate an attacker's hardware address with another host.	What is ARP spoofing?
+r2	Cybersecurity Basics	1600	81	An adversary secretly relays and possibly alters traffic between two parties in this attack.	What is a person-in-the-middle attack?
+r2	Cybersecurity Basics	1600	81	Forcing peers to select an older weaker protocol or algorithm is this attack.	What is a downgrade attack?
+r2	Cybersecurity Basics	1600	81	Capturing a valid message and transmitting it again later is this attack.	What is a replay attack?
+r2	Cybersecurity Basics	1600	81	Timing, power use, or electromagnetic leakage reveals secrets through this class of attack.	What is a side-channel attack?
+r2	Cybersecurity Basics	2000	94	This confidentiality model enforces no read up and no write down across security levels.	What is the Bell-LaPadula model?
+r2	Cybersecurity Basics	2000	94	This integrity model reverses the confidentiality rules into no read down and no write up.	What is the Biba model?
+r2	Cybersecurity Basics	2000	94	Well-formed transactions and separation of duties preserve commercial integrity in this model.	What is the Clark-Wilson model?
+r2	Cybersecurity Basics	2000	94	Access changes dynamically to prevent conflicts between competing clients in this wall model.	What is the Brewer-Nash model?
+r2	Cybersecurity Basics	2000	94	A cryptosystem should remain secure even when everything except the key is public under this principle.	What is Kerckhoffs's principle?
+r2	Cybersecurity Basics	2000	94	Unless explicitly granted, access should be denied under this secure-design principle.	What are fail-safe defaults?
+r2	Cybersecurity Basics	2000	94	Every access to every protected object should be checked under this principle.	What is complete mediation?
+r2	Cybersecurity Basics	2000	94	Requiring multiple independent conditions before granting access embodies this principle.	What is separation of privilege?
+r2	Cybersecurity Basics	2000	94	Keeping shared mechanisms small reduces unintended communication and coupling under this principle.	What is least common mechanism?
+r2	Cybersecurity Basics	2000	94	Security controls should be easy enough that users apply them correctly under this principle.	What is psychological acceptability?
+r2	Cybersecurity Basics	2000	94	A tamperproof, always-invoked, small mechanism mediating all subject-object access is this abstraction.	What is a reference monitor?
+r2	Cybersecurity Basics	2000	94	All hardware and software relied upon to enforce a security policy make up this base.	What is the trusted computing base?
+r2	Cybersecurity Basics	2000	94	A branching diagram begins with an adversary's goal and decomposes alternative ways to reach it.	What is an attack tree?
+r2	Cybersecurity Basics	2000	94	A security kernel should remain small enough for thorough analysis under this design objective.	What is verifiability?
+r2	Cybersecurity Basics	2000	94	Protecting each resource with the smallest distinct privilege needed supports this principle of fine-grained authority.	What is least authority?
+r2	Cybersecurity Basics	2000	94	Designing a system so compromise of one component does not expose everything applies this containment principle.	What is compartmentalization?
+# ENGINEERING FEATS - 16 clues at each Double Jeopardy value
+r2	Engineering Feats	400	41	Workers built a suspension bridge's giant cables by carrying individual wires back and forth over the span through this method.	What is aerial wire spinning?
+r2	Engineering Feats	400	41	The Eiffel Tower's lattice was assembled chiefly from this low-carbon iron refined in a reverberatory furnace.	What is puddled iron?
+r2	Engineering Feats	400	41	Pairs of these V-shaped leaves close against one another to seal chambers in the Panama Canal.	What are miter gates?
+r2	Engineering Feats	400	41	A smaller central passage between the Channel Tunnel's rail bores provides maintenance access and emergency evacuation.	What is the service tunnel?
+r2	Engineering Feats	400	41	Hoover Dam combines its curved transfer of water load to canyon walls with massive weight in this structural type.	What is an arch-gravity dam?
+r2	Engineering Feats	400	41	Brooklyn Bridge foundations were sunk inside pressurized underwater work chambers of this type.	What are pneumatic caissons?
+r2	Engineering Feats	400	41	Sydney Opera House roof segments were geometrically derived from sections of this common three-dimensional shape.	What is a sphere?
+r2	Engineering Feats	400	41	Three wings brace a central hexagonal core in the structural system used for the Burj Khalifa.	What is a buttressed core?
+r2	Engineering Feats	400	41	A stiffened steel plate with longitudinal ribs lets Millau's roadway act efficiently as this lightweight deck type.	What is an orthotropic deck?
+r2	Engineering Feats	400	41	Akashi Kaikyo's main cables transfer their enormous tension into massive concrete blocks of this type.	What are gravity anchorages?
+r2	Engineering Feats	400	41	The vast Itaipu structure resists reservoir pressure mainly through its own weight in this dam category.	What is a concrete gravity dam?
+r2	Engineering Feats	400	41	A giant elevator for vessels bypasses the locks at China's Three Gorges project using this device.	What is a ship lift?
+r2	Engineering Feats	400	41	Colored mountain caverns divide the exceptionally long Norwegian road passage between Laerdal and Aurland.	What is the Laerdal Tunnel?
+r2	Engineering Feats	400	41	The bridge and tunnel portions of the Oresund Link meet on this purpose-built island.	What is Peberholm?
+r2	Engineering Feats	400	41	Lowering floodplains and relocating levees gives high water more space in this Dutch national program.	What is Room for the River?
+r2	Engineering Feats	400	41	Dredgers spray sand in high arcs to build reclaimed land through this aptly colorful method.	What is rainbowing?
+r2	Engineering Feats	800	55	After illness confined him to shore, this engineer directed Brooklyn Bridge construction through detailed observations from afar.	Who is Washington Roebling?
+r2	Engineering Feats	800	55	This engineer mastered technical details and represented her husband on site during the Brooklyn Bridge's completion.	Who is Emily Warren Roebling?
+r2	Engineering Feats	800	55	This Iowa State graduate became the first woman known to earn a civil-engineering degree in the United States.	Who is Elmina Wilson?
+r2	Engineering Feats	800	55	This Scottish engineer's compacted broken-stone road system gave rise to the word macadam.	Who is John Loudon McAdam?
+r2	Engineering Feats	800	55	Roads, canals, and the Menai Suspension Bridge earned this engineer the nickname Colossus of Roads.	Who is Thomas Telford?
+r2	Engineering Feats	800	55	This engineer designed the cantilever structure of Scotland's Forth Bridge with John Fowler.	Who is Benjamin Baker?
+r2	Engineering Feats	800	55	This railway engineer partnered on the Forth Bridge and helped create London's underground Metropolitan Railway.	Who is John Fowler?
+r2	Engineering Feats	800	55	The Hell Gate arch and Queensboro Bridge were among the New York works of this engineer.	Who is Gustav Lindenthal?
+r2	Engineering Feats	800	55	This engineer designed the Mackinac Bridge and wrote extensively on suspension-bridge aerodynamics.	Who is David B. Steinman?
+r2	Engineering Feats	800	55	George Washington, Bayonne, and Verrazzano-Narrows bridges reflect this Swiss-American designer's influence.	Who is Othmar Ammann?
+r2	Engineering Feats	800	55	Elegant thin concrete arches such as the Salginatobel Bridge made this Swiss engineer famous.	Who is Robert Maillart?
+r2	Engineering Feats	800	55	This French engineer pioneered practical prestressed concrete and long-span concrete bridges.	Who is Eugene Freyssinet?
+r2	Engineering Feats	800	55	Tube structures for skyscrapers were developed and championed by this Bangladeshi-American engineer.	Who is Fazlur Rahman Khan?
+r2	Engineering Feats	800	55	This structural engineer was responsible for New York's former World Trade Center towers.	Who is Leslie E. Robertson?
+r2	Engineering Feats	800	55	This Chinese-American engineer advanced prestressed concrete and designed the Moscone Center's long roof spans.	Who is Tung-Yen Lin?
+r2	Engineering Feats	800	55	As chief engineer, this Australian prepared the Sydney Harbour Bridge's general design and specification and supervised the project for New South Wales.	Who is John Bradfield?
+r2	Engineering Feats	1200	67	Prefabricated tunnel sections floated into position and sunk into a dredged trench use this construction method.	What is immersed-tube construction?
+r2	Engineering Feats	1200	67	A shallow trench is excavated, roofed over, and backfilled in this urban tunnel method.	What is cut-and-cover tunneling?
+r2	Engineering Feats	1200	67	Pressurized bentonite supports loose ground at a tunneling machine's face in this shield type.	What is a slurry shield?
+r2	Engineering Feats	1200	67	Excavated soil is kept under controlled pressure in the cutterhead chamber in this tunneling machine type.	What is an earth-pressure-balance shield?
+r2	Engineering Feats	1200	67	Circulating chilled brine through pipes turns water in soil into a temporary structural wall through this method.	What is artificial ground freezing?
+r2	Engineering Feats	1200	67	High-pressure fluid erodes and mixes soil with cement to form columns in this ground-improvement method.	What is jet grouting?
+r2	Engineering Feats	1200	67	A deep reinforced-concrete wall cast in a slurry-supported trench uses this foundation method.	What is diaphragm-wall construction?
+r2	Engineering Feats	1200	67	A bridge deck cast in sections behind an abutment can be pushed forward over piers through this method.	What is incremental launching?
+r2	Engineering Feats	1200	67	Segments extend symmetrically from a pier so their moments counteract during this bridge method.	What is balanced-cantilever construction?
+r2	Engineering Feats	1200	67	Factory-made concrete units joined by stressed tendons create a bridge through this modular method.	What is precast segmental construction?
+r2	Engineering Feats	1200	67	Prestressing tendons located outside a concrete cross-section can be inspected and replaced under this method.	What is external prestressing?
+r2	Engineering Feats	1200	67	A vibrating probe rearranges loose granular soil into a denser packing through this ground-improvement method.	What is vibrocompaction?
+r2	Engineering Feats	1200	67	Water oscillating in a U-shaped tank can move out of phase with a tower and reduce sway in this device.	What is a tuned liquid-column damper?
+r2	Engineering Feats	1200	67	Supplying protective electric current makes buried or submerged steel act as the cathode in this corrosion defense.	What is impressed-current cathodic protection?
+r2	Engineering Feats	1200	67	Large loose stone placed along a shore or embankment absorbs erosion under this armor layer.	What is riprap?
+r2	Engineering Feats	1200	67	Injecting fluid cement into rock fractures reduces leakage and strengthens a dam foundation through this treatment.	What is a grout curtain?
+r2	Engineering Feats	1600	81	Twin giant caissons raise vessels vertically more than seventy metres on Belgium's Canal du Centre at this lift.	What is the Strepy-Thieu boat lift?
+r2	Engineering Feats	1600	81	This Victorian hydraulic structure near the River Weaver raises boat caissons between two waterways.	What is the Anderton Boat Lift?
+r2	Engineering Feats	1600	81	A transverse water-filled caisson climbs a steep track to move boats past Vosges locks at this French site.	What is the Saint-Louis-Arzviller inclined plane?
+r2	Engineering Feats	1600	81	Belgium's canal traffic rides in huge water-filled caissons along this long inclined plane.	What is the Ronquieres inclined plane?
+r2	Engineering Feats	1600	81	An ancient Chinese system divides the Min River without a dam using a fish-mouth levee and sediment-flushing channel.	What is Dujiangyan?
+r2	Engineering Feats	1600	81	Dams, canals, mills, and waterfalls form this ancient hydraulic system in southwestern Iran.	What is the Shushtar Historical Hydraulic System?
+r2	Engineering Feats	1600	81	A deep mother well feeds one of Iran's oldest and longest underground water channels at this site.	What is the Qanat of Gonabad?
+r2	Engineering Feats	1600	81	Tall unmortared granite arches carry a Roman channel across the center of this Spanish city.	What is the Aqueduct of Segovia?
+r2	Engineering Feats	1600	81	Two enormous floating arms swing together to close Rotterdam's shipping channel in this barrier.	What is the Maeslantkering?
+r2	Engineering Feats	1600	81	Five double gates combine coastal protection with a highway crossing at this German North Sea barrage.	What is the Eider Barrage?
+r2	Engineering Feats	1600	81	Vertical steel gates close a secondary Rotterdam shipping channel at this companion to the Maeslant barrier.	What is the Hartelkering?
+r2	Engineering Feats	1600	81	Rows of hinged gates rise from the seabed to isolate Venice Lagoon during exceptional high water under this system.	What is the MOSE barrier system?
+r2	Engineering Feats	1600	81	Two former islands were leveled and joined by reclamation to form this Hong Kong airport platform.	What is the Chek Lap Kok platform?
+r2	Engineering Feats	1600	81	A gently curving deck and outward-leaning piers distinguish Christian Menn's crossing near Klosters, Switzerland.	What is the Sunniberg Bridge?
+r2	Engineering Feats	1600	81	Precast tunnel sections sunk beneath the Bosporus connect European and Asian rail networks in this project.	What is Marmaray?
+r2	Engineering Feats	1600	81	Emergency cross-passages connect twin rail tubes through the Alps in this Swiss base tunnel between Frutigen and Raron.	What is the Lotschberg Base Tunnel?
+r2	Engineering Feats	2000	94	A cable or arch carrying only its own uniform load follows this ideal hanging-chain curve.	What is a catenary?
+r2	Engineering Feats	2000	94	For a masonry arch to remain in compression, this internal force path should stay within the section.	What is the thrust line?
+r2	Engineering Feats	2000	94	Transverse loading through this special point produces bending without twist in an open thin-walled section.	What is the shear center?
+r2	Engineering Feats	2000	94	Nonuniform twist causes longitudinal displacement and extra normal stresses through this phenomenon.	What is warping torsion?
+r2	Engineering Feats	2000	94	An unbraced beam's compression flange can move sideways and rotate in this instability mode.	What is lateral-torsional buckling?
+r2	Engineering Feats	2000	94	A yielded section can rotate substantially at nearly constant moment through this idealized mechanism.	What is a plastic hinge?
+r2	Engineering Feats	2000	94	Ductile redundancy lets internal forces shift after local yielding through this design concept.	What is moment redistribution?
+r2	Engineering Feats	2000	94	A viscoelastic material held at constant strain gradually carries less stress through this phenomenon.	What is stress relaxation?
+r2	Engineering Feats	2000	94	Moisture loss causes hardened concrete to contract even without external load through this phenomenon.	What is drying shrinkage?
+r2	Engineering Feats	2000	94	Elastic shortening, relaxation, creep, and shrinkage reduce tendon force through these effects.	What are prestress losses?
+r2	Engineering Feats	2000	94	Repeated stress cycles can grow a crack even below static failure load through this damage process.	What is fatigue crack growth?
+r2	Engineering Feats	2000	94	This path-independent contour integral measures the energy available for crack extension in nonlinear materials.	What is the J-integral?
+r2	Engineering Feats	2000	94	In saturated soil, total stress minus pore-water pressure gives this stress controlling strength.	What is effective stress?
+r2	Engineering Feats	2000	94	Slow expulsion of pore water under load causes this time-dependent settlement in clay.	What is primary consolidation?
+r2	Engineering Feats	2000	94	Repeated loading can degrade saturated cohesive soil as pore pressure rises through this phenomenon.	What is cyclic softening?
+r2	Engineering Feats	2000	94	Seepage can carry soil particles out of an embankment and form a backward-growing tunnel in this failure mode.	What is internal erosion piping?

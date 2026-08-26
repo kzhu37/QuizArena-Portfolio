@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Evolution from live AI generation to local-first content</title>
+  <desc id="desc">Earlier runtime generation used a remote model API and runtime filtering. The current architecture uses curated and researched sources, source auditing, a build pipeline, validated local banks, and constrained runtime assembly.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b0718"/>
+      <stop offset="1" stop-color="#17102f"/>
+    </linearGradient>
+    <linearGradient id="current" x1="0" x2="1">
+      <stop offset="0" stop-color="#6f49df"/>
+      <stop offset="1" stop-color="#317fdc"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8f85b7"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <text x="54" y="48" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="2">ARCHITECTURE EVOLUTION</text>
+
+  <rect x="48" y="82" width="550" height="282" rx="24" fill="#131020" stroke="#3f365f"/>
+  <rect x="802" y="82" width="550" height="282" rx="24" fill="#151029" stroke="#594d87"/>
+
+  <text x="78" y="122" fill="#c8bfdc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="1.3">EARLIER EXPERIMENT</text>
+  <text x="832" y="122" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="1.3">CURRENT LOCAL-FIRST SYSTEM</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" font-size="17" font-weight="700">
+    <g fill="#1b1728" stroke="#4a4167">
+      <rect x="78" y="165" width="110" height="66" rx="15"/>
+      <rect x="211" y="165" width="128" height="66" rx="15"/>
+      <rect x="362" y="165" width="128" height="66" rx="15"/>
+      <rect x="513" y="165" width="55" height="66" rx="15"/>
+    </g>
+    <text x="133" y="204" fill="#fff">Game</text>
+    <text x="275" y="193" fill="#fff"><tspan x="275">Remote</tspan><tspan x="275" dy="22">model API</tspan></text>
+    <text x="426" y="193" fill="#fff"><tspan x="426">Generated</tspan><tspan x="426" dy="22">questions</tspan></text>
+    <text x="540.5" y="193" fill="#fff"><tspan x="540.5">Filter</tspan><tspan x="540.5" dy="22">at run</tspan></text>
+
+    <g fill="#1a1628" stroke="#4c426b">
+      <rect x="832" y="156" width="112" height="84" rx="15"/>
+      <rect x="963" y="156" width="112" height="84" rx="15"/>
+      <rect x="1094" y="156" width="112" height="84" rx="15"/>
+    </g>
+    <rect x="1225" y="156" width="97" height="84" rx="15" fill="url(#current)" stroke="#a59aff"/>
+
+    <text x="888" y="185" fill="#fff"><tspan x="888">Curated +</tspan><tspan x="888" dy="22">researched</tspan><tspan x="888" dy="22">sources</tspan></text>
+    <text x="1019" y="193" fill="#fff"><tspan x="1019">Source</tspan><tspan x="1019" dy="22">audit</tspan></text>
+    <text x="1150" y="193" fill="#fff"><tspan x="1150">Build +</tspan><tspan x="1150" dy="22">local banks</tspan></text>
+    <text x="1273.5" y="185" fill="#fff"><tspan x="1273.5">Constrained</tspan><tspan x="1273.5" dy="22">runtime</tspan><tspan x="1273.5" dy="22">assembly</tspan></text>
+  </g>
+
+  <g stroke="#8f85b7" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M188 198 H205"/>
+    <path d="M339 198 H356"/>
+    <path d="M490 198 H507"/>
+    <path d="M944 198 H957"/>
+    <path d="M1075 198 H1088"/>
+    <path d="M1206 198 H1219"/>
+  </g>
+
+  <path d="M620 222 H780" stroke="#f5d56f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="700" y="202" text-anchor="middle" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">MATURED INTO</text>
+
+  <text x="323" y="304" text-anchor="middle" fill="#aaa1c4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Fast experimentation, but dependent on remote generation.</text>
+  <text x="1077" y="304" text-anchor="middle" fill="#d7cff0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Auditable content, repeatable builds, predictable local play.</text>
+</svg>

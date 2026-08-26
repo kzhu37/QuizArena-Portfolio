@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizler Arena</title>
+    <meta
+      name="description"
+      content="Quizler Arena is a local-first trivia platform anchored by Quizler Jeopardy, Wordle, and Hangman."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        font-family: "Poppins", "Inter", "Segoe UI", system-ui, sans-serif;
+        color: #faf4ff;
+        background:
+          radial-gradient(circle at 14% 14%, rgba(153, 93, 255, 0.36), transparent 28%),
+          radial-gradient(circle at 86% 18%, rgba(255, 214, 103, 0.14), transparent 18%),
+          linear-gradient(180deg, #06040d 0%, #130a24 52%, #07030f 100%);
+      }
+
+      body {
+        min-height: 100vh;
+      }
+
+      .boot-shell {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .boot-card {
+        width: min(680px, calc(100vw - 32px));
+        border-radius: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.045));
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.44);
+        padding: 28px;
+      }
+
+      .eyebrow {
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #f8d467;
+      }
+
+      h1 {
+        margin: 10px 0 12px;
+        font-size: clamp(2rem, 5vw, 3.2rem);
+      }
+
+      p {
+        color: rgba(250, 244, 255, 0.8);
+        line-height: 1.6;
+      }
+
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 18px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 18px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.08);
+        color: inherit;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        color: #271b06;
+        border-color: rgba(255, 235, 156, 0.5);
+        background: linear-gradient(180deg, rgba(248, 212, 103, 1), rgba(248, 212, 103, 0.8));
+      }
+    </style>
+    <script>
+      (function handleDirectFileLaunch() {
+        const isDirectFile = window.location.protocol === "file:" && !/[\\\/]dist[\\\/]/i.test(window.location.pathname);
+        if (!isDirectFile) {
+          return;
+        }
+
+        const distTarget = new URL("./dist/index.html", window.location.href);
+        distTarget.hash = window.location.hash || "#/";
+        window.location.replace(distTarget.href);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <main class="boot-shell">
+        <div class="boot-card">
+          <div class="eyebrow">Quizler Arena</div>
+          <h1>Launching the platform shell...</h1>
+          <p>
+            The lobby, Wordle, Hangman, and Quizler Jeopardy load from the platform shell. Enter fullscreen from in-game controls when you want focused play.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="./#/">Open Lobby</a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

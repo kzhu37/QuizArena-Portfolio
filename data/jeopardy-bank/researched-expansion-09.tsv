@@ -1,0 +1,409 @@
+# QuizArena researched expansion batch 09
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: NIH/NCBI Bookshelf anatomy and physiology references (https://www.ncbi.nlm.nih.gov/books/); Computer History Museum technology timelines (https://computerhistory.org/timelines/) and Smithsonian technology collections (https://americanhistory.si.edu/).
+# Research anchors: British Museum mythology collections (https://www.britishmuseum.org/); USGS Water Science School and geomorphology resources (https://www.usgs.gov/water-science-school); IOC Olympic studies and official governing-body histories (https://olympics.com/ioc/olympic-studies-centre).
+# HUMAN BODY - 16 clues at each Double Jeopardy value
+r2	Human Body	400	41	Tiny air sacs surrounded by capillaries provide most of the lungs' surface for gas exchange.	What are pulmonary alveoli?
+r2	Human Body	400	41	Fingerlike projections lining the small intestine increase its absorptive surface.	What are intestinal villi?
+r2	Human Body	400	41	The triangular kneecap embedded in the quadriceps tendon is this bone.	What is the patella?
+r2	Human Body	400	41	The shallow socket on the shoulder blade receives the head of the upper-arm bone.	What is the glenoid cavity?
+r2	Human Body	400	41	The stapes transmits vibration into the inner ear by pressing on this membrane-covered opening.	What is the oval window?
+r2	Human Body	400	41	Smooth muscle changes lens shape for near or distant focus from this ring of tissue.	What is the ciliary body?
+r2	Human Body	400	41	These paired laryngeal cartilages pivot to open and close the vocal folds.	What are the arytenoid cartilages?
+r2	Human Body	400	41	This midline fibrous seam between the paired rectus abdominis muscles runs from the sternum to the pubic symphysis.	What is the linea alba?
+r2	Human Body	400	41	This tough triangular sheet beneath the skin of the palm anchors that skin during gripping and continues into the fingers.	What is the palmar aponeurosis?
+r2	Human Body	400	41	This bulging brainstem region relays signals between the cerebrum and cerebellum and helps regulate breathing.	What is the pons?
+r2	Human Body	400	41	A pea-sized gland in a bony seat beneath the brain releases hormones controlling several other glands.	What is the pituitary gland?
+r2	Human Body	400	41	Grape-like clusters in an abdominal gland synthesize and secrete digestive enzymes.	What are pancreatic acini?
+r2	Human Body	400	41	The highly mineralized outer covering of a tooth's crown is this substance.	What is dental enamel?
+r2	Human Body	400	41	Blood vessels, nerves, sweat glands, and hair follicles occupy this skin layer beneath the epidermis.	What is the dermis?
+r2	Human Body	400	41	Blood cell formation occurs chiefly in this soft tissue within certain bones.	What is red bone marrow?
+r2	Human Body	400	41	This slippery liquid nourishes cartilage and reduces friction inside movable joints.	What is synovial fluid?
+r2	Human Body	800	55	A cup-shaped double wall receives the first fluid filtered from a nephron's capillary tuft.	What is Bowman's capsule?
+r2	Human Body	800	55	Straight capillaries parallel the nephron loops and preserve the kidney medulla's concentration gradient.	What are the vasa recta?
+r2	Human Body	800	55	This atrial conduction pathway rapidly carries the heartbeat signal toward the left atrium.	What is Bachmann's bundle?
+r2	Human Body	800	55	Fibrous cords tether heart-valve flaps to papillary muscles so they do not invert.	What are chordae tendineae?
+r2	Human Body	800	55	Most venous blood from the heart muscle empties into the right atrium through this channel.	What is the coronary sinus?
+r2	Human Body	800	55	A lymphatic capillary in an intestinal villus absorbs dietary fats under this name.	What is a lacteal?
+r2	Human Body	800	55	These central-nervous-system glial cells can insulate segments of several different axons.	What are oligodendrocytes?
+r2	Human Body	800	55	Three fluid-filled loops in each inner ear sense rotational acceleration.	What are the semicircular canals?
+r2	Human Body	800	55	The malleus, incus, and stapes collectively form these middle-ear bones.	What are the auditory ossicles?
+r2	Human Body	800	55	Smell information first reaches this brain structure just above the nasal cavity.	What is the olfactory bulb?
+r2	Human Body	800	55	Clusters of endocrine cells scattered through the pancreas bear this name.	What are the islets of Langerhans?
+r2	Human Body	800	55	Spherical units storing hormone precursor fill the interior of this neck gland.	What are thyroid follicles?
+r2	Human Body	800	55	The inner portion of each adrenal gland releases epinephrine and norepinephrine.	What is the adrenal medulla?
+r2	Human Body	800	55	This blood-filled splenic tissue removes aging red cells and stores platelets.	What is splenic red pulp?
+r2	Human Body	800	55	Aggregated lymphoid nodules in the lower small intestine monitor gut microbes under this name.	What are Peyer's patches?
+r2	Human Body	800	55	Resident macrophages lining liver sinusoids remove microbes and debris from portal blood.	What are Kupffer cells?
+r2	Human Body	1200	67	Large branching neurons forming a single layer in the cerebellar cortex bear this anatomist's name.	What are Purkinje cells?
+r2	Human Body	1200	67	Gaps between successive myelin segments allow impulses to jump along an axon.	What are nodes of Ranvier?
+r2	Human Body	1200	67	Alkaline mucus from these duodenal glands helps neutralize acid arriving from the stomach.	What are Brunner's glands?
+r2	Human Body	1200	67	Tubular glands opening between intestinal villi are named for this German anatomist.	What are crypts of Lieberkuhn?
+r2	Human Body	1200	67	Contractile support cells between kidney capillaries help regulate filtration surface and clear trapped debris.	What are mesangial cells?
+r2	Human Body	1200	67	Closely packed cells in the distal nephron monitor sodium chloride under this Latin name.	What is the macula densa?
+r2	Human Body	1200	67	These paired arteries link the internal carotid circulation with the posterior cerebral arteries.	What are the posterior communicating arteries?
+r2	Human Body	1200	67	Damage to this dominant frontal-lobe region can impair speech production more than comprehension.	What is Broca's area?
+r2	Human Body	1200	67	Damage to this dominant temporal-region network can produce fluent but poorly understood speech.	What is Wernicke's area?
+r2	Human Body	1200	67	Concentric cylinders of compact bone arranged around central canals are these structural units.	What are osteons?
+r2	Human Body	1200	67	Mature bone cells occupy small spaces in mineralized tissue bearing this name.	What are osseous lacunae?
+r2	Human Body	1200	67	Microscopic channels connect bone-cell spaces so nutrients and signals can pass between them.	What are bone canaliculi?
+r2	Human Body	1200	67	Light-touch receptors concentrated in fingertips lie within dermal papillae under this name.	What are Meissner corpuscles?
+r2	Human Body	1200	67	Onion-layered receptors deep in skin respond especially to vibration and pressure.	What are Pacinian corpuscles?
+r2	Human Body	1200	67	Hair cells on the basilar membrane transduce sound within this cochlear structure.	What is the organ of Corti?
+r2	Human Body	1200	67	Vascular tissue in the brain's ventricles produces most cerebrospinal fluid.	What is the choroid plexus?
+r2	Human Body	1600	81	This hook-shaped white-matter tract connects anterior temporal regions with the orbitofrontal cortex.	What is the uncinate fasciculus?
+r2	Human Body	1600	81	A bundle of specialized heart fibers carries the atrioventricular impulse into the ventricular septum.	What is the bundle of His?
+r2	Human Body	1600	81	The fetal opening between the atria usually closes after birth, leaving a depression in the adult septum.	What is the foramen ovale?
+r2	Human Body	1600	81	Closure of a fetal channel between the left portal vein and inferior vena cava leaves this fibrous remnant.	What is the ligamentum venosum?
+r2	Human Body	1600	81	This sickle-shaped dural fold descends between the cerebral hemispheres.	What is the falx cerebri?
+r2	Human Body	1600	81	A horizontal dural shelf separates the cerebellum from the overlying occipital lobes.	What is the tentorium cerebelli?
+r2	Human Body	1600	81	Small projections into venous sinuses return cerebrospinal fluid to the bloodstream.	What are arachnoid granulations?
+r2	Human Body	1600	81	Most lymph below the diaphragm returns to the bloodstream through this major vessel.	What is the thoracic duct?
+r2	Human Body	1600	81	An enlarged abdominal lymph sac often receives trunks before narrowing into the thoracic duct.	What is the cisterna chyli?
+r2	Human Body	1600	81	Bile and pancreatic juice enter the duodenum through this shared enlargement.	What is the hepatopancreatic ampulla?
+r2	Human Body	1600	81	A ring of smooth muscle regulates flow from the bile and pancreatic ducts into the intestine.	What is the sphincter of Oddi?
+r2	Human Body	1600	81	Vessels, nerves, and ducts enter or leave the liver at this transverse gateway.	What is the porta hepatis?
+r2	Human Body	1600	81	This apronlike fold of peritoneum hangs from the stomach over the intestines.	What is the greater omentum?
+r2	Human Body	1600	81	A short oblique attachment anchors the small-intestinal mesentery to the posterior abdominal wall.	What is the root of the mesentery?
+r2	Human Body	1600	81	Comb-like muscle ridges line the atrial appendages of the heart.	What are pectinate muscles?
+r2	Human Body	1600	81	Irregular muscular columns project from the ventricular walls under this name.	What are trabeculae carneae?
+r2	Human Body	2000	94	Opposing flow in two nephron limbs builds a medullary osmotic gradient through this mechanism.	What is the countercurrent multiplier?
+r2	Human Body	2000	94	Salt delivery sensed by the macula densa alters nearby arteriole tone and renin release through this feedback loop.	What is tubuloglomerular feedback?
+r2	Human Body	2000	94	Greater filling stretches cardiac muscle and increases the next contraction's force through this mechanism.	What is the Frank-Starling mechanism?
+r2	Human Body	2000	94	In acidic, carbon-dioxide-rich tissue, hemoglobin releases oxygen more readily through this named effect.	What is the Bohr effect?
+r2	Human Body	2000	94	Oxygenation of hemoglobin in the lungs promotes release of carbon dioxide through this named effect.	What is the Haldane effect?
+r2	Human Body	2000	94	Bicarbonate exits red blood cells in exchange for chloride during carbon-dioxide transport through this process.	What is the chloride shift?
+r2	Human Body	2000	94	Neutrophils rapidly generate reactive oxygen species after engulfing microbes in this antimicrobial response.	What is the respiratory burst?
+r2	Human Body	2000	94	Coating a microbe with antibodies or complement makes it easier for phagocytes to recognize through this process.	What is opsonization?
+r2	Human Body	2000	94	An antigen activates only lymphocytes bearing matching receptors under this foundational immune principle.	What is clonal selection?
+r2	Human Body	2000	94	Activated B cells deliberately mutate antibody variable regions to improve binding through this process.	What is somatic hypermutation?
+r2	Human Body	2000	94	A B cell changes the constant region of its antibody while preserving antigen specificity through this process.	What is class-switch recombination?
+r2	Human Body	2000	94	Bile acids absorbed from the intestine return to the liver through this recycling route.	What is enterohepatic circulation?
+r2	Human Body	2000	94	Low kidney perfusion can trigger a hormone cascade ending in vasoconstriction and aldosterone release.	What is the renin-angiotensin-aldosterone system?
+r2	Human Body	2000	94	Stress signals move from hypothalamus to pituitary to adrenal cortex along this endocrine pathway.	What is the hypothalamic-pituitary-adrenal axis?
+r2	Human Body	2000	94	Pressure sensors in the carotid sinus and aortic arch rapidly adjust heart rate through this loop.	What is the baroreceptor reflex?
+r2	Human Body	2000	94	Eye movements compensate for head rotation to stabilize an image through this reflex.	What is the vestibulo-ocular reflex?
+# TECHNOLOGY HISTORY - 16 clues at each Double Jeopardy value
+r2	Technology History	400	41	Alternating copper and zinc discs separated by brine-soaked material formed this early continuous-current battery.	What is the voltaic pile?
+r2	Technology History	400	41	This glass vessel coated inside and out with conductor stored static electric charge for experiments.	What is the Leyden jar?
+r2	Technology History	400	41	Multiple spindles let one worker spin several threads at once on this Industrial Revolution machine.	What is the spinning jenny?
+r2	Technology History	400	41	Richard Arkwright's roller-spinning machine drew power from a mill stream under this name.	What is the water frame?
+r2	Technology History	400	41	Edmund Cartwright mechanized the interlacing of warp and weft with this factory machine.	What is the power loom?
+r2	Technology History	400	41	Rows of fine wire teeth disentangle and align textile fibers in this preparation machine.	What is a carding engine?
+r2	Technology History	400	41	Jethro Tull's implement placed seeds in orderly rows at controlled depth.	What is the seed drill?
+r2	Technology History	400	41	Air blown through molten iron removed impurities rapidly in this steelmaking vessel.	What is the Bessemer converter?
+r2	Technology History	400	41	Coke, ore, and limestone descend while hot air rises through this tall iron-smelting furnace.	What is a blast furnace?
+r2	Technology History	400	41	Equal-sized wheels, chain drive, and rear-wheel propulsion defined this late-nineteenth-century bicycle form.	What is the safety bicycle?
+r2	Technology History	400	41	An air-filled rubber tube softened a bicycle's ride through this wheel innovation.	What is a pneumatic tire?
+r2	Technology History	400	41	Charles Parsons converted high-pressure steam into rapid rotary motion with this engine.	What is a steam turbine?
+r2	Technology History	400	41	A fabric mesh heated until it glowed made gas lamps much brighter in this invention.	What is an incandescent gas mantle?
+r2	Technology History	400	41	Mechanical rotation generates direct current in this machine using a commutator.	What is a dynamo?
+r2	Technology History	400	41	A movable arm closes one circuit when energized by another in this electromagnetic switch.	What is an electrical relay?
+r2	Technology History	400	41	An unknown voltage can be measured against a calibrated drop along resistance wire with this zero-balance instrument.	What is a slide-wire potentiometer?
+r2	Technology History	800	55	This Italian physicist built the disc-stacked battery that gave the volt its name.	Who is Alessandro Volta?
+r2	Technology History	800	55	This Dutch professor popularized an early charge-storing bottle named for his university city.	Who is Pieter van Musschenbroek?
+r2	Technology History	800	55	This Lancashire weaver patented the multispindle spinning machine associated with his daughter or wife in popular legend.	Who is James Hargreaves?
+r2	Technology History	800	55	This British-born inventor developed an automatic loom that replenished the shuttle without stopping.	Who is James Henry Northrop?
+r2	Technology History	800	55	This English clergyman invented a frame that mechanized knitting stockings in the sixteenth century.	Who is William Lee?
+r2	Technology History	800	55	This American millwright designed a continuous, largely automated flour-milling system.	Who is Oliver Evans?
+r2	Technology History	800	55	This English agricultural writer advocated drilling seed in rows and cultivating between them.	Who is Jethro Tull?
+r2	Technology History	800	55	This engineer developed hydraulic cranes and the accumulator that supplied them with steady pressure.	Who is William George Armstrong?
+r2	Technology History	800	55	This German engineer patented a practical automobile powered by an internal-combustion engine.	Who is Karl Benz?
+r2	Technology History	800	55	This engineer developed a high-speed petroleum engine and partnered with Wilhelm Maybach.	Who is Gottlieb Daimler?
+r2	Technology History	800	55	This engineer standardized screw-thread angles and pitches for British manufacturing.	Who is Joseph Whitworth?
+r2	Technology History	800	55	This electrical engineer invented a graphical calculator for power-transmission problems and later taught at the University of Texas.	Who is Edith Clarke?
+r2	Technology History	800	55	This British engineer's multistage reaction design transformed electric-power generation.	Who is Charles Algernon Parsons?
+r2	Technology History	800	55	This Belfast veterinarian patented an air-filled bicycle tire for his son's tricycle.	Who is John Boyd Dunlop?
+r2	Technology History	800	55	This draftsman and inventor contributed improved carbon filaments and prepared patent drawings for an early telephone.	Who is Lewis Latimer?
+r2	Technology History	800	55	This Canadian-born inventor patented an automatic lubricating cup for steam machinery.	Who is Elijah McCoy?
+r2	Technology History	1200	67	This French textile worker used perforated paper to control a loom before punched cards became standard.	Who is Basile Bouchon?
+r2	Technology History	1200	67	This American scientist used an electromagnet to make a distant circuit close, anticipating telegraph repeaters.	Who is Joseph Henry?
+r2	Technology History	1200	67	Five needles pointing to letters formed the commercial telegraph devised by this British partnership.	Who are Cooke and Wheatstone?
+r2	Technology History	1200	67	This English physicist demonstrated a rotating-cylinder facsimile system at the Great Exhibition.	Who is Frederick Bakewell?
+r2	Technology History	1200	67	A spring-loaded brake prevented an elevator car from falling when its hoisting cable failed in this invention.	What is the safety elevator?
+r2	Technology History	1200	67	Andrew Smith Hallidie's moving underground wire pulled streetcars up steep hills in this system.	What is cable traction?
+r2	Technology History	1200	67	This German engineer built the Z1, an early programmable mechanical computer, in the 1930s.	Who is Konrad Zuse?
+r2	Technology History	1200	67	This French theorist described intake, compression, power, and exhaust before Otto built his engine.	Who is Alphonse Beau de Rochas?
+r2	Technology History	1200	67	Jets of water striking spoon-shaped buckets turn the impulse wheel invented by this Californian engineer.	Who is Lester Allan Pelton?
+r2	Technology History	1200	67	Adjustable guide vanes direct water through the mixed-flow turbine named for this engineer.	Who is James B. Francis?
+r2	Technology History	1200	67	Adjustable propeller-like blades distinguish the low-head water turbine invented by this Austrian.	Who is Viktor Kaplan?
+r2	Technology History	1200	67	An open-hearth furnace using regenerated heat was developed by this German-born British engineer.	Who is Carl Wilhelm Siemens?
+r2	Technology History	1200	67	Hot exhaust preheated combustion air in the checker-brick stove named for this British engineer.	Who is Edward Alfred Cowper?
+r2	Technology History	1200	67	Alexander Parkes displayed this early moldable cellulose-based plastic at the 1862 London exhibition.	What is Parkesine?
+r2	Technology History	1200	67	Cellulose nitrate plasticized with camphor became this material used in combs, collars, and film.	What is celluloid?
+r2	Technology History	1200	67	Leo Baekeland's heat-resistant phenol-formaldehyde resin was marketed under this name.	What is Bakelite?
+r2	Technology History	1600	81	This Sheffield clockmaker developed a clay-pot method for melting blister steel into uniform high-quality metal.	Who is Benjamin Huntsman?
+r2	Technology History	1600	81	Henry Cort's ironworkers stirred molten pig iron in a reverberatory furnace through this refining process.	What is puddling?
+r2	Technology History	1600	81	Joseph Aspdin patented a hydraulic binder named for its resemblance to stone from an English island.	What is Portland cement?
+r2	Technology History	1600	81	James Beaumont Neilson reduced fuel use by preheating air before it entered an iron furnace through this innovation.	What is the hot blast?
+r2	Technology History	1600	81	Reversing exhaust and intake through heat-storing brick chambers made this furnace highly efficient.	What is a regenerative furnace?
+r2	Technology History	1600	81	Pure oxygen blown onto molten iron inside a tilting vessel drives this rapid steelmaking method.	What is basic oxygen steelmaking?
+r2	Technology History	1600	81	An electric arc fixed atmospheric nitrogen at industrial scale in this Norwegian fertilizer process.	What is the Birkeland-Eyde process?
+r2	Technology History	1600	81	Brine, ammonia, and carbon dioxide produce sodium carbonate efficiently in this industrial chemical cycle.	What is the Solvay process?
+r2	Technology History	1600	81	Electrolysis of molten alumina dissolved in cryolite made aluminum inexpensive through this process.	What is the Hall-Heroult process?
+r2	Technology History	1600	81	A primary explosive in a metal cap reliably initiated nitroglycerin-based charges through this innovation.	What is a mercury-fulminate detonator?
+r2	Technology History	1600	81	In this early continuous sheet-glass method, a ribbon was drawn vertically from the melt through a slotted refractory block.	What is the Fourcault process?
+r2	Technology History	1600	81	Iron salts exposed to ultraviolet light produce white lines on a blue background in this copying process.	What is cyanotype?
+r2	Technology History	1600	81	A glass photographic plate had to be coated, exposed, and developed before its collodion dried in this method.	What is the wet-plate process?
+r2	Technology History	1600	81	Factory-coated light-sensitive plates could be stored before exposure after this photographic innovation.	What is the gelatin dry plate?
+r2	Technology History	1600	81	Dyed potato-starch grains acted as a mosaic color screen in this early photographic process.	What is Autochrome Lumiere?
+r2	Technology History	1600	81	Breaking a photograph into dots of varying size made tonal images printable with ordinary ink through this method.	What is the halftone process?
+r2	Technology History	2000	94	The crown wheel and pallets of this medieval clock regulator make up this early escapement.	What is the verge-and-foliot?
+r2	Technology History	2000	94	A cone-shaped grooved pulley linked by chain to a mainspring equalizes a clock or watch's driving force.	What is a fusee?
+r2	Technology History	2000	94	John Harrison combined metals with different expansion rates in this temperature-compensating pendulum.	What is a gridiron pendulum?
+r2	Technology History	2000	94	John Harrison's nearly frictionless clock regulator used two hinged arms resembling an insect's legs.	What is the grasshopper escapement?
+r2	Technology History	2000	94	A jeweled locking surface releases a marine chronometer's balance with minimal disturbance in this regulator.	What is a detent escapement?
+r2	Technology History	2000	94	A secondary spring or weight periodically recharged by the main train isolates a clock escapement from varying force.	What is a remontoire?
+r2	Technology History	2000	94	A rolling integrator traces one curve while mechanically drawing its accumulated integral as another.	What is an integraph?
+r2	Technology History	2000	94	Tracing a closed curve with this mechanical integrator directly measures its area.	What is a planimeter?
+r2	Technology History	2000	94	Jacob Amsler's version measures area with a tracer arm hinged to a weighted pole under this name.	What is a polar planimeter?
+r2	Technology History	2000	94	Two swinging pendulums at right angles draw complex geometric curves in this Victorian instrument.	What is a harmonograph?
+r2	Technology History	2000	94	A rotating drum records movement against time as a stylus traces physiological changes on this device.	What is a kymograph?
+r2	Technology History	2000	94	Etienne-Jules Marey's rifle-shaped camera recorded successive phases of motion on one plate.	What is the chronophotographic gun?
+r2	Technology History	2000	94	Eadweard Muybridge projected painted motion sequences from a rotating glass disc with this device.	What is the zoopraxiscope?
+r2	Technology History	2000	94	A spinning disc viewed through slots created apparent motion in this early animation toy.	What is the phenakistiscope?
+r2	Technology History	2000	94	Emile Reynaud improved the zoetrope with a central ring of mirrors in this animation device.	What is the praxinoscope?
+r2	Technology History	2000	94	A stylus following a model guides a rotating cutter to duplicate three-dimensional forms in this machine.	What is a reducing lathe?
+# MYTHOLOGY - 16 clues at each Double Jeopardy value
+r2	Mythology	400	41	Cronus used this unbreakable harvesting weapon supplied by Gaia to overthrow Uranus.	What is the adamantine sickle?
+r2	Mythology	400	41	Hermes carries this herald's staff entwined by two snakes.	What is the caduceus?
+r2	Mythology	400	41	Perseus carried Medusa's severed head in this pouch or wallet supplied by the nymphs.	What is the kibisis?
+r2	Mythology	400	41	Heimdall watches the approaches to Asgard from this dwelling at heaven's edge.	What is Himinbjorg?
+r2	Mythology	400	41	The gods bound Fenrir with this deceptively slender fetter made by dwarfs from six impossible ingredients.	What is Gleipnir?
+r2	Mythology	400	41	The sacred mirror coaxed Amaterasu from her cave and became this Japanese imperial treasure.	What is Yata no Kagami?
+r2	Mythology	400	41	Ganesha's tiny animal mount is a mouse known by this name.	What is Mushika?
+r2	Mythology	400	41	This mighty bird serves as Vishnu's mount and enemy of serpents.	Who is Garuda?
+r2	Mythology	400	41	This Aztec wind god, often shown with a beaklike mask, is an aspect of the feathered serpent deity.	Who is Ehecatl?
+r2	Mythology	400	41	In Lakota tradition, this spider trickster's clever schemes often rebound on him.	Who is Iktomi?
+r2	Mythology	400	41	This immense underworld goddess crushed the trickster who tried to crawl through her body and conquer death.	Who is Hine-nui-te-po?
+r2	Mythology	400	41	The Monkey King's obedient size-changing weapon is this iron staff.	What is Ruyi Jingu Bang?
+r2	Mythology	400	41	This Slavic witch's hut famously stands and turns on chicken legs.	Who is Baba Yaga?
+r2	Mythology	400	41	A seal-person must recover this hidden object to return to the sea in Scottish and Irish tales.	What is a selkie skin?
+r2	Mythology	400	41	Several Aboriginal Australian traditions connect water, landforms, and creation with this ancestral being.	What is the Rainbow Serpent?
+r2	Mythology	400	41	In the Finnish Kalevala, this mysterious prosperity-bringing mill is forged by Ilmarinen.	What is the Sampo?
+r2	Mythology	800	55	This wife of Theseus fell tragically in love with her stepson Hippolytus.	Who is Phaedra?
+r2	Mythology	800	55	This blind Theban prophet advised Oedipus and later warned Odysseus in the underworld.	Who is Tiresias?
+r2	Mythology	800	55	Poseidon transformed this warrior into the invulnerable man Caeneus after an earlier life as a woman.	Who is Caenis?
+r2	Mythology	800	55	This Lycian king assigned a visiting hero the Chimera and other deadly tasks after reading a sealed message.	Who is Iobates?
+r2	Mythology	800	55	After following a cow to Boeotia, this Phoenician hero founded Thebes and sowed dragon's teeth.	Who is Cadmus?
+r2	Mythology	800	55	This lyre-playing twin of Zethus raised Thebes' walls when stones moved to his music.	Who is Amphion?
+r2	Mythology	800	55	At Ragnarok, this hound guarding Hel and the god Tyr are fated to kill each other.	Who is Garm?
+r2	Mythology	800	55	Thor's fishing trip nearly raised this world-encircling serpent from the sea.	Who is Jormungandr?
+r2	Mythology	800	55	This ski-going Norse goddess chose Njord as husband after seeing only the gods' feet.	Who is Skadi?
+r2	Mythology	800	55	Poetry and eloquence belong to this Norse god, husband of Idunn.	Who is Bragi?
+r2	Mythology	800	55	This Egyptian goddess, sister of Isis, mourned Osiris and guarded the dead.	Who is Nephthys?
+r2	Mythology	800	55	This ram-headed Egyptian god fashioned people on a potter's wheel and guarded the Nile's source.	Who is Khnum?
+r2	Mythology	800	55	Writing, measurement, and recordkeeping belong to this Egyptian goddess marked by a star-like emblem.	Who is Seshat?
+r2	Mythology	800	55	Trials imposed by his brothers and encounters with a white hare shape the legends of this Japanese land-making deity.	Who is Okuninushi?
+r2	Mythology	800	55	This Yoruba orisha of fresh water, fertility, and beauty is especially linked with the Osun River.	Who is Oshun?
+r2	Mythology	800	55	After dying in the underworld, this Japanese creator goddess forbade Izanagi from looking at her.	Who is Izanami?
+r2	Mythology	1200	67	Cronus swallowed this stone in place of infant Zeus; Delphi later displayed it as the world's navel.	What is the omphalos?
+r2	Mythology	1200	67	Troy was said to remain safe while it possessed this sacred wooden image of Athena.	What is the Palladium?
+r2	Mythology	1200	67	A cursed wedding gift made by Hephaestus brought disaster to the descendants of Cadmus under this name.	What is the Necklace of Harmonia?
+r2	Mythology	1200	67	Freyja's prized necklace, forged by four dwarfs and later stolen by Loki, bears this Old Norse name.	What is Brisingamen?
+r2	Mythology	1200	67	Freyr's magical ship always has a favorable wind and can be folded small enough for a pouch.	What is Skidbladnir?
+r2	Mythology	1200	67	The untrimmed nails of the dead become this ship that carries foes at Ragnarok.	What is Naglfar?
+r2	Mythology	1200	67	Odin's ring produces eight rings of equal weight every ninth night.	What is Draupnir?
+r2	Mythology	1200	67	Dwarfs forged Odin's spear, which never misses its target, under this name.	What is Gungnir?
+r2	Mythology	1200	67	This pillar-like Egyptian symbol represents stability and is closely associated with Osiris's backbone.	What is the djed?
+r2	Mythology	1200	67	A primeval mound or pyramidal stone at Heliopolis represented the first land emerging from creation waters.	What is the Benben?
+r2	Mythology	1200	67	This fierce solar goddess or power, sometimes personified separately, defended Ra against his enemies.	What is the Eye of Ra?
+r2	Mythology	1200	67	Gods and asuras churned the cosmic ocean seeking this nectar of immortality.	What is amrita?
+r2	Mythology	1200	67	Indra's thunderbolt and diamond-hard ritual weapon bears this Sanskrit name.	What is the vajra?
+r2	Mythology	1200	67	Susanoo found this sword in the serpent's tail; it became one of Japan's imperial regalia.	What is Kusanagi?
+r2	Mythology	1200	67	A three-legged crow inhabiting the sun appears in Korean tradition under this name.	What is Samjogo?
+r2	Mythology	1200	67	This talking mace advises Ninurta and reports the demon Asag's rebellion in Sumerian myth.	What is Sharur?
+r2	Mythology	1600	81	This Titaness fled Zeus by becoming a quail and was transformed into the island later called Delos.	Who is Asteria?
+r2	Mythology	1600	81	An Orphic hymn describes this saffron-cloaked underworld goddess as bringing nightmares and madness.	Who is Melinoe?
+r2	Mythology	1600	81	Zeus struck this mortal lover of Demeter after they united in a thrice-plowed field.	Who is Iasion?
+r2	Mythology	1600	81	Athena raised this earthborn king, often depicted with serpent traits, after he emerged from Gaia.	Who is Erichthonius?
+r2	Mythology	1600	81	Odin sacrificed an eye for wisdom from the well guarded by this being.	Who is Mimir?
+r2	Mythology	1600	81	After dwarfs killed this supremely wise being, his blood was brewed into the mead of poetry.	Who is Kvasir?
+r2	Mythology	1600	81	This giantess lent Thor iron gloves, a belt, and a staff before his visit to Geirrod.	Who is Grid?
+r2	Mythology	1600	81	This giantess keeps Laevateinn, the weapon needed to kill the rooster Vidofnir, in the poem Fjolsvinnsmal.	Who is Sinmara?
+r2	Mythology	1600	81	This celestial cow goddess emerged from primeval waters and gave birth to the sun.	Who is Mehet-Weret?
+r2	Mythology	1600	81	The Egyptian personification of perception stands with Hu in Ra's solar boat.	Who is Sia?
+r2	Mythology	1600	81	Creative, authoritative speech was personified by this companion of the Egyptian sun god.	Who is Hu?
+r2	Mythology	1600	81	This serpent god joined the ka to the body and later guarded the entrance to the afterlife.	Who is Nehebkau?
+r2	Mythology	1600	81	This faithful attendant summoned help for Inanna after the goddess was trapped in the underworld.	Who is Ninshubur?
+r2	Mythology	1600	81	Dream interpretation, social justice, and care for orphans belonged to this Mesopotamian goddess.	Who is Nanshe?
+r2	Mythology	1600	81	This skeletal warrior goddess of Aztec tradition has a name meaning obsidian butterfly.	Who is Itzpapalotl?
+r2	Mythology	1600	81	The Maya Hero Twins defeated this boastful mountain-maker by tricking him into eating a crab.	Who is Zipacna?
+r2	Mythology	2000	94	A hero's descent into the underworld is known by this Greek-derived literary term.	What is a katabasis?
+r2	Mythology	2000	94	Stories in which gods visit disguised strangers and test a host's generosity exemplify this motif.	What is theoxeny?
+r2	Mythology	2000	94	Ritual or mythical dismemberment, especially in Dionysian contexts, is called this.	What is sparagmos?
+r2	Mythology	2000	94	A sacred marriage between divine figures or their ritual representatives bears this Greek name.	What is a hieros gamos?
+r2	Mythology	2000	94	This terrible winter lasting three successive seasons precedes Ragnarok.	What is Fimbulwinter?
+r2	Mythology	2000	94	These two humans hide in a wood and repopulate the world after Ragnarok.	Who are Lif and Lifthrasir?
+r2	Mythology	2000	94	This vessel, whose name means stirrer of inspiration, held the blood-mixture that became poetic mead.	What is Odrerir?
+r2	Mythology	2000	94	Utgard-Loki revealed that the drinking horn Thor failed to empty was connected to this body of water.	What is the world ocean?
+r2	Mythology	2000	94	A forked flint implement touched to a mummy's mouth restored its senses in this Egyptian rite.	What is the peseshkef?
+r2	Mythology	2000	94	The deceased recited denials of wrongdoing before forty-two assessors in this funerary declaration.	What is the Negative Confession?
+r2	Mythology	2000	94	Whoever controlled this Mesopotamian object held authority over cosmic and earthly order.	What is the Tablet of Destinies?
+r2	Mythology	2000	94	Sumerian divine powers governing crafts and institutions were collectively known by this short term.	What are the Sumerian me?
+r2	Mythology	2000	94	Seven antediluvian sages sent by the god Ea to teach civilization were known by this Akkadian term.	Who are the apkallu?
+r2	Mythology	2000	94	Gods wrapped this serpent around Mount Mandara as a rope while churning the ocean.	Who is Vasuki?
+r2	Mythology	2000	94	Amaterasu's retreat darkened the world behind this heavenly rock doorway.	What is Ama-no-Iwato?
+r2	Mythology	2000	94	The Yoruba divination corpus arranges sacred verses and narratives into these signs.	What are the Odu Ifa?
+# RIVERS & MOUNTAINS - 16 clues at each Double Jeopardy value
+r2	Rivers & Mountains	400	41	The Blue Nile plunges over an Ethiopian cataract whose local name means smoking water.	What are Tis Issat Falls?
+r2	Rivers & Mountains	400	41	This city, also called Khartoum North, occupies the angle between the Blue Nile and the united Nile.	What is Bahri?
+r2	Rivers & Mountains	400	41	The Danube squeezes between the Carpathians and Balkan Mountains through this gorge on the Serbia-Romania border.	What are the Iron Gates?
+r2	Rivers & Mountains	400	41	Before entering the Black Sea, the Danube spreads through this vast wetland shared chiefly by Romania and Ukraine.	What is the Danube Delta?
+r2	Rivers & Mountains	400	41	Near Schaffhausen, the High Rhine plunges across a broad limestone ledge at this celebrated cataract.	What are the Rhine Falls?
+r2	Rivers & Mountains	400	41	The Rhine flows through this large lake bordering Germany, Switzerland, and Austria.	What is Lake Constance?
+r2	Rivers & Mountains	400	41	A slate cliff associated with a famous siren legend overlooks a narrow bend of the Rhine under this name.	What is the Lorelei?
+r2	Rivers & Mountains	400	41	Qutang, Wu, and Xiling form this celebrated sequence along the Yangtze.	What are the Three Gorges?
+r2	Rivers & Mountains	400	41	Windblown silt accumulated into deeply eroded yellow terrain across this region of north-central China.	What is the Loess Plateau?
+r2	Rivers & Mountains	400	41	The Himalayas rise along the southern edge of this vast highland often called the Roof of the World.	What is the Tibetan Plateau?
+r2	Rivers & Mountains	400	41	This arid high plateau straddles the Andes of northwestern Argentina and adjacent Chile.	What is the Puna de Atacama?
+r2	Rivers & Mountains	400	41	Lesotho's highlands belong chiefly to this range, the inland continuation of a larger escarpment system.	What are the Maloti Mountains?
+r2	Rivers & Mountains	400	41	For centuries this route through the Spin Ghar linked the Kabul valley with the plains near Peshawar.	What is the Khyber Pass?
+r2	Rivers & Mountains	400	41	This low Alpine route has long connected Austria's Inn valley with Italy's Adige valley.	What is the Brenner Pass?
+r2	Rivers & Mountains	400	41	A hospice founded for travelers gave its name to this Alpine crossing and a rescue-dog breed.	What is the Great St. Bernard Pass?
+r2	Rivers & Mountains	400	41	Margherita Peak rises on this massif along the Uganda-Democratic Republic of the Congo border.	What is Mount Stanley?
+r2	Rivers & Mountains	800	55	Erosion attacks the outer bank of a river bend at this steep feature.	What is a cut bank?
+r2	Rivers & Mountains	800	55	Sediment accumulates on the inside of a meander along this gently sloping deposit.	What is a point bar?
+r2	Rivers & Mountains	800	55	Rockfall and debris flows descending a narrow chute can build this steep conical deposit at its foot.	What is a debris cone?
+r2	Rivers & Mountains	800	55	Multiple relatively stable channels separated by vegetated islands form this less-mobile network.	What is an anastomosing river?
+r2	Rivers & Mountains	800	55	A river cutting through a ridge can create this pass occupied by flowing water.	What is a water gap?
+r2	Rivers & Mountains	800	55	An abandoned notch through a ridge left after drainage changes is called this.	What is a wind gap?
+r2	Rivers & Mountains	800	55	A tributary glacier erodes less deeply, leaving its valley perched above the main trough as this feature.	What is a hanging valley?
+r2	Rivers & Mountains	800	55	A lake filling an ice-carved mountain hollow after a glacier retreats is called this.	What is a tarn?
+r2	Rivers & Mountains	800	55	Glaciers eroding on both sides sharpen a ridge into this knife-edged landform.	What is an arete?
+r2	Rivers & Mountains	800	55	Several glacial bowls cutting back into a summit can leave this pyramidal peak.	What is a glacial horn?
+r2	Rivers & Mountains	800	55	A mountain summit projecting above an ice sheet carries this Inuit-derived name.	What is a nunatak?
+r2	Rivers & Mountains	800	55	A valley glacier spreading into a broad lobe after reaching lowland becomes this type.	What is a piedmont glacier?
+r2	Rivers & Mountains	800	55	Parallel main streams with short right-angle tributaries form this drainage pattern in folded terrain.	What is trellis drainage?
+r2	Rivers & Mountains	800	55	Branching tributaries resembling tree limbs develop on uniform rock in this drainage pattern.	What is dendritic drainage?
+r2	Rivers & Mountains	800	55	Headward erosion can divert another stream's upper waters through this geomorphic process.	What is stream capture?
+r2	Rivers & Mountains	800	55	A sharp bend where a captured channel changes course toward its captor is called this.	What is an elbow of capture?
+r2	Rivers & Mountains	1200	67	This tributary cuts a dramatic gorge through Ladakh before joining the Indus near Nimmu.	What is the Zanskar River?
+r2	Rivers & Mountains	1200	67	Rising near Mount Kailash, this easternmost major Indus tributary crosses Himachal Pradesh and Punjab.	What is the Sutlej River?
+r2	Rivers & Mountains	1200	67	Known upstream as the Nu, this major Southeast Asian river reaches the Andaman Sea in Myanmar.	What is the Salween River?
+r2	Rivers & Mountains	1200	67	The confluence of the N'mai and Mali rivers forms this great waterway flowing through Myanmar.	What is the Irrawaddy River?
+r2	Rivers & Mountains	1200	67	This Danube tributary rises in Italy, passes through Austria and Slovenia, and borders Croatia and Hungary.	What is the Drava River?
+r2	Rivers & Mountains	1200	67	Flowing from Slovenia through Zagreb and Belgrade, this river joins the Danube beneath Kalemegdan.	What is the Sava River?
+r2	Rivers & Mountains	1200	67	This long tributary drains much of the Hungarian plain before entering the Danube near Novi Slankamen.	What is the Tisza River?
+r2	Rivers & Mountains	1200	67	This Alpine river passes through Tyrol's capital and joins the Danube at Passau.	What is the Inn River?
+r2	Rivers & Mountains	1200	67	Switzerland's capital stands in a tight bend of this Rhine tributary.	What is the Aare River?
+r2	Rivers & Mountains	1200	67	Vineyards line this river as it flows past Metz and Trier before joining the Rhine at Koblenz.	What is the Moselle River?
+r2	Rivers & Mountains	1200	67	This tributary of the Narew forms part of the Poland-Belarus border and shares its name with another river farther west.	What is the Western Bug?
+r2	Rivers & Mountains	1200	67	Southwest Morocco's Jebel Sirwa links the High Atlas with this drier parallel range.	What is the Anti-Atlas?
+r2	Rivers & Mountains	1200	67	The name of this Central Asian range means Mountains of Heaven in Chinese.	What are the Tian Shan?
+r2	Rivers & Mountains	1200	67	The Gumal Pass crosses this range along the western edge of Pakistan's Indus basin.	What is the Sulaiman Range?
+r2	Rivers & Mountains	1200	67	Mount Damavand rises in this northern Iranian range between Tehran and the Caspian Sea.	What are the Alborz Mountains?
+r2	Rivers & Mountains	1200	67	This high range forms the northern wall of the upper Indus valley between Kashmir and Tibet.	What is the Ladakh Range?
+r2	Rivers & Mountains	1600	81	A waterfall or abrupt change in channel slope migrating upstream is this longitudinal-profile feature.	What is a knickpoint?
+r2	Rivers & Mountains	1600	81	The lowest elevation to which a stream can erode, ultimately sea level for many systems, is this control.	What is base level?
+r2	Rivers & Mountains	1600	81	A small modern channel occupying a valley carved by a much larger former flow is called this.	What is a misfit stream?
+r2	Rivers & Mountains	1600	81	A tributary forced to run parallel to the main river by natural levees bears this name from a Mississippi waterway.	What is a Yazoo stream?
+r2	Rivers & Mountains	1600	81	Net sediment deposition raises a riverbed and floodplain through this process.	What is aggradation?
+r2	Rivers & Mountains	1600	81	A channel cuts downward into its bed, lowering its elevation through this process.	What is river incision?
+r2	Rivers & Mountains	1600	81	A river rapidly abandons its channel for a steeper route across its floodplain through this process.	What is channel avulsion?
+r2	Rivers & Mountains	1600	81	The line connecting the deepest points along a river channel has this German-derived name.	What is the thalweg?
+r2	Rivers & Mountains	1600	81	Plotting the fraction of basin area above each elevation produces this terrain-analysis graph.	What is a hypsometric curve?
+r2	Rivers & Mountains	1600	81	Air descending a mountain's lee side warms and dries, producing this named wind effect.	What is the foehn effect?
+r2	Rivers & Mountains	1600	81	A sharp boundary between glacially scoured lower slopes and weathered upper slopes marks this former ice level.	What is a glacial trimline?
+r2	Rivers & Mountains	1600	81	Ice smooths one side of bedrock and plucks the other, creating this asymmetrical French-named knob.	What is a roche moutonnee?
+r2	Rivers & Mountains	1600	81	Ice abrading around a resistant rock leaves a steep obstacle with a streamlined sediment tail.	What is a crag and tail?
+r2	Rivers & Mountains	1600	81	Subglacial meltwater can excavate this long, deep channel later filled partly with sediment.	What is a tunnel valley?
+r2	Rivers & Mountains	1600	81	A stranded block of buried ice melts to leave this closed depression, sometimes water-filled.	What is a kettle hole?
+r2	Rivers & Mountains	1600	81	Meltwater dammed between ice and higher ground can collect in this temporary water body.	What is an ice-marginal lake?
+r2	Rivers & Mountains	2000	94	A power-law relation between a drainage basin's area and its main channel's length bears this succinct name.	What is Hack's law?
+r2	Rivers & Mountains	2000	94	In this hierarchy, an unbranched channel is first order and order increases whenever two equal ranks meet.	What is Strahler stream order?
+r2	Rivers & Mountains	2000	94	Robert Horton proposed an earlier channel hierarchy in which the highest rank continues downstream under this system.	What is Horton stream ordering?
+r2	Rivers & Mountains	2000	94	Erosion rate is often modeled from drainage area and channel slope using this geomorphic relation.	What is the stream-power law?
+r2	Rivers & Mountains	2000	94	A channel whose slope and form balance its long-term water and sediment loads is described by this term.	What is a graded river?
+r2	Rivers & Mountains	2000	94	Landscape relief can remain statistically constant while erosion balances rock uplift in this condition.	What is steady-state topography?
+r2	Rivers & Mountains	2000	94	The altitude on a glacier where annual accumulation equals annual loss is this boundary.	What is the equilibrium-line altitude?
+r2	Rivers & Mountains	2000	94	A river maintaining its course while a mountain range rises across it follows this type of drainage.	What is antecedent drainage?
+r2	Rivers & Mountains	2000	94	A stream established on younger cover may preserve its course after eroding into discordant older structures through this drainage type.	What is superimposed drainage?
+r2	Rivers & Mountains	2000	94	Concentric rock structures such as domes can guide streams into this ringlike network.	What is annular drainage?
+r2	Rivers & Mountains	2000	94	A tributary joining opposite the expected downstream angle can signal past capture and is called this.	What is a barbed tributary?
+r2	Rivers & Mountains	2000	94	The lower remnant of a diverted waterway, deprived of its former headwaters, has this anatomical name.	What is a beheaded stream?
+r2	Rivers & Mountains	2000	94	Fault movement may offset a channel while this displaced landform blocks its former path.	What is a shutter ridge?
+r2	Rivers & Mountains	2000	94	Step-like benches above a present floodplain preserve abandoned river levels under this name.	What are fluvial terraces?
+r2	Rivers & Mountains	2000	94	Deep chemical weathering followed by stripping of regolith can expose this low-relief surface.	What is an etchplain?
+r2	Rivers & Mountains	2000	94	Coalescing rock-cut mountain-front benches can produce this broad erosional plain.	What is a pediplain?
+# SPORTS - 16 clues at each Double Jeopardy value
+r2	Sports	400	41	The semicircle atop soccer's penalty area keeps other players the required distance from a spot kick.	What is the penalty arc?
+r2	Sports	400	41	This strip between a baseball outfield and its wall warns a fielder that the barrier is near.	What is the warning track?
+r2	Sports	400	41	A painted semicircle under a basketball hoop limits certain secondary-defender charging calls.	What is the restricted-area arc?
+r2	Sports	400	41	A tennis serve must land diagonally across the net within this rectangle.	What is the service box?
+r2	Sports	400	41	A cricket batter must ground the bat behind this line to avoid being run out.	What is the popping crease?
+r2	Sports	400	41	After a rugby try, a kicker attempts this shot from a line through the grounding point.	What is a conversion kick?
+r2	Sports	400	41	The small circle at the very center of a curling target is called this.	What is the button?
+r2	Sports	400	41	Relay runners must transfer the baton while both athletes are within this marked section.	What is the takeover zone?
+r2	Sports	400	41	A row of pennants above a swimming pool alerts backstrokers that the wall is approaching.	What are backstroke flags?
+r2	Sports	400	41	Vaulters and gymnasts launch from this flexible board at the end of a runway.	What is a vaulting springboard?
+r2	Sports	400	41	Fencers compete along this narrow metallic strip, also called the playing area.	What is the piste?
+r2	Sports	400	41	Two flexible rods extending above a volleyball net mark the sideways limits through which the ball must pass.	What are the net antennae?
+r2	Sports	400	41	Lines behind an ice hockey net mark the zone outside which a goalkeeper may not freely play the puck.	What is the goalkeeper trapezoid?
+r2	Sports	400	41	Golfers begin each hole between designated markers within this starting area.	What is the teeing area?
+r2	Sports	400	41	A boxer sent there after a knockdown must wait while the referee counts.	What is a neutral corner?
+r2	Sports	400	41	A rower's feet press against this adjustable brace inside a racing shell.	What is the foot stretcher?
+r2	Sports	800	55	A high jumper clears the bar face-down with the lead leg and body rolling around it in this pre-Fosbury technique.	What is the straddle technique?
+r2	Sports	800	55	Both legs move together in a wave beneath the water during this swimming kick.	What is the dolphin kick?
+r2	Sports	800	55	A soccer player leaps backward and strikes an overhead ball with this acrobatic technique.	What is a bicycle kick?
+r2	Sports	800	55	A soccer player crosses one kicking leg behind the planted leg to strike the ball with this showy technique.	What is a rabona?
+r2	Sports	800	55	A volleyball struck with minimal spin can dip and drift unexpectedly as this type of serve.	What is a float serve?
+r2	Sports	800	55	A baseball held deep in the palm and released like a fastball arrives much slower as this pitch.	What is a palmball?
+r2	Sports	800	55	A basketball player extends one hand beneath the ball and rolls it softly off the fingertips near the rim.	What is a finger roll?
+r2	Sports	800	55	A ball-handler passes to a teammate, cuts immediately toward the basket, and receives a return pass in this action.	What is a give-and-go?
+r2	Sports	800	55	A cricket batter kneels and swings toward the off side against a spinner in this mirror-image of the conventional sweep.	What is a reverse sweep?
+r2	Sports	800	55	A leg-spinner makes the ball turn the opposite way from the expected leg break with this deceptive delivery.	What is a googly?
+r2	Sports	800	55	An off-spinner's surprise delivery turning away from a right-handed cricket batter is this variation.	What is a doosra?
+r2	Sports	800	55	An athlete rotates heel-toe across a throwing circle before releasing the heavy wire-handled implement in this sequence.	What are hammer turns?
+r2	Sports	800	55	Javelin throwers turn the shoulders sideways while continuing down the runway during this approach phase.	What are crossover steps?
+r2	Sports	800	55	Jan Boklov spread his ski tips apart in flight, popularizing this aerodynamic jumping posture.	What is the V-style?
+r2	Sports	800	55	A curling stone placed in front of another stone or scoring area serves this defensive role.	What is a guard stone?
+r2	Sports	800	55	An immediate fencing attack after successfully parrying an opponent's thrust is this response.	What is a riposte?
+r2	Sports	1200	67	This Greek woman ran the marathon route unofficially after women were excluded from the 1896 race.	Who is Stamata Revithi?
+r2	Sports	1200	67	This neurologist organized the Stoke Mandeville competition that helped inspire the Paralympic movement.	Who is Ludwig Guttmann?
+r2	Sports	1200	67	This Greek benefactor funded nineteenth-century Olympic revivals decades before the modern international Games.	Who is Evangelos Zappas?
+r2	Sports	1200	67	This English doctor founded the Wenlock Olympian Society and pressed for an international revival.	Who is William Penny Brookes?
+r2	Sports	1200	67	This Hungarian educator was an original international committee member and advocated Budapest as a host city.	Who is Ferenc Kemeny?
+r2	Sports	1200	67	This Greek benefactor financed the marble restoration of Athens' Panathenaic Stadium before the 1896 Games.	Who is Georgios Averoff?
+r2	Sports	1200	67	Winning the triple jump made this Harvard student the first champion of the 1896 international Games.	Who is James Connolly?
+r2	Sports	1200	67	This Chicago golfer won the 1900 women's event but died without knowing it had Olympic status.	Who is Margaret Abbott?
+r2	Sports	1200	67	This German-American gymnast won medals in 1904 despite competing with a wooden prosthetic leg.	Who is George Eyser?
+r2	Sports	1200	67	This Haitian rugby player became the first known Black athlete to win an Olympic title as part of France's team.	Who is Constantin Henriquez?
+r2	Sports	1200	67	This Mexican hurdler became the first woman to light the Olympic cauldron at a Summer Games.	Who is Enriqueta Basilio?
+r2	Sports	1200	67	This Swedish shooter remains notable for winning an Olympic medal at age seventy-two.	Who is Oscar Swahn?
+r2	Sports	1200	67	This Norwegian won the first Olympic ski-jumping title and later earned a silver medal in sailing.	Who is Jacob Tullin Thams?
+r2	Sports	1200	67	This Moroccan hurdler became the first woman from a Muslim-majority nation to win Olympic gold.	Who is Nawal El Moutawakel?
+r2	Sports	1200	67	This Algerian middle-distance runner won the 1991 world title and the 1992 Olympic gold in the women's 1,500 metres.	Who is Hassiba Boulmerka?
+r2	Sports	1200	67	This American sabre fencer became the first U.S. athlete to compete at the Olympics wearing a hijab.	Who is Ibtihaj Muhammad?
+r2	Sports	1600	81	This locally developed football code introduced corner kicks and a crossbar before national laws adopted them.	What are the Sheffield Rules?
+r2	Sports	1600	81	The 1863 version of this university football code barred running with the ball and influenced the Football Association's first laws.	What are the Cambridge Rules?
+r2	Sports	1600	81	This solicitor captained Barnes, helped found England's Football Association, and drafted its first laws.	Who is Ebenezer Cobb Morley?
+r2	Sports	1600	81	The four British associations formed this body to settle and amend soccer's laws.	What is the International Football Association Board?
+r2	Sports	1600	81	This Irish goalkeeper and linen manufacturer proposed soccer's penalty kick after seeing a deliberate foul near goal.	Who is William McCrum?
+r2	Sports	1600	81	Gloves, three-minute rounds, and a ten-count entered boxing through rules named for this aristocratic patron.	What are the Marquess of Queensberry Rules?
+r2	Sports	1600	81	This Welsh sportsman actually drafted the boxing code later associated with Queensberry.	Who is John Graham Chambers?
+r2	Sports	1600	81	This London club became custodian of cricket's laws in the eighteenth century.	What is the Marylebone Cricket Club?
+r2	Sports	1600	81	Bowlers delivering with the arm above waist height but below the shoulder drove legalization of this nineteenth-century cricket style.	What is roundarm bowling?
+r2	Sports	1600	81	These two statisticians devised the original target-resetting method for rain-shortened cricket matches.	Who are Frank Duckworth and Tony Lewis?
+r2	Sports	1600	81	This American promoter invented a sudden-death tennis scoring system and popularized the modern tiebreak.	Who is James Van Alen?
+r2	Sports	1600	81	This Syracuse Nationals owner persuaded professional basketball to adopt a twenty-four-second possession clock.	Who is Danny Biasone?
+r2	Sports	1600	81	William G. Morgan first called his new net game by this name before a spectator suggested volleyball.	What is Mintonette?
+r2	Sports	1600	81	One of four Harvard players bought this silver trophy with his own money for the international tennis challenge they organized.	What is the Davis Cup?
+r2	Sports	1600	81	A tiny terracotta vessel symbolizes a cricket rivalry that began after an English loss to Australia.	What is the Ashes urn?
+r2	Sports	1600	81	This English referee conceived soccer's yellow and red card system after reflecting on traffic lights.	Who is Ken Aston?
+r2	Sports	2000	94	These heralds traveled among Greek cities to announce a festival and its sacred truce.	Who are the spondophoroi?
+r2	Sports	2000	94	Officials who financed and presided over Greek athletic festivals held this organizer's title.	Who are the agonothetai?
+r2	Sports	2000	94	The single-length footrace gave its name to both an ancient event and the track itself.	What is the stadion?
+r2	Sports	2000	94	At the Panathenaic Games, an armed competitor repeatedly leapt from and remounted a moving chariot in this event.	What is the apobates race?
+r2	Sports	2000	94	Teams carried flames in this Greek relay contest whose name means torch race.	What is lampadedromia?
+r2	Sports	2000	94	Athenian cavalry teams performed charges, wheels, and mock combat in this equestrian display.	What is anthippasia?
+r2	Sports	2000	94	Young warriors performed this armed dance, imitating attack and defense to flute accompaniment.	What is the pyrrhiche?
+r2	Sports	2000	94	Jumpers swung these stone or metal hand weights during the ancient pentathlon.	What are halteres?
+r2	Sports	2000	94	Long jumpers landed in this prepared patch of dug earth or sand.	What is the skamma?
+r2	Sports	2000	94	A rope-and-post mechanism dropped in front of runners to enforce a fair ancient start.	What is the hysplex?
+r2	Sports	2000	94	Four horses abreast pulled a chariot in this dangerous ancient race.	What is the tethrippon?
+r2	Sports	2000	94	A pair of horses pulled the chariot in this event introduced later than the four-horse race.	What is the synoris?
+r2	Sports	2000	94	Mules rather than horses pulled the chariots in this short-lived Olympic contest.	What is the apene?
+r2	Sports	2000	94	In this unusual race, riders dismounted from mares and finished the course on foot.	What is the kalpe?
+r2	Sports	2000	94	Ancient Greek boxing was known by this term derived from the word for fist.	What is pygmachia?
+r2	Sports	2000	94	A leather loop wrapped around a javelin gave it spin and leverage during throwing.	What is the ankyle?

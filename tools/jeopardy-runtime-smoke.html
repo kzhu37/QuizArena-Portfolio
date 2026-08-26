@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jeopardy Runtime Smoke</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      font: 14px/1.45 Consolas, "Courier New", monospace;
+      background: #0a1028;
+      color: #f6f7ff;
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: 22px;
+    }
+    .ok { color: #77f7a1; }
+    .fail { color: #ff8f8f; }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 14px;
+      padding: 16px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jeopardy Local Runtime Smoke</h1>
+  <pre id="output">Running...</pre>
+
+  <script src="../data/jeopardy-bank/round1-bank.js"></script>
+  <script src="../data/jeopardy-bank/round2-bank.js"></script>
+  <script src="../data/jeopardy-bank/final-bank.js"></script>
+  <script src="../src/jeopardy/config.js"></script>
+  <script src="../src/jeopardy/utils.js"></script>
+  <script src="../src/jeopardy/answerMatcher.js"></script>
+  <script src="../src/jeopardy/questionValidator.js"></script>
+  <script src="../src/jeopardy/usageTracker.js"></script>
+  <script src="../src/jeopardy/repository.js"></script>
+  <script src="../src/jeopardy/boardAssembler.js"></script>
+  <script src="../src/jeopardy/finalSelector.js"></script>
+  <script src="../src/jeopardy/questionSourceAdapter.js"></script>
+  <script src="../src/jeopardy/gameStateAdapter.js"></script>
+  <script>
+    (function runSmoke(ns) {
+      const outputEl = document.getElementById("output");
+      const lines = [];
+
+      function log(message) {
+        lines.push(message);
+        outputEl.textContent = lines.join("\n");
+      }
+
+      function fail(message) {
+        throw new Error(message);
+      }
+
+      function assert(condition, message) {
+        if (!condition) fail(message);
+      }
+
+      function clearRuntimeStorage() {
+        window.localStorage.removeItem(ns.LOCAL_STATE_KEY);
+        window.localStorage.removeItem(ns.LOCAL_USAGE_KEY);
+        for (const key of ns.LEGACY_STATE_KEYS) {
+          window.localStorage.removeItem(key);
+        }
+      }
+
+      function assertUniqueGamePackage(gamePackage) {
+        const clueIds = new Set();
+        const answerKeys = new Set();
+        const fingerprints = new Set();
+        const categoryTitles = new Set();
+
+        for (const round of gamePackage.rounds) {
+          for (const category of round.categories) {
+            assert(!categoryTitles.has(category.title), `Duplicate category title in package: ${category.title}`);
+            categoryTitles.add(category.title);
+
+            let lastDifficulty = -Infinity;
+            for (const clue of category.clues) {
+              assert(!clueIds.has(clue.id), `Duplicate clue id in package: ${clue.id}`);
+              clueIds.add(clue.id);
+
+              assert(!answerKeys.has(clue.answerKey), `Duplicate answer key in package: ${clue.answerKey}`);
+              answerKeys.add(clue.answerKey);
+
+              assert(!fingerprints.has(clue.fingerprint), `Duplicate fingerprint in package: ${clue.fingerprint}`);
+              fingerprints.add(clue.fingerprint);
+
+              assert(clue.difficulty > lastDifficulty, `Non-ascending clue difficulty in category ${category.title}`);
+              lastDifficulty = clue.difficulty;
+            }
+          }
+        }
+
+        const finalCategories = new Set();
+        for (const option of gamePackage.finalOptions) {
+          assert(!finalCategories.has(option.categoryTitle), `Duplicate final category: ${option.categoryTitle}`);
+          finalCategories.add(option.categoryTitle);
+          assert(!answerKeys.has(option.answerKey), `Final answer duplicated from board: ${option.answerKey}`);
+          answerKeys.add(option.answerKey);
+          assert(!fingerprints.has(option.fingerprint), `Final fingerprint duplicated from board: ${option.fingerprint}`);
+          fingerprints.add(option.fingerprint);
+        }
+      }
+
+      function pickCustomCategoryIds(repository, roundType, sessionContext) {
+        const picked = [];
+        const pickedTitles = new Set();
+        const pickedSourceIds = new Set();
+        const familyCounts = new Map();
+        const candidates = repository
+          .getCategorySetsForRound(roundType)
+          .slice()
+          .sort((left, right) => left.title.localeCompare(right.title));
+
+        for (const set of candidates) {
+          if (sessionContext.usedSourceCategoryIds.has(set.sourceCategoryId)) continue;
+          if (sessionContext.usedCategoryTitles.has(set.title)) continue;
+          if (pickedTitles.has(set.title) || pickedSourceIds.has(set.sourceCategoryId)) continue;
+          const familyCount = familyCounts.get(set.family) || 0;
+          if (familyCount >= ns.MAX_CATEGORYS_PER_FAMILY_ON_BOARD) continue;
+          picked.push(set.id);
+          pickedTitles.add(set.title);
+          pickedSourceIds.add(set.sourceCategoryId);
+          familyCounts.set(set.family, familyCount + 1);
+          if (picked.length === 6) return picked;
+        }
+
+        fail(`Could not pick six custom ${roundType} categories from the approved bank.`);
+      }
+
+      try {
+        clearRuntimeStorage();
+
+        const validator = new ns.QuestionValidator();
+        const repository = new ns.LocalQuestionRepository();
+        validator.validateRepository(repository);
+
+        log(`[PASS] Repository built.`);
+        log(`  category sets: ${repository.stats.totalCategorySets}`);
+        log(`  unique titles: ${repository.stats.uniqueCategoryTitles}`);
+        log(`  regular clues: ${repository.stats.totalRegularClues}`);
+        log(`  final clues: ${repository.stats.totalFinalClues}`);
+
+        const usageTracker = new ns.UsageTracker();
+        const answerMatcher = new ns.AnswerMatcher();
+        const boardAssembler = new ns.BoardAssembler(repository, validator);
+        const finalSelector = new ns.FinalSelector(repository, validator);
+        const sourceAdapter = ns.createQuestionSourceAdapter({
+          repository,
+          boardAssembler,
+          finalSelector,
+          validator,
+          usageTracker
+        });
+        const stateAdapter = new ns.GameStateAdapter({
+          sourceAdapter,
+          usageTracker,
+          repository,
+          validator,
+          answerMatcher
+        });
+
+        for (let index = 0; index < 200; index += 1) {
+          const rng = ns.mulberry32(0x50000000 + index);
+          const gamePackage = sourceAdapter.buildGamePackage({
+            rng,
+            difficultyMode: index % 2 === 0 ? "tv" : "tv-lite",
+            playerCount: (index % 4) + 1
+          });
+          validator.validateBoard(gamePackage.rounds[0]);
+          validator.validateBoard(gamePackage.rounds[1]);
+          validator.validateFinalOptions(gamePackage.finalOptions);
+          assertUniqueGamePackage(gamePackage);
+        }
+        log("[PASS] 200 full local game packages assembled with unique boards and finals.");
+
+        const customState = stateAdapter.createFreshState({
+          playerNames: ["Alpha", "Beta", "Gamma", "Delta"],
+          difficultyMode: "tv",
+          categoryMode: "custom"
+        });
+        assert(customState.categoryMode === "custom", "Custom category mode was not stored in fresh state.");
+        assert(customState.categorySelection.r1.confirmed === false, "Round One custom category selection started confirmed.");
+        assert(customState.categorySelection.r2.confirmed === false, "Double Round custom category selection started confirmed.");
+
+        const customSession = ns.createSessionContext();
+        const customR1Ids = pickCustomCategoryIds(repository, "r1", customSession);
+        const customR1 = boardAssembler.assembleCustomRound({
+          roundType: "r1",
+          categorySetIds: customR1Ids,
+          rng: ns.mulberry32(0x60000001),
+          usageSnapshot: usageTracker.snapshot(),
+          sessionContext: customSession,
+          difficultyMode: "tv"
+        });
+        validator.validateBoard(customR1);
+        ns.absorbBoardIntoSession(customSession, customR1);
+
+        const customR2Ids = pickCustomCategoryIds(repository, "r2", customSession);
+        const customR2 = boardAssembler.assembleCustomRound({
+          roundType: "r2",
+          categorySetIds: customR2Ids,
+          rng: ns.mulberry32(0x60000002),
+          usageSnapshot: usageTracker.snapshot(),
+          sessionContext: customSession,
+          difficultyMode: "tv"
+        });
+        validator.validateBoard(customR2);
+        ns.absorbBoardIntoSession(customSession, customR2);
+
+        const customFinalOptions = finalSelector.selectFinalOptions({
+          rng: ns.mulberry32(0x60000003),
+          usageSnapshot: usageTracker.snapshot(),
+          sessionContext: customSession,
+          difficultyMode: "tv"
+        });
+        validator.validateFinalOptions(customFinalOptions);
+        const customDraftCounts = customState.players.map((player) =>
+          Array.from({ length: 6 }, (_, index) => customState.players[index % customState.players.length].id)
+            .filter((id) => id === player.id).length
+        );
+        assert(Math.max(...customDraftCounts) - Math.min(...customDraftCounts) <= 1, "Custom draft picks are not distributed evenly.");
+        log("[PASS] Custom category mode, two custom rounds, refreshed finals, and even draft counts work.");
+
+        const freshState = stateAdapter.createFreshState({
+          playerNames: ["Alpha", "Beta", "Gamma"],
+          difficultyMode: "tv"
+        });
+        stateAdapter.saveState(freshState);
+        const loadedFresh = stateAdapter.loadState();
+        assert(loadedFresh && !loadedFresh.regeneratedCurrent && !loadedFresh.salvagedLegacy, "Fresh local save failed to reload cleanly.");
+        assert(Array.isArray(loadedFresh.state.players) && loadedFresh.state.players.length === 3, "Fresh local save lost players.");
+        log("[PASS] Fresh local save/load path works.");
+
+        window.localStorage.setItem(ns.LOCAL_STATE_KEY, JSON.stringify({
+          version: ns.LOCAL_RUNTIME_VERSION,
+          players: [],
+          rounds: []
+        }));
+        const recovered = stateAdapter.loadState();
+        assert(recovered && recovered.regeneratedCurrent, "Corrupted current save did not regenerate.");
+        assert(Array.isArray(recovered.state.rounds) && recovered.state.rounds.length === 2, "Recovered save did not rebuild rounds.");
+        log("[PASS] Corrupted current save regenerates a fresh local board.");
+
+        clearRuntimeStorage();
+        window.localStorage.setItem(ns.LEGACY_STATE_KEYS[0], JSON.stringify({
+          players: [{ name: "Legacy One" }, { name: "Legacy Two" }],
+          difficultyMode: "tv-lite"
+        }));
+        const salvaged = stateAdapter.loadState();
+        assert(salvaged && salvaged.salvagedLegacy, "Legacy save was not salvaged.");
+        assert(salvaged.state.players[0].name === "Legacy One", "Legacy salvage did not preserve player continuity.");
+        assert(salvaged.state.difficultyMode === "tv", "Legacy salvage did not normalize difficulty.");
+        log("[PASS] Legacy save salvage keeps players and rebuilds the board with the single TV-style difficulty.");
+
+        clearRuntimeStorage();
+        document.body.dataset.smokeStatus = "pass";
+        outputEl.innerHTML = `<span class="ok">${lines.join("\n")}\n[PASS] Smoke harness completed.</span>`;
+      } catch (error) {
+        document.body.dataset.smokeStatus = "fail";
+        outputEl.innerHTML = `<span class="fail">${lines.join("\n")}\n[FAIL] ${String(error && error.stack || error)}</span>`;
+      }
+    })(window.Jeopardy = window.Jeopardy || {});
+  </script>
+</body>
+</html>

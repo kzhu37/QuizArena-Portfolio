@@ -1,0 +1,112 @@
+name: Portfolio verify
+
+# Verifies both the portable production build and the deeper Windows-only tooling.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: portfolio-verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  portable-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Check portfolio writing
+        run: npm run portfolio:lint
+
+      - name: Test core logic
+        run: npm run test:core
+
+      - name: Audit curated Jeopardy sources
+        run: npm run bank:audit:sources
+
+      - name: Validate Wordle and Hangman banks
+        run: npm run wordgames:validate
+
+      - name: Build portable production application
+        run: npm run build
+
+      - name: Validate generated bank and runtime parity
+        run: npm run bank:audit
+
+  verify-windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check portfolio writing
+        run: npm run portfolio:lint
+
+      - name: Verify platform
+        shell: powershell
+        run: npm run verify
+
+  capture-portfolio:
+    if: github.event_name == 'workflow_dispatch'
+    needs: verify-windows
+    runs-on: windows-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application for capture
+        run: npm run build
+
+      - name: Capture portfolio screenshots
+        shell: powershell
+        run: npm run portfolio:capture
+
+      - name: Upload portfolio screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-captures
+          path: artifacts/portfolio-captures/*.png
+          if-no-files-found: error
