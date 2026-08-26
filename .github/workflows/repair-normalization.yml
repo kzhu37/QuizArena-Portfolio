@@ -1,0 +1,46 @@
+name: Repair normalization tooling
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.event.head_commit.message == 'Repair remaining normalization patterns'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repair malformed dash normalization
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          targets = [
+              Path('tools/build-jeopardy-bank.cjs'),
+              Path('tools/validate-jeopardy-bank.cjs'),
+              Path('tools/generate-jeopardy-source-bank.cjs'),
+          ]
+          old = ".replace(/[-- - ]/g, '-')"
+          new = ".replace(/[\\u2010-\\u2015\\u2212]/g, '-')"
+          repaired = 0
+          for path in targets:
+              text = path.read_text(encoding='utf-8')
+              count = text.count(old)
+              if count:
+                  path.write_text(text.replace(old, new), encoding='utf-8')
+                  repaired += count
+                  print(f'{path}: repaired {count}')
+          if repaired < 3:
+              raise SystemExit(f'Expected at least 3 remaining malformed normalization patterns, repaired {repaired}')
+          Path('.github/workflows/repair-normalization.yml').unlink()
+          PY
+      - name: Commit repaired sources
+        run: |
+          git config user.name "Kevin Zhu"
+          git config user.email "126812866+kzhu37@users.noreply.github.com"
+          git add tools/build-jeopardy-bank.cjs tools/validate-jeopardy-bank.cjs tools/generate-jeopardy-source-bank.cjs .github/workflows/repair-normalization.yml
+          git commit -m "Repair dash normalization tooling"
+          git push
