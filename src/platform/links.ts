@@ -20,7 +20,7 @@ function buildLegacyQuery() {
 
 export function getLegacyJeopardyUrl() {
   const query = buildLegacyQuery();
-  return `./legacy/jeopardy-gameNewQuestionsV3.html${query}`;
+  return `./legacy/jeopardy.html${query}`;
 }
 
 export function getHubHashUrl() {

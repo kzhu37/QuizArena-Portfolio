@@ -13,8 +13,8 @@ fs.mkdirSync(legacySource, { recursive: true });
 fs.mkdirSync(legacyData, { recursive: true });
 
 fs.copyFileSync(
-  path.join(root, 'jeopardy-gameNewQuestionsV3.html'),
-  path.join(legacyRoot, 'jeopardy-gameNewQuestionsV3.html')
+  path.join(root, 'legacy-jeopardy.html'),
+  path.join(legacyRoot, 'jeopardy.html')
 );
 
 for (const name of fs.readdirSync(sourceDirectory).filter((name) => name.endsWith('.js')).sort()) {

@@ -13,7 +13,7 @@ if (Test-Path $legacyRoot) {
 New-Item -ItemType Directory -Path $legacySrc -Force | Out-Null
 New-Item -ItemType Directory -Path $legacyData -Force | Out-Null
 
-Copy-Item (Join-Path $root "jeopardy-gameNewQuestionsV3.html") (Join-Path $legacyRoot "jeopardy-gameNewQuestionsV3.html") -Force
+Copy-Item (Join-Path $root "legacy-jeopardy.html") (Join-Path $legacyRoot "jeopardy.html") -Force
 Copy-Item (Join-Path $root "src\jeopardy\*.js") $legacySrc -Force
 Copy-Item (Join-Path $root "data\jeopardy-bank\round1-bank.js") $legacyData -Force
 Copy-Item (Join-Path $root "data\jeopardy-bank\round2-bank.js") $legacyData -Force
