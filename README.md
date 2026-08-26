@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/lobby.webp" alt="Quizler Arena lobby with three playable portals" width="100%">
+  <img src="docs/media/lobby.png" alt="Quizler Arena lobby with three playable portals" width="100%">
 </p>
 
 | 3 playable modes | Recursive board search | 5,600-clue audited expansion | 200 complete seeded games per smoke run |
