@@ -188,7 +188,7 @@ I did not track distinct users across these sessions or collect production telem
 
 The [GitHub Actions workflow](.github/workflows/portfolio-verify.yml) checks two complementary paths:
 
-1. **Portable Linux build:** repository-wide punctuation lint, production dependency audit, focused core tests, curated Jeopardy source audit, word-game validation, production build, and generated/runtime bank parity.
+1. **Portable Linux build:** portfolio-writing punctuation lint, production dependency audit, focused core tests, curated Jeopardy source audit, word-game validation, production build, and generated/runtime bank parity.
 2. **Full Windows verification:** the deeper platform verifier, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
 
 A separate manual workflow captures reproducible README screenshots as build artifacts without automatically committing binary files.
