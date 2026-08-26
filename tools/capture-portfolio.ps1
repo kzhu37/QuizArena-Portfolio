@@ -41,9 +41,6 @@ function Stop-BrowserTree {
     }
   }
 
-  # On hosted CI, Edge can detach renderer processes from the launcher process.
-  # The runner is dedicated to this job, so clear any remaining Edge processes
-  # before starting the next isolated screenshot session.
   if ($env:GITHUB_ACTIONS -eq "true") {
     Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
   }
@@ -59,8 +56,9 @@ function Capture-Route {
   $url = "file:///$encoded$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
   $lastFailure = $null
+  $maxAttempts = 4
 
-  for ($attempt = 1; $attempt -le 2; $attempt += 1) {
+  for ($attempt = 1; $attempt -le $maxAttempts; $attempt += 1) {
     if ($env:GITHUB_ACTIONS -eq "true") {
       Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
     }
@@ -75,6 +73,8 @@ function Capture-Route {
     }
     New-Item -ItemType Directory -Path $profile | Out-Null
 
+    $stdout = Join-Path $tempRoot "$Name-stdout-$attempt.txt"
+    $stderr = Join-Path $tempRoot "$Name-stderr-$attempt.txt"
     $args = @(
       "--headless"
       "--disable-gpu"
@@ -87,51 +87,61 @@ function Capture-Route {
       "--virtual-time-budget=2200"
       "--window-size=1440,900"
       "--force-device-scale-factor=1"
-      """--user-data-dir=$profile"""
-      """--screenshot=$outputPath"""
-      """$url"""
+      "--user-data-dir=$profile"
+      "--screenshot=$outputPath"
+      $url
     )
 
-    $process = Start-Process -FilePath $browserPath -ArgumentList $args -PassThru
-    $deadline = (Get-Date).AddSeconds(45)
+    $process = Start-Process `
+      -FilePath $browserPath `
+      -ArgumentList $args `
+      -PassThru `
+      -RedirectStandardOutput $stdout `
+      -RedirectStandardError $stderr
 
-    while ((Get-Date) -lt $deadline) {
-      if (Test-Path $outputPath) {
-        break
-      }
-      if ($process.HasExited -and $process.ExitCode -ne 0) {
-        $lastFailure = "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute"
-        break
-      }
-      Start-Sleep -Milliseconds 250
+    $finished = $process.WaitForExit(45000)
+    if (-not $finished) {
+      $lastFailure = "Edge did not exit within 45 seconds while capturing $HashRoute."
+      Stop-BrowserTree -Process $process
+    }
+    elseif ($process.ExitCode -ne 0) {
+      $lastFailure = "Edge headless exited with code $($process.ExitCode) while capturing $HashRoute."
     }
 
     if (Test-Path $outputPath) {
-      Start-Sleep -Milliseconds 500
-      Stop-BrowserTree -Process $process
-      Start-Sleep -Milliseconds 500
-      Write-Host "Captured $Name -> $outputPath" -ForegroundColor Green
-      return
+      $file = Get-Item $outputPath
+      if ($file.Length -gt 1024) {
+        Stop-BrowserTree -Process $process
+        Write-Host "Captured $Name -> $outputPath ($($file.Length) bytes)" -ForegroundColor Green
+        return
+      }
+      $lastFailure = "Screenshot file was created but was unexpectedly small: $($file.Length) bytes."
+    }
+
+    if (Test-Path $stderr) {
+      $stderrText = Get-Content $stderr -Raw
+      if ($stderrText) {
+        Write-Warning "Edge stderr for $Name attempt ${attempt}:`n$stderrText"
+      }
     }
 
     Stop-BrowserTree -Process $process
     if (-not $lastFailure) {
-      $lastFailure = "Screenshot was not created within 45 seconds: $outputPath"
+      $lastFailure = "Screenshot was not created: $outputPath"
     }
 
-    if ($attempt -lt 2) {
+    if ($attempt -lt $maxAttempts) {
       Write-Host "Capture attempt $attempt failed for $Name. Retrying with a fresh browser profile..." -ForegroundColor Yellow
       Start-Sleep -Seconds 1
     }
   }
 
-  throw "$lastFailure Capture failed after 2 attempts."
+  throw "$lastFailure Capture failed after $maxAttempts attempts."
 }
 
-# Hangman has the largest staged image set, so capture it before other browser sessions.
-Capture-Route -Name "hangman" -HashRoute "#/hangman"
 Capture-Route -Name "lobby" -HashRoute "#/"
 Capture-Route -Name "wordle" -HashRoute "#/wordle"
 Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
+Capture-Route -Name "hangman" -HashRoute "#/hangman"
 
 Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green

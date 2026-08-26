@@ -143,7 +143,7 @@ export function DemoSocialControls({ config }: DemoSocialControlsProps) {
                 <div>
                   <div className="demo-social-badge">Demo Preview</div>
                   <h2 id={panelTitleId}>
-                    {isPartyPanel ? "Create Party Link" : `${config.gameTitle} Multiplayer`}
+                    {isPartyPanel ? "Demo Party Link" : `${config.gameTitle} Multiplayer Preview`}
                   </h2>
                 </div>
                 <button className="demo-social-close" onClick={closePanels} type="button">
@@ -158,7 +158,7 @@ export function DemoSocialControls({ config }: DemoSocialControlsProps) {
                       Share this presentation link with friends for the demo flow. It does not create a live online room.
                     </p>
                     <div className="demo-party-link-card">
-                      <span className="demo-party-link-label">Party Link</span>
+                      <span className="demo-party-link-label">Demo Party Link</span>
                       <code>{partyLink}</code>
                     </div>
                     <div className="demo-social-actions">
@@ -167,14 +167,14 @@ export function DemoSocialControls({ config }: DemoSocialControlsProps) {
                         onClick={handleCopyLink}
                         type="button"
                       >
-                        Copy Link
+                        Copy Demo Link
                       </RippleButton>
                       <RippleButton className="platform-button" onClick={openPartyLinkPanel} type="button">
-                        Generate New Link
+                        Generate New Demo Link
                       </RippleButton>
                     </div>
                     <p className="demo-copy-feedback" role="status">
-                      {copyStatus === "copied" ? "Link copied for demo sharing." : " "}
+                      {copyStatus === "copied" ? "Demo link copied." : " "}
                       {copyStatus === "failed" ? "Copy failed on this browser. Select and copy manually." : ""}
                     </p>
                     <p className="demo-social-footnote">
@@ -225,7 +225,7 @@ export function DemoSocialControls({ config }: DemoSocialControlsProps) {
                               onClick={() => openNotHostedNotice(mode.title)}
                               type="button"
                             >
-                              Play
+                              Preview
                             </RippleButton>
                           </div>
                         </article>
@@ -278,14 +278,14 @@ export function DemoSocialControls({ config }: DemoSocialControlsProps) {
           onClick={openMultiplayerPanel}
           type="button"
         >
-          Multiplayer
+          Multiplayer Preview
         </RippleButton>
         <RippleButton
           className="platform-button platform-button-social"
           onClick={openPartyLinkPanel}
           type="button"
         >
-          Create Party Link
+          Demo Party Link
         </RippleButton>
       </div>
       {modalOverlay}
