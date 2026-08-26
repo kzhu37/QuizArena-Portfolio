@@ -160,7 +160,7 @@ jobs:
         shell: bash
         run: git diff --check
 
-      - name: Commit cleanup and remove temporary trigger
+      - name: Commit cleanup against latest main
         shell: bash
         run: |
           rm -f .github/workflows/portfolio-dash-cleanup.yml .github/dash-cleanup-trigger
@@ -169,4 +169,6 @@ jobs:
           git add -A
           git diff --cached --check
           git commit -m 'Remove long dashes across portfolio content'
-          git push origin main
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
