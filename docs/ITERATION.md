@@ -1,10 +1,10 @@
-# Quizler Arena iteration record
+# Quizler Arena Iteration Record
 
-Quizler Arena changed through repeated social play, family and class use, presentation testing, different displays, weaker hardware, debugging, and technical failures. This document records the observations that changed the product without inventing player counts, retention statistics, or impact metrics that were not measured.
+Quizler Arena changed through repeated social play, family and class use, presentation testing, different displays, weaker hardware, debugging, and technical failures. This page collects the observations that actually changed the product.
 
 ## Origin
 
-The project began as a small Jeopardy-style game made during the Christmas period for family and friends, partly inspired by Kevin's dad's enthusiasm for Jeopardy. When the idea was revived as a larger computer science project in April 2026, repeated use exposed problems that were easy to miss in a one-time demo.
+The project began as a small Jeopardy-style game I made during the Christmas period for family and friends, partly inspired by my dad's enthusiasm for Jeopardy. When I revived the idea as a larger computer science project in April 2026, repeated use exposed problems that were easy to miss in a one-time demo.
 
 The project therefore shifted from "make a game that works" toward "make a game platform that stays varied, valid, and dependable after repeated use."
 
@@ -34,10 +34,10 @@ The current assembler ranks candidates, searches recursively, and rolls back par
 
 Runtime generation was useful for exploring content quickly. It also made quality, reproducibility, startup, credential safety, duplicate control, and debugging harder.
 
-The project kept what the experiment taught but removed the dependency from final gameplay. The current system uses curated local data and reproducible validation instead.
+I kept what the experiment taught me but removed the dependency from final gameplay. The current system uses curated local data and reproducible validation instead.
 
-## Evidence standard
+## What I did not measure
 
-This public portfolio distinguishes qualitative observation from measured impact. It does not report a verified player count, retention statistic, revenue figure, or performance improvement because those metrics were not collected.
+I did not track a reliable distinct-player count across every family, friend, and classroom session, and I did not collect retention, revenue, or performance-improvement metrics.
 
-Likewise, automated trivia audits verify structural properties such as uniqueness, format, difficulty bands, source parity, and answer leakage. They do not automatically establish factual truth.
+Automated trivia audits check structural properties such as uniqueness, format, difficulty bands, source parity, and answer leakage. They do not determine factual truth, so research and human review still matter.
