@@ -8,7 +8,7 @@
     "bank:generate": "node ./tools/generate-jeopardy-source-bank.cjs",
     "bank:build": "node ./tools/build-jeopardy-bank.cjs",
     "bank:audit": "node ./tools/validate-jeopardy-bank.cjs",
-    "bank:audit:sources": "node ./tools/audit-jeopardy-authored-sources.cjs",
+    "bank:audit:sources": "node ./tools/audit-jeopardy-curated-sources.cjs",
     "wordgames:build": "node ./tools/build-word-game-banks.cjs",
     "wordgames:validate": "node ./tools/validate-word-game-banks.cjs",
     "shell:file": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-file-shell.ps1",

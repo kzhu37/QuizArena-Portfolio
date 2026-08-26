@@ -37,10 +37,10 @@ try {
     }
   }
 
-  Write-Host "[1/9] Auditing authored Jeopardy expansion sources..." -ForegroundColor Cyan
-  & node ".\tools\audit-jeopardy-authored-sources.cjs"
+  Write-Host "[1/9] Auditing curated Jeopardy expansion sources..." -ForegroundColor Cyan
+  & node ".\tools\audit-jeopardy-curated-sources.cjs"
   if ($LASTEXITCODE -ne 0) {
-    throw "Authored Jeopardy source audit failed with exit code $LASTEXITCODE."
+    throw "Curated Jeopardy source audit failed with exit code $LASTEXITCODE."
   }
 
   Write-Host "[2/9] Running focused core logic tests..." -ForegroundColor Cyan

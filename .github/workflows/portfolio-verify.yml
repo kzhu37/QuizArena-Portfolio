@@ -38,7 +38,7 @@ jobs:
       - name: Test core logic
         run: npm run test:core
 
-      - name: Audit authored Jeopardy sources
+      - name: Audit curated Jeopardy sources
         run: npm run bank:audit:sources
 
       - name: Build portable production application
