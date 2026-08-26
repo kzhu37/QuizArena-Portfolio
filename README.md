@@ -47,6 +47,8 @@ Quizler Arena started as a small Jeopardy-style game I made during the Christmas
 
 When I returned to the idea as a larger computer science project in April 2026, repeated play exposed a harder problem. A game could work once and still become repetitive, build weak category combinations, save bad state, break when assets changed, or become difficult to use on a projector or weaker computer.
 
+The project also moved beyond small-group testing. I played Quizler Arena in multiple full-class sessions, where projector readability, pacing, screen fit, and shared-screen interaction became practical constraints rather than hypothetical ones.
+
 That changed the goal:
 
 **How do you make a local game platform stay varied, valid, and dependable after repeated use?**
@@ -164,19 +166,19 @@ The important decision was not adding AI. It was recognizing when the experiment
 
 ## Iteration from real use
 
-Quizler Arena changed through repeated social play, family and class use, presentation testing, different displays, weaker hardware, and technical failures.
+Quizler Arena changed through repeated social play, including multiple full-class sessions, presentation testing, different displays, weaker hardware, and technical failures.
 
 | What I observed | What changed |
 | --- | --- |
 | One Jeopardy game did not provide enough variety for repeated social play | Expanded the product, then kept the final scope focused on three modes |
 | Repeated sessions exposed duplicate answers, repetitive categories, and weak clue combinations | Added history, novelty scoring, topic-family balancing, and constrained board assembly |
-| Projector and different-screen use could push important UI out of view | Improved fullscreen behavior, no-scroll layouts, control sizing, and cross-screen stability |
+| Full-class sessions made projector readability, pacing, screen fit, and shared-screen interaction more demanding | Improved fullscreen behavior, no-scroll layouts, control sizing, and cross-screen stability |
 | Weaker hardware made visual complexity a reliability issue | Refined visual layers and fallbacks instead of assuming one ideal machine |
 | Runtime-generated questions could be inconsistent or service-dependent | Moved final gameplay to curated local data with reproducible validation |
 | Saved state could exist but still be structurally invalid | Added validation, regeneration, and legacy continuity recovery |
 | One successful board did not prove that the next generated game would work | Added deterministic complete-game smoke testing |
 
-I did not collect production telemetry for player counts, retention, or measured performance improvement, so I do not claim those metrics. The detailed iteration record is in [`docs/ITERATION.md`](docs/ITERATION.md).
+I did not track distinct users across these sessions or collect production telemetry for retention or measured performance improvement, so I do not convert classroom participation into a user-count metric. The detailed iteration record is in [`docs/ITERATION.md`](docs/ITERATION.md).
 
 ## Verification
 
