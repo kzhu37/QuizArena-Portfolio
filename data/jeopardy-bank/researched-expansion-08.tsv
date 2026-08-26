@@ -1,0 +1,404 @@
+# Hand-authored researched expansion batch 08.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: Parks Canada and Natural Resources Canada geography resources (https://parks.canada.ca/ and https://natural-resources.canada.ca/); NCBI Bookshelf biology references (https://www.ncbi.nlm.nih.gov/books/).
+# Research anchors: Computer History Museum (https://computerhistory.org/), Game Developers Conference archives (https://www.gdcvault.com/), and Smithsonian food-history collections (https://americanhistory.si.edu/explore/topics/food-history).
+r2	Canadian Geography	400	41	This glacial ridge west of Toronto crosses the Grand River watershed near the city of Brantford.	What is the Paris Moraine?
+r2	Canadian Geography	400	41	Before modern locks bypassed the Lachine Rapids, this canal carried ships between Lake Saint Francis and Montreal.	What was the Soulanges Canal?
+r2	Canadian Geography	400	41	A deep submarine valley carries cold Atlantic water into the Gulf of St. Lawrence beneath its surface layers.	What is the Laurentian Channel?
+r2	Canadian Geography	400	41	Anticosti Island and Quebec's north shore face each other across this northern entrance to the Gulf of St. Lawrence.	What is Jacques Cartier Strait?
+r2	Canadian Geography	400	41	Wasaga Beach fronts this southern inlet of Georgian Bay, where a river sharing its name enters Lake Huron.	What is Nottawasaga Bay?
+r2	Canadian Geography	400	41	This Manitoba lake west of its much larger namesake shares a name meaning muddy waters.	What is Lake Winnipegosis?
+r2	Canadian Geography	400	41	The Peace and Athabasca rivers create this huge inland wetland at the western end of Lake Athabasca.	What is the Peace-Athabasca Delta?
+r2	Canadian Geography	400	41	A causeway links western Manitoulin to this smaller island, part of an Ontario municipality sharing both names.	What is Barrie Island?
+r2	Canadian Geography	400	41	This high plateau straddling Alberta and Saskatchewan escaped the last continental ice sheet and supports lodgepole pine forest.	What are the Cypress Hills?
+r2	Canadian Geography	400	41	Winnipeg can divert floodwater around the city through this channel nicknamed Duff's Ditch.	What is the Red River Floodway?
+r2	Canadian Geography	400	41	Ontario gives this name to the lake-rich transition zone between the Canadian Shield and the limestone plains near Kingston.	What is the Land Between?
+r2	Canadian Geography	400	41	Vineyards and orchards follow this southern British Columbia river valley west of Osoyoos.	What is the Similkameen Valley?
+r2	Canadian Geography	400	41	A fertile Nova Scotia lowland between North and South Mountain became famous for apples and tides.	What is the Annapolis Valley?
+r2	Canadian Geography	400	41	The Chic-Choc Mountains form the spine of this eastern Quebec peninsula.	What is the Gaspé Peninsula?
+r2	Canadian Geography	400	41	A long sand spit projecting into Lake Erie supports wetlands, migrating birds, and a UNESCO biosphere reserve.	What is Long Point?
+r2	Canadian Geography	400	41	The upper Bay of Fundy divides into Chignecto Bay and this tidal basin beside Nova Scotia.	What is Minas Basin?
+r2	Canadian Geography	800	55	This long Columbia Icefield outlet is the principal source of a major river crossing Alberta and Saskatchewan.	What is the Saskatchewan Glacier?
+r2	Canadian Geography	800	55	Ice from this Rocky Mountain icefield drains toward the Arctic, Atlantic, and Pacific watersheds.	What is the Columbia Icefield?
+r2	Canadian Geography	800	55	These northern Labrador peaks include Mount Caubvick, the highest point in mainland Canada east of the Rockies.	What are the Torngat Mountains?
+r2	Canadian Geography	800	55	A national park reserve protects boreal forest and glacially rounded peaks in this Labrador range south of Lake Melville.	What are the Mealy Mountains?
+r2	Canadian Geography	800	55	A provincial marine park protects this maze of islands northeast of Vancouver Island near Alert Bay.	What is the Broughton Archipelago?
+r2	Canadian Geography	800	55	Jagged black peaks and brightly colored tundra define this territorial park north of Dawson City.	What is Tombstone Territorial Park?
+r2	Canadian Geography	800	55	This tributary of the South Nahanni drains the tungsten-rich Selwyn Mountains and passes the former Cantung mine.	What is the Flat River?
+r2	Canadian Geography	800	55	This Canadian Heritage River flows north through Nunavut tundra into Baker Lake.	What is the Kazan River?
+r2	Canadian Geography	800	55	A vast wildlife sanctuary takes its name from this river flowing across the Northwest Territories and Nunavut to Hudson Bay.	What is the Thelon River?
+r2	Canadian Geography	800	55	Named for an Arctic explorer, this Nunavut river runs from Contwoyto Lake to Chantrey Inlet.	What is the Back River?
+r2	Canadian Geography	800	55	A spectacular canyon interrupts this Nunavut river before it reaches Arctic Sound east of Bathurst Inlet.	What is the Hood River?
+r2	Canadian Geography	800	55	King William Island lies east of this broad gulf on Nunavut's central Arctic coast.	What is Queen Maud Gulf?
+r2	Canadian Geography	800	55	The narrow isthmus at its southern end connects this Nunavut peninsula to the mainland near Repulse Bay.	What is the Boothia Peninsula?
+r2	Canadian Geography	800	55	Hudson Strait separates Baffin Island from this large northern Quebec peninsula.	What is the Ungava Peninsula?
+r2	Canadian Geography	800	55	Jacques Cartier named this bay between Quebec's Gaspé Peninsula and New Brunswick after encountering unusually hot summer weather.	What is Chaleur Bay?
+r2	Canadian Geography	800	55	This British Columbia sound north of Vancouver Island opens westward between the mainland and the Haida Gwaii archipelago.	What is Queen Charlotte Sound?
+r2	Canadian Geography	1200	67	Most of Alberta's oil and gas resources occupy this immense subsurface basin east of the Rockies.	What is the Western Canadian Sedimentary Basin?
+r2	Canadian Geography	1200	67	Potash-rich layers extend beneath southern Saskatchewan within this intracratonic basin shared with the United States.	What is the Williston Basin?
+r2	Canadian Geography	1200	67	This long rise separates Manitoba's lowland lakes from higher country to the west and includes Riding Mountain.	What is the Manitoba Escarpment?
+r2	Canadian Geography	1200	67	A narrow fertile plain follows the lower Great Lakes and major river valley through southern Ontario and Quebec.	What are the Great Lakes-Saint Lawrence Lowlands?
+r2	Canadian Geography	1200	67	Alberta and Saskatchewan lie largely within this physiographic region of level sedimentary rock east of the Cordillera.	What are the Interior Plains?
+r2	Canadian Geography	1200	67	Folded sedimentary rocks form this remote Arctic range across northern Ellesmere and Axel Heiberg islands.	What are the Innuitian Mountains?
+r2	Canadian Geography	1200	67	Newfoundland, the Maritimes, and eastern Quebec preserve the Canadian portion of this ancient mountain belt.	What is the Appalachian Orogen?
+r2	Canadian Geography	1200	67	Paleoproterozoic rocks between the Slave and Superior cratons make up this broad northern Shield province.	What is the Churchill Province?
+r2	Canadian Geography	1200	67	Much of mainland Nunavut east of the Queen Maud block belongs to this Archean component of the northern Shield.	What is the Rae Province?
+r2	Canadian Geography	1200	67	Yellowknife sits on the western margin of this ancient craton, one of the core blocks of the Canadian Shield.	What is the Slave Province?
+r2	Canadian Geography	1200	67	Northern Saskatchewan's richest uranium deposits occur near the base of this Proterozoic sandstone basin.	What is the Athabasca Basin?
+r2	Canadian Geography	1200	67	Gold camps near Dryden and Vermilion Bay occupy this Archean volcanic belt in northwestern Ontario.	What is the Wabigoon Greenstone Belt?
+r2	Canadian Geography	1200	67	This 1.27-billion-year-old radiating intrusion system cuts much of the northwestern Shield and is associated with Coppermine River flood basalts.	What is the Mackenzie dike swarm?
+r2	Canadian Geography	1200	67	The coast ranges, interior plateaus, and Rocky Mountains together make up Canada's portion of this western system.	What is the Canadian Cordillera?
+r2	Canadian Geography	1200	67	A thick Carboniferous-to-Paleogene sedimentary succession beneath the Queen Elizabeth Islands defines this Canadian Arctic basin.	What is the Sverdrup Basin?
+r2	Canadian Geography	1200	67	This geological province underlying much of northern Nunavut includes rocks deformed during Paleozoic mountain building.	What is the Franklinian Basin?
+r2	Canadian Geography	1600	81	Marine clay and whale fossils show that this postglacial sea once flooded the Ottawa and St. Lawrence valleys.	What is the Champlain Sea?
+r2	Canadian Geography	1600	81	A huge meltwater lake once covered much of Manitoba and sent catastrophic drainage toward several oceans.	What was Glacial Lake Agassiz?
+r2	Canadian Geography	1600	81	This younger postglacial sea flooded the Hudson Bay Lowlands after the continental ice sheet retreated.	What was the Tyrrell Sea?
+r2	Canadian Geography	1600	81	A field near Peterborough contains thousands of these streamlined glacial hills aligned with former ice flow.	What are drumlins?
+r2	Canadian Geography	1600	81	Wind and water carved hoodoos from the soft rocks of this Alberta formation exposed around Drumheller.	What is the Horseshoe Canyon Formation?
+r2	Canadian Geography	1600	81	Ice-cored hills clustered near Tuktoyaktuk are classic examples of this permafrost landform.	What are pingos?
+r2	Canadian Geography	1600	81	Peat mounds containing lenses of permanently frozen ground form this subarctic landform common near Hudson Bay.	What are palsas?
+r2	Canadian Geography	1600	81	Ancient shorelines now stand above Hudson Bay because the crust continues rebounding through this process.	What is glacial isostatic adjustment?
+r2	Canadian Geography	1600	81	Meltwater from this Wapta Icefield outlet plunges over Yoho National Park's Takakkaw Falls.	What is the Daly Glacier?
+r2	Canadian Geography	1600	81	A 2016 retreat redirected most meltwater from the Yukon’s Slims River into another drainage in this observed event.	What is river piracy?
+r2	Canadian Geography	1600	81	After a 2016 drainage shift, most Kaskawulsh Glacier meltwater flowed toward this Yukon river and ultimately the Gulf of Alaska.	What is the Alsek River?
+r2	Canadian Geography	1600	81	Eureka weather station lies on this broad Ellesmere Island peninsula, a High Arctic polar oasis supporting muskoxen and wolves.	What is the Fosheim Peninsula?
+r2	Canadian Geography	1600	81	Kluane Lake and part of the Alaska Highway occupy this broad fault-aligned valley in southwestern Yukon.	What is the Shakwak Trench?
+r2	Canadian Geography	1600	81	Raised deltas along the Arctic coast record the retreat of this ice-sheet center west of Hudson Bay.	What is the Keewatin ice dome?
+r2	Canadian Geography	1600	81	Around 1750, a Northwest Territories river abandoned roughly 100 kilometres of channel when it broke through coastal cliffs to the sea in this event.	What is the Horton River avulsion?
+r2	Canadian Geography	1600	81	This Alberta tributary drains a reservoir beneath the Brazeau Range before joining the North Saskatchewan.	What is the Brazeau River?
+r2	Canadian Geography	2000	94	Debate over rocks from this Quebec belt concerns whether they preserve Earth's oldest known crust.	What is the Nuvvuagittuq Greenstone Belt?
+r2	Canadian Geography	2000	94	Ediacaran fossils preserved on tilted coastal bedding planes make this Newfoundland site globally important.	What is Mistaken Point?
+r2	Canadian Geography	2000	94	Exceptionally preserved Devonian fish fossils give this Gaspé Peninsula park its scientific importance.	What is Miguasha National Park?
+r2	Canadian Geography	2000	94	A roughly 23-kilometre impact structure on Devon Island hosts a research site used as a Mars analogue.	What is Haughton Crater?
+r2	Canadian Geography	2000	94	An almost perfectly circular lake in Nunavik occupies a young meteorite crater formerly called New Quebec Crater.	What is Pingualuit Crater?
+r2	Canadian Geography	2000	94	Two adjacent circular lakes in western Quebec fill a paired impact structure with east and west components.	What are the Clearwater Lakes?
+r2	Canadian Geography	2000	94	Paleoproterozoic volcanic and sedimentary rocks crossing northern Quebec host major nickel deposits in this belt.	What is the Cape Smith Belt?
+r2	Canadian Geography	2000	94	Deep crustal rocks brought toward the surface form this northeast-trending geological uplift through northern Ontario.	What is the Kapuskasing Structural Zone?
+r2	Canadian Geography	2000	94	Collision between the Superior and Hearne cratons created this Paleoproterozoic mountain belt through Manitoba and Saskatchewan.	What is the Trans-Hudson Orogen?
+r2	Canadian Geography	2000	94	This major tectonic boundary marks the northwestern limit of Grenville deformation across Ontario and Quebec.	What is the Grenville Front?
+r2	Canadian Geography	2000	94	Pacific and North American crust slide past one another along this offshore strike-slip boundary west of Haida Gwaii.	What is the Queen Charlotte Fault?
+r2	Canadian Geography	2000	94	This long strike-slip fault crosses Yukon and continues into Alaska, offsetting older geological belts.	What is the Tintina Fault?
+r2	Canadian Geography	2000	94	A structural boundary named for Canada's first Geological Survey director separates deformed Appalachian rocks from the craton.	What is Logan's Line?
+r2	Canadian Geography	2000	94	Folding during a Paleozoic event raised a north-south belt through the central Canadian Arctic under this name.	What is the Boothia Uplift?
+r2	Canadian Geography	2000	94	Coal seams and fossil forests on Ellesmere and Axel Heiberg islands occur within this Cretaceous-to-Eocene stratigraphic unit.	What is the Eureka Sound Group?
+r2	Canadian Geography	2000	94	An inhabited semicircular depression northeast of Quebec City records a meteorite strike in this named geological structure.	What is the Charlevoix impact structure?
+r2	Biology	400	41	These membrane channels let water cross rapidly while excluding ions.	What are aquaporins?
+r2	Biology	400	41	Six connexin proteins assemble into this half-channel that joins its counterpart on a neighboring cell.	What is a connexon?
+r2	Biology	400	41	Intermediate filaments anchor into this spotlike junction that gives tissues mechanical strength.	What is a desmosome?
+r2	Biology	400	41	Claudins and occludins form this seal near the apical edge of neighboring epithelial cells.	What is a tight junction?
+r2	Biology	400	41	Water moving between adjacent xylem elements passes through this porous wall region spanning a bordered pit.	What is a pit membrane?
+r2	Biology	400	41	This membrane surrounding a plant cell's central vacuole controls traffic into the storage compartment.	What is the tonoplast?
+r2	Biology	400	41	Carbohydrate-rich material coating the outside of an animal cell helps with protection, adhesion, and recognition.	What is the glycocalyx?
+r2	Biology	400	41	This microtubule-organizing center usually contains a perpendicular pair of centrioles in animal cells.	What is the centrosome?
+r2	Biology	400	41	A centriole-like structure at the base of a cilium organizes its microtubules.	What is a basal body?
+r2	Biology	400	41	Freshwater protists expel excess osmotic water using this pulsating organelle.	What is a contractile vacuole?
+r2	Biology	400	41	Enzymes in this cap on a sperm head help it penetrate an egg's outer layers.	What is the acrosome?
+r2	Biology	400	41	This glycoprotein coat surrounding a mammalian egg participates in fertilization and blocks later sperm entry.	What is the zona pellucida?
+r2	Biology	400	41	This bone-resorbing cell dissolves mineral and degrades matrix using an acidic sealed compartment.	What is an osteoclast?
+r2	Biology	400	41	Mucus-filled granules give this secretory epithelial cell its cup-shaped appearance.	What is a goblet cell?
+r2	Biology	400	41	In many grasses, these specialized epidermal neighbors assist the paired cells that operate a stoma.	What are subsidiary cells?
+r2	Biology	400	41	This insulating glial cell wraps axons with myelin in the peripheral nervous system.	What is a Schwann cell?
+r2	Biology	800	55	Vesicles bearing this coat return cargo from the Golgi toward the endoplasmic reticulum.	What is COPI?
+r2	Biology	800	55	A different coat complex buds transport carriers from the endoplasmic reticulum toward the Golgi.	What is COPII?
+r2	Biology	800	55	This triskelion-shaped protein forms a lattice around many endocytic vesicles.	What is clathrin?
+r2	Biology	800	55	Flask-shaped membrane invaginations depend on this scaffolding protein and are called caveolae.	What is caveolin?
+r2	Biology	800	55	This GTPase winds around the neck of a budding vesicle and helps pinch it free.	What is dynamin?
+r2	Biology	800	55	Complementary members of this protein family zipper together to drive vesicle fusion with a target membrane.	What are SNARE proteins?
+r2	Biology	800	55	Members of this small-GTPase family mark membrane compartments and recruit tethering factors.	What are Rab proteins?
+r2	Biology	800	55	This ribonucleoprotein recognizes a nascent secretory-protein signal and briefly pauses translation.	What is the signal recognition particle?
+r2	Biology	800	55	A Sec61 channel provides this protein-conducting passage across the endoplasmic-reticulum membrane.	What is the translocon?
+r2	Biology	800	55	A short basic amino-acid motif directs a protein through nuclear pores.	What is a nuclear localization signal?
+r2	Biology	800	55	This receptor binds a nuclear-targeting motif in the cytosol and escorts its cargo into the nucleus.	What is importin?
+r2	Biology	800	55	Ran-GTP helps this transport receptor carry marked proteins out of the nucleus.	What is exportin?
+r2	Biology	800	55	A barrel-shaped protease complex degrades proteins tagged with polyubiquitin chains.	What is the 26S proteasome?
+r2	Biology	800	55	Cells attach this small protein to a substrate as a signal for degradation or altered trafficking.	What is ubiquitin?
+r2	Biology	800	55	This double-membrane compartment encloses cytoplasm before fusion with a lysosome.	What is an autophagosome?
+r2	Biology	800	55	A proton-pumping rotary enzyme acidifies lysosomes and endosomes using ATP.	What is V-type ATPase?
+r2	Biology	1200	67	Accumulated misfolded proteins in the endoplasmic reticulum activate this three-branch stress program.	What is the unfolded protein response?
+r2	Biology	1200	67	Misfolded secretory proteins can be sent back across the endoplasmic-reticulum membrane and destroyed through this pathway.	What is ER-associated degradation?
+r2	Biology	1200	67	A premature stop codon can trigger this surveillance pathway to eliminate the faulty messenger RNA.	What is nonsense-mediated decay?
+r2	Biology	1200	67	A ribosome stalled on a damaged or structured messenger RNA triggers this quality-control pathway.	What is no-go decay?
+r2	Biology	1200	67	This barrel-shaped folding machine encloses an unfolded protein in an ATP-driven chamber.	What is a chaperonin?
+r2	Biology	1200	67	This heat-shock protein family repeatedly binds exposed hydrophobic segments during protein folding.	What is Hsp70?
+r2	Biology	1200	67	A ring-shaped complex holds replicated sister chromatids together until anaphase.	What is cohesin?
+r2	Biology	1200	67	This related structural-maintenance complex compacts and organizes chromosomes for mitosis.	What is condensin?
+r2	Biology	1200	67	At anaphase onset, this protease cleaves the subunit holding sister chromatids together.	What is separase?
+r2	Biology	1200	67	Until the proper moment, this inhibitory protein binds and restrains separase.	What is securin?
+r2	Biology	1200	67	This ubiquitin ligase targets securin and cyclin B, allowing a cell to enter anaphase and exit mitosis.	What is the anaphase-promoting complex?
+r2	Biology	1200	67	Unattached kinetochores delay anaphase through this chromosome-segregation surveillance system.	What is the spindle assembly checkpoint?
+r2	Biology	1200	67	This multiprotein structure assembles on centromeric chromatin and connects chromosomes to spindle microtubules.	What is the kinetochore?
+r2	Biology	1200	67	A six-protein complex protects chromosome ends and regulates access by telomerase.	What is shelterin?
+r2	Biology	1200	67	This enzyme adds acetyl groups to lysines on histones, often loosening chromatin for transcription.	What is a histone acetyltransferase?
+r2	Biology	1200	67	ATP powers this chromatin-remodeling family to slide or eject nucleosomes; its name joins two yeast mutant phenotypes.	What is SWI/SNF?
+r2	Biology	1600	81	In Wnt signaling, this cytoplasmic phosphoprotein relays signals from Frizzled receptors and helps stabilize beta-catenin.	What is Dishevelled?
+r2	Biology	1600	81	Ligand binding relieves this twelve-pass receptor's inhibition of Smoothened in Hedgehog signaling.	What is Patched?
+r2	Biology	1600	81	Proteolysis by this intramembrane complex releases the active intracellular portion of a Notch receptor.	What is gamma-secretase?
+r2	Biology	1600	81	These transcriptional coactivators enter the nucleus when the Hippo kinase cascade is inactive.	What are YAP and TAZ?
+r2	Biology	1600	81	Cytokine signaling induces this protein family, which then feeds back to inhibit JAK enzymes.	What are suppressors of cytokine signaling?
+r2	Biology	1600	81	The guanine-nucleotide exchange factor abbreviated SOS activates Ras by promoting GDP release.	What is Son of Sevenless?
+r2	Biology	1600	81	This lipid phosphatase opposes PI3 kinase by converting PIP3 back to PIP2.	What is PTEN?
+r2	Biology	1600	81	TSC1 and TSC2 form this inhibitory regulator upstream of the nutrient-sensing mTOR complex.	What is the tuberous sclerosis complex?
+r2	Biology	1600	81	This kinase assembly phosphorylates IκB, freeing NF-κB to enter the nucleus.	What is the IKK complex?
+r2	Biology	1600	81	Receptor-regulated Smads partner with this common mediator before controlling transcription.	What is SMAD4?
+r2	Biology	1600	81	Most Toll-like receptors recruit this adaptor to initiate inflammatory signaling.	What is MyD88?
+r2	Biology	1600	81	RIG-I-like receptors signal through this mitochondrial membrane adaptor during antiviral defense.	What is MAVS?
+r2	Biology	1600	81	This cytosolic sensor assembles an inflammasome in response to diverse cellular danger signals.	What is NLRP3?
+r2	Biology	1600	81	Inflammatory caspases cleave this protein so its N-terminal fragments form membrane pores during pyroptosis.	What is gasdermin D?
+r2	Biology	1600	81	The lipidated form of this protein associates with growing autophagic membranes and is widely used as an experimental marker.	What is LC3?
+r2	Biology	1600	81	This cyclic dinucleotide made by cGAS activates an endoplasmic-reticulum adaptor in response to cytosolic DNA.	What is cyclic GMP-AMP?
+r2	Biology	2000	94	This protein segment excises itself after translation and joins the surrounding portions with a new peptide bond.	What is an intein?
+r2	Biology	2000	94	Temperature-dependent folding of this untranslated RNA element exposes or hides a translation-start site.	What is an RNA thermometer?
+r2	Biology	2000	94	Bacterial translation of a leader peptide can determine whether a downstream transcription terminator forms in this regulatory mechanism.	What is attenuation?
+r2	Biology	2000	94	Separate precursor RNAs contribute exons to one mature molecule through this unusual processing reaction.	What is trans-splicing?
+r2	Biology	2000	94	ADAR enzymes convert adenosine to inosine in double-stranded RNA through this modification.	What is A-to-I RNA editing?
+r2	Biology	2000	94	Small RNAs associated with Piwi proteins suppress transposable elements in animal germ cells through this pathway.	What is the piRNA pathway?
+r2	Biology	2000	94	Endonucleases restore two continuous DNA duplexes by cutting and rejoining this four-way recombination intermediate.	What is Holliday-junction resolution?
+r2	Biology	2000	94	A collapsed replication fork can copy DNA all the way to a chromosome end through this conservative repair route.	What is break-induced replication?
+r2	Biology	2000	94	Dozens of clustered chromosome rearrangements may arise in one catastrophic shattering-and-reassembly event.	What is chromothripsis?
+r2	Biology	2000	94	An allele transmitted to more than half of an organism's offspring despite no fitness advantage exhibits this phenomenon.	What is meiotic drive?
+r2	Biology	2000	94	Some tissues undergo repeated genome replication without cell division through this process.	What is endoreduplication?
+r2	Biology	2000	94	Thousands of interlocked circular molecules form this distinctive mitochondrial DNA network in trypanosomes.	What is kinetoplast DNA?
+r2	Biology	2000	94	A preassembled glycolipid added in the endoplasmic reticulum tethers certain proteins to the cell surface.	What is a glycosylphosphatidylinositol anchor?
+r2	Biology	2000	94	Covalent attachment of farnesyl or geranylgeranyl groups helps target proteins such as Ras to membranes.	What is prenylation?
+r2	Biology	2000	94	Nuclear transport, transcription, and protein interactions can change through this covalent protein modification, which generally does not trigger degradation.	What is SUMOylation?
+r2	Biology	2000	94	Adding the ubiquitin-like protein NEDD8 activates many cullin-RING ligases in this modification.	What is neddylation?
+r2	Computer Science	400	41	Two distinct keys mapped to the same table position create this event in a hash table.	What is a hash collision?
+r2	Computer Science	400	41	Game-playing programs cache evaluated positions and their search bounds in this specialized lookup structure.	What is a transposition table?
+r2	Computer Science	400	41	A compiler may prove that an object never outlives its creating function, allowing stack allocation or removal of the allocation entirely.	What is escape analysis?
+r2	Computer Science	400	41	A special marker placed at the end of input lets a loop avoid checking its boundary on every iteration.	What is a sentinel value?
+r2	Computer Science	400	41	Read and write positions wrap around the end of this fixed-size queue storage structure.	What is a circular buffer?
+r2	Computer Science	400	41	Each removal from this abstract data type returns the item with the most urgent key rather than the oldest item.	What is a priority queue?
+r2	Computer Science	400	41	This graph representation stores, for each vertex, a collection of its neighboring vertices.	What is an adjacency list?
+r2	Computer Science	400	41	A directed acyclic graph can be arranged so every edge points from an earlier item to a later one by this operation.	What is topological sorting?
+r2	Computer Science	400	41	Choosing the locally best-looking option at each step characterizes this algorithmic strategy.	What is a greedy algorithm?
+r2	Computer Science	400	41	Optimization search discards a subtree when its best possible result cannot beat the incumbent under this method.	What is branch and bound?
+r2	Computer Science	400	41	Merge sort exemplifies this strategy of splitting a problem, solving pieces, and combining their answers.	What is divide and conquer?
+r2	Computer Science	400	41	The runtime type of an object determines which overridden method executes through this mechanism.	What is dynamic dispatch?
+r2	Computer Science	400	41	Code cannot modify this kind of object after construction, so changes produce new values instead.	What is an immutable object?
+r2	Computer Science	400	41	A program allocates many short-lived objects from one region and releases them all together under this memory strategy.	What is arena allocation?
+r2	Computer Science	400	41	Two unsynchronized writers read the same old value, then one overwrites the other's result in this database anomaly.	What is a lost update?
+r2	Computer Science	400	41	Two polite tasks keep reacting to each other and changing state but never complete in this concurrency failure.	What is livelock?
+r2	Computer Science	800	55	This disjoint-set structure quickly merges groups and finds which representative contains an item.	What is union-find?
+r2	Computer Science	800	55	Each node stores one character plus low, equal, and high branches in this dictionary structure.	What is a ternary search tree?
+r2	Computer Science	800	55	Two candidate buckets and relocations give this probabilistic membership structure its avian name.	What is a cuckoo filter?
+r2	Computer Science	800	55	Multiple linked-list levels let this randomized ordered structure achieve logarithmic expected searches.	What is a skip list?
+r2	Computer Science	800	55	This self-balancing search tree rebuilds an unbalanced subtree instead of storing colors or rotations at every update.	What is a scapegoat tree?
+r2	Computer Science	800	55	Named for two Soviet mathematicians, this search tree permits node heights to differ by at most one.	What is an AVL tree?
+r2	Computer Science	800	55	Writes first enter memory and then cascade through sorted disk runs in this storage-engine structure.	What is a log-structured merge-tree?
+r2	Computer Science	800	55	This in-place comparison sort repeatedly removes the maximum from a binary heap.	What is heapsort?
+r2	Computer Science	800	55	Sorting numbers one digit position at a time can avoid direct comparisons under this method.	What is radix sort?
+r2	Computer Science	800	55	A prefix-function table lets this string-search algorithm avoid rechecking characters after a mismatch.	What is the Knuth-Morris-Pratt algorithm?
+r2	Computer Science	800	55	Rolling hashes let this pattern-matching algorithm compare many text windows efficiently.	What is the Rabin-Karp algorithm?
+r2	Computer Science	800	55	A heuristic estimate guides this shortest-path search toward its target while preserving optimality when admissible.	What is A-star search?
+r2	Computer Science	800	55	Dynamic programming over every intermediate vertex yields all-pairs shortest paths in this cubic-time algorithm.	What is the Floyd-Warshall algorithm?
+r2	Computer Science	800	55	Growing one connected tree by repeatedly choosing its cheapest outgoing edge describes this minimum-spanning-tree method.	What is Prim's algorithm?
+r2	Computer Science	800	55	Sorting all edges by weight and adding those that do not create a cycle describes this spanning-tree method.	What is Kruskal's algorithm?
+r2	Computer Science	800	55	This traversal explores a graph layer by layer and finds unweighted shortest paths.	What is breadth-first search?
+r2	Computer Science	1200	67	A finite automaton recognizes exactly this class of languages, the lowest level of the Chomsky hierarchy.	What is a regular language?
+r2	Computer Science	1200	67	Production rules with a single nonterminal on the left define this grammar class used to model nested syntax.	What is a context-free grammar?
+r2	Computer Science	1200	67	This proof tool shows certain languages are not regular by forcing sufficiently long strings to repeat a segment.	What is the pumping lemma?
+r2	Computer Science	1200	67	A system capable of simulating any Turing machine has this computational property.	What is Turing completeness?
+r2	Computer Science	1200	67	No general algorithm can decide whether every arbitrary program eventually stops, according to this undecidability result.	What is the halting problem?
+r2	Computer Science	1200	67	This theorem says every nontrivial semantic property of programs is undecidable in the general case.	What is Rice's theorem?
+r2	Computer Science	1200	67	A polynomial-time solution for any problem with this property would supply one for every problem whose solutions are quickly verifiable.	What is NP-completeness?
+r2	Computer Science	1200	67	Transforming instances of one problem into another lets complexity theorists compare hardness by this method.	What is a polynomial-time reduction?
+r2	Computer Science	1200	67	A costly occasional operation may still be cheap on average across a sequence under this style of analysis.	What is amortized analysis?
+r2	Computer Science	1200	67	This recurrence-solving result gives asymptotic bounds for many equal-subproblem divide-and-conquer algorithms.	What is the master theorem?
+r2	Computer Science	1200	67	A proposition true before and after every loop iteration helps prove iterative code correct.	What is a loop invariant?
+r2	Computer Science	1200	67	A polymorphic function's behavior is constrained by its type variables alone under this theorem-like principle.	What is parametricity?
+r2	Computer Science	1200	67	A compiler can eliminate free variables by turning them into explicit parameters through this transformation.	What is lambda lifting?
+r2	Computer Science	1200	67	This representation of the rest of a computation can be captured, stored, and invoked as a first-class value.	What is a continuation?
+r2	Computer Science	1200	67	A routine suspends execution and later resumes from the same point rather than returning permanently in this control abstraction.	What is a coroutine?
+r2	Computer Science	1200	67	A type system infers general type variables for a let-bound expression through this feature of Hindley-Milner typing.	What is let-polymorphism?
+r2	Computer Science	1600	81	One depth-first search uses a low-link value and stack to find all maximal mutually reachable vertex groups in this method.	What is Tarjan's strongly connected components algorithm?
+r2	Computer Science	1600	81	Two depth-first passes, the second on a transposed graph in finishing-time order, find strongly connected components in this algorithm.	What is Kosaraju's algorithm?
+r2	Computer Science	1600	81	Repeated edge relaxation finds single-source shortest paths even with negative weights and detects negative cycles.	What is the Bellman-Ford algorithm?
+r2	Computer Science	1600	81	Reweighting edges with one Bellman-Ford pass permits repeated Dijkstra searches for sparse all-pairs shortest paths.	What is Johnson's algorithm?
+r2	Computer Science	1600	81	Choosing shortest augmenting paths with breadth-first search gives this polynomial implementation of maximum flow.	What is the Edmonds-Karp algorithm?
+r2	Computer Science	1600	81	Level graphs and blocking flows make this maximum-flow algorithm especially effective on many networks.	What is Dinic's algorithm?
+r2	Computer Science	1600	81	This general augmenting-path method repeatedly increases flow until no residual route from source to sink remains.	What is the Ford-Fulkerson method?
+r2	Computer Science	1600	81	Combining a compressed text transform with rank queries yields this self-indexing full-text data structure.	What is an FM-index?
+r2	Computer Science	1600	81	A compressed trie of all suffixes supports linear-time pattern matching at substantial memory cost.	What is a suffix tree?
+r2	Computer Science	1600	81	This linear-time string method stores, at each position, the match length with the text's own prefix.	What is the Z algorithm?
+r2	Computer Science	1600	81	Failure links allow one automaton to search simultaneously for every pattern in a dictionary.	What is the Aho-Corasick algorithm?
+r2	Computer Science	1600	81	Keeping a new stream item with probability equal to reservoir size divided by its position produces an unbiased fixed-size sample in this technique.	What is reservoir sampling?
+r2	Computer Science	1600	81	Leading-zero patterns in many hashed registers let this sketch estimate the number of distinct items.	What is HyperLogLog?
+r2	Computer Science	1600	81	Mapping both servers and keys onto a ring minimizes remapping when a distributed cache changes membership.	What is consistent hashing?
+r2	Computer Science	1600	81	Each process maintains an array of logical counters so distributed events can reveal causal order with this clock.	What is a vector clock?
+r2	Computer Science	1600	81	This distributed timestamp pairs physical time with a logical counter, retaining wall-clock readability while preserving causal order when clocks disagree.	What is a hybrid logical clock?
+r2	Computer Science	2000	94	A deterministic consensus protocol cannot guarantee termination in a fully asynchronous system with even one crash failure, according to this result.	What is the FLP impossibility theorem?
+r2	Computer Science	2000	94	Proposers, acceptors, and learners cooperate in this family of fault-tolerant consensus protocols.	What is Paxos?
+r2	Computer Science	2000	94	This consensus protocol organizes replicated-log leadership into follower, candidate, and leader states.	What is Raft?
+r2	Computer Science	2000	94	A distributed system faces this problem when some participants may send conflicting or malicious messages.	What is Byzantine consensus?
+r2	Computer Science	2000	94	Each concurrent operation appears to take effect atomically between invocation and response under this correctness condition.	What is linearizability?
+r2	Computer Science	2000	94	Concurrent database transactions have this property when their result matches some sequential ordering.	What is serializability?
+r2	Computer Science	2000	94	Readers see snapshots while writers create new record versions under this database-concurrency technique.	What is multiversion concurrency control?
+r2	Computer Science	2000	94	A coordinator first asks participants to prepare, then orders commit or abort in this atomic transaction protocol.	What is two-phase commit?
+r2	Computer Science	2000	94	Adding a pre-commit state attempts to avoid blocking after a coordinator failure in this transaction protocol.	What is three-phase commit?
+r2	Computer Science	2000	94	Every thread completes its operation within a bounded number of its own steps under this strongest nonblocking progress guarantee.	What is wait-freedom?
+r2	Computer Science	2000	94	A system guarantees overall progress even though an individual thread might repeatedly fail under this weaker nonblocking property.	What is lock-freedom?
+r2	Computer Science	2000	94	A compare-and-swap operation can be fooled when a value changes away and back before inspection in this concurrency hazard.	What is the ABA problem?
+r2	Computer Science	2000	94	Threads publish references to nodes they may access so a concurrent allocator will not reclaim them under this technique.	What are hazard pointers?
+r2	Computer Science	2000	94	Retired objects can be freed after every active thread has advanced beyond the period in which those objects were visible.	What is epoch-based reclamation?
+r2	Computer Science	2000	94	Replicas merge updates without coordination by using a data type whose operations or states converge mathematically.	What is a conflict-free replicated data type?
+r2	Computer Science	2000	94	Nodes repeatedly exchange compact summaries and reconcile differing state in this epidemic-style distributed protocol.	What is anti-entropy?
+r2	Video Games	400	41	A fighting game may freeze both characters for a few frames when an attack lands, using this effect to make the impact feel heavier.	What is hitstop?
+r2	Video Games	400	41	After taking damage, a character may flash and ignore further hits briefly during these protected frames.	What are invincibility frames?
+r2	Video Games	400	41	A character takes damage when an attack overlaps this vulnerable collision region.	What is a hurtbox?
+r2	Video Games	400	41	Players draw an enemy's attention and threat under this short MMO term.	What is aggro?
+r2	Video Games	400	41	An ability cannot be used again until this recovery timer expires.	What is a cooldown?
+r2	Video Games	400	41	Random rewards are selected from this weighted list associated with an enemy or container.	What is a loot table?
+r2	Video Games	400	41	Repeatedly attacking opponents at the place where they re-enter play is this frowned-upon tactic.	What is spawn camping?
+r2	Video Games	400	41	This convenience system lets players jump quickly between previously discovered locations.	What is fast travel?
+r2	Video Games	400	41	Survival-horror games often make this special chamber a safe place to record progress and manage supplies.	What is a save room?
+r2	Video Games	400	41	This small on-screen overhead diagram shows nearby terrain, allies, or objectives.	What is a minimap?
+r2	Video Games	400	41	A dedicated feature pauses action and exposes camera controls for composing screenshots.	What is photo mode?
+r2	Video Games	400	41	Friends sharing one television play together in this local multiplayer format named for living-room furniture.	What is couch co-op?
+r2	Video Games	400	41	Fast retro-styled first-person action inspired this playful label for modern games resembling 1990s shooters.	What is a boomer shooter?
+r2	Video Games	400	41	Players enter a dangerous map, gather valuables, and must escape alive in this shooter subgenre.	What is an extraction shooter?
+r2	Video Games	400	41	Dense curtains of projectiles define this especially intense shooting-game subgenre.	What is bullet hell?
+r2	Video Games	400	41	Teams draft units that then fight automatically between planning rounds in this strategy subgenre.	What is an auto battler?
+r2	Video Games	800	55	This Atari programmer hid his name inside Adventure, creating one of gaming's earliest famous secret credits.	Who is Warren Robinett?
+r2	Video Games	800	55	Pitfall! sprang from a sketch by this Activision cofounder, who fit its world into an Atari 2600 cartridge.	Who is David Crane?
+r2	Video Games	800	55	River Raid made this engineer and designer one of the first women credited with creating a commercial console game.	Who is Carol Shaw?
+r2	Video Games	800	55	M.U.L.E. and Seven Cities of Gold were designed by this pioneer of social and economic games.	Who was Danielle Bunten Berry?
+r2	Video Games	800	55	After playing Colossal Cave Adventure, this designer conceived Mystery House with simple line-drawn scenes.	Who is Roberta Williams?
+r2	Video Games	800	55	Filmed footage of his brother supplied rotoscoped movement for the hero of Prince of Persia.	Who is Jordan Mechner?
+r2	Video Games	800	55	Commander Keen's smooth PC scrolling and Doom's renderer reflect the programming work of this id Software cofounder.	Who is John Carmack?
+r2	Video Games	800	55	The phrase “a series of interesting decisions” is strongly associated with this Civilization designer.	Who is Sid Meier?
+r2	Video Games	800	55	SimCity and The Sims grew from this designer's fascination with systems and player-built stories.	Who is Will Wright?
+r2	Video Games	800	55	His philosophy of lateral thinking with mature, inexpensive technology produced the Game & Watch and helped shape the Game Boy.	Who was Gunpei Yokoi?
+r2	Video Games	800	55	This Namco designer turned the image of a pizza missing a slice into Pac-Man's basic shape.	Who is Toru Iwatani?
+r2	Video Games	800	55	Ghosts 'n Goblins and the original concept that led to Resident Evil are associated with this Capcom designer and producer.	Who is Tokuro Fujiwara?
+r2	Video Games	800	55	This French designer directed the original Alone in the Dark and its pioneering fixed-camera presentation.	Who is Frédérick Raynal?
+r2	Video Games	800	55	Diablo changed from turn-based to real-time combat after this Blizzard North cofounder saw a rapid prototype.	Who is David Brevik?
+r2	Video Games	800	55	Harvest Moon's peaceful farming premise came from this Japanese producer's memories of rural life.	Who is Yasuhiro Wada?
+r2	Video Games	800	55	This programmer and designer co-created the Zork series before founding Infocom with fellow MIT alumni.	Who is Dave Lebling?
+r2	Video Games	1200	67	Early first-person games rendered walls by sending one viewing ray through each vertical screen column in this technique.	What is ray casting?
+r2	Video Games	1200	67	Doom organized level geometry into a tree of dividing planes using this visibility method.	What is binary space partitioning?
+r2	Video Games	1200	67	An old console could display more moving objects by rapidly reassigning hardware sprites during one frame in this trick.	What is sprite multiplexing?
+r2	Video Games	1200	67	Background layers moving at different speeds create an illusion of depth through this scrolling technique.	What is parallax scrolling?
+r2	Video Games	1200	67	The Super Nintendo rotated and scaled a background plane with this numbered graphics mode used by racing games.	What is Mode 7?
+r2	Video Games	1200	67	PlayStation-era polygons often showed texture warping because the hardware used this interpolation rather than perspective correction.	What is affine texture mapping?
+r2	Video Games	1200	67	Packing many small images into one larger resource reduces texture switches through this asset.	What is a texture atlas?
+r2	Video Games	1200	67	An RGB image perturbs surface normals so lighting reveals fine detail without extra polygons.	What is a normal map?
+r2	Video Games	1200	67	Solving backward from a hand or foot target to joint angles is this animation technique.	What is inverse kinematics?
+r2	Video Games	1200	67	Actors wearing tracked markers provide body movement for digital characters through this process.	What is motion capture?
+r2	Video Games	1200	67	AI agents navigate walkable polygons connected into this level representation.	What is a navigation mesh?
+r2	Video Games	1200	67	Hierarchical nodes such as selectors and sequences organize game-agent decisions in this AI structure.	What is a behavior tree?
+r2	Video Games	1200	67	A character switches among states such as patrol, chase, and attack under this classic AI model.	What is a finite-state machine?
+r2	Video Games	1200	67	A networked game immediately simulates local movement before the server confirms it, then corrects errors later under this technique.	What is client-side prediction?
+r2	Video Games	1200	67	Every machine advances the same deterministic simulation after receiving all players' commands in this multiplayer model.	What is lockstep simulation?
+r2	Video Games	1200	67	A server sends only the changes since a client's acknowledged state under this bandwidth-saving technique.	What is delta compression?
+r2	Video Games	1600	81	LucasArts built its 1998 afterlife adventure with this Lua-based 3D successor to SCUMM.	What is the GrimE engine?
+r2	Video Games	1600	81	Infocom's interactive fiction ran on this virtual machine, allowing the same story files to work across many computers.	What is the Z-machine?
+r2	Video Games	1600	81	Incentive Software used this engine to render solid 3D worlds in Driller and Dark Side on 8-bit home computers.	What is the Freescape engine?
+r2	Video Games	1600	81	Sierra replaced its earlier interpreter with this object-oriented scripting platform used from King's Quest IV onward.	What is SCI?
+r2	Video Games	1600	81	Ken Silverman created this sector-based engine for Duke Nukem 3D and Shadow Warrior.	What is the Build engine?
+r2	Video Games	1600	81	Criterion Software supplied this widely licensed middleware engine used by many PlayStation 2-era studios.	What is RenderWare?
+r2	Video Games	1600	81	The NetImmerse technology used for Morrowind evolved into this engine used for Oblivion and Fallout 3.	What is Gamebryo?
+r2	Video Games	1600	81	This lightweight language created in Brazil became popular for embedding scripts in game engines.	What is Lua?
+r2	Video Games	1600	81	Separating identity, data-only components, and processing systems defines this architecture common in large simulations.	What is an entity-component-system?
+r2	Video Games	1600	81	Organizing hot data contiguously around how it is processed, rather than around object hierarchies, reflects this design approach.	What is data-oriented design?
+r2	Video Games	1600	81	John Carmack's Rage engine streamed pieces of one enormous surface image using this branded texture technique.	What is MegaTexture?
+r2	Video Games	1600	81	Rendering scene geometry into buffers before applying lights is this pipeline suited to many dynamic light sources.	What is deferred shading?
+r2	Video Games	1600	81	A hierarchy of bones deforms a character mesh through weighted vertex influences in this animation system.	What is skeletal animation?
+r2	Video Games	1600	81	Blending animation with physical constraints at runtime gives characters responsive movement through this approach.	What is procedural animation?
+r2	Video Games	1600	81	A precomputed table of visibility between map regions can reduce rendering work through this optimization structure.	What is a potentially visible set?
+r2	Video Games	1600	81	Artists store several mesh complexities and swap among them by distance using this optimization.	What is level of detail?
+r2	Video Games	2000	94	Students connected to PLATO terminals fought in a multiplayer space game with four factions under this imperial title.	What is Empire?
+r2	Video Games	2000	94	This pioneering networked first-person game let players move through wireframe corridors and peek around corners.	What is Maze War?
+r2	Video Games	2000	94	Jim Bowery's 1974 PLATO game simulated networked first-person space combat and took this abbreviated name.	What is Spasim?
+r2	Video Games	2000	94	Roy Trubshaw and Richard Bartle created this text world at the University of Essex, giving a genre its lasting acronym.	What is MUD1?
+r2	Video Games	2000	94	Sierra launched this isometric graphical online role-playing world in the mid-1990s, before the MMORPG label became standard.	What is The Realm Online?
+r2	Video Games	2000	94	This team-based network game descended from Xtrek combined persistent ranks, real-time combat, and a server browser called the metaserver.	What is Netrek?
+r2	Video Games	2000	94	AOL hosted this Stormfront Studios title, often cited as the first graphical MMORPG to reach a large audience.	What is Neverwinter Nights on AOL?
+r2	Video Games	2000	94	Archetype Interactive promoted this mid-1990s title as the first internet-based 3D graphical MUD.	What is Meridian 59?
+r2	Video Games	2000	94	Origin Systems' persistent Britannia let thousands of players build careers, houses, and notoriety in this landmark online world.	What is Ultima Online?
+r2	Video Games	2000	94	Bill Budge gave players virtual parts for making their own tables in this influential Electronic Arts construction set.	What is Pinball Construction Set?
+r2	Video Games	2000	94	Garry Kitchen designed this toolset for building top-down role-playing scenarios on 1980s home computers.	What is Adventure Construction Set?
+r2	Video Games	2000	94	Tim Sweeney's first published game combined a text editor with user-created action worlds under this title.	What is ZZT?
+r2	Video Games	2000	94	Don Worth's 1978 Apple II dungeon game used procedural generation and predates the title that later named the roguelike genre.	What is Beneath Apple Manor?
+r2	Video Games	2000	94	Danielle Bunten's four-player game combined land development with a real-time auction for food, energy, and ore under this title.	What is M.U.L.E.?
+r2	Video Games	2000	94	Peter Molyneux's deity simulation gave players indirect control through followers and miracles under this title.	What is Populous?
+r2	Video Games	2000	94	Eric Chahi drew and programmed this cinematic platform adventure largely alone, using vector polygons for its scenes.	What is Another World?
+r2	Food & Drink	400	41	Pastry recipes describe butter beaten soft and smooth but not melted with this French consistency term.	What is beurre pommade?
+r2	Food & Drink	400	41	Egg yolks and cream form this mixture stirred into a soup or sauce off the heat to enrich and thicken it.	What is a liaison?
+r2	Food & Drink	400	41	A cook slowly whisks hot liquid into eggs before returning them to the pan, preventing sudden curdling through this technique.	What is tempering?
+r2	Food & Drink	400	41	Wine or stock loosens browned cooking residue from a hot pan during this flavor-building step.	What is deglazing?
+r2	Food & Drink	400	41	A cook boils wine or another liquid until almost dry, a stage described by this French phrase.	What is au sec?
+r2	Food & Drink	400	41	Slow-cooked meat is shredded with its fat into this spreadable preservation preparation.	What are rillettes?
+r2	Food & Drink	400	41	Salt dissolved in water seasons meat throughout and can improve moisture retention through this preparation.	What is brining?
+r2	Food & Drink	400	41	Beef develops concentrated flavor and a trimmed outer crust after weeks in a humidity-controlled room through this method.	What is dry-aging?
+r2	Food & Drink	400	41	Yeast produces gas while dough rests and rises during this baking stage.	What is proofing?
+r2	Food & Drink	400	41	Flour and water rest before salt and yeast are fully mixed in this breadmaking step associated with Raymond Calvel.	What is autolyse?
+r2	Food & Drink	400	41	Repeated folding encloses layers of butter between dough sheets to create flaky pastry through this process.	What is lamination?
+r2	Food & Drink	400	41	Pricking pastry with a fork lets steam escape and discourages bubbles through this step.	What is docking?
+r2	Food & Drink	400	41	Weights hold an empty tart shell flat while it bakes before filling in this method.	What is blind baking?
+r2	Food & Drink	400	41	Two spoons shape a smooth oval portion of mousse, ice cream, or forcemeat under this French name.	What is a quenelle?
+r2	Food & Drink	400	41	Stacking leafy herbs, rolling them tightly, and slicing thin ribbons produces this knife cut.	What is chiffonade?
+r2	Food & Drink	400	41	A knife removes peel and membrane so a citrus segment can be lifted out cleanly through this technique.	What is supreming?
+r2	Food & Drink	800	55	Caramelized sugar deglazed with vinegar adds a glossy sweet-sour note to sauces under this name.	What is a gastrique?
+r2	Food & Drink	800	55	Egg yolks, sugar, and wine are whisked over gentle heat into this airy Italian custard.	What is zabaglione?
+r2	Food & Drink	800	55	Steam expands a cooked flour-and-egg paste to make hollow éclairs and profiteroles from this dough.	What is pâte à choux?
+r2	Food & Drink	800	55	Vanilla commonly perfumes this pourable stirred custard used as a dessert sauce.	What is crème anglaise?
+r2	Food & Drink	800	55	Ground almonds, butter, sugar, and eggs make this filling for a classic pear tart and an Epiphany cake.	What is frangipane?
+r2	Food & Drink	800	55	Finely chopped mushrooms cooked down with shallots form this savory preparation used in beef Wellington.	What are duxelles?
+r2	Food & Drink	800	55	Basil, garlic, and olive oil are pounded into this Provençal condiment traditionally made without pine nuts.	What is pistou?
+r2	Food & Drink	800	55	Chopped parsley and garlic combine in this French seasoning often added near the end of cooking.	What is persillade?
+r2	Food & Drink	800	55	Fish is gently poached in this aromatic liquid traditionally containing water, wine, vegetables, and herbs.	What is court-bouillon?
+r2	Food & Drink	800	55	A light broth surrounding poached seafood can itself be served as this French-style preparation.	What is a nage?
+r2	Food & Drink	800	55	Bones simmered a second time produce this weaker stock whose French name means rewetting.	What is remouillage?
+r2	Food & Drink	800	55	Browned butter finished with lemon and parsley becomes this classic accompaniment for simply floured fish.	What is beurre meunière?
+r2	Food & Drink	800	55	Bread soaked in milk can bind a meat mixture through this preparation common in meatballs and pâtés.	What is a panade?
+r2	Food & Drink	800	55	A rice-thickened purée of shellfish gives this classical soup its characteristic texture and flavor.	What is bisque?
+r2	Food & Drink	800	55	Clarified butter survives higher pan temperatures because this solid component has been removed.	What are milk solids?
+r2	Food & Drink	800	55	A mixture of minced or ground meat, fat, and seasonings forms the base of pâtés, sausages, and terrines.	What is forcemeat?
+r2	Food & Drink	1200	67	Miso, sake, and soy sauce rely on this mold species to supply enzymes that break down rice or soybeans.	What is Aspergillus oryzae?
+r2	Food & Drink	1200	67	San Francisco sourdough helped give this lactic-acid bacterium its geographic species name.	What is Fructilactobacillus sanfranciscensis?
+r2	Food & Drink	1200	67	Wine can soften sharp malic acid into rounder lactic acid through this secondary microbial process.	What is malolactic fermentation?
+r2	Food & Drink	1200	67	Members of this bacterial genus oxidize ethanol into acetic acid during vinegar production.	What is Acetobacter?
+r2	Food & Drink	1200	67	Calf stomachs traditionally supplied this enzyme that cleaves kappa-casein during cheesemaking.	What is chymosin?
+r2	Food & Drink	1200	67	Calcium and phosphate help organize milk proteins into this suspended colloidal structure.	What is a casein micelle?
+r2	Food & Drink	1200	67	A cheese curd contracts and expels whey through this process.	What is syneresis?
+r2	Food & Drink	1200	67	Pastry chefs measure the setting strength of gelatin with this named numerical scale.	What is Bloom strength?
+r2	Food & Drink	1200	67	Hydrolyzing sucrose yields a sweeter mixture of glucose and fructose known by this term.	What is invert sugar?
+r2	Food & Drink	1200	67	This plant-cell-wall enzyme changes pectin's degree of esterification and can firm or soften produce tissues.	What is pectin methylesterase?
+r2	Food & Drink	1200	67	Mostly linear chains of glucose make this starch fraction prone to forming firm gels.	What is amylose?
+r2	Food & Drink	1200	67	Highly branched glucose chains make up this larger fraction of most culinary starches.	What is amylopectin?
+r2	Food & Drink	1200	67	Cooked starch chains reassociate as they cool, firming bread crumb and causing staling through this process.	What is starch retrogradation?
+r2	Food & Drink	1200	67	Dry heat breaks starch into shorter, more flavorful molecules while browning flour through this process.	What is dextrinization?
+r2	Food & Drink	1200	67	Heating starch granules with water makes them swell and leak polymers during this thickening process.	What is gelatinization?
+r2	Food & Drink	1200	67	A stable mixture of two normally immiscible liquids can be broken when droplets merge through this failure mode.	What is coalescence?
+r2	Food & Drink	1600	81	A chain of barrels is periodically blended so young wine enters the top and mature sherry leaves the bottom under this aging system.	What is the solera system?
+r2	Food & Drink	1600	81	Champagne gains bubbles from a second fermentation in the bottle under this production method.	What is the traditional method?
+r2	Food & Drink	1600	81	A layer of this yeast grows on some sherries, protecting the wine from oxygen while changing its aroma.	What is flor?
+r2	Food & Drink	1600	81	This fungus shrivels grapes while concentrating sugar and producing distinctive dessert-wine aromas.	What is Botrytis cinerea?
+r2	Food & Drink	1600	81	Whole uncrushed grapes ferment internally in a carbon-dioxide-rich vessel through this Beaujolais-associated technique.	What is carbonic maceration?
+r2	Food & Drink	1600	81	Wine remains in contact with spent yeast cells under this French cellar phrase.	What is sur lie aging?
+r2	Food & Drink	1600	81	A winemaker stirs settled lees back into wine through this Burgundian technique.	What is bâtonnage?
+r2	Food & Drink	1600	81	Transferring clear wine away from sediment into a clean vessel is this cellar operation.	What is racking?
+r2	Food & Drink	1600	81	After sparkling-wine bottles are inverted and turned, frozen yeast sediment is expelled during this step.	What is disgorgement?
+r2	Food & Drink	1600	81	A small mixture of wine and sugar added after sparkling-wine sediment removal determines final sweetness in this step.	What is dosage?
+r2	Food & Drink	1600	81	Gradually turning and tilting sparkling-wine bottles moves sediment into their necks through this process.	What is riddling?
+r2	Food & Drink	1600	81	Topping up a wine barrel keeps this air space between the liquid and its bung as small as possible.	What is ullage?
+r2	Food & Drink	1600	81	Evaporation from an aging barrel is poetically known by this celestial phrase.	What is the angel's share?
+r2	Food & Drink	1600	81	Brewers boil this sweet liquid extracted from malt before cooling and fermentation.	What is wort?
+r2	Food & Drink	1600	81	Hot water converts malt enzymes and starches in this brewing vessel before the liquid is drained.	What is a mash tun?
+r2	Food & Drink	1600	81	Brewers recirculate cloudy runoff over the grain bed until it clears in this German-named step.	What is vorlauf?
+r2	Food & Drink	2000	94	Chefs use this enzyme to bond proteins together, earning it the informal nickname meat glue.	What is transglutaminase?
+r2	Food & Drink	2000	94	This cellulose derivative gels when heated and melts again when cooled, the reverse of many familiar gels.	What is methylcellulose?
+r2	Food & Drink	2000	94	Droplets of this seaweed-derived polymer form gel skins when exposed to calcium ions.	What is sodium alginate?
+r2	Food & Drink	2000	94	Modernist cooks often choose this calcium salt because it adds little flavor when setting alginate.	What is calcium lactate?
+r2	Food & Drink	2000	94	A flavored alginate liquid dropped into a calcium bath forms small caviar-like beads through this technique.	What is direct spherification?
+r2	Food & Drink	2000	94	A calcium-rich liquid placed into an alginate bath forms a stable gel membrane while its center stays fluid through this variation.	What is reverse spherification?
+r2	Food & Drink	2000	94	This phospholipid from soy or egg yolk helps stabilize delicate culinary airs at an air-water boundary.	What is lecithin?
+r2	Food & Drink	2000	94	Tiny amounts of this bacterial polysaccharide give sauces shear-thinning viscosity and keep particles suspended.	What is xanthan gum?
+r2	Food & Drink	2000	94	Microbial fermentation produces this hydrocolloid, whose high-acyl and low-acyl forms yield different gel textures.	What is gellan gum?
+r2	Food & Drink	2000	94	Red seaweeds supply this family of sulfated polysaccharides used to gel dairy products.	What is carrageenan?
+r2	Food & Drink	2000	94	The elephant yam supplies this fiber that forms bouncy gels and traditional shirataki noodles.	What is konjac glucomannan?
+r2	Food & Drink	2000	94	Cooks can turn flavorful fats into free-flowing powders by absorbing them into this modified starch.	What is tapioca maltodextrin?
+r2	Food & Drink	2000	94	Frozen water sublimes directly under low pressure during this preservation process.	What is lyophilization?
+r2	Food & Drink	2000	94	Thin liquid films descend over rotating cones so volatile aromas can be recovered gently in this industrial device.	What is a spinning cone column?
+r2	Food & Drink	2000	94	A spinning flask and reduced pressure let this laboratory device capture delicate culinary distillates.	What is a rotary evaporator?
+r2	Food & Drink	2000	94	Ice crystals are filtered from partially frozen liquid to concentrate flavor without heating through this method.	What is freeze concentration?

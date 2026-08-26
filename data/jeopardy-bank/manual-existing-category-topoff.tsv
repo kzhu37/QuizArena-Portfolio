@@ -1,0 +1,56 @@
+# Hand-authored top-off rows retained as a curated supplemental source for existing categories.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+r1	Space Exploration	400	36	This 1997 NASA mission delivered the Sojourner rover to the Red Planet.	What is Mars Pathfinder?
+r1	Space Exploration	600	51	This orbiting telescope observes the universe in high-energy X-rays.	What is Chandra X-ray Observatory?
+r1	Architecture	200	22	This projecting beam is supported at only one end.	What is cantilever?
+r1	Architecture	1000	84	This structural system uses stretched fabric or cables in tension.	What is tensile structure?
+r1	World Geography	1000	84	This Turkish strait links the Aegean Sea with the Sea of Marmara.	Where are the Dardanelles?
+r1	Canadian Cities	600	51	This British Columbia city is known as a gateway to northern Vancouver Island.	Where is Campbell River?
+r1	Ontario Knowledge	200	22	This waterfall near Thunder Bay is nicknamed the Niagara of the North.	What is Kakabeka Falls?
+r1	Ontario Knowledge	400	36	This Lake Superior park is named for a landform that resembles a reclining figure.	What is Sleeping Giant Provincial Park?
+r1	Ontario Knowledge	600	51	This conservation area near Caledon is known for trails along the Credit River.	What is Forks of the Credit?
+r1	Ontario Knowledge	800	68	This eastern Ontario park is known for Indigenous pictographs on a cliff face.	What is Bon Echo Provincial Park?
+r1	Ontario Knowledge	1000	84	This large northwestern Ontario park is prized for remote canoe routes.	What is Wabakimi Provincial Park?
+r1	Tech Before Smartphones	800	68	This removable storage format from Iomega held far more than a floppy disk.	What is a Zip drive?
+r1	Internet History	600	51	This early search tool indexed public FTP archives.	What is Archie?
+r1	World Cuisines	400	36	This coconut rice dish is often called a national dish of Malaysia.	What is nasi lemak?
+r1	World Cuisines	800	68	These Shanghai-style soup dumplings are filled with broth.	What are xiao long bao?
+r1	World Cuisines	1000	84	This Belgian dish pairs mussels with fries.	What is moules-frites?
+r1	Famous Firsts	400	36	This astronaut became the first Hispanic woman in space.	Who is Ellen Ochoa?
+r1	Famous Firsts	800	68	This astronaut became the first American woman to walk in space.	Who is Kathryn Sullivan?
+r1	Famous Firsts	1000	84	This pilot became the first woman to command a Space Shuttle mission.	Who is Eileen Collins?
+r1	Inventions	600	51	This kitchen heating device uses electromagnetic radiation at about 2.45 gigahertz.	What is microwave oven?
+r1	Inventions	800	68	This optical instrument lets both eyes view slightly different images for depth.	What is stereoscope?
+r1	Inventions	1000	84	This navigation instrument measures acceleration to update position without external signals.	What is inertial navigation system?
+r2	Technology History	800	55	This 1947 Bell Labs invention became the foundation of modern electronics.	What is transistor?
+r2	Technology History	1600	81	This IBM mainframe family helped standardize compatible computer models.	What is IBM System/360?
+r2	Mythology	1600	81	This feathered serpent deity appears in Mesoamerican traditions.	Who is Quetzalcoatl?
+r2	Mythology	400	41	This Norse weapon returns to the thunder god's hand.	What is Mjolnir?
+r2	Mythology	1200	67	This West African trickster is often represented as a spider.	Who is Anansi?
+r2	Mythology	2000	94	This prophesied Norse doom includes the death of many gods.	What is Ragnarok?
+r2	Rivers & Mountains	400	41	This South American river forms a vast delta in Venezuela.	What is Orinoco River?
+r2	Rivers & Mountains	800	55	This Caucasus peak is often listed as Europe's highest mountain.	What is Mount Elbrus?
+r2	Rivers & Mountains	2000	94	This Andean peak is the highest mountain outside Asia.	What is Mount Aconcagua?
+r2	World History	2000	94	This 1918 treaty ended Russia's involvement in World War I.	What is Treaty of Brest-Litovsk?
+r2	World History	1600	81	This 1618 event in Bohemia helped spark the Thirty Years' War.	What is Defenestration of Prague?
+r2	Astronomy	400	41	This point in an orbit is either closest to or farthest from the body being orbited.	What is apsis?
+r2	Astronomy	800	55	This center of mass is where two orbiting bodies balance.	What is barycenter?
+r2	Astronomy	1600	81	This timekeeping system is based on Earth's rotation relative to distant stars.	What is sidereal time?
+r2	Famous Scientists	1600	81	This mathematician linked symmetries with conservation laws.	Who is Emmy Noether?
+r2	Famous Scientists	400	41	This chemist determined structures of important biomolecules using X-ray crystallography.	Who is Dorothy Hodgkin?
+r2	Famous Scientists	800	55	This Pakistani physicist shared a Nobel Prize for electroweak theory.	Who is Abdus Salam?
+r2	Famous Scientists	1200	67	This astronomer showed that stars are made mostly of hydrogen and helium.	Who is Cecilia Payne-Gaposchkin?
+r2	Cybersecurity Basics	400	41	This targeted email scam is customized for a specific person or organization.	What is spear phishing?
+r2	Cybersecurity Basics	800	55	This stored password digest includes random extra data before hashing.	What is salted hash?
+r2	Cybersecurity Basics	1600	81	This monitoring tool watches networks or hosts for suspicious activity.	What is intrusion detection system?
+r2	Engineering Feats	800	55	This Japanese airport was built on an artificial island in Osaka Bay.	What is Kansai International Airport?
+r2	Engineering Feats	1200	67	This waterway expansion added larger locks that opened in 2016.	What is Panama Canal expansion?
+r2	Engineering Feats	1600	81	This Dutch storm-surge barrier is a centerpiece of the Delta Works.	What is Oosterscheldekering?
+r2	Engineering Feats	2000	94	This Boston highway project buried an elevated interstate through the city.	What is Big Dig?
+r2	Bridges & Buildings	800	55	These twin towers in Kuala Lumpur were once the world's tallest buildings.	What are Petronas Towers?
+r2	Bridges & Buildings	1200	67	This Taipei skyscraper uses a large tuned mass damper for stability.	What is Taipei 101?
+r2	Bridges & Buildings	2000	94	This Frank Lloyd Wright house is built partly over a waterfall.	What is Fallingwater?
+r2	World Religions & Beliefs	1600	81	This Islamic month is marked by fasting from dawn to sunset.	What is Ramadan?
+r2	World Religions & Beliefs	2000	94	This enlightened being delays final nirvana to help others.	What is Bodhisattva?
+r2	Books & Authors	400	41	This dystopian novel follows a firefighter who burns books.	What is Fahrenheit 451?
+r2	Books & Authors	1600	81	This Italo Calvino novel alternates between second-person chapters and interrupted books.	What is If on a winter's night a traveler?

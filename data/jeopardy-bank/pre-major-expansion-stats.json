@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "capturedAt": "2026-08-24",
+  "description": "Immutable category/value statistics for the playable bank immediately before the major researched expansion and quality rebuild.",
+  "totals": {
+    "round1Categories": 35,
+    "round1Clues": 2945,
+    "round2Categories": 32,
+    "round2Clues": 2403,
+    "regularCategories": 67,
+    "regularClues": 5348,
+    "finalCategories": 28,
+    "finalClues": 262,
+    "uniqueNormalizedAnswers": 5610
+  },
+  "rounds": {
+    "r1": [
+      {
+        "category": "Ancient Civilizations",
+        "values": {
+          "200": 16,
+          "400": 16,
+          "600": 25,
+          "800": 16,
+          "1000": 16
+        },
+        "clues": 89
+      },
+      {
+        "category": "Animals",
+        "values": {
+          "200": 9,
+          "400": 9,
+          "600": 8,
+          "800": 8,
+          "1000": 8
+        },
+        "clues": 42
+      },
+      {
+        "category": "Architecture",
+        "values": {
+          "200": 8,
+          "400": 8,
+          "600": 8,
+          "800": 8,
+          "1000": 9
+        },
+        "clues": 41
+      },
+      {
+        "category": "Board Games",
+        "values": {
+          "200": 16,
+          "400": 16,
+          "600": 17,
+          "800": 18,
+          "1000": 18
+        },
+        "clues": 85
+      },
+      {
+        "category": "Canadian Cities",
+        "values": {
+          "200": 8,
+          "400": 8,
+          "600": 9,
+          "800": 8,
+          "1000": 8
+        },
+        "clues": 41
+      },
+      {
+        "category": "Canadian History",
+        "values": {
+          "200": 11,
+          "400": 13,
+          "600": 12,
+          "800": 12,
+          "1000": 11
+        },
+        "clues": 59
+      },
+      {
+        "category": "Cars",
+        "values": {
+          "200": 27,
+          "400": 31,
+          "600": 29,
+          "800": 24,
+          "1000": 27
+        },
+        "clues": 138
+      },
+      {
+        "category": "Chemistry",
+        "values": {
+          "200": 16,
+          "400": 14,
+          "600": 17,
+          "800": 15,
+          "1000": 15
+        },
+        "clues": 77
+      },
+      {
+        "category": "Dinosaurs & Fossils",
+        "values": {
+          "200": 10,
+          "400": 9,
+          "600": 9,
+          "800": 9,
+          "1000": 9
+        },
+        "clues": 46
+      },
+      {
+        "category": "Earth Science",
+        "values": {
+          "200": 17,
+          "400": 21,
+          "600": 19,
+          "800": 19,
+          "1000": 18
+        },
+        "clues": 94
+      },
+      {
+        "category": "Ecology",
+        "values": {
+          "200": 15,
+          "400": 14,
+          "600": 15,
+          "800": 13,
+          "1000": 15
+        },
+        "clues": 72
+      },
+      {
+        "category": "Famous Firsts",
+        "values": {
+          "200": 6,
+          "400": 6,
+          "600": 5,
+          "800": 6,
+          "1000": 6
+        },
+        "clues": 29
+      },
+      {
+        "category": "Hardware & Devices",
+        "values": {
+          "200": 22,
+          "400": 23,
+          "600": 22,
+          "800": 22,
+          "1000": 21
+        },
+        "clues": 110
+      },
+      {
+        "category": "Hockey",
+        "values": {
+          "200": 6,
+          "400": 6,
+          "600": 7,
+          "800": 6,
+          "1000": 6
+        },
+        "clues": 31
+      },
+      {
+        "category": "Holidays & Traditions",
+        "values": {
+          "200": 16,
+          "400": 18,
+          "600": 15,
+          "800": 16,
+          "1000": 16
+        },
+        "clues": 81
+      },
+      {
+        "category": "Internet History",
+        "values": {
+          "200": 10,
+          "400": 12,
+          "600": 13,
+          "800": 11,
+          "1000": 11
+        },
+        "clues": 57
+      },
+      {
+        "category": "Inventions",
+        "values": {
+          "200": 8,
+          "400": 8,
+          "600": 9,
+          "800": 9,
+          "1000": 9
+        },
+        "clues": 43
+      },
+      {
+        "category": "Modern Civics",
+        "values": {
+          "200": 16,
+          "400": 17,
+          "600": 13,
+          "800": 13,
+          "1000": 10
+        },
+        "clues": 69
+      },
+      {
+        "category": "Movies",
+        "values": {
+          "200": 40,
+          "400": 36,
+          "600": 31,
+          "800": 32,
+          "1000": 39
+        },
+        "clues": 178
+      },
+      {
+        "category": "Olympic Games",
+        "values": {
+          "200": 12,
+          "400": 12,
+          "600": 11,
+          "800": 12,
+          "1000": 9
+        },
+        "clues": 56
+      },
+      {
+        "category": "Ontario Knowledge",
+        "values": {
+          "200": 9,
+          "400": 9,
+          "600": 9,
+          "800": 9,
+          "1000": 9
+        },
+        "clues": 45
+      },
+      {
+        "category": "Physics Concepts",
+        "values": {
+          "200": 13,
+          "400": 13,
+          "600": 12,
+          "800": 15,
+          "1000": 15
+        },
+        "clues": 68
+      },
+      {
+        "category": "Planes & Aviation",
+        "values": {
+          "200": 35,
+          "400": 34,
+          "600": 41,
+          "800": 28,
+          "1000": 32
+        },
+        "clues": 170
+      },
+      {
+        "category": "Plants & Nature",
+        "values": {
+          "200": 19,
+          "400": 14,
+          "600": 17,
+          "800": 15,
+          "1000": 16
+        },
+        "clues": 81
+      },
+      {
+        "category": "Ships & Navigation",
+        "values": {
+          "200": 6,
+          "400": 6,
+          "600": 6,
+          "800": 5,
+          "1000": 5
+        },
+        "clues": 28
+      },
+      {
+        "category": "Space Exploration",
+        "values": {
+          "200": 9,
+          "400": 12,
+          "600": 12,
+          "800": 8,
+          "1000": 8
+        },
+        "clues": 49
+      },
+      {
+        "category": "Tech Before Smartphones",
+        "values": {
+          "200": 8,
+          "400": 8,
+          "600": 8,
+          "800": 9,
+          "1000": 8
+        },
+        "clues": 41
+      },
+      {
+        "category": "Television",
+        "values": {
+          "200": 25,
+          "400": 17,
+          "600": 18,
+          "800": 21,
+          "1000": 23
+        },
+        "clues": 104
+      },
+      {
+        "category": "Trains",
+        "values": {
+          "200": 13,
+          "400": 11,
+          "600": 12,
+          "800": 14,
+          "1000": 12
+        },
+        "clues": 62
+      },
+      {
+        "category": "Weather & Climate",
+        "values": {
+          "200": 16,
+          "400": 12,
+          "600": 13,
+          "800": 16,
+          "1000": 13
+        },
+        "clues": 70
+      },
+      {
+        "category": "World Capitals",
+        "values": {
+          "200": 67,
+          "400": 72,
+          "600": 62,
+          "800": 63,
+          "1000": 65
+        },
+        "clues": 329
+      },
+      {
+        "category": "World Cuisines",
+        "values": {
+          "200": 8,
+          "400": 9,
+          "600": 8,
+          "800": 9,
+          "1000": 9
+        },
+        "clues": 43
+      },
+      {
+        "category": "World Geography",
+        "values": {
+          "200": 51,
+          "400": 53,
+          "600": 49,
+          "800": 49,
+          "1000": 51
+        },
+        "clues": 253
+      },
+      {
+        "category": "World Landmarks",
+        "values": {
+          "200": 27,
+          "400": 21,
+          "600": 28,
+          "800": 20,
+          "1000": 24
+        },
+        "clues": 120
+      },
+      {
+        "category": "World War II",
+        "values": {
+          "200": 10,
+          "400": 9,
+          "600": 9,
+          "800": 8,
+          "1000": 8
+        },
+        "clues": 44
+      }
+    ],
+    "r2": [
+      {
+        "category": "AI & Computing Concepts",
+        "values": {
+          "400": 10,
+          "800": 9,
+          "1200": 9,
+          "1600": 10,
+          "2000": 9
+        },
+        "clues": 47
+      },
+      {
+        "category": "Astronomy",
+        "values": {
+          "400": 9,
+          "800": 9,
+          "1200": 9,
+          "1600": 9,
+          "2000": 8
+        },
+        "clues": 44
+      },
+      {
+        "category": "Biology",
+        "values": {
+          "400": 19,
+          "800": 28,
+          "1200": 22,
+          "1600": 22,
+          "2000": 19
+        },
+        "clues": 110
+      },
+      {
+        "category": "Books & Authors",
+        "values": {
+          "400": 9,
+          "800": 8,
+          "1200": 8,
+          "1600": 9,
+          "2000": 8
+        },
+        "clues": 42
+      },
+      {
+        "category": "Bridges & Buildings",
+        "values": {
+          "400": 8,
+          "800": 9,
+          "1200": 9,
+          "1600": 8,
+          "2000": 9
+        },
+        "clues": 43
+      },
+      {
+        "category": "Canadian Geography",
+        "values": {
+          "400": 11,
+          "800": 10,
+          "1200": 11,
+          "1600": 9,
+          "2000": 10
+        },
+        "clues": 51
+      },
+      {
+        "category": "Computer Science",
+        "values": {
+          "400": 17,
+          "800": 16,
+          "1200": 16,
+          "1600": 15,
+          "2000": 17
+        },
+        "clues": 81
+      },
+      {
+        "category": "Cybersecurity Basics",
+        "values": {
+          "400": 19,
+          "800": 19,
+          "1200": 18,
+          "1600": 15,
+          "2000": 19
+        },
+        "clues": 90
+      },
+      {
+        "category": "Economics",
+        "values": {
+          "400": 21,
+          "800": 20,
+          "1200": 15,
+          "1600": 19,
+          "2000": 19
+        },
+        "clues": 94
+      },
+      {
+        "category": "Energy & Forces",
+        "values": {
+          "400": 14,
+          "800": 17,
+          "1200": 15,
+          "1600": 16,
+          "2000": 17
+        },
+        "clues": 79
+      },
+      {
+        "category": "Engineering Feats",
+        "values": {
+          "400": 8,
+          "800": 9,
+          "1200": 9,
+          "1600": 9,
+          "2000": 9
+        },
+        "clues": 44
+      },
+      {
+        "category": "Famous Scientists",
+        "values": {
+          "400": 9,
+          "800": 10,
+          "1200": 8,
+          "1600": 8,
+          "2000": 8
+        },
+        "clues": 43
+      },
+      {
+        "category": "Food & Drink",
+        "values": {
+          "400": 22,
+          "800": 29,
+          "1200": 18,
+          "1600": 18,
+          "2000": 24
+        },
+        "clues": 111
+      },
+      {
+        "category": "Genetics",
+        "values": {
+          "400": 16,
+          "800": 16,
+          "1200": 15,
+          "1600": 13,
+          "2000": 13
+        },
+        "clues": 73
+      },
+      {
+        "category": "Government & Elections",
+        "values": {
+          "400": 10,
+          "800": 10,
+          "1200": 10,
+          "1600": 10,
+          "2000": 9
+        },
+        "clues": 49
+      },
+      {
+        "category": "Greek Mythology",
+        "values": {
+          "400": 9,
+          "800": 11,
+          "1200": 8,
+          "1600": 8,
+          "2000": 8
+        },
+        "clues": 44
+      },
+      {
+        "category": "Human Body",
+        "values": {
+          "400": 17,
+          "800": 23,
+          "1200": 28,
+          "1600": 18,
+          "2000": 18
+        },
+        "clues": 104
+      },
+      {
+        "category": "Law & Rights",
+        "values": {
+          "400": 19,
+          "800": 22,
+          "1200": 21,
+          "1600": 20,
+          "2000": 19
+        },
+        "clues": 101
+      },
+      {
+        "category": "Medical Terms",
+        "values": {
+          "400": 16,
+          "800": 13,
+          "1200": 14,
+          "1600": 16,
+          "2000": 12
+        },
+        "clues": 71
+      },
+      {
+        "category": "Mythology",
+        "values": {
+          "400": 19,
+          "800": 8,
+          "1200": 9,
+          "1600": 13,
+          "2000": 9
+        },
+        "clues": 58
+      },
+      {
+        "category": "Oceans",
+        "values": {
+          "400": 15,
+          "800": 15,
+          "1200": 15,
+          "1600": 16,
+          "2000": 16
+        },
+        "clues": 77
+      },
+      {
+        "category": "Periodic Table",
+        "values": {
+          "400": 24,
+          "800": 21,
+          "1200": 24,
+          "1600": 22,
+          "2000": 23
+        },
+        "clues": 114
+      },
+      {
+        "category": "Philosophy",
+        "values": {
+          "400": 18,
+          "800": 16,
+          "1200": 16,
+          "1600": 16,
+          "2000": 15
+        },
+        "clues": 81
+      },
+      {
+        "category": "Psychology",
+        "values": {
+          "400": 15,
+          "800": 17,
+          "1200": 15,
+          "1600": 14,
+          "2000": 15
+        },
+        "clues": 76
+      },
+      {
+        "category": "Rivers & Mountains",
+        "values": {
+          "400": 19,
+          "800": 17,
+          "1200": 8,
+          "1600": 8,
+          "2000": 9
+        },
+        "clues": 61
+      },
+      {
+        "category": "Scientific Laws",
+        "values": {
+          "400": 9,
+          "800": 9,
+          "1200": 9,
+          "1600": 9,
+          "2000": 8
+        },
+        "clues": 44
+      },
+      {
+        "category": "Spacecraft",
+        "values": {
+          "400": 10,
+          "800": 12,
+          "1200": 9,
+          "1600": 11,
+          "2000": 10
+        },
+        "clues": 52
+      },
+      {
+        "category": "Sports",
+        "values": {
+          "400": 36,
+          "800": 35,
+          "1200": 30,
+          "1600": 32,
+          "2000": 36
+        },
+        "clues": 169
+      },
+      {
+        "category": "Technology History",
+        "values": {
+          "400": 8,
+          "800": 9,
+          "1200": 8,
+          "1600": 9,
+          "2000": 8
+        },
+        "clues": 42
+      },
+      {
+        "category": "Video Games",
+        "values": {
+          "400": 42,
+          "800": 50,
+          "1200": 44,
+          "1600": 46,
+          "2000": 43
+        },
+        "clues": 225
+      },
+      {
+        "category": "World History",
+        "values": {
+          "400": 8,
+          "800": 8,
+          "1200": 8,
+          "1600": 9,
+          "2000": 9
+        },
+        "clues": 42
+      },
+      {
+        "category": "World Religions & Beliefs",
+        "values": {
+          "400": 8,
+          "800": 8,
+          "1200": 8,
+          "1600": 8,
+          "2000": 9
+        },
+        "clues": 41
+      }
+    ]
+  },
+  "finalCategories": [
+    {
+      "category": "Ancient Civilizations",
+      "clues": 8
+    },
+    {
+      "category": "Animals",
+      "clues": 11
+    },
+    {
+      "category": "Architecture",
+      "clues": 8
+    },
+    {
+      "category": "Art & Music",
+      "clues": 8
+    },
+    {
+      "category": "Astronomy",
+      "clues": 8
+    },
+    {
+      "category": "Canadian Geography",
+      "clues": 10
+    },
+    {
+      "category": "Canadian History",
+      "clues": 10
+    },
+    {
+      "category": "Earth Science",
+      "clues": 8
+    },
+    {
+      "category": "Economics",
+      "clues": 8
+    },
+    {
+      "category": "Famous People",
+      "clues": 8
+    },
+    {
+      "category": "Geography",
+      "clues": 10
+    },
+    {
+      "category": "History",
+      "clues": 13
+    },
+    {
+      "category": "Inventions",
+      "clues": 8
+    },
+    {
+      "category": "Law & Rights",
+      "clues": 8
+    },
+    {
+      "category": "Literature",
+      "clues": 8
+    },
+    {
+      "category": "Modern History",
+      "clues": 8
+    },
+    {
+      "category": "Mythology",
+      "clues": 10
+    },
+    {
+      "category": "Oceans & Rivers",
+      "clues": 9
+    },
+    {
+      "category": "Philosophy",
+      "clues": 8
+    },
+    {
+      "category": "Politics/Civics",
+      "clues": 9
+    },
+    {
+      "category": "Science",
+      "clues": 13
+    },
+    {
+      "category": "Space Exploration",
+      "clues": 10
+    },
+    {
+      "category": "Sports History",
+      "clues": 8
+    },
+    {
+      "category": "Technology",
+      "clues": 13
+    },
+    {
+      "category": "World Capitals",
+      "clues": 8
+    },
+    {
+      "category": "World Landmarks",
+      "clues": 14
+    },
+    {
+      "category": "World Religions",
+      "clues": 8
+    },
+    {
+      "category": "World War II",
+      "clues": 10
+    }
+  ]
+}

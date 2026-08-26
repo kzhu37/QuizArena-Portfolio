@@ -1,0 +1,44 @@
+{
+  "name": "quizarena",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sync:legacy": "node ./tools/sync-legacy-runtime.cjs",
+    "bank:generate": "node ./tools/generate-jeopardy-source-bank.cjs",
+    "bank:build": "node ./tools/build-jeopardy-bank.cjs",
+    "bank:audit": "node ./tools/validate-jeopardy-bank.cjs",
+    "bank:audit:sources": "node ./tools/audit-jeopardy-curated-sources.cjs",
+    "wordgames:build": "node ./tools/build-word-game-banks.cjs",
+    "wordgames:validate": "node ./tools/validate-word-game-banks.cjs",
+    "shell:file": "powershell -ExecutionPolicy Bypass -File .\\tools\\build-file-shell.ps1",
+    "smoke:legacy": "powershell -ExecutionPolicy Bypass -File .\\tools\\run-jeopardy-runtime-smoke.ps1",
+    "smoke:platform:file": "powershell -ExecutionPolicy Bypass -File .\\tools\\run-platform-file-smoke.ps1",
+    "test:core": "node ./tools/test-core-logic.cjs",
+    "portfolio:lint": "node ./tools/check-portfolio-writing.cjs",
+    "portfolio:capture": "powershell -ExecutionPolicy Bypass -File .\\tools\\capture-portfolio.ps1",
+    "verify": "powershell -ExecutionPolicy Bypass -File .\\tools\\verify-platform.ps1",
+    "dev": "npm run bank:build && npm run sync:legacy && vite",
+    "build": "npm run bank:build && npm run sync:legacy && vite build",
+    "build:file": "npm run build && npm run shell:file",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "wordle-words": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "an-array-of-english-words": "^2.0.0",
+    "esbuild": "^0.28.0",
+    "naughty-words": "^1.2.0",
+    "random-words": "^2.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "word-list": "^4.1.0"
+  }
+}

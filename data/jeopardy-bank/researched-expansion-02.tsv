@@ -1,0 +1,404 @@
+# Hand-authored researched expansion batch 02.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: official parliamentary and municipal civics resources; UNESCO and national-capital heritage records (https://whc.unesco.org/); NOAA weather education (https://www.noaa.gov/education/resource-collections/weather-atmosphere).
+# Research anchors: Smithsonian invention collections (https://americanhistory.si.edu/collections/subjects/invention) and British Museum ancient-world collections (https://www.britishmuseum.org/collection).
+r1	Modern Civics	200	22	Residents use this formal opportunity at a council meeting to speak on an issue before a decision.	What is public comment?
+r1	Modern Civics	200	22	Election agencies mail this document showing where and when an elector can cast a vote.	What is a voter information card?
+r1	Modern Civics	200	22	Election officials equip this neighborhood location with booths and ballots on voting day.	What is a polling place?
+r1	Modern Civics	200	22	A legislator's local staff help residents navigate government services from this community-based workplace.	What is a constituency office?
+r1	Modern Civics	200	22	This elected municipal body debates local services, budgets, and bylaws.	What is a city council?
+r1	Modern Civics	200	22	Trustees elected to this local body oversee a public education system.	What is a school board?
+r1	Modern Civics	200	22	This notice orders a citizen to report for possible service in a trial.	What is a jury summons?
+r1	Modern Civics	200	22	A resident making a scheduled presentation directly to a council is often described by this term.	What is a deputation?
+r1	Modern Civics	200	22	This local volunteer organization represents the shared concerns of people in a neighborhood.	What is a community association?
+r1	Modern Civics	800	68	Election canvassers and population surveyors divide territory into this small fieldwork unit.	What is an enumeration district?
+r1	Modern Civics	200	22	A voter marks choices in private behind this simple screen or enclosure.	What is a voting booth?
+r1	Modern Civics	200	22	This folder hides a marked paper vote while an elector carries it from the booth to an official.	What is a secrecy sleeve?
+r1	Modern Civics	200	22	A resident signs this document to show support for a request to public authorities.	What is a petition?
+r1	Modern Civics	200	22	This published list tells citizens what their council or legislature plans to discuss at a meeting.	What is an agenda?
+r1	Modern Civics	200	22	This nonpartisan municipal official keeps council records and certifies official documents.	Who is a municipal clerk?
+r1	Modern Civics	200	22	This small election area assigns a group of voters to the same voting location.	What is a polling division?
+r1	Modern Civics	400	36	Helping a resident resolve a passport, benefit, or agency problem is this kind of work by an elected representative's office.	What is constituent service?
+r1	Modern Civics	400	36	In this election format, every voter in the municipality may choose a candidate for the same council seat.	What is an at-large election?
+r1	Modern Civics	400	36	A city uses this kind of rule to control which land uses and building types are allowed in an area.	What is a zoning ordinance?
+r1	Modern Civics	400	36	Voters periodically decide whether a sitting judge should remain in office through this type of contest.	What is a retention election?
+r1	Modern Civics	400	36	Under this direct-democracy device, citizens gather signatures to require a public vote on a proposed measure.	What is a citizen-initiated referendum?
+r1	Modern Civics	400	36	An elector authorizes another person to cast a vote on the elector's behalf through this arrangement.	What is proxy voting?
+r1	Modern Civics	400	36	Canada commonly uses this term for casting a ballot at designated locations before election day.	What is advance polling?
+r1	Modern Civics	400	36	Officials place a vote that cannot legally be counted in this category during the tally.	What is a rejected ballot?
+r1	Modern Civics	400	36	Election administrators maintain this official list of eligible electors.	What is a voter roll?
+r1	Modern Civics	400	36	This ringing signal summons legislators to the chamber when a recorded vote is about to be held.	What is a division bell?
+r1	Modern Civics	400	36	British local councils use this phrase when no political group holds more than half the seats.	What is no overall control?
+r1	Modern Civics	400	36	Many legislatures list unscripted spoken inquiries to ministers under this agenda heading.	What are oral questions?
+r1	Modern Civics	400	36	Legislators in this smaller permanent group examine bills and a particular policy area in detail.	What is a standing committee?
+r1	Modern Civics	400	36	This legislative committee scrutinizes government spending and reports from the auditor general.	What is a public accounts committee?
+r1	Modern Civics	400	36	This internal party officer presides over meetings of its elected legislators.	Who is a caucus chair?
+r1	Modern Civics	400	36	A member requests this procedural check to determine whether enough legislators are present.	What is a quorum call?
+r1	Modern Civics	600	51	This verbatim official record preserves speeches and debates in many Westminster-style parliaments.	What is Hansard?
+r1	Modern Civics	600	51	Members consult this companion parliamentary document for motions and questions that have been formally announced for future days.	What is the Notice Paper?
+r1	Modern Civics	600	51	A British MP may introduce a short proposal after a speech of no more than ten minutes under this procedure.	What is a Ten Minute Rule bill?
+r1	Modern Civics	600	51	Defeat on this kind of vote can force a parliamentary government to resign or seek an election.	What is a confidence motion?
+r1	Modern Civics	600	51	Parliament authorizes government spending through this kind of legislation.	What is a supply bill?
+r1	Modern Civics	600	51	This Latin phrase describes ending a legislative meeting without setting a date to reconvene.	What is adjournment sine die?
+r1	Modern Civics	600	51	Britain restricts major government announcements and official publicity during this interval before an election.	What is the pre-election period?
+r1	Modern Civics	600	51	This convention expects ministers to support cabinet decisions publicly or resign.	What is cabinet solidarity?
+r1	Modern Civics	600	51	This rule links a cabinet's right to govern to continuing support in the elected chamber.	What is the confidence convention?
+r1	Modern Civics	600	51	Opposition spokespeople assigned to scrutinize ministers collectively occupy this side of a chamber's leading benches.	What is the opposition frontbench?
+r1	Modern Civics	600	51	This provision controversially lets ministers amend primary legislation using secondary powers.	What is a Henry VIII clause?
+r1	Modern Civics	600	51	A provision that automatically ends a law after a stated date unless lawmakers renew it has this name.	What is a sunset clause?
+r1	Modern Civics	600	51	This analysis estimates the costs and benefits of a proposed government rule before adoption.	What is a regulatory impact assessment?
+r1	Modern Civics	600	51	Citizens use this statutory request to seek records held by a public body.	What is a freedom of information request?
+r1	Modern Civics	600	51	Britain's national public-administration complaints officer formally holds this title.	What is the Parliamentary Commissioner for Administration?
+r1	Modern Civics	600	51	This independent panel periodically redraws constituency lines using census data and public submissions.	What is a boundary commission?
+r1	Modern Civics	800	68	A legislature formally condemns a minister or government without necessarily removing it by adopting this resolution.	What is a motion of censure?
+r1	Modern Civics	800	68	A legislator uses this formal demand for a ministerial explanation in several European parliaments.	What is an interpellation?
+r1	Modern Civics	800	68	This procedure sets a firm deadline for debate on a bill, a name evoking a falling blade.	What is a guillotine motion?
+r1	Modern Civics	800	68	A chamber adopts this motion to bring debate to an immediate decision, the older Westminster cousin of time allocation.	What is the previous question?
+r1	Modern Civics	800	68	Two legislators on opposite sides agree to be absent so their votes cancel under this informal practice.	What is parliamentary pairing?
+r1	Modern Civics	800	68	In British politics, this strongest instruction orders party MPs to attend and vote as directed.	What is a three-line whip?
+r1	Modern Civics	800	68	An entire legislative chamber sits under relaxed procedural rules using this format for detailed consideration.	What is a committee of the whole?
+r1	Modern Civics	800	68	In Canada, most bills that spend public money need this recommendation from the Crown's representative.	What is a royal recommendation?
+r1	Modern Civics	200	22	Many constitutions reserve special procedures for this class of legislation dealing chiefly with taxation or public funds.	What is a money bill?
+r1	Modern Civics	800	68	This limited executive power delays legislation without permanently blocking it.	What is a suspensive veto?
+r1	Modern Civics	800	68	A randomly selected, demographically representative panel may study an issue under this deliberative-democracy model.	What is a citizens' assembly?
+r1	Modern Civics	800	68	This electoral quota divides valid votes by the number of seats plus one, then adds one.	What is the Droop quota?
+r1	Modern Civics	800	68	These compensatory mandates correct disproportionality after constituency and list seats have been assigned.	What are leveling seats?
+r1	Modern Civics	800	68	This largest-remainder quota divides total votes by the number of seats plus two, favoring larger parties.	What is the Imperiali quota?
+r1	Modern Civics	800	68	This party-list allocation formula uses odd-number divisors and is generally friendlier to smaller parties than D'Hondt.	What is the Sainte-Laguë method?
+r1	Modern Civics	800	68	A legislature sends a bill back for reconsideration by passing this motion before final enactment.	What is recommittal?
+r1	Modern Civics	1000	84	A government may take office without winning an affirmative majority when this principle treats abstention as sufficient support.	What is negative parliamentarism?
+r1	Modern Civics	1000	84	Some legislatures require a proposed cabinet to win this explicit approval before taking office.	What is an investiture vote?
+r1	Modern Civics	1000	84	Constitutional designers use this term for rules that stabilize cabinets by tightly controlling confidence votes and dissolution.	What is rationalized parliamentarism?
+r1	Modern Civics	1000	84	This 1966 European agreement let a member insist on continued negotiation when it claimed a vital national interest.	What is the Luxembourg Compromise?
+r1	Modern Civics	1000	84	European Union courts use this principle to ask whether an official measure goes no further than necessary to achieve its goal.	What is the proportionality principle?
+r1	Modern Civics	1000	84	France uses this term when its president and prime minister come from opposing political camps.	What is cohabitation?
+r1	Modern Civics	1000	84	Australia can resolve a deadlock by dissolving both houses through this constitutional procedure.	What is a double dissolution?
+r1	Modern Civics	1000	84	Britain uses this informal term for the rush to complete agreed legislation just before Parliament dissolves.	What is the wash-up period?
+r1	Modern Civics	1000	84	This British convention says the House of Lords should not block manifesto bills of the elected government.	What is the Salisbury convention?
+r1	Modern Civics	1000	84	This convention says Westminster normally will not legislate on devolved Scottish matters without Holyrood's consent.	What is the Sewel convention?
+r1	Modern Civics	1000	84	Before a 2010 statute, this British convention required treaties to lie before Parliament for 21 sitting days.	What is the Ponsonby Rule?
+r1	Modern Civics	1000	84	These principles proposed in a 1950 newspaper letter described when a British monarch might refuse a prime minister's dissolution request.	What are the Lascelles Principles?
+r1	Modern Civics	1000	84	A British MP traditionally resigns by accepting this nominal Crown office tied to Buckinghamshire.	What are the Chiltern Hundreds?
+r1	Modern Civics	1000	84	This branch of parliamentary privilege gives each house control over its own internal proceedings.	What is exclusive cognizance?
+r1	Modern Civics	1000	84	A presiding officer may use this casting-vote convention to favor further debate but avoid creating a majority for final change.	What is Speaker Denison's rule?
+r1	Modern Civics	1000	84	This term describes an upper chamber whose members cannot permanently defeat bills from the elected lower chamber but can delay them.	What is weak bicameralism?
+r1	World Capitals	200	22	Tokyo crowds famously stream through this enormous pedestrian intersection outside a railway station.	What is Shibuya Crossing?
+r1	World Capitals	200	22	Visitors to Rome toss coins over their shoulders into this Baroque fountain.	What is the Trevi Fountain?
+r1	World Capitals	200	22	The Kremlin and Saint Basil's Cathedral border this celebrated Moscow square.	What is Red Square?
+r1	World Capitals	200	22	Artists covered a surviving stretch of the Berlin Wall with murals under this open-air-gallery name.	What is the East Side Gallery?
+r1	World Capitals	200	22	The Washington Monument and Lincoln Memorial anchor this long civic park in the U.S. capital.	What is the National Mall?
+r1	World Capitals	200	22	The British monarch's London residence is fronted by the Victoria Memorial.	What is Buckingham Palace?
+r1	World Capitals	200	22	This former royal complex in Seoul was the principal palace of the Joseon dynasty.	What is Gyeongbokgung Palace?
+r1	World Capitals	200	22	Colorful 17th- and 18th-century townhouses line this Copenhagen waterfront district.	What is Nyhavn?
+r1	World Capitals	200	22	Stockholm's medieval old town occupies this compact island district.	What is Gamla Stan?
+r1	World Capitals	200	22	Dublin nightlife is strongly associated with this cobbled cultural quarter south of the Liffey.	What is Temple Bar?
+r1	World Capitals	200	22	This grand rectangular square in central Madrid once hosted markets, bullfights, and public ceremonies.	What is Plaza Mayor?
+r1	World Capitals	200	22	A sweeping 18th-century staircase links Rome's Piazza di Spagna with Trinità dei Monti.	What are the Spanish Steps?
+r1	World Capitals	200	22	Berlin's largest central park surrounds the Victory Column and was once a royal hunting ground.	What is the Tiergarten?
+r1	World Capitals	200	22	This small bronze fountain of a urinating boy has become an irreverent emblem of Brussels.	What is Manneken Pis?
+r1	World Capitals	200	22	Singapore's tourism symbol combines a lion's head with the body of a fish.	What is the Merlion?
+r1	World Capitals	200	22	Argentina's president works in this pink executive mansion facing Buenos Aires' Plaza de Mayo.	What is the Casa Rosada?
+r1	World Capitals	400	36	This river divides Prague while flowing beneath the Charles Bridge.	What is the Vltava?
+r1	World Capitals	400	36	Messages and portraits inspired by a Beatle cover this colorful Prague wall near the Maltese Garden.	What is the Lennon Wall?
+r1	World Capitals	400	36	Budapest's 19th-century suspension bridge first permanently linked Buda and Pest across the Danube.	What is the Széchenyi Chain Bridge?
+r1	World Capitals	400	36	A sea fortress spread across islands guards the approaches to Helsinki's harbor.	What is Suomenlinna?
+r1	World Capitals	400	36	Vienna's Habsburg rulers governed from this vast palace complex now housing museums and Austria's presidency.	What is the Hofburg?
+r1	World Capitals	400	36	This fortified Lisbon tower commemorates Portugal's Age of Discovery from the bank of the Tagus.	What is Belém Tower?
+r1	World Capitals	400	36	Madrid's official royal residence contains more than 3,000 rooms, though the monarch does not normally live there.	What is the Royal Palace of Madrid?
+r1	World Capitals	400	36	Denmark's monarch resides in four matching Rococo palaces arranged around an octagonal Copenhagen square.	What is Amalienborg?
+r1	World Capitals	400	36	This Copenhagen palace houses the Danish Parliament, prime minister's office, and supreme court.	What is Christiansborg Palace?
+r1	World Capitals	400	36	Manila's national hero is commemorated in this bayside urban park where he was executed in 1896.	What is Rizal Park?
+r1	World Capitals	400	36	Bangkok residents exercise around an artificial lake in this large green space named for Buddha's birthplace.	What is Lumphini Park?
+r1	World Capitals	400	36	Eva Perón's tomb is among the elaborate mausoleums in this Buenos Aires burial ground.	What is Recoleta Cemetery?
+r1	World Capitals	400	36	A hilltop castle, anthropology museum, and wooded park share this prominent Mexico City site.	What is Chapultepec?
+r1	World Capitals	400	36	A funicular and cable car climb this mountain sanctuary overlooking Bogotá.	What is Monserrate?
+r1	World Capitals	400	36	Terraces and a hilltop fort make this landscaped oasis a landmark in central Santiago.	What is Santa Lucía Hill?
+r1	World Capitals	400	36	Vienna's former imperial boulevard circles the historic center and displays monumental 19th-century architecture.	What is the Ringstrasse?
+r1	World Capitals	600	51	Washington's cherry blossoms famously ring this reservoir beside the Jefferson Memorial.	What is the Tidal Basin?
+r1	World Capitals	600	51	This hilltop palace complex overlooks the Danube from the western half of Budapest.	What is Buda Castle?
+r1	World Capitals	600	51	According to Czech legend, Princess Libuše foretold Prague's glory from this fortified height above the river.	What is Vyšehrad?
+r1	World Capitals	600	51	Mexico City's immense central square occupies part of the ceremonial heart of ancient Tenochtitlan.	What is the Zócalo?
+r1	World Capitals	600	51	Founded in 1592, this Mexico City park is often described as the oldest public urban park in the Americas.	What is Alameda Central?
+r1	World Capitals	600	51	Oscar Niemeyer designed this sweeping modernist office of Brazil's president in Brasília.	What is the Palácio do Planalto?
+r1	World Capitals	600	51	Brazil's executive, legislature, and supreme court face one another around this monumental Brasília space.	What is Three Powers Plaza?
+r1	World Capitals	600	51	Arches seem to rise from water around Brazil's foreign ministry headquarters in Brasília.	What is Itamaraty Palace?
+r1	World Capitals	600	51	Herbert Baker designed this seat of South Africa's executive government on a ridge in Pretoria.	What are the Union Buildings?
+r1	World Capitals	600	51	A massive granite structure outside central Pretoria commemorates the 19th-century Great Trek.	What is the Voortrekker Monument?
+r1	World Capitals	600	51	This three-arched monument in Accra honors Ghana's independence and stands near Black Star Square.	What is Independence Arch?
+r1	World Capitals	600	51	Nairobi's central recreational park takes its Swahili name from the word for freedom.	What is Uhuru Park?
+r1	World Capitals	600	51	The headquarters complex of the African Union rises in this Ethiopian capital.	What is the African Union Conference Center?
+r1	World Capitals	600	51	This highland just north of Addis Ababa includes historic churches and panoramic views over the city.	What is Mount Entoto?
+r1	World Capitals	600	51	A huge granite outcrop looming behind Nigeria's presidential complex gives this Abuja landmark its name.	What is Aso Rock?
+r1	World Capitals	600	51	This fenced Wellington ecosanctuary has reintroduced native species to a valley surrounding a former reservoir.	What is Zealandia?
+r1	World Capitals	800	68	Abu Dhabi's working presidential palace opened selected ceremonial rooms to visitors under this name in 2019.	What is Qasr Al Watan?
+r1	World Capitals	800	68	This clay-and-mudbrick fortress in central Riyadh was captured by Abdulaziz Ibn Saud in 1902.	What is Masmak Fort?
+r1	World Capitals	800	68	Muscat's waterfront promenade curves past a fish market, harbor, and 16th-century Portuguese forts.	What is the Mutrah Corniche?
+r1	World Capitals	800	68	Oman's modern national museum occupies a purpose-built complex opposite Al Alam Palace in this Muscat quarter.	What is Old Muscat?
+r1	World Capitals	800	68	Bhutan's monarch has offices in this whitewashed fortress-monastery beside the Wang Chhu in Thimphu.	What is Tashichho Dzong?
+r1	World Capitals	800	68	This large white stupa in Thimphu was built in memory of Bhutan's third king.	What is the National Memorial Chorten?
+r1	World Capitals	800	68	A monumental arch nicknamed the vertical runway commemorates Lao independence in Vientiane.	What is Patuxai?
+r1	World Capitals	800	68	Laos's national symbol is this gold-covered Buddhist stupa in Vientiane.	What is Pha That Luang?
+r1	World Capitals	800	68	A lotus-shaped tower erected in 1958 commemorates Cambodia's independence in central Phnom Penh.	What is the Independence Monument?
+r1	World Capitals	800	68	The hill and Buddhist temple that gave Phnom Penh its name form this compact city landmark.	What is Wat Phnom?
+r1	World Capitals	800	68	This square pagoda in Myanmar's purpose-built capital resembles Yangon's Shwedagon but has no central relic chamber.	What is Uppatasanti Pagoda?
+r1	World Capitals	800	68	A winged figure symbolizing Thailand's constitution crowns this Bangkok traffic-circle monument.	What is the Democracy Monument?
+r1	World Capitals	800	68	Hanoi's granite memorial contains the preserved body of Vietnam's revolutionary leader.	What is the Ho Chi Minh Mausoleum?
+r1	World Capitals	800	68	A small historic Hanoi temple rises from a single stone pillar above a lotus pond.	What is the One Pillar Pagoda?
+r1	World Capitals	800	68	Founded in 1070, this Confucian complex in Hanoi later housed Vietnam's first national academy.	What is the Temple of Literature?
+r1	World Capitals	800	68	This monumental Pyongyang tower is topped by a red flame and named for North Korea's state ideology.	What is the Juche Tower?
+r1	World Capitals	1000	84	Pyongyang's monumental arch, modeled loosely on Paris's version, was built for Kim Il Sung's 70th birthday.	What is the Arch of Triumph?
+r1	World Capitals	1000	84	A worker, peasant, and intellectual surge forward beneath a mythical horse on this Pyongyang monument.	What is the Chollima Statue?
+r1	World Capitals	1000	84	North Korea converted Kim Il Sung's former official residence into this mausoleum complex.	What is the Kumsusan Palace of the Sun?
+r1	World Capitals	1000	84	This 17th-century palace in Antananarivo was reconstructed after a 1995 fire and once housed Merina monarchs.	What is the Rova of Antananarivo?
+r1	World Capitals	1000	84	Eswatini's parliament and annual Reed Dance are associated with this royal and legislative capital.	What is Lobamba?
+r1	World Capitals	1000	84	Bronze statues of Khama III, Sebele I, and Bathoen I form this Gaborone monument to three historic rulers.	What is the Three Dikgosi Monument?
+r1	World Capitals	1000	84	This terraced 19th-century fortress overlooks Maseru and served as King Moshoeshoe I's mountain stronghold.	What is Thaba Bosiu?
+r1	World Capitals	1000	84	Opened in 1914, this Suva waterfront hotel is nicknamed the Grand Old Lady of the South Pacific.	What is the Grand Pacific Hotel?
+r1	World Capitals	1000	84	This ceremonial complex in Nukuʻalofa remains the official residence of Tonga's monarch.	What is the Royal Palace of Tonga?
+r1	World Capitals	1000	84	Samoa's legislature meets in a modern structure shaped after this traditional open-sided meeting house.	What is a fale fono?
+r1	World Capitals	1000	84	This hill above Apia contains the tomb and former home of writer Robert Louis Stevenson.	What is Mount Vaea?
+r1	World Capitals	1000	84	These Suva botanical gardens surround the Fiji Museum and honor a former colonial governor.	What are Thurston Gardens?
+r1	World Capitals	1000	84	Port Vila's hilltop cultural institution preserves Vanuatu artifacts and records oral traditions.	What is the Vanuatu Cultural Centre?
+r1	World Capitals	1000	84	Palau's capitol complex incorporates roof forms and painted motifs from this traditional meeting house.	What is a bai?
+r1	World Capitals	1000	84	Marshall Islands lawmakers meet in Majuro in a chamber bearing this local name for the legislature.	What is the Nitijela?
+r1	World Capitals	1000	84	A white domed complex in Ngerulmud houses the legislative, executive, and judicial branches under this name.	What is the Palau National Capitol?
+r1	Weather & Climate	200	22	Meteorologists place thermometers in this louvered white shelter to shield them from direct sun and precipitation.	What is a Stevenson screen?
+r1	Weather & Climate	200	22	Carried aloft beneath a balloon, this instrument package radios back temperature, pressure, humidity, and wind data.	What is a radiosonde?
+r1	Weather & Climate	200	22	This instrument measures moisture in the air rather than rainfall.	What is a hygrometer?
+r1	Weather & Climate	200	22	A glass sphere focuses sunlight onto a card so this traditional instrument can record bright-sun duration.	What is a Campbell-Stokes sunshine recorder?
+r1	Weather & Climate	200	22	A climate map uses this line to connect places receiving equal amounts of precipitation.	What is an isohyet?
+r1	Weather & Climate	200	22	Canadian summer forecasts combine temperature and moisture into this unitless measure of discomfort.	What is the humidex?
+r1	Weather & Climate	200	22	Temperature and humidity combine in this summertime measure of apparent warmth.	What is the heat index?
+r1	Weather & Climate	200	22	This forecast scale estimates the strength of sunburn-causing ultraviolet radiation at Earth's surface.	What is the UV index?
+r1	Weather & Climate	200	22	This remote-sensing system locates precipitation by timing reflected pulses of radio energy.	What is weather radar?
+r1	Weather & Climate	200	22	The drier, downwind face of a mountain range is described by this directional term.	What is the leeward side?
+r1	Weather & Climate	200	22	After sunset, cooler air over land flows toward warmer coastal water in this local circulation.	What is a land breeze?
+r1	Weather & Climate	200	22	Communities repeatedly hit by downwind squalls around a large lake belong to this snowy region.	What is a snowbelt?
+r1	Weather & Climate	200	22	Below freezing, this temperature marks when air becomes saturated with respect to ice.	What is the frost point?
+r1	Weather & Climate	200	22	Sunlight reflecting and refracting inside raindrops produces this colored arc opposite the Sun.	What is a rainbow?
+r1	Weather & Climate	200	22	Meteorologists average three consecutive decades of observations to establish this statistical baseline.	What is a climate normal?
+r1	Weather & Climate	200	22	This rotating column of air extends from a thunderstorm to the ground.	What is a tornado?
+r1	Weather & Climate	400	36	Cold, warm, and occluded boundaries meet near a mature cyclone at this junction.	What is a triple point?
+r1	Weather & Climate	400	36	Alternating red semicircles and blue triangles on opposite sides mark a boundary that is barely moving.	What is a stationary front?
+r1	Weather & Climate	400	36	Ice crystals falling from a cloud may evaporate into this trailing shaft before reaching the surface.	What is a fallstreak?
+r1	Weather & Climate	400	36	Tiny ice crystals can sparkle from an apparently clear polar sky in this phenomenon.	What is diamond dust?
+r1	Weather & Climate	400	36	Wind-driven supercooled droplets freeze onto an exposed object as this rough white ice.	What is rime?
+r1	Weather & Climate	400	36	Water vapor deposits directly as feathery ice crystals on a cold surface in this frost type.	What is hoarfrost?
+r1	Weather & Climate	400	36	Warm humid air moving over a colder surface often creates this horizontally transported mist.	What is advection fog?
+r1	Weather & Climate	400	36	Clear skies and light winds let the ground cool overnight, producing this common inland mist.	What is radiation fog?
+r1	Weather & Climate	400	36	A persistent wind directed toward higher terrain is described by this general term.	What is upslope flow?
+r1	Weather & Climate	400	36	Greenland gives this name to a fierce, cold downslope wind that can arrive suddenly from the ice cap.	What is a piteraq?
+r1	Weather & Climate	400	36	Sun-warmed mountain slopes generate this daytime upslope flow.	What is an anabatic wind?
+r1	Weather & Climate	400	36	Western Canada gives this name to a warm, dry downslope wind that can rapidly melt snow.	What is a Chinook?
+r1	Weather & Climate	400	36	The Alps lend this generic name to a warm, dry wind descending a mountain's lee side.	What is a foehn wind?
+r1	Weather & Climate	400	36	A thunderstorm outflow can lift desert dust into this fast-moving wall with an Arabic-derived name.	What is a haboob?
+r1	Weather & Climate	400	36	This midlevel current entering the back of a thunderstorm line can strengthen damaging surface winds.	What is a rear-inflow jet?
+r1	Weather & Climate	400	36	A midlatitude storm whose central pressure drops at least 24 millibars in 24 hours is popularly called this.	What is a bomb cyclone?
+r1	Weather & Climate	600	51	Rounded pouches hanging from a cloud base give this formation a name meaning breast-shaped.	What are mammatus clouds?
+r1	Weather & Climate	600	51	Smooth lens-shaped clouds often signal strong winds flowing across a mountain range.	What are lenticular clouds?
+r1	Weather & Climate	600	51	Wave-like curls resembling breaking ocean surf can form where adjacent air layers move at different speeds.	What are Kelvin-Helmholtz clouds?
+r1	Weather & Climate	600	51	This low horizontal wedge at a thunderstorm's leading edge marks advancing outflow rather than rotation.	What is a shelf cloud?
+r1	Weather & Climate	600	51	A localized lowering beneath a severe storm's rain-free base may signal organized rotation.	What is a wall cloud?
+r1	Weather & Climate	600	51	A compact rotation embedded along a squall line can produce brief tornadoes under this name.	What is a mesovortex?
+r1	Weather & Climate	600	51	A thunderstorm with a persistent rotating updraft belongs to this severe-storm class.	What is a supercell?
+r1	Weather & Climate	600	51	Radar may show a curved line of storms shaped like an archer's weapon, signaling damaging straight-line winds.	What is a bow echo?
+r1	Weather & Climate	600	51	A curved appendage on radar reflectivity can reveal precipitation wrapping around a rotating storm.	What is a hook echo?
+r1	Weather & Climate	600	51	The leading boundary where cool thunderstorm outflow pushes into warm air has this name.	What is a gust front?
+r1	Weather & Climate	600	51	This large damaging downdraft spreads across an area wider than four kilometres.	What is a macroburst?
+r1	Weather & Climate	600	51	Air plunging from a thunderstorm and spreading outward at the surface is this broader phenomenon.	What is a downburst?
+r1	Weather & Climate	600	51	A long, narrow band of thunderstorms aligned along or ahead of a cold front is called this.	What is a squall line?
+r1	Weather & Climate	600	51	A moisture plume from near Hawaii toward western North America is popularly known by this fruity express name.	What is the Pineapple Express?
+r1	Weather & Climate	600	51	This upper-level low has its coldest air near the center and commonly destabilizes the atmosphere beneath it.	What is a cold-core low?
+r1	Weather & Climate	600	51	Within the high-altitude current, this localized maximum of wind speed can enhance rising air and storm development.	What is a jet streak?
+r1	Weather & Climate	800	68	Planetary rotation plus a parcel's relative spin make up this total measure.	What is absolute vorticity?
+r1	Weather & Climate	800	68	Midlatitude cyclones draw energy from horizontal temperature contrasts through this instability.	What is baroclinic instability?
+r1	Weather & Climate	800	68	Away from the equator and surface friction, this ideal wind balances pressure-gradient force against the Coriolis effect.	What is geostrophic wind?
+r1	Weather & Climate	800	68	Despite its name, this is a relationship between vertical wind shear and a horizontal temperature gradient.	What is the thermal wind?
+r1	Weather & Climate	800	68	Large meanders in the upper-level westerlies follow planetary-scale variations in rotation under this name.	What is a Rossby wave?
+r1	Weather & Climate	800	68	This midlatitude circulation cell lies between the tropical and polar overturning cells.	What is the Ferrel cell?
+r1	Weather & Climate	800	68	Warm eastern Pacific water weakens trade winds, which permits still more warming in this reinforcing mechanism.	What is Bjerknes feedback?
+r1	Weather & Climate	800	68	This equatorial disturbance carries convection eastward while its wind pattern follows shallow-water wave dynamics.	What is a convectively coupled Kelvin wave?
+r1	Weather & Climate	800	68	Upper-stratospheric equatorial winds vary twice yearly in this cycle strongest near the solstices.	What is the semiannual oscillation?
+r1	Weather & Climate	800	68	Sea-level pressure seesaws between the Arctic and midlatitudes in this Northern Hemisphere climate pattern.	What is the Arctic Oscillation?
+r1	Weather & Climate	800	68	A pressure contrast between Iceland and the Azores defines this Atlantic climate pattern.	What is the North Atlantic Oscillation?
+r1	Weather & Climate	800	68	North Pacific sea-surface temperatures vary over decades in this basin-scale pattern.	What is the Pacific Decadal Oscillation?
+r1	Weather & Climate	800	68	Opposing sea-surface temperature anomalies near Indonesia and East Africa define this coupled pattern.	What is the Indian Ocean Dipole?
+r1	Weather & Climate	800	68	A persistent anticyclone that diverts the usual west-to-east storm track is this forecasting obstacle.	What is a blocking high?
+r1	Weather & Climate	800	68	Two ridges flanking a central trough create this Greek-letter-shaped upper-air pattern.	What is an omega block?
+r1	Weather & Climate	800	68	Sudden stratospheric warming can weaken or reverse this belt of wintertime westerlies around a pole.	What is the polar-night jet?
+r1	Weather & Climate	1000	84	Meteorologists plot upper-air temperature and humidity on this thermodynamic chart developed for the British forecasting service.	What is a tephigram?
+r1	Weather & Climate	1000	84	On this common sounding chart, pressure is logarithmic and temperature axes lean diagonally.	What is a Skew-T log-P diagram?
+r1	Weather & Climate	1000	84	This stability number compares a lifted parcel's temperature with the environment near 500 millibars; negative values favor storms.	What is the lifted index?
+r1	Weather & Climate	1000	84	Forecasters express the buoyant energy available to an accelerating storm updraft in joules per kilogram.	What is convective available potential energy?
+r1	Weather & Climate	1000	84	This negative-energy quantity measures the cap that resists a surface parcel's ascent.	What is convective inhibition?
+r1	Weather & Climate	1000	84	A rising parcel first becomes saturated at this altitude, often approximating cloud-base height.	What is the lifted condensation level?
+r1	Weather & Climate	1000	84	Above this altitude, a sufficiently lifted parcel becomes warmer than its environment and can rise freely.	What is the level of free convection?
+r1	Weather & Climate	1000	84	This sounding quantity gives the depth of liquid water that would result if all vapor in the atmospheric column condensed.	What is precipitable water?
+r1	Weather & Climate	1000	84	Meteorologists denote this entropy-related parcel variable with theta-e.	What is equivalent potential temperature?
+r1	Weather & Climate	1000	84	This parcel temperature, denoted theta-w, remains useful for comparing saturated air masses.	What is wet-bulb potential temperature?
+r1	Weather & Climate	1000	84	Increasing spin carried into an area by the flow can promote ascent through this upper-air process.	What is positive vorticity advection?
+r1	Weather & Climate	1000	84	The strengthening of a horizontal temperature boundary through deformation or convergence is called this.	What is frontogenesis?
+r1	Weather & Climate	1000	84	Warm, dry air advected above a moist boundary layer creates this capping air mass east of the Rockies.	What is an elevated mixed layer?
+r1	Weather & Climate	1000	84	Stratospheric air intruding downward along a sharply lowered boundary creates this upper-level feature.	What is a tropopause fold?
+r1	Weather & Climate	1000	84	A narrow surge of damaging winds can wrap around the southern side of a rapidly deepening extratropical cyclone under this name.	What is a sting jet?
+r1	Weather & Climate	1000	84	Two nearby tropical cyclones may orbit a shared point in this interaction named for a Japanese meteorologist.	What is the Fujiwhara effect?
+r1	Inventions	200	22	She patented a hand-cranked freezer that made ice cream easier to produce at home.	Who was Nancy Johnson?
+r1	Inventions	200	22	After watching streetcar drivers struggle in snow, she patented an early windshield wiper in 1903.	Who was Mary Anderson?
+r1	Inventions	200	22	This Cleveland inventor patented a three-position traffic signal and an improved safety hood.	Who was Garrett Morgan?
+r1	Inventions	200	22	A New York mechanic devised the safety pin while trying to pay a small debt.	Who was Walter Hunt?
+r1	Inventions	200	22	Burdock burrs clinging to his clothes inspired this Swiss engineer to develop hook-and-loop fastening.	Who was George de Mestral?
+r1	Inventions	200	22	A melted candy bar near radar equipment led this engineer to investigate microwave cooking.	Who was Percy Spencer?
+r1	Inventions	200	22	She added chopped semisweet chocolate to cookie dough at the Toll House Inn.	Who was Ruth Wakefield?
+r1	Inventions	200	22	This secretary covered typing errors with a paintlike fluid she first marketed as Mistake Out.	Who was Bette Nesmith Graham?
+r1	Inventions	200	22	A NASA engineer turned a heat-pump experiment into the powerful Super Soaker toy.	Who is Lonnie Johnson?
+r1	Inventions	200	22	Research on strong lightweight fibers at DuPont led this chemist to Kevlar.	Who was Stephanie Kwolek?
+r1	Inventions	200	22	She patented a machine that cut and folded flat-bottomed paper grocery bags.	Who was Margaret E. Knight?
+r1	Inventions	200	22	This New York socialite patented an early modern brassiere under the name Caresse Crosby.	Who was Mary Phelps Jacob?
+r1	Inventions	200	22	Cold ears while ice-skating prompted this Maine teenager to improve and patent earmuffs.	Who was Chester Greenwood?
+r1	Inventions	200	22	An architect assigned letter values and designed the crossword-like game that became Scrabble.	Who was Alfred Mosher Butts?
+r1	Inventions	200	22	This Polaroid cofounder demonstrated instant photography in 1947 after his daughter asked to see a picture immediately.	Who was Edwin Land?
+r1	Inventions	200	22	A folded waterproof curtain inside a diaper cover was one of this inventor's practical childcare innovations.	Who was Marion Donovan?
+r1	Inventions	400	36	This Hungarian-Argentine journalist helped perfect the modern ballpoint pen with quick-drying ink.	Who was László Bíró?
+r1	Inventions	400	36	A Dresden homemaker punched blotting paper and placed it in a brass cup to create a drip coffee filter.	Who was Melitta Bentz?
+r1	Inventions	400	36	His 1893 clasp locker was an important precursor of the modern zipper.	Who was Whitcomb Judson?
+r1	Inventions	400	36	This Illinois farmer's barbed-wire design used twisted strands to hold sharp barbs in place.	Who was Joseph Glidden?
+r1	Inventions	400	36	He refined petroleum residue into a skin product eventually sold as Vaseline.	Who was Robert Chesebrough?
+r1	Inventions	400	36	Observing Arctic fish preservation inspired this entrepreneur's fast-freezing food process.	Who was Clarence Birdseye?
+r1	Inventions	400	36	Volvo engineer who designed the three-point automobile seat belt and helped make its patent widely available.	Who was Nils Bohlin?
+r1	Inventions	400	36	This Army officer patented an early practical electric razor and founded a namesake company.	Who was Jacob Schick?
+r1	Inventions	400	36	Airtight polyethylene containers made this American chemist's surname a household brand.	Who was Earl Tupper?
+r1	Inventions	400	36	This aviator and engineer developed compact pressure-controlled respirators that transformed intensive care.	Who was Forrest Bird?
+r1	Inventions	400	36	An ophthalmologist invented the Laserphaco probe to improve cataract removal.	Who was Patricia Bath?
+r1	Inventions	400	36	His 1887 patent improved automatic elevator doors and their opening mechanism.	Who was Alexander Miles?
+r1	Inventions	400	36	A dressmaker's curved, narrow board for pressing sleeves led to her 1892 ironing-board patent.	Who was Sarah Boone?
+r1	Inventions	400	36	This inventor's lasting machine mechanized the shaping and attaching of shoe uppers.	Who was Jan Matzeliger?
+r1	Inventions	400	36	Known as the Black Edison, he patented railway communication and electrical-control devices.	Who was Granville T. Woods?
+r1	Inventions	400	36	Her foot-pedal trash can and shelves inside refrigerator doors were among dozens of patented household ideas.	Who was Lillian Moller Gilbreth?
+r1	Inventions	600	51	A Paris physician rolled paper into a tube in 1816, leading him to develop a wooden listening instrument.	Who was René Laennec?
+r1	Inventions	600	51	This Dutch physiologist's string galvanometer made practical electrocardiography possible.	Who was Willem Einthoven?
+r1	Inventions	600	51	An accidental circuit connection led this engineer to develop a reliable implantable cardiac pacemaker.	Who was Wilson Greatbatch?
+r1	Inventions	600	51	He patented and marketed a practical detachable outboard motor after rowing exhausted him.	Who was Ole Evinrude?
+r1	Inventions	600	51	This British chemist displayed an early moldable plastic called Parkesine at the 1862 International Exhibition.	Who was Alexander Parkes?
+r1	Inventions	600	51	This French printer created the phonautograph, which traced sound waves before recordings could be played back.	Who was Édouard-Léon Scott de Martinville?
+r1	Inventions	600	51	His Linotype machine let an operator cast an entire line of metal type from a keyboard.	Who was Ottmar Mergenthaler?
+r1	Inventions	600	51	A saloon owner's wish to monitor dishonest cashiers prompted this early cash-register design.	Who was James Ritty?
+r1	Inventions	600	51	This inventor founded a company around his practical key-driven adding machine.	Who was William Seward Burroughs?
+r1	Inventions	600	51	A Scottish clockmaker patented a facsimile system that synchronized pendulums at sender and receiver.	Who was Alexander Bain?
+r1	Inventions	600	51	Working in a kitchen, this patent attorney developed the dry-copying process called xerography.	Who was Chester Carlson?
+r1	Inventions	600	51	This Columbia University engineer invented the iconoscope television camera tube.	Who was Vladimir Zworykin?
+r1	Inventions	600	51	Regenerative and superheterodyne circuits were major radio advances by this American engineer.	Who was Edwin Howard Armstrong?
+r1	Inventions	600	51	Reflective road studs known as cat's eyes were patented by this Yorkshire inventor.	Who was Percy Shaw?
+r1	Inventions	600	51	This Royal Air Force officer independently developed Britain's turbojet engine.	Who was Frank Whittle?
+r1	Inventions	600	51	This Austrian rocketry advocate drove experimental rocket vehicles and died testing a liquid-fuel engine in 1930.	Who was Max Valier?
+r1	Inventions	800	68	This French physicist's steam digester was an early pressure cooker and a step toward the piston engine.	Who was Denis Papin?
+r1	Inventions	800	68	Using coke rather than charcoal to smelt iron gave this English ironmaster a pivotal industrial breakthrough.	Who was Abraham Darby I?
+r1	Inventions	800	68	His grooved rollers and puddling furnace improved conversion of pig iron into wrought iron.	Who was Henry Cort?
+r1	Inventions	800	68	This locksmith applied Pascal's principle in a powerful hydraulic press patented in 1795.	Who was Joseph Bramah?
+r1	Inventions	800	68	A Scottish engineer pioneered practical coal-gas lighting at the Soho Foundry.	Who was William Murdoch?
+r1	Inventions	800	68	A Leeds bricklayer patented an artificial stone binder and named it for a prized building stone.	Who was Joseph Aspdin?
+r1	Inventions	800	68	Preheating air before it entered a blast furnace sharply reduced fuel use in this engineer's 1828 patent.	Who was James Beaumont Neilson?
+r1	Inventions	800	68	Combining features of the spinning jenny and water frame produced this inventor's versatile textile machine.	Who was Samuel Crompton?
+r1	Inventions	800	68	His water-powered spinning frame helped establish the factory system in cotton manufacture.	Who was Richard Arkwright?
+r1	Inventions	800	68	This clergyman patented a mechanized loom in 1785 after visiting textile mills.	Who was Edmund Cartwright?
+r1	Inventions	800	68	A basic-lined converter developed with Percy Gilchrist made phosphorus-rich iron ore useful for steel.	Who was Sidney Gilchrist Thomas?
+r1	Inventions	800	68	This German engineer's compression refrigeration systems enabled large-scale artificial cooling.	Who was Carl von Linde?
+r1	Inventions	800	68	A compression-ignition engine designed for greater thermal efficiency bears this inventor's surname.	Who was Rudolf Diesel?
+r1	Inventions	800	68	The four-stroke spark-ignition cycle is commonly named for this German engineer.	Who was Nikolaus Otto?
+r1	Inventions	800	68	An illuminating-gas engine patented in 1860 made this Belgian-born engineer an internal-combustion pioneer.	Who was Étienne Lenoir?
+r1	Inventions	800	68	This American engineer's practical air brake let a train's brakes apply automatically if its pipe separated.	Who was George Westinghouse?
+r1	Inventions	1000	84	This Alexandrian engineer described a steam-spun sphere called the aeolipile.	Who was Hero of Alexandria?
+r1	Inventions	1000	84	Three ninth-century Baghdad brothers compiled ingenious fountains, valves, and automata in a famous mechanical treatise.	Who were the Banū Mūsā?
+r1	Inventions	1000	84	This medieval engineer described a crank-driven twin-cylinder pump and an elaborate elephant clock.	Who was Ismail al-Jazari?
+r1	Inventions	1000	84	An Eastern Han scholar built a bronze device said to indicate the direction of distant earthquakes.	Who was Zhang Heng?
+r1	Inventions	1000	84	This Song-dynasty artisan used baked-clay pieces for an early movable-type printing system.	Who was Bi Sheng?
+r1	Inventions	1000	84	An escapement-driven astronomical clock tower designed under this polymath rose in Kaifeng around 1090.	Who was Su Song?
+r1	Inventions	1000	84	This Dutch inventor demonstrated a navigable submarine in the Thames for King James I.	Who was Cornelis Drebbel?
+r1	Inventions	1000	84	A Florentine instrument maker developed the hammer-action keyboard instrument that became the piano.	Who was Bartolomeo Cristofori?
+r1	Inventions	1000	84	This French mechanician's digesting duck became one of the 18th century's most famous automata.	Who was Jacques de Vaucanson?
+r1	Inventions	1000	84	A system of pivoting signal arms created by this French inventor carried messages across revolutionary France.	Who was Claude Chappe?
+r1	Inventions	1000	84	This Paris instrument maker built an early hand-cranked generator using a permanent magnet.	Who was Hippolyte Pixii?
+r1	Inventions	1000	84	Her studies of electric arcs and ripples in sand earned patents as well as the Royal Society's Hughes Medal.	Who was Hertha Ayrton?
+r1	Inventions	1000	84	Gyroscopic compasses and ship stabilizers became specialties of this prolific American inventor.	Who was Elmer Ambrose Sperry?
+r1	Inventions	1000	84	A tungsten filament and improved vacuum tube made this physicist's namesake X-ray tube a laboratory standard.	Who was William Coolidge?
+r1	Inventions	1000	84	This French engineer commercialized neon-tube lighting after demonstrating it at the 1910 Paris Motor Show.	Who was Georges Claude?
+r1	Inventions	1000	84	Working for Eveready, this Canadian chemist created the long-lasting alkaline battery cell.	Who was Lewis Urry?
+r1	Ancient Civilizations	200	22	This ceremonial Egyptian slab shows a king wearing the crowns of both Upper and Lower Egypt.	What is the Narmer Palette?
+r1	Ancient Civilizations	200	22	Shell, limestone, and lapis lazuli form war and peace scenes on this boxlike object from a royal cemetery.	What is the Standard of Ur?
+r1	Ancient Civilizations	200	22	Blue glazed bricks and reliefs of dragons decorated this monumental entrance to Babylon.	What is the Ishtar Gate?
+r1	Ancient Civilizations	200	22	War scenes and rows of scavenging birds cover this Sumerian monument celebrating Eannatum of Lagash.	What is the Stele of the Vultures?
+r1	Ancient Civilizations	200	22	An Assyrian ruler receives tribute from foreign delegations on this dark stone monument from Nimrud.	What is the Black Obelisk of Shalmaneser III?
+r1	Ancient Civilizations	200	22	A Mauryan emperor spread moral and religious messages across India on these inscribed stone monuments.	What are the Pillars of Ashoka?
+r1	Ancient Civilizations	200	22	A three-legged bronze vessel called this became a Chinese symbol of ritual authority and royal power.	What is a ding?
+r1	Ancient Civilizations	200	22	Gold symbols of the Sun, Moon, and stars decorate this Bronze Age object found in Germany.	What is the Nebra Sky Disc?
+r1	Ancient Civilizations	200	22	Stamped symbols spiral across both sides of this still-undeciphered clay object from Crete.	What is the Phaistos Disc?
+r1	Ancient Civilizations	200	22	This stepped temple platform dominated the skyline of many ancient Mesopotamian cities.	What is a ziggurat?
+r1	Ancient Civilizations	200	22	Inca administrators encoded quantities and perhaps other information in knotted cords called these.	What are quipus?
+r1	Ancient Civilizations	200	22	Aztec farmers created productive rectangular plots in shallow lake beds using this raised-field system.	What are chinampas?
+r1	Ancient Civilizations	200	22	A giant trident-shaped geoglyph overlooks the Bay of Pisco on Peru's coast.	What is the Paracas Candelabra?
+r1	Ancient Civilizations	200	22	The Olmec carved these enormous basalt portraits, often shown wearing helmet-like headgear.	What are colossal heads?
+r1	Ancient Civilizations	200	22	Maya rulers recorded dates and victories on upright carved stone slabs known by this name.	What are stelae?
+r1	Ancient Civilizations	200	22	Ancient Persian engineers carried groundwater through gently sloping underground channels in this system.	What is a qanat?
+r1	Ancient Civilizations	400	36	Reservoirs, stone architecture, and a large signboard distinguish this Indus city in Gujarat.	What is Dholavira?
+r1	Ancient Civilizations	400	36	Excavations at this Punjabi site gave the Indus civilization its alternative archaeological name.	What is Harappa?
+r1	Ancient Civilizations	400	36	Residents of this large Neolithic Anatolian settlement entered tightly packed mudbrick homes through their roofs.	What is Çatalhöyük?
+r1	Ancient Civilizations	400	36	Cord-marked pottery and pit dwellings distinguish this prehistoric culture of the Japanese archipelago.	What is the Jomon culture?
+r1	Ancient Civilizations	400	36	Mesopotamian tradition remembered this southern settlement, sacred to Enki, as one of the world's first cities.	What is Eridu?
+r1	Ancient Civilizations	400	36	A northwest palace with celebrated ivory carvings stood at this Assyrian city also called Kalhu.	What is Nimrud?
+r1	Ancient Civilizations	400	36	This fortified city on the Euphrates became a major Hittite and Neo-Hittite center near the modern Turkish-Syrian border.	What is Carchemish?
+r1	Ancient Civilizations	400	36	Akhenaten founded this short-lived planned Egyptian capital between Memphis and Thebes.	What is Amarna?
+r1	Ancient Civilizations	400	36	Artisans who cut and decorated New Kingdom royal tombs lived in this unusually well-documented village.	What is Deir el-Medina?
+r1	Ancient Civilizations	400	36	Successive pharaohs enlarged this enormous temple complex at ancient Thebes, including its famous hypostyle hall.	What is Karnak?
+r1	Ancient Civilizations	400	36	Volcanic ash preserved vivid Bronze Age frescoes at this settlement on Santorini.	What is Akrotiri?
+r1	Ancient Civilizations	400	36	Massive Cyclopean walls and covered passageways surround this Bronze Age citadel in the Argolid.	What is Tiryns?
+r1	Ancient Civilizations	400	36	Zapotec rulers leveled a mountaintop in Oaxaca to build this ceremonial capital.	What is Monte Albán?
+r1	Ancient Civilizations	400	36	A long rivalry with a better-known Guatemalan city shaped the history of this Maya capital in Campeche.	What is Calakmul?
+r1	Ancient Civilizations	400	36	The Temple of the Inscriptions contains the tomb of Pakal at this Maya site in Chiapas.	What is Palenque?
+r1	Ancient Civilizations	400	36	Adobe walls decorated with reliefs made this Chimú capital near modern Trujillo the largest city of pre-Columbian South America.	What is Chan Chan?
+r1	Ancient Civilizations	600	51	Marduk defeats the sea goddess Tiamat in this Babylonian creation epic.	What is the Enuma Elish?
+r1	Ancient Civilizations	600	51	A flood and the problem of human overpopulation structure this Akkadian epic named for its hero.	What is Atrahasis?
+r1	Ancient Civilizations	600	51	This Mesopotamian document combines legendary reigns of immense length with later historical dynasties.	What is the Sumerian King List?
+r1	Ancient Civilizations	600	51	Diplomatic correspondence on clay tablets links Egypt's New Kingdom court with other Late Bronze Age rulers.	What are the Amarna Letters?
+r1	Ancient Civilizations	600	51	The oldest Egyptian royal funerary spells were carved inside chambers of Old Kingdom tombs under this name.	What are the Pyramid Texts?
+r1	Ancient Civilizations	600	51	Middle Kingdom Egyptians adapted royal afterlife spells for private burials by writing them on these containers.	What are the Coffin Texts?
+r1	Ancient Civilizations	600	51	This long Egyptian medical roll describes remedies, drugs, and ailments from crocodile bites to intestinal disease.	What is the Ebers Papyrus?
+r1	Ancient Civilizations	600	51	A remarkably systematic Egyptian surgical text discusses wounds from the head downward.	What is the Edwin Smith Papyrus?
+r1	Ancient Civilizations	600	51	Problems involving fractions, geometry, and volumes fill this Egyptian mathematical document copied by Ahmes.	What is the Rhind Mathematical Papyrus?
+r1	Ancient Civilizations	600	51	A vizier advises young officials about listening, restraint, and justice in this Egyptian wisdom work.	What is the Instruction of Ptahhotep?
+r1	Ancient Civilizations	600	51	This New Kingdom funerary composition divides the Sun god's nightly journey through twelve guarded regions.	What is the Book of Gates?
+r1	Ancient Civilizations	600	51	Herodotus admired the relay-post system that moved Persian royal messages swiftly across the empire under this Greek name.	What is the angarium?
+r1	Ancient Civilizations	600	51	A Persian governor administering one of the empire's provinces held this title.	Who was a satrap?
+r1	Ancient Civilizations	600	51	Archaeologists use this term for a pottery shard or limestone flake bearing a short ancient inscription.	What is an ostracon?
+r1	Ancient Civilizations	600	51	Egyptians monitored the river's height and anticipated agricultural conditions with this calibrated structure.	What is a nilometer?
+r1	Ancient Civilizations	600	51	A long pole with a counterweight lifted irrigation water from the Nile using this simple device.	What is a shaduf?
+r1	Ancient Civilizations	800	68	This daughter of Sargon of Akkad served as high priestess at Ur and is the earliest named author in world literature.	Who was Enheduanna?
+r1	Ancient Civilizations	800	68	Numerous seated diorite statues portray this ruler of Lagash with clasped hands and a serene expression.	Who was Gudea?
+r1	Ancient Civilizations	800	68	The earliest surviving law code named for its king comes from this founder of Ur's Third Dynasty.	Who was Ur-Nammu?
+r1	Ancient Civilizations	800	68	This ruler of Ur's Third Dynasty boasted of physical feats and standardized weights and measures.	Who was Shulgi?
+r1	Ancient Civilizations	800	68	This Assyrian king reorganized conquered lands into provinces and expanded a professional standing army.	Who was Tiglath-Pileser III?
+r1	Ancient Civilizations	800	68	Babylon's last native king was also an antiquarian who excavated old temple foundations.	Who was Nabonidus?
+r1	Ancient Civilizations	800	68	This Hittite queen corresponded with Egypt's Ramesses II and retained influence after her husband's death.	Who was Puduhepa?
+r1	Ancient Civilizations	800	68	This Hittite king, a brother of Muwatalli II, concluded a famous peace treaty with Ramesses II and later sent him a daughter in marriage.	Who was Hattusili III?
+r1	Ancient Civilizations	800	68	By expelling the Hyksos from the Nile Delta, this pharaoh founded Egypt's Eighteenth Dynasty.	Who was Ahmose I?
+r1	Ancient Civilizations	800	68	This Middle Kingdom pharaoh built fortresses in Nubia and reduced the power of provincial nomarchs.	Who was Senusret III?
+r1	Ancient Civilizations	800	68	The Labyrinth described near Hawara belonged to the pyramid complex of this Middle Kingdom ruler.	Who was Amenemhat III?
+r1	Ancient Civilizations	800	68	This Saite pharaoh reunited Egypt after Assyrian invasions and encouraged Greek trade at Naukratis.	Who was Psamtik I?
+r1	Ancient Civilizations	800	68	The famously wealthy last king of Lydia was defeated by Cyrus the Great.	Who was Croesus?
+r1	Ancient Civilizations	800	68	Buddhist art and trade flourished across a Central Asian empire under this Kushan ruler.	Who was Kanishka I?
+r1	Ancient Civilizations	800	68	This seventh-century Maya king commissioned Palenque's Temple of the Inscriptions.	Who was K'inich Janaab' Pakal?
+r1	Ancient Civilizations	800	68	A Naranjo queen born at Dos Pilas restored her dynasty's fortunes and appears prominently on Maya monuments.	Who was Lady Six Sky?
+r1	Ancient Civilizations	1000	84	Tripartite houses and painted pottery distinguish this southern Mesopotamian culture that preceded the rise of cities.	What is the Ubaid culture?
+r1	Ancient Civilizations	1000	84	Archaeologists name this short Mesopotamian phase between the Uruk and Early Dynastic periods for a site near Babylon.	What is the Jemdet Nasr period?
+r1	Ancient Civilizations	1000	84	Fine pottery painted with geometric and animal designs marks this prehistoric culture of northern Mesopotamia and Syria.	What is the Halaf culture?
+r1	Ancient Civilizations	1000	84	Irrigation communities with distinctive painted ceramics gave this central Mesopotamian horizon its archaeological name.	What is the Samarra culture?
+r1	Ancient Civilizations	1000	84	Black-topped red pottery and increasingly elaborate elite burials characterize this predynastic Egyptian sequence.	What is the Naqada culture?
+r1	Ancient Civilizations	1000	84	This Upper Egyptian farming culture predates Naqada and is known from graves containing fine pottery and ivory objects.	What is the Badarian culture?
+r1	Ancient Civilizations	1000	84	A powerful Nubian kingdom centered on a city south of the Third Cataract before Egypt's New Kingdom expansion.	What is the Kerma culture?
+r1	Ancient Civilizations	1000	84	Fortified settlements and rich graves in Bronze Age Central Asia define this complex also called the Oxus civilization.	What is the Bactria-Margiana Archaeological Complex?
+r1	Ancient Civilizations	1000	84	Chlorite vessels with elaborate animal imagery are associated with this Bronze Age culture of southeastern Iran.	What is the Jiroft culture?
+r1	Ancient Civilizations	1000	84	Black burnished pottery and walled settlements characterize this late Neolithic culture of the Yellow River region.	What is the Longshan culture?
+r1	Ancient Civilizations	1000	84	A possible early state associated with palatial foundations at Yanshi gives this Bronze Age Chinese culture its name.	What is the Erlitou culture?
+r1	Ancient Civilizations	1000	84	Sophisticated jade cong and a vast hydraulic system distinguish this late Neolithic culture of the lower Yangtze.	What is the Liangzhu culture?
+r1	Ancient Civilizations	1000	84	An early urban settlement near the Inland Niger Delta gives this Iron Age West African tradition its archaeological name.	What is the Djenné-Djenno culture?
+r1	Ancient Civilizations	1000	84	A highland ceremonial center with carved stone heads and feline imagery anchors this early Andean horizon.	What is the Chavín culture?
+r1	Ancient Civilizations	1000	84	Elaborately wrapped mummy bundles and vivid embroidered textiles characterize this culture of Peru's south coast.	What is the Paracas culture?
+r1	Ancient Civilizations	1000	84	Portrait vessels, irrigation works, and the monumental Huacas del Sol and de la Luna belong to this north-coast Peruvian culture.	What is the Moche culture?

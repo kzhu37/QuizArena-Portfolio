@@ -1,0 +1,404 @@
+# Authored research expansion batch 07.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: railway museums and national transport collections; NOAA and IMO navigation resources (https://oceanservice.noaa.gov/navigation/ and https://www.imo.org/); institutional histories of notable firsts.
+# Research anchors: IOC Olympic Studies Centre, IIHF, and NHL historical resources (https://olympics.com/ioc/olympic-studies-centre, https://www.iihf.com/, and https://records.nhl.com/).
+r1	Trains	200	22	These transverse supports beneath the rails spread loads and keep the track at its proper width.	What are railway sleepers?
+r1	Trains	200	22	The crew member at the controls of a locomotive has this job title in North American usage.	Who is a locomotive engineer?
+r1	Trains	200	22	Traditionally placed at the end of a North American freight train, this car provided an office and lookout for the crew.	What is a caboose?
+r1	Trains	200	22	Water tanks and a fuel bunker carried on the engine itself distinguish this steam-powered design from one hauling a separate tender.	What is a tank locomotive?
+r1	Trains	200	22	An onboard engine generates electricity for traction motors in this widely used locomotive type.	What is a diesel-electric locomotive?
+r1	Trains	200	22	A self-propelled passenger vehicle that can operate singly rather than being hauled by a separate locomotive is called this.	What is a railcar?
+r1	Trains	200	22	A rotating bridge of track lets locomotives reverse direction or enter radial stalls at this device.	What is a railway turntable?
+r1	Trains	200	22	Locomotives are serviced in this circular or semicircular engine house built around a turntable.	What is a roundhouse?
+r1	Trains	200	22	Passengers wait beside the track on this raised station surface.	What is a railway platform?
+r1	Trains	200	22	Electric trains collect current from this system of wires suspended above the track.	What is overhead catenary?
+r1	Trains	200	22	This sturdy barrier at the end of a terminal track is designed to stop runaway rolling stock.	What is a buffer stop?
+r1	Trains	200	22	A mechanical device joining one rail vehicle to another is known by this general term.	What is a railway coupler?
+r1	Trains	200	22	Standardized boxes can transfer between ship, truck, and train without unloading their cargo; railroads call this traffic by this term.	What is intermodal freight?
+r1	Trains	200	22	A passenger-carrying rail vehicle hauled as part of a train is commonly called this.	What is a railway coach?
+r1	Trains	200	22	Hammered through a rail's base into a wooden tie, this fastener has an offset head.	What is a rail spike?
+r1	Trains	200	22	Movable tapered rails guide wheels from one track to another at this piece of trackwork.	What is a railway switch?
+r1	Trains	400	36	A train's wheels stay centered partly because each wheel has this projecting inner rim.	What is a wheel flange?
+r1	Trains	400	36	Signals divide a line into sections so that only one train normally occupies each section under this safety method.	What is block signaling?
+r1	Trains	400	36	This arrangement of signals and switches prevents operators from setting conflicting train routes.	What is railway interlocking?
+r1	Trains	400	36	Electricity supplied from the locomotive to light, heat, and cool passenger cars is known by this three-word term.	What is head-end power?
+r1	Trains	400	36	A locomotive carries extra fuel and water in this vehicle coupled directly behind it.	What is a tender?
+r1	Trains	400	36	Combustion occurs in this chamber at the rear of a steam locomotive's boiler.	What is a firebox?
+r1	Trains	400	36	Hot gases pass through these many narrow passages inside a locomotive boiler to transfer heat to the water.	What are fire tubes?
+r1	Trains	400	36	Steam receives additional heat after leaving the boiler in this device, improving efficiency and reducing condensation.	What is a superheater?
+r1	Trains	400	36	Large plates beside a steam locomotive's smokebox lift airflow and smoke away from the driver's view.	What are smoke deflectors?
+r1	Trains	400	36	Pistons turn the large powered wheels of a steam locomotive, known collectively by this name.	What are driving wheels?
+r1	Trains	400	36	A small swiveling wheel assembly ahead of a locomotive's drivers helps guide it into curves.	What is a leading truck?
+r1	Trains	400	36	Railcars are sorted by destination in this yard, often by rolling them over a raised summit.	What is a classification yard?
+r1	Trains	400	36	Rails are banked on a curve by raising the outside rail, a feature called this in railway engineering.	What is superelevation?
+r1	Trains	400	36	The grip between steel wheel and steel rail that allows a locomotive to pull is called this.	What is railway adhesion?
+r1	Trains	400	36	This electric machine mounted near an axle converts current into the turning force that moves a train.	What is a traction motor?
+r1	Trains	400	36	This onboard device releases grit ahead of powered wheels to improve grip on wet or icy rail.	What is a rail sander?
+r1	Trains	600	51	A low-voltage current through the rails detects whether a train occupies a section in this signaling device.	What is a track circuit?
+r1	Trains	600	51	Sensors at both ends of a section compare entering and leaving wheels in this alternative method of train detection.	What is an axle counter?
+r1	Trains	600	51	A transponder mounted between the rails transmits fixed or variable signaling data to a passing train under this European name.	What is a balise?
+r1	Trains	600	51	A driver must possess a physical staff or tablet before entering a single-track section under this operating system.	What is the electric token system?
+r1	Trains	600	51	A block may not be cleared until the preceding train has fully left it under this strict signaling principle.	What is absolute block working?
+r1	Trains	600	51	A short unpowered gap between electrical supply sections keeps different phases from connecting through a train; it is called this.	What is a neutral section?
+r1	Trains	600	51	Weights or springs maintain nearly constant wire force as temperatures change in this feature of high-speed overhead power lines.	What is automatic tensioning?
+r1	Trains	600	51	Repeated wheel-rail forces can form regularly spaced waves on the running surface, a defect known as this.	What is rail corrugation?
+r1	Trains	600	51	A rail vehicle's wheelsets can weave laterally at speed in this self-excited motion.	What is hunting oscillation?
+r1	Trains	600	51	The amount by which a train travels faster through a curve than the installed banking would balance is called this.	What is cant deficiency?
+r1	Trains	600	51	George Westinghouse's fail-safe train brake applies throughout the consist when pressure in this continuous line drops.	What is the automatic air brake?
+r1	Trains	600	51	The control valve on each car that admits reservoir air to the brake cylinder when line pressure falls has this traditional name.	What is a triple valve?
+r1	Trains	600	51	A partial vacuum in a continuous pipe releases the brakes in this once-common British and Indian railway system.	What is the vacuum brake?
+r1	Trains	600	51	Frank Sprague's system lets one cab electrically govern motors on several coupled cars and is known by this term.	What is multiple-unit control?
+r1	Trains	600	51	An offset in the wheel tread makes a solid railway wheelset steer itself toward the center of straight track; this shape is called this.	What is wheel conicity?
+r1	Trains	600	51	A locomotive placed within or at the rear of a long freight consist reduces coupler forces under this operating practice.	What is distributed traction?
+r1	Trains	800	68	Eccentric cranks outside a steam locomotive's wheels control admission and exhaust in this widely adopted valve-motion system.	What is Walschaerts valve gear?
+r1	Trains	800	68	Three-cylinder British locomotives could derive the middle cylinder's motion from the two outside sets using this linked arrangement.	What is Gresley conjugated valve gear?
+r1	Trains	800	68	Two engine units share a boiler slung between them on this articulated locomotive design named for its inventor.	What is a Garratt locomotive?
+r1	Trains	800	68	The rear engine unit is fixed to the boiler frame while the front unit pivots, and early versions reused exhaust steam in the front cylinders, on this design.	What is a Mallet locomotive?
+r1	Trains	800	68	John Blenkinsop's early locomotives used a toothed wheel engaging a toothed rail, making this type of railway.	What is a rack railway?
+r1	Trains	800	68	A raised center rail gripped by horizontal wheels supplied extra traction and braking in this system devised by John Barraclough Fell.	What is the Fell system?
+r1	Trains	800	68	Pneumatic pressure in a pipe beneath the track propelled vehicles on this experimental nineteenth-century railway type.	What is an atmospheric railway?
+r1	Trains	800	68	A locomotive uses steam successively in high- and low-pressure cylinders under this efficiency-improving arrangement.	What is compound expansion?
+r1	Trains	800	68	An extra inner rail on tight curves bears against wheel backs to reduce flange forces and derailment risk; it has this name.	What is a check rail?
+r1	Trains	800	68	Rails meet point-to-point at this crossing where two routes intersect at a very shallow angle.	What is a movable-point frog?
+r1	Trains	800	68	The sideways force a moving wheelset exerts on a rail relative to its vertical load is measured by this derailment-safety ratio.	What is the Nadal criterion?
+r1	Trains	800	68	Track circuits are unnecessary in this moving-block train-control system developed for urban railways.	What is communications-based train control?
+r1	Trains	800	68	Two rails of different gauges share one common rail in this space-saving arrangement.	What is dual-gauge track?
+r1	Trains	800	68	Brunel's Great Western Railway originally used rails seven feet and a quarter inch apart, known by this nickname.	What was broad gauge?
+r1	Trains	800	68	A train alternately enters facing and trailing switches to climb a steep slope in this zigzag layout.	What is a railway zigzag?
+r1	Trains	800	68	A laboratory device spins rail-vehicle wheels atop rotating cylinders to test stability and suspension behavior before track trials.	What is a roller rig?
+r1	Trains	1000	84	Locomotive exhaust pulses draw air through the fire by passing up this tapered nozzle below the chimney.	What is a blastpipe?
+r1	Trains	1000	84	A steam locomotive can vary power and efficiency by changing the fraction of a piston stroke during which steam enters, a setting called this.	What is cutoff?
+r1	Trains	1000	84	André Chapelon improved draughting with separate exhaust passages and nozzles in this named system.	What is the Kylchap exhaust?
+r1	Trains	1000	84	Livio Dante Porta promoted this sharply flared, multi-jet locomotive exhaust derived from work by Jean Lemaître.	What is the Lempor ejector?
+r1	Trains	1000	84	A steam injector uses a high-speed jet to force feedwater into a boiler despite the boiler's own pressure, illustrating this seemingly paradoxical device.	What is a Giffard injector?
+r1	Trains	1000	84	A locomotive frame can turn relative to its powered axles through side-control springs in this German guiding arrangement.	What is a Krauss-Helmholtz bogie?
+r1	Trains	1000	84	The smooth curve connecting straight track to a constant-radius bend gradually introduces curvature and banking; railway engineers call it this.	What is a transition spiral?
+r1	Trains	1000	84	Equalizing beams distribute weight among coupled axles so wheels can follow uneven track in this locomotive suspension arrangement.	What is compensated suspension?
+r1	Trains	1000	84	Track geometry cars measure the difference in cross-level between two points a fixed distance apart as this defect.	What is track twist?
+r1	Trains	1000	84	Longitudinal forces can pull the middle of a long train inward on a sharp curve, causing this distinctive derailment mechanism.	What is stringlining?
+r1	Trains	1000	84	Unequal thrust from alternating cylinders can make a steam locomotive yaw or sway from side to side in this motion.	What is nosing?
+r1	Trains	1000	84	Steam distribution that uses poppet valves actuated by rotating cams is associated with this Italian engineer's name.	What is Caprotti valve gear?
+r1	Trains	1000	84	A fireless locomotive stores pressurized hot water and steam in this insulated vessel instead of carrying a furnace.	What is a steam accumulator?
+r1	Trains	1000	84	Railway wheels are mounted slightly farther apart than the rails' inside faces; the lateral allowance between flange and rail is this.	What is gauge clearance?
+r1	Trains	1000	84	In a three-part freight brake valve, the auxiliary reservoir, brake cylinder, and train pipe are governed by this later development of the original triple valve.	What is a distributor valve?
+r1	Trains	1000	84	A train negotiating a curve produces an unbalanced outward acceleration when speed exceeds the value matched to the installed cant; that matched value is this.	What is equilibrium speed?
+r1	Ships & Navigation	200	22	Facing toward a vessel's bow, sailors use this term for the left-hand side.	What is port side?
+r1	Ships & Navigation	200	22	The rear end of a vessel is known by this four-letter term.	What is the stern?
+r1	Ships & Navigation	200	22	Mounted at the rear and turned to steer a vessel, this flat surface redirects flowing water.	What is a ship's rudder?
+r1	Ships & Navigation	200	22	Rotating helical blades push water astern to propel a motor vessel using this device.	What is a screw propeller?
+r1	Ships & Navigation	200	22	A tower displaying a powerful warning light helps mariners identify coasts and hazards.	What is a lighthouse?
+r1	Ships & Navigation	200	22	A floating marker can identify a channel, shoal, or hazard and is known by this name.	What is a navigation buoy?
+r1	Ships & Navigation	200	22	Struck in patterns to mark half-hours of a watch, this deck instrument also sounds alarms and ceremonies.	What is a ship's bell?
+r1	Ships & Navigation	200	22	One nautical mile per hour is this unit of vessel speed.	What is a knot?
+r1	Ships & Navigation	200	22	The captain and officers direct a vessel from this command and navigation space.	What is the ship's bridge?
+r1	Ships & Navigation	200	22	A wheel or tiller operated to steer a vessel is collectively called this.	What is the helm?
+r1	Ships & Navigation	200	22	Carried for emergency evacuation, this small craft is launched when a vessel must be abandoned.	What is a lifeboat?
+r1	Ships & Navigation	200	22	Built for pushing, pulling, and escorting larger vessels in confined waters, this powerful small craft works around harbors.	What is a tugboat?
+r1	Ships & Navigation	200	22	Standardized cargo boxes stack above and below deck on this merchant-vessel type.	What is a container ship?
+r1	Ships & Navigation	200	22	Meals are prepared in this room aboard a vessel.	What is a ship's galley?
+r1	Ships & Navigation	200	22	Cardinal directions radiate from a decorated circular figure printed on a nautical chart.	What is a compass rose?
+r1	Ships & Navigation	200	22	Traditionally equal to six feet, this unit measures water depth.	What is a fathom?
+r1	Ships & Navigation	400	36	Crew quarters once occupied this raised forward section of a sailing ship, whose name is commonly shortened to “fo'c'sle.”	What is the forecastle?
+r1	Ships & Navigation	400	36	Toward a vessel's rear is expressed by this directional term.	What is aft?
+r1	Ships & Navigation	400	36	A location roughly halfway between a vessel's bow and stern is described by this word.	What is amidships?
+r1	Ships & Navigation	400	36	The vertical distance from the waterline down to the lowest part of a vessel determines this measurement.	What is draught?
+r1	Ships & Navigation	400	36	Bridge clearance depends on this vertical measurement from a vessel's waterline to its highest fixed point.	What is air draught?
+r1	Ships & Navigation	400	36	A vessel leaning persistently to one side in calm water has this condition, often caused by uneven loading.	What is a list?
+r1	Ships & Navigation	400	36	The difference between a vessel's forward and aft draught is called this.	What is trim?
+r1	Ships & Navigation	400	36	Wind pushes a vessel sideways away from its intended track, producing this angular drift.	What is leeway?
+r1	Ships & Navigation	400	36	The direction from which the wind is blowing is described by this term.	What is windward?
+r1	Ships & Navigation	400	36	A vessel or shore lying downwind of another object is on this side.	What is leeward?
+r1	Ships & Navigation	400	36	A rope or cable securing a vessel to a pier or fixed buoy has this name.	What is a mooring line?
+r1	Ships & Navigation	400	36	Heavy ropes are looped around this short, sturdy post on a quay or ship.	What is a bollard?
+r1	Ships & Navigation	400	36	Sailors take repeated turns of rope around this vertical-axis rotating machine to haul heavy loads.	What is a capstan?
+r1	Ships & Navigation	400	36	A horizontal-axis drum raises and lowers ground tackle on this powered deck machine.	What is an anchor windlass?
+r1	Ships & Navigation	400	36	A very thick rope or wire used for towing or securing a large vessel is called this.	What is a hawser?
+r1	Ships & Navigation	400	36	Placed between hull and pier, this resilient bumper prevents contact damage during berthing.	What is a marine fender?
+r1	Ships & Navigation	600	51	The angle between true north and magnetic north at a location is this correction applied to a compass course.	What is magnetic variation?
+r1	Ships & Navigation	600	51	Magnetic fields aboard a vessel create this compass error, which changes with the ship's heading.	What is compass deviation?
+r1	Ships & Navigation	600	51	A route crossing every meridian at the same angle appears straight on a Mercator chart and has this name.	What is a rhumb line?
+r1	Ships & Navigation	600	51	This cylindrical map projection preserves local angles, making constant-bearing courses straight lines while enlarging polar areas.	What is the Mercator projection?
+r1	Ships & Navigation	600	51	Each bearing or celestial observation constrains a vessel to this plotted locus rather than immediately supplying a unique point.	What is a line of position?
+r1	Ships & Navigation	600	51	Advancing an earlier bearing line by the vessel's course and distance allows a second observation to produce this type of position.	What is a running fix?
+r1	Ships & Navigation	600	51	Measuring the Sun's maximum altitude near local midday provides latitude in this traditional observation.	What is a noon sight?
+r1	Ships & Navigation	600	51	Modern celestial navigation compares observed altitude with a computed altitude and plots the difference under this procedure.	What is the intercept method?
+r1	Ships & Navigation	600	51	Charted depths are measured from this reference level, commonly chosen so actual water is seldom lower.	What is chart datum?
+r1	Ships & Navigation	600	51	A marked rope with a weighted end provided mariners a direct depth measurement before electronic instruments.	What is a lead line?
+r1	Ships & Navigation	600	51	Timing a sound pulse's round trip to the seabed determines depth by this technique.	What is echo sounding?
+r1	Ships & Navigation	600	51	Contours and color bands show underwater relief on this specialized map.	What is a bathymetric chart?
+r1	Ships & Navigation	600	51	The height difference between successive high and low water is called this.	What is tidal range?
+r1	Ships & Navigation	600	51	Navigators describe a current by these two quantities: its direction and its speed.	What are set and drift?
+r1	Ships & Navigation	600	51	The actual direction of travel over Earth's surface, after current and wind effects, is abbreviated COG and called this.	What is course over ground?
+r1	Ships & Navigation	600	51	GPS may report SOG, this actual rate of movement relative to Earth's surface.	What is speed over ground?
+r1	Ships & Navigation	800	68	The distance between a vessel's center of gravity and its transverse metacenter is this initial-stability measure.	What is metacentric height?
+r1	Ships & Navigation	800	68	At a given heel angle, the horizontal separation of buoyancy and gravity lines is this lever used to calculate restoring moment.	What is a righting arm?
+r1	Ships & Navigation	800	68	Liquid shifting across a partly filled tank effectively raises a vessel's center of gravity in this destabilizing phenomenon.	What is the free-surface effect?
+r1	Ships & Navigation	800	68	A vessel moving quickly in shallow water can sink deeper and trim by the bow or stern because of this hydrodynamic phenomenon.	What is ship squat?
+r1	Ships & Navigation	800	68	Restricted water between a moving hull and a nearby bank accelerates, pulling the stern toward the bank in this effect.	What is bank suction?
+r1	Ships & Navigation	800	68	Vapor bubbles forming and collapsing on propeller blades cause noise, erosion, and lost thrust in this process.	What is propeller cavitation?
+r1	Ships & Navigation	800	68	Blade angles rotate hydraulically while the shaft speed remains steady on this adjustable propulsion device.	What is a controllable-pitch propeller?
+r1	Ships & Navigation	800	68	A fixed ring around a propeller accelerates thrust at low speed; this assembly is also called a Kort nozzle.	What is a ducted propeller?
+r1	Ships & Navigation	800	68	This fixed longitudinal fin beneath the stern improves directional stability and can protect a propeller or rudder.	What is a skeg?
+r1	Ships & Navigation	800	68	A hull whose sides narrow inward above the widest point displays this form, seen dramatically on some early warships.	What is tumblehome?
+r1	Ships & Navigation	800	68	The upward sweep of a ship's deck line toward bow and stern is called this.	What is sheer?
+r1	Ships & Navigation	800	68	A deck's slight transverse arch sheds water toward the sides and has this name.	What is deck camber?
+r1	Ships & Navigation	800	68	Placed a short distance abaft the bow, this strong watertight partition limits flooding after a head-on impact.	What is a collision bulkhead?
+r1	Ships & Navigation	800	68	The watertight volume above a loaded waterline that can still provide flotation is called this.	What is reserve buoyancy?
+r1	Ships & Navigation	800	68	A hull's underwater volume divided by the rectangular block defined by its length, breadth, and draught yields this coefficient.	What is the block coefficient?
+r1	Ships & Navigation	800	68	A hull's displacement volume compared with a prism having its maximum immersed cross-section gives this measure of longitudinal fullness.	What is the prismatic coefficient?
+r1	Ships & Navigation	1000	84	Great-circle routes plot as straight segments on this map projection, though bearings are distorted away from the center.	What is a gnomonic projection?
+r1	Ships & Navigation	1000	84	A small wooden board with peg holes let sailors record heading and speed during each watch before transferring the data to a logbook.	What is a traverse board?
+r1	Ships & Navigation	1000	84	Sailors once timed a knotted line paying out behind a weighted wooden sector to measure vessel speed with this instrument.	What is a chip log?
+r1	Ships & Navigation	1000	84	A mechanical rotor towed astern turns a dial that records distance traveled in this later form of ship's log.	What is a taffrail log?
+r1	Ships & Navigation	1000	84	Because an observer's visible horizon lies below the true horizontal, sextant altitude requires this height-dependent subtraction.	What is dip correction?
+r1	Ships & Navigation	1000	84	A celestial body's apparent edge rather than its center is placed on the horizon, requiring this angular-radius adjustment.	What is semidiameter correction?
+r1	Ships & Navigation	1000	84	Before dependable sea clocks, navigators compared the Moon's angle from a star with almanac predictions under this laborious method.	What is the lunar-distance method?
+r1	Ships & Navigation	1000	84	Measured westward from Greenwich to a celestial body's hour circle, this angle appears in nautical almanacs.	What is Greenwich hour angle?
+r1	Ships & Navigation	1000	84	Combining a body's Greenwich hour angle with the observer's east or west longitude yields this observer-centered celestial angle.	What is local hour angle?
+r1	Ships & Navigation	1000	84	A celestial body crossing the observer's meridian reaches this event, often used for a latitude sight.	What is meridian passage?
+r1	Ships & Navigation	1000	84	Two observations of the same celestial body at equal altitudes on opposite sides of the meridian can determine time using this technique.	What is the equal-altitude method?
+r1	Ships & Navigation	1000	84	A tray of mercury or other level reflector supplies this substitute when a natural sea horizon is unavailable.	What is an artificial horizon?
+r1	Ships & Navigation	1000	84	The angular offset when a sextant reads something other than zero with its two mirrors parallel is this instrument error.	What is index error?
+r1	Ships & Navigation	1000	84	The highest-latitude point reached by a great-circle track is called this.	What is the great-circle vertex?
+r1	Ships & Navigation	1000	84	In 1837, this American captain realized that one celestial observation gives a whole positional line rather than a single point.	Who was Thomas Hubbard Sumner?
+r1	Ships & Navigation	1000	84	Wind and current charts earned this U.S. naval officer the nickname “Pathfinder of the Seas.”	Who was Matthew Fontaine Maury?
+r1	Famous Firsts	200	22	His 2008 election broke the racial barrier in the U.S. presidency.	Who is Barack Obama?
+r1	Famous Firsts	200	22	Before joining the Supreme Court in 1967, this first African American justice had argued Brown v. Board of Education.	Who was Thurgood Marshall?
+r1	Famous Firsts	200	22	Confirmed in 1997, this Czech-born diplomat became the first woman to serve as U.S. secretary of state.	Who was Madeleine Albright?
+r1	Famous Firsts	200	22	Her performance as Mammy in “Gone with the Wind” made her the first African American to win an Academy Award.	Who was Hattie McDaniel?
+r1	Famous Firsts	200	22	“Lilies of the Field” made this Bahamian American the first Black man to win the Best Actor Oscar.	Who was Sidney Poitier?
+r1	Famous Firsts	200	22	Liberia elected this economist in 2005, making her Africa's first elected female head of state.	Who is Ellen Johnson Sirleaf?
+r1	Famous Firsts	200	22	Leaving Voskhod 2 through an inflatable airlock in 1965, this cosmonaut performed humanity's first spacewalk.	Who was Alexei Leonov?
+r1	Famous Firsts	200	22	During her second orbital mission in 1984, this Soviet cosmonaut became the first woman to walk in space.	Who was Svetlana Savitskaya?
+r1	Famous Firsts	200	22	Aboard Shenzhou 5 in 2003, this pilot became the first Chinese citizen launched into space by China.	Who is Yang Liwei?
+r1	Famous Firsts	200	22	Project Juno sent this chemist to Mir in 1991 as the first British citizen in space.	Who is Helen Sharman?
+r1	Famous Firsts	200	22	As a crew member in the 1900 sailing competition, this Swiss-American countess became the first woman credited with an Olympic championship.	Who was Hélène de Pourtalès?
+r1	Famous Firsts	200	22	Officials tried to remove her from the 1967 Boston Marathon, but entry number 261 made her its first registered female runner.	Who is Kathrine Switzer?
+r1	Famous Firsts	200	22	This American won the inaugural women's Olympic marathon in Los Angeles in 1984.	Who is Joan Benoit Samuelson?
+r1	Famous Firsts	200	22	Tampa Bay used this Canadian goaltender in a 1992 exhibition, the first NHL appearance by a woman.	Who is Manon Rhéaume?
+r1	Famous Firsts	200	22	The Miami Marlins hired this executive in 2020 as the first female general manager in a major North American men's professional league.	Who is Kim Ng?
+r1	Famous Firsts	200	22	Flying from England to Nova Scotia in 1936, this Kenyan-born aviator became the first woman to cross the Atlantic solo from east to west.	Who was Beryl Markham?
+r1	Famous Firsts	400	36	Geneva Medical College awarded her an M.D. in 1849, the first medical degree earned by a woman in the United States.	Who was Elizabeth Blackwell?
+r1	Famous Firsts	400	36	This author of “A Book of Medical Discourses” became the first African American woman to earn a U.S. medical degree.	Who was Rebecca Lee Crumpler?
+r1	Famous Firsts	400	36	Her poetry collection “Annie Allen” made her the first African American awarded a Pulitzer Prize.	Who was Gwendolyn Brooks?
+r1	Famous Firsts	400	36	Iceland chose this theatre director in 1980 as the world's first woman democratically elected president.	Who is Vigdís Finnbogadóttir?
+r1	Famous Firsts	400	36	This British Columbia politician served briefly in 1993 as Canada's first female prime minister.	Who is Kim Campbell?
+r1	Famous Firsts	400	36	Montana voters sent this pacifist to the House in 1916 as the first woman elected to the U.S. Congress.	Who was Jeannette Rankin?
+r1	Famous Firsts	400	36	Wyoming inaugurated this politician in January 1925, making her the first woman to serve as a U.S. state governor.	Who was Nellie Tayloe Ross?
+r1	Famous Firsts	400	36	Franklin Roosevelt made this labor reformer the first woman in a U.S. presidential cabinet.	Who was Frances Perkins?
+r1	Famous Firsts	400	36	Illinois elected this politician in 1992 as the first African American woman in the U.S. Senate.	Who is Carol Moseley Braun?
+r1	Famous Firsts	400	36	Bill Clinton selected this former Miami prosecutor as the first female U.S. attorney general.	Who was Janet Reno?
+r1	Famous Firsts	400	36	The 2003 Peace Prize made this Iranian lawyer the first Muslim woman to become a Nobel laureate.	Who is Shirin Ebadi?
+r1	Famous Firsts	400	36	Recognized for defending Maya rights in Guatemala, this activist became the first Indigenous woman awarded a Nobel Prize.	Who is Rigoberta Menchú?
+r1	Famous Firsts	400	36	After the People Power Revolution, this democracy advocate became the Philippines' first female president.	Who was Corazon Aquino?
+r1	Famous Firsts	400	36	The Chilean poet behind “Desolación” became the first Latin American Nobel laureate in literature.	Who was Gabriela Mistral?
+r1	Famous Firsts	400	36	Honored in 1938 for novels including “The Good Earth,” she became the first American woman to receive the literature Nobel.	Who was Pearl S. Buck?
+r1	Famous Firsts	400	36	The Austrian author of “Lay Down Your Arms!” became the first woman awarded the Nobel Peace Prize.	Who was Bertha von Suttner?
+r1	Famous Firsts	600	51	A Congregational church ordained this abolitionist in 1853, making her the first woman ordained by a recognized U.S. denomination.	Who was Antoinette Brown Blackwell?
+r1	Famous Firsts	600	51	Iowa admitted this educator to its bar in 1869, making her the first licensed female attorney in the United States.	Who was Arabella Mansfield?
+r1	Famous Firsts	600	51	A Howard University graduate admitted to the District of Columbia bar in 1872, she became the first Black female lawyer in the United States.	Who was Charlotte E. Ray?
+r1	Famous Firsts	600	51	The Ohio College of Dental Surgery granted her its doctorate in 1866, a professional first for a woman.	Who was Lucy Hobbs Taylor?
+r1	Famous Firsts	600	51	This Ohio jurist was the first woman on a state supreme court and later the first on a federal appellate court.	Who was Florence Ellinwood Allen?
+r1	Famous Firsts	600	51	Calvin Coolidge appointed this Ohioan to the U.S. Customs Court in 1928, placing the first woman on the federal bench.	Who was Genevieve R. Cline?
+r1	Famous Firsts	600	51	A strategist in Brown v. Board of Education, this jurist became the first Black woman appointed as a U.S. federal judge.	Who was Constance Baker Motley?
+r1	Famous Firsts	600	51	After serving as a law-school dean, this diplomat became both the first Black woman U.S. ambassador and the first Black woman in a presidential Cabinet.	Who was Patricia Roberts Harris?
+r1	Famous Firsts	600	51	Promoted in 1970 while leading the Army Nurse Corps, she became the first woman to hold a U.S. military general's rank.	Who was Anna Mae Hays?
+r1	Famous Firsts	600	51	This maintenance officer became the U.S. Air Force's first Black female general in 1991.	Who is Marcelite J. Harris?
+r1	Famous Firsts	600	51	Starting at Indianapolis in 1977, this driver became the first woman to compete in both the Daytona 500 and Indy 500.	Who is Janet Guthrie?
+r1	Famous Firsts	600	51	Nicknamed the “First Lady of Drag Racing,” she became the first woman to win an NHRA Top Fuel championship.	Who is Shirley Muldowney?
+r1	Famous Firsts	600	51	Traveling with the Steger expedition in 1986, this Minnesotan became the first woman to reach the North Pole over the ice.	Who is Ann Bancroft?
+r1	Famous Firsts	600	51	Completing her voyage in Sydney Harbour in 1988, this sailor became the first woman to circumnavigate alone, nonstop, and unassisted.	Who is Kay Cottee?
+r1	Famous Firsts	600	51	The yacht Mazurek carried this Polish sailor on the first solo circumnavigation completed by a woman.	Who was Krystyna Chojnowska-Liskiewicz?
+r1	Famous Firsts	600	51	Disguised as a man on Bougainville's expedition, this French botanist became the first woman known to circle the globe.	Who was Jeanne Baret?
+r1	Famous Firsts	800	68	The University of Padua awarded this Venetian scholar a philosophy doctorate in 1678, the first documented doctorate earned by a woman.	Who was Elena Cornaro Piscopia?
+r1	Famous Firsts	800	68	This Newtonian physicist became the first woman to hold a salaried university chair in a scientific field.	Who was Laura Bassi?
+r1	Famous Firsts	800	68	Frederick the Great granted a special exemption that let this physician become the first woman to receive a German medical doctorate.	Who was Dorothea Erxleben?
+r1	Famous Firsts	800	68	After exploiting a legal route through the Society of Apothecaries in 1865, she became the first woman to qualify as a physician and surgeon in Britain.	Who was Elizabeth Garrett Anderson?
+r1	Famous Firsts	800	68	Stockholm University appointed this Russian mathematician in 1889 as northern Europe's first female full professor.	Who was Sofia Kovalevskaya?
+r1	Famous Firsts	800	68	MIT's first female student and graduate helped found home economics and became the first professionally employed American woman chemist.	Who was Ellen Swallow Richards?
+r1	Famous Firsts	800	68	Illinois Institute of Technology awarded this engineer the first U.S. doctorate in mechanical engineering earned by a woman.	Who was Lois Graham?
+r1	Famous Firsts	800	68	Known as the “Queen of the Hurricanes,” this Canadian was the first woman to earn a master's in aeronautical engineering.	Who was Elsie MacGill?
+r1	Famous Firsts	800	68	Nicknamed the “Queen of Carbon Science,” she became MIT's first female Institute Professor in 1985.	Who was Mildred Dresselhaus?
+r1	Famous Firsts	800	68	Lockheed's Skunk Works hired this Cherokee mathematician, remembered as the first known Native American female engineer.	Who was Mary Golda Ross?
+r1	Famous Firsts	800	68	IBM compiler optimization work led this computer scientist to become the first woman awarded the Turing Award.	Who was Frances Allen?
+r1	Famous Firsts	800	68	A Catholic sister at Wisconsin completed one of the first compiler-development projects and earned the first U.S. computer-science doctorate awarded to a woman.	Who was Mary Kenneth Keller?
+r1	Famous Firsts	800	68	Research on carbohydrate metabolism made this Prague-born biochemist the first woman to receive the Nobel Prize in Physiology or Medicine.	Who was Gerty Cori?
+r1	Famous Firsts	800	68	X-ray studies of benzene and the structure of diamond helped make this crystallographer one of the Royal Society's first two female fellows in 1945.	Who was Kathleen Lonsdale?
+r1	Famous Firsts	800	68	Research on bacterial metabolism placed this biochemist beside Kathleen Lonsdale as one of the Royal Society's first female fellows.	Who was Marjory Stephenson?
+r1	Famous Firsts	800	68	In 1973, this astronomer became both the first woman to direct the Royal Greenwich Observatory and the first to head its associated observatory at Herstmonceux.	Who was Margaret Burbidge?
+r1	Famous Firsts	1000	84	The Aéro-Club de France issued pilot certificate number 36 to this baroness, the world's first woman licensed to fly an airplane.	Who was Raymonde de Laroche?
+r1	Famous Firsts	1000	84	This journalist crossed the English Channel by air and in 1911 became the first American woman to earn a pilot's license.	Who was Harriet Quimby?
+r1	Famous Firsts	1000	84	Known as “Tiny,” this parachutist made the first jump by a woman from an airplane and later demonstrated intentional free fall.	Who was Georgia Broadwick?
+r1	Famous Firsts	1000	84	Scandinavian Airlines hired this Norwegian in 1969 as the first woman pilot for a major Western commercial carrier.	Who is Turi Widerøe?
+r1	Famous Firsts	1000	84	This Chicago aviator was the first African American woman to earn a U.S. pilot's license and the first Black officer in the Civil Air Patrol.	Who was Willa Brown?
+r1	Famous Firsts	1000	84	Frontier Airlines hired this pilot in 1973; she later became the first woman to captain a scheduled U.S. airline flight.	Who is Emily Howell Warner?
+r1	Famous Firsts	1000	84	Flying a Canadair Sabre in 1953, this record-setting pilot became the first woman to break the sound barrier.	Who was Jacqueline Cochran?
+r1	Famous Firsts	1000	84	A Turkish military pilot trained at Türkkuşu, she is widely recognized as the world's first female combat pilot.	Who was Sabiha Gökçen?
+r1	Famous Firsts	1000	84	The Spray returned to Newport in 1898 after carrying this Canadian-born mariner on the first solo voyage around the world.	Who was Joshua Slocum?
+r1	Famous Firsts	1000	84	Completing the Golden Globe voyage aboard Suhaili in 1969, this sailor achieved the first solo nonstop circumnavigation.	Who is Robin Knox-Johnston?
+r1	Famous Firsts	1000	84	The bathyscaphe Trieste carried these two men to the Challenger Deep in 1960, humanity's first crewed descent to the ocean's deepest known point.	Who were Don Walsh and Jacques Piccard?
+r1	Famous Firsts	1000	84	In 1978, this Austrian-Italian climbing pair reached Everest's summit without bottled oxygen for the first time.	Who were Reinhold Messner and Peter Habeler?
+r1	Famous Firsts	1000	84	A view from an upstairs window at Le Gras became the earliest surviving camera photograph through the work of this French inventor.	Who was Joseph Nicéphore Niépce?
+r1	Famous Firsts	1000	84	A simple line transmitted in his San Francisco laboratory in 1927 became the first image made by a fully electronic television system.	Who was Philo Farnsworth?
+r1	Famous Firsts	1000	84	At Kodak in 1975, this engineer built a toaster-sized prototype recognized as the first self-contained digital camera.	Who is Steve Sasson?
+r1	Famous Firsts	1000	84	A 1973 call placed on a Manhattan sidewalk with a Motorola prototype made this engineer the first person to use a handheld cellular telephone publicly.	Who is Martin Cooper?
+r1	Olympic Games	200	22	Five interlaced colored circles form this best-known emblem of the Olympic Movement.	What are the Olympic rings?
+r1	Olympic Games	200	22	Kindled from sunlight in Greece, this fire burns throughout each celebration of the Games.	What is the Olympic flame?
+r1	Olympic Games	200	22	An athlete, judge, and coach make this ceremonial promise of fair play at the opening celebration.	What is the Olympic oath?
+r1	Olympic Games	200	22	A host creates this character or creature as a playful symbol of its edition of the Games.	What is an Olympic mascot?
+r1	Olympic Games	200	22	Founded in 1894 and headquartered in Lausanne, this organization leads the Olympic Movement.	What is the International Olympic Committee?
+r1	Olympic Games	200	22	Track and field, swimming, and gymnastics are staples of this warm-season edition held every four years.	What are the Summer Olympic Games?
+r1	Olympic Games	200	22	Skiing, skating, and sliding sports headline this cold-weather edition first held in 1924.	What are the Winter Olympic Games?
+r1	Olympic Games	200	22	Athletes with disabilities compete in this companion global multisport festival governed by the IPC.	What are the Paralympic Games?
+r1	Olympic Games	200	22	At the opening celebration, delegations enter the stadium in this procession, traditionally led by Greece.	What is the Parade of Nations?
+r1	Olympic Games	200	22	At the stadium, the final torchbearer lights this large vessel whose fire remains visible during the Games.	What is the Olympic cauldron?
+r1	Olympic Games	200	22	Interlocking circles appear on a white field on this banner, first flown at a Games in Antwerp in 1920.	What is the Olympic flag?
+r1	Olympic Games	200	22	These unpaid helpers guide spectators, support events, and often wear highly visible uniforms throughout a host city.	Who are Olympic volunteers?
+r1	Olympic Games	200	22	Hoops, balls, clubs, and ribbons are manipulated to music in this gymnastics discipline.	What is rhythmic gymnastics?
+r1	Olympic Games	200	22	Cross-country skiing and rifle shooting alternate in this Winter sport.	What is biathlon?
+r1	Olympic Games	200	22	Swimming, cycling, and running follow one another without a break in this endurance sport.	What is triathlon?
+r1	Olympic Games	200	22	Players slide stones toward a circular house while teammates sweep the ice in this sport.	What is curling?
+r1	Olympic Games	400	36	Ski jumpers touch down with one ski ahead of the other and knees flexed in this named landing style.	What is a telemark landing?
+r1	Olympic Games	400	36	Modern ski jumpers hold their skis in this aerodynamic shape rather than parallel.	What is V-style ski jumping?
+r1	Olympic Games	400	36	A hinged blade stays on the ice after a speed skater's heel rises on this skate design.	What is a clap skate?
+r1	Olympic Games	400	36	Cross-country athletes race one classical leg and one freestyle leg back-to-back in this event format.	What is skiathlon?
+r1	Olympic Games	400	36	A figure skater takes off forward and completes two and a half rotations in this jump.	What is a double Axel?
+r1	Olympic Games	400	36	In judo, a throw landing an opponent largely on the back with force and control can earn this bout-ending score.	What is an ippon?
+r1	Olympic Games	400	36	A weightlifter catches the bar on the shoulders, then drops into offset feet to drive it overhead using this technique.	What is a split jerk?
+r1	Olympic Games	400	36	A tied judo contest continues until the next decisive score or penalty in this overtime period.	What is golden score?
+r1	Olympic Games	400	36	A missed target in biathlon usually sends an athlete around this short extra circuit.	What is the penalty loop?
+r1	Olympic Games	400	36	Relay runners must pass the baton within this marked section of the track.	What is the exchange zone?
+r1	Olympic Games	400	36	A wire cage surrounds the circle for this event in which an athlete spins before releasing a metal ball on a handle.	What is the hammer throw?
+r1	Olympic Games	400	36	A flexible fiberglass implement helps an athlete clear a high crossbar in this event.	What is pole vault?
+r1	Olympic Games	400	36	Butterfly, backstroke, breaststroke, and freestyle appear in that order in this one-swimmer race.	What is the individual medley?
+r1	Olympic Games	400	36	Paddlers negotiate hanging gates through whitewater in this timed canoeing discipline.	What is slalom canoeing?
+r1	Olympic Games	400	36	Two track cyclists start on opposite sides and try to catch one another or post the faster time in this race.	What is pursuit cycling?
+r1	Olympic Games	400	36	A long jumper must launch before crossing this plasticine-monitored line at the end of the runway.	What is the takeoff board?
+r1	Olympic Games	600	51	Built largely of marble on the site of an ancient arena, this Athens venue hosted the opening of the first modern Games.	What is the Panathenaic Stadium?
+r1	Olympic Games	600	51	The sanctuary in Elis where the ancient festival took place is also where the modern flame-lighting ritual begins.	Where is Ancient Olympia?
+r1	Olympic Games	600	51	Music by Spyros Samaras and words by Kostis Palamas form this ceremonial song made official by the IOC in 1958.	What is the Olympic anthem?
+r1	Olympic Games	600	51	This Greek composer wrote the music performed for the first modern Games and later adopted as the official anthem.	Who was Spyros Samaras?
+r1	Olympic Games	600	51	This Greek poet supplied the words for the ceremonial hymn first heard in Athens in 1896.	Who was Kostis Palamas?
+r1	Olympic Games	600	51	A Greek businessman and writer held this office before Coubertin, becoming the IOC's first president.	Who was Demetrius Vikelas?
+r1	Olympic Games	600	51	A Dominican priest coined “Faster, Higher, Stronger,” which his friend Coubertin adopted; this educator was its author.	Who was Henri Didon?
+r1	Olympic Games	600	51	A teenage apprentice carpenter proposed that athletes mingle at the 1956 closing celebration instead of marching by nation.	Who was John Ian Wing?
+r1	Olympic Games	600	51	This French rower founded the Women's World Games after campaigning unsuccessfully for a full women's athletics program at the Olympics.	Who was Alice Milliat?
+r1	Olympic Games	600	51	These two U.S. sprinters raised gloved fists during the 200-metre medal ceremony in Mexico City.	Who were Tommie Smith and John Carlos?
+r1	Olympic Games	600	51	This Czech gymnast quietly turned her head from the Soviet flag on the podium in 1968 after the invasion of her homeland.	Who was Věra Čáslavská?
+r1	Olympic Games	600	51	After a grenade destroyed his right hand, this Hungarian taught himself to shoot left-handed and won rapid-fire pistol gold.	Who was Károly Takács?
+r1	Olympic Games	600	51	Paralyzed by polio eight years earlier, this Danish equestrian won a dressage silver medal in Helsinki.	Who was Lis Hartel?
+r1	Olympic Games	600	51	This Canadian sailor abandoned a medal position in 1988 to rescue two Singaporean competitors from the water.	Who is Lawrence Lemieux?
+r1	Olympic Games	600	51	After a spectator attacked him in the Athens marathon, this Brazilian finished third and received the Pierre de Coubertin medal.	Who is Vanderlei de Lima?
+r1	Olympic Games	600	51	After winning a boxing title in 1920, this American returned in 1932 as part of a champion four-man bobsleigh team.	Who was Eddie Eagan?
+r1	Olympic Games	800	68	The philosophy blending sport with culture, education, and social responsibility is called this in the Olympic Charter.	What is Olympism?
+r1	Olympic Games	800	68	The IOC, national committees, international federations, and organizers collectively belong to this worldwide structure.	What is the Olympic Movement?
+r1	Olympic Games	800	68	All IOC members gather in this supreme deliberative meeting to elect hosts and adopt Charter changes.	What is the IOC Session?
+r1	Olympic Games	800	68	Between meetings of the full membership, this body holds general responsibility for administering IOC affairs.	What is the IOC Executive Board?
+r1	Olympic Games	800	68	Each recognized territory has one of these bodies to develop the Movement and select its national team.	What is a National Olympic Committee?
+r1	Olympic Games	800	68	This governing body sets one sport's technical rules and qualification criteria across countries.	What is an International Sports Federation?
+r1	Olympic Games	800	68	Once a host is chosen, this temporary body is formed to plan venues, operations, and ceremonies; its acronym is OCOG.	What is an Organising Committee for the Olympic Games?
+r1	Olympic Games	800	68	IOC broadcast revenue funds athlete scholarships, coach training, and national committees through this assistance program.	What is Olympic Solidarity?
+r1	Olympic Games	800	68	Created in 2001, this IOC-owned company produces the neutral television and radio feed distributed to rights holders.	What is Olympic Broadcasting Services?
+r1	Olympic Games	800	68	The acronym TOP labels this highest worldwide sponsorship tier begun in 1985.	What is The Olympic Partner programme?
+r1	Olympic Games	800	68	Opened in Lausanne in 1993, this institution displays medals, torches, and the history of the Movement.	What is the Olympic Museum?
+r1	Olympic Games	800	68	Researchers consult archives and publications through this Lausanne knowledge hub within the Olympic Foundation for Culture and Heritage.	What is the Olympic Studies Centre?
+r1	Olympic Games	800	68	Introduced at Rio 2016, this distinction honors a person for outstanding contributions to education, culture, development, and peace through sport.	What is the Olympic Laurel?
+r1	Olympic Games	800	68	In addition to medals, high-placing finalists may receive this formal certificate recognizing their result.	What is an Olympic diploma?
+r1	Olympic Games	800	68	First fielded at Rio 2016, this delegation allows displaced athletes to compete together under the five-ring flag.	What is the Refugee Olympic Team?
+r1	Olympic Games	800	68	Competitors from Yugoslavia and Macedonia used this neutral designation at Barcelona in 1992 because their national committees could not participate normally.	What were the Independent Olympic Participants?
+r1	Olympic Games	1000	84	Chosen from Elis, these ancient judges supervised competitors, awarded wreaths, and enforced festival rules.	Who were the Hellanodikai?
+r1	Olympic Games	1000	84	The only contest at the earliest recorded ancient Games was this footrace over one length of the arena.	What was the stadion race?
+r1	Olympic Games	1000	84	Runners covered two lengths of the ancient track, turning once around a post, in this event.	What was the diaulos?
+r1	Olympic Games	1000	84	Ancient athletes ran a long-distance race of multiple track lengths under this name.	What was the dolichos?
+r1	Olympic Games	1000	84	Competitors raced wearing a helmet and carrying a shield in this ancient test associated with hoplite equipment.	What was the hoplitodromos?
+r1	Olympic Games	1000	84	Boxing and wrestling blended in this ancient combat sport whose few prohibitions included biting and eye-gouging.	What was pankration?
+r1	Olympic Games	1000	84	A stadion race, wrestling, long jump, discus, and javelin composed this five-part ancient contest.	What was the ancient pentathlon?
+r1	Olympic Games	1000	84	Temples, altars, and treasuries stood within this sacred grove at Olympia rather than in the surrounding athletic facilities.	What was the Altis?
+r1	Olympic Games	1000	84	Today's flame ceremony takes place before the ruins of this sanctuary dedicated to Zeus's wife.	What is the Temple of Hera?
+r1	Olympic Games	1000	84	Fines paid by cheats funded a row of bronze Zeus statues bearing warnings to athletes; the monuments had this name.	What were the Zanes?
+r1	Olympic Games	1000	84	This runner swept the stadion, diaulos, and armored race at four successive ancient festivals.	Who was Leonidas of Rhodes?
+r1	Olympic Games	1000	84	A cook from Elis won the stadion in 776 BCE and is recorded as the ancient festival's earliest named victor.	Who was Koroibos of Elis?
+r1	Olympic Games	1000	84	From 1912 through 1948, medals for architecture, literature, music, painting, and sculpture were awarded in these cultural contests.	What were the Olympic art competitions?
+r1	Olympic Games	1000	84	Teams pulled against one another in this strength contest on the program from 1900 through 1920.	What was Olympic tug of war?
+r1	Olympic Games	1000	84	At St. Louis in 1904, swimmers dove, coasted underwater without stroking, and were measured after one minute in this one-time contest.	What was plunge for distance?
+r1	Olympic Games	1000	84	Gymnasts swung bottle-shaped implements in circles and patterns in this former event related to Indian clubs.	What was club swinging?
+r1	Hockey	200	22	The puck must completely cross this red marking between the posts for a goal to count.	What is the goal line?
+r1	Hockey	200	22	Painted in front of the net, this blue semicircular area helps officials judge a goalkeeper's space and interference.	What is the goal crease?
+r1	Hockey	200	22	A penalized player usually serves time in this enclosed area beside the rink.	What is the penalty box?
+r1	Hockey	200	22	This last line of defense wears large pads and may legally cover the puck near the net.	What is a goaltender?
+r1	Hockey	200	22	This middle forward normally takes faceoffs and supports play at both ends of the ice.	What is centre?
+r1	Hockey	200	22	A forward assigned mainly to one side of the centre plays this position.	What is a winger?
+r1	Hockey	200	22	Usually stationed behind the forwards, this skater protects the team's end and moves the puck out.	What is a defenceman?
+r1	Hockey	200	22	The game's black vulcanized-rubber disc is frozen before play to reduce bouncing.	What is a hockey puck?
+r1	Hockey	200	22	These low walls enclose the ice and keep most pucks in play.	What are rink boards?
+r1	Hockey	200	22	An attacker entering the offensive zone before the puck can trigger this violation.	What is offside?
+r1	Hockey	200	22	This motorized machine shaves the ice, washes it, and lays down a thin layer of clean water between periods.	What is an ice resurfacer?
+r1	Hockey	200	22	Using the torso or shoulder to separate an opponent from the puck within the rules is this defensive action.	What is a body check?
+r1	Hockey	200	22	A curved blade fixed to a long shaft makes up this essential piece of playing equipment.	What is a hockey stick?
+r1	Hockey	200	22	A steel runner beneath a rigid boot lets a player glide and turn on ice using this equipment.	What is a hockey skate?
+r1	Hockey	200	22	This hard protective shell became mandatory for incoming NHL players beginning in 1979.	What is a hockey helmet?
+r1	Hockey	200	22	A “C” on the sweater identifies this player, the team's designated on-ice representative to officials.	What is the team captain?
+r1	Hockey	400	36	Pressure applied to puck carriers in their own end before they can organize an attack is this tactic.	What is a forecheck?
+r1	Hockey	400	36	Forwards skating toward their own end to disrupt an opposing rush are performing this defensive effort.	What is a backcheck?
+r1	Hockey	400	36	A skater stationed in a goalkeeper's sightline creates this visual obstruction.	What is a screen?
+r1	Hockey	400	36	A shot that strikes the goalkeeper or frame and comes back into play produces this second-chance puck.	What is a rebound?
+r1	Hockey	400	36	A puck carrier with open ice and only the goalkeeper ahead has this scoring opportunity.	What is a breakaway?
+r1	Hockey	400	36	A quick fake with body or stick meant to make a defender or goalkeeper commit is called this.	What is a deke?
+r1	Hockey	400	36	A defender jabs the blade toward an opponent's puck without making a full body challenge in this maneuver.	What is a poke check?
+r1	Hockey	400	36	A defender lowers the body and uses the hip to redirect an opponent in this legal check.	What is a hip check?
+r1	Hockey	400	36	A player shoots a teammate's pass immediately, without first settling the puck, on this attempt.	What is a one-timer?
+r1	Hockey	400	36	Keeping the blade near the ice, a player sweeps the puck with a fast roll of forearms in this accurate shot.	What is a wrist shot?
+r1	Hockey	400	36	The puck is released from the non-forehand side of the blade on this often deceptive shot.	What is a backhand shot?
+r1	Hockey	400	36	Lifting the puck so it travels flat through the air over sticks makes this airborne pass.	What is a saucer pass?
+r1	Hockey	400	36	A puck carrier leaves the puck behind for a trailing teammate in this simple exchange.	What is a drop pass?
+r1	Hockey	400	36	Controlling and moving the puck with alternating touches of the blade is this foundational skill.	What is stickhandling?
+r1	Hockey	400	36	The high-danger area directly in front of the net between the faceoff circles is commonly called this.	What is the slot?
+r1	Hockey	400	36	A defenceman shooting from near the offensive blue line is said to be firing from this position.	What is the point?
+r1	Hockey	600	51	Play may continue after attackers enter early if they all clear the offensive zone without touching the puck under this rule.	What is delayed offside?
+r1	Hockey	600	51	Skaters who entered the offensive zone early clear it by touching the blue line before attacking again in this process.	What is tagging up?
+r1	Hockey	600	51	An illegal line change that leaves an extra skater involved in play draws this bench infraction.	What is a too-many-men penalty?
+r1	Hockey	600	51	Play stops if a teammate receives a puck deliberately batted with the palm in the neutral or attacking zone under this rule.	What is a hand pass?
+r1	Hockey	600	51	A defender who shoots the puck directly over the defensive-zone glass without a deflection can receive this delay-of-game call.	What is a puck-over-glass penalty?
+r1	Hockey	600	51	Preventing a netminder from moving freely or doing the job can erase a score under this infraction.	What is goaltender interference?
+r1	Hockey	600	51	Behind an NHL net, a restricted area limits where the netminder may play the puck and is known by this geometric name.	What is the goaltender trapezoid?
+r1	Hockey	600	51	Infractions assessed to both teams at the same stoppage can cancel their effect on manpower under this designation.	What are coincidental penalties?
+r1	Hockey	600	51	A shaft rating such as 85 approximates the force needed to bend it by one inch and measures this property.	What is stick flex?
+r1	Hockey	600	51	The angle at which a shaft rises when the bottom of its blade lies flat is identified by this equipment number.	What is blade lie?
+r1	Hockey	600	51	Skate sharpening forms a concave groove between two edges; its radius is called this.	What is the hollow?
+r1	Hockey	600	51	The front-to-back curvature ground into a skate runner affects agility and stability and is known by this term.	What is skate rocker?
+r1	Hockey	600	51	Low, mid, and high labels identify the shaft zone designed to bend most during a shot, called this.	What is the stick kick point?
+r1	Hockey	600	51	A rectangular padded glove and rigid board protect the hand that holds a goalkeeper's stick.	What is a goalie blocker?
+r1	Hockey	600	51	The glove on a netminder's non-stick hand has a webbed pocket for securing shots and is called this.	What is a catching glove?
+r1	Hockey	600	51	Broad padded protection covers a netminder's torso and arms under the sweater in this equipment unit.	What is a goalie chest protector?
+r1	Hockey	800	68	One skater stays high, three form a middle line, and one works near the net in this five-player man-advantage setup.	What is a 1-3-1 power play?
+r1	Hockey	800	68	Three attackers spread high across the zone while two operate lower in this formation named for its canopy-like shape.	What is an umbrella power play?
+r1	Hockey	800	68	Attackers concentrate on one side below the circles to create short passes and local numerical superiority in this setup.	What is an overload power play?
+r1	Hockey	800	68	One penalty killer pressures the high attacker, two guard the middle, and one protects low ice in this four-skater formation.	What is a diamond penalty kill?
+r1	Hockey	800	68	Four short-handed skaters guard lanes in a compact square in this traditional formation.	What is a box penalty kill?
+r1	Hockey	800	68	In this neutral-zone system, the left winger drops alongside the two defencemen while the other forwards pressure the puck.	What is the left-wing lock?
+r1	Hockey	800	68	Attackers exchange positions and move the puck repeatedly along the boards below the circles in this possession tactic.	What is the cycle game?
+r1	Hockey	800	68	A defenceman leaves the blue line and moves down the wall to keep the puck in the attacking zone by doing this.	What is pinching?
+r1	Hockey	800	68	All shot attempts - on net, missed, or blocked - count in this possession proxy popularized by blogger Vic Ferrari and named for a Buffalo goalie coach.	What is Corsi?
+r1	Hockey	800	68	This unblocked-shot metric counts attempts on goal and misses but excludes attempts stopped by defenders.	What is Fenwick?
+r1	Hockey	800	68	Adding a team's on-ice shooting percentage and save percentage produces this regression-prone statistic.	What is PDO?
+r1	Hockey	800	68	Shot location, angle, type, and other factors feed a model estimating scoring probability, summarized by this metric.	What are expected goals?
+r1	Hockey	800	68	Professional Hockey Writers' Association ballots determine the NHL player judged most valuable to his team for this trophy.	What is the Hart Memorial Trophy?
+r1	Hockey	800	68	NHL general managers vote on the season's best goalkeeper for this award named after a Canadiens star of the 1910s and 1920s.	What is the Vezina Trophy?
+r1	Hockey	800	68	The league's best all-around player at the blue-line position receives this award named for a longtime Detroit executive.	What is the James Norris Memorial Trophy?
+r1	Hockey	800	68	A forward displaying the greatest defensive skill wins this trophy named for a former Toronto general manager.	What is the Frank J. Selke Trophy?
+r1	Hockey	1000	84	An 1875 contest advertised at this Montreal indoor venue is widely recognized as the first organized game played under recorded conditions.	What was the Victoria Skating Rink?
+r1	Hockey	1000	84	This McGill student organized that 1875 Montreal contest and helped codify an early set of rules.	Who was James Creighton?
+r1	Hockey	1000	84	Canada's governor general donated a silver challenge cup in 1892 that evolved into professional hockey's championship prize.	Who was Lord Stanley of Preston?
+r1	Hockey	1000	84	Formed in 1909, this league preceded the NHL; its remaining owners suspended operations and founded the new organization in 1917.	What was the National Hockey Association?
+r1	Hockey	1000	84	Frank and Lester Patrick founded this western league in 1911, using innovations such as blue lines and numbered sweaters.	What was the Pacific Coast Hockey Association?
+r1	Hockey	1000	84	This younger brother of Lester built Vancouver's Denman Arena, co-founded a western league, and helped reshape the rulebook.	Who was Frank Patrick?
+r1	Hockey	1000	84	Black teams in Nova Scotia and Prince Edward Island competed around the turn of the twentieth century in this pioneering organization.	What was the Colored Hockey League of the Maritimes?
+r1	Hockey	1000	84	This Calgary-born forward broke the NHL's Asian ancestry barrier during a one-shift debut for the New York Rangers in 1948.	Who was Larry Kwong?
+r1	Hockey	1000	84	Two attackers pursue deep, one supports high, and two defenders hold the line in this aggressive pressure alignment.	What is a 2-1-2 forecheck?
+r1	Hockey	1000	84	A netminder seals the post with the near pad upright and the back pad flat along the ice in this post-integration technique.	What is reverse VH?
+r1	Hockey	1000	84	A goaltender rotates toward a destination, loads the trailing inside edge, and drives laterally in this powerful movement.	What is a T-push?
+r1	Hockey	1000	84	A goalie makes short lateral movements while keeping both blades on the ice and the chest square using this edge-control technique.	What is a goalie shuffle?
+r1	Hockey	1000	84	On this regroup, a defenceman curls behind the own net and accelerates up one side with possession.	What is a wheel breakout?
+r1	Hockey	1000	84	Instead of aiming directly at a teammate, a passer puts the puck into open ice where the receiver is expected to arrive.	What is an area pass?
+r1	Hockey	1000	84	Wingers curl low through their own zone to build speed and offer multiple options in this coordinated zone-exit pattern.	What is a swing breakout?
+r1	Hockey	1000	84	A player scoops the puck onto the blade behind the net and wraps it into an upper corner in this move named after Mike Legg's 1996 goal.	What is a Michigan goal?

@@ -1,0 +1,409 @@
+# QuizArena researched expansion batch 06
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: British Film Institute collections and film-history features (https://www.bfi.org.uk/); Academy Museum and Margaret Herrick Library resources (https://www.academymuseum.org/ and https://www.oscars.org/library); Television Academy Foundation oral histories (https://interviews.televisionacademy.com/).
+# Research anchors: British Museum game collections (https://www.britishmuseum.org/blog/top-10-historical-board-games); publishers' official rules and histories; UNESCO Intangible Cultural Heritage records for foodways, rituals, and festive events (https://ich.unesco.org/).
+# MOVIES - 16 clues at each Round One value
+r1	Movies	200	22	Artists who record footsteps, clothing rustle, and prop noises after filming practice this sound-effects craft.	What is Foley artistry?
+r1	Movies	200	22	The hinged striped slate filmed at the start of a take helps synchronize picture and sound.	What is a clapperboard?
+r1	Movies	200	22	An overhead sketch marking actor paths and camera positions helps a director plan a scene using this document.	What is a blocking diagram?
+r1	Movies	200	22	A microphone mounted at the end of a long pole can hover near actors while staying out of frame.	What is a boom microphone?
+r1	Movies	200	22	A painted scenic element combined with photographed action can make an imaginary landscape appear real.	What is a matte painting?
+r1	Movies	200	22	This performer substitutes for an actor during dangerous falls, fights, or driving scenes.	What is a stunt double?
+r1	Movies	200	22	A creature built on set rather than added digitally is an example of this kind of effect.	What is a practical effect?
+r1	Movies	200	22	Light-sensitive stock exposed in a camera produces this image whose tones or colors are reversed.	What is a film negative?
+r1	Movies	200	22	This crew member tracks props, costumes, and actor movements so shots cut together consistently.	What is a script supervisor?
+r1	Movies	200	22	Short promotional footage shown before a feature became known by this name because it originally followed the program.	What is a movie trailer?
+r1	Movies	200	22	A brief view isolating a letter, clock, or other important detail is this type of shot.	What is an insert shot?
+r1	Movies	200	22	Holding one frame on screen creates this apparent pause in motion.	What is a freeze-frame?
+r1	Movies	200	22	An abrupt edit between two views of the same subject can deliberately skip time in this kind of cut.	What is a jump cut?
+r1	Movies	200	22	Speech heard over images without showing its source on screen uses this narration technique.	What is voice-over narration?
+r1	Movies	200	22	Models moved slightly and photographed one frame at a time create this form of animation.	What is stop-motion animation?
+r1	Movies	200	22	Names of cast and crew that roll after the story concludes make up this portion of a film.	What are the end credits?
+r1	Movies	400	36	Focus shifts within one unbroken shot from a near subject to a distant one using this technique.	What is rack focus?
+r1	Movies	400	36	Zooming while the camera moves in the opposite direction distorts perspective in this unsettling shot.	What is a dolly zoom?
+r1	Movies	400	36	Similar shapes or actions connect two different scenes across this type of edit.	What is a graphic match?
+r1	Movies	400	36	Alternating between actions occurring in separate places suggests they unfold at the same time through this technique.	What is parallel editing?
+r1	Movies	400	36	A circular mask that opens or closes around the image creates this silent-era transition.	What is an iris shot?
+r1	Movies	400	36	Actors perform before footage projected onto a screen behind them in this in-camera compositing method.	What is rear projection?
+r1	Movies	400	36	Underexposing footage shot in daylight and adjusting color can simulate darkness through this method.	What is day-for-night photography?
+r1	Movies	400	36	Placing objects at carefully chosen distances makes them appear larger or smaller through this optical illusion.	What is forced perspective?
+r1	Movies	400	36	A lens attachment keeps both a very near object and a distant subject sharply focused in this shot.	What is a split-diopter shot?
+r1	Movies	400	36	Tilting the camera so the horizon runs diagonally produces this uneasy composition.	What is a canted angle?
+r1	Movies	400	36	An extended uninterrupted shot covering complex action is commonly called this.	What is a long take?
+r1	Movies	400	36	A moving line or shape replaces one image with another across the screen in this transition.	What is a wipe?
+r1	Movies	400	36	Animators trace live-action footage frame by frame through this process.	What is rotoscoping?
+r1	Movies	400	36	Computer-controlled rigs repeat exact camera movements so separate effects passes can be combined.	What is motion-control photography?
+r1	Movies	400	36	Adjusting hues and contrast shot by shot to create a consistent final look is this finishing process.	What is color grading?
+r1	Movies	400	36	Actors re-record dialogue in a studio to replace unusable location sound through this process.	What is automated dialogue replacement?
+r1	Movies	600	51	Edison's early peephole viewer let one person watch a moving film loop inside a cabinet.	What is the Kinetoscope?
+r1	Movies	600	51	The Lumiere brothers' hand-cranked apparatus could photograph, print, and project motion pictures.	What is the Cinematographe?
+r1	Movies	600	51	An extra loop of film isolated intermittent movement at the gate from the reel's continuous pull in this invention.	What is the Latham loop?
+r1	Movies	600	51	Editors viewed and physically cut film on this upright machine introduced in the 1920s.	What is the Moviola?
+r1	Movies	600	51	Warner Bros. synchronized phonograph discs with projected film using this early sound system.	What is Vitaphone?
+r1	Movies	600	51	Three black-and-white records made through color filters were dyed and combined in this classic process.	What is three-strip Technicolor?
+r1	Movies	600	51	Paramount ran 35-millimetre film horizontally through the camera to create a larger negative in this format.	What is VistaVision?
+r1	Movies	600	51	An anamorphic lens squeezed a wide image onto standard film for this widescreen system.	What is CinemaScope?
+r1	Movies	600	51	Garrett Brown's body-mounted stabilizer allowed fluid moving shots without laying tracks.	What is the Steadicam?
+r1	Movies	600	51	Industrial Light & Magic built this programmable camera rig for repeatable miniature photography on Star Wars.	What is the Dykstraflex?
+r1	Movies	600	51	A yellow-lit screen and a beam-splitting prism produced unusually clean live-action mattes in this process.	What is sodium-vapor compositing?
+r1	Movies	600	51	Disney's layered glass planes moved at different speeds to give animated scenes depth in this camera.	What is the multiplane camera?
+r1	Movies	600	51	A device using projectors and a camera combined separate film elements or created transitions one frame at a time.	What is an optical printer?
+r1	Movies	600	51	Retaining silver in the print lowers saturation and deepens contrast in this laboratory treatment.	What is bleach bypass?
+r1	Movies	600	51	The roughly four-by-three frame standardized for early sound cinema bears this institutional name.	What is the Academy ratio?
+r1	Movies	600	51	A transparent strip bearing dialogue, music, and effects as variable density beside the image carries this kind of soundtrack.	What is an optical soundtrack?
+r1	Movies	800	68	Georges Melies discovered that stopping and restarting his camera could make objects appear or vanish through this trick.	What is the substitution splice?
+r1	Movies	800	68	This pioneering French filmmaker directed La Fee aux Choux and later headed Solax Studios in the United States.	Who is Alice Guy-Blache?
+r1	Movies	800	68	Within Our Gates was made by this independent filmmaker, a central figure in early African American cinema.	Who is Oscar Micheaux?
+r1	Movies	800	68	The Adventures of Prince Achmed used intricate cut-paper silhouettes animated by this German director.	Who is Lotte Reiniger?
+r1	Movies	800	68	This Soviet filmmaker promoted kino-eye documentary practice and made Man with a Movie Camera.	Who is Dziga Vertov?
+r1	Movies	800	68	The Fall of the Romanov Dynasty assembled existing newsreels and archives under the direction of this Soviet compilation-film pioneer.	Who is Esfir Shub?
+r1	Movies	800	68	Battleship Potemkin's Odessa Steps sequence exemplifies this director's theory of collision montage.	Who is Sergei Eisenstein?
+r1	Movies	800	68	The cinematographer of Citizen Kane used wide lenses and lighting to keep foreground and background clear with this visual strategy.	Who is Gregg Toland?
+r1	Movies	800	68	Graphic title sequences for Vertigo and Anatomy of a Murder helped define this designer's film work.	Who is Saul Bass?
+r1	Movies	800	68	This editor's decades-long collaboration with Martin Scorsese includes Raging Bull and Goodfellas.	Who is Thelma Schoonmaker?
+r1	Movies	800	68	A Universal sound technician whose surname now labels post-production sound performance was this person.	Who is Jack Foley?
+r1	Movies	800	68	This visual-effects specialist developed an influential optical printer and worked on Citizen Kane.	Who is Linwood Dunn?
+r1	Movies	800	68	The stagecoach stunt coordinator who devised safer breakaway equipment for Westerns was this performer.	Who is Yakima Canutt?
+r1	Movies	800	68	Winning eight competitive Academy Awards for costume design made this designer a record holder in that craft.	Who is Edith Head?
+r1	Movies	800	68	Abstract animation synchronized to music was a specialty of this German-American filmmaker who worked for Disney.	Who is Oskar Fischinger?
+r1	Movies	800	68	Drawing and scratching directly on film stock were signature techniques of this National Film Board of Canada animator.	Who is Norman McLaren?
+r1	Movies	1000	84	Mirrors aligned with miniature sets allowed performers to appear inside elaborate environments through this German technique.	What is the Schufftan process?
+r1	Movies	1000	84	A yellow backing and dyed film stock separated actors from backgrounds in this early traveling-matte method.	What is the Dunning-Pomeroy process?
+r1	Movies	1000	84	Printing high-contrast black-and-white silhouettes created holdout mattes in this predecessor to blue-screen compositing.	What is the Williams process?
+r1	Movies	1000	84	Two strips exposed together in the camera could combine foreground action with a background plate through this arrangement.	What is bipack photography?
+r1	Movies	1000	84	Douglas Trumbull moved artwork past a narrow opening during long exposures to create streaking cosmic imagery with this method.	What is slit-scan photography?
+r1	Movies	1000	84	Immersing scratched film in liquid with a matching refractive index can hide surface damage during duplication.	What is wet-gate printing?
+r1	Movies	1000	84	The first fully timed positive assembled with final soundtrack for approval is called this laboratory print.	What is an answer print?
+r1	Movies	1000	84	A low-contrast positive made from the original camera negative becomes this preservation and duplication element.	What is an interpositive?
+r1	Movies	1000	84	A negative copied from a positive master supplies release prints while protecting original footage.	What is an internegative?
+r1	Movies	1000	84	Numbers printed along the film edge let editors match workprints to original negatives.	What are key numbers?
+r1	Movies	1000	84	Camera negatives commonly use sprocket holes with straight sides and rounded corners under this equipment-company designation.	What are Bell and Howell perforations?
+r1	Movies	1000	84	This intermittent mechanism converts a projector's rotating motion into frame-by-frame film advance.	What is a Geneva drive?
+r1	Movies	1000	84	This precision pin enters a film perforation to hold each frame steady at the aperture during exposure.	What is a registration pin?
+r1	Movies	1000	84	The fraction of each frame interval during which a rotating camera shutter exposes film is set by this angular measure.	What is shutter angle?
+r1	Movies	1000	84	A lens changing its field of view slightly as focus shifts exhibits this optical artifact.	What is focus breathing?
+r1	Movies	1000	84	Unsteady vertical or horizontal image movement caused by imperfect film positioning at the aperture is called this.	What is gate weave?
+# TELEVISION - 16 clues at each Round One value
+r1	Television	200	22	A first episode produced to test whether a network will order a series is called this.	What is a television pilot?
+r1	Television	200	22	A dramatic or comic sequence placed before an episode's title credits is this introductory segment.	What is a pre-title teaser?
+r1	Television	200	22	Recorded audience reaction added to a comedy soundtrack is known by this term.	What is canned laughter?
+r1	Television	200	22	An episode ending at a moment of unresolved danger uses this suspense device.	What is a cliffhanger ending?
+r1	Television	200	22	Networks once filled the regular schedule's warm-weather gap with this type of short seasonal program.	What is a summer replacement series?
+r1	Television	200	22	Selling a program to many local stations after or outside its network run is this business practice.	What is television syndication?
+r1	Television	200	22	A program transmitted as it happens rather than from a recording is this type of telecast.	What is a live broadcast?
+r1	Television	200	22	A horizontal stream of headlines along the bottom of a news screen is this graphic element.	What is a news ticker?
+r1	Television	200	22	Reflected text near a camera lens lets presenters read while appearing to look at viewers.	What is a teleprompter?
+r1	Television	200	22	Large handwritten prompts held beside the camera help performers remember lines in this format.	What are cue cards?
+r1	Television	200	22	People seated on set provide immediate reactions during the recording of a comedy or talk show.	What is a studio audience?
+r1	Television	200	22	A program's planned pause of several weeks within its annual run is this scheduling break.	What is a midseason hiatus?
+r1	Television	200	22	A new series centered on a character introduced in another program is this.	What is a television spinoff?
+r1	Television	200	22	A story planned for a small fixed number of episodes rather than continuing indefinitely is this format.	What is a limited series?
+r1	Television	200	22	A network may commission this first installment to test a proposed series before ordering more episodes.	What is a pilot episode?
+r1	Television	200	22	A brief recap at an episode's start reminds viewers of earlier plot developments with this phrase.	What is previously on?
+r1	Television	400	36	A still pattern transmitted so engineers and viewers could adjust early receivers is called this.	What is a television test card?
+r1	Television	400	36	Before videotape, a film camera photographed a television monitor to preserve a live program in this recording method.	What is kinescope recording?
+r1	Television	400	36	Alternating odd and even horizontal lines reduces flicker without doubling broadcast bandwidth through this scanning method.	What is interlaced scanning?
+r1	Television	400	36	Vertical stripes of standard hues help engineers calibrate broadcast color using this test signal.	What are SMPTE color bars?
+r1	Television	400	36	Text encoded with a program for viewers who cannot hear its dialogue provides this accessibility service.	What is closed captioning?
+r1	Television	400	36	Recording a broadcast to watch later changed viewing schedules through this practice.	What is time shifting?
+r1	Television	400	36	A local station carrying a national network's schedule under contract has this relationship.	What is a network affiliate?
+r1	Television	400	36	A van relays a reporter's live signal from the scene back to a station in this field operation.	What is electronic news gathering?
+r1	Television	400	36	Replacing a uniformly colored background with another image uses this electronic compositing technique.	What is chroma keying?
+r1	Television	400	36	Converting film frames into a video signal for broadcast uses this process.	What is telecine transfer?
+r1	Television	400	36	A screen's width divided by its height is expressed as this proportion.	What is display aspect ratio?
+r1	Television	400	36	A dish sends programming from an earth station toward an orbiting relay through this link.	What is a satellite uplink?
+r1	Television	400	36	A station inserts local programs and commercials into this reserved interval from a network feed.	What is an affiliate break?
+r1	Television	400	36	A prerecorded segment packaged for insertion into a television newscast is known by this three-letter newsroom term.	What is a news package?
+r1	Television	400	36	Several cameras record a scene continuously while a director selects views in this production setup.	What is multicamera production?
+r1	Television	400	36	A written plan listing shots, guests, and timing guides the control room through this document.	What is a broadcast rundown?
+r1	Television	600	51	This London venue became home to the BBC's regular high-definition television service in 1936.	What is Alexandra Palace?
+r1	Television	600	51	A papier-mache figure of this cartoon cat served as an early test subject because it tolerated hot studio lights.	What is the Felix the Cat doll?
+r1	Television	600	51	CBS used this spinning multicolored wheel for demonstrations of its field-sequential color system.	What is the color television wheel?
+r1	Television	600	51	Desilu's situation comedies preserved episodes with this three-camera production method before a live audience.	What is the three-camera film technique?
+r1	Television	600	51	Cinematographer Karl Freund developed this even, flexible illumination method for multicamera comedy sets.	What is flat television lighting?
+r1	Television	600	51	A filmed series could be broadcast at different local times and rerun without the quality loss of early monitor recordings through this medium.	What is a television film print?
+r1	Television	600	51	AT&T's coast-to-coast cable and relay links enabled this form of simultaneous national programming.	What is a live network feed?
+r1	Television	600	51	The BBC's coronation coverage helped establish this international program-exchange organization in Europe.	What is Eurovision?
+r1	Television	600	51	A communications satellite relayed the first live television pictures across the Atlantic under this name.	What is Telstar 1?
+r1	Television	600	51	John Cura photographed broadcasts directly from a receiver and sold these still-image records to performers.	What are Tele-snaps?
+r1	Television	600	51	This Caribbean American pianist hosted a short-lived 1950 variety program bearing her name.	Who is Hazel Scott?
+r1	Television	600	51	Britain's Pinwright's Progress is often identified as an early example of this recurring-character comedy form.	What is a television sitcom?
+r1	Television	600	51	The first nationally televised event broadcast in color from coast to coast was the 1954 edition of this Pasadena spectacle.	What is the Tournament of Roses Parade?
+r1	Television	600	51	A sponsor's name embedded in programs such as Kraft Television Theatre reflected this financing model.	What is single-sponsor television?
+r1	Television	600	51	Performers appearing in unrelated dramatic stories each week worked within this programming format.	What is an anthology series?
+r1	Television	600	51	A station identification inserted at required intervals is commonly shortened to this term.	What is a station ident?
+r1	Television	800	68	The first interview in the Television Academy's oral-history project featured this founder of ABC.	Who is Leonard Goldenson?
+r1	Television	800	68	This executive conceived the Archive of American Television after seeing the Shoah Foundation's life-history interviews.	Who is Dean Valentine?
+r1	Television	800	68	The BBC's early variety program Picture Page was hosted by this presenter nicknamed Joan of Television.	Who is Joan Gilbert?
+r1	Television	800	68	This engineer's sideband-filter design conserved spectrum and became fundamental to analog television transmission.	Who is Robert Dome?
+r1	Television	800	68	A production's camera signals are aligned to a common timing reference through this synchronization process.	What is genlock?
+r1	Television	800	68	A display's electron beam returns invisibly from the bottom to the top during this interval.	What is vertical retrace?
+r1	Television	800	68	Picture information is suppressed while a scanning beam returns to begin another line or field during this interval.	What is the blanking interval?
+r1	Television	800	68	Pulses embedded outside visible picture information keep a receiver's scanning aligned with the transmitter.	What are synchronization pulses?
+r1	Television	800	68	Engineers view voltage over time for a video signal on this calibration instrument.	What is a waveform monitor?
+r1	Television	800	68	Hue and saturation appear as angle and distance on this circular color-measurement display.	What is a vectorscope?
+r1	Television	800	68	The slightly smaller boundary within which important action is kept visible on older receivers is this guide.	What is action-safe area?
+r1	Television	800	68	Titles are placed inside an even more conservative boundary to avoid cropped words, known as this.	What is title-safe area?
+r1	Television	800	68	Converting 24 film frames into roughly 30 video frames repeats alternating fields through this cadence.	What is three-two pulldown?
+r1	Television	800	68	One or two unintended frames left between edited segments create this momentary on-air artifact.	What is a flash frame?
+r1	Television	800	68	End credits compressed into part of the screen while a network promotes the next program undergo this practice.	What is a credit squeeze?
+r1	Television	800	68	A studio clock counting backward to transmission marks this control-room sequence.	What is a broadcast countdown?
+r1	Television	1000	84	Sending one full sideband and only a portion of the other conserves channel bandwidth in analog broadcasting through this modulation.	What is vestigial-sideband transmission?
+r1	Television	1000	84	Brightness information is separated from color information into this first component of a compatible color signal.	What is luminance?
+r1	Television	1000	84	Hue and saturation information travels in this color component layered onto a monochrome-compatible signal.	What is chrominance?
+r1	Television	1000	84	Alternating the phase of one color component on successive lines helps cancel hue errors in this broadcast system.	What is phase-alternating-line color?
+r1	Television	1000	84	France developed this system that sends color-difference information sequentially rather than simultaneously.	What is sequential color with memory?
+r1	Television	1000	84	A filter separating interleaved brightness and color frequencies by their repeating patterns has this grooming-inspired name.	What is a comb filter?
+r1	Television	1000	84	A reference burst inserted after each horizontal sync pulse lets a color receiver recover subcarrier phase.	What is the color burst?
+r1	Television	1000	84	The small interval between a sync pulse and active video includes timing reference information and bears this architectural name.	What is the back porch?
+r1	Television	1000	84	Signals inserted into unused scan lines once carried captions, time codes, and test data in this portion of analog video.	What is the vertical blanking interval?
+r1	Television	1000	84	Mixing pictures from unsynchronized sources causes jumps unless this device stores and retimes a complete image.	What is a frame synchronizer?
+r1	Television	1000	84	A delay line compares successive scan lines so a receiver can separate brightness from color more cleanly in this filter type.	What is a line-comb filter?
+r1	Television	1000	84	Uneven phosphor illumination retained after displaying a fixed image causes this permanent screen artifact.	What is phosphor burn-in?
+r1	Television	1000	84	Deliberately extending picture beyond the visible bezel hid geometry errors on consumer receivers through this practice.	What is overscanning?
+r1	Television	1000	84	The time required for a scanning beam to return from the right edge to the left is this interval.	What is horizontal flyback?
+r1	Television	1000	84	Reserved signal range below reference black and above reference white provides these two safety margins.	What are video footroom and headroom?
+r1	Television	1000	84	With its lens capped, a professional camera maps and corrects dark-level differences across the sensor through this calibration.	What is black shading?
+# BOARD GAMES - 16 clues at each Round One value
+r1	Board Games	200	22	In Scrabble, this unlettered piece can represent any letter but has no point value.	What is a blank tile?
+r1	Board Games	200	22	Covering the dark red premium square multiplies the value of an entire Scrabble play by this amount.	What is a triple-word score?
+r1	Board Games	200	22	Chess permits a king and rook to move during the same turn in this protective maneuver.	What is castling?
+r1	Board Games	200	22	A pawn can capture an adjacent pawn that has just advanced two squares using this French-named rule.	What is en passant?
+r1	Board Games	200	22	Corner rooms connect diagonally across the Clue mansion by these shortcuts.	What are secret passages?
+r1	Board Games	200	22	Controlling every territory in one region at the start of a Risk turn earns this reinforcement reward.	What is a continent bonus?
+r1	Board Games	200	22	Three dice of one number plus two of another fill this Yahtzee scoring category.	What is a full house?
+r1	Board Games	200	22	Four checkers arranged vertically, horizontally, or diagonally produce this game's winning line.	What is four in a row?
+r1	Board Games	200	22	In Battleship, this color peg traditionally marks a successful shot.	What is a red hit peg?
+r1	Board Games	200	22	Landing at the beginning of a matching-color strip in Sorry sends a pawn along this shortcut.	What is a safety slide?
+r1	Board Games	200	22	Movement in Candy Land comes from drawing this kind of card rather than rolling dice.	What is a color card?
+r1	Board Games	200	22	Trouble encloses its die under a clear bubble bearing this popping name.	What is the Pop-O-Matic?
+r1	Board Games	200	22	Touching the metal edge while removing an ailment in Operation triggers this signal.	What is the electric buzzer?
+r1	Board Games	200	22	A boot kicks a bucket and starts a chain of contraptions in this game's elaborate trap.	What is the Mouse Trap machine?
+r1	Board Games	200	22	Othello pieces show black on one side and white on the other under this generic name.	What are reversible disks?
+r1	Board Games	200	22	Backgammon players use this numbered block to raise the stakes of a game.	What is the doubling cube?
+r1	Board Games	400	36	Alfred Mosher Butts first marketed his letter-and-score game under this name before it evolved into Scrabble.	What is Lexiko?
+r1	Board Games	400	36	This entrepreneur adopted Butts's design, coined its familiar name, and sold early sets from a schoolhouse.	Who is James Brunot?
+r1	Board Games	400	36	Elizabeth Magie patented this property game to illustrate the social effects of land monopolies.	What is The Landlord's Game?
+r1	Board Games	400	36	This English musician and factory clerk devised the murder-mystery game published as Cluedo.	Who is Anthony E. Pratt?
+r1	Board Games	400	36	Recovering from polio inspired this teacher to create Candy Land for children confined in a hospital ward.	Who is Eleanor Abbott?
+r1	Board Games	400	36	This toy promoter acquired a yacht couple's dice game and popularized it under the name Yahtzee.	Who is Edwin S. Lowe?
+r1	Board Games	400	36	A Harvard student designed Diplomacy around negotiation and simultaneous written orders.	Who is Allan Calhamer?
+r1	Board Games	400	36	This French filmmaker created La Conquete du Monde, later published internationally as Risk.	Who is Albert Lamorisse?
+r1	Board Games	400	36	Acquire, Can't Stop, and hundreds of published and unpublished designs came from this prolific American creator.	Who is Sid Sackson?
+r1	Board Games	400	36	Twixt and Ricochet Robots were designed by this American expatriate known for elegant abstract games.	Who is Alex Randolph?
+r1	Board Games	400	36	This game designer invented Eleusis, in which players infer a changing rule from accepted and rejected cards.	Who is Robert Abbott?
+r1	Board Games	400	36	An Israeli telecommunications expert invented the code-breaking game Mastermind.	Who is Mordecai Meirowitz?
+r1	Board Games	400	36	This British designer named her tumbling wooden-block game from the Swahili word for build.	Who is Leslie Scott?
+r1	Board Games	400	36	Journalists Chris Haney and this sports editor conceived Trivial Pursuit during a game night in Montreal.	Who is Scott Abbott?
+r1	Board Games	400	36	This inventor redesigned Milton Bradley's nineteenth-century morality game into the modern Game of Life.	Who is Reuben Klamer?
+r1	Board Games	400	36	The original Monopoly prototype credited to Charles Darrow used this household material as its playing surface.	What is oilcloth?
+r1	Board Games	600	51	Players claim action spaces with limited pawns, preventing others from using them that round, in this mechanism.	What is worker placement?
+r1	Board Games	600	51	Starting with a weak personal draw pile and acquiring stronger cards during play defines this mechanism.	What is deck building?
+r1	Board Games	600	51	Dominance in geographic regions rather than outright ownership is rewarded by this scoring mechanism.	What is area majority?
+r1	Board Games	600	51	Players bid resources against one another to obtain actions or assets in this mechanism.	What is open auctioning?
+r1	Board Games	600	51	Selecting one card from a hand and passing the remainder lets players build collections through this mechanism.	What is card drafting?
+r1	Board Games	600	51	A player repeatedly chooses whether to bank gains or risk losing them by continuing under this mechanism.	What is push-your-luck play?
+r1	Board Games	600	51	Some players receive secret allegiances that change their winning conditions in this mechanism.	What are hidden roles?
+r1	Board Games	600	51	Different factions begin with distinct abilities, resources, or rules through this design feature.	What are asymmetric player powers?
+r1	Board Games	600	51	Everyone chooses an action privately before choices are revealed together in this mechanism.	What is simultaneous action selection?
+r1	Board Games	600	51	A marker moves around a circular action track, with longer moves usually costing more, in this mechanism.	What is a rondel?
+r1	Board Games	600	51	Picking up stones from one pit and distributing them one by one around a board is this family of games' central action.	What is mancala sowing?
+r1	Board Games	600	51	Each player contributes one card and the highest qualifying card wins that round in this mechanism.	What is trick taking?
+r1	Board Games	600	51	Gathering prescribed combinations of symbols or card types for points is this mechanism.	What is set collection?
+r1	Board Games	600	51	Cards played face up into a personal engine or display build this named area.	What is a tableau?
+r1	Board Games	600	51	Permanent changes to components and rules carry consequences from one session to the next in this campaign format.	What is a legacy game?
+r1	Board Games	600	51	Players share a victory condition and coordinate against rules controlling the opposition in this style.	What is cooperative play?
+r1	Board Games	800	68	Irving Finkel reconstructed the rules of this Mesopotamian race game from a cuneiform tablet.	What is the Royal Game of Ur?
+r1	Board Games	800	68	Paintings in Egyptian tombs show people playing this thirty-square game associated with passage to the afterlife.	What is senet?
+r1	Board Games	800	68	In this Norse family of unequal games, defenders escort a king while attackers try to capture him.	What is hnefatafl?
+r1	Board Games	800	68	The cross-shaped Indian race game that inspired Western derivatives traditionally used cowrie shells as dice.	What is pachisi?
+r1	Board Games	800	68	Black and white stones surround territory on a grid in the strategy game known in Chinese by this name.	What is weiqi?
+r1	Board Games	800	68	Captured pieces can return under the captor's control in this Japanese chess relative.	What is shogi?
+r1	Board Games	800	68	A river divides the board and cannons capture by jumping a screen in this Chinese strategy game.	What is xiangqi?
+r1	Board Games	800	68	The ancient Roman game of encirclement and capture known chiefly from literary references bears this name.	What is ludus latrunculorum?
+r1	Board Games	800	68	A coiled serpent-shaped board appears in depictions of this ancient Egyptian game.	What is mehen?
+r1	Board Games	800	68	The Aztec race-and-gambling game played on an X-shaped board used marked beans as dice.	What is patolli?
+r1	Board Games	800	68	Guatemalan Maya players advance pieces and capture by surrounding opponents in this traditional game.	What is puluc?
+r1	Board Games	800	68	Players capture by approaching or withdrawing from enemy pieces along lines on this Madagascan board.	What is fanorona?
+r1	Board Games	800	68	Pieces travel around circular corner tracks before making captures in this Indonesian abstract game.	What is Surakarta?
+r1	Board Games	800	68	This North African alignment game begins with players placing pieces before moving them along a grid.	What is seega?
+r1	Board Games	800	68	Jump captures on a patterned grid link this medieval game to draughts and many regional descendants.	What is alquerque?
+r1	Board Games	800	68	Seeds circulate through two rows of pits in this Akan mancala game, now strongly associated with Ghana.	What is oware?
+r1	Board Games	1000	84	Landing on a marked flower square grants another throw in the reconstructed rules of this Mesopotamian game.	What is a rosette square?
+r1	Board Games	1000	84	A player landing on senet's water-sign hazard could be sent backward from this named square.	What is the House of Water?
+r1	Board Games	1000	84	A tafl king traditionally wins by reaching one of these specially marked board locations.	What is a corner refuge?
+r1	Board Games	1000	84	The central starting and finishing area in pachisi carries this Hindi name.	What is the char-koni?
+r1	Board Games	1000	84	A position cannot be immediately repeated after a single-stone capture under this go rule.	What is the simple ko rule?
+r1	Board Games	1000	84	Points added to White's score compensate for moving second in go under this term.	What is komi?
+r1	Board Games	1000	84	A shogi player may return a captured enemy piece to the board as this kind of move.	What is a piece drop?
+r1	Board Games	1000	84	The two opposing generals may not face each other along an empty file under this xiangqi restriction.	What is the flying-general rule?
+r1	Board Games	1000	84	A captured backgammon checker waits on this central divider before re-entering.	What is the bar?
+r1	Board Games	1000	84	Taking so many seeds that the opponent is left unable to move can be restricted by this oware rule.	What is the grand-slam rule?
+r1	Board Games	1000	84	Capturing by moving toward a line of enemy pieces is one of this Madagascan game's two distinctive methods.	What is an approach capture?
+r1	Board Games	1000	84	Moving away from adjacent enemy pieces removes them under this companion Fanorona method.	What is a withdrawal capture?
+r1	Board Games	1000	84	A Surakarta capture must pass around at least one of these external circular paths before reaching its target.	What is a corner loop?
+r1	Board Games	1000	84	Three pieces aligned on connected points form this scoring or capture structure in Morris games.	What is a mill?
+r1	Board Games	1000	84	Once reduced to three pieces, a Nine Men's Morris player may move to any empty point in this rule phase.	What is flying?
+r1	Board Games	1000	84	A stable local go position in which neither player can capture the other's group is called this.	What is seki?
+# WORLD CUISINES - 16 clues at each Round One value
+r1	World Cuisines	200	22	Italian cooks finely chop vegetables, herbs, or cured pork before cooking them as this aromatic preparation.	What is battuto?
+r1	World Cuisines	200	22	Aromatic vegetables cooked in oil form this foundational flavor base in Spanish, Caribbean, and Latin American kitchens.	What is sofrito?
+r1	World Cuisines	200	22	Starch dispersed in cold liquid can be stirred into a simmering sauce as this lump-preventing mixture.	What is a cornstarch slurry?
+r1	World Cuisines	200	22	Flatbreads cling to the hot inner wall of this cylindrical clay oven used across South and Central Asia.	What is a tandoor?
+r1	World Cuisines	200	22	A perforated upper chamber steams grains above stew in this traditional North African pot.	What is a couscoussier?
+r1	World Cuisines	200	22	Mexican cooks grind chiles and spices in this three-legged volcanic-stone mortar.	What is a molcajete?
+r1	World Cuisines	200	22	Tortillas and chiles cook on this flat griddle used in Mexico and Central America.	What is a comal?
+r1	World Cuisines	200	22	Stacked woven baskets let steam circulate around dumplings in this cooking vessel.	What is a bamboo steamer?
+r1	World Cuisines	200	22	Bibimbap continues sizzling at the table when served in this Korean stone bowl.	What is a dolsot?
+r1	World Cuisines	200	22	Finely ground coffee is heated with water in this small long-handled pot associated with Turkish coffee.	What is a cezve?
+r1	World Cuisines	200	22	The broad shallow vessel used for a Valencian rice dish gives that dish its name.	What is a paella pan?
+r1	World Cuisines	200	22	Spanish and Latin American kitchens bake and serve food in this shallow glazed earthenware dish.	What is a cazuela?
+r1	World Cuisines	200	22	Japanese cooks grind sesame against ridged ceramic walls in this mortar.	What is a suribachi?
+r1	World Cuisines	200	22	Japanese hot pots and rice dishes often cook in this lidded earthenware vessel.	What is a donabe?
+r1	World Cuisines	200	22	Two hinged round plates flatten balls of masa into even discs using this tool.	What is a tortilla press?
+r1	World Cuisines	200	22	Stacked circular depressions hold fermented batter above boiling water in this South Indian apparatus.	What is an idli steamer?
+r1	World Cuisines	400	36	Parsley stems, thyme, and bay leaf tied together season a French pot as this herb bundle.	What is a bouquet garni?
+r1	World Cuisines	400	36	Equal parts soft butter and raw flour kneaded together can thicken a sauce near the end under this name.	What is beurre manie?
+r1	World Cuisines	400	36	Cooking maize with an alkaline solution improves flavor, texture, and nutrient availability through this process.	What is nixtamalization?
+r1	World Cuisines	400	36	Japanese soups and sauces often begin with this umami-rich stock made from kelp and other ingredients.	What is dashi?
+r1	World Cuisines	400	36	This edible kelp contributes glutamate to Japanese broths and can soften beans during cooking.	What is kombu?
+r1	World Cuisines	400	36	Dried, smoked, and shaved skipjack tuna contributes savory flavor to Japanese stock under this name.	What is katsuobushi?
+r1	World Cuisines	400	36	Rice or soybeans inoculated with Aspergillus oryzae become this fermentation culture used for miso and sake.	What is koji?
+r1	World Cuisines	400	36	A portion of fermented batter reserved to seed the next batch of Ethiopian flatbread is called this.	What is ersho?
+r1	World Cuisines	400	36	Bird's-eye chile, cardamom, cloves, and salt give this Ethiopian seasoning a potent heat.	What is mitmita?
+r1	World Cuisines	400	36	Rose petals, cinnamon, cardamom, and cumin may appear in this Persian seasoning blend.	What is advieh?
+r1	World Cuisines	400	36	Fenugreek, coriander, dried herbs, and sometimes marigold petals combine in this Georgian seasoning blend.	What is khmeli suneli?
+r1	World Cuisines	400	36	Herbs, garlic, spices, and acid form this North African marinade often paired with fish.	What is chermoula?
+r1	World Cuisines	400	36	Ground annatto seeds provide the orange-red color in this Yucatecan seasoning preparation.	What is achiote paste?
+r1	World Cuisines	400	36	West African cooks ferment, press, roast, and sieve cassava into these dry granular crumbs.	What is gari?
+r1	World Cuisines	400	36	Chopped parsley, lemon zest, and garlic form this bright Milanese condiment.	What is gremolata?
+r1	World Cuisines	400	36	Slow cooking food in fat at low temperature is this preservation-rooted French technique.	What is confit?
+r1	World Cuisines	600	51	The prized smoky breath of a very hot wok is expressed by this Cantonese term.	What is wok hei?
+r1	World Cuisines	600	51	Marinating meat with starch and briefly passing it through hot oil or water gives tenderness through this Chinese technique.	What is velveting?
+r1	World Cuisines	600	51	Soy sauce, sugar, spices, and rice wine produce a glossy reddish-brown braise through this Chinese method.	What is red cooking?
+r1	World Cuisines	600	51	Spices bloomed in hot fat and poured into or over a dish create this South Asian finishing technique.	What is tadka?
+r1	World Cuisines	600	51	A sealed pot cooks slowly in its own steam in this technique associated with Awadhi cuisine.	What is dum pukht?
+r1	World Cuisines	600	51	Spices and aromatics are fried while moisture is reduced through this South Asian cooking stage.	What is bhuna?
+r1	World Cuisines	600	51	A glowing piece of charcoal placed in a small bowl under a lid perfumes food through this smoking technique.	What is dhungar?
+r1	World Cuisines	600	51	Cooked fish or vegetables marinate in an acidic sauce in this Iberian technique with many regional forms.	What is escabeche?
+r1	World Cuisines	600	51	Yucatecan cooks traditionally line this underground oven with hot stones for slow roasting.	What is a pib?
+r1	World Cuisines	600	51	Andean cooks layer meat and tubers with heated stones in an earth oven for this communal preparation.	What is pachamanca?
+r1	World Cuisines	600	51	Maori communities cook food with heated stones in a covered earth pit known by this term.	What is a hangi?
+r1	World Cuisines	600	51	Encasing fish or vegetables in a hardened shell of seasoned salt cooks them gently through this method.	What is salt-crust baking?
+r1	World Cuisines	600	51	A cooked flour-and-water paste added to bread dough improves softness and keeping quality under this Japanese name.	What is tangzhong?
+r1	World Cuisines	600	51	An alkaline solution gives many East Asian wheat noodles their yellow hue and springy bite under this name.	What is kansui?
+r1	World Cuisines	600	51	Salt-tolerant bacteria convert vegetable sugars mainly into lactic acid in this preservation process.	What is lactic-acid fermentation?
+r1	World Cuisines	600	51	Whisking cold butter into a little warm water creates this stable emulsified base for sauces.	What is beurre monte?
+r1	World Cuisines	800	68	UNESCO recognizes this Japanese dietary culture emphasizing seasonal ingredients, presentation, and New Year customs.	What is washoku?
+r1	World Cuisines	800	68	Careful menu selection, wine pairing, table setting, and shared enjoyment form this UNESCO-listed French social practice.	What is the gastronomic meal of the French?
+r1	World Cuisines	800	68	UNESCO treats this shared pattern of crops, meals, markets, and hospitality as heritage across several coastal countries.	What is the Mediterranean diet?
+r1	World Cuisines	800	68	Preparing and sharing large quantities of fermented vegetables for winter is this Korean communal practice.	What is kimjang?
+r1	World Cuisines	800	68	The UNESCO-listed craft of making this Naples specialty includes shaping dough and managing a wood-fired oven.	What is the art of the Neapolitan pizzaiuolo?
+r1	World Cuisines	800	68	Algeria, Mauritania, Morocco, and Tunisia jointly nominated the knowledge and practices surrounding this steamed grain dish.	What is couscous heritage?
+r1	World Cuisines	800	68	Tunisia's UNESCO-listed knowledge around a chile condiment includes cultivation, drying, grinding, and family recipes.	What is harissa knowledge?
+r1	World Cuisines	800	68	France's heritage listing for this long loaf emphasizes artisanal fermentation, shaping, scoring, and baking skills.	What is artisanal baguette craftsmanship?
+r1	World Cuisines	800	68	Serving this lightly roasted beverage with dates conveys generosity in a UNESCO-listed Gulf hospitality practice.	What is Arabic coffee hospitality?
+r1	World Cuisines	800	68	Fortune-telling from grounds can accompany this UNESCO-listed beverage culture shared in Turkey.	What is Turkish coffee culture?
+r1	World Cuisines	800	68	Communities in Armenia make and share this thin bread by stretching dough over a cushion and baking it on a clay wall.	What is lavash tradition?
+r1	World Cuisines	800	68	Georgian families ferment and store wine underground in large egg-shaped earthenware vessels through this ancient method.	What is qvevri winemaking?
+r1	World Cuisines	800	68	Singapore's UNESCO-listed dining culture centers on open food courts where stalls specialize in affordable dishes.	What is hawker culture?
+r1	World Cuisines	800	68	Senegal's heritage listing covers recipes and social practices around this rice-and-fish dish associated with Saint-Louis.	What is ceebu jen?
+r1	World Cuisines	800	68	Malawi's staple thick maize porridge anchors a UNESCO-listed culinary tradition under this name.	What is nsima?
+r1	World Cuisines	800	68	Haiti's UNESCO-listed independence food tradition centers on this squash-based soup once denied to enslaved people.	What is soup joumou?
+r1	World Cuisines	1000	84	A living bed of salted rice bran repeatedly receives vegetables for Japanese pickling under this name.	What is nukadoko?
+r1	World Cuisines	1000	84	The aromatic solids left after sake is pressed become this ingredient for soups, pickles, and marinades.	What is sake kasu?
+r1	World Cuisines	1000	84	Breaking down cooked rice starch with cultivated mold produces this naturally sweet Japanese drink.	What is amazake?
+r1	World Cuisines	1000	84	Heating soy milk creates a delicate surface skin harvested in sheets under this Japanese and Chinese name.	What is yuba?
+r1	World Cuisines	1000	84	Washing wheat dough removes starch and leaves this elastic protein food known in China by this name.	What is mianjin?
+r1	World Cuisines	1000	84	Anchovy liquid aged in chestnut barrels along Italy's Amalfi Coast descends from ancient fermented fish sauces.	What is colatura di alici?
+r1	World Cuisines	1000	84	Salted mullet roe is pressed, dried, and served in Japan as this delicacy associated with Nagasaki.	What is karasumi?
+r1	World Cuisines	1000	84	Andean communities repeatedly freeze potatoes overnight and press out moisture to make this shelf-stable food.	What is chuno?
+r1	World Cuisines	1000	84	Central Asian pastoralists drain and dry cultured milk into hard portable balls under this name.	What is qurut?
+r1	World Cuisines	1000	84	A fermented mixture of grain and yogurt is dried, then rehydrated into soup in this Anatolian food tradition.	What is tarhana?
+r1	World Cuisines	1000	84	West African maize or sorghum slurry is fermented and cooked into a smooth breakfast porridge under this Yoruba name.	What is ogi?
+r1	World Cuisines	1000	84	Fermented African locust beans make this pungent Yoruba seasoning rich in savory compounds.	What is iru?
+r1	World Cuisines	1000	84	A starter containing Rhizopus mold inoculates cooked soybeans before they bind into a compact cake under this Indonesian name.	What is ragi tempe?
+r1	World Cuisines	1000	84	Moroccan families age salted fermented butter, sometimes with herbs, to create this strong seasoning.	What is smen?
+r1	World Cuisines	1000	84	Leafy greens are wilted, fermented, and sun-dried in Nepal to make this preserved food.	What is gundruk?
+r1	World Cuisines	1000	84	Repeated smoking, drying, and mold cultivation turns skipjack into an exceptionally hard Japanese ingredient through this stage.	What is karebushi?
+# HOLIDAYS & TRADITIONS - 16 clues at each Round One value
+r1	Holidays & Traditions	200	22	The nine-branched lamp used during Hanukkah is more precisely known by this name.	What is a hanukkiah?
+r1	Holidays & Traditions	200	22	One candle is used to light the others during Hanukkah and carries this Hebrew name meaning attendant.	What is the shamash?
+r1	Holidays & Traditions	200	22	Letters on this four-sided spinning top refer to the Hanukkah miracle.	What is a dreidel?
+r1	Holidays & Traditions	200	22	Money gifts for Lunar New Year are often presented in this brightly colored container.	What is a red envelope?
+r1	Holidays & Traditions	200	22	Colored powder, rice, or flower petals create this decorative floor design during Diwali and other occasions.	What is a rangoli?
+r1	Holidays & Traditions	200	22	This small oil lamp symbolizes light overcoming darkness during Diwali.	What is a diya?
+r1	Holidays & Traditions	200	22	Seven candles representing Kwanzaa's principles stand in this holder.	What is a kinara?
+r1	Holidays & Traditions	200	22	Four candles arranged among evergreen branches mark successive Sundays before Christmas in this decoration.	What is an Advent wreath?
+r1	Holidays & Traditions	200	22	Dancers weave ribbons around this tall pole at many European spring and summer celebrations.	What is a maypole?
+r1	Holidays & Traditions	200	22	A decorated container filled with treats is broken during celebrations in Mexico and beyond.	What is a pinata?
+r1	Holidays & Traditions	200	22	A specially selected piece of wood once burned through the winter festival and survives as this dessert's shape.	What is a Yule log?
+r1	Holidays & Traditions	200	22	The first person to enter a Scottish home after midnight can bring symbolic gifts under this role.	What is a first-footer?
+r1	Holidays & Traditions	200	22	Photos, candles, flowers, and favorite foods honor deceased relatives on this home or cemetery display.	What is a Day of the Dead ofrenda?
+r1	Holidays & Traditions	200	22	Wishes are written on narrow colored papers and hung from bamboo during Tanabata.	What are tanzaku?
+r1	Holidays & Traditions	200	22	This flower became a symbol of remembrance after its red blooms appeared on First World War battlefields.	What is the remembrance poppy?
+r1	Holidays & Traditions	200	22	A crescent first sighting traditionally announces the beginning of a month in this type of calendar.	What is an observational lunar calendar?
+r1	Holidays & Traditions	400	36	Seven symbolic items beginning with the Persian letter sin are arranged for Nowruz on this table.	What is a haft-sin?
+r1	Holidays & Traditions	400	36	Bitter herbs, a roasted shank bone, and other symbolic foods occupy this Passover ritual platter.	What is a seder plate?
+r1	Holidays & Traditions	400	36	The seven Kwanzaa candles collectively bear this Swahili name.	What are mishumaa saba?
+r1	Holidays & Traditions	400	36	Floating lanterns guide ancestral spirits back across the water at the end of Obon in this ceremony.	What is toro nagashi?
+r1	Holidays & Traditions	400	36	Bright colored powder thrown during Holi is commonly called by this term.	What is gulal?
+r1	Holidays & Traditions	400	36	A costumed musical group parading during many Caribbean and Latin American carnivals is known as this.	What is a comparsa?
+r1	Holidays & Traditions	400	36	A wreath of candles worn by a white-robed girl symbolizes Saint Lucy during Scandinavian processions.	What is a Lucia crown?
+r1	Holidays & Traditions	400	36	Mexican Christmas pageants dramatize shepherds traveling to Bethlehem while resisting comic devils in this tradition.	What are Las Pastorelas?
+r1	Holidays & Traditions	400	36	Younger people pour scented water over elders' hands to ask blessing during this Thai New Year custom.	What is rod nam dam hua?
+r1	Holidays & Traditions	400	36	Participants circle a raised platform in this communal dance during Japanese summer ancestor festivals.	What is Bon odori?
+r1	Holidays & Traditions	400	36	Muslims give this required charity before the prayer marking the end of Ramadan.	What is zakat al-fitr?
+r1	Holidays & Traditions	400	36	Round pastries shared during the Mid-Autumn Festival often contain lotus-seed paste under this name.	What are mooncakes?
+r1	Holidays & Traditions	400	36	Crops, the candleholder, and other Kwanzaa symbols rest upon this woven mat.	What is a mkeka?
+r1	Holidays & Traditions	400	36	Families mark a child's first birthday in Korea with a table ceremony bearing this name.	What is doljanchi?
+r1	Holidays & Traditions	400	36	A child selecting from symbolic objects at that Korean birthday celebration participates in this fortune-telling custom.	What is doljabi?
+r1	Holidays & Traditions	400	36	During Rosh Hashanah, this curved horn is sounded in a prescribed series of calls.	What is a shofar?
+r1	Holidays & Traditions	600	51	Men wearing wax masks, wooden clogs, and ostrich-feather hats appear as these figures at Belgium's Carnival of Binche.	What are Gilles?
+r1	Holidays & Traditions	600	51	Paired masked figures called Rollers and Schellers define this Austrian carnival procession.	What is Imster Schemenlaufen?
+r1	Holidays & Traditions	600	51	A mock battle with a dragon figure called Ducasse rituals animates this Belgian city's festival.	What is the Doudou of Mons?
+r1	Holidays & Traditions	600	51	Elaborate Nativity scenes blending architecture and current events are made in this Polish city tradition.	What is Krakow szopka-making?
+r1	Holidays & Traditions	600	51	Sheepskin-clad figures in carved masks cross the Danube at Mohacs during this Hungarian end-of-winter festival.	What is Busojaras?
+r1	Holidays & Traditions	600	51	A vast river procession in Belem carries an image of Our Lady of Nazareth during this Brazilian devotion.	What is Cirio de Nazare?
+r1	Holidays & Traditions	600	51	Masked dances and a procession retelling sacred stories characterize this Bolivian carnival.	What is the Carnival of Oruro?
+r1	Holidays & Traditions	600	51	Towering decorated floats move through Kyoto neighborhoods as part of this festival's UNESCO-listed float ceremony.	What is the Yama Hoko ceremony?
+r1	Holidays & Traditions	600	51	Competing neighborhoods build illuminated floats and launch fireworks during this Christmas-season celebration in Remedios, Cuba.	What are Las Parrandas?
+r1	Holidays & Traditions	600	51	A sweet medicinal paste scattered from a mosque minaret is associated with this spring festival in Manisa, Turkey.	What is the Mesir Macunu Festival?
+r1	Holidays & Traditions	600	51	Sharing a boiled grain, fruit, and nut pudding expresses remembrance and social solidarity in this Turkish tradition.	What is Ashura porridge tradition?
+r1	Holidays & Traditions	600	51	Communities celebrate spring and the figures Hizir and Ilyas during this seasonal festival shared by Turkey and North Macedonia.	What is Hidrellez?
+r1	Holidays & Traditions	600	51	Huge bonfires welcome warmth and light during this ancient Iranian midwinter celebration.	What is Sadeh?
+r1	Holidays & Traditions	600	51	Bell-wearing masked performers visit homes around New Year in this Bulgarian custom intended to drive away evil.	What is Surva masquerading?
+r1	Holidays & Traditions	600	51	In Basel, lantern processions begin at four in the morning when city lights go dark for this opening event.	What is Morgenstreich?
+r1	Holidays & Traditions	600	51	Costumed groups enact comic scenes and exchange satirical verses in this northern Greek New Year tradition.	What is Momoeria?
+r1	Holidays & Traditions	800	68	Western churches determine Easter using the first occurrence of this ecclesiastical lunar event on or after March 21.	What is the Paschal full moon?
+r1	Holidays & Traditions	800	68	The age of the moon on January 1 is represented by this number in traditional computus.	What is the epact?
+r1	Holidays & Traditions	800	68	A lunar calendar stays aligned with seasons by inserting this additional month.	What is an intercalary month?
+r1	Holidays & Traditions	800	68	Jewish calendar calculations express a mean lunar conjunction using this Hebrew term.	What is a molad?
+r1	Holidays & Traditions	800	68	Traditional East Asian calendars divide the sun's annual path into twenty-four of these seasonal markers.	What are solar terms?
+r1	Holidays & Traditions	800	68	Some calendar systems keep years aligned by inserting an entire extra seven-day unit called this.	What is a leap week?
+r1	Holidays & Traditions	800	68	Nowruz begins at the astronomical instant marked by this seasonal crossing.	What is the vernal equinox?
+r1	Holidays & Traditions	800	68	A religious observance held through the night before a feast is this type of service.	What is a vigil?
+r1	Holidays & Traditions	800	68	Eight days of liturgical observance beginning with a major feast form this period.	What is an octave?
+r1	Holidays & Traditions	800	68	The three days from Holy Thursday evening through Easter Sunday form this Christian observance.	What is the Paschal Triduum?
+r1	Holidays & Traditions	800	68	A ceremonial meal ending a period of abstention serves this ritual function.	What is fast-breaking?
+r1	Holidays & Traditions	800	68	Offering the earliest harvested produce acknowledges a new agricultural cycle through this ritual category.	What is a first-fruits ceremony?
+r1	Holidays & Traditions	800	68	Crossing a doorway at New Year can be emphasized as this kind of boundary ritual.	What is a threshold rite?
+r1	Holidays & Traditions	800	68	Victor Turner used this term for the in-between phase of a rite of passage.	What is liminality?
+r1	Holidays & Traditions	800	68	Turner called the intense temporary equality felt among ritual participants by this Latin-derived term.	What is communitas?
+r1	Holidays & Traditions	800	68	Carnivals may temporarily reverse ranks and ordinary rules through this social mechanism.	What is ritual inversion?
+r1	Holidays & Traditions	1000	84	Japanese New Year entrances are flanked by arrangements of pine and bamboo bearing this name.	What is kadomatsu?
+r1	Holidays & Traditions	1000	84	A braided sacred rope with paper streamers marks purified space at Shinto sites and New Year displays.	What is shimenawa?
+r1	Holidays & Traditions	1000	84	Fortunes drawn at a Japanese shrine are tied to a rack or tree when unlucky under this name.	What are omikuji?
+r1	Holidays & Traditions	1000	84	A horse-skull figure carried from house to house in Welsh midwinter singing contests is this tradition.	What is Mari Lwyd?
+r1	Holidays & Traditions	1000	84	Orchard trees are sung to, toasted, and sometimes splashed with cider in this English custom.	What is orchard wassailing?
+r1	Holidays & Traditions	1000	84	The leader of Lerwick's torch procession adopts this Norse title for the festival year.	What is the Guizer Jarl?
+r1	Holidays & Traditions	1000	84	Bulgarian men in shaggy costumes and enormous bells perform as these masked figures around New Year.	What are kukeri?
+r1	Holidays & Traditions	1000	84	In Appenzell, elaborately costumed figures visit farms on two calendar dates as these New Year's mummers.	What are Silvesterchlause?
+r1	Holidays & Traditions	1000	84	The clanging bell-bearing companion to the Roller in Imst's carnival bears this name.	What is the Scheller?
+r1	Holidays & Traditions	1000	84	Each Basel carnival group may carry a huge illuminated painted panel identified by this group-based term.	What is a Clique lantern?
+r1	Holidays & Traditions	1000	84	At Binche, masked participants throw this fruit to spectators as a token of luck.	What are ceremonial oranges?
+r1	Holidays & Traditions	1000	84	The carved wooden face and horned sheepskin costume worn at Mohacs identify this festival character.	What is a buso mask?
+r1	Holidays & Traditions	1000	84	A decorated portable shrine carried in Japan during a festival procession is called this.	What is a mikoshi?
+r1	Holidays & Traditions	1000	84	Long strips of paper bearing satirical verses accompany Basel's carnival floats under this dialect term.	What are Zeedel?
+r1	Holidays & Traditions	1000	84	A dancer beneath a carved goat head and decorated cloth performs house to house at Romanian New Year in this custom.	What is Capra?
+r1	Holidays & Traditions	1000	84	A person dressed in sheaves is led through an English town in this revived Plough Monday celebration.	What is the Whittlesey Straw Bear Festival?

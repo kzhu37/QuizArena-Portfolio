@@ -1,0 +1,409 @@
+# QuizArena researched expansion batch 13
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: FHWA bridge-engineering publications and glossary (https://www.fhwa.dot.gov/bridge/); ASCE civil-engineering history and landmarks (https://www.asce.org/about-civil-engineering/history-and-heritage); Smarthistory architecture essays (https://smarthistory.org/).
+# Research anchors: The Metropolitan Museum of Art Greek resources (https://www.metmuseum.org/learn/educators/curriculum-resources/greek-and-roman-art); Harvard Pluralism Project glossary (https://pluralism.org/glossary); NOAA Ocean Service education resources (https://oceanservice.noaa.gov/education/); Library of Congress literary research guides (https://guides.loc.gov/literary-research); Nobel Prize literature archives (https://www.nobelprize.org/prizes/literature/).
+# BRIDGES & BUILDINGS - 16 clues at each Double Jeopardy value
+r2	Bridges & Buildings	400	41	Large dressed blocks that visually strengthen or decorate the outside corner of a masonry building bear this name.	What are quoins?
+r2	Bridges & Buildings	400	41	A rooftop pavilion or open-sided gallery positioned for a fine view takes this Italian-derived name.	What is a belvedere?
+r2	Bridges & Buildings	400	41	This horizontal bar separates a door from a window directly above it, or divides sections of a window.	What is a transom?
+r2	Bridges & Buildings	400	41	Brick, stone, and concrete block joined into walls all belong to this broad class of construction.	What is masonry?
+r2	Bridges & Buildings	400	41	This raised protective wall along a roof, balcony, or bridge edge can keep people from falling.	What is a parapet?
+r2	Bridges & Buildings	400	41	The arrangement and proportion of windows and other openings across a building exterior is called this.	What is fenestration?
+r2	Bridges & Buildings	400	41	In Greek architecture, this rectangular pier terminates a projecting side wall beside a colonnade.	What is an anta?
+r2	Bridges & Buildings	400	41	This workable paste hardens between bricks or stones, bonding them and filling their joints.	What is mortar?
+r2	Bridges & Buildings	400	41	Sprayed pneumatically from a hose, this concrete is useful on tunnels, pools, and repaired surfaces.	What is shotcrete?
+r2	Bridges & Buildings	400	41	Rain entering the roof opening of a Roman house collected in this shallow basin set into the floor below.	What is an impluvium?
+r2	Bridges & Buildings	400	41	A tall tapering roof feature that often crowns a church tower is known by this term.	What is a spire?
+r2	Bridges & Buildings	400	41	This horizontal platform carries traffic across the supporting structure of a bridge.	What is a bridge deck?
+r2	Bridges & Buildings	400	41	The end support that also holds back the soil of an approach embankment has this name.	What is an abutment?
+r2	Bridges & Buildings	400	41	A small-scale built version lets designers study a structure's form before full construction.	What is an architectural model?
+r2	Bridges & Buildings	400	41	Repeated asymmetrical roof ridges with glazed steep faces admit even daylight to factories in this industrial form.	What is a sawtooth roof?
+r2	Bridges & Buildings	400	41	Several columns connected across the width of a viaduct form this transverse support unit.	What is a trestle bent?
+r2	Bridges & Buildings	800	55	This ring of windows at the base of a domed roof can admit light while forming part of its supporting cylinder.	What is a tholobate?
+r2	Bridges & Buildings	800	55	This roofed gallery opens to the air through a row of columns or arches, especially in Italian architecture.	What is a loggia?
+r2	Bridges & Buildings	800	55	In many medieval churches, this narrow gallery lies between the nave arcade and the upper window level.	What is a triforium?
+r2	Bridges & Buildings	800	55	A projecting horizontal molding at the top of a wall is called this.	What is a cornice?
+r2	Bridges & Buildings	800	55	Perforated stone screens filter glare and air through intricate geometric or floral patterns in South Asian architecture.	What is a jali screen?
+r2	Bridges & Buildings	800	55	A temporary structure that supports an arch or bridge span until it can carry itself has this name.	What is falsework?
+r2	Bridges & Buildings	800	55	This plate joins intersecting members of a steel truss, often with bolts or rivets.	What is a gusset plate?
+r2	Bridges & Buildings	800	55	A gap built into a long deck lets its materials lengthen and shorten as temperature changes.	What is an expansion joint?
+r2	Bridges & Buildings	800	55	A compressible device between a bridge deck and its support permits rotation or movement while transferring load.	What is a bridge bearing?
+r2	Bridges & Buildings	800	55	This deep vertical support is driven or drilled into the ground to carry loads to stronger soil or rock.	What is a pile?
+r2	Bridges & Buildings	800	55	Parallel vertical channels carved into a classical shaft create this decorative treatment.	What is fluting?
+r2	Bridges & Buildings	800	55	A square bay roofed by four curved surfaces that rise from its side walls, rather than diagonal seams, uses this form.	What is a cloister vault?
+r2	Bridges & Buildings	800	55	Sculpture often fills this recessed triangular field enclosed by a classical temple's sloping roof and cornice.	What is a tympanum?
+r2	Bridges & Buildings	800	55	Concrete is compressed before service loads arrive in this technique, often by tensioning steel tendons.	What is prestressing?
+r2	Bridges & Buildings	800	55	A projecting bracket built into a wall to carry a beam, balcony, or statue is called this.	What is a corbel?
+r2	Bridges & Buildings	800	55	A monumental gateway leading to a sacred enclosure takes this Greek-derived architectural name.	What is a propylaeum?
+r2	Bridges & Buildings	1200	67	Santiago Calatrava's white pedestrian crossing rotates open above England's River Tyne like a winking eye.	What is the Gateshead Millennium Bridge?
+r2	Bridges & Buildings	1200	67	Isambard Kingdom Brunel placed its deck through two large masonry portals and suspended it from tubular wrought-iron arches.	What is the Royal Albert Bridge?
+r2	Bridges & Buildings	1200	67	Santiago Calatrava twisted the floor plates of this Malmo residential tower around a concrete core.	What is Turning Torso?
+r2	Bridges & Buildings	1200	67	A triangular concrete structural frame helps this Mexico City office tower resist earthquakes on a narrow site.	What is Torre Reforma?
+r2	Bridges & Buildings	1200	67	Brunelleschi built the great octagonal dome of this Tuscan cathedral without full wooden centering.	What is Florence Cathedral?
+r2	Bridges & Buildings	1200	67	Earth replastered after annual rains gives this Malian mosque, the world's celebrated monumental mud-brick structure, its sculptural surface.	What is the Great Mosque of Djenne?
+r2	Bridges & Buildings	1200	67	Louis Kahn roofed this Fort Worth art museum with parallel concrete cycloid vaults that diffuse daylight.	What is the Kimbell Art Museum?
+r2	Bridges & Buildings	1200	67	The rounded corners and black Vitrolite panels of Manchester's 1930s newspaper headquarters exemplify streamlined Art Deco.	What is the Daily Express Building?
+r2	Bridges & Buildings	1200	67	Eero Saarinen's wing-shaped terminal for Trans World Airlines opened at New York's Idlewild Airport.	What is the TWA Flight Center?
+r2	Bridges & Buildings	1200	67	Gustave Eiffel designed this red wrought-iron railway viaduct arching high over France's Truyere valley.	What is the Garabit Viaduct?
+r2	Bridges & Buildings	1200	67	Robert Maillart's thin concrete deck stiffens the three-hinged arch of this Swiss valley crossing.	What is the Salginatobel Bridge?
+r2	Bridges & Buildings	1200	67	A green-glass slab raised on stainless-steel columns made this 1952 New York office tower an International Style landmark.	What is Lever House?
+r2	Bridges & Buildings	1200	67	Piano and Rogers exposed colorful ducts, pipes, and escalators on the exterior of this Paris cultural complex.	What is the Centre Pompidou?
+r2	Bridges & Buildings	1200	67	Joseph Paxton adapted greenhouse construction for this vast iron-and-glass hall of the 1851 Great Exhibition.	What is the Crystal Palace?
+r2	Bridges & Buildings	1200	67	Bertrand Goldberg grouped paired semicircular residential towers like concrete corncobs beside the Chicago River.	What is Marina City?
+r2	Bridges & Buildings	1200	67	Curving stainless-steel ribbons form the double-helix structure of this pedestrian crossing at Singapore's Marina Bay.	What is the Helix Bridge?
+r2	Bridges & Buildings	1600	81	This inward-stepped arch form builds each course beyond the one below without true radial voussoirs.	What is a corbelled arch?
+r2	Bridges & Buildings	1600	81	The lowest wedge of an arch rests on this horizontal block at the top of its supporting pier.	What is an impost?
+r2	Bridges & Buildings	1600	81	This point at either side of an arch marks where its curve begins to rise from the support.	What is the springing?
+r2	Bridges & Buildings	1600	81	This gable projects above the adjoining roof slopes, concealing their edges behind a masonry upstand.	What is a parapeted gable?
+r2	Bridges & Buildings	1600	81	This thickened portion near a support increases a beam or arch rib's depth where bending demands are high.	What is a haunch?
+r2	Bridges & Buildings	1600	81	A rigid beam spanning between two upright members gives this simple frame its gateway-derived name.	What is a portal frame?
+r2	Bridges & Buildings	1600	81	This loss of stability makes a slender compression member bow sideways before its material crushes.	What is buckling?
+r2	Bridges & Buildings	1600	81	The line within a bent beam where longitudinal stress changes from compression to tension has this name.	What is the neutral axis?
+r2	Bridges & Buildings	1600	81	A line along which a reinforced slab has yielded in bending under collapse analysis bears this name.	What is a yield line?
+r2	Bridges & Buildings	1600	81	Studs welded through the deck join a concrete slab to a steel girder so the two materials exhibit this shared behavior.	What is composite action?
+r2	Bridges & Buildings	1600	81	This foundation problem occurs when one part of a structure sinks more than another, causing distortion or cracking.	What is differential settlement?
+r2	Bridges & Buildings	1600	81	A short transverse projection between concrete elements transfers lateral force across a joint like a mechanical stop.	What is a shear key?
+r2	Bridges & Buildings	1600	81	A secondary frame connects a skyscraper's central core to perimeter columns so their combined width resists overturning.	What is an outrigger system?
+r2	Bridges & Buildings	1600	81	A continuous slab bent into repeating angular planes gains stiffness much as corrugated paper does.	What is a folded-plate roof?
+r2	Bridges & Buildings	1600	81	A free-draining granular layer or impermeable membrane interrupts liquid water wicking upward into a slab or wall through this detail.	What is a capillary break?
+r2	Bridges & Buildings	1600	81	Interlocking oval rooms and a geometrically complex dome distinguish San Lorenzo in Turin, designed by this Baroque architect-priest.	Who was Guarino Guarini?
+r2	Bridges & Buildings	2000	94	Parallel steel boxes joined by crossbeams create this multi-cellular deck form for resisting torsion.	What is a multicell box deck?
+r2	Bridges & Buildings	2000	94	Alternating low-pressure vortices can drive a slender deck or tower at a frequency near its own under this wind response.	What is vortex-induced vibration?
+r2	Bridges & Buildings	2000	94	Graphic statics represents a system of forces with this linked sequence of vectors, paired with a funicular diagram.	What is a force polygon?
+r2	Bridges & Buildings	2000	94	Compression remains fully within a masonry section when the resultant falls inside this central region of the cross-section.	What is the kern?
+r2	Bridges & Buildings	2000	94	An arch shaped so its geometry follows the inverted path of its applied loads is called this type.	What is a funicular arch?
+r2	Bridges & Buildings	2000	94	A thin horizontal slab can fail around a column as a truncated cone under this brittle two-way shear mode.	What is punching shear?
+r2	Bridges & Buildings	2000	94	Internal self-desiccation during cement hydration causes this volume reduction even when no moisture escapes to the environment.	What is autogenous shrinkage?
+r2	Bridges & Buildings	2000	94	A low-conductivity separator inserted between conductive building components interrupts heat flow through the envelope.	What is a thermal break?
+r2	Bridges & Buildings	2000	94	Viscous, friction, or yielding devices dissipate earthquake energy without carrying the structure's ordinary gravity loads under this strategy.	What is supplemental damping?
+r2	Bridges & Buildings	2000	94	In a wide flange or box girder, nonuniform longitudinal stress across the flange is called this effect.	What is shear lag?
+r2	Bridges & Buildings	2000	94	Fresh concrete placed against a hardened earlier pour creates this interface between placements.	What is a cold joint?
+r2	Bridges & Buildings	2000	94	A bridge's traffic surface can act as the top flange of its main girders when connectors create this combined deck form.	What is composite deck construction?
+r2	Bridges & Buildings	2000	94	In limit-state design, this redistributed internal-force pattern can develop after several ductile hinges form in a frame.	What is a collapse mechanism?
+r2	Bridges & Buildings	2000	94	The horizontal curve of a suspension bridge cable under a uniformly distributed deck load is approximately this conic section.	What is a parabola?
+r2	Bridges & Buildings	2000	94	The Sunniberg crossing's low, outward-spreading stay cables exemplify the elegant bridge work of this Swiss designer.	Who was Christian Menn?
+r2	Bridges & Buildings	2000	94	Felix Candela formed this Mexico City restaurant's flower-like roof from eight intersecting hyperbolic paraboloids.	What is Los Manantiales?
+# GREEK MYTHOLOGY - 16 clues at each Double Jeopardy value
+r2	Greek Mythology	400	41	The bearded god of the north wind swept down from Thrace and carried away the Athenian princess Oreithyia.	Who was Boreas?
+r2	Greek Mythology	400	41	This rosy-fingered goddess opened heaven's gates each morning and personified the dawn.	Who was Eos?
+r2	Greek Mythology	400	41	As queen of the sea, this Nereid became the wife of its trident-bearing god and mother of Triton.	Who was Amphitrite?
+r2	Greek Mythology	400	41	This Titan goddess of the moon rode through the night sky and loved the sleeping Endymion.	Who was Selene?
+r2	Greek Mythology	400	41	This goddess of youth served nectar to the Olympians and later married Heracles after his deification.	Who was Hebe?
+r2	Greek Mythology	400	41	A mural crown and wheel often identify this goddess who personified a city's changing fortune.	Who was Tyche?
+r2	Greek Mythology	400	41	An elderly satyr famed for drunken wisdom served as tutor and companion to the god of wine.	Who was Silenus?
+r2	Greek Mythology	400	41	After wandering from place to place, this Titan daughter gave birth to divine twins on the floating island of Delos.	Who was Leto?
+r2	Greek Mythology	400	41	The eldest Pleiad bore a swift Olympian messenger to Zeus in a cave on Mount Cyllene.	Who was Maia?
+r2	Greek Mythology	400	41	This winged son of the love goddess made gods and mortals fall in love with his arrows.	Who was Eros?
+r2	Greek Mythology	400	41	Doctors remember this healing god, a son of a prophetic Olympian, whose staff is entwined by one snake.	Who was Asclepius?
+r2	Greek Mythology	400	41	Sailors might encounter this fish-tailed son of the sea god blowing a conch-shell trumpet.	Who was Triton?
+r2	Greek Mythology	400	41	Winged and carrying a sword in art, this personification of peaceful death was the twin brother of Sleep.	Who was Thanatos?
+r2	Greek Mythology	400	41	Three heads and a serpent tail made this hound an effective guard at the entrance to the underworld.	What was Cerberus?
+r2	Greek Mythology	400	41	This golden-sworded warrior sprang from Medusa's body at her death and later fathered the three-bodied Geryon.	Who was Chrysaor?
+r2	Greek Mythology	400	41	Retribution against arrogant good fortune was the special province of this goddess.	Who was Nemesis?
+r2	Greek Mythology	800	55	Condemned to repeat only the speech of others, this nymph wasted away after her love went unanswered.	Who was Echo?
+r2	Greek Mythology	800	55	A youth who could not stop admiring his reflected beauty gave his name to excessive self-absorption.	Who was Narcissus?
+r2	Greek Mythology	800	55	This legendary musician taught Heracles the lyre, only to be killed when his impatient pupil struck him with it.	Who was Linus?
+r2	Greek Mythology	800	55	Athena turned this gifted inventor into a partridge after his jealous uncle hurled him from Athens' citadel.	Who was Perdix?
+r2	Greek Mythology	800	55	Ignoring a warning about flying too high, this craftsman's son fell after the sun melted his wings' wax.	Who was Icarus?
+r2	Greek Mythology	800	55	A Phrygian king learned that turning everything he touched to gold made eating impossible.	Who was Midas?
+r2	Greek Mythology	800	55	This satyr challenged Apollo to a musical contest and paid for defeat by being flayed alive.	Who was Marsyas?
+r2	Greek Mythology	800	55	Hounds tore apart this hunter after he accidentally saw the goddess of the hunt bathing.	Who was Actaeon?
+r2	Greek Mythology	800	55	In Ovid's telling, this suitor won a deadly footrace by dropping three golden apples supplied by a goddess.	Who was Hippomenes?
+r2	Greek Mythology	800	55	This cattle-herding twin of Amphion helped build Thebes' walls, supplying muscle while his brother's lyre moved stones.	Who was Zethus?
+r2	Greek Mythology	800	55	The first woman in Hesiod's account opened a jar that released troubles into human life.	Who was Pandora?
+r2	Greek Mythology	800	55	A mortal princess endured impossible tasks from a love goddess before being reunited with her divine husband.	Who was Psyche?
+r2	Greek Mythology	800	55	The mother of the wine god died after demanding that her divine lover reveal himself in full glory.	Who was Semele?
+r2	Greek Mythology	800	55	A shower of gold entered the bronze chamber of this imprisoned princess, who later bore a monster-slaying son.	Who was Danae?
+r2	Greek Mythology	800	55	A god rescued his unborn son from the funeral pyre of this unfaithful Thessalian princess, mother of Asclepius.	Who was Coronis?
+r2	Greek Mythology	800	55	After an illicit passion, this Cypriot princess became a fragrant tree and gave birth from its trunk.	Who was Myrrha?
+r2	Greek Mythology	1200	67	This underworld helmet made its wearer unseen; Perseus borrowed it while hunting the mortal Gorgon.	What was the cap of invisibility?
+r2	Greek Mythology	1200	67	A fennel staff crowned with ivy and often tipped by a pinecone was carried by Dionysus and his followers.	What was the thyrsus?
+r2	Greek Mythology	1200	67	Obtaining this Amazon queen's war belt became the ninth labor of Heracles.	What was the girdle of Hippolyta?
+r2	Greek Mythology	1200	67	The weapon needed to bring down Troy belonged to Heracles and was carried there by Philoctetes.	What was the bow of Heracles?
+r2	Greek Mythology	1200	67	This food of the gods, often paired with nectar, was said to confer immortality.	What was ambrosia?
+r2	Greek Mythology	1200	67	Gods swore their most binding oaths by this underworld river, and a ferryman carried the dead across it.	What was the River Styx?
+r2	Greek Mythology	1200	67	Heroes favored by the gods could enjoy a blessed afterlife in these fields at the edge of the world.	What were the Elysian Fields?
+r2	Greek Mythology	1200	67	The Titans were imprisoned in this deepest, gloomy region beneath the ordinary realm of the dead.	What was Tartarus?
+r2	Greek Mythology	1200	67	The Pythia sat on this three-legged ritual seat while delivering Apollo's prophecies.	What was the Delphic tripod?
+r2	Greek Mythology	1200	67	A horn broken from the goat Amalthea became this inexhaustible emblem of abundance.	What was the cornucopia?
+r2	Greek Mythology	1200	67	Destined never to be caught, this monstrous vixen met the hound destined always to catch its quarry; Zeus resolved the paradox by turning both to stone.	What was the Teumessian fox?
+r2	Greek Mythology	1200	67	A goddess tossed this inscribed prize among wedding guests, prompting a beauty judgment that helped cause the Trojan War.	What was the golden apple of discord?
+r2	Greek Mythology	1200	67	A piece of prophetic Dodona oak set into this ship's prow could speak and guide its heroic crew.	What was the Argo's speaking timber?
+r2	Greek Mythology	1200	67	This winged personification of eager rivalry was a brother of Victory and accompanied Zeus.	Who was Zelus?
+r2	Greek Mythology	1200	67	Sleep itself was personified by this winged underworld deity, twin brother of Death.	Who was Hypnos?
+r2	Greek Mythology	1200	67	Dreams took human shape through this son of Sleep, whose name now suggests changing form.	Who was Morpheus?
+r2	Greek Mythology	1600	81	This sea nymph tried to protect her son Achilles, but her marriage to Peleus also occasioned the gods' disastrous wedding feast.	Who was Thetis?
+r2	Greek Mythology	1600	81	An abandoned archer possessed the hero's bow required for Troy's fall and was finally brought from Lemnos.	Who was Philoctetes?
+r2	Greek Mythology	1600	81	After the great flood, this pious survivor and his wife repopulated the earth by throwing their mother's bones behind them.	Who was Deucalion?
+r2	Greek Mythology	1600	81	Stones thrown over her shoulder became women when she and her husband interpreted a divine riddle after the flood.	Who was Pyrrha?
+r2	Greek Mythology	1600	81	Bound to a fiery wheel for trying to violate Hera, this king became a warning against abusing hospitality.	Who was Ixion?
+r2	Greek Mythology	1600	81	A moon goddess arranged eternal sleep for this beautiful shepherd so she could visit him forever.	Who was Endymion?
+r2	Greek Mythology	1600	81	Zeus assumed Amphitryon's appearance to visit this Theban woman, who became the mother of Heracles.	Who was Alcmene?
+r2	Greek Mythology	1600	81	Often shown with a serpent's lower body, this autochthonous Attic king judged the divine contest for patronage of Athens.	Who was Cecrops?
+r2	Greek Mythology	1600	81	A restored ivory shoulder marked this hero after the gods reassembled him from a feast served by his father.	Who was Pelops?
+r2	Greek Mythology	1600	81	The father of Hippodamia challenged her suitors to a chariot race and killed those he defeated.	Who was Oenomaus?
+r2	Greek Mythology	1600	81	Devotion to the virgin huntress and rejection of his stepmother's advances brought this young hero a fatal chariot crash.	Who was Hippolytus?
+r2	Greek Mythology	1600	81	This queen volunteered to die in her husband's place, but Heracles wrested her back from Death.	Who was Alcestis?
+r2	Greek Mythology	1600	81	During his voyage home, this lesser Ajax violated Cassandra at a goddess's sanctuary and later drowned.	Who was Ajax the Lesser?
+r2	Greek Mythology	1600	81	Achilles' son, also called Pyrrhus, joined the final assault on Troy and killed its aged king.	Who was Neoptolemus?
+r2	Greek Mythology	1600	81	This seer of the Greek army explained both the windless delay at Aulis and the plague in the Iliad's opening book.	Who was Calchas?
+r2	Greek Mythology	1600	81	A dolphin rescued this poet and musician after pirates forced him overboard, according to Herodotus.	Who was Arion?
+r2	Greek Mythology	2000	94	The gigantic brothers Otus and Ephialtes tried to pile mountains to reach heaven and were jointly known by this name.	Who were the Aloadae?
+r2	Greek Mythology	2000	94	This prophet understood animal speech after snakes licked his ears and used his gifts to cure the daughters of Proetus.	Who was Melampus?
+r2	Greek Mythology	2000	94	A bronze guardian circled Crete three times a day until a sorceress exploited the single vein sealed at his ankle.	Who was Talos?
+r2	Greek Mythology	2000	94	Travelers were stretched or amputated to fit the iron bed of this Attic bandit before Theseus imposed the same fate on him.	Who was Procrustes?
+r2	Greek Mythology	2000	94	Imitating thunder and demanding worship, this Thessalian king was struck down by Zeus.	Who was Salmoneus?
+r2	Greek Mythology	2000	94	After cutting down a sacred grove despite repeated warnings, this Thessalian king was cursed with insatiable hunger.	Who was Erysichthon?
+r2	Greek Mythology	2000	94	Born female and transformed into an invulnerable male warrior, this Lapith was later crushed beneath piled trees.	Who was Caeneus?
+r2	Greek Mythology	2000	94	In the Odyssey, this giant lies stretched over nine acres while two vultures tear at his liver as punishment for assaulting Leto.	Who was Tityos?
+r2	Greek Mythology	2000	94	After eating a herb that revived fish, this Boeotian fisherman leapt into the sea and became a prophetic marine deity.	Who was Glaucus?
+r2	Greek Mythology	2000	94	A Spartan youth became a flower after a discus accident; its petals were said to bear a cry of grief.	Who was Hyacinthus?
+r2	Greek Mythology	2000	94	Grieving over a tame stag, this youth became the cypress tree associated with mourning.	Who was Cyparissus?
+r2	Greek Mythology	2000	94	This charioteer betrayed his master in a rigged race, then cursed Pelops' descendants while falling to his death.	Who was Myrtilus?
+r2	Greek Mythology	2000	94	The song contest winner who boasted against the Muses was blinded and deprived of his musical skill.	Who was Thamyris?
+r2	Greek Mythology	2000	94	This son of Heracles led nine ships from Rhodes to Troy, where the Lycian commander Sarpedon killed him.	Who was Tlepolemus?
+r2	Greek Mythology	2000	94	Heracles seized this truthful old sea god through a series of transformations to learn the location of the Hesperides.	Who was Nereus?
+r2	Greek Mythology	2000	94	One of the five surviving earthborn warriors, he married Cadmus' daughter Agave and fathered Pentheus.	Who was Echion?
+# WORLD RELIGIONS & BELIEFS - 16 clues at each Double Jeopardy value
+r2	World Religions & Beliefs	400	41	The Jewish weekly day of rest begins at sunset on Friday and is known by this Hebrew name.	What is Shabbat?
+r2	World Religions & Beliefs	400	41	Muslims commemorate the first Quranic revelation on this Night of Power during the fasting month's final portion.	What is Laylat al-Qadr?
+r2	World Religions & Beliefs	400	41	Nine nights of Hindu devotion honor forms of the Goddess during this festival.	What is Navaratri?
+r2	World Religions & Beliefs	400	41	Theravada Buddhists commemorate a spontaneous gathering of 1,250 enlightened disciples at this full-moon festival.	What is Magha Puja?
+r2	World Religions & Beliefs	400	41	A tall saffron triangular flag marks a Sikh house of worship and bears this name.	What is the Nishan Sahib?
+r2	World Religions & Beliefs	400	41	This sweet offering of flour, sugar, and clarified butter is distributed equally to Sikh worshippers.	What is karah prasad?
+r2	World Religions & Beliefs	400	41	Offerings of light, flowers, food, or incense may form this Hindu act of reverent worship.	What is puja?
+r2	World Religions & Beliefs	400	41	This branched lampstand became an enduring Jewish symbol; a nine-branched form is used at Hanukkah.	What is a menorah?
+r2	World Religions & Beliefs	400	41	A shorter second call immediately before congregational Muslim prayer signals worshippers to stand in rows.	What is the iqama?
+r2	World Religions & Beliefs	400	41	Immersion in or application of water marks entry into the Christian community through this sacrament.	What is baptism?
+r2	World Religions & Beliefs	400	41	Eastern Christian initiation commonly includes anointing the newly baptized with holy oil in this sacrament.	What is chrismation?
+r2	World Religions & Beliefs	400	41	A Jewish boy traditionally becomes responsible for observing the commandments at this coming-of-age ceremony.	What is a bar mitzvah?
+r2	World Religions & Beliefs	400	41	This Japanese tradition centers on reverence for kami and maintains shrines marked by distinctive gates.	What is Shinto?
+r2	World Religions & Beliefs	400	41	Teachings associated with a Chinese sage stress ethical relationships, education, and cultivated virtue.	What is Confucianism?
+r2	World Religions & Beliefs	400	41	Followers of Zarathustra honor a wise lord and traditionally tend sacred fire in this ancient Iranian religion.	What is Zoroastrianism?
+r2	World Religions & Beliefs	400	41	A sister ties a decorated thread around her brother's wrist during this Hindu festival of sibling bonds.	What is Raksha Bandhan?
+r2	World Religions & Beliefs	800	55	This lesser pilgrimage to Mecca may be performed at any time of year and does not replace the major required journey.	What is umrah?
+r2	World Religions & Beliefs	800	55	Obligatory charitable giving, calculated from qualifying wealth, is known by this term in Islam.	What is zakat?
+r2	World Religions & Beliefs	800	55	Jewish ritual immersion takes place in this pool supplied by naturally gathered water.	What is a mikvah?
+r2	World Religions & Beliefs	800	55	A quorum traditionally required for certain Jewish public prayers is called this.	What is a minyan?
+r2	World Religions & Beliefs	800	55	A small case fixed to a Jewish home's doorpost contains parchment passages from Deuteronomy.	What is a mezuzah?
+r2	World Religions & Beliefs	800	55	During weekday morning prayer, observant Jewish men may bind these small scripture-containing boxes to arm and head.	What are tefillin?
+r2	World Religions & Beliefs	800	55	A person who attains liberation through the Buddha's teaching is honored by this title especially in early Buddhist traditions.	What is an arhat?
+r2	World Religions & Beliefs	800	55	The community of Buddhist practitioners, especially the ordained community, is called this third of the Three Jewels.	What is the sangha?
+r2	World Religions & Beliefs	800	55	An apsidal Buddhist prayer hall containing a relic monument and space for circumambulation has this Sanskrit name.	What is a chaitya hall?
+r2	World Religions & Beliefs	800	55	A Hindu geometric diagram used in meditation or installed as a deity's symbolic dwelling bears this term.	What is a yantra?
+r2	World Religions & Beliefs	800	55	Some Jain ascetics and laypeople undertake this closely regulated voluntary fast at life's end.	What is sallekhana?
+r2	World Religions & Beliefs	800	55	A gate with two uprights and one or two crossbars marks entry into sacred space at a Japanese shrine.	What is a torii?
+r2	World Religions & Beliefs	800	55	Spirits or sacred presences associated with natural forces, places, and ancestors have this name in Japanese tradition.	What are kami?
+r2	World Religions & Beliefs	800	55	Repetition of divine names or phrases as remembrance of God is known by this Arabic term.	What is dhikr?
+r2	World Religions & Beliefs	800	55	Members of the Religious Society of Friends are more widely known by this name.	Who are Quakers?
+r2	World Religions & Beliefs	800	55	The wheel commonly placed at the center of India's flag represents this Buddhist emperor's law-wheel.	What is the Ashoka Chakra?
+r2	World Religions & Beliefs	1200	67	This Chinese Buddhist school, named for a sacred mountain, made the Lotus Sutra central to its classification of teachings.	What is Tiantai?
+r2	World Religions & Beliefs	1200	67	The great vehicle is the translated name of this broad Buddhist tradition that emphasizes the bodhisattva ideal.	What is Mahayana?
+r2	World Religions & Beliefs	1200	67	Tibetan Buddhism is especially associated with this diamond or thunderbolt vehicle of esoteric practice.	What is Vajrayana?
+r2	World Religions & Beliefs	1200	67	Devotion to Amitabha and aspiration for rebirth in his western paradise define this Buddhist family of traditions.	What is Pure Land Buddhism?
+r2	World Religions & Beliefs	1200	67	Jewish rabbinic discussions of law, ethics, and biblical interpretation fill this work comprising Mishnah and Gemara.	What is the Talmud?
+r2	World Religions & Beliefs	1200	67	Compiled around 200 CE, this foundational codification of Jewish oral law is organized into six orders.	What is the Mishnah?
+r2	World Religions & Beliefs	1200	67	Interpretive commentary that draws meaning from biblical wording and narrative bears this Hebrew-derived name.	What is midrash?
+r2	World Religions & Beliefs	1200	67	Reports preserving the Prophet's words, deeds, or approvals are individually known by this term.	What is a hadith?
+r2	World Religions & Beliefs	1200	67	The normative example established by the Prophet's conduct and transmitted practice is called this.	What is the sunnah?
+r2	World Religions & Beliefs	1200	67	Muslims orient worship toward Mecca in the direction called this.	What is the qibla?
+r2	World Religions & Beliefs	1200	67	A niche in a mosque wall indicates the direction worshippers face during prayer.	What is a mihrab?
+r2	World Religions & Beliefs	1200	67	The worldwide community of Muslims, transcending nationality, is known by this Arabic term.	What is the ummah?
+r2	World Religions & Beliefs	1200	67	Islamic insistence on the absolute oneness of God is expressed by this doctrine.	What is tawhid?
+r2	World Religions & Beliefs	1200	67	Complementary dark and light forces form the familiar paired symbol of this Chinese cosmological concept.	What are yin and yang?
+r2	World Religions & Beliefs	1200	67	Daoist texts use this image of an uncarved block for original simplicity before social distinctions shape it.	What is pu?
+r2	World Religions & Beliefs	1200	67	Early Jewish mystics contemplated the divine throne-chariot seen in Ezekiel under this tradition's Hebrew name.	What is Merkabah mysticism?
+r2	World Religions & Beliefs	1600	81	Jain thinkers use this doctrine of many-sided reality to warn that any single statement captures only one perspective.	What is anekantavada?
+r2	World Religions & Beliefs	1600	81	Non-possessiveness or non-attachment is this Jain vow, especially strict for ascetics.	What is aparigraha?
+r2	World Religions & Beliefs	1600	81	Each of the 24 perfected teachers who establishes a ford across the cycle of rebirth carries this Jain title.	What is a tirthankara?
+r2	World Religions & Beliefs	1600	81	The Jain theory of conditional predication prefixes assertions with a phrase meaning in some respect.	What is syadvada?
+r2	World Religions & Beliefs	1600	81	This Hindu philosophical school teaches the non-duality of individual self and ultimate reality.	What is Advaita Vedanta?
+r2	World Religions & Beliefs	1600	81	The ultimate, impersonal reality underlying the cosmos is named by this Sanskrit term in several Hindu philosophies.	What is Brahman?
+r2	World Religions & Beliefs	1600	81	This term for the innermost self becomes central to Upanishadic reflections on identity and reality.	What is atman?
+r2	World Religions & Beliefs	1600	81	The power of appearance that makes the changing world seem independently real is often called this in Vedanta.	What is maya?
+r2	World Religions & Beliefs	1600	81	Loving devotion to a personal deity defines this influential Hindu spiritual path.	What is bhakti?
+r2	World Religions & Beliefs	1600	81	The Buddhist teaching that phenomena arise only through causes and conditions is called this.	What is dependent origination?
+r2	World Religions & Beliefs	1600	81	Form, feeling, perception, mental formations, and consciousness make up these five Buddhist aggregates.	What are the skandhas?
+r2	World Religions & Beliefs	1600	81	The absence of a permanent, independent self is expressed by this Pali Buddhist term.	What is anatta?
+r2	World Religions & Beliefs	1600	81	The cultivated exemplary person who acts with virtue rather than inherited nobility is called this in Confucian thought.	What is a junzi?
+r2	World Religions & Beliefs	1600	81	Ritual propriety and appropriate conduct in relationships are covered by this central Confucian concept.	What is li?
+r2	World Religions & Beliefs	1600	81	The duty of respect and care owed to parents and ancestors is known as this Confucian virtue.	What is filial piety?
+r2	World Religions & Beliefs	1600	81	Confucius taught that social disorder could be corrected by making titles and actual conduct correspond under this principle.	What is the rectification of names?
+r2	World Religions & Beliefs	2000	94	Truth, right order, and the proper pattern of creation are encompassed by this central Zoroastrian concept.	What is asha?
+r2	World Religions & Beliefs	2000	94	The destructive spirit opposing the wise lord bears this Avestan name.	Who is Angra Mainyu?
+r2	World Religions & Beliefs	2000	94	Hymns called the Gathas form the oldest portion of this Zoroastrian collection of sacred writings.	What is the Avesta?
+r2	World Religions & Beliefs	2000	94	Six divine emanations such as Good Mind and Truth surround the wise lord under this collective name.	What are the Amesha Spentas?
+r2	World Religions & Beliefs	2000	94	Zoroastrian eschatology names the final renovation in which creation is perfected with this term.	What is Frashokereti?
+r2	World Religions & Beliefs	2000	94	Souls cross this bridge of judgment after death; it widens for the righteous and narrows for the wicked.	What is the Chinvat Bridge?
+r2	World Religions & Beliefs	2000	94	The herald of the Baha'i Faith declared his mission in Shiraz in 1844 and took this title meaning gate.	Who was the Bab?
+r2	World Religions & Beliefs	2000	94	Appointed Guardian in his grandfather's will, this Oxford-educated leader translated and systematized many Baha'i writings.	Who was Shoghi Effendi?
+r2	World Religions & Beliefs	2000	94	Baha'u'llah's book of laws bears this Arabic title meaning the Most Holy Book.	What is the Kitab-i-Aqdas?
+r2	World Religions & Beliefs	2000	94	The teaching that major faiths come from successive divine messengers is called this in Baha'i thought.	What is progressive revelation?
+r2	World Religions & Beliefs	2000	94	A Baha'i house of worship, open to people of every faith, is designated by this Arabic name.	What is a Mashriqu'l-Adhkar?
+r2	World Religions & Beliefs	2000	94	Guru Gobind Singh founded this initiated Sikh community in 1699 at Anandpur.	What is the Khalsa?
+r2	World Religions & Beliefs	2000	94	The Sikh initiation ceremony uses sweetened water stirred with a double-edged sword and bears this name.	What is Amrit Sanskar?
+r2	World Religions & Beliefs	2000	94	Guru Hargobind's paired swords expressed temporal and spiritual authority through this doctrine.	What is miri-piri?
+r2	World Religions & Beliefs	2000	94	Facing the Golden Temple in Amritsar, this seat of Sikh temporal authority is called the throne of the timeless one.	What is the Akal Takht?
+r2	World Religions & Beliefs	2000	94	At a Japanese shrine entrance, visitors purify their hands and mouth with water in this customary rite.	What is temizu?
+# OCEANS - 16 clues at each Double Jeopardy value
+r2	Oceans	400	41	Strong onshore winds and low pressure can pile seawater against a coast, producing this dangerous rise above the predicted tide.	What is a storm surge?
+r2	Oceans	400	41	Frozen ocean water forms this floating cover, unlike land-derived icebergs.	What is sea ice?
+r2	Oceans	400	41	A floating mass that calved from a glacier may conceal most of its volume below the waterline.	What is an iceberg?
+r2	Oceans	400	41	A ridge of sand or gravel deposited by waves connects an island to the mainland in this coastal landform.	What is a tombolo?
+r2	Oceans	400	41	A broad, gently curving recess in a coastline, larger and less enclosed than a bay, has this name.	What is a bight?
+r2	Oceans	400	41	This broad inlet or channel between a mainland and an island may be wider than a strait.	What is a sound?
+r2	Oceans	400	41	The highest point of a surface wave has this name, paired with the trough at its lowest point.	What is a wave crest?
+r2	Oceans	400	41	Waves can build this nearly horizontal ridge of sand above the ordinary swash zone on the upper beach.	What is a beach berm?
+r2	Oceans	400	41	The elapsed time between successive crests passing one point defines this wave measurement.	What is wave period?
+r2	Oceans	400	41	As a wave enters shallow water, it steepens and topples forward to become this.	What is a breaker?
+r2	Oceans	400	41	The band between the first breaking waves and the shoreline is known by this energetic coastal name.	What is the surf zone?
+r2	Oceans	400	41	A narrow, fast flow away from shore can form through a gap in breaking waves and carry swimmers seaward.	What is a rip current?
+r2	Oceans	400	41	Waves arriving at an angle drive this shore-parallel flow in the breaker zone.	What is a longshore current?
+r2	Oceans	400	41	New and full moons align the Sun, Earth, and Moon to create this tide with the greatest range.	What is a spring tide?
+r2	Oceans	400	41	First- and third-quarter moons produce this tide with a relatively small range.	What is a neap tide?
+r2	Oceans	400	41	A mound or ridge of sand deposited by waves may extend from shore into the water under this name.	What is a spit?
+r2	Oceans	800	55	The uninterrupted distance over water in which wind blows determines this control on wave size.	What is fetch?
+r2	Oceans	800	55	Long, regular waves that have traveled beyond the wind system that generated them are called this.	What is swell?
+r2	Oceans	800	55	Water rushing up a beach after a wave breaks is known by this term.	What is swash?
+r2	Oceans	800	55	Gravity draws water downslope toward the sea after each uprush in this beach process.	What is backwash?
+r2	Oceans	800	55	This seaward return flow beneath incoming breaking waves is often wrongly blamed for carrying swimmers far out to sea.	What is undertow?
+r2	Oceans	800	55	Organisms in this coastal band alternate between submersion at high water and exposure at low water.	What is the intertidal zone?
+r2	Oceans	800	55	The shallow marine waters over the continental shelf make up this productive ecological zone.	What is the neritic zone?
+r2	Oceans	800	55	Open water beyond the shelf break belongs to this ecological zone, contrasted with the neritic.	What is the oceanic zone?
+r2	Oceans	800	55	Depths from about 6,000 metres to the bottoms of ocean trenches make up this pressure-dominated ecological zone.	What is the hadal zone?
+r2	Oceans	800	55	The seafloor and the organisms living on or within it make up this realm.	What is the benthic zone?
+r2	Oceans	800	55	Enough sunlight penetrates this upper layer for photosynthesis to occur.	What is the euphotic zone?
+r2	Oceans	800	55	Below the reach of sunlight lies this dark-water zone where photosynthesis cannot occur.	What is the aphotic zone?
+r2	Oceans	800	55	A sharp vertical gradient in a dissolved chemical, often oxygen or sulfide, defines this boundary layer.	What is a chemocline?
+r2	Oceans	800	55	Density changes rapidly with depth across this layer, often because temperature and salinity both vary.	What is a pycnocline?
+r2	Oceans	800	55	Wind and waves stir the upper ocean into this nearly uniform surface layer.	What is the ocean mixed layer?
+r2	Oceans	800	55	Satellites infer this surface property from infrared or microwave radiation, commonly abbreviating it SST.	What is sea-surface temperature?
+r2	Oceans	1200	67	After wind stops, a rotating ocean parcel can continue circling at a frequency set mainly by latitude in this motion.	What is an inertial oscillation?
+r2	Oceans	1200	67	A balance between horizontal pressure-gradient force and Coriolis deflection produces this current parallel to sea-level contours.	What is geostrophic flow?
+r2	Oceans	1200	67	Even without breaking, surface waves produce this small net forward motion of water parcels.	What is Stokes drift?
+r2	Oceans	1200	67	Wind can organize surface water into parallel counter-rotating cells marked by rows of foam.	What is Langmuir circulation?
+r2	Oceans	1200	67	A density disturbance can propagate along a subsurface boundary as this hidden counterpart of a surface wave.	What is an internal wave?
+r2	Oceans	1200	67	A location around which the tidal crest rotates has almost no tidal range and bears this name.	What is an amphidromic point?
+r2	Oceans	1200	67	An unexpectedly steep isolated wall of water, much larger than the surrounding sea state, is called this.	What is a rogue wave?
+r2	Oceans	1200	67	Sediment-laden water rushing downslope can carve submarine canyons in this dense gravity flow.	What is a turbidity current?
+r2	Oceans	1200	67	A deep flow guided along continental slopes by seafloor contours is known by this name.	What is a contour current?
+r2	Oceans	1200	67	Earth's rotation and basin geometry concentrate fast, narrow currents along the western sides of ocean basins through this effect.	What is western intensification?
+r2	Oceans	1200	67	Small slopes in sea level caused by currents and density differences produce this oceanographic surface relative to the geoid.	What is dynamic ocean topography?
+r2	Oceans	1200	67	Mean sea level at rest approximates this uneven gravitational equipotential surface around Earth.	What is the geoid?
+r2	Oceans	1200	67	Oceanographers call a surface of constant potential density by this name.	What is an isopycnal?
+r2	Oceans	1200	67	Temperature and salinity give a large parcel a recognizable density signature, allowing it to be traced as this coherent body.	What is a water mass?
+r2	Oceans	1200	67	Warming increases seawater volume and produces this temperature-driven component of sea-level change.	What is thermosteric sea-level rise?
+r2	Oceans	1200	67	The vertical distance between two pressure surfaces caused by the density structure of the intervening water has this name.	What is steric height?
+r2	Oceans	1600	81	Wave erosion can flatten the summit of a volcanic seamount before subsidence leaves this flat-topped feature below sea level.	What is a guyot?
+r2	Oceans	1600	81	A submarine mountain rising at least about a kilometre from the seafloor but not reaching the surface bears this name.	What is a seamount?
+r2	Oceans	1600	81	This reef type grows directly from an island or continental shore, separated from land by little or no lagoon.	What is a fringing reef?
+r2	Oceans	1600	81	Exceptionally salty, dense water can collect in a seafloor depression and form this lake-like habitat.	What is a brine pool?
+r2	Oceans	1600	81	Hydrocarbon-rich fluids emerging without volcanic heating support chemosynthetic communities at this seafloor feature.	What is a cold seep?
+r2	Oceans	1600	81	Bottom currents keep fine sediment suspended in this turbid water layer immediately above parts of the deep seafloor.	What is a benthic nepheloid layer?
+r2	Oceans	1600	81	Metal sulfides precipitate from very hot vent fluid, producing this dark chimney plume.	What is a black smoker?
+r2	Oceans	1600	81	Barium, calcium, and silicon minerals can give a cooler vent chimney this pale-plumed name.	What is a white smoker?
+r2	Oceans	1600	81	Calcium carbonate begins dissolving noticeably faster below this ocean depth horizon.	What is the lysocline?
+r2	Oceans	1600	81	Below this depth, carbonate shells dissolve faster than they accumulate in seafloor sediment.	What is the carbonate compensation depth?
+r2	Oceans	1600	81	Slowly accumulated windblown dust and authigenic minerals give this deep-sea sediment its characteristic color.	What is pelagic red clay?
+r2	Oceans	1600	81	A deep-sea sediment composed mostly of calcium-carbonate shells receives this classification.	What is calcareous ooze?
+r2	Oceans	1600	81	Diatom and radiolarian remains make this deep-sea sediment rich in opal silica.	What is siliceous ooze?
+r2	Oceans	1600	81	These amoeboid protists build chambered tests widely used to reconstruct past ocean temperatures.	What are foraminifera?
+r2	Oceans	1600	81	Plates called coccoliths armor these microscopic photosynthetic organisms and contribute to chalk deposits.	What are coccolithophores?
+r2	Oceans	1600	81	These planktonic protists make intricate silica skeletons that can accumulate on the deep seafloor.	What are radiolarians?
+r2	Oceans	2000	94	This buffering measure describes how an increase in dissolved inorganic carbon changes seawater carbon dioxide relative to the carbon added.	What is the Revelle factor?
+r2	Oceans	2000	94	Photosynthesis, food webs, and sinking particles transfer carbon from surface waters into the deep sea through this process.	What is the biological carbon pump?
+r2	Oceans	2000	94	Cold, dense water absorbs atmospheric carbon dioxide and carries it downward through this physical sequestration process.	What is the solubility pump?
+r2	Oceans	2000	94	Virus-caused cell rupture redirects organic matter away from grazers and back into dissolved pools through this pathway.	What is the viral shunt?
+r2	Oceans	2000	94	Marine organic matter averages carbon, nitrogen, and phosphorus near 106 to 16 to 1 in this empirical proportion.	What is the Redfield ratio?
+r2	Oceans	2000	94	Ocean biogeochemists use this ratio to compare sinking calcium carbonate with sinking organic carbon.	What is the rain ratio?
+r2	Oceans	2000	94	Below this depth, a calcium-carbonate mineral used by many corals is undersaturated and increasingly vulnerable to dissolution.	What is the aragonite saturation horizon?
+r2	Oceans	2000	94	Bicarbonate and twice the carbonate concentration dominate this acid-neutralizing component of seawater's charge balance.	What is carbonate alkalinity?
+r2	Oceans	2000	94	Mixing two water parcels of equal density can yield a denser mixture because seawater's equation of state is nonlinear.	What is cabbeling?
+r2	Oceans	2000	94	Pressure changes how strongly temperature influences density, allowing a parcel stable at one depth to become unstable at another through this effect.	What is thermobaricity?
+r2	Oceans	2000	94	Warm salty water over cool fresh water can develop narrow descending saline plumes in this form of double diffusion.	What is salt fingering?
+r2	Oceans	2000	94	Cool fresh water over warm salty water can form layered steps because heat diffuses faster than salt under this regime.	What is diffusive convection?
+r2	Oceans	2000	94	Cold saline water formed in the Labrador and Nordic seas spreads southward at depth as this major Atlantic water mass.	What is North Atlantic Deep Water?
+r2	Oceans	2000	94	A relatively warm, salty mixture of several southern-source waters circulates around Antarctica in this major mass.	What is Circumpolar Deep Water?
+r2	Oceans	2000	94	Relatively fresh water subducted near the Antarctic Polar Front spreads northward at intermediate depths.	What is Antarctic Intermediate Water?
+r2	Oceans	2000	94	Warm, salty water spills through the Strait of Gibraltar and sinks into the North Atlantic as this identifiable tongue.	What is Mediterranean Outflow Water?
+# BOOKS & AUTHORS - 16 clues at each Double Jeopardy value
+r2	Books & Authors	400	41	Matilda, Charlie Bucket, and an enormous friendly giant sprang from the imagination of this Welsh-born children's author.	Who was Roald Dahl?
+r2	Books & Authors	400	41	A young hatmaker enters a moving castle owned by a vain wizard in a fantasy by this English author.	Who was Diana Wynne Jones?
+r2	Books & Authors	400	41	Five children meet a sand fairy that grants one troublesome wish per day in a novel by this English writer.	Who was E. Nesbit?
+r2	Books & Authors	400	41	A girl follows a white rabbit into Wonderland in the fantasy by this mathematician writing under a pen name.	Who was Lewis Carroll?
+r2	Books & Authors	400	41	Dorothy's journey along a yellow-brick road began in a children's novel by this American creator of Oz.	Who was L. Frank Baum?
+r2	Books & Authors	400	41	Charlotte the spider saves Wilbur the pig in a novel by this author of Stuart Little.	Who was E. B. White?
+r2	Books & Authors	400	41	Meg Murry travels through space by tessering in A Wrinkle in Time by this American writer.	Who was Madeleine L'Engle?
+r2	Books & Authors	400	41	Ramona Quimby and Henry Huggins live on Klickitat Street in books by this Oregon librarian turned novelist.	Who was Beverly Cleary?
+r2	Books & Authors	400	41	Margaret Simon wonders about puberty and religion in a landmark young-adult novel by this author.	Who is Judy Blume?
+r2	Books & Authors	400	41	The Cat in the Hat and a persistent green holiday grouch were created by this rhyming author born Theodor Geisel.	Who was Dr. Seuss?
+r2	Books & Authors	400	41	A stranded aviator meets a golden-haired visitor from a tiny asteroid in this French author's best-known novella.	Who was Antoine de Saint-Exupery?
+r2	Books & Authors	400	41	Winnie-the-Pooh and his friends in the Hundred Acre Wood were created by this English writer.	Who was A. A. Milne?
+r2	Books & Authors	400	41	Mole, Rat, Badger, and the reckless Mr. Toad share the riverbank in a book by this Scottish-born author.	Who was Kenneth Grahame?
+r2	Books & Authors	400	41	Mary Lennox discovers a neglected Yorkshire garden in the novel by this Anglo-American author.	Who was Frances Hodgson Burnett?
+r2	Books & Authors	400	41	Jim Hawkins finds a pirate's map in the adventure novel by this Scottish creator of Long John Silver.	Who was Robert Louis Stevenson?
+r2	Books & Authors	400	41	Mowgli's animal mentors Baloo and Bagheera appear in stories by this Bombay-born British writer.	Who was Rudyard Kipling?
+r2	Books & Authors	800	55	A tempestuous love between Catherine Earnshaw and Heathcliff drives the only novel by this Bronte sister.	Who was Emily Bronte?
+r2	Books & Authors	800	55	The obsessive Captain Ahab pursues a white whale in the masterpiece of this American novelist.	Who was Herman Melville?
+r2	Books & Authors	800	55	Jay Gatsby's lavish Long Island parties appear in the best-known novel by this Jazz Age writer.	Who was F. Scott Fitzgerald?
+r2	Books & Authors	800	55	An old Cuban fisherman struggles with a marlin in a spare novella by this Nobel laureate.	Who was Ernest Hemingway?
+r2	Books & Authors	800	55	The Joad family's westward migration anchors The Grapes of Wrath by this California novelist.	Who was John Steinbeck?
+r2	Books & Authors	800	55	Janie Crawford tells of her three marriages in Their Eyes Were Watching God by this Harlem Renaissance author.	Who was Zora Neale Hurston?
+r2	Books & Authors	800	55	Detectives Coffin Ed Johnson and Grave Digger Jones patrol Harlem in crime novels by this American expatriate.	Who was Chester Himes?
+r2	Books & Authors	800	55	Giovanni's Room and The Fire Next Time are works by this American novelist and essayist.	Who was James Baldwin?
+r2	Books & Authors	800	55	The Nigerian playwright behind Death and the King's Horseman became Africa's first Nobel literature laureate.	Who is Wole Soyinka?
+r2	Books & Authors	800	55	The mysterious Mustafa Sa'eed dominates Season of Migration to the North by this Sudanese novelist.	Who was Tayeb Salih?
+r2	Books & Authors	800	55	A restrained English butler narrates The Remains of the Day by this Japanese-born British novelist.	Who is Kazuo Ishiguro?
+r2	Books & Authors	800	55	Four families and an enormous cast populate A Suitable Boy by this Indian novelist and poet.	Who is Vikram Seth?
+r2	Books & Authors	800	55	Sicilian inspector Salvo Montalbano stars in a long-running mystery series by this author.	Who was Andrea Camilleri?
+r2	Books & Authors	800	55	An officer waits for an invasion that may never come in The Tartar Steppe by this Italian writer.	Who was Dino Buzzati?
+r2	Books & Authors	800	55	The Passion According to G.H. and The Hour of the Star are by this Ukrainian-born Brazilian modernist.	Who was Clarice Lispector?
+r2	Books & Authors	800	55	This Kenyan novelist wrote A Grain of Wheat and later chose Gikuyu as his primary literary language.	Who is Ngugi wa Thiong'o?
+r2	Books & Authors	1200	67	Mary Ann Evans adopted this masculine pen name before publishing Middlemarch.	Who was George Eliot?
+r2	Books & Authors	1200	67	French novelist Amantine Dupin wore men's clothes publicly and published Indiana under this name.	Who was George Sand?
+r2	Books & Authors	1200	67	Hector Hugh Munro used this brief pen name for mordant stories such as The Open Window.	Who was Saki?
+r2	Books & Authors	1200	67	William Sydney Porter signed his twist-ending tales, including The Gift of the Magi, with this pen name.	Who was O. Henry?
+r2	Books & Authors	1200	67	Neftali Ricardo Reyes Basoalto adopted this literary name before writing Twenty Love Poems and a Song of Despair.	Who was Pablo Neruda?
+r2	Books & Authors	1200	67	Born Helen Woods, this writer eventually adopted the name of a character from her own novel Let Me Alone.	Who was Anna Kavan?
+r2	Books & Authors	1200	67	Chinese novelist Guan Moye, author of Red Sorghum, uses this pen name meaning do not speak.	Who is Mo Yan?
+r2	Books & Authors	1200	67	Marie-Henri Beyle signed The Red and the Black with this one-word pseudonym.	Who was Stendhal?
+r2	Books & Authors	1200	67	Francois-Marie Arouet published Candide and philosophical letters under this famous name.	Who was Voltaire?
+r2	Books & Authors	1200	67	Karen Blixen published Out of Africa in English under this masculine pseudonym.	Who was Isak Dinesen?
+r2	Books & Authors	1200	67	Alice Sheldon used this male identity while writing psychologically complex science fiction such as The Women Men Don't See.	Who was James Tiptree Jr.?
+r2	Books & Authors	1200	67	A Polish sailor born Jozef Korzeniowski wrote Heart of Darkness in his third language under this English name.	Who was Joseph Conrad?
+r2	Books & Authors	1200	67	The Crime of Father Amaro and The Maias expose social hypocrisy in the work of this Portuguese realist.	Who was Eca de Queiros?
+r2	Books & Authors	1200	67	Marguerite Cleenewerck de Crayencour rearranged part of her surname into the pen name used for Memoirs of Hadrian.	Who was Marguerite Yourcenar?
+r2	Books & Authors	1200	67	Henry Vincent Yorke used this color surname for modernist novels including Living and Party Going.	Who was Henry Green?
+r2	Books & Authors	1200	67	The Japanese novelist Hirai Taro formed this detective-fiction pen name as a phonetic tribute to Edgar Allan Poe.	Who was Edogawa Ranpo?
+r2	Books & Authors	1600	81	The Genpei War and the fall of the Taira clan unfold in this medieval Japanese epic famous for its opening bell.	What is The Tale of the Heike?
+r2	Books & Authors	1600	81	Sei Shonagon's observations, lists, and anecdotes from Heian court life make up this classic miscellany.	What is The Pillow Book?
+r2	Books & Authors	1600	81	The rise and decline of the Jia family unfold in this Chinese novel also translated as The Story of the Stone.	What is Dream of the Red Chamber?
+r2	Books & Authors	1600	81	Birds seeking a king cross seven valleys in Attar's Persian Sufi allegory.	What is The Conference of the Birds?
+r2	Books & Authors	1600	81	Rostam's heroic exploits fill this Persian national epic composed by Ferdowsi.	What is the Shahnameh?
+r2	Books & Authors	1600	81	Maya narratives of creation and the Hero Twins survive in this K'iche' text recorded after the Spanish conquest.	What is the Popol Vuh?
+r2	Books & Authors	1600	81	Christine de Pizan answers misogynist literature by constructing an allegorical haven for worthy women in this work.	What is The Book of the City of Ladies?
+r2	Books & Authors	1600	81	Digressions repeatedly interrupt the life story of its title gentleman in Laurence Sterne's experimental novel.	What is Tristram Shandy?
+r2	Books & Authors	1600	81	The Devil visits Soviet Moscow while a novelist retells the trial of Jesus in this Bulgakov novel.	What is The Master and Margarita?
+r2	Books & Authors	1600	81	The title Mexican landowner's son travels to Comala and encounters a town speaking through the dead in this Juan Rulfo novel.	What is Pedro Paramo?
+r2	Books & Authors	1600	81	A Sudanese narrator returns from Europe and discovers the enigmatic Mustafa Sa'eed in this Tayeb Salih novel.	What is Season of Migration to the North?
+r2	Books & Authors	1600	81	Azaro, an abiku or spirit child, narrates this Booker-winning novel by Ben Okri.	What is The Famished Road?
+r2	Books & Authors	1600	81	Yeong-hye's refusal to eat meat fractures a Seoul family in this three-part novel by Han Kang.	What is The Vegetarian?
+r2	Books & Authors	1600	81	On an unnamed island, objects vanish and residents lose memories of them in this novel by Yoko Ogawa.	What is The Memory Police?
+r2	Books & Authors	1600	81	Prince Fabrizio watches Sicily's aristocratic order change during unification in this posthumous novel.	What is The Leopard?
+r2	Books & Authors	1600	81	Readers may follow chapters in several orders in this Cortazar novel about Horacio Oliveira and the Serpent Club.	What is Hopscotch?
+r2	Books & Authors	2000	94	Nightwood, a modernist novel centered on the elusive Robin Vote, was written by this American expatriate.	Who was Djuna Barnes?
+r2	Books & Authors	2000	94	Transit and The Seventh Cross, both shaped by flight from fascism, were written by this German novelist in exile.	Who was Anna Seghers?
+r2	Books & Authors	2000	94	A schoolteacher becomes trapped with a widow in a shifting sand pit in a novel by this Japanese avant-garde writer.	Who was Kobo Abe?
+r2	Books & Authors	2000	94	Fantasia: An Algerian Cavalcade blends archives, autobiography, and women's testimony in a work by this Algerian author.	Who was Assia Djebar?
+r2	Books & Authors	2000	94	A Question of Power draws on this South African-born writer's experience of exile in Botswana.	Who was Bessie Head?
+r2	Books & Authors	2000	94	The Buru Quartet, beginning with This Earth of Mankind, was composed orally in prison by this Indonesian novelist.	Who was Pramoedya Ananta Toer?
+r2	Books & Authors	2000	94	Barren Lives follows a drought-stricken family through Brazil's northeast in a novel by this spare modernist.	Who was Graciliano Ramos?
+r2	Books & Authors	2000	94	Deep Rivers explores an Indigenous boy's education and divided identity in Peru in a novel by this Quechua-speaking author.	Who was Jose Maria Arguedas?
+r2	Books & Authors	2000	94	An unnamed narrator descends into obsession in The Blind Owl by this Iranian modernist.	Who was Sadegh Hedayat?
+r2	Books & Authors	2000	94	Sleepwalking Land, set amid Mozambique's civil war, is by this writer known for bending Portuguese into new forms.	Who is Mia Couto?
+r2	Books & Authors	2000	94	The Museum of Unconditional Surrender uses fragments and photographs to explore exile in a book by this Croatian-born essayist and novelist.	Who is Dubravka Ugresic?
+r2	Books & Authors	2000	94	A Tomb for Boris Davidovich and Encyclopedia of the Dead are story collections by this Yugoslav writer.	Who was Danilo Kis?
+r2	Books & Authors	2000	94	A tense bond between a successful writer and her secretive housekeeper drives The Door by this Hungarian novelist.	Who was Magda Szabo?
+r2	Books & Authors	2000	94	Independent People depicts the stubborn sheep farmer Bjartur in a novel by this Icelandic Nobel laureate.	Who was Halldor Laxness?
+r2	Books & Authors	2000	94	Kristin Lavransdatter, a trilogy set in medieval Norway, earned lasting fame for this Norwegian Nobel laureate.	Who was Sigrid Undset?
+r2	Books & Authors	2000	94	The alienated teacher of Kokoro and the feline narrator of I Am a Cat were created by this major Meiji-era novelist.	Who was Natsume Soseki?

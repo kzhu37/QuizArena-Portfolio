@@ -1,0 +1,404 @@
+# Authored research expansion batch 04.
+# Fields: round<TAB>category<TAB>value<TAB>difficulty<TAB>clue<TAB>response
+# Research anchors: Library and Archives Canada and Canadian government histories (https://library-archives.canada.ca/ and https://www.canada.ca/en/services/culture/history-heritage.html); USGS earth-science resources (https://www.usgs.gov/).
+# Research anchors: IUPAC chemistry references (https://iupac.org/), NIST physics resources (https://www.nist.gov/topics/physics), and Royal Botanic Gardens, Kew plant science (https://www.kew.org/science).
+r1	Canadian History	200	22	The British North America Act gave the new federation this formal name in 1867.	What was the Dominion of Canada?
+r1	Canadian History	200	22	Parliament's long 1964 dispute over replacing the Red Ensign is remembered by this name.	What was the Great Flag Debate?
+r1	Canadian History	200	22	This French explorer mapped the Gulf of St. Lawrence and recorded an Indigenous word that became "Canada."	Who was Jacques Cartier?
+r1	Canadian History	200	22	Founded in Montreal, this fur-trading company rivaled the Hudson's Bay Company until their 1821 merger.	What was the North West Company?
+r1	Canadian History	200	22	The North-West Mounted Police and Dominion Police merged in 1920 to form this national force.	What is the Royal Canadian Mounted Police?
+r1	Canadian History	200	22	Official bilingualism and the 1982 Constitution marked the governments of this prime minister.	Who was Pierre Elliott Trudeau?
+r1	Canadian History	200	22	This diplomat-turned-prime-minister won the 1957 Nobel Peace Prize for helping resolve the Suez Crisis.	Who was Lester B. Pearson?
+r1	Canadian History	200	22	Terry Fox gave this name to his 1980 cross-country cancer fundraiser.	What was the Marathon of Hope?
+r1	Canadian History	200	22	This Saskatchewan premier pioneered provincial hospital insurance and is often called the father of Medicare.	Who was Tommy Douglas?
+r1	Canadian History	200	22	This Manitoba suffragist belonged to the Famous Five and helped women win the provincial vote in 1916.	Who was Nellie McClung?
+r1	Canadian History	200	22	Montreal hosted this world's fair during Canada's centennial year.	What was Expo 67?
+r1	Canadian History	200	22	The federal government cancelled this advanced Canadian interceptor-aircraft project in 1959.	What was the Avro Arrow?
+r1	Canadian History	200	22	This Nova Scotia fishing and racing schooner appears on the Canadian dime.	What was the Bluenose?
+r1	Canadian History	200	22	The federal government invoked this emergency law during both world wars and the October Crisis.	What was the War Measures Act?
+r1	Canadian History	200	22	John Diefenbaker's government enacted this federal human-rights statute in 1960.	What was the Canadian Bill of Rights?
+r1	Canadian History	200	22	Pierre Dugua de Mons and Samuel de Champlain established this Acadian settlement in 1605.	What was Port-Royal?
+r1	Canadian History	400	36	A 1670 royal charter granted the Hudson's Bay Company trading rights over this enormous drainage territory.	What was Rupert's Land?
+r1	Canadian History	400	36	France used this colonial name for lands that included present-day Nova Scotia and New Brunswick.	What was Acadia?
+r1	Canadian History	400	36	Thousands who supported the Crown during the American Revolution resettled in British North America under this collective name.	Who were the United Empire Loyalists?
+r1	Canadian History	400	36	The 1841 union of two colonies created this political entity with Canada East and Canada West.	What was the Province of Canada?
+r1	Canadian History	400	36	From 1791 to 1841, this colony occupied the lower St. Lawrence and had a predominantly French-speaking population.	What was Lower Canada?
+r1	Canadian History	400	36	This British statute divided the Province of Quebec into two colonies and created elected assemblies.	What was the Constitutional Act of 1791?
+r1	Canadian History	400	36	Passage of this 1849 compensation measure provoked the burning of Montreal's Parliament building.	What was the Rebellion Losses Bill?
+r1	Canadian History	400	36	The 1848 reform government led jointly by Robert Baldwin and Louis-Hippolyte LaFontaine is known by this name.	What was the Baldwin-LaFontaine ministry?
+r1	Canadian History	400	36	This 1846 agreement extended the 49th parallel as the U.S. boundary west of the Rockies while leaving Vancouver Island British.	What was the Oregon Treaty?
+r1	Canadian History	400	36	A late-19th-century dispute over public funding for Catholic education in one prairie province became known by this name.	What was the Manitoba Schools Question?
+r1	Canadian History	400	36	Protective tariffs, western settlement, and a transcontinental railway formed Macdonald's three-part economic program.	What was the National Policy?
+r1	Canadian History	400	36	Created in 1873, this mounted force asserted Canadian authority and policed the North-West Territories.	What was the North-West Mounted Police?
+r1	Canadian History	400	36	Donald Smith drove this ceremonial railway fastener at Craigellachie in 1885.	What was the Last Spike?
+r1	Canadian History	400	36	This 1857 law promoted the assimilation of First Nations people through individual enfranchisement.	What was the Gradual Civilization Act?
+r1	Canadian History	400	36	For more than a century, this church-operated and government-supported network forcibly separated many Indigenous children from their families.	What was the residential school system?
+r1	Canadian History	400	36	This anti-Asian organization helped incite attacks on Chinese and Japanese neighbourhoods in Vancouver in 1907.	What was the Asiatic Exclusion League?
+r1	Canadian History	600	51	In 1701, New France and dozens of Indigenous nations ended years of conflict with this agreement.	What was the Great Peace of Montreal?
+r1	Canadian History	600	51	This 1713 settlement transferred Acadia and British claims around Hudson Bay from France to Britain.	What was the Treaty of Utrecht?
+r1	Canadian History	600	51	French forces won this 1760 battle outside Quebec City but could not retake the city before British reinforcements arrived.	What was the Battle of Sainte-Foy?
+r1	Canadian History	600	51	Signed in 1814, this agreement restored the prewar boundary and ended fighting between Britain and the United States.	What was the Treaty of Ghent?
+r1	Canadian History	600	51	Reformers used this nickname for the small conservative elite that dominated government and patronage in Upper Canada.	What was the Family Compact?
+r1	Canadian History	600	51	This English nickname described the wealthy conservative circle that dominated Lower Canadian politics.	What was the Chateau Clique?
+r1	Canadian History	600	51	This British statute merged the legislatures of Upper and Lower Canada into one colony in 1841.	What was the Act of Union of 1840?
+r1	Canadian History	600	51	George Brown joined Macdonald and Cartier in this 1864 alliance formed to break political deadlock and pursue federation.	What was the Great Coalition?
+r1	Canadian History	600	51	Delegates made final revisions to the federation plan at this 1866 meeting in Britain.	What was the London Conference?
+r1	Canadian History	600	51	Railway-contract donations to the Conservatives brought down Macdonald's government in this 1873 affair.	What was the Pacific Scandal?
+r1	Canadian History	600	51	Colonel Garnet Wolseley led this 1870 military mission to the Red River Colony.	What was the Red River Expedition?
+r1	Canadian History	600	51	This 1908 rule required immigrants to arrive on an uninterrupted trip from their country of origin, effectively restricting immigration from India.	What was the Continuous Journey regulation?
+r1	Canadian History	600	51	Often called the Exclusion Act, this federal law largely barred Chinese immigration from 1923 to 1947.	What was the Chinese Immigration Act of 1923?
+r1	Canadian History	600	51	Between 1914 and 1920, thousands labeled enemy aliens were confined or forced to report under this policy.	What was Ukrainian Canadian internment?
+r1	Canadian History	600	51	Deep disagreement over compulsory overseas service split the country during this First World War political crisis.	What was the Conscription Crisis of 1917?
+r1	Canadian History	600	51	Parliament imposed compulsory wartime service through this 1917 federal statute.	What was the Military Service Act?
+r1	Canadian History	800	68	Governor General Byng asked this Conservative leader to form a government after refusing Mackenzie King's request for an election in 1926.	Who was Arthur Meighen?
+r1	Canadian History	800	68	This Quebec minister signed a 1923 fisheries agreement with the United States without a British countersignature.	Who was Ernest Lapointe?
+r1	Canadian History	800	68	This declaration from the 1926 Imperial Conference described Britain and the Dominions as autonomous communities of equal status.	What was the Balfour Declaration of 1926?
+r1	Canadian History	800	68	Elected in 1921, this Progressive became the first woman to sit in Canada's House of Commons.	Who was Agnes Macphail?
+r1	Canadian History	800	68	This Depression-era commission recommended a larger federal role in equalization and unemployment insurance.	What was the Rowell-Sirois Commission?
+r1	Canadian History	800	68	The 1945 defection of a Soviet cipher clerk in Ottawa exposed espionage networks in this affair.	What was the Gouzenko Affair?
+r1	Canadian History	800	68	This royal commission's 1951 report called for federal support of arts, letters, and sciences.	What was the Massey Commission?
+r1	Canadian History	800	68	This statute created a distinct national citizenship effective January 1, 1947.	What was the Canadian Citizenship Act of 1947?
+r1	Canadian History	800	68	This negotiated document set the conditions under which Newfoundland entered federation in 1949.	What were the Newfoundland Terms of Union?
+r1	Canadian History	800	68	Created in 1963, this commission examined relations between English- and French-speaking Canadians.	What was the Royal Commission on Bilingualism and Biculturalism?
+r1	Canadian History	800	68	Jean Chretien presented this controversial 1969 proposal to end separate legal status under the Indian Act.	What was the White Paper of 1969?
+r1	Canadian History	800	68	In this 1973 Supreme Court case, six judges agreed that Indigenous title existed before European colonization.	What was the Calder case?
+r1	Canadian History	800	68	The fatal 1995 shooting of Dudley George during a land protest led to an Ontario public inquiry into this crisis.	What was the Ipperwash Crisis?
+r1	Canadian History	800	68	Signed in 1998 and effective in 2000, this modern treaty recognized land and self-government rights in British Columbia.	What was the Nisga'a Final Agreement?
+r1	Canadian History	800	68	Parliament's 2000 law set conditions for negotiating provincial secession after a clear referendum question and result.	What was the Clarity Act?
+r1	Canadian History	800	68	This 1981 Supreme Court opinion found no legal unanimity requirement for bringing the Constitution home, but recognized a convention requiring substantial provincial consent.	What was the patriation reference?
+r1	Canadian History	1000	84	The 1849 prosecution of a Metis trader helped break the Hudson's Bay Company's monopoly at Red River.	What was the Sayer Trial?
+r1	Canadian History	1000	84	Cuthbert Grant led Metis fighters against Selkirk settlers in this deadly 1816 clash near Red River.	What was the Battle of Seven Oaks?
+r1	Canadian History	1000	84	William Benjamin Robinson negotiated these two 1850 agreements around Lakes Huron and Superior.	What were the Robinson Treaties?
+r1	Canadian History	1000	84	This 1896 settlement allowed limited Catholic and French instruction within Manitoba's public-school system.	What was the Laurier-Greenway Compromise?
+r1	Canadian History	1000	84	A 1903 tribunal awarded most contested southeastern territory to the United States in this dispute.	What was the Alaska boundary dispute?
+r1	Canadian History	1000	84	Wilfrid Laurier's government created a Canadian navy through this controversial 1910 law.	What was the Naval Service Act of 1910?
+r1	Canadian History	1000	84	This 1909 Canada-U.S. agreement created the International Joint Commission to manage shared waters.	What was the Boundary Waters Treaty?
+r1	Canadian History	1000	84	Unemployed relief-camp workers rode freight trains east in this 1935 protest movement.	What was the On-to-Ottawa Trek?
+r1	Canadian History	1000	84	Police stopped the relief-camp strikers in Saskatchewan's capital, culminating in this violence on July 1, 1935.	What was the Regina Riot?
+r1	Canadian History	1000	84	Quebec's 1937 anti-communist law authorized officials to close buildings used for alleged propaganda.	What was the Padlock Law?
+r1	Canadian History	1000	84	In this 1939 decision, the Supreme Court upheld a Montreal tavern's refusal to serve a Black customer.	What was Christie v. York?
+r1	Canadian History	1000	84	The government used closure to force approval of financing for a trans-Canada gas line during this 1956 controversy.	What was the Pipeline Debate?
+r1	Canadian History	1000	84	A clash between John Diefenbaker's government and the governor of the Bank of Canada produced this 1961 controversy.	What was the Coyne Affair?
+r1	Canadian History	1000	84	Revelations about a suspected Soviet agent's relationships with former cabinet ministers produced this 1966 scandal.	What was the Munsinger Affair?
+r1	Canadian History	1000	84	Justice Thomas Berger led this 1970s examination of a proposed Mackenzie Valley gas pipeline and northern Indigenous rights.	What was the Berger Inquiry?
+r1	Canadian History	1000	84	This 1999 Supreme Court ruling affirmed a Mi'kmaq treaty right to fish for a moderate livelihood.	What was the Marshall decision?
+r1	Earth Science	200	22	Magma, ash, and gases can escape through this landform's opening at Earth's surface.	What is a volcano?
+r1	Earth Science	200	22	This instrument detects and records motion of the ground.	What is a seismometer?
+r1	Earth Science	200	22	Preserved remains, impressions, or traces of ancient life are known by this term.	What is a fossil?
+r1	Earth Science	200	22	Molten rock moving across the ground after an eruption forms this feature.	What is a lava flow?
+r1	Earth Science	200	22	Greenland and Antarctica are covered by this continent-scale mass of glacial ice.	What is an ice sheet?
+r1	Earth Science	200	22	Geothermally warmed water naturally emerging at the surface creates this feature.	What is a hot spring?
+r1	Earth Science	200	22	A distinct layer visible in a soil profile, such as the A or B layer, has this name.	What is a soil horizon?
+r1	Earth Science	200	22	Water stored below the surface in pores and fractures is known by this term.	What is groundwater?
+r1	Earth Science	200	22	This solid rock lies beneath loose soil, sediment, or other surface material.	What is bedrock?
+r1	Earth Science	200	22	Wind piles loose grains into this mound or ridge common in deserts and on beaches.	What is a sand dune?
+r1	Earth Science	200	22	Multiple shifting channels separated by sediment bars give this type of stream its woven appearance.	What is a braided river?
+r1	Earth Science	200	22	Dissolution or collapse can create this enclosed depression in limestone terrain.	What is a sinkhole?
+r1	Earth Science	200	22	This natural underground chamber is large enough for a person to enter.	What is a cave?
+r1	Earth Science	200	22	A sudden pressure or weather change can set up this standing oscillation in a lake or enclosed sea.	What is a seiche?
+r1	Earth Science	200	22	Gravity drives rock, soil, or debris downslope in this type of mass movement.	What is a landslide?
+r1	Earth Science	200	22	A scientist who studies Earth's materials, structures, processes, and history has this profession.	Who is a geologist?
+r1	Earth Science	400	36	Wells often tap this permeable body of rock or sediment that stores and transmits water.	What is an aquifer?
+r1	Earth Science	400	36	This ridge or area of higher ground lies between two adjacent valleys or stream systems.	What is an interfluve?
+r1	Earth Science	400	36	This boundary marks the top of the fully saturated zone underground.	What is the water table?
+r1	Earth Science	400	36	Usually corresponding to the A horizon, this biologically active upper layer supports most plant roots.	What is topsoil?
+r1	Earth Science	400	36	Decomposed dark organic matter enriches soil under this name.	What is humus?
+r1	Earth Science	400	36	Mineral-rich water filling pore spaces in buried bone or wood produces this preservation process.	What is permineralization?
+r1	Earth Science	400	36	A widespread species that lived for a short geologic interval makes this kind of fossil useful for correlating rock layers.	What is an index fossil?
+r1	Earth Science	400	36	Magma that cools below the surface forms this broad class of rock.	What is intrusive igneous rock?
+r1	Earth Science	400	36	Lava cooling at or near the surface forms this broad class of rock.	What is extrusive igneous rock?
+r1	Earth Science	400	36	After the surface of a molten stream hardens, continued flow can drain away and leave this tunnel.	What is a lava tube?
+r1	Earth Science	400	36	Broad gentle slopes built by repeated outpourings of fluid basalt define this volcano type.	What is a shield volcano?
+r1	Earth Science	400	36	Alternating deposits of viscous lava and fragmented material build this steep composite landform.	What is a stratovolcano?
+r1	Earth Science	400	36	Loose scoria and other fragments falling around a single vent build this small, steep-sided landform.	What is a cinder cone?
+r1	Earth Science	400	36	Also called the focus, this underground point is where rupture begins during a quake.	What is the hypocenter?
+r1	Earth Science	400	36	Energy released by sudden fault movement travels through Earth as this type of vibration.	What is a seismic wave?
+r1	Earth Science	400	36	A smaller shock following the largest event in the same rupture area has this name.	What is an aftershock?
+r1	Earth Science	600	51	Talc defines 1 and diamond defines 10 on this scratch-resistance scale.	What is the Mohs hardness scale?
+r1	Earth Science	600	51	A mineral that repeatedly breaks along smooth planes displays this property.	What is cleavage?
+r1	Earth Science	600	51	Quartz commonly breaks irregularly because it lacks cleavage, displaying this property instead.	What is fracture?
+r1	Earth Science	600	51	Rubbing a mineral across unglazed porcelain reveals this diagnostic colour of its powder.	What is streak?
+r1	Earth Science	600	51	This dimensionless mineral property compares density with that of water.	What is specific gravity?
+r1	Earth Science	600	51	The fraction of a rock or sediment made up of open space is this property.	What is porosity?
+r1	Earth Science	600	51	This property measures how readily connected pores let fluid pass through a material.	What is permeability?
+r1	Earth Science	600	51	A low-permeability layer that slows underground flow without necessarily stopping it is called this.	What is an aquitard?
+r1	Earth Science	600	51	Pressure in a confined aquifer can make water rise in this type of well without pumping.	What is an artesian well?
+r1	Earth Science	600	51	An isolated resistant hill rising abruptly from a broad plain is known by this German-derived term.	What is an inselberg?
+r1	Earth Science	600	51	A river abandoning a looping bend for a shorter path undergoes this process.	What is a meander cutoff?
+r1	Earth Science	600	51	A boulder carried far from its source by moving ice and deposited on different bedrock is called this.	What is a glacial erratic?
+r1	Earth Science	600	51	Meltwater deposits stratified sand and gravel into this irregular hill beside or on wasting ice.	What is a kame?
+r1	Earth Science	600	51	Melting of a buried ice block can leave a depression that fills with water as this feature.	What is a kettle lake?
+r1	Earth Science	600	51	Braided meltwater streams spread sorted sand and gravel beyond an ice margin to build this plain.	What is an outwash plain?
+r1	Earth Science	600	51	Wave erosion cuts a coastal bench that can later be raised above sea level to form this feature.	What is a marine terrace?
+r1	Earth Science	800	68	A vast irregular body of intrusive rock exposed over more than 100 square kilometres has this name.	What is a batholith?
+r1	Earth Science	800	68	This lens-shaped intrusion domes the overlying rock layers while remaining roughly parallel to them.	What is a laccolith?
+r1	Earth Science	800	68	Magma injected as a tabular sheet parallel to existing layers forms this intrusion.	What is a sill?
+r1	Earth Science	800	68	A tabular igneous intrusion cutting across older layers or structures has this name.	What is a dike?
+r1	Earth Science	800	68	A fragment of surrounding rock enclosed within an igneous body is called this.	What is a xenolith?
+r1	Earth Science	800	68	Large crystals embedded in a much finer groundmass give igneous rock this texture.	What is porphyritic texture?
+r1	Earth Science	800	68	This named sequence predicts which silicate minerals crystallize as magma cools.	What is Bowen's reaction series?
+r1	Earth Science	800	68	Because different minerals melt at different temperatures, heating rock can produce magma by this incomplete process.	What is partial melting?
+r1	Earth Science	800	68	Hot mantle can cross its solidus and form magma as pressure falls without much cooling in this process.	What is decompression melting?
+r1	Earth Science	800	68	Adding water lowers the solidus above a subducting plate and promotes this type of melting.	What is flux melting?
+r1	Earth Science	800	68	Strained rock snapping back after a fault ruptures is the basis of this earthquake model.	What is elastic rebound theory?
+r1	Earth Science	800	68	A dipping plane of earthquake foci traces a descending plate in this named subduction-zone feature.	What is the Wadati-Benioff zone?
+r1	Earth Science	800	68	Shaking can make loose, water-saturated sediment temporarily lose strength in this process.	What is soil liquefaction?
+r1	Earth Science	800	68	Regions where direct waves are absent because of refraction or the liquid outer core have this name.	What are seismic shadow zones?
+r1	Earth Science	800	68	Shear modulus multiplied by rupture area and average slip gives this physical measure of earthquake size.	What is seismic moment?
+r1	Earth Science	800	68	The familiar seismological "beach ball" diagram represents this description of fault orientation and slip.	What is a focal mechanism?
+r1	Earth Science	1000	84	Garnet and omphacite dominate this dense high-pressure metamorphic rock derived from basalt.	What is eclogite?
+r1	Earth Science	1000	84	Blue glaucophane characterizes this high-pressure, low-temperature metamorphic rock associated with subduction.	What is blueschist?
+r1	Earth Science	1000	84	Very high temperatures and relatively dry conditions produce this coarse, high-grade metamorphic rock.	What is granulite?
+r1	Earth Science	1000	84	Chlorite, actinolite, and epidote commonly indicate this low-to-medium-grade metamorphic facies.	What is greenschist facies?
+r1	Earth Science	1000	84	Light igneous-looking bands mingle with darker metamorphic material in this rock formed during partial melting.	What is migmatite?
+r1	Earth Science	1000	84	Intense ductile shearing produces this fine-grained foliated fault rock.	What is mylonite?
+r1	Earth Science	1000	84	Blocks of varied size and origin mixed within a sheared matrix form this chaotic geologic unit.	What is a melange?
+r1	Earth Science	1000	84	Sediment scraped from a descending oceanic plate piles against the overriding plate in this wedge.	What is an accretionary prism?
+r1	Earth Science	1000	84	This sedimentary depression lies between an ocean trench and its associated volcanic arc.	What is a forearc basin?
+r1	Earth Science	1000	84	Extension behind a volcanic arc can create this basin and sometimes new oceanic crust.	What is a back-arc basin?
+r1	Earth Science	1000	84	This ancient, tectonically stable core forms the foundation of a continent.	What is a craton?
+r1	Earth Science	1000	84	Exposure of a continent's old crystalline core at the surface forms this geologic region.	What is a continental shield?
+r1	Earth Science	1000	84	A fault-bounded crustal block with a geologic history unlike its neighbours is called this.	What is a tectonostratigraphic terrane?
+r1	Earth Science	1000	84	Repeated assembly and breakup of giant landmasses over hundreds of millions of years describes this cycle.	What is the supercontinent cycle?
+r1	Earth Science	1000	84	A cold dense oceanic plate sinking into the mantle exerts this major plate-driving force.	What is slab pull?
+r1	Earth Science	1000	84	Gravity acting on elevated oceanic lithosphere away from a spreading centre produces this proposed plate-driving force.	What is ridge push?
+r1	Chemistry	200	22	Atoms are rearranged and substances change identity during this process.	What is a chemical reaction?
+r1	Chemistry	200	22	A substance consumed or transformed on the left side of a chemical equation has this role.	What is a reactant?
+r1	Chemistry	200	22	A substance formed and written on the right side of a chemical equation has this role.	What is a product?
+r1	Chemistry	200	22	In a solution, this component does the dissolving and is usually present in greater amount.	What is the solvent?
+r1	Chemistry	200	22	This component of a solution is dissolved in another substance.	What is the solute?
+r1	Chemistry	200	22	Molecules escaping from a liquid surface into the gas phase undergo this process.	What is evaporation?
+r1	Chemistry	200	22	One vaporization-condensation step can separate a volatile liquid from a nonvolatile solute by this technique.	What is simple distillation?
+r1	Chemistry	200	22	Carefully pouring liquid away from settled solids uses this separation method.	What is decantation?
+r1	Chemistry	200	22	Litmus changes colour depending on proton conditions, making it this type of testing substance.	What is an acid-base indicator?
+r1	Chemistry	200	22	Letters and subscripts showing which elements and how many atoms make up a substance form this notation.	What is a chemical formula?
+r1	Chemistry	200	22	Accounting for material entering, leaving, reacting, and accumulating in a process is called this.	What is a mass balance?
+r1	Chemistry	200	22	A process that releases heat to its surroundings is described by this adjective.	What is an exothermic reaction?
+r1	Chemistry	200	22	A process that absorbs heat from its surroundings is described by this adjective.	What is an endothermic reaction?
+r1	Chemistry	200	22	Rapid reaction with an oxidizer that usually releases heat and often light is called this.	What is combustion?
+r1	Chemistry	200	22	Rusting iron is a familiar example of this gradual chemical attack on a material.	What is corrosion?
+r1	Chemistry	200	22	Passing current through an electrolyte to drive a nonspontaneous change is this process.	What is electrolysis?
+r1	Chemistry	400	36	The mass of one mole of a substance, usually in grams per mole, is this quantity.	What is molar mass?
+r1	Chemistry	400	36	The smallest whole-number ratio of elements in a compound is expressed by this formula.	What is an empirical formula?
+r1	Chemistry	400	36	The actual number of each type of atom in one molecule is expressed by this formula.	What is a molecular formula?
+r1	Chemistry	400	36	After the other starting material is completely consumed, some of this starting material remains.	What is the excess reagent?
+r1	Chemistry	400	36	Actual yield divided by theoretical yield and multiplied by 100 gives this laboratory measure.	What is percent yield?
+r1	Chemistry	400	36	This general quantity describes how much solute is present in a given amount of solution or solvent.	What is concentration?
+r1	Chemistry	400	36	Moles of solute per kilogram of solvent define this temperature-independent concentration unit.	What is molality?
+r1	Chemistry	400	36	Adding more solvent to lower a solution's concentration performs this process.	What is dilution?
+r1	Chemistry	400	36	At the stated conditions, this solution can still dissolve more solute.	What is an unsaturated solution?
+r1	Chemistry	400	36	This unstable solution contains more dissolved material than its equilibrium limit at the same conditions.	What is a supersaturated solution?
+r1	Chemistry	400	36	The maximum amount of a substance that can dissolve under specified conditions is this property.	What is solubility?
+r1	Chemistry	400	36	Liquids able to combine in all proportions, like ethanol and water, have this property.	What is miscibility?
+r1	Chemistry	400	36	The ability of moving charged particles in a solution or melt to carry electric current is this property.	What is ionic conductivity?
+r1	Chemistry	400	36	Sugar can dissolve in water without forming ions, making it this type of solute.	What is a nonelectrolyte?
+r1	Chemistry	400	36	Hydrochloric acid is placed in this category because it ionizes essentially completely in water.	What is a strong acid?
+r1	Chemistry	400	36	Acetic acid belongs to this category because only a fraction of its molecules ionize in water.	What is a weak acid?
+r1	Chemistry	600	51	Two species that differ by one proton, such as ammonia and ammonium, form this pair.	What is a conjugate acid-base pair?
+r1	Chemistry	600	51	A substance able to behave as either an acid or a base is described by this term.	What is an amphoteric substance?
+r1	Chemistry	600	51	At this point in a titration, stoichiometrically equivalent amounts of analyte and reagent have reacted.	What is the equivalence point?
+r1	Chemistry	600	51	A colour change or instrument signal marks this observed point used to stop a titration.	What is the titration endpoint?
+r1	Chemistry	600	51	Spiking a sample with known analyte amounts to compensate for matrix effects uses this calibration method.	What is standard addition?
+r1	Chemistry	600	51	Electron transfer couples oxidation and reduction in this overall type of reaction.	What is a redox reaction?
+r1	Chemistry	600	51	This assigned value tracks electron ownership and helps identify what has been oxidized or reduced.	What is an oxidation number?
+r1	Chemistry	600	51	Simultaneous oxidation and reduction of one species into two different products is this process.	What is disproportionation?
+r1	Chemistry	600	51	A spontaneous redox process generates electrical energy in this electrochemical device.	What is a galvanic cell?
+r1	Chemistry	600	51	An external power source drives a nonspontaneous redox process in this electrochemical device.	What is an electrolytic cell?
+r1	Chemistry	600	51	Oxidation always occurs at this electrode, whether a cell is spontaneous or driven.	What is the anode?
+r1	Chemistry	600	51	Reduction always occurs at this electrode, whether a cell is spontaneous or driven.	What is the cathode?
+r1	Chemistry	600	51	Ion migration through this connection maintains electrical neutrality between two electrochemical half-cells.	What is a salt bridge?
+r1	Chemistry	600	51	One electrode and its surrounding electrolyte make up this portion of an electrochemical cell.	What is a half-cell?
+r1	Chemistry	600	51	This ratio has the form of an equilibrium expression but uses the system's current activities, whether or not equilibrium has been reached.	What is the reaction quotient?
+r1	Chemistry	600	51	At a fixed temperature, this value relates equilibrium activities of products and reactants.	What is the equilibrium constant?
+r1	Chemistry	800	68	A solution property depending mainly on the number of dissolved particles rather than their identity belongs to this class.	What is a colligative property?
+r1	Chemistry	800	68	Dissolving a nonvolatile substance usually lowers a liquid's solidification temperature through this effect.	What is freezing-point depression?
+r1	Chemistry	800	68	Dissolving a nonvolatile substance usually raises a liquid's boiling temperature through this effect.	What is boiling-point elevation?
+r1	Chemistry	800	68	This pressure must be applied to stop net solvent flow across a semipermeable membrane.	What is osmotic pressure?
+r1	Chemistry	800	68	This factor relates a species' effective thermodynamic activity to its concentration or mole fraction.	What is the activity coefficient?
+r1	Chemistry	800	68	At equilibrium and fixed temperature, a solute's concentration ratio between two immiscible liquids is constant under this law.	What is the Nernst distribution law?
+r1	Chemistry	800	68	Particles with negligible volume and no intermolecular forces define this gas model.	What is an ideal gas?
+r1	Chemistry	800	68	Finite molecular volume and intermolecular attraction cause this kind of gas to depart from the simplest equation of state.	What is a real gas?
+r1	Chemistry	800	68	Parameters a and b correct the ideal equation for attractions and molecular volume in this equation.	What is the van der Waals equation?
+r1	Chemistry	800	68	The liquid-vapour coexistence curve ends at this temperature-and-pressure condition.	What is the critical point?
+r1	Chemistry	800	68	Above the critical temperature and pressure, matter enters this phase with no liquid-gas boundary.	What is a supercritical fluid?
+r1	Chemistry	800	68	Regions and boundaries showing stable states as temperature and pressure vary appear on this graph.	What is a phase diagram?
+r1	Chemistry	800	68	This constant-boiling liquid mixture produces vapour with the same composition as the liquid.	What is an azeotrope?
+r1	Chemistry	800	68	Reducing pressure lowers boiling temperatures and permits heat-sensitive liquids to be separated by this method.	What is vacuum distillation?
+r1	Chemistry	800	68	This ratio compares a solute's equilibrium concentrations in two immiscible phases.	What is the partition coefficient?
+r1	Chemistry	800	68	A refluxing solvent repeatedly washes a solid held in a porous thimble during this extraction technique.	What is Soxhlet extraction?
+r1	Chemistry	1000	84	A two-step substitution whose rate depends only on substrate concentration proceeds through a carbocation by this mechanism.	What is an SN1 reaction?
+r1	Chemistry	1000	84	Backside attack and leaving-group departure occur in one concerted step, often inverting stereochemistry, by this mechanism.	What is an SN2 reaction?
+r1	Chemistry	1000	84	A carbocation forms before a base removes a neighbouring proton in this two-step elimination mechanism.	What is an E1 reaction?
+r1	Chemistry	1000	84	A strong base removes a proton as the leaving group departs in this concerted elimination mechanism.	What is an E2 reaction?
+r1	Chemistry	1000	84	In many additions of HX to an unsymmetrical alkene, hydrogen attaches to the carbon already bearing more hydrogens under this rule.	What is Markovnikov's rule?
+r1	Chemistry	1000	84	Elimination often favours the more substituted alkene under this named rule.	What is Zaitsev's rule?
+r1	Chemistry	1000	84	A conjugated diene and a dienophile form a six-membered ring in this concerted cycloaddition.	What is the Diels-Alder reaction?
+r1	Chemistry	1000	84	An organomagnesium halide that adds carbon groups to carbonyl compounds is this named reagent.	What is a Grignard reagent?
+r1	Chemistry	1000	84	A Lewis acid such as aluminum chloride catalyzes this named alkylation or acylation of an aromatic ring.	What is a Friedel-Crafts reaction?
+r1	Chemistry	1000	84	An enolate forms a carbon-carbon bond with a carbonyl compound, followed by dehydration to an unsaturated product, in this process.	What is an aldol condensation?
+r1	Chemistry	1000	84	Movement of a proton and double bond interconverts two constitutional isomers in this equilibrium.	What is keto-enol tautomerism?
+r1	Chemistry	1000	84	Cyclic, planar, fully conjugated molecules gain unusual stability from this electronic property.	What is aromaticity?
+r1	Chemistry	1000	84	A planar conjugated ring is aromatic when it has 4n plus 2 pi electrons under this criterion.	What is Huckel's rule?
+r1	Chemistry	1000	84	This electron-rich species donates a pair of electrons to form a new covalent bond.	What is a nucleophile?
+r1	Chemistry	1000	84	This electron-poor species accepts an electron pair when forming a new covalent bond.	What is an electrophile?
+r1	Chemistry	1000	84	This atom or group departs from a substrate carrying the bonding electron pair.	What is a leaving group?
+r1	Physics Concepts	200	22	This property measures an object's inertia and is expressed in kilograms in SI.	What is mass?
+r1	Physics Concepts	200	22	A push or pull measured in newtons is this type of interaction.	What is force?
+r1	Physics Concepts	200	22	Distance traveled divided by elapsed time gives this scalar quantity.	What is speed?
+r1	Physics Concepts	200	22	This scalar quantity gives the total length of the path between points.	What is distance?
+r1	Physics Concepts	200	22	The straight-line change in position from start to finish is this vector quantity.	What is displacement?
+r1	Physics Concepts	200	22	A thermometer measures this thermodynamic property associated with hotness and coldness.	What is temperature?
+r1	Physics Concepts	200	22	The rate at which charge passes a point is this quantity measured in amperes.	What is electric current?
+r1	Physics Concepts	200	22	Energy transferred per unit charge between two points is this quantity measured in volts.	What is voltage?
+r1	Physics Concepts	200	22	Attraction and repulsion involving magnets and moving charges belong to this physical phenomenon.	What is magnetism?
+r1	Physics Concepts	200	22	The distance between successive crests or equivalent points on a wave is this quantity.	What is wavelength?
+r1	Physics Concepts	200	22	The number of cycles completed per second is this quantity measured in hertz.	What is frequency?
+r1	Physics Concepts	200	22	The greatest displacement from equilibrium gives a wave or oscillation this quantity.	What is amplitude?
+r1	Physics Concepts	200	22	This mechanical wave needs a medium and usually travels through air as pressure variations.	What is a sound wave?
+r1	Physics Concepts	200	22	This transverse electromagnetic wave can cross a vacuum and stimulate human vision.	What is a light wave?
+r1	Physics Concepts	200	22	Copper belongs to this class of material because charges move through it readily.	What is an electrical conductor?
+r1	Physics Concepts	200	22	Rubber belongs to this class of material because it strongly restricts charge movement.	What is an electrical insulator?
+r1	Physics Concepts	400	36	The ratio of friction force to normal force defines this dimensionless surface-pair property.	What is the coefficient of friction?
+r1	Physics Concepts	400	36	One-half moment of inertia times angular speed squared gives this energy of spinning motion.	What is rotational kinetic energy?
+r1	Physics Concepts	400	36	Symbolized by k, this parameter measures how stiff an ideal spring is.	What is the spring constant?
+r1	Physics Concepts	400	36	Within the elastic range, tensile stress divided by tensile strain gives this material property.	What is Young's modulus?
+r1	Physics Concepts	400	36	A pendulum repeatedly converting gravitational energy to motion illustrates this change from one energy form to another.	What is energy transformation?
+r1	Physics Concepts	400	36	The time integral of net force equals the change in momentum under this relationship.	What is the impulse-momentum theorem?
+r1	Physics Concepts	400	36	Newton's laws take their simplest form in this nonaccelerating frame of reference.	What is an inertial frame?
+r1	Physics Concepts	400	36	Equal and opposite influences producing zero net force are described by this phrase.	What are balanced forces?
+r1	Physics Concepts	400	36	The two forces that interacting bodies exert on each other form this Newtonian pair.	What is an action-reaction pair?
+r1	Physics Concepts	400	36	Arrows representing every external force on one isolated object make up this sketch.	What is a free-body diagram?
+r1	Physics Concepts	400	36	A physical quantity requiring both magnitude and direction belongs to this class.	What is a vector quantity?
+r1	Physics Concepts	400	36	A physical quantity completely described by magnitude alone belongs to this class.	What is a scalar quantity?
+r1	Physics Concepts	400	36	Constant speed around a circle still involves inward acceleration in this type of motion.	What is uniform circular motion?
+r1	Physics Concepts	400	36	Neglecting air resistance, horizontal motion and vertical free fall combine in this arcing motion.	What is projectile motion?
+r1	Physics Concepts	400	36	A triangle's three medians meet at this geometric point, whose coordinates are the averages of its vertices.	What is the centroid?
+r1	Physics Concepts	400	36	For a simple machine, distance moved by the effort divided by distance moved by the load gives this ratio.	What is velocity ratio?
+r1	Physics Concepts	600	51	The surface integral of the electric-field component normal to an area gives this quantity.	What is electric flux?
+r1	Physics Concepts	600	51	The surface integral of the magnetic-field component normal to an area gives this quantity.	What is magnetic flux?
+r1	Physics Concepts	600	51	Work per unit charge needed to bring a positive test charge from a reference point defines this scalar quantity.	What is electric potential?
+r1	Physics Concepts	600	51	The force between point charges decreases with the square of their separation under this mathematical relationship.	What is the inverse-square law?
+r1	Physics Concepts	600	51	Measured in siemens, this reciprocal of resistance describes ease of current flow.	What is electrical conductance?
+r1	Physics Concepts	600	51	This opposition to current equals potential difference divided by current and is measured in ohms.	What is electrical resistance?
+r1	Physics Concepts	600	51	Components connected along a single current path have this circuit arrangement.	What is a series circuit?
+r1	Physics Concepts	600	51	Components connected across the same two nodes have this circuit arrangement.	What is a parallel circuit?
+r1	Physics Concepts	600	51	Conservation of charge implies that currents entering and leaving a node sum to zero under this rule.	What is Kirchhoff's junction rule?
+r1	Physics Concepts	600	51	Potential changes around any closed path sum to zero under this circuit rule.	What is Kirchhoff's loop rule?
+r1	Physics Concepts	600	51	A changing current in one coil inducing an emf in another is quantified by this property.	What is mutual inductance?
+r1	Physics Concepts	600	51	Household mains use this type of current, whose direction reverses periodically.	What is alternating current?
+r1	Physics Concepts	600	51	A battery ideally supplies this type of current, which maintains one direction.	What is direct current?
+r1	Physics Concepts	600	51	A circuit's changing current creates an opposing emf quantified by this property.	What is inductance?
+r1	Physics Concepts	600	51	A transverse voltage appearing across a current-carrying conductor in a magnetic field demonstrates this effect.	What is the Hall effect?
+r1	Physics Concepts	600	51	Curling the fingers and extending the thumb is a mnemonic for relating current, field, and force under this rule.	What is the right-hand rule?
+r1	Physics Concepts	800	68	This imaginary closed surface is chosen to exploit symmetry when calculating electric flux.	What is a Gaussian surface?
+r1	Physics Concepts	800	68	Maxwell added this term for a changing electric field so the generalized circuital law remained consistent.	What is displacement current?
+r1	Physics Concepts	800	68	Changing magnetic flux induces circulating loops of current within a bulk conductor under this name.	What is an eddy current?
+r1	Physics Concepts	800	68	Taking the electric field cross the magnetic field gives this vector pointing in the direction of electromagnetic energy flow.	What is the Poynting vector?
+r1	Physics Concepts	800	68	Coupled oscillating electric and magnetic fields propagate through vacuum as this disturbance.	What is an electromagnetic wave?
+r1	Physics Concepts	800	68	Restricting the orientation of an electromagnetic wave's electric-field oscillation produces this property.	What is polarization?
+r1	Physics Concepts	800	68	A point source viewed through a circular aperture forms this central bright spot surrounded by rings.	What is an Airy disk?
+r1	Physics Concepts	800	68	Superposed waves reinforce or cancel depending on phase in this phenomenon.	What is interference?
+r1	Physics Concepts	800	68	A coupled system oscillating at one of its characteristic frequencies with a fixed spatial pattern is in this state.	What is a normal mode?
+r1	Physics Concepts	800	68	Two nearby frequencies alternately reinforce and cancel, creating periodic changes in loudness called this.	What are beats?
+r1	Physics Concepts	800	68	A wave packet's envelope travels at this velocity, which can carry information.	What is group velocity?
+r1	Physics Concepts	800	68	An individual crest of a sinusoidal component advances at this velocity.	What is phase velocity?
+r1	Physics Concepts	800	68	Dependence of wave speed on frequency causes this spreading of colours or pulses.	What is dispersion?
+r1	Physics Concepts	800	68	At this incidence angle, reflected and refracted rays are perpendicular and the reflected light is fully linearly polarized.	What is Brewster's angle?
+r1	Physics Concepts	800	68	For light moving toward a lower-index medium, this incidence angle makes the refracted ray skim the boundary.	What is the critical angle?
+r1	Physics Concepts	800	68	Treating every point on a wavefront as a source of secondary wavelets is this construction principle.	What is Huygens' principle?
+r1	Physics Concepts	1000	84	Reformulating dynamics in terms of generalized coordinates, momenta, and a function often equal to total energy gives this framework.	What is Hamiltonian mechanics?
+r1	Physics Concepts	1000	84	The derivative of the Lagrangian with respect to a generalized velocity defines this momentum.	What is canonical momentum?
+r1	Physics Concepts	1000	84	The physical path makes the first variation of the action vanish under this variational principle.	What is the principle of stationary action?
+r1	Physics Concepts	1000	84	Applying stationary action to a Lagrangian produces this differential equation for each generalized coordinate.	What is the Euler-Lagrange equation?
+r1	Physics Concepts	1000	84	All possible generalized positions and momenta form this state space for a classical system.	What is phase space?
+r1	Physics Concepts	1000	84	This antisymmetric operation on two functions generates Hamiltonian time evolution in classical mechanics.	What is the Poisson bracket?
+r1	Physics Concepts	1000	84	Changing mathematical potentials without changing observable fields demonstrates this redundancy of description.	What is gauge invariance?
+r1	Physics Concepts	1000	84	The governing laws retain a symmetry while the system's lowest-energy state does not in this phenomenon.	What is spontaneous symmetry breaking?
+r1	Physics Concepts	1000	84	Redefining masses, charges, or fields absorbs scale-dependent divergences in this quantum-field-theory procedure.	What is renormalization?
+r1	Physics Concepts	1000	84	Lines and vertices pictorially organize terms in a perturbative calculation using this diagram.	What is a Feynman diagram?
+r1	Physics Concepts	1000	84	Quantum amplitudes arise from summing phases over possible histories in this formulation.	What is a path integral?
+r1	Physics Concepts	1000	84	A composite quantum state that cannot be factored into independent states of its parts displays this correlation.	What is quantum entanglement?
+r1	Physics Concepts	1000	84	Interaction with an environment suppresses observable phase relationships through this process.	What is quantum decoherence?
+r1	Physics Concepts	1000	84	A particle with half-integer spin that obeys exclusion statistics belongs to this class.	What is a fermion?
+r1	Physics Concepts	1000	84	Cooling many bosons near absolute zero can place a macroscopic fraction in one quantum state, forming this phase.	What is a Bose-Einstein condensate?
+r1	Physics Concepts	1000	84	This distribution limits mean occupation of a single-particle state for indistinguishable half-integer-spin particles.	What are Fermi-Dirac statistics?
+r1	Plants & Nature	200	22	A sunflower's apparent single bloom is actually this organized cluster of many small flowers.	What is an inflorescence?
+r1	Plants & Nature	200	22	Botanically, this seed-bearing structure develops from a flower's mature ovary.	What is a fruit?
+r1	Plants & Nature	200	22	A flower produces sugary liquid for pollinators in this specialized gland.	What is a nectary?
+r1	Plants & Nature	200	22	Seasonal growth often appears in a trunk cross-section as this concentric band.	What is a tree ring?
+r1	Plants & Nature	200	22	A plant that retains living foliage through more than one season is described by this term.	What is an evergreen?
+r1	Plants & Nature	200	22	This plant completes germination, flowering, seed production, and death within one growing season.	What is an annual plant?
+r1	Plants & Nature	200	22	This plant lives for more than two years and can regrow over many seasons.	What is a perennial plant?
+r1	Plants & Nature	200	22	This plant typically grows vegetatively in its first year, then flowers and dies in its second.	What is a biennial plant?
+r1	Plants & Nature	200	22	Areoles bearing spines or hairs distinguish members of this mostly American desert-adapted plant family.	What is a cactus?
+r1	Plants & Nature	200	22	Aloe stores water in thick fleshy organs, making it this kind of drought-adapted plant.	What is a succulent?
+r1	Plants & Nature	200	22	Grapevines belong to this growth form, which climbs or trails using other structures for support.	What is a vine?
+r1	Plants & Nature	200	22	This woody growth form is usually shorter than a tree and has several stems arising near the ground.	What is a shrub?
+r1	Plants & Nature	200	22	Wheat, bamboo, and lawn species belong to this plant family with narrow leaves and jointed stems.	What is a grass?
+r1	Plants & Nature	200	22	A flowering plant growing without deliberate cultivation is commonly called this.	What is a wildflower?
+r1	Plants & Nature	200	22	This compact undeveloped shoot may later open into leaves or a flower.	What is a bud?
+r1	Plants & Nature	200	22	Overlapping scales carrying pollen or ovules make up this common gymnosperm reproductive structure.	What is a cone?
+r1	Plants & Nature	400	36	This wide water-conducting cell is dead at maturity and joins end-to-end with others in angiosperm wood.	What is a vessel element?
+r1	Plants & Nature	400	36	Sugars move through columns of this living conducting cell, which lacks a nucleus at maturity.	What is a sieve-tube element?
+r1	Plants & Nature	400	36	This microscopic epidermal pore permits carbon dioxide entry and water-vapour loss.	What is a stoma?
+r1	Plants & Nature	400	36	A pair of these specialized epidermal cells changes shape to open or close a pore.	What is a guard cell?
+r1	Plants & Nature	400	36	The first embryonic leaf within a seed has this name.	What is a cotyledon?
+r1	Plants & Nature	400	36	This young multicellular organism inside a seed includes an embryonic root and shoot.	What is the plant embryo?
+r1	Plants & Nature	400	36	In most flowering plants, double fertilization produces this nutrient-rich tissue that supports the developing embryo.	What is endosperm?
+r1	Plants & Nature	400	36	This basal part of a flower encloses the ovules and commonly matures into a fruit.	What is the flower ovary?
+r1	Plants & Nature	400	36	Pollen is produced in this terminal part of a stamen.	What is the anther?
+r1	Plants & Nature	400	36	This receptive surface at the top of a pistil captures pollen.	What is the stigma?
+r1	Plants & Nature	400	36	One of these outer floral parts commonly encloses and protects a developing bud.	What is a sepal?
+r1	Plants & Nature	400	36	Stigma, style, and ovary together form this female floral structure.	What is the pistil?
+r1	Plants & Nature	400	36	An anther and its supporting filament together form this male floral structure.	What is a stamen?
+r1	Plants & Nature	400	36	Leaves and branches arise from this point on a stem.	What is a plant node?
+r1	Plants & Nature	400	36	This section of stem extends between two successive nodes.	What is an internode?
+r1	Plants & Nature	400	36	Originating from the pericycle, this branch extends outward from an existing root.	What is a lateral root?
+r1	Plants & Nature	600	51	Stem cells in vascular cambium that divide to produce secondary conducting tissues have this name.	What are cambial initials?
+r1	Plants & Nature	600	51	This growing tip contains the cells that initiate new leaves and stem tissues.	What is the shoot apex?
+r1	Plants & Nature	600	51	Vascular cambium and cork cambium belong to this class of growth tissue responsible for increasing girth.	What is a lateral meristem?
+r1	Plants & Nature	600	51	Slowly dividing cells near a root tip help maintain surrounding stem cells in this region.	What is the quiescent center?
+r1	Plants & Nature	600	51	This slender extension of one epidermal cell greatly increases a root's absorptive surface.	What is a root hair?
+r1	Plants & Nature	600	51	This waxy polymer accumulates in cork cell walls and contributes to diffusion barriers in roots.	What is suberin?
+r1	Plants & Nature	600	51	The innermost layer of the root cortex regulates entry into the vascular cylinder.	What is the endodermis?
+r1	Plants & Nature	600	51	Lateral roots usually begin in this cell layer just inside the endodermis.	What is the pericycle?
+r1	Plants & Nature	600	51	The photosynthetic tissue between a leaf's upper and lower epidermis has this collective name.	What is mesophyll?
+r1	Plants & Nature	600	51	Tightly packed elongated cells beneath the upper epidermis make up this light-capturing leaf layer.	What is palisade mesophyll?
+r1	Plants & Nature	600	51	Large air spaces aid gas movement through this loosely arranged lower leaf tissue.	What is spongy mesophyll?
+r1	Plants & Nature	600	51	A ring or layer of these cells surrounds a leaf's vascular bundle and is especially prominent in C4 species.	What is the bundle sheath?
+r1	Plants & Nature	600	51	This waxy covering on aerial epidermis reduces uncontrolled water loss.	What is the plant cuticle?
+r1	Plants & Nature	600	51	This porous break in bark permits gas exchange through otherwise waterproof cork.	What is a lenticel?
+r1	Plants & Nature	600	51	Formation of a separation layer lets a plant shed an organ in this process.	What is leaf abscission?
+r1	Plants & Nature	600	51	A viable seed's temporary failure to germinate even under otherwise favourable conditions is this state.	What is seed dormancy?
+r1	Plants & Nature	800	68	Rubisco fixes carbon dioxide directly into a three-carbon product in this common pathway.	What is C3 photosynthesis?
+r1	Plants & Nature	800	68	Initial fixation into oxaloacetate helps concentrate carbon dioxide away from oxygen in this pathway.	What is C4 photosynthesis?
+r1	Plants & Nature	800	68	A wreath-like ring of prominent bundle-sheath cells around leaf veins is this anatomy typical of many C4 species.	What is Kranz anatomy?
+r1	Plants & Nature	800	68	Rubisco binding oxygen causes this costly pathway that consumes energy and releases previously fixed carbon dioxide.	What is photorespiration?
+r1	Plants & Nature	800	68	Flowering responses to the relative lengths of day and night demonstrate this phenomenon.	What is photoperiodism?
+r1	Plants & Nature	800	68	Roots growing downward and shoots upward in response to Earth's pull display this directional growth.	What is gravitropism?
+r1	Plants & Nature	800	68	A tendril coiling around a support displays this directional growth response to touch.	What is thigmotropism?
+r1	Plants & Nature	800	68	Roots growing toward greater moisture display this directional growth response.	What is hydrotropism?
+r1	Plants & Nature	800	68	Rapid closing of a Venus flytrap is this non-directional response to a stimulus.	What is a nastic movement?
+r1	Plants & Nature	800	68	A growing shoot tip tracing a slow spiral or circle performs this movement described by Darwin.	What is circumnutation?
+r1	Plants & Nature	800	68	Pale colour, elongated stems, and unexpanded leaves develop during growth in darkness under this condition.	What is etiolation?
+r1	Plants & Nature	800	68	Exposure to light reverses dark-grown development through this transition.	What is de-etiolation?
+r1	Plants & Nature	800	68	The connected cytoplasm of neighbouring cells forms this internal route for water and solute movement.	What is the symplast?
+r1	Plants & Nature	800	68	Pectin-rich material between adjacent primary cell walls acts as a cementing layer under this name.	What is the middle lamella?
+r1	Plants & Nature	800	68	Water pushing the cell membrane outward against a rigid wall creates this internal pressure.	What is turgor pressure?
+r1	Plants & Nature	800	68	Root pressure can force liquid droplets from leaf-edge hydathodes in this process.	What is guttation?
+r1	Plants & Nature	1000	84	This photoreceptor switches between red- and far-red-absorbing forms to regulate germination, shade responses, and flowering.	What is phytochrome?
+r1	Plants & Nature	1000	84	Blue light entrains circadian rhythms and affects development through this flavin-based photoreceptor.	What is cryptochrome?
+r1	Plants & Nature	1000	84	Cell elongation, apical dominance, and bending toward light are strongly influenced by this hormone class.	What is auxin?
+r1	Plants & Nature	1000	84	This hormone class promotes stem elongation and can trigger enzymes that mobilize seed reserves.	What is gibberellin?
+r1	Plants & Nature	1000	84	This hormone class promotes cell division and can delay leaf senescence.	What is cytokinin?
+r1	Plants & Nature	1000	84	Drought-induced stomatal closure and maintenance of seed dormancy are major actions of this hormone.	What is abscisic acid?
+r1	Plants & Nature	1000	84	This gaseous hormone promotes fruit ripening and participates in organ shedding.	What is ethylene?
+r1	Plants & Nature	1000	84	Leaves send this mobile flowering signal, associated with FT protein, toward the shoot tip.	What is florigen?
+r1	Plants & Nature	1000	84	This hormone class suppresses shoot branching and also signals to symbiotic mycorrhizal fungi.	What is strigolactone?
+r1	Plants & Nature	1000	84	Wounding and herbivore attack activate defences regulated by this lipid-derived hormone.	What is jasmonic acid?
+r1	Plants & Nature	1000	84	Systemic acquired resistance against pathogens is strongly associated with this phenolic hormone.	What is salicylic acid?
+r1	Plants & Nature	1000	84	This steroid hormone class promotes cell expansion and vascular development.	What is brassinosteroid?
+r1	Plants & Nature	1000	84	Producing seeds without fertilization is this form of asexual reproduction.	What is apomixis?
+r1	Plants & Nature	1000	84	One sperm fuses with the egg while another helps form endosperm in this distinctive angiosperm process.	What is double fertilization?
+r1	Plants & Nature	1000	84	This haploid multicellular generation produces eggs or sperm by mitosis.	What is the gametophyte?
+r1	Plants & Nature	1000	84	This diploid multicellular generation produces haploid spores by meiosis.	What is the sporophyte?
