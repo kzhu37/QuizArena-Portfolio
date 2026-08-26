@@ -1,10 +1,8 @@
 name: One-time long dash cleanup
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/long-dash-cleanup.yml'
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 permissions:
@@ -12,11 +10,14 @@ permissions:
 
 jobs:
   cleanup:
+    if: github.event_name == 'workflow_dispatch' || github.event.issue.title == 'Run portfolio long dash cleanup'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out repository
+      - name: Check out main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Clean tracked UTF-8 text files
         shell: python
