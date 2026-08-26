@@ -1,4 +1,71 @@
 (function bootstrapConfig(ns) {
+  if (typeof document !== "undefined") {
+    const responsiveStyle = document.createElement("style");
+    responsiveStyle.setAttribute("data-jeopardy-responsive-board", "true");
+    responsiveStyle.textContent = `
+      @media (max-width: 900px) {
+        .board {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+          grid-template-rows: 52px repeat(5, minmax(0, 1fr));
+        }
+        .cell { padding: 5px; }
+        .cat {
+          padding: 5px 3px;
+          font-size: 9px;
+          letter-spacing: .35px;
+        }
+        .tile {
+          border-radius: 10px;
+          font-size: 18px;
+        }
+        .foot {
+          padding: 6px;
+          gap: 6px;
+        }
+        .foot .left,
+        .foot .right { gap: 6px; }
+        .foot .hint { display: none; }
+      }
+
+      @media (max-width: 520px) {
+        .app {
+          gap: 6px;
+          padding: 6px;
+        }
+        .top { gap: 6px; }
+        .brand {
+          min-width: 0;
+          padding: 8px;
+        }
+        .scores {
+          min-width: 0;
+          padding: 6px;
+          gap: 6px;
+        }
+        .p {
+          min-width: 120px;
+          padding: 6px;
+        }
+        .board {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+          grid-template-rows: 42px repeat(5, minmax(0, 1fr));
+        }
+        .cell { padding: 2px; }
+        .cat {
+          padding: 2px;
+          font-size: 6.5px;
+          letter-spacing: 0;
+        }
+        .tile {
+          border-radius: 6px;
+          font-size: 13px;
+        }
+        .foot { padding: 4px; }
+      }
+    `;
+    document.head.appendChild(responsiveStyle);
+  }
+
   ns.ROUND_VALUES = {
     r1: [200, 400, 600, 800, 1000],
     r2: [400, 800, 1200, 1600, 2000]
