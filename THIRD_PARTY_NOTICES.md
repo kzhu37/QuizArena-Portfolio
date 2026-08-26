@@ -1,6 +1,6 @@
-# Third-party notices
+# Third-Party Notices
 
-This repository is a curated technical portfolio for Quizler Arena. It contains project code, project media, third-party software dependencies, and external word-list data. This file records the main attribution and reuse boundaries that are easy to miss when viewing the repository only as an application.
+Quizler Arena uses project code and media alongside open-source dependencies and external word-list data. This file lists the main third-party sources, collaboration notes, and reuse considerations in one place.
 
 ## Software dependencies
 
@@ -19,21 +19,21 @@ Committed external word-list inputs include:
 
 Additional source data is read from the npm packages listed above when the word-game banks are rebuilt.
 
-I do not claim authorship over external vocabulary lists. Anyone reusing those datasets outside this project should confirm the original upstream source and license that applies to the specific list or package.
+The external vocabulary lists remain the work of their original sources. Anyone reusing those datasets outside Quizler Arena should confirm the upstream source and license that applies to the specific list or package.
 
-The Jeopardy research packs, validation rules, bank-building workflow, replayability system, and runtime integration are part of the Quizler Arena project. The 5,600-clue expansion is described as curated and researched. Research, tool-assisted drafting, and human review were part of preparing content, so the portfolio does not claim that every clue was written from scratch without assistance.
+The Jeopardy research packs, validation rules, bank-building workflow, replayability system, and runtime integration are part of Quizler Arena. Research, tool-assisted drafting, and human review were all part of preparing the 5,600-clue expansion.
 
 ## Visual assets
 
-The visual assets under `public/assets/` were created or prepared for Quizler Arena through a mixture of project-specific design work, manual editing, and AI-assisted visual experimentation during development. They are presented here as part of the application and portfolio rather than as a standalone reusable art pack.
+The visual assets under `public/assets/` were created or prepared for Quizler Arena through a mixture of project-specific design work, manual editing, and AI-assisted visual experimentation during development. They are included as part of the application rather than as a standalone reusable art pack.
 
 ## Collaboration
 
-Quizler Arena was designed and developed by Kevin Zhu. [Vladimir Duckardt](https://github.com/VDuckardtt) provided limited debugging help on visual implementation issues, particularly Hangman asset replacement and stage-image layering and transition behavior in the original development history.
+I designed and developed Quizler Arena. [Vladimir Duckardt](https://github.com/VDuckardtt) provided limited debugging help on visual implementation issues, particularly Hangman asset replacement and stage-image layering and transition behavior during development.
 
 ## AI-assisted development
 
-AI-assisted tools were used during parts of implementation, debugging, content drafting, research support, and visual experimentation. Generated output was treated as material to inspect, test, revise, or replace rather than as automatically trusted application data.
+AI-assisted tools were used during parts of implementation, debugging, content drafting, research support, and visual experimentation. Generated output was inspected, tested, revised, or replaced rather than automatically treated as finished application data.
 
 The current Jeopardy runtime does not depend on live language-model generation. It uses curated local content and validation tooling instead.
 
@@ -43,4 +43,4 @@ Quizler Jeopardy is an unofficial independent project inspired by the familiar J
 
 ## Reuse
 
-No statement in this file grants rights to third-party software, datasets, trademarks, or other external material beyond the rights provided by their respective owners and licenses. Check the relevant upstream terms before redistributing third-party components or data separately from this portfolio.
+Nothing in this file grants additional rights to third-party software, datasets, trademarks, or other external material beyond the rights provided by their respective owners and licenses. Check the relevant upstream terms before redistributing third-party components or data separately from this repository.
