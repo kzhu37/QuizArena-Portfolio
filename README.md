@@ -96,9 +96,9 @@ I designed and developed Quizler Arena from the original Jeopardy prototype thro
 - Jeopardy gameplay, constrained board assembly, replayability logic, persistence, and recovery
 - local content repositories, source audits, validators, and bank-generation workflows
 - Wordle and Hangman gameplay and selection behavior
-- build tooling, deterministic smoke tests, CI verification, and portfolio-capture tooling
+- build tooling, deterministic smoke tests, CI verification, and screenshot-capture tooling
 
-[Vladimir Duckardt](https://github.com/VDuckardtt) provided **limited debugging help on visual implementation issues**, especially Hangman asset replacement and staged-image layering and transition behavior. Those contributions are credited and are not presented as my work.
+[Vladimir Duckardt](https://github.com/VDuckardtt) provided limited debugging help on visual implementation issues, especially Hangman asset replacement and staged-image layering and transition behavior. I credit those contributions separately from my own work.
 
 AI-assisted development tools were used during parts of implementation, debugging, content drafting, research support, and visual experimentation. Generated material was inspected, tested, revised, or replaced. The final Jeopardy runtime deliberately moved away from live language-model generation and now uses curated local data.
 
@@ -126,7 +126,7 @@ The pipeline audits row and category coverage, value slots, difficulty bands, no
   <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy curated content build and validation pipeline" width="100%">
 </p>
 
-Generated runtime banks are build products rather than hand-edited source files. The validators prove engineering properties such as structure, uniqueness, format, difficulty constraints, and source parity. They are not presented as an automated factual truth checker. Trivia quality still depends on research and human review.
+Generated runtime banks are build products rather than hand-edited source files. The validators check engineering properties such as structure, uniqueness, format, difficulty constraints, and source parity. Trivia quality still depends on research and human review; the automated checks do not determine whether every fact is correct.
 
 Replayability also uses memory rather than resetting to pure randomness. Jeopardy tracks used clue IDs, normalized answers, clue fingerprints, categories, titles, topic families, full board hashes, title hashes, and family patterns. Wordle and Hangman use smaller novelty windows suited to their content.
 
@@ -178,16 +178,16 @@ Quizler Arena changed through repeated social play, including multiple full-clas
 | Saved state could exist but still be structurally invalid | Added validation, regeneration, and legacy continuity recovery |
 | One successful board did not prove that the next generated game would work | Added deterministic complete-game smoke testing |
 
-I did not track distinct users across these sessions or collect production telemetry for retention or measured performance improvement, so I do not convert classroom participation into a user-count metric. The detailed iteration record is in [`docs/ITERATION.md`](docs/ITERATION.md).
+I did not track distinct users across these sessions or collect production telemetry for retention or measured performance improvement, so I describe the classroom use qualitatively rather than turning it into a user-count metric. The detailed iteration record is in [`docs/ITERATION.md`](docs/ITERATION.md).
 
 ## Verification
 
 The [GitHub Actions workflow](.github/workflows/portfolio-verify.yml) checks two complementary paths:
 
-1. **Portable Linux build:** portfolio-writing lint, focused core tests, curated Jeopardy source audit, production build, and generated/runtime bank parity.
+1. **Portable Linux build:** Markdown/style lint, focused core tests, curated Jeopardy source audit, production build, and generated/runtime bank parity.
 2. **Full Windows verification:** the deeper platform verifier, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
 
-A separate manual workflow captures reproducible portfolio screenshots as build artifacts without automatically committing binary files.
+A separate manual workflow captures reproducible README screenshots as build artifacts without automatically committing binary files.
 
 ## Run locally
 
@@ -235,13 +235,13 @@ npm run smoke:legacy
 - [`src/jeopardy/`](src/jeopardy): Jeopardy repository, validation, board assembly, usage history, persistence, and gameplay
 - [`data/`](data): curated content sources, validation references, and word-list inputs
 - [`tools/`](tools): build, audit, test, smoke, synchronization, and capture tooling
-- [`docs/`](docs): diagrams, product captures, iteration evidence, and development history
+- [`docs/`](docs): diagrams, product captures, iteration notes, and development history
 
-Generated Jeopardy banks and synchronized legacy output are ignored by Git and rebuilt from committed inputs. See [`data/README.md`](data/README.md) for the data layout and provenance model.
+Generated Jeopardy banks and synchronized legacy output are ignored by Git and rebuilt from committed inputs. See [`data/README.md`](data/README.md) for the data layout and source notes.
 
-## Development history and provenance
+## Development history
 
-The public repository is a curated showcase assembled after the original project was already underway. The original development work lived in a separate private repository, and the earliest personal Jeopardy prototype predates that Git history.
+The public repository was created after the project was already underway. The original development work lived in a separate private repository, and the earliest personal Jeopardy prototype predates that Git history.
 
 ```text
 small social prototype
@@ -252,9 +252,9 @@ small social prototype
   -> deterministic verification and recovery
 ```
 
-A dated, evidence-based timeline is in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+A dated timeline is in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
 
-## Current boundaries and attribution
+## Current scope and attribution
 
 Quizler Arena is currently a **local-first shared-screen platform with three playable modes**. Multiplayer and party-link interfaces are presentation previews only. They do not create online rooms or matchmaking.
 
