@@ -56,8 +56,9 @@ function Capture-Route {
   $url = "file:///$encoded$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
   $lastFailure = $null
+  $maxAttempts = 4
 
-  for ($attempt = 1; $attempt -le 2; $attempt += 1) {
+  for ($attempt = 1; $attempt -le $maxAttempts; $attempt += 1) {
     if ($env:GITHUB_ACTIONS -eq "true") {
       Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
     }
@@ -98,9 +99,9 @@ function Capture-Route {
       -RedirectStandardOutput $stdout `
       -RedirectStandardError $stderr
 
-    $finished = $process.WaitForExit(30000)
+    $finished = $process.WaitForExit(45000)
     if (-not $finished) {
-      $lastFailure = "Edge did not exit within 30 seconds while capturing $HashRoute."
+      $lastFailure = "Edge did not exit within 45 seconds while capturing $HashRoute."
       Stop-BrowserTree -Process $process
     }
     elseif ($process.ExitCode -ne 0) {
@@ -129,13 +130,13 @@ function Capture-Route {
       $lastFailure = "Screenshot was not created: $outputPath"
     }
 
-    if ($attempt -lt 2) {
+    if ($attempt -lt $maxAttempts) {
       Write-Host "Capture attempt $attempt failed for $Name. Retrying with a fresh browser profile..." -ForegroundColor Yellow
       Start-Sleep -Seconds 1
     }
   }
 
-  throw "$lastFailure Capture failed after 2 attempts."
+  throw "$lastFailure Capture failed after $maxAttempts attempts."
 }
 
 Capture-Route -Name "lobby" -HashRoute "#/"
