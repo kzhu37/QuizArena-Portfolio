@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <sub><strong>Flagship mode:</strong> a complete local-first Jeopardy experience with constrained board generation, replayability memory, persistence, recovery, and deterministic verification.</sub>
+  <sub><strong>Flagship mode:</strong> a complete local-first Jeopardy experience with constrained board generation, replayability memory, persistence, recovery, and deterministic testing.</sub>
 </p>
 
 ## At a glance
@@ -100,7 +100,7 @@ I designed and developed Quizler Arena from the original Jeopardy prototype thro
 - Jeopardy gameplay, constrained board assembly, replayability logic, persistence, and recovery
 - local content repositories, source audits, validators, and bank-generation workflows
 - Wordle and Hangman gameplay and selection behavior
-- build tooling, deterministic smoke tests, CI verification, and screenshot-capture tooling
+- build tooling, deterministic smoke tests, CI checks, and screenshot-capture tooling
 
 [Vladimir Duckardt](https://github.com/VDuckardtt) provided limited debugging help on visual implementation issues, especially Hangman asset replacement and staged-image layering and transition behavior. I credit those contributions separately from my own work.
 
@@ -187,7 +187,7 @@ I did not track distinct users across these sessions or collect production telem
 The [GitHub Actions workflow](.github/workflows/portfolio-verify.yml) checks two complementary paths:
 
 1. **Portable Linux build:** public-text punctuation lint, production dependency audit, focused core tests, curated Jeopardy source audit, word-game validation, production build, and generated/runtime bank parity.
-2. **Full Windows verification:** the deeper platform verifier, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
+2. **Full Windows test suite:** the deeper platform test run, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
 
 A separate manual workflow captures reproducible README screenshots as build artifacts without automatically committing binary files.
 
@@ -213,9 +213,9 @@ npm run dev
 npm run build
 ```
 
-The normal development and production paths are cross-platform. Windows PowerShell and Microsoft Edge are only required for extended direct-file verification and screenshot capture.
+The normal development and production paths are cross-platform. Windows PowerShell and Microsoft Edge are only required for extended direct-file testing and screenshot capture.
 
-### Full Windows verification
+### Full Windows test suite
 
 ```bash
 npm run verify
