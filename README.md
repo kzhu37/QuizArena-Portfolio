@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://quizler-arena-portfolio.vercel.app"><strong>Live Demo</strong></a>
+</p>
+
+<p align="center">
   <a href="#engineering-highlights">Engineering</a> ·
   <a href="#architecture-and-design-decisions">Architecture</a> ·
   <a href="#verification">Verification</a> ·
