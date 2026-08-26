@@ -121,7 +121,7 @@ function normalizeAnswer(value) {
     .replace(/þ/g, 'th')
     .replace(/[\u2018\u2019]/g, "'")
     .replace(/[\u201C\u201D]/g, '"')
-    .replace(/[-- - ]/g, '-')
+    .replace(/[\u2010-\u2015\u2212]/g, '-')
     .replace(/\bwhat\s*'s\s+/g, '')
     .replace(/^(what|who|where|when|why|how)\s+(is|are|was|were|am|be)\s+/g, '')
     .replace(/^(what|who|where|when|why|how)\s+(do|does|did)\s+/g, '')
