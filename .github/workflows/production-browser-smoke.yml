@@ -29,7 +29,7 @@ jobs:
           npm install --no-save --package-lock=false playwright@1.55.0
           npx playwright install --with-deps chromium
 
-      - name: Exercise production Quizler Arena
+      - name: Exercise updated production Quizler Arena
         env:
           QUIZLER_BASE_URL: https://quizler-arena-portfolio.vercel.app
         run: |
