@@ -1,5 +1,6 @@
 name: Portfolio verify
 
+# Verifies both the portable production build and the deeper Windows-only tooling.
 on:
   push:
     branches: [main]
