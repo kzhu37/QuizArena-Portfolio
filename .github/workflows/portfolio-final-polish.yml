@@ -1,21 +1,23 @@
 name: Portfolio final polish
 
 on:
-  push:
-    branches: [portfolio-final-polish-2]
+  issues:
+    types: [opened]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   polish:
+    if: github.event_name == 'workflow_dispatch' || github.event.issue.title == 'Run final Quizler Arena portfolio polish'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Check out polish branch
+      - name: Check out main
         uses: actions/checkout@v7
         with:
-          ref: portfolio-final-polish-2
+          ref: main
           fetch-depth: 0
 
       - name: Apply final portfolio polish
@@ -482,7 +484,6 @@ jobs:
 '''
           Path('.github/workflows/portfolio-verify.yml').write_text(verify, encoding='utf-8')
 
-          # One-time repository cleanup. The permanent lint above prevents regressions.
           tracked = subprocess.check_output(['git', 'ls-files', '-z']).split(b'\0')
           compact = {0x2010, 0x2011, 0x2012, 0x2013, 0xFE63, 0xFF0D}
           spaced = {0x2014, 0x2015, 0x2E3A, 0x2E3B, 0xFE58}
@@ -522,11 +523,6 @@ jobs:
           print(f'Removed typographic long dashes from {len(changed)} tracked UTF-8 text file(s).')
           for item in changed:
               print(item)
-
-          # Remove the temporary repository-wide cleanup mechanism now that lint is permanent.
-          for obsolete in [Path('.github/workflows/portfolio-dash-cleanup.yml'), Path('.github/dash-cleanup-trigger')]:
-              if obsolete.exists():
-                  obsolete.unlink()
 
       - name: Optimize README PNG captures losslessly
         shell: bash
@@ -569,14 +565,15 @@ jobs:
           npm run build
           npm run bank:audit
 
-      - name: Validate and commit changes
+      - name: Validate and publish candidate branch
         shell: bash
         run: |
           rm -f .github/workflows/portfolio-final-polish.yml
           git diff --check
+          git checkout -B portfolio-final-output
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
           git diff --cached --check
           git commit -m 'Polish Quizler Arena portfolio presentation'
-          git push origin HEAD:portfolio-final-polish-2
+          git push --force origin HEAD:portfolio-final-output
