@@ -549,7 +549,7 @@ for (let index = 0; index < runtimeModuleFiles.length; index += 1) {
     fail(`public legacy runtime module is stale for ${runtimeModuleFiles[index]}; run sync:legacy`);
   }
 }
-if (fileHash('jeopardy-gameNewQuestionsV3.html') !== fileHash('public/legacy/jeopardy-gameNewQuestionsV3.html')) {
+if (fileHash('legacy-jeopardy.html') !== fileHash('public/legacy/jeopardy.html')) {
   fail('public legacy Jeopardy HTML is stale; run sync:legacy');
 }
 
