@@ -132,8 +132,9 @@ jobs:
             console.error(error);
             process.exit(1);
           });
-          '@ | Set-Content -Path "$env:RUNNER_TEMP\optimize-portfolio.cjs" -Encoding utf8
-          node "$env:RUNNER_TEMP\optimize-portfolio.cjs"
+          '@ | Set-Content -Path ".portfolio-optimize.cjs" -Encoding utf8
+          node ".portfolio-optimize.cjs"
+          Remove-Item ".portfolio-optimize.cjs" -Force
 
       - name: Upload portfolio screenshots
         if: always()
