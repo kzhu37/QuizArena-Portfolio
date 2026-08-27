@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Quizler Arena combines original project code and content workflows with open-source software, external vocabulary lists, AI-assisted drafting, and limited development feedback from other people. This file keeps those boundaries explicit.
+Quizler Arena combines original project code and content workflows with open-source software, external vocabulary lists, AI-assisted drafting, AI-assisted visual generation, and limited development feedback from other people. This file keeps those boundaries explicit.
 
 ## Software dependencies
 
@@ -48,9 +48,13 @@ The complete methodology and its limitations are documented in [`data/CONTENT_ME
 
 ## Visual assets
 
-The visual assets under `public/assets/` were created or prepared for Quizler Arena through project-specific design work and manual editing. They are included as application assets rather than as a standalone reusable art pack.
+The visual asset workflow included AI-assisted image generation during development, including Gemini image generation, followed by manual selection, editing, filename normalization, staging, fallback work, and application integration. Exact per-file generation history was not retained for every image, so the repository does not present those assets as hand-illustrated original artwork.
 
-The repository does not grant additional rights to any third-party material that may be incorporated into those assets beyond the rights already provided by its original source.
+The four README screenshots under `docs/media/` are captures of the real production application generated through project capture tooling and optimized to WebP. The explanatory SVGs under `docs/diagrams/` were created specifically for this repository to document verified implementation and design decisions.
+
+A more detailed path-by-path record is available in [`docs/ASSET_PROVENANCE.md`](docs/ASSET_PROVENANCE.md).
+
+The repository does not grant additional rights to any third-party material that may be incorporated into visual assets beyond the rights provided by its original source or tool terms.
 
 ## Collaboration and feedback
 
