@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Quizler Arena combines original project code and content workflows with open-source software, external vocabulary lists, and limited development feedback from other people. This file keeps those boundaries explicit.
+Quizler Arena combines original project code and content workflows with open-source software, external vocabulary lists, AI-assisted drafting, and limited development feedback from other people. This file keeps those boundaries explicit.
 
 ## Software dependencies
 
@@ -42,7 +42,7 @@ Anyone redistributing either vocabulary list separately should review the curren
 
 ## Jeopardy content methodology
 
-The 5,600-clue August expansion is part of the Quizler Arena content workflow. It was prepared through structured drafting, research, answer fact-checking, correction, source organization, duplicate rules, difficulty constraints, answer-leakage checks, freshness tracking, generated-bank parity checks, and runtime integration.
+The 5,600-row August expansion used AI-assisted drafting under a structured format. I defined the format and constraints, used generative AI for initial structured clue and response drafts, then researched and fact-checked answers, corrected problems, organized the reviewed source packs, and built the duplicate rules, difficulty constraints, answer-leakage checks, freshness tracking, generated-bank parity checks, and runtime integration around them.
 
 The complete methodology and its limitations are documented in [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md).
 
