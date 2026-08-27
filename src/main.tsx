@@ -4,6 +4,7 @@ import { HashRouter } from "react-router-dom";
 import { App } from "./platform/App";
 import { PlatformErrorBoundary } from "./platform/PlatformErrorBoundary";
 import "./platform/styles.css";
+import "./platform/hubContrast.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
