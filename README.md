@@ -44,7 +44,7 @@
 | **Product** | Three playable local-first modes: Quizler Jeopardy, Wordle, and Hangman |
 | **Technical centerpiece** | Recursive Jeopardy board assembly with candidate scoring, constraints, and rollback |
 | **Replayability** | History-aware clue, answer, category, topic-family, and full-board novelty tracking |
-| **Content pipeline** | 5,600-clue curated expansion across 14 research packs, with reproducible builds and source audits |
+| **Content pipeline** | 5,600-clue AI-drafted expansion across 14 structured packs, followed by research, answer fact-checking, reproducible builds, and source audits |
 | **State integrity** | Saved games are validated before reuse, with corrupted-save regeneration and legacy continuity recovery |
 | **Testing** | 200 deterministic complete Jeopardy game packages per smoke run, plus source audits, builds, route checks, and recovery coverage |
 | **My role** | I designed and developed the project from the original Jeopardy prototype through the current three-mode platform |
@@ -65,7 +65,7 @@ That changed the engineering question from "can I make a trivia game work?" to:
 
 **How do I make a local game platform stay varied, valid, and dependable after repeated use?**
 
-The answer became a set of systems around the game: constrained search, replayability memory, curated data pipelines, state validation, recovery, and deterministic testing.
+The answer became a set of systems around the game: constrained search, replayability memory, structured content pipelines, state validation, recovery, and deterministic testing.
 
 ## My contribution
 
@@ -153,16 +153,18 @@ The same idea operates inside individual categories. If one clue choice blocks a
 
 **Freshness is a constrained search problem, not random sampling.**
 
-### 2. Replayability memory and curated data
+### 2. Replayability memory and content pipeline
 
 Repeated play made content selection a data problem. Quizler Jeopardy tracks used clue IDs, normalized answers, clue fingerprints, source categories, category titles, topic families, full-board hashes, title hashes, and family-pattern hashes.
 
 That memory changes future selection instead of resetting to pure randomness after every game.
 
-The content system also grew substantially. The major expansion is stored as **14 research packs with 400 structured rows each**, adding **5,600 clues across 70 category assignments** before the runtime bank is rebuilt.
+The content system also grew substantially. The major expansion is stored as **14 structured packs with 400 rows each**, adding **5,600 clues across 70 category assignments** before the runtime bank is rebuilt.
+
+I used generative AI to produce the initial question and answer material for that expansion. I then went through the content, researched the answers, and fact-checked them before integrating the packs into the project. I do not present those 5,600 clues as individually hand-written from scratch.
 
 <p align="center">
-  <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy curated content build and validation pipeline" width="100%">
+  <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy content build and validation pipeline" width="100%">
 </p>
 
 The pipeline separates committed source inputs from generated runtime banks. It audits row and category coverage, value slots, difficulty bands, normalized duplicates, clue formatting, malformed text, answer leakage, protected pre-expansion content, generated-bank freshness, and runtime parity.
@@ -204,7 +206,7 @@ An early April version experimented with runtime question generation through a h
 The final runtime therefore uses a local question source. Remote generation is explicitly disabled in [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js).
 
 <p align="center">
-  <img src="docs/diagrams/local-first-evolution.svg" alt="Quizler Arena evolution from runtime question generation to a curated local-first architecture" width="100%">
+  <img src="docs/diagrams/local-first-evolution.svg" alt="Quizler Arena evolution from runtime question generation to a checked local-first architecture" width="100%">
 </p>
 
 The local-first design made repeatable builds, source auditing, duplicate control, deterministic testing, safer credential handling, and offline startup possible. The important decision was not adding another system. It was recognizing when an experiment no longer matched the product requirements and removing it.
@@ -225,7 +227,7 @@ Quizler Arena changed through repeated family and social play, multiple full-cla
 | Repeated sessions exposed duplicate answers, repetitive categories, and weak clue combinations | Added history, novelty scoring, topic-family balancing, and constrained board assembly |
 | Full-class sessions made projector readability, pacing, screen fit, and shared-screen interaction more demanding | Improved fullscreen behavior, no-scroll layouts, control sizing, and cross-screen stability |
 | Weaker hardware made visual complexity a reliability issue | Refined visual layers and fallbacks instead of assuming one ideal machine |
-| Runtime-generated questions could be inconsistent or service-dependent | Moved final gameplay to curated local data with reproducible validation |
+| Runtime-generated questions could be inconsistent or service-dependent | Moved final gameplay to checked local data with reproducible validation |
 | Asset replacement could break filenames, fallbacks, or Hangman stage order | Centralized visual asset mapping and explicit stage behavior |
 | Saved data could exist while still being structurally invalid | Added validation, corrupted-save regeneration, and legacy continuity recovery |
 | One successful board did not prove that future generated games would work | Added deterministic complete-game smoke testing |
@@ -236,7 +238,7 @@ The full observation-to-implementation record is in [`docs/ITERATION.md`](docs/I
 
 The [GitHub Actions workflow](.github/workflows/portfolio-verify.yml) checks two complementary paths:
 
-1. **Portable Linux build:** public-text punctuation lint, production dependency audit, focused core tests, curated Jeopardy source audit, word-game validation, production build, and generated/runtime bank parity.
+1. **Portable Linux build:** public-text punctuation lint, production dependency audit, focused core tests, Jeopardy source audit, word-game validation, production build, and generated/runtime bank parity.
 2. **Full Windows verification:** the deeper platform test run, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
 
 A separate manual workflow captures reproducible README screenshots as build artifacts without automatically committing binary files.
@@ -284,8 +286,8 @@ npm run verify
 ## Repository map
 
 - [`src/platform/`](src/platform): React shell, Wordle, Hangman, shared UI, fullscreen behavior, assets, and routing
-- [`src/jeopardy/`](src/jeopardy): Jeopardy repository, validation, board assembly, usage history, persistence, gameplay, and the preserved runtime shell
-- [`data/`](data): curated Jeopardy source inputs, word-list inputs, provenance notes, and content methodology
+- [`src/jeopardy/`](src/jeopardy): Jeopardy repository, validation, board assembly, usage history, persistence, and gameplay
+- [`data/`](data): AI-drafted, human-checked expansion inputs, earlier source data, word-list inputs, provenance notes, and content methodology
 - [`tools/`](tools): build, audit, test, smoke, synchronization, and capture tooling
 - [`docs/`](docs): diagrams, product captures, iteration notes, and development history
 
@@ -300,7 +302,7 @@ small social prototype
   -> runtime-generation experiment
   -> three-mode platform
   -> repeated-play problems
-  -> local content and replayability systems
+  -> checked local content and replayability systems
   -> deterministic verification and recovery
 ```
 
