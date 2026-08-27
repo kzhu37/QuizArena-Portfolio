@@ -4,6 +4,9 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $distIndexPath = Join-Path $root "dist\index.html"
 $outputDir = Join-Path $root "artifacts\portfolio-captures"
+$previewHost = "127.0.0.1"
+$previewPort = 4173
+$previewBase = "http://${previewHost}:${previewPort}/"
 
 if (-not (Test-Path $distIndexPath)) {
   throw "dist/index.html was not found: $distIndexPath"
@@ -29,7 +32,7 @@ if (Test-Path $tempRoot) {
 }
 New-Item -ItemType Directory -Path $tempRoot | Out-Null
 
-function Stop-BrowserTree {
+function Stop-ProcessTree {
   param([System.Diagnostics.Process]$Process)
 
   if ($Process -and -not $Process.HasExited) {
@@ -40,10 +43,31 @@ function Stop-BrowserTree {
       Stop-Process -Id $Process.Id -Force -ErrorAction SilentlyContinue
     }
   }
+}
 
+function Stop-BrowserTree {
+  param([System.Diagnostics.Process]$Process)
+
+  Stop-ProcessTree -Process $Process
   if ($env:GITHUB_ACTIONS -eq "true") {
     Get-Process msedge -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
   }
+}
+
+function Wait-ForPreview {
+  $deadline = (Get-Date).AddSeconds(30)
+  while ((Get-Date) -lt $deadline) {
+    try {
+      $response = Invoke-WebRequest -Uri $previewBase -UseBasicParsing -TimeoutSec 2
+      if ($response.StatusCode -ge 200 -and $response.StatusCode -lt 500) {
+        return
+      }
+    }
+    catch {
+      Start-Sleep -Milliseconds 400
+    }
+  }
+  throw "Vite preview server did not become ready at $previewBase within 30 seconds."
 }
 
 function Capture-Route {
@@ -52,11 +76,10 @@ function Capture-Route {
     [string]$HashRoute
   )
 
-  $encoded = ((Resolve-Path $distIndexPath).Path).Replace('\', '/').Replace(' ', '%20')
-  $url = "file:///$encoded$HashRoute"
+  $url = "$previewBase$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
   $lastFailure = $null
-  $maxAttempts = 4
+  $maxAttempts = 2
 
   for ($attempt = 1; $attempt -le $maxAttempts; $attempt += 1) {
     if ($env:GITHUB_ACTIONS -eq "true") {
@@ -84,7 +107,7 @@ function Capture-Route {
       "--no-first-run"
       "--no-default-browser-check"
       "--run-all-compositor-stages-before-draw"
-      "--virtual-time-budget=2200"
+      "--virtual-time-budget=5000"
       "--window-size=1440,900"
       "--force-device-scale-factor=1"
       "--user-data-dir=$profile"
@@ -99,9 +122,8 @@ function Capture-Route {
       -RedirectStandardOutput $stdout `
       -RedirectStandardError $stderr
 
-    $finished = $process.WaitForExit(45000)
+    $finished = $process.WaitForExit(15000)
     if (-not $finished) {
-      $lastFailure = "Edge did not exit within 45 seconds while capturing $HashRoute."
       Stop-BrowserTree -Process $process
     }
     elseif ($process.ExitCode -ne 0) {
@@ -127,7 +149,7 @@ function Capture-Route {
 
     Stop-BrowserTree -Process $process
     if (-not $lastFailure) {
-      $lastFailure = "Screenshot was not created: $outputPath"
+      $lastFailure = "Screenshot was not created for $HashRoute within the capture window."
     }
 
     if ($attempt -lt $maxAttempts) {
@@ -139,9 +161,28 @@ function Capture-Route {
   throw "$lastFailure Capture failed after $maxAttempts attempts."
 }
 
-Capture-Route -Name "lobby" -HashRoute "#/"
-Capture-Route -Name "wordle" -HashRoute "#/wordle"
-Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
-Capture-Route -Name "hangman" -HashRoute "#/hangman"
+$previewStdout = Join-Path $tempRoot "preview-stdout.txt"
+$previewStderr = Join-Path $tempRoot "preview-stderr.txt"
+$previewProcess = $null
 
-Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green
+try {
+  $previewProcess = Start-Process `
+    -FilePath "npm.cmd" `
+    -ArgumentList @("run", "preview", "--", "--host", $previewHost, "--port", "$previewPort", "--strictPort") `
+    -WorkingDirectory $root `
+    -PassThru `
+    -RedirectStandardOutput $previewStdout `
+    -RedirectStandardError $previewStderr
+
+  Wait-ForPreview
+
+  Capture-Route -Name "lobby" -HashRoute "#/?portfolioCapture=1"
+  Capture-Route -Name "wordle" -HashRoute "#/wordle?portfolioCapture=1"
+  Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
+  Capture-Route -Name "hangman" -HashRoute "#/hangman?portfolioCapture=1"
+
+  Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green
+}
+finally {
+  Stop-ProcessTree -Process $previewProcess
+}

@@ -25,10 +25,18 @@ function AppRoutes() {
   );
 }
 
+function isPortfolioCaptureMode() {
+  const hashQuery = window.location.hash.includes("?")
+    ? window.location.hash.slice(window.location.hash.indexOf("?") + 1)
+    : "";
+  return new URLSearchParams(hashQuery).get("portfolioCapture") === "1";
+}
+
 export function App() {
   const location = useLocation();
-  const [loadingVisible, setLoadingVisible] = useState(true);
-  const [transitioning, setTransitioning] = useState(false);
+  const captureMode = isPortfolioCaptureMode();
+  const [loadingVisible, setLoadingVisible] = useState(!captureMode);
+  const [transitioning, setTransitioning] = useState(!captureMode);
 
   useEffect(() => {
     const preloaders = criticalAssetPreloadList
@@ -45,6 +53,12 @@ export function App() {
   }, []);
 
   useEffect(() => {
+    if (captureMode) {
+      setLoadingVisible(false);
+      setTransitioning(false);
+      return;
+    }
+
     setLoadingVisible(true);
     setTransitioning(true);
     const t1 = window.setTimeout(() => setLoadingVisible(false), 360);
@@ -53,7 +67,7 @@ export function App() {
       window.clearTimeout(t1);
       window.clearTimeout(t2);
     };
-  }, [location.pathname]);
+  }, [captureMode, location.pathname]);
 
   return (
     <>
@@ -66,4 +80,3 @@ export function App() {
     </>
   );
 }
-
