@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="300" viewBox="0 0 1400 300" role="img" aria-labelledby="title desc">
   <title id="title">Quizler Jeopardy content pipeline</title>
-  <desc id="desc">Research packs and curated sources pass through source auditing, bank expansion, building, normalization, validation, and runtime selection.</desc>
+  <desc id="desc">AI-drafted structured packs are researched and fact-checked, then source-audited, built into runtime banks, normalized, validated, and selected by the game runtime.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#0b0718"/>
@@ -14,37 +14,38 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#9186b9"/>
     </marker>
   </defs>
-  <rect width="1400" height="260" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="300" rx="28" fill="url(#bg)"/>
   <text x="54" y="48" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="2">CONTENT PIPELINE</text>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" font-size="17" font-weight="700">
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" font-size="16.5" font-weight="700">
     <g fill="#171126" stroke="#463b70">
-      <rect x="42" y="88" width="176" height="92" rx="18"/>
-      <rect x="242" y="88" width="154" height="92" rx="18"/>
-      <rect x="420" y="88" width="166" height="92" rx="18"/>
-      <rect x="610" y="88" width="148" height="92" rx="18"/>
-      <rect x="782" y="88" width="156" height="92" rx="18"/>
-      <rect x="962" y="88" width="170" height="92" rx="18"/>
+      <rect x="34" y="88" width="172" height="92" rx="18"/>
+      <rect x="226" y="88" width="184" height="92" rx="18"/>
+      <rect x="430" y="88" width="150" height="92" rx="18"/>
+      <rect x="600" y="88" width="156" height="92" rx="18"/>
+      <rect x="776" y="88" width="150" height="92" rx="18"/>
+      <rect x="946" y="88" width="176" height="92" rx="18"/>
     </g>
-    <rect x="1156" y="88" width="202" height="92" rx="18" fill="url(#final)" stroke="#a59aff"/>
+    <rect x="1142" y="88" width="224" height="92" rx="18" fill="url(#final)" stroke="#a59aff"/>
 
-    <text x="130" y="121" fill="#fff"><tspan x="130">Research packs</tspan><tspan x="130" dy="23">and curated sources</tspan></text>
-    <text x="319" y="133" fill="#fff">Source audit</text>
-    <text x="503" y="121" fill="#fff"><tspan x="503">Expanded</tspan><tspan x="503" dy="23">source bank</tspan></text>
-    <text x="684" y="133" fill="#fff">Build script</text>
-    <text x="860" y="121" fill="#fff"><tspan x="860">Runtime bank</tspan><tspan x="860" dy="23">files</tspan></text>
-    <text x="1047" y="121" fill="#fff"><tspan x="1047">Normalization</tspan><tspan x="1047" dy="23">and validation</tspan></text>
-    <text x="1257" y="121" fill="#fff"><tspan x="1257">Board assembler</tspan><tspan x="1257" dy="23">and Final selector</tspan></text>
+    <text x="120" y="121" fill="#fff"><tspan x="120">AI-drafted</tspan><tspan x="120" dy="23">structured packs</tspan></text>
+    <text x="318" y="109" fill="#fff"><tspan x="318">Research + answer</tspan><tspan x="318" dy="23">fact-checking</tspan></text>
+    <text x="505" y="133" fill="#fff">Source audit</text>
+    <text x="678" y="121" fill="#fff"><tspan x="678">Expanded</tspan><tspan x="678" dy="23">source bank</tspan></text>
+    <text x="851" y="133" fill="#fff">Build script</text>
+    <text x="1034" y="121" fill="#fff"><tspan x="1034">Runtime banks +</tspan><tspan x="1034" dy="23">parity checks</tspan></text>
+    <text x="1254" y="121" fill="#fff"><tspan x="1254">Board assembler</tspan><tspan x="1254" dy="23">and Final selector</tspan></text>
   </g>
 
   <g stroke="#9186b9" stroke-width="3" fill="none" marker-end="url(#arrow)">
-    <path d="M218 134 H236"/>
-    <path d="M396 134 H414"/>
-    <path d="M586 134 H604"/>
-    <path d="M758 134 H776"/>
-    <path d="M938 134 H956"/>
-    <path d="M1132 134 H1150"/>
+    <path d="M206 134 H220"/>
+    <path d="M410 134 H424"/>
+    <path d="M580 134 H594"/>
+    <path d="M756 134 H770"/>
+    <path d="M926 134 H940"/>
+    <path d="M1122 134 H1136"/>
   </g>
 
-  <text x="700" y="221" text-anchor="middle" fill="#d6ccef" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Authored content is audited before build output reaches the runtime.</text>
+  <rect x="235" y="215" width="930" height="48" rx="24" fill="#171126" stroke="#3f345e"/>
+  <text x="700" y="245" text-anchor="middle" fill="#d6ccef" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Structural validation catches engineering failures; factual truth still depends on research and human review.</text>
 </svg>
