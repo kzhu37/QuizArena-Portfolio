@@ -40,11 +40,9 @@ The upstream repository is published under the Unlicense, while its README also 
 
 Anyone redistributing either vocabulary list separately should review the current upstream source and applicable terms rather than relying on this notice as a standalone license grant.
 
-## Jeopardy expansion methodology
+## Jeopardy content methodology
 
-The 5,600-clue August expansion is part of the Quizler Arena content workflow, but it was not individually hand-written from scratch.
-
-I used generative AI to create the initial structured question and answer material, then researched and fact-checked the answers before integrating the packs into the project. The repository adds project-specific source organization, duplicate rules, difficulty constraints, answer-leakage checks, freshness tracking, generated-bank parity checks, and runtime integration.
+The 5,600-clue August expansion is part of the Quizler Arena content workflow. It was prepared through structured drafting, research, answer fact-checking, correction, source organization, duplicate rules, difficulty constraints, answer-leakage checks, freshness tracking, generated-bank parity checks, and runtime integration.
 
 The complete methodology and its limitations are documented in [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md).
 

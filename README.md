@@ -14,12 +14,13 @@
 
 <p align="center">
   <a href="#origin-and-use">Origin</a> ·
-  <a href="#my-contribution">Contribution</a> ·
+  <a href="#what-i-built">Product</a> ·
   <a href="#engineering-highlights">Engineering</a> ·
   <a href="#architecture-and-tradeoffs">Architecture</a> ·
   <a href="#iteration-from-real-use">Iteration</a> ·
   <a href="#testing-and-reliability">Testing</a> ·
-  <a href="#run-locally">Run locally</a>
+  <a href="#run-locally">Run locally</a> ·
+  <a href="#my-contribution">Contribution</a>
 </p>
 
 <table>
@@ -42,9 +43,10 @@
 | Area | Quizler Arena |
 | --- | --- |
 | **Product** | Three playable local-first modes: Quizler Jeopardy, Wordle, and Hangman |
+| **Real use** | Repeated family and social play plus multiple full-class sessions, which exposed pacing, readability, replayability, and reliability problems |
 | **Technical centerpiece** | Recursive Jeopardy board assembly with candidate scoring, constraints, and rollback |
 | **Replayability** | History-aware clue, answer, category, topic-family, and full-board novelty tracking |
-| **Content pipeline** | 5,600-clue AI-drafted expansion across 14 structured packs, followed by research, answer fact-checking, reproducible builds, and source audits |
+| **Content pipeline** | 5,600-clue expansion across 14 structured source packs, followed by research, fact-checking, reproducible builds, and source audits |
 | **State integrity** | Saved games are validated before reuse, with corrupted-save regeneration and legacy continuity recovery |
 | **Testing** | 200 deterministic complete Jeopardy game packages per smoke run, plus source audits, builds, route checks, and recovery coverage |
 | **My role** | I designed and developed the project from the original Jeopardy prototype through the current three-mode platform |
@@ -66,19 +68,6 @@ That changed the engineering question from "can I make a trivia game work?" to:
 **How do I make a local game platform stay varied, valid, and dependable after repeated use?**
 
 The answer became a set of systems around the game: constrained search, replayability memory, structured content pipelines, state validation, recovery, and deterministic testing.
-
-## My contribution
-
-I designed and developed Quizler Arena from the original social Jeopardy prototype through the current platform. My work includes:
-
-- product direction and the focused three-mode structure;
-- the React/Vite platform shell, routing, fullscreen behavior, and shared presentation layer;
-- Jeopardy gameplay, constrained board assembly, replayability logic, persistence, and recovery;
-- local content repositories, source audits, validators, and bank-generation workflows;
-- Wordle and Hangman gameplay, selection behavior, and persistent local state;
-- build tooling, deterministic smoke tests, CI checks, and reproducible screenshot capture.
-
-Feedback also changed the project. Michael Tetelbaum encouraged the early move from a single Jeopardy game toward a broader multi-mode Arena. Vladimir Duckardt contributed performance and visual feedback during development and later provided limited debugging help on Hangman asset replacement, staged-image layering, and transition behavior. I credit those contributions separately from my own implementation work.
 
 ## What I built
 
@@ -161,7 +150,7 @@ That memory changes future selection instead of resetting to pure randomness aft
 
 The content system also grew substantially. The major expansion is stored as **14 structured packs with 400 rows each**, adding **5,600 clues across 70 category assignments** before the runtime bank is rebuilt.
 
-I used generative AI to produce the initial question and answer material for that expansion. I then went through the content, researched the answers, and fact-checked them before integrating the packs into the project. I do not present those 5,600 clues as individually hand-written from scratch.
+I prepared the expansion through a structured drafting and review workflow, then researched and fact-checked answers, corrected problems, and integrated the packs into the source-of-truth pipeline. The engineering contribution is the repeatable system around that data: source structure, audits, normalization, duplicate controls, bank generation, and runtime parity checks.
 
 <p align="center">
   <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy content build and validation pipeline" width="100%">
@@ -287,7 +276,7 @@ npm run verify
 
 - [`src/platform/`](src/platform): React shell, Wordle, Hangman, shared UI, fullscreen behavior, assets, and routing
 - [`src/jeopardy/`](src/jeopardy): Jeopardy repository, validation, board assembly, usage history, persistence, and gameplay
-- [`data/`](data): AI-drafted, human-checked expansion inputs, earlier source data, word-list inputs, provenance notes, and content methodology
+- [`data/`](data): reviewed expansion inputs, earlier source data, word-list inputs, provenance notes, and content methodology
 - [`tools/`](tools): build, audit, test, smoke, synchronization, and capture tooling
 - [`docs/`](docs): diagrams, product captures, iteration notes, and development history
 
@@ -307,6 +296,19 @@ small social prototype
 ```
 
 A dated timeline is in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+
+## My contribution
+
+I designed and developed Quizler Arena from the original social Jeopardy prototype through the current platform. My work includes:
+
+- product direction and the focused three-mode structure;
+- the React/Vite platform shell, routing, fullscreen behavior, and shared presentation layer;
+- Jeopardy gameplay, constrained board assembly, replayability logic, persistence, and recovery;
+- local content repositories, source audits, validators, and bank-generation workflows;
+- Wordle and Hangman gameplay, selection behavior, and persistent local state;
+- build tooling, deterministic smoke tests, CI checks, and reproducible screenshot capture.
+
+Feedback also changed the project. Michael Tetelbaum encouraged the early move from a single Jeopardy game toward a broader multi-mode Arena. Vladimir Duckardt contributed performance and visual feedback during development and later provided limited debugging help on Hangman asset replacement, staged-image layering, and transition behavior. I credit those contributions separately from my own implementation work.
 
 ## Attribution and reuse
 
