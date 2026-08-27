@@ -41,8 +41,8 @@ jobs:
       - name: Type-check platform
         run: npm run typecheck
 
-      - name: Test core logic
-        run: npm run test:core
+      - name: Test core and board assembly logic
+        run: npm test
 
       - name: Audit curated Jeopardy sources
         run: npm run bank:audit:sources
@@ -78,6 +78,9 @@ jobs:
 
       - name: Type-check platform
         run: npm run typecheck
+
+      - name: Test core and board assembly logic
+        run: npm test
 
       - name: Verify platform
         shell: powershell
