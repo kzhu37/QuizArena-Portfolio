@@ -79,7 +79,7 @@ function Capture-Route {
   $url = "$previewBase$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
   $lastFailure = $null
-  $maxAttempts = 4
+  $maxAttempts = 2
 
   for ($attempt = 1; $attempt -le $maxAttempts; $attempt += 1) {
     if ($env:GITHUB_ACTIONS -eq "true") {
@@ -122,9 +122,8 @@ function Capture-Route {
       -RedirectStandardOutput $stdout `
       -RedirectStandardError $stderr
 
-    $finished = $process.WaitForExit(45000)
+    $finished = $process.WaitForExit(15000)
     if (-not $finished) {
-      $lastFailure = "Edge did not exit within 45 seconds while capturing $HashRoute."
       Stop-BrowserTree -Process $process
     }
     elseif ($process.ExitCode -ne 0) {
@@ -150,7 +149,7 @@ function Capture-Route {
 
     Stop-BrowserTree -Process $process
     if (-not $lastFailure) {
-      $lastFailure = "Screenshot was not created: $outputPath"
+      $lastFailure = "Screenshot was not created for $HashRoute within the capture window."
     }
 
     if ($attempt -lt $maxAttempts) {
