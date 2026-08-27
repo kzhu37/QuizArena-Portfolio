@@ -20,7 +20,7 @@ When I returned to the idea in April 2026, the goal changed from making one play
 | **April 16 to 17** | Layout stability, Wordle/Hangman polish, projector-oriented readability, and early social-product concepts were refined. |
 | **April 21** | Cross-screen layout work focused on keeping gameplay-critical UI visible and avoiding off-screen overflow. |
 | **May 9 to 21** | The Jeopardy content bank expanded, with stronger duplicate detection, difficulty rules, clue-quality checks, category controls, and runtime parity requirements. |
-| **August 25** | I added a 5,600-clue expansion across 14 structured packs. Generative AI produced the initial question and answer drafts, then I researched and fact-checked the answers, corrected problems, strengthened normalization and auditing, and rebuilt the local runtime sources. |
+| **August 25** | I added a 5,600-clue expansion across 14 structured packs, researched and fact-checked answers, corrected problems, strengthened normalization and auditing, and rebuilt the local runtime sources. |
 | **August 26** | The three-mode application was deployed as the public browser demo, with portable production builds, stronger claim boundaries, and networking ideas reduced to clearly labeled concepts rather than simulated live features. |
 
 ## How the engineering center changed
