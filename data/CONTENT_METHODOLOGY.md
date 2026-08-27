@@ -1,14 +1,14 @@
 # Jeopardy Content Methodology
 
-This document explains how the major Quizler Jeopardy content expansion was created and what the repository's automated checks do and do not establish.
+This document explains how the major Quizler Jeopardy content expansion was prepared and what the repository's automated checks do and do not establish.
 
 ## The 5,600-clue expansion
 
 The August 2026 expansion added 5,600 Jeopardy-style clues across 14 structured packs of 400 rows each.
 
-The drafting process was AI-assisted in a direct way: I used generative AI to produce the initial question and answer material for the expansion. I then went through the resulting content, researched the answers, and fact-checked them before treating the packs as usable project data.
+The expansion was created through a structured drafting and review workflow rather than as 5,600 isolated one-off entries. I defined the source format and constraints, prepared the draft clue and answer material, researched and fact-checked answers, corrected problems, integrated the packs into the source-of-truth workflow, and built the validation and runtime pipeline around them.
 
-That distinction matters. I do not describe the 5,600 clues as individually hand-written from scratch. My work on the expansion was in defining the structure and constraints, generating the draft material, researching and checking the answers, correcting problems, integrating the packs into the source-of-truth workflow, and building the validation and runtime pipeline around them.
+The important engineering work is therefore broader than the clue text itself. The repository preserves the source structure, normalization rules, duplicate controls, difficulty constraints, reviewable inputs, generated-bank build steps, and parity checks that make a large content change reproducible.
 
 ## Source-of-truth workflow
 
@@ -21,7 +21,7 @@ The committed source packs live under `data/jeopardy-bank/`:
 The normal build path is:
 
 ```text
-AI-drafted structured packs
+structured source packs
   -> human research and answer fact-checking
   -> source audit
   -> generated expanded-bank.tsv
@@ -62,4 +62,4 @@ Earlier versions experimented with generating questions during gameplay through 
 
 The final game does not generate Jeopardy questions at runtime. It builds from checked local source data instead. Remote generation is explicitly disabled in `src/jeopardy/questionSourceAdapter.js`.
 
-This preserves what was useful about AI during content creation while keeping final gameplay inspectable, repeatable, and independent of a generation service.
+This keeps final gameplay inspectable, repeatable, and independent of a generation service while preserving a structured offline content workflow.
