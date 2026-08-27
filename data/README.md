@@ -8,7 +8,7 @@ Quizler Arena keeps reviewable source inputs separate from generated runtime dat
 
 | Input | Purpose |
 | --- | --- |
-| `researched-expansion-01.tsv` through `researched-expansion-14.tsv` | Fourteen structured expansion packs, each expected to contain 400 rows |
+| `researched-expansion-01.tsv` through `researched-expansion-14.tsv` | Fourteen reviewed structured expansion packs, each expected to contain 400 rows |
 | `manual-existing-category-topoff.tsv` | Reviewed additions that strengthen existing categories without unnecessary category sprawl |
 | `original-answer-blacklist.json` | Protected historical answer keys used to prevent accidental reuse |
 | `pre-expansion-tracking.json` | Historical clue and answer tracking used for freshness and migration checks |
@@ -19,8 +19,9 @@ Quizler Arena keeps reviewable source inputs separate from generated runtime dat
 The normal pipeline is:
 
 ```text
-structured source packs
-  -> human research and answer fact-checking
+AI-assisted structured drafts
+  -> human research, fact-checking, and correction
+  -> committed reviewed source packs
   -> source audit
   -> expanded-bank.tsv
   -> runtime bank build
@@ -32,7 +33,7 @@ structured source packs
 
 The cross-platform production path uses `tools/build-jeopardy-bank.cjs` and `tools/sync-legacy-runtime.cjs`. Windows verification keeps the older PowerShell tooling as an independent reference path.
 
-The 14 structured packs contain the 5,600-clue August expansion described in the project README. I prepared the material through structured drafting and review, then researched and fact-checked answers, corrected problems, and integrated the packs into the source-of-truth workflow. See [`CONTENT_METHODOLOGY.md`](CONTENT_METHODOLOGY.md) for the complete process and claim boundaries.
+The 14 structured packs contain the 5,600-row August expansion described in the project README. I defined the structured format and constraints, used generative AI for initial structured clue and response drafts, then researched and fact-checked answers, corrected problems, and integrated the reviewed packs into the source-of-truth workflow. See [`CONTENT_METHODOLOGY.md`](CONTENT_METHODOLOGY.md) for the complete process and claim boundaries.
 
 ## Word-game sources
 
