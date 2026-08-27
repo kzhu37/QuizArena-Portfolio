@@ -38,6 +38,9 @@ jobs:
       - name: Check portfolio writing
         run: npm run portfolio:lint
 
+      - name: Type-check platform
+        run: npm run typecheck
+
       - name: Test core logic
         run: npm run test:core
 
@@ -72,6 +75,9 @@ jobs:
 
       - name: Check portfolio writing
         run: npm run portfolio:lint
+
+      - name: Type-check platform
+        run: npm run typecheck
 
       - name: Verify platform
         shell: powershell

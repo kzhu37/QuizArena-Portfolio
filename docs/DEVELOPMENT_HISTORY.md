@@ -22,7 +22,7 @@ When I returned to the idea in April 2026, the goal changed from making one play
 | **May 9 to 21** | The Jeopardy content bank expanded, with stronger duplicate detection, difficulty rules, clue-quality checks, category controls, and runtime parity requirements. |
 | **August 25** | I added a 5,600-row expansion across 14 structured packs. The initial structured clue and response drafts were AI-assisted; I then researched and fact-checked answers, corrected problems, strengthened normalization and auditing, and rebuilt the local runtime sources. |
 | **August 26** | The three-mode application was deployed as the public browser demo, with portable production builds, stronger claim boundaries, and networking ideas reduced to clearly labeled concepts rather than simulated live features. |
-| **August 27** | The public portfolio presentation was reorganized around the constrained-search and replayability story, stale captures were replaced, production dependency auditing was tightened, and supporting documentation was aligned with the verified implementation. |
+| **August 27** | The portfolio presentation was reorganized around constrained search, replayability, and state integrity. Stale captures were replaced, production dependency auditing was tightened, strict TypeScript checking was added to CI, visual provenance was documented, and supporting documentation was aligned with the verified implementation. |
 
 ## How the engineering center changed
 
