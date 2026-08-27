@@ -1,6 +1,6 @@
 # Data and Content Sources
 
-Quizler Arena keeps curated source inputs separate from generated runtime data so large content changes can be reviewed, audited, and rebuilt reproducibly.
+Quizler Arena keeps reviewable source inputs separate from generated runtime data so large content changes can be audited, rebuilt, and compared reproducibly.
 
 ## Jeopardy bank
 
@@ -8,18 +8,19 @@ Quizler Arena keeps curated source inputs separate from generated runtime data s
 
 | Input | Purpose |
 | --- | --- |
-| `researched-expansion-01.tsv` through `researched-expansion-14.tsv` | Fourteen curated research packs, each expected to contain 400 structured rows |
+| `researched-expansion-01.tsv` through `researched-expansion-14.tsv` | Fourteen structured expansion packs, each expected to contain 400 rows |
 | `manual-existing-category-topoff.tsv` | Reviewed additions that strengthen existing categories without unnecessary category sprawl |
 | `original-answer-blacklist.json` | Protected historical answer keys used to prevent accidental reuse |
 | `pre-expansion-tracking.json` | Historical clue and answer tracking used for freshness and migration checks |
 | `pre-major-expansion-stats.json` | Snapshot of bank size immediately before the major August expansion |
 | `approved-pre-expansion-corrections.json` | Explicit manifest for reviewed corrections that would otherwise look like protected-content reuse |
-| `bank-blueprint.ps1` | Historical PowerShell parser for the generated TSV source |
+| `bank-blueprint.ps1` | Historical PowerShell parser retained as an independent reference path |
 
 The normal pipeline is:
 
 ```text
-curated source inputs
+AI-drafted structured packs
+  -> human research and answer fact-checking
   -> source audit
   -> expanded-bank.tsv
   -> runtime bank build
@@ -31,16 +32,31 @@ curated source inputs
 
 The cross-platform production path uses `tools/build-jeopardy-bank.cjs` and `tools/sync-legacy-runtime.cjs`. Windows verification keeps the older PowerShell tooling as an independent reference path.
 
-The 14 research packs contain the 5,600-clue major expansion described in the project README. Research, structured drafting, and later human review were all part of preparing that content.
+The 14 structured packs contain the 5,600-clue August expansion described in the project README. I used generative AI for the initial question and answer drafting, then researched and fact-checked the answers before integrating the packs. See [`CONTENT_METHODOLOGY.md`](CONTENT_METHODOLOGY.md) for the exact workflow and claim boundaries.
 
 ## Word-game sources
 
-`data/word-lists/` contains upstream word-list inputs used by the Wordle and Hangman tooling. Runtime-ready Wordle data is curated into `src/platform/data/wordle/` rather than loading raw source files directly in the interface.
+`data/word-lists/` contains third-party word-list inputs used by the Wordle and Hangman tooling. Runtime-ready Wordle data is filtered and built into `src/platform/data/wordle/` rather than loading raw source files directly in the interface.
 
-Third-party source and reuse notes are documented in [`../THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md).
+The committed vocabulary files are:
 
-## What the validation checks
+- `google-10000-english-no-swears.txt`, sourced from `first20hours/google-10000-english`;
+- `words_alpha.txt`, sourced from `dwyl/english-words`.
 
-The data pipeline checks engineering properties such as row structure, duplicates, response format, difficulty bands, answer leakage, freshness, and generated-output parity.
+Source and reuse details are documented in [`../THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md).
 
-Those automated checks help catch structural and consistency problems, but trivia accuracy and wording quality still depend on research and human review.
+## What validation checks
+
+The data pipeline checks engineering properties such as:
+
+- required row structure and pack counts;
+- category and value-slot coverage;
+- normalized duplicates and clue fingerprints;
+- difficulty bands;
+- answer leakage;
+- malformed or placeholder text;
+- protected historical content reuse;
+- generated-source freshness;
+- generated/runtime count and hash parity.
+
+Those checks catch structural and consistency failures. They do not determine whether a trivia fact is true, so factual quality still depends on research and human review.

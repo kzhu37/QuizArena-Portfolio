@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
   <title id="title">Evolution from live AI generation to local-first content</title>
-  <desc id="desc">Earlier runtime generation used a remote model API and runtime filtering. The current architecture uses curated and researched sources, source auditing, a build pipeline, validated local banks, and constrained runtime assembly.</desc>
+  <desc id="desc">Earlier runtime generation used a remote model API and runtime filtering. The current architecture uses AI-drafted offline packs, human research and answer fact-checking, source auditing, local bank builds, and constrained runtime assembly.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#0b0718"/>
@@ -36,30 +36,30 @@
     <text x="540.5" y="193" fill="#fff"><tspan x="540.5">Filter</tspan><tspan x="540.5" dy="22">at run</tspan></text>
 
     <g fill="#1a1628" stroke="#4c426b">
-      <rect x="832" y="156" width="112" height="84" rx="15"/>
-      <rect x="963" y="156" width="112" height="84" rx="15"/>
-      <rect x="1094" y="156" width="112" height="84" rx="15"/>
+      <rect x="824" y="156" width="116" height="84" rx="15"/>
+      <rect x="956" y="156" width="128" height="84" rx="15"/>
+      <rect x="1100" y="156" width="112" height="84" rx="15"/>
     </g>
-    <rect x="1225" y="156" width="97" height="84" rx="15" fill="url(#current)" stroke="#a59aff"/>
+    <rect x="1228" y="156" width="102" height="84" rx="15" fill="url(#current)" stroke="#a59aff"/>
 
-    <text x="888" y="185" fill="#fff"><tspan x="888">Curated +</tspan><tspan x="888" dy="22">researched</tspan><tspan x="888" dy="22">sources</tspan></text>
-    <text x="1019" y="193" fill="#fff"><tspan x="1019">Source</tspan><tspan x="1019" dy="22">audit</tspan></text>
-    <text x="1150" y="193" fill="#fff"><tspan x="1150">Build +</tspan><tspan x="1150" dy="22">local banks</tspan></text>
-    <text x="1273.5" y="185" fill="#fff"><tspan x="1273.5">Constrained</tspan><tspan x="1273.5" dy="22">runtime</tspan><tspan x="1273.5" dy="22">assembly</tspan></text>
+    <text x="882" y="185" fill="#fff"><tspan x="882">AI draft</tspan><tspan x="882" dy="22">offline</tspan><tspan x="882" dy="22">packs</tspan></text>
+    <text x="1020" y="174" fill="#fff"><tspan x="1020">Research +</tspan><tspan x="1020" dy="22">fact-check</tspan><tspan x="1020" dy="22">answers</tspan></text>
+    <text x="1156" y="185" fill="#fff"><tspan x="1156">Audit +</tspan><tspan x="1156" dy="22">build local</tspan><tspan x="1156" dy="22">banks</tspan></text>
+    <text x="1279" y="174" fill="#fff"><tspan x="1279">Constrained</tspan><tspan x="1279" dy="22">runtime</tspan><tspan x="1279" dy="22">assembly</tspan></text>
   </g>
 
   <g stroke="#8f85b7" stroke-width="3" fill="none" marker-end="url(#arrow)">
     <path d="M188 198 H205"/>
     <path d="M339 198 H356"/>
     <path d="M490 198 H507"/>
-    <path d="M944 198 H957"/>
-    <path d="M1075 198 H1088"/>
-    <path d="M1206 198 H1219"/>
+    <path d="M940 198 H950"/>
+    <path d="M1084 198 H1094"/>
+    <path d="M1212 198 H1222"/>
   </g>
 
   <path d="M620 222 H780" stroke="#f5d56f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
   <text x="700" y="202" text-anchor="middle" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">MATURED INTO</text>
 
   <text x="323" y="304" text-anchor="middle" fill="#aaa1c4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Fast experimentation, but dependent on remote generation.</text>
-  <text x="1077" y="304" text-anchor="middle" fill="#d7cff0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Auditable content, repeatable builds, predictable local play.</text>
+  <text x="1077" y="304" text-anchor="middle" fill="#d7cff0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Human-reviewed source inputs, repeatable builds, predictable local play.</text>
 </svg>

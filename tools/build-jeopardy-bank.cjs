@@ -42,7 +42,7 @@ function normalizeText(value) {
   return String(value || '')
     .replace(/[\u201C\u201D]/g, '"')
     .replace(/[\u2018\u2019]/g, "'")
-    .replace(/[-- - ]/g, '-')
+    .replace(/[\u2010-\u2015\u2212]/g, '-')
     .replace(/\u2026/g, '...')
     .replace(/\u00A0/g, ' ')
     .replace(/\s+/g, ' ')
