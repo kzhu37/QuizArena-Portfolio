@@ -87,7 +87,7 @@ jobs:
         run: npm run verify
 
   capture-portfolio:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
     needs: verify-windows
     runs-on: windows-latest
     timeout-minutes: 20
