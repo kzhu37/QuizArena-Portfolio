@@ -9,7 +9,10 @@ const failures = [];
 const presentationFiles = new Set([
   'README.md',
   'THIRD_PARTY_NOTICES.md',
-  'data/README.md'
+  'data/README.md',
+  'data/CONTENT_METHODOLOGY.md',
+  'index.html',
+  'legacy-jeopardy.html'
 ]);
 
 function collect(directory, allowedExtensions) {
@@ -28,6 +31,7 @@ function collect(directory, allowedExtensions) {
 }
 
 collect('docs', new Set(['.md', '.svg']));
+collect('src', new Set(['.md', '.svg', '.html', '.js', '.ts', '.tsx', '.css']));
 
 for (const relativePath of [...presentationFiles].sort()) {
   const filePath = path.join(root, relativePath);
@@ -51,4 +55,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Portfolio writing check passed across ${presentationFiles.size} presentation files: no en dashes or em dashes found.`);
+console.log(`Portfolio writing check passed across ${presentationFiles.size} files: no en dashes or em dashes found.`);
