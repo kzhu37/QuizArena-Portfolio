@@ -139,9 +139,9 @@ function Capture-Route {
   throw "$lastFailure Capture failed after $maxAttempts attempts."
 }
 
-Capture-Route -Name "lobby" -HashRoute "#/"
-Capture-Route -Name "wordle" -HashRoute "#/wordle"
+Capture-Route -Name "lobby" -HashRoute "#/?portfolioCapture=1"
+Capture-Route -Name "wordle" -HashRoute "#/wordle?portfolioCapture=1"
 Capture-Route -Name "jeopardy" -HashRoute "#/jeopardy?portfolioCapture=1"
-Capture-Route -Name "hangman" -HashRoute "#/hangman"
+Capture-Route -Name "hangman" -HashRoute "#/hangman?portfolioCapture=1"
 
 Write-Host "Portfolio screenshots captured in $outputDir" -ForegroundColor Green
