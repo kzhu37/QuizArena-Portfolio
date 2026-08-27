@@ -19,7 +19,7 @@ Quizler Arena keeps reviewable source inputs separate from generated runtime dat
 The normal pipeline is:
 
 ```text
-AI-drafted structured packs
+structured source packs
   -> human research and answer fact-checking
   -> source audit
   -> expanded-bank.tsv
@@ -32,7 +32,7 @@ AI-drafted structured packs
 
 The cross-platform production path uses `tools/build-jeopardy-bank.cjs` and `tools/sync-legacy-runtime.cjs`. Windows verification keeps the older PowerShell tooling as an independent reference path.
 
-The 14 structured packs contain the 5,600-clue August expansion described in the project README. I used generative AI for the initial question and answer drafting, then researched and fact-checked the answers before integrating the packs. See [`CONTENT_METHODOLOGY.md`](CONTENT_METHODOLOGY.md) for the exact workflow and claim boundaries.
+The 14 structured packs contain the 5,600-clue August expansion described in the project README. I prepared the material through structured drafting and review, then researched and fact-checked answers, corrected problems, and integrated the packs into the source-of-truth workflow. See [`CONTENT_METHODOLOGY.md`](CONTENT_METHODOLOGY.md) for the complete process and claim boundaries.
 
 ## Word-game sources
 
