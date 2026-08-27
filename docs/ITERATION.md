@@ -43,7 +43,7 @@ The current assembler ranks candidates, searches recursively, and rolls back par
 
 Runtime generation was useful for exploring content quickly. It also made quality, reproducibility, startup, credential safety, duplicate control, and debugging harder.
 
-I kept generative AI in the offline content-creation workflow for the major expansion, then researched and fact-checked the answers before integrating the structured packs. Final gameplay itself uses checked local data rather than generating questions on demand.
+I moved final content preparation into an offline drafting and review workflow, with research and answer fact-checking before the structured packs enter the local source pipeline. Final gameplay itself uses checked local data rather than generating questions on demand.
 
 ### Testing generated games, not only functions
 
