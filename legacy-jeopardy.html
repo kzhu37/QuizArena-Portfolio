@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Quizzler Jeopardy</title>
+<title>Quizler Jeopardy</title>
 <style>
     :root{
       --bg0:#05030d;
@@ -680,11 +680,11 @@
   </style>
 </head>
 <body>
-<div aria-label="Quizzler Jeopardy board mode" class="app" id="app">
+<div aria-label="Quizler Jeopardy board mode" class="app" id="app">
 <div class="top">
 <div class="brand">
 <div>
-<h1 id="brandTitle">Quizzler Jeopardy</h1>
+<h1 id="brandTitle">Quizler Jeopardy</h1>
 <div class="subpill" id="roundPill">Round: <b>-</b></div>
 </div>
 <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
@@ -796,7 +796,7 @@
 <div class="mhead">
 <div>
 <div class="mtitle">Game Complete</div>
-<div class="mvalue" id="gameEndTitle">Quizzler Jeopardy Complete</div>
+<div class="mvalue" id="gameEndTitle">Quizler Jeopardy Complete</div>
 </div>
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
 <button class="btn ghost small" id="closeGameEndBtn">Close</button>
@@ -816,20 +816,20 @@
   (function configureBoardShell() {
     const params = new URLSearchParams(window.location.search);
     const config = window.QuizzlerBoardConfig = Object.assign({
-      displayName: "Quizzler Jeopardy",
+      displayName: "Quizler Jeopardy",
       hubHash: "#/",
       flagshipHash: "#/jeopardy",
       candidateNames: [
-        "Quizzler Jeopardy",
-        "Quizzler Board",
-        "Quizzler Showdown",
-        "Quizzler Clueboard",
-        "The Quizzler Challenge",
-        "Quizzler Grand Board",
+        "Quizler Jeopardy",
+        "Quizler Board",
+        "Quizler Showdown",
+        "Quizler Clueboard",
+        "The Quizler Challenge",
+        "Quizler Grand Board",
         "Mystic Clueboard",
-        "Quizzler Stage",
-        "The Quizzler Board",
-        "Quizzler Spotlight"
+        "Quizler Stage",
+        "The Quizler Board",
+        "Quizler Spotlight"
       ]
     }, window.QuizzlerBoardConfig || {});
 
@@ -841,7 +841,7 @@
     if (hubHash) config.hubHash = hubHash;
     if (flagshipHash) config.flagshipHash = flagshipHash;
 
-    const brandName = String(config.displayName || "Quizzler Jeopardy");
+    const brandName = String(config.displayName || "Quizler Jeopardy");
     document.title = brandName;
 
     const brandTitle = document.getElementById("brandTitle");
@@ -872,4 +872,3 @@
 <script src="./src/jeopardy/app.js"></script>
 </body>
 </html>
-

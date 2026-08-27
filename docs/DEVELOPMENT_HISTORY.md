@@ -21,8 +21,9 @@ When I returned to the idea in April 2026, the goal changed from making one play
 | **April 21** | Cross-screen layout work focused on keeping gameplay-critical UI visible and avoiding off-screen overflow. |
 | **May 9 to 21** | The Jeopardy content bank expanded, with stronger duplicate detection, difficulty rules, clue-quality checks, category controls, and runtime parity requirements. |
 | **August 25** | I added a 5,600-row expansion across 14 structured packs. The initial structured clue and response drafts were AI-assisted; I then researched and fact-checked answers, corrected problems, strengthened normalization and auditing, and rebuilt the local runtime sources. |
-| **August 26** | The three-mode application was deployed as the public browser demo, with portable production builds, stronger claim boundaries, and networking ideas reduced to clearly labeled concepts rather than simulated live features. |
+| **August 26** | The three-mode application was deployed as the public browser demo, with portable production builds, stronger claim boundaries, and networking ideas kept outside the implemented feature set. |
 | **August 27** | The portfolio presentation was reorganized around constrained search, replayability, and state integrity. Stale captures were replaced, production dependency auditing was tightened, strict TypeScript checking was added to CI, visual provenance was documented, and supporting documentation was aligned with the verified implementation. |
+| **August 27, final pass** | The constrained-search tradeoff was documented explicitly, visible multiplayer concept controls were removed, focused board-assembler rollback and usage-history tests were added, and a cross-platform verification command was added for local reproduction of the portable CI path. |
 
 ## How the engineering center changed
 
@@ -50,4 +51,4 @@ I did not collect production-scale adoption data, retention statistics, revenue,
 
 The content pipeline performs extensive structural and consistency checks, but those automated checks do not determine whether every trivia fact is correct. Research and human review remain separate from structural validation.
 
-Hosted multiplayer rooms, matchmaking, rankings, and remote synchronization were not implemented. The current interface only documents multiplayer as a possible future extension.
+Hosted multiplayer rooms, matchmaking, rankings, and remote synchronization were not implemented.

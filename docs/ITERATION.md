@@ -29,7 +29,7 @@ I treated those contributions as feedback and debugging support rather than as o
 | Asset replacement repeatedly broke filenames, fallbacks, or Hangman stage order | Centralize visual source-of-truth rules | Shared asset registry, `AssetLayer`, availability checks, and explicit staged-image mapping |
 | A saved game could be syntactically present but structurally invalid | Treat persistence as untrusted input | State validation, corrupted-save regeneration, and legacy continuity salvage |
 | A game could appear to work while failing on a different generated board | Test complete generated states, not only one happy path | 200 deterministic full game packages per smoke run plus custom-category and save-recovery coverage |
-| A future online mode could be easy to overstate in a polished interface | Separate implemented behavior from product direction | The current UI labels multiplayer only as a concept and does not simulate hosted rooms, rankings, or party links |
+| A future online mode could be easy to overstate | Keep networking outside the implemented feature set | The current product remains local-first and shared-screen; hosted rooms, rankings, matchmaking, and synchronization are documented only as future work |
 
 ## Three decisions that mattered most
 
@@ -37,7 +37,7 @@ I treated those contributions as feedback and debugging support rather than as o
 
 The early mental model was to choose categories and clues randomly. Repeated play showed that a valid board is a joint constraint problem: categories, clue values, answer uniqueness, difficulty progression, topic balance, and previous history all interact.
 
-The current assembler ranks candidates, searches recursively, and rolls back partial selections that block a valid completion.
+The current assembler ranks candidates, searches recursively, and rolls back partial selections that block a valid completion. The search is intentionally bounded rather than exhaustive, which keeps generation predictable while preserving the ability to recover from dead ends.
 
 ### Removing live generation from final gameplay
 
@@ -49,7 +49,7 @@ For the major offline content expansion, I used AI-assisted structured drafting 
 
 Many bugs only appear when independent pieces interact. A category can be individually valid while still making a full board impossible. A save can be valid JSON while containing invalid game state. A generated bank can be correct while a stale runtime copy is still loaded.
 
-That is why the verification path checks complete game packages, state recovery, source-to-runtime parity, and route behavior in addition to focused core logic.
+That is why the verification path checks complete game packages, state recovery, source-to-runtime parity, and route behavior in addition to focused core logic. A separate synthetic board-assembler test now forces a category-level dead end to verify that rollback actually occurs, and another confirms that usage history can change future category selection.
 
 ## What I did not measure
 
