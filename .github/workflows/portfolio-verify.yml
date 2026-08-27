@@ -91,6 +91,8 @@ jobs:
     needs: verify-windows
     runs-on: windows-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
 
     steps:
       - name: Check out repository
@@ -112,6 +114,27 @@ jobs:
         shell: powershell
         run: npm run portfolio:capture
 
+      - name: Optimize portfolio screenshots
+        shell: powershell
+        run: |
+          npm install --no-save --package-lock=false sharp
+          @'
+          const sharp = require("sharp");
+          const path = require("node:path");
+
+          const names = ["lobby", "jeopardy", "wordle", "hangman"];
+
+          Promise.all(names.map(async (name) => {
+            const input = path.join("artifacts", "portfolio-captures", `${name}.png`);
+            const output = path.join("docs", "media", `${name}.webp`);
+            await sharp(input).webp({ quality: 82, effort: 6 }).toFile(output);
+          })).catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          '@ | Set-Content -Path "$env:RUNNER_TEMP\optimize-portfolio.cjs" -Encoding utf8
+          node "$env:RUNNER_TEMP\optimize-portfolio.cjs"
+
       - name: Upload portfolio screenshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -119,3 +142,24 @@ jobs:
           name: portfolio-captures
           path: artifacts/portfolio-captures/*.png
           if-no-files-found: error
+
+      - name: Commit refreshed portfolio media
+        if: github.event_name == 'push'
+        shell: powershell
+        run: |
+          $workflowPath = ".github/workflows/portfolio-verify.yml"
+          $workflow = Get-Content $workflowPath -Raw
+          $workflow = $workflow.Replace("if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'", "if: github.event_name == 'workflow_dispatch'")
+          $workflow = $workflow.Replace("      contents: write", "      contents: read")
+          Set-Content -Path $workflowPath -Value $workflow -Encoding utf8 -NoNewline
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/media/*.webp $workflowPath
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No refreshed media changes to commit."
+            exit 0
+          }
+          git commit -m "Refresh verified portfolio media"
+          git push origin HEAD:main
