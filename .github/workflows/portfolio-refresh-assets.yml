@@ -3,19 +3,22 @@ name: Portfolio refresh assets
 on:
   push:
     branches: [portfolio-admissions-final-pass]
-  workflow_dispatch:
+    paths: [portfolio-finalize-trigger.txt]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  refresh:
-    runs-on: ubuntu-latest
+  finalize-assets:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: windows-latest
     timeout-minutes: 20
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -27,17 +30,12 @@ jobs:
         run: npm ci
 
       - name: Upgrade React Router
-        run: npm install --save-exact --package-lock-only react-router-dom@7.18.2
-
-      - name: Install upgraded dependency graph
-        run: npm ci
+        run: npm install --save-exact react-router-dom@7.18.2
 
       - name: Audit production dependencies
-        id: audit
-        continue-on-error: true
         run: npm audit --omit=dev --audit-level=moderate
 
-      - name: Verify build with upgraded router
+      - name: Verify upgraded application
         run: |
           npm run test:core
           npm run build
@@ -45,48 +43,48 @@ jobs:
           npm run wordgames:validate
           npm run portfolio:lint
 
-      - name: Record audit outcome
-        run: |
-          echo "audit_outcome=${{ steps.audit.outcome }}" > portfolio-refresh-status.txt
-
-      - name: Upload refreshed dependency files
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: portfolio-refresh
-          path: |
-            package.json
-            package-lock.json
-            portfolio-refresh-status.txt
-          if-no-files-found: warn
-
-  capture-current:
-    runs-on: windows-latest
-    timeout-minutes: 20
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v7
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build current application
-        run: npm run build
-
-      - name: Capture current portfolio screenshots
+      - name: Capture current product routes
         shell: powershell
         run: npm run portfolio:capture
 
-      - name: Upload current screenshots
+      - name: Optimize README captures
+        shell: powershell
+        run: |
+          python -m pip install --quiet pillow
+          @'
+          from pathlib import Path
+          from PIL import Image
+
+          source_dir = Path('artifacts/portfolio-captures')
+          target_dir = Path('docs/media')
+          target_dir.mkdir(parents=True, exist_ok=True)
+          for name in ['lobby', 'jeopardy', 'wordle', 'hangman']:
+              source = source_dir / f'{name}.png'
+              target = target_dir / f'{name}.webp'
+              with Image.open(source) as image:
+                  image.save(target, 'WEBP', quality=84, method=6)
+                  print(f'{name}: {source.stat().st_size} -> {target.stat().st_size}')
+          '@ | python -
+
+          Remove-Item docs/media/lobby.png,docs/media/jeopardy.png,docs/media/wordle.png,docs/media/hangman.png -Force
+
+      - name: Commit refreshed dependencies and captures
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json package-lock.json docs/media
+          git diff --cached --stat
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "Refresh portfolio dependencies and product captures"
+            git push origin HEAD:portfolio-admissions-final-pass
+          }
+
+      - name: Upload source captures
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: portfolio-current-captures
+          name: portfolio-final-source-captures
           path: artifacts/portfolio-captures/*.png
           if-no-files-found: error
