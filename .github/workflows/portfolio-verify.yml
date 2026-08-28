@@ -141,10 +141,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-captures
-          path: artifacts/portfolio-captures/*.png
+          path: |
+            artifacts/portfolio-captures/*.png
+            docs/media/*.webp
           if-no-files-found: error
 
       - name: Commit refreshed portfolio media
+        if: github.ref == 'refs/heads/main'
         shell: powershell
         run: |
           git config user.name "github-actions[bot]"
