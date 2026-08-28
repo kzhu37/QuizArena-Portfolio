@@ -75,8 +75,8 @@ export function App() {
         <AppRoutes />
       </div>
       <RouteLoadingOverlay visible={loadingVisible} />
-      <CursorGlow />
-      <ParticleCanvas />
+      {!captureMode ? <CursorGlow /> : null}
+      {!captureMode ? <ParticleCanvas /> : null}
     </>
   );
 }
