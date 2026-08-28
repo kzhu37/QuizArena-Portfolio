@@ -4,8 +4,6 @@ import { quizzlerPoses, screenBackgrounds } from "./assets";
 import { getLegacyJeopardyUrl } from "./links";
 import { FLAGSHIP_BOARD_MODE_NAME } from "./product";
 import { useFullscreenTarget } from "./useFullscreenTarget";
-import { DemoSocialControls } from "./DemoSocialControls";
-import { JEOPARDY_DEMO_MULTIPLAYER } from "./demoMultiplayer";
 
 export function JeopardyModeScreen() {
   const legacyPath = getLegacyJeopardyUrl();
@@ -27,7 +25,6 @@ export function JeopardyModeScreen() {
             <Link className="platform-button" to="/">
               Back To Lobby
             </Link>
-            <DemoSocialControls config={JEOPARDY_DEMO_MULTIPLAYER} />
             <a className="platform-button platform-button-primary" href={legacyPath} target="_blank" rel="noreferrer">
               Open Standalone
             </a>
