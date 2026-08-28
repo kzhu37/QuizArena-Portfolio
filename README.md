@@ -20,20 +20,19 @@
   <a href="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml"><img alt="Verify" src="https://github.com/kzhu37/QuizArena-Portfolio/actions/workflows/portfolio-verify.yml/badge.svg"></a>
 </p>
 
-<table>
-  <tr>
-    <td width="54%">
-      <img src="docs/media/jeopardy.webp" alt="Quizler Jeopardy showing a complete six-category Round One board">
-    </td>
-    <td width="46%">
-      <img src="docs/diagrams/board-assembly.svg" alt="Quizler Jeopardy nested constrained board assembly process with clue and category rollback">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><sub><strong>Playable system:</strong> complete boards for repeated shared-screen play.</sub></td>
-    <td align="center"><sub><strong>Engineering center:</strong> scoring, coupled constraints, recursive search, and rollback replace simple random sampling.</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/media/jeopardy.webp" alt="Quizler Jeopardy showing a complete six-category Round One board" width="100%">
+</p>
+<p align="center">
+  <sub><strong>Playable system:</strong> complete boards for repeated shared-screen play.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/diagrams/board-assembly.svg" alt="Quizler Jeopardy nested constrained board assembly process with clue and category rollback" width="100%">
+</p>
+<p align="center">
+  <sub><strong>Engineering center:</strong> scoring, coupled constraints, recursive search, and rollback replace simple random sampling.</sub>
+</p>
 
 <p align="center">
   <a href="#at-a-glance">Overview</a> ·
