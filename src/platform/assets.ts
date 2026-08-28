@@ -98,16 +98,10 @@ export const assetManifest: AssetManifest = {
   quizzlerPoses
 };
 
+// Keep startup eager loading limited to assets used immediately on the lobby/loading path.
+// Route-specific game art loads when its mode is opened instead of competing with first paint.
 export const criticalAssetPreloadList: AssetDescriptor[] = [
   screenBackgrounds.hub,
   screenBackgrounds.loading,
-  screenBackgrounds.wordle,
-  screenBackgrounds.hangmanRoom,
-  hangmanStageBackgrounds[0],
-  hangmanStageBackgrounds[6],
-  hangmanOutcomeBackgrounds.win,
-  quizzlerPoses.host,
-  quizzlerPoses.portal,
-  quizzlerPoses.wordle,
-  quizzlerPoses.smirk
+  quizzlerPoses.welcome
 ];
