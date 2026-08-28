@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
   <title id="title">Quizler Arena architecture</title>
-  <desc id="desc">React and TypeScript shell routes to Wordle, Hangman, and a preserved JavaScript Jeopardy runtime. Jeopardy connects a local question repository to board assembly, validation, Final selection, replayability history, save validation, and local storage.</desc>
+  <desc id="desc">React and TypeScript shell routes to Wordle, Hangman, and a preserved JavaScript Jeopardy runtime behind an iframe boundary. Jeopardy connects a local question repository to board assembly, validation, Final selection, replayability history, save validation, and local storage.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#0b0718"/>
@@ -46,6 +46,9 @@
     <text x="226" y="374" fill="#ded7f2" font-size="18">Word banks + selection logic</text>
     <text x="1174" y="374" fill="#ded7f2" font-size="18">Puzzle banks + selection logic</text>
     <text x="700" y="349" fill="#ded7f2" font-size="18"><tspan x="700">Mature JavaScript</tspan><tspan x="700" dy="23">Jeopardy runtime</tspan></text>
+
+    <rect x="603" y="286" width="194" height="26" rx="13" fill="#211a37" stroke="#6755a2"/>
+    <text x="700" y="304" fill="#f5d56f" font-size="13.5" letter-spacing="0.8">IFRAME BOUNDARY</text>
 
     <rect x="544" y="452" width="312" height="68" rx="16" fill="#171126" stroke="#514875"/>
     <text x="700" y="494" fill="#fff" font-size="18">Validated local question repository</text>

@@ -15,8 +15,6 @@ import type { HangmanEntry } from "./types";
 import { useFullscreenTarget } from "./useFullscreenTarget";
 import { burstConfetti } from "./ParticleCanvas";
 import { RippleButton } from "./RippleButton";
-import { DemoSocialControls } from "./DemoSocialControls";
-import { HANGMAN_DEMO_MULTIPLAYER } from "./demoMultiplayer";
 
 const HANGMAN_ALPHABET_ROWS = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
 const MAX_WRONG_GUESSES = 7;
@@ -176,7 +174,6 @@ export function HangmanModeScreen() {
             <RippleButton className="platform-button" onClick={() => navigate("/")} type="button">
               Back To Lobby
             </RippleButton>
-            <DemoSocialControls config={HANGMAN_DEMO_MULTIPLAYER} />
             <RippleButton className="platform-button platform-button-primary" onClick={() => resetGame()} type="button">
               New Puzzle
             </RippleButton>
