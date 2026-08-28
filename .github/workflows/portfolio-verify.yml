@@ -90,7 +90,9 @@ jobs:
     if: github.event_name == 'workflow_dispatch'
     needs: verify-windows
     runs-on: windows-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    permissions:
+      contents: write
 
     steps:
       - name: Check out repository
@@ -112,10 +114,49 @@ jobs:
         shell: powershell
         run: npm run portfolio:capture
 
+      - name: Optimize portfolio screenshots
+        shell: powershell
+        run: |
+          npm install --no-save --package-lock=false sharp
+          @'
+          const sharp = require("sharp");
+          const path = require("node:path");
+
+          const names = ["lobby", "jeopardy", "wordle", "hangman"];
+
+          Promise.all(names.map(async (name) => {
+            const input = path.join("artifacts", "portfolio-captures", `${name}.png`);
+            const output = path.join("docs", "media", `${name}.webp`);
+            await sharp(input).webp({ quality: 82, effort: 6 }).toFile(output);
+          })).catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          '@ | Set-Content -Path ".portfolio-optimize.cjs" -Encoding utf8
+          node ".portfolio-optimize.cjs"
+          Remove-Item ".portfolio-optimize.cjs" -Force
+
       - name: Upload portfolio screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-captures
-          path: artifacts/portfolio-captures/*.png
+          path: |
+            artifacts/portfolio-captures/*.png
+            docs/media/*.webp
           if-no-files-found: error
+
+      - name: Commit refreshed portfolio media
+        if: github.ref == 'refs/heads/main'
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/media/*.webp
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No refreshed media changes to commit."
+            exit 0
+          }
+          git commit -m "Refresh verified portfolio media"
+          git push origin HEAD:main

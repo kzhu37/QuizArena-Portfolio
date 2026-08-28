@@ -26,7 +26,7 @@ if (Test-Path $outputDir) {
 }
 New-Item -ItemType Directory -Path $outputDir | Out-Null
 
-$tempRoot = Join-Path $env:TEMP "quizarena-portfolio-capture"
+$tempRoot = Join-Path $env:TEMP "quizler-arena-portfolio-capture"
 if (Test-Path $tempRoot) {
   Remove-Item $tempRoot -Recurse -Force
 }
@@ -79,7 +79,7 @@ function Capture-Route {
   $url = "$previewBase$HashRoute"
   $outputPath = Join-Path $outputDir "$Name.png"
   $lastFailure = $null
-  $maxAttempts = 2
+  $maxAttempts = 4
 
   for ($attempt = 1; $attempt -le $maxAttempts; $attempt += 1) {
     if ($env:GITHUB_ACTIONS -eq "true") {
@@ -99,10 +99,10 @@ function Capture-Route {
     $stdout = Join-Path $tempRoot "$Name-stdout-$attempt.txt"
     $stderr = Join-Path $tempRoot "$Name-stderr-$attempt.txt"
     $args = @(
-      "--headless"
-      "--disable-gpu"
+      "--headless=new"
       "--disable-background-networking"
       "--disable-extensions"
+      "--disable-features=OptimizationGuideModelDownloading,OptimizationHints,OptimizationTargetPrediction,MediaRouter"
       "--hide-scrollbars"
       "--no-first-run"
       "--no-default-browser-check"
@@ -115,6 +115,10 @@ function Capture-Route {
       $url
     )
 
+    if ($attempt -ge 3) {
+      $args = @("--disable-gpu") + $args
+    }
+
     $process = Start-Process `
       -FilePath $browserPath `
       -ArgumentList $args `
@@ -122,8 +126,9 @@ function Capture-Route {
       -RedirectStandardOutput $stdout `
       -RedirectStandardError $stderr
 
-    $finished = $process.WaitForExit(15000)
+    $finished = $process.WaitForExit(25000)
     if (-not $finished) {
+      $lastFailure = "Edge headless did not exit within the capture window while capturing $HashRoute."
       Stop-BrowserTree -Process $process
     }
     elseif ($process.ExitCode -ne 0) {
@@ -154,7 +159,7 @@ function Capture-Route {
 
     if ($attempt -lt $maxAttempts) {
       Write-Host "Capture attempt $attempt failed for $Name. Retrying with a fresh browser profile..." -ForegroundColor Yellow
-      Start-Sleep -Seconds 1
+      Start-Sleep -Seconds 2
     }
   }
 
