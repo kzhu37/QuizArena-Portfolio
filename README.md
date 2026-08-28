@@ -78,6 +78,8 @@ A standard round must satisfy:
 
 [`boardAssembler.js`](src/jeopardy/boardAssembler.js) uses two nested searches. Each category candidate first needs a legal five-value clue path. Clue IDs, normalized answers, and fingerprints are reserved as the search advances, then unwound if a later value becomes impossible. Once a category is committed, the assembler recursively searches for the next one. If a later category blocks completion, the earlier category and its reserved clues are rolled back.
 
+A concrete failure case is simple: an early category can reserve an answer that a later category needs as its only valid option. The assembler must release the earlier category and its clues, then continue down a different branch.
+
 The search is bounded rather than exhaustive: each category step considers at most 30 ranked candidates, with up to 36 round attempts and 48 complete-game attempts. A synthetic test forces a downstream answer conflict and verifies category rollback; another confirms that prior usage history changes future selection.
 
 **Freshness became a constrained search problem, not a random-sampling problem.**
