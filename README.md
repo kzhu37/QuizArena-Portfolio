@@ -20,12 +20,12 @@
       <img src="docs/media/jeopardy.webp" alt="Quizler Jeopardy showing a complete six-category Round One board">
     </td>
     <td width="46%">
-      <img src="docs/diagrams/board-assembly.svg" alt="Quizler Jeopardy constrained board assembly process with recursive search and rollback">
+      <img src="docs/diagrams/board-assembly.svg" alt="Quizler Jeopardy nested constrained board assembly process with clue and category rollback">
     </td>
   </tr>
   <tr>
     <td align="center"><sub><strong>Playable system:</strong> the flagship Jeopardy mode builds complete boards for repeated shared-screen play.</sub></td>
-    <td align="center"><sub><strong>Engineering center:</strong> candidate scoring, coupled constraints, recursive search, and rollback replace simple random sampling.</sub></td>
+    <td align="center"><sub><strong>Engineering center:</strong> candidate scoring, coupled constraints, nested recursive search, and rollback replace simple random sampling.</sub></td>
   </tr>
 </table>
 
@@ -48,13 +48,15 @@
 | **Product** | Three playable local-first modes: Quizler Jeopardy, Wordle, and Hangman |
 | **Origin** | Began as a Christmas family and friends Jeopardy-style prototype, then became a larger platform project in April 2026 |
 | **Real use** | Repeated family and social play plus multiple full-class sessions exposed replayability, pacing, projector readability, and screen-fit problems |
-| **Technical centerpiece** | Recursive Jeopardy board assembly with candidate scoring, coupled constraints, backtracking, and rollback |
+| **Technical centerpiece** | Recursive Jeopardy board assembly with candidate scoring, coupled constraints, clue-level backtracking, and category-level rollback |
 | **Current Jeopardy bank** | 8,319 regular clues plus 262 Final Jeopardy clues in the validated local runtime |
 | **Replayability** | History-aware clue, answer, category, topic-family, and full-board novelty tracking |
-| **Verification** | 200 deterministic complete Jeopardy game packages per smoke run, plus focused tests, source audits, type checking, builds, route checks, persistence, and recovery coverage |
+| **Verification** | 200 deterministic complete Jeopardy game packages per smoke run, plus focused rollback tests, source audits, type checking, builds, route checks, persistence, and recovery coverage |
 | **My role** | Sole designer and developer from the original social prototype through the current three-mode platform |
 
-**Core implementation:** [`boardAssembler.js`](src/jeopardy/boardAssembler.js) · [`gameStateAdapter.js`](src/jeopardy/gameStateAdapter.js) · [`usageTracker.js`](src/jeopardy/usageTracker.js) · [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js) · [`jeopardy-runtime-smoke.html`](tools/jeopardy-runtime-smoke.html)
+**Core implementation:** [`boardAssembler.js`](src/jeopardy/boardAssembler.js) · [`gameStateAdapter.js`](src/jeopardy/gameStateAdapter.js) · [`usageTracker.js`](src/jeopardy/usageTracker.js) · [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js)
+
+**Executable proof:** [`forced rollback and usage-history tests`](tools/test-board-assembler.cjs) · [`200-game deterministic smoke harness`](tools/jeopardy-runtime-smoke.html)
 
 ## Engineering center: constrained board generation
 
@@ -62,43 +64,18 @@ Repeated play exposed a problem that random selection could not solve. A valid b
 
 A standard round must satisfy constraints including:
 
-- six distinct categories;
-- five playable values per category;
-- strictly increasing clue difficulty within each category;
+- six distinct categories with bounded topic-family concentration;
+- five playable values per category with strictly increasing clue difficulty;
 - no repeated clue IDs, normalized answers, or clue fingerprints;
-- bounded topic-family concentration;
 - reduced repetition across recent category titles and topic families;
 - fresh board, title-set, and family-pattern combinations;
 - a Final Jeopardy path that does not duplicate board answers or fingerprints.
 
-[`boardAssembler.js`](src/jeopardy/boardAssembler.js) scores clue candidates for freshness and target difficulty, ranks categories using usage history and topic-family information, then searches recursively. If an early choice prevents a later category or clue value from completing legally, the assembler rolls that choice back and tries another path.
+[`boardAssembler.js`](src/jeopardy/boardAssembler.js) uses two nested searches. For each category candidate, it first searches for a legal five-value clue path while sharing reserved clue IDs, normalized answers, and fingerprints with the rest of the board. If a later clue value cannot be completed, that clue choice is unwound. Once a category has a valid path, the assembler commits the category and recursively searches for the next one. If a later category makes the six-category board impossible, the entire earlier category and its reserved clues are rolled back.
 
-```text
-rank candidates
-      |
-      v
-choose a promising category
-      |
-      v
-reserve clues, answers, fingerprints, and topic capacity
-      |
-      v
-later choice cannot complete all required values
-      |
-      v
-rollback the earlier choice
-      |
-      v
-try the next candidate and continue searching
-```
+The search is deliberately bounded rather than exhaustive. Category candidates are ranked using freshness, recency, topic-family balance, and difficulty heuristics. Each recursive category step considers at most 30 ranked candidates, with up to 36 round-assembly attempts and 48 complete-game-package attempts. These limits keep generation predictable without claiming that the resulting board is mathematically optimal.
 
-The same backtracking idea operates inside individual categories. A clue can look valid locally while blocking a later value from finding a unique, harder clue, so the assembler can unwind that clue choice and continue searching.
-
-### Search strategy and bounds
-
-The assembler is deliberately a **bounded heuristic search**, not an exhaustive optimizer. Category candidates are ranked using freshness, recency, topic-family balance, and difficulty heuristics; each recursive step considers at most 30 ranked category candidates, with up to 36 attempts to assemble a round and 48 attempts to assemble a complete game package.
-
-Those limits keep generation predictable while still allowing rollback when a promising local choice creates a dead end. The scoring weights are hand-designed heuristics rather than a learned model, so the system aims for valid, varied boards without claiming a mathematically optimal board.
+A synthetic test deliberately creates an attractive category that causes downstream answer conflicts, then verifies that the assembler rejects that dead end and recovers through category rollback. A second test confirms that prior usage history changes future selection.
 
 **The central lesson was that freshness is a constrained search problem, not random sampling.**
 
@@ -109,7 +86,7 @@ Quizler Jeopardy carries memory across play instead of resetting to pure randomn
 Persistence is treated as untrusted input. [`gameStateAdapter.js`](src/jeopardy/gameStateAdapter.js) validates runtime version, player structure, both standard rounds, board integrity, and Final Jeopardy data before accepting saved state. If current saved state is malformed, the application removes it, preserves limited continuity such as player names where possible, and regenerates a fresh valid game. Older save formats can also be salvaged into the current runtime.
 
 <p align="center">
-  <img src="docs/diagrams/architecture.svg" alt="Quizler Arena architecture showing the React shell, three game modes, the preserved Jeopardy runtime, replayability history, state validation, and local persistence" width="100%">
+  <img src="docs/diagrams/architecture.svg" alt="Quizler Arena architecture showing the React shell, iframe boundary, three game modes, the preserved Jeopardy runtime, replayability history, state validation, and local persistence" width="100%">
 </p>
 
 The result is a local-first system designed to remain varied and recoverable across repeated sessions, not only to produce one successful demo run.
@@ -124,27 +101,23 @@ The expansion used **AI-assisted drafting under a fixed structured format**. I d
   <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy content build and validation pipeline" width="100%">
 </p>
 
-The source audit checks pack and row counts, category/value coverage, difficulty bands, normalized duplicates, clue fingerprints, answer leakage, malformed text, protected pre-expansion content, generated-source freshness, and runtime parity. The latest verified source audit reports all 5,600 expansion rows with 5,600 unique normalized answers and 5,600 unique clues, with no structural problems reported.
+The source audit checks pack and row counts, category and value coverage, difficulty bands, normalized duplicates, clue fingerprints, answer leakage, malformed text, protected pre-expansion content, generated-source freshness, and runtime parity. The latest verified source audit reports 5,600 unique normalized answers and 5,600 unique clues across the expansion, with no structural problems reported.
 
-Automated checks establish engineering properties, not factual truth. Trivia accuracy, ambiguity, and wording still require research and human review. The methodology and claim boundaries are documented in [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md).
+Automated checks establish engineering properties, not factual truth. Trivia accuracy, ambiguity, and wording still require research and human review. See [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md) for the full methodology and claim boundaries.
 
 ## From family game to repeatable system
 
-Quizler Arena began during the Christmas period as a small Jeopardy-style game I made for family and friends, partly inspired by how much my dad enjoys Jeopardy. The first goal was simple: make one game night fun.
-
-When I returned to the idea as a larger computer science project in April 2026, repeated use exposed problems that a one-time demo would miss. The project later moved into multiple full-class sessions, where pacing, projector readability, screen fit, and shared-screen interaction became practical constraints.
+Quizler Arena began during the Christmas period as a small Jeopardy-style game I made for family and friends, partly inspired by how much my dad enjoys Jeopardy. When I returned to the idea as a larger computer science project in April 2026, repeated use exposed problems that a one-time demo would miss. Multiple full-class sessions later made pacing, projector readability, screen fit, and shared-screen interaction practical engineering constraints.
 
 | Observation | Engineering response |
 | --- | --- |
 | Repeated sessions exposed duplicate answers, repetitive categories, and weak clue combinations | Added usage history, novelty scoring, topic-family balancing, and constrained assembly |
-| Full-class sessions made projector readability, pacing, and screen fit more demanding | Improved fullscreen behavior, no-scroll layouts, control sizing, and cross-screen stability |
-| Weaker hardware made visual complexity a reliability issue | Refined visual layers and fallbacks instead of assuming one ideal machine |
+| Classroom displays and weaker hardware exposed readability, overflow, and visual-reliability problems | Improved fullscreen behavior, no-scroll layouts, control sizing, cross-screen stability, asset mapping, and fallbacks |
 | Runtime-generated questions could be inconsistent or service-dependent | Moved final gameplay to checked local data with reproducible validation |
-| Asset replacement could break filenames, fallbacks, or Hangman stage order | Centralized visual asset mapping and explicit stage behavior |
 | A saved object could exist while violating game invariants | Added state validation, recovery, and legacy continuity salvage |
-| One successful generated board did not prove future boards would work | Added deterministic complete-game smoke testing |
+| One successful generated board did not prove future boards would work | Added deterministic complete-game smoke testing and focused rollback tests |
 
-The detailed observation-to-implementation record is in [`docs/ITERATION.md`](docs/ITERATION.md), and the dated development sequence is in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+The full observation record is in [`docs/ITERATION.md`](docs/ITERATION.md), and the dated development sequence is in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
 
 ## Three playable modes
 
@@ -181,9 +154,9 @@ Quizler Arena uses a hybrid architecture. Wordle and Hangman are native React an
 
 That choice preserved deeper Jeopardy gameplay, board assembly, replayability, and persistence logic while adding unified routing, loading, fullscreen behavior, and platform presentation. The cost is a less direct boundary for shared styling, state, and test orchestration than a full typed migration would provide.
 
-An early April version also experimented with runtime question generation through a hosted service. It accelerated experimentation but introduced network dependence, inconsistent output, credential handling, harder inspection, and weaker reproducibility. The final runtime uses a checked local source instead, and remote generation is explicitly disabled in [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js).
+An early April version also experimented with runtime question generation through a hosted service. It accelerated experimentation but introduced network dependence, inconsistent output, credential handling, harder inspection, and weaker reproducibility. The final runtime uses checked local sources instead, and remote generation is explicitly disabled in [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js). The progression is summarized in the [`architecture evolution diagram`](docs/diagrams/local-first-evolution.svg).
 
-Hosted multiplayer rooms, matchmaking, rankings, and remote synchronization remain outside the implemented scope. They are not simulated in the current product.
+Hosted multiplayer rooms, matchmaking, rankings, and remote synchronization remain outside the implemented scope.
 
 ## Verification and CI
 
@@ -193,18 +166,10 @@ Focused Node tests cover normalization and difficulty-path logic plus two center
 
 The [GitHub Actions workflow](.github/workflows/portfolio-verify.yml) checks two complementary paths:
 
-1. **Portable Linux verification:** production dependency audit at moderate severity, public-writing punctuation lint, strict TypeScript checking, focused tests, curated Jeopardy source audit, Wordle/Hangman validation, production build, and generated/runtime bank parity.
-2. **Full Windows verification:** public-writing lint, strict TypeScript checking, and deeper platform verification, including the 200-game Jeopardy smoke harness, production and direct-file builds, and route checks for the lobby and all three modes.
+1. **Portable Linux verification:** production dependency audit, public-writing punctuation lint, strict TypeScript checking, focused tests, curated Jeopardy source audit, Wordle and Hangman validation, production build, and generated/runtime bank parity.
+2. **Full Windows verification:** public-writing lint, strict TypeScript checking, 200-game Jeopardy smoke testing, production and direct-file builds, and route checks for the lobby and all three modes.
 
 A separate manual capture job reproduces the four README screenshots from a production build as workflow artifacts. The committed README images are optimized WebP copies of production captures rather than hand-built mockups.
-
-Useful commands:
-
-```bash
-npm test
-npm run verify:portable
-npm run verify
-```
 
 ### Current limitations
 
@@ -214,12 +179,7 @@ npm run verify
 
 ## Run locally
 
-### Requirements
-
-- Node.js 20 or newer
-- npm
-
-### Development
+Requires Node.js 20 or newer and npm.
 
 ```bash
 npm ci
@@ -228,14 +188,14 @@ npm run dev
 
 `npm run dev` rebuilds the Jeopardy bank, synchronizes the preserved Jeopardy runtime into the Vite public directory, and starts the development server.
 
-### Verification
+For focused cross-platform verification:
 
 ```bash
 npm test
 npm run verify:portable
 ```
 
-`npm test` runs the focused cross-platform logic tests. `npm run verify:portable` reproduces the portable CI path locally. The deeper Windows verification and reproducible screenshot capture require Windows PowerShell and Microsoft Edge.
+The deeper Windows verification and reproducible screenshot capture require Windows PowerShell and Microsoft Edge:
 
 ```bash
 npm run verify

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="350" viewBox="0 0 1400 350" role="img" aria-labelledby="title desc">
-  <title id="title">Quizler Jeopardy board assembly flow</title>
-  <desc id="desc">Validated repository, category ranking, six category search, clue backtracking, constraint validation, and final playable board.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Quizler Jeopardy nested board assembly search</title>
+  <desc id="desc">Category candidates are ranked, each candidate must first solve a five-value clue path, shared uniqueness state is reserved, category search recurses, and either clue choices or entire categories can roll back when downstream constraints fail.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#0b0718"/>
@@ -20,41 +20,66 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#f5d56f"/>
     </marker>
   </defs>
-  <rect width="1400" height="350" rx="28" fill="url(#bg)"/>
-  <text x="54" y="50" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="2">BOARD ASSEMBLY</text>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" text-anchor="middle" filter="url(#shadow)">
-    <rect x="48" y="92" width="190" height="92" rx="18" fill="#171126" stroke="#463b70"/>
-    <text x="143" y="126" fill="#ffffff" font-weight="700"><tspan x="143">Validated local</tspan><tspan x="143" dy="25">repository</tspan></text>
+  <rect width="1400" height="500" rx="28" fill="url(#bg)"/>
+  <text x="54" y="48" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="2">NESTED BOARD ASSEMBLY</text>
 
-    <rect x="278" y="92" width="190" height="92" rx="18" fill="#171126" stroke="#463b70"/>
-    <text x="373" y="126" fill="#ffffff" font-weight="700"><tspan x="373">Rank category</tspan><tspan x="373" dy="25">candidates</tspan></text>
+  <text x="54" y="86" fill="#a9a0c9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">CATEGORY SEARCH</text>
 
-    <rect x="508" y="92" width="205" height="92" rx="18" fill="#171126" stroke="#463b70"/>
-    <text x="610.5" y="126" fill="#ffffff" font-weight="700"><tspan x="610.5">Search for six</tspan><tspan x="610.5" dy="25">categories</tspan></text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" text-anchor="middle" filter="url(#shadow)">
+    <rect x="42" y="108" width="180" height="82" rx="18" fill="#171126" stroke="#463b70"/>
+    <text x="132" y="140" fill="#ffffff" font-weight="700"><tspan x="132">Rank category</tspan><tspan x="132" dy="23">candidates</tspan></text>
 
-    <rect x="753" y="92" width="205" height="92" rx="18" fill="#171126" stroke="#463b70"/>
-    <text x="855.5" y="126" fill="#ffffff" font-weight="700"><tspan x="855.5">Backtrack through</tspan><tspan x="855.5" dy="25">clue values</tspan></text>
+    <rect x="262" y="108" width="180" height="82" rx="18" fill="#171126" stroke="#463b70"/>
+    <text x="352" y="140" fill="#ffffff" font-weight="700"><tspan x="352">Choose one</tspan><tspan x="352" dy="23">candidate</tspan></text>
 
-    <rect x="998" y="92" width="190" height="92" rx="18" fill="#171126" stroke="#463b70"/>
-    <text x="1093" y="126" fill="#ffffff" font-weight="700"><tspan x="1093">Validate all</tspan><tspan x="1093" dy="25">constraints</tspan></text>
+    <rect x="482" y="108" width="210" height="82" rx="18" fill="#171126" stroke="#463b70"/>
+    <text x="587" y="140" fill="#ffffff" font-weight="700"><tspan x="587">Solve its five-value</tspan><tspan x="587" dy="23">clue path</tspan></text>
 
-    <rect x="1228" y="92" width="132" height="92" rx="18" fill="url(#accent)" stroke="#a59aff"/>
-    <text x="1294" y="126" fill="#ffffff" font-weight="800"><tspan x="1294">Playable</tspan><tspan x="1294" dy="25">round</tspan></text>
+    <rect x="732" y="108" width="210" height="82" rx="18" fill="#171126" stroke="#463b70"/>
+    <text x="837" y="140" fill="#ffffff" font-weight="700"><tspan x="837">Reserve shared</tspan><tspan x="837" dy="23">uniqueness state</tspan></text>
+
+    <rect x="982" y="108" width="190" height="82" rx="18" fill="#171126" stroke="#463b70"/>
+    <text x="1077" y="140" fill="#ffffff" font-weight="700"><tspan x="1077">Recurse to next</tspan><tspan x="1077" dy="23">category</tspan></text>
+
+    <rect x="1212" y="108" width="148" height="82" rx="18" fill="url(#accent)" stroke="#a59aff"/>
+    <text x="1286" y="140" fill="#ffffff" font-weight="800"><tspan x="1286">Playable</tspan><tspan x="1286" dy="23">round</tspan></text>
   </g>
 
   <g stroke="#8f85b7" stroke-width="3" fill="none" marker-end="url(#arrow)">
-    <path d="M238 138 H272"/>
-    <path d="M468 138 H502"/>
-    <path d="M713 138 H747"/>
-    <path d="M958 138 H992"/>
-    <path d="M1188 138 H1222"/>
+    <path d="M222 149 H256"/>
+    <path d="M442 149 H476"/>
+    <path d="M692 149 H726"/>
+    <path d="M942 149 H976"/>
+    <path d="M1172 149 H1206"/>
   </g>
 
-  <path d="M1093 184 V220 C1093 244 1069 256 1045 256 H658 C634 256 610 244 610 220 V184" fill="none" stroke="#f5d56f" stroke-width="2.5" stroke-dasharray="7 7" marker-end="url(#rollbackArrow)"/>
+  <path d="M1077 190 V225 C1077 247 1057 260 1035 260 H380 C358 260 352 247 352 225 V190" fill="none" stroke="#f5d56f" stroke-width="2.5" stroke-dasharray="7 7" marker-end="url(#rollbackArrow)"/>
+  <text x="714" y="248" text-anchor="middle" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">If later categories cannot complete the board, rollback the committed category and its reserved clues.</text>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
-    <rect x="606" y="278" width="491" height="42" rx="21" fill="#171126" stroke="#3f345e"/>
-    <text x="851.5" y="304" fill="#e8e0f7" font-size="16.5">If a constraint fails, rollback and continue the search.</text>
+  <rect x="42" y="292" width="1318" height="160" rx="22" fill="#12101f" stroke="#3f345e"/>
+  <text x="72" y="325" fill="#a9a0c9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">CLUE PATH SEARCH INSIDE EACH CATEGORY</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" text-anchor="middle">
+    <rect x="104" y="348" width="190" height="66" rx="16" fill="#171126" stroke="#463b70"/>
+    <text x="199" y="375" fill="#ffffff" font-weight="700"><tspan x="199">Open next</tspan><tspan x="199" dy="21">value slot</tspan></text>
+
+    <rect x="394" y="348" width="210" height="66" rx="16" fill="#171126" stroke="#463b70"/>
+    <text x="499" y="375" fill="#ffffff" font-weight="700"><tspan x="499">Rank valid clue</tspan><tspan x="499" dy="21">candidates</tspan></text>
+
+    <rect x="704" y="348" width="210" height="66" rx="16" fill="#171126" stroke="#463b70"/>
+    <text x="809" y="375" fill="#ffffff" font-weight="700"><tspan x="809">Reserve clue, answer,</tspan><tspan x="809" dy="21">and fingerprint</tspan></text>
+
+    <rect x="1014" y="348" width="242" height="66" rx="16" fill="#211a37" stroke="#6755a2"/>
+    <text x="1135" y="375" fill="#ffffff" font-weight="700"><tspan x="1135">Advance only with</tspan><tspan x="1135" dy="21">higher difficulty</tspan></text>
   </g>
+
+  <g stroke="#8f85b7" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M294 381 H388"/>
+    <path d="M604 381 H698"/>
+    <path d="M914 381 H1008"/>
+  </g>
+
+  <path d="M1135 414 V432 H499 V414" fill="none" stroke="#f5d56f" stroke-width="2.3" stroke-dasharray="7 7" marker-end="url(#rollbackArrow)"/>
+  <text x="817" y="446" text-anchor="middle" fill="#f5d56f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14.5">If a later value has no legal clue, unwind the earlier clue choice and continue searching.</text>
 </svg>

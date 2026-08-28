@@ -9,8 +9,6 @@ import type { WordleStats } from "./types";
 import { useFullscreenTarget } from "./useFullscreenTarget";
 import { burstConfetti } from "./ParticleCanvas";
 import { RippleButton } from "./RippleButton";
-import { DemoSocialControls } from "./DemoSocialControls";
-import { WORDLE_DEMO_MULTIPLAYER } from "./demoMultiplayer";
 import { WORDLE_ALLOWED_GUESSES, pickWordleAnswer } from "./wordleData";
 
 type LetterState = "empty" | "pending" | "correct" | "present" | "absent";
@@ -299,7 +297,6 @@ export function WordleModeScreen() {
             <RippleButton className="platform-button" onClick={() => navigate("/")} type="button">
               Back To Lobby
             </RippleButton>
-            <DemoSocialControls config={WORDLE_DEMO_MULTIPLAYER} />
             <RippleButton className="platform-button platform-button-primary" onClick={() => resetGame()} type="button">
               New Puzzle
             </RippleButton>
