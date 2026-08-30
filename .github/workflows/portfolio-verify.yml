@@ -1,4 +1,4 @@
-name: Portfolio verify
+name: Verify Quizler Arena
 
 # Verifies both the portable production build and the deeper Windows-only tooling.
 on:
@@ -35,7 +35,7 @@ jobs:
       - name: Audit production dependencies
         run: npm audit --omit=dev --audit-level=moderate
 
-      - name: Check portfolio writing
+      - name: Check public documentation
         run: npm run portfolio:lint
 
       - name: Type-check platform
@@ -73,7 +73,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check portfolio writing
+      - name: Check public documentation
         run: npm run portfolio:lint
 
       - name: Type-check platform
@@ -87,6 +87,7 @@ jobs:
         run: npm run verify
 
   capture-portfolio:
+    name: Capture README media
     if: github.event_name == 'workflow_dispatch'
     needs: verify-windows
     runs-on: windows-latest
@@ -110,11 +111,11 @@ jobs:
       - name: Build application for capture
         run: npm run build
 
-      - name: Capture portfolio screenshots
+      - name: Capture README screenshots
         shell: powershell
         run: npm run portfolio:capture
 
-      - name: Optimize portfolio screenshots
+      - name: Optimize README screenshots
         shell: powershell
         run: |
           npm install --no-save --package-lock=false sharp
@@ -136,7 +137,7 @@ jobs:
           node ".portfolio-optimize.cjs"
           Remove-Item ".portfolio-optimize.cjs" -Force
 
-      - name: Upload portfolio screenshots
+      - name: Upload README screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -146,7 +147,7 @@ jobs:
             docs/media/*.webp
           if-no-files-found: error
 
-      - name: Commit refreshed portfolio media
+      - name: Commit refreshed README media
         if: github.ref == 'refs/heads/main'
         shell: powershell
         run: |
@@ -158,5 +159,5 @@ jobs:
             Write-Host "No refreshed media changes to commit."
             exit 0
           }
-          git commit -m "Refresh verified portfolio media"
+          git commit -m "Refresh verified README media"
           git push origin HEAD:main
