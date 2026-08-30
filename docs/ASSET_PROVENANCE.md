@@ -16,7 +16,7 @@ The visual asset workflow also included **AI-assisted image generation during de
 
 Because exact generation history varies across files, the folders above are treated as application media rather than as a standalone reusable art pack.
 
-## Portfolio documentation visuals
+## Documentation visuals
 
 | Path | Use | Provenance |
 | --- | --- | --- |
