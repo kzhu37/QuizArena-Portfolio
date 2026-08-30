@@ -61,7 +61,7 @@
 
 **Core implementation:** [`boardAssembler.js`](src/jeopardy/boardAssembler.js) · [`gameStateAdapter.js`](src/jeopardy/gameStateAdapter.js) · [`usageTracker.js`](src/jeopardy/usageTracker.js) · [`questionSourceAdapter.js`](src/jeopardy/questionSourceAdapter.js)
 
-**Executable proof:** [`forced rollback and usage-history tests`](tools/test-board-assembler.cjs) · [`200-game deterministic smoke harness`](tools/jeopardy-runtime-smoke.html)
+**Verification entry points:** [`forced rollback and usage-history tests`](tools/test-board-assembler.cjs) · [`200-game deterministic smoke harness`](tools/jeopardy-runtime-smoke.html)
 
 ## Engineering center: constrained board generation
 
@@ -104,7 +104,7 @@ Quizler Arena began as a Christmas Jeopardy-style game for family and friends, p
 | On weaker graphics hardware, decorative complexity could become a reliability problem | Reduced visual load, refined layering and fallbacks, and centralized asset mapping |
 | Runtime-generated questions could vary in quality and depend on a hosted service | Checked local data with source auditing, reproducible bank generation, and runtime parity checks |
 | Saved JSON could still violate game invariants | State validation, corrupted-save regeneration, and legacy continuity salvage |
-| One valid board did not prove future combinations would work | 200 deterministic complete-game packages per smoke run plus focused rollback tests |
+| One valid board did not guarantee future combinations would work | 200 deterministic complete-game packages per smoke run plus focused rollback tests |
 
 Full-class shared-screen sessions made pacing, projector readability, and screen fit practical constraints, while social play exposed repetition over time. **Michael Tetelbaum** encouraged the move from one Jeopardy game toward a broader Arena. **Vladimir Duckardt** raised performance and visual concerns, including behavior on weaker hardware.
 
@@ -171,7 +171,7 @@ I defined the source format and constraints, used AI-assisted structured draftin
   <img src="docs/diagrams/content-pipeline.svg" alt="Quizler Jeopardy content build and validation pipeline" width="100%">
 </p>
 
-Automation checks structure, coverage, difficulty bands, normalized duplicates, clue fingerprints, answer leakage, source freshness, and generated/runtime parity. It does not prove factual truth, so research and human review remain separate. See [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md).
+Automation checks structure, coverage, difficulty bands, normalized duplicates, clue fingerprints, answer leakage, source freshness, and generated/runtime parity. It does not establish factual truth, so research and human review remain separate. See [`data/CONTENT_METHODOLOGY.md`](data/CONTENT_METHODOLOGY.md).
 
 ## Run locally
 
